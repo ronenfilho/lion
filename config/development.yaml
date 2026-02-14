@@ -1,0 +1,20 @@
+# Configuração de Desenvolvimento
+
+# Herda de default.yaml e sobrescreve apenas o necessário
+
+# LLM mais barato para desenvolvimento
+generation:
+  model: "gemini-2.0-flash-exp"
+  max_tokens: 500
+
+# Cache desabilitado para testar sempre
+cache:
+  enabled: false
+
+# Logs mais verbosos
+monitoring:
+  log_level: "DEBUG"
+  
+# Menos execuções para economizar
+evaluation:
+  runs_per_query: 1

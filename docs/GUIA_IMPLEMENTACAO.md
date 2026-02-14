@@ -683,56 +683,122 @@ class RAGPipeline:
 
 ---
 
-## ✅ Checklist de Implementação Completo
+## ✅ Checklist de Implementação - Status Atualizado
+
+### 📊 Progresso Geral: 41% Completo (14/34 tarefas)
 
 ```markdown
-## Setup
-- [ ] Estrutura de diretórios criada
-- [ ] requirements.txt instalado
-- [ ] .env configurado
-- [ ] Git inicializado
+## ✅ Fase 1: Setup Inicial (100% - 6/6)
+- [x] Estrutura de diretórios criada (30+ pastas)
+- [x] requirements.txt criado (40+ dependências)
+- [x] .env.example configurado
+- [x] .gitignore criado
+- [x] Git inicializado
+- [x] Arquitetura e documentação completa (8 docs, ~3800 linhas)
 
-## Ingestão
-- [ ] PDF extractor
-- [ ] Text cleaner
-- [ ] Structural chunker
-- [ ] Q&A chunker
-- [ ] Embedding pipeline
-- [ ] ChromaDB setup
+## ✅ Fase 2: Configuração do Sistema (100% - 6/6)
+- [x] Sistema de configuração YAML implementado
+- [x] Validação Pydantic (config.py com 8 classes)
+- [x] config/default.yaml (configuração base)
+- [x] config/development.yaml (ambiente dev)
+- [x] config/production.yaml (ambiente prod)
+- [x] Modelos trocados para Google (Gemini 2.0 Flash + text-embedding-004)
 
-## Retrieval
-- [ ] Vector store abstraction
-- [ ] Dense retrieval
-- [ ] BM25 implementation
-- [ ] Hybrid retrieval
-- [ ] Re-ranker
+## ✅ Fase 3: Ambiente Python (100% - 2/2) ✨ NOVO
+- [x] Ambiente virtual criado (venv)
+- [x] Dependências instaladas compatíveis com Python 3.12
+- [x] Integração .env → YAML implementada (prioridade: .env > {env}.yaml > default.yaml)
+- [x] Sistema de configuração testado e validado ✓
 
-## Generation
-- [ ] LLM client
-- [ ] Prompt templates
-- [ ] Output parser
+## 🔄 Fase 4: Ingestão de Dados (0% - 0/6)
+- [ ] src/ingestion/extractors/pdf_extractor.py
+- [ ] src/ingestion/extractors/text_cleaner.py
+- [ ] src/ingestion/chunking/structural_chunker.py
+- [ ] src/ingestion/chunking/qa_chunker.py
+- [ ] src/ingestion/embeddings_pipeline.py
+- [ ] Configurar ChromaDB local
 
-## Guardrails
-- [ ] Input validator
-- [ ] Output validator
-- [ ] PII detector
+## 🔄 Fase 5: Sistema de Retrieval (0% - 0/5)
+- [ ] src/retrieval/vector_store.py (abstração)
+- [ ] src/retrieval/dense_retriever.py
+- [ ] src/retrieval/bm25_retriever.py
+- [ ] src/retrieval/hybrid_retriever.py (70% dense + 30% BM25)
+- [ ] src/retrieval/reranker.py (cross-encoder)
 
-## Evaluation
-- [ ] BERTScore
-- [ ] RAGAS metrics
-- [ ] Experiment runner
+## 🔄 Fase 6: Geração de Respostas (0% - 0/3)
+- [ ] src/generation/llm_client.py (Google Gemini)
+- [ ] src/generation/prompts.py (templates especializados)
+- [ ] src/generation/output_parser.py (estruturação)
 
-## Pipeline
-- [ ] RAG pipeline completo
-- [ ] Testes unitários
-- [ ] Testes de integração
+## 🔄 Fase 7: Guardrails (0% - 0/3)
+- [ ] src/guardrails/input_validator.py (PII, prompt injection)
+- [ ] src/guardrails/output_validator.py (citações, relevância)
+- [ ] src/guardrails/pii_detector.py (regex + NER)
 
-## Experiments
-- [ ] Dataset preparado
-- [ ] Config files
-- [ ] Run experiments
-- [ ] Analyze results
+## 🔄 Fase 8: Avaliação (0% - 0/3)
+- [ ] src/evaluation/metrics/bertscore.py
+- [ ] src/evaluation/metrics/ragas_metrics.py
+- [ ] src/evaluation/experiments/runner.py
+
+## 🔄 Fase 9: Pipeline RAG Completo (0% - 0/3)
+- [ ] src/pipeline/rag_pipeline.py (integração completa)
+- [ ] tests/unit/ (testes unitários)
+- [ ] tests/integration/ (testes de integração)
+
+## 🔄 Fase 10: Experimentos (0% - 0/3)
+- [ ] Preparar dataset de teste (perguntas IRPF)
+- [ ] Executar experimentos comparativos
+- [ ] Analisar resultados e métricas
 ```
+
+---
+
+## 🎯 PRÓXIMO PASSO RECOMENDADO
+
+### ➡️ Fase 4: Implementar Módulo de Ingestão
+
+**Começar com: PDF Extractor** 
+
+O primeiro componente funcional será `src/ingestion/extractors/pdf_extractor.py` para processar documentos IRPF.
+
+**O que implementar:**
+```bash
+cd /home/decode/workspace/lion
+python3 -m venv venv
+source venv/bin/activate
+```
+
+2. **Instalar dependências:**
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+3. **Configurar variáveis de ambiente:**
+```bash
+cp .env.example .env
+# Editar .env e adicionar sua GOOGLE_API_KEY
+# Obter chave em: https://aistudio.google.com/app/apikey
+```
+
+4. **Verificar instalação:**
+```bash
+python -c "import langchain; import chromadb; import google.generativeai; print('✅ Dependências OK')"
+```
+
+**Tempo estimado:** 5-10 minutos
+
+**Após conclusão:** Começar implementação do módulo de ingestão (Fase 4) - PDF extractor será o primeiro componente funcional.
+
+---
+
+## 📌 Notas Importantes
+
+- ✅ **Arquitetura:** Completa e validada (v2.0 com 10 melhorias)
+- ✅ **Configuração:** Sistema robusto com validação Pydantic
+- ✅ **Modelos:** 100% gratuitos (Google Gemini + text-embedding-004)
+- ⚠️ **API Key necessária:** Obtenha gratuitamente em https://aistudio.google.com/
+- 🎯 **Foco atual:** Setup do ambiente Python antes de implementar código
 
 ---
 
@@ -753,3 +819,8 @@ class RAGPipeline:
 **Data:** 14/02/2026  
 **Versão:** 1.0  
 **Autor:** Equipe LION
+cd /home/decode/workspace/lion
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt

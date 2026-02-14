@@ -167,22 +167,7 @@ python scripts/generate_report.py --experiment exp_001
 
 ## 📂 Estrutura do Projeto
 
-```
-lion/
-├── data/                    # Dados brutos e processados
-├── src/
-│   ├── ingestion/          # Extração e chunking
-│   ├── retrieval/          # Busca híbrida + re-ranking
-│   ├── generation/         # LLM + prompts
-│   ├── evaluation/         # Métricas e experimentos
-│   ├── guardrails/         # Validações
-│   └── monitoring/         # Logs e métricas
-├── experiments/            # Configurações e resultados
-├── tests/                  # Testes unitários e integração
-├── app/                    # API e interface
-├── docs/                   # Documentação completa
-└── scripts/                # Utilitários
-```
+`ARQUITETURA.md`
 
 ---
 
@@ -329,18 +314,7 @@ Este projeto está sob a licença MIT. Ver [LICENSE](LICENSE) para mais detalhes
 
 **Ronen Rodrigues Silva Filho**
 
-- 📧 Email: [contato]
-- 🎓 Instituição: [Universidade]
-- 📍 Local: Goiânia, Brasil
 - 📅 Ano: 2026
-
----
-
-## 🙏 Agradecimentos
-
-- Orientador: Prof. Otávio
-- Receita Federal do Brasil (fontes públicas)
-- Comunidade open-source de RAG e LLMs
 
 ---
 
