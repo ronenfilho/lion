@@ -685,7 +685,7 @@ class RAGPipeline:
 
 ## ✅ Checklist de Implementação - Status Atualizado
 
-### 📊 Progresso Geral: 56% Completo (19/34 tarefas)
+### 📊 Progresso Geral: 59% Completo (20/34 tarefas)
 
 ```markdown
 ## ✅ Fase 1: Setup Inicial (100% - 6/6)
@@ -713,15 +713,16 @@ class RAGPipeline:
 - [x] Sistema de configuração testado e validado ✓
 📝 Commit: ede83f1 - "feat: implementar sistema de configuração e estrutura base"
 
-## ✅ Fase 4: Ingestão de Dados (83% - 5/6)
+## ✅ Fase 4: Ingestão de Dados (100% - 6/6)
 - [x] src/ingestion/extractors/pdf_extractor.py (PyMuPDF + detecção estrutural)
 - [x] src/ingestion/extractors/html_extractor.py (BeautifulSoup4 + encoding automático)
 - [x] src/ingestion/extractors/text_cleaner.py (normalização + limpeza legal)
 - [x] src/ingestion/chunking/structural_chunker.py (99.3% qualidade, validado com 1.07M chars)
 - [x] src/ingestion/embeddings_pipeline.py (gemini-embedding-001, 3072d, testado com 50 chunks)
-- [ ] Configurar ChromaDB local
+- [x] src/ingestion/vector_store.py (ChromaDB com persistência, busca e filtros)
 📝 Commit: 7da3c3e - "feat: implementa módulo de ingestão com extractors e chunkers"
-📝 Commit: [pendente] - "feat: adiciona embeddings pipeline com Google Gemini"
+📝 Commit: aac8d85 - "feat: adiciona embeddings pipeline com Google Gemini"
+📝 Commit: [pendente] - "feat: adiciona vector store com ChromaDB"
 
 ## 🔄 Fase 5: Sistema de Retrieval (0% - 0/5)
 - [ ] src/retrieval/vector_store.py (abstração)
