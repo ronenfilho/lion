@@ -1,0 +1,135 @@
+{
+  "experiment_name": "Teste Comparativo",
+  "total_queries": 2,
+  "configs_tested": [
+    "dense_gemini",
+    "hybrid_gemini"
+  ],
+  "duration_seconds": 0.4025917053222656,
+  "results": [
+    {
+      "query_id": "q1",
+      "query": "Como declarar aposentadoria?",
+      "config_name": "dense_gemini",
+      "answer": "Resposta simulada para: Como declarar aposentadoria?",
+      "latency_ms": 120.5,
+      "metrics": {
+        "retrieval_precision": 1.0,
+        "retrieval_recall": 1.0,
+        "retrieval_mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "context_relevance": 0.0,
+        "has_citations": false,
+        "citation_accuracy": 1.0,
+        "hallucination_score": 1.0,
+        "overall_score": 0.5
+      }
+    },
+    {
+      "query_id": "q2",
+      "query": "Posso deduzir plano de saúde?",
+      "config_name": "dense_gemini",
+      "answer": "Resposta simulada para: Posso deduzir plano de saúde?",
+      "latency_ms": 120.5,
+      "metrics": {
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "retrieval_mrr": 0.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "context_relevance": 0.0,
+        "has_citations": false,
+        "citation_accuracy": 1.0,
+        "hallucination_score": 1.0,
+        "overall_score": 0.2
+      }
+    },
+    {
+      "query_id": "q1",
+      "query": "Como declarar aposentadoria?",
+      "config_name": "hybrid_gemini",
+      "answer": "Resposta simulada para: Como declarar aposentadoria?",
+      "latency_ms": 120.5,
+      "metrics": {
+        "retrieval_precision": 1.0,
+        "retrieval_recall": 1.0,
+        "retrieval_mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "context_relevance": 0.0,
+        "has_citations": false,
+        "citation_accuracy": 1.0,
+        "hallucination_score": 1.0,
+        "overall_score": 0.5
+      }
+    },
+    {
+      "query_id": "q2",
+      "query": "Posso deduzir plano de saúde?",
+      "config_name": "hybrid_gemini",
+      "answer": "Resposta simulada para: Posso deduzir plano de saúde?",
+      "latency_ms": 120.5,
+      "metrics": {
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "retrieval_mrr": 0.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "context_relevance": 0.0,
+        "has_citations": false,
+        "citation_accuracy": 1.0,
+        "hallucination_score": 1.0,
+        "overall_score": 0.2
+      }
+    }
+  ],
+  "comparison": {
+    "best_config": "dense_gemini",
+    "ranking": [
+      [
+        "dense_gemini",
+        0.396385
+      ],
+      [
+        "hybrid_gemini",
+        0.396385
+      ]
+    ],
+    "avg_latency": {
+      "dense_gemini": 120.5,
+      "hybrid_gemini": 120.5
+    },
+    "avg_faithfulness": {
+      "dense_gemini": 0.0,
+      "hybrid_gemini": 0.0
+    },
+    "avg_relevance": {
+      "dense_gemini": 1.0,
+      "hybrid_gemini": 1.0
+    }
+  },
+  "insights": {
+    "trade_offs": {
+      "fastest": "dense_gemini (120ms)",
+      "highest_quality": "dense_gemini (faithfulness: 0.00)",
+      "most_citations": "dense_gemini (0.0%)",
+      "safest": "dense_gemini (hallucination: 1.00)"
+    },
+    "low_quality_count": 2,
+    "low_quality_queries": [
+      {
+        "id": "q2",
+        "query": "Posso deduzir plano de saúde?",
+        "score": 0.2
+      },
+      {
+        "id": "q2",
+        "query": "Posso deduzir plano de saúde?",
+        "score": 0.2
+      }
+    ],
+    "high_hallucination_count": 4,
+    "citation_rate": 0.0
+  }
+}

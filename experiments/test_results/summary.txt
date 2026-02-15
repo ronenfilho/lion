@@ -1,0 +1,26 @@
+EXPERIMENTO: Teste Comparativo
+================================================================================
+
+Total de queries: 2
+Configurações testadas: 2
+Duração: 0.4s
+
+RANKING:
+--------------------------------------------------------------------------------
+🏆 dense_gemini: 0.396
+2. hybrid_gemini: 0.396
+
+
+INSIGHTS:
+--------------------------------------------------------------------------------
+Queries com baixa qualidade: 2
+Queries com alucinação alta: 4
+Taxa de citações: 0.0%
+
+
+TRADE-OFFS:
+--------------------------------------------------------------------------------
+  • fastest: dense_gemini (120ms)
+  • highest_quality: dense_gemini (faithfulness: 0.00)
+  • most_citations: dense_gemini (0.0%)
+  • safest: dense_gemini (hallucination: 1.00)
