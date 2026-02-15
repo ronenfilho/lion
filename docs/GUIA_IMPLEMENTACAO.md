@@ -685,7 +685,7 @@ class RAGPipeline:
 
 ## ✅ Checklist de Implementação - Status Atualizado
 
-### 📊 Progresso Geral: 76% Completo (26/34 tarefas)
+### 📊 Progresso Geral: 85% Completo (29/34 tarefas)
 
 ```markdown
 ## ✅ Fase 1: Setup Inicial (100% - 6/6)
@@ -737,10 +737,10 @@ class RAGPipeline:
 - [x] src/generation/prompts.py (templates especializados) - Commit: 549cabf
 - [x] src/generation/output_parser.py (estruturação) - Commit: 549cabf
 
-## 🔄 Fase 7: Guardrails (0% - 0/3)
-- [ ] src/guardrails/input_validator.py (PII, prompt injection)
-- [ ] src/guardrails/output_validator.py (citações, relevância)
-- [ ] src/guardrails/pii_detector.py (regex + NER)
+## ✅ Fase 7: Guardrails (100% - 3/3)
+- [x] src/guardrails/pii_detector.py (regex patterns) - Commit: d199133
+- [x] src/guardrails/input_validator.py (PII, prompt injection) - Commit: d199133
+- [x] src/guardrails/output_validator.py (citações, relevância) - Commit: d199133
 
 ## 🔄 Fase 8: Avaliação (0% - 0/3)
 - [ ] src/evaluation/metrics/bertscore.py
