@@ -81,3 +81,5 @@ models/
 *.tmp
 temp/
 data/embeddings/*.pkl
+# Pipeline completo testado
+test_full_pipeline.py

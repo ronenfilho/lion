@@ -685,7 +685,7 @@ class RAGPipeline:
 
 ## ✅ Checklist de Implementação - Status Atualizado
 
-### 📊 Progresso Geral: 59% Completo (20/34 tarefas)
+### 📊 Progresso Geral: 68% Completo (23/34 tarefas)
 
 ```markdown
 ## ✅ Fase 1: Setup Inicial (100% - 6/6)
@@ -724,12 +724,13 @@ class RAGPipeline:
 📝 Commit: aac8d85 - "feat: adiciona embeddings pipeline com Google Gemini"
 📝 Commit: 55abc1b - "feat: adiciona vector store com ChromaDB"
 
-## 🔄 Fase 5: Sistema de Retrieval (0% - 0/5)
-- [ ] src/retrieval/vector_store.py (abstração)
-- [ ] src/retrieval/dense_retriever.py
-- [ ] src/retrieval/bm25_retriever.py
-- [ ] src/retrieval/hybrid_retriever.py (70% dense + 30% BM25)
-- [ ] src/retrieval/reranker.py (cross-encoder)
+## ✅ Fase 5: Sistema de Retrieval (60% - 3/5)
+- [x] src/retrieval/dense_retriever.py (busca vetorial com ChromaDB)
+- [x] src/retrieval/bm25_retriever.py (busca por termos com tokenização legal)
+- [x] src/retrieval/hybrid_retriever.py (RRF + weighted fusion, 70% dense / 30% BM25)
+- [ ] src/retrieval/reranker.py (cross-encoder para reordenar resultados)
+- [ ] Testar e comparar performance dos retrievers
+📝 Commit: [pendente] - "feat: implementa sistema de retrieval (dense, BM25, hybrid)"
 
 ## 🔄 Fase 6: Geração de Respostas (0% - 0/3)
 - [ ] src/generation/llm_client.py (Google Gemini)
