@@ -1214,8 +1214,8 @@ async def async_query(request: QueryRequest):
 | **Fase 6**: Otimização de busca (Híbrida) | ✅ Concluído | 100% | Fev/2026 |
 | **Fase 7**: Guardrails e Filtros | ✅ Concluído | 100% | Fev/2026 |
 | **Fase 8**: **Métricas e Avaliação** | ✅ **Concluído** | **100%** | **15/02/2026** |
-| **Fase 9**: Pipeline RAG Completo | 🔄 Em Andamento | 10% | - |
-| **Fase 10**: Dashboards e Visualização | ⏳ Planejado | 0% | - |
+| **Fase 9**: **Pipeline RAG Completo** | ✅ **Concluído** | **100%** | **15/02/2026** |
+| **Fase 10**: Experimentos e Dashboards | 🔄 Em Andamento | 0% | - |
 
 ## Fase 8 - Métricas e Avaliação ✅
 
@@ -1247,14 +1247,54 @@ async def async_query(request: QueryRequest):
 - Logging detalhado
 - Agregação de resultados
 
+## Fase 9 - Pipeline RAG Completo ✅
+
+### Componentes Implementados
+
+✅ **RAG Pipeline** (`src/pipeline/rag_pipeline.py`)
+- Integração completa de todos os módulos
+- Métodos: ingest_documents(), query(), batch_query()
+- Cache semântico para otimização
+- Error handling e logging estruturado
+- Suporte a avaliação automática
+
+✅ **Testes Unitários** (`tests/unit/test_rag_pipeline.py`)
+- 18 testes cobrindo todos os métodos
+- Mocks para componentes externos
+- Validação de fluxos de erro
+
+✅ **Testes de Integração** (`tests/integration/test_rag_pipeline_integration.py`)
+- Testes end-to-end do pipeline completo
+- Validação de ingestão e query
+- Testes de cache e batch processing
+- Validação de logging e estatísticas
+
+### Funcionalidades Principais
+
+**Pipeline de Ingestão:**
+1. Extração (PDF/HTML)
+2. Limpeza de texto
+3. Chunking estrutural
+4. Geração de embeddings
+5. Indexação no ChromaDB
+
+**Pipeline de Query:**
+1. Validação de entrada (guardrails)
+2. Verificação de cache
+3. Retrieval híbrido
+4. Geração com LLM
+5. Validação de saída
+6. Avaliação automática (opcional)
+
 ### Próximos Passos
 
-**Fase 9 - Pipeline RAG Completo:**
-1. Integrar todos os componentes (ingestão → retrieval → generation → avaliação)
-2. Implementar `rag_pipeline.py` orquestrando todas as camadas
-3. Criar testes end-to-end
-4. Executar experimentos comparativos (Experimentos 1-4)
-5. Gerar relatórios de performance
+**Fase 10 - Experimentos e Dashboards:**
+1. Preparar dataset de teste (30-50 perguntas IRPF)
+2. Executar Experimento 1: RAG vs Sem RAG
+3. Executar Experimento 2: LLM Grande vs Pequeno+RAG
+4. Executar Experimento 3: Estratégias de Chunking
+5. Executar Experimento 4: Retrieval Dense vs Híbrido
+6. Análise estatística e geração de relatórios
 
 **Última atualização:** 15/02/2026
 

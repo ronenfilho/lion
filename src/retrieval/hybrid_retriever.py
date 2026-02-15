@@ -7,8 +7,8 @@ from typing import List, Dict, Optional, Any, Set
 from dataclasses import dataclass
 import numpy as np
 
-from retrieval.dense_retriever import DenseRetriever, create_dense_retriever
-from retrieval.bm25_retriever import BM25Retriever, create_bm25_retriever
+from src.retrieval.dense_retriever import DenseRetriever, create_dense_retriever
+from src.retrieval.bm25_retriever import BM25Retriever, create_bm25_retriever
 
 
 @dataclass

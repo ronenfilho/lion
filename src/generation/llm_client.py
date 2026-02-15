@@ -59,8 +59,7 @@ class LLMClient:
         self.config = config or GenerationConfig(
             temperature=float(os.getenv('TEMPERATURE', '0.2')),
             max_tokens=int(os.getenv('MAX_TOKENS', '800')),
-            top_p=0.95,
-            top_k=40
+            top_p=0.95
         )
         
         # Configurar API
@@ -77,7 +76,7 @@ class LLMClient:
                 'temperature': self.config.temperature,
                 'max_output_tokens': self.config.max_tokens,
                 'top_p': self.config.top_p,
-                'top_k': self.config.top_k
+                'top_k': 40  # Valor fixo, não configurável via config
             }
         )
     

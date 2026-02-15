@@ -296,8 +296,8 @@ Ver [MELHORIAS_ARQUITETURA.md](docs/MELHORIAS_ARQUITETURA.md) para detalhes comp
 - [x] **Fase 6: Otimização de busca (Híbrida)**
 - [x] **Fase 7: Guardrails e Filtros**
 - [x] **Fase 8: Métricas e Avaliação (BERTScore, RAGAS)** ← **CONCLUÍDO**
-- [ ] **Fase 9: Pipeline RAG Completo**
-- [ ] **Fase 10: Dashboards e Visualização**
+- [x] **Fase 9: Pipeline RAG Completo** ← **CONCLUÍDO**
+- [ ] **Fase 10: Experimentos e Dashboards**
 
 ---
 

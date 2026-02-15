@@ -764,11 +764,11 @@ class RAGPipeline:
 - [x] Configuração .env para RAGAS (RAGAS_LLM_PROVIDER=gemini, embeddings configurados)
 📝 Fase completa em: 15/02/2026
 
-## 🔄 Fase 9: Pipeline RAG Completo (10% - 1/3)
-- [ ] src/pipeline/rag_pipeline.py (integração completa - ingestion → retrieval → generation → evaluation)
-- [ ] tests/unit/ (testes unitários para cada componente)
-- [ ] tests/integration/ (testes end-to-end do pipeline completo)
-📝 Status: Planejamento iniciado, componentes individuais prontos
+## ✅ Fase 9: Pipeline RAG Completo (100% - 3/3)
+- [x] src/pipeline/rag_pipeline.py (integração completa - ingestion → retrieval → generation → evaluation)
+- [x] tests/unit/test_rag_pipeline.py (18 testes unitários cobrindo todos os métodos)
+- [x] tests/integration/test_rag_pipeline_integration.py (testes end-to-end do pipeline completo)
+📝 Fase completa em: 15/02/2026
 
 ## 🔄 Fase 10: Experimentos (0% - 0/3)
 - [ ] Preparar dataset de teste (perguntas IRPF)
@@ -780,66 +780,56 @@ class RAGPipeline:
 
 ## 🎯 PRÓXIMO PASSO RECOMENDADO
 
-### ➡️ Fase 9: Implementar Pipeline RAG Completo
+### ➡️ Fase 10: Executar Experimentos Comparativos
 
-**Começar com: RAG Pipeline Integration** 
+**Começar com: Preparação do Dataset de Teste** 
 
-Todos os componentes individuais estão implementados e testados. O próximo passo é integrá-los em um pipeline unificado.
+O pipeline RAG está completo e funcional. Agora é hora de executar os experimentos científicos definidos na arquitetura para validar as hipóteses.
 
-**O que implementar:**
-```python
-# src/pipeline/rag_pipeline.py
-class RAGPipeline:
-    def __init__(self, config: Config):
-        """Pipeline RAG completo integrando todos os módulos"""
-        self.ingestion = IngestionPipeline(config)
-        self.retriever = HybridRetriever(config)
-        self.generator = LLMClient(config)
-        self.evaluator = RAGASEvaluator(config)
-        
-    def process_query(self, query: str) -> dict:
-        """Processa query end-to-end"""
-        # 1. Validar input (guardrails)
-        # 2. Recuperar contexto (retrieval)
-        # 3. Gerar resposta (generation)
-        # 4. Validar output (guardrails)
-        # 5. Avaliar (métricas)
-        
-    def ingest_documents(self, file_paths: List[str]) -> dict:
-        """Pipeline de ingestão completo"""
-        # 1. Extração (PDF/HTML)
-        # 2. Limpeza (text cleaner)
-        # 3. Chunking (structural)
-        # 4. Embeddings (Gemini)
-        # 5. Indexação (ChromaDB)
-```
+**Experimentos Planejados:**
 
-**Próximos Componentes:**
+1. **Experimento 1: RAG vs Sem RAG** (Gemini)
+   - Configuração A: Gemini sem RAG (baseline)
+   - Configuração B: Gemini com RAG
+   - Objetivo: Medir ganho de acurácia e redução de alucinações
+   - Métricas: Faithfulness, Answer Relevancy, BERTScore F1
 
-1. **RAG Pipeline** (`src/pipeline/rag_pipeline.py`):
-   - Integrar ingestion → retrieval → generation → evaluation
-   - Implementar error handling e logging
-   - Adicionar cache de queries frequentes
+2. **Experimento 2: LLM Grande vs Pequeno+RAG**
+   - Configuração A: Gemini Pro sem RAG
+   - Configuração B: Gemini Flash + RAG
+   - Objetivo: Validar se arquitetura supera tamanho do modelo
+   - Métricas: Fidelidade normativa, Custo-benefício
 
-2. **Testes End-to-End**:
-   - Criar dataset de teste com 20-30 queries IRPF
-   - Implementar `tests/integration/test_rag_pipeline.py`
-   - Validar métricas: faithfulness > 0.8, answer_relevancy > 0.7
+3. **Experimento 3: Estratégias de Chunking**
+   - Configuração A: Chunking fixo (800 tokens)
+   - Configuração B: Chunking estrutural (artigos/parágrafos)
+   - Objetivo: Melhor estratégia de segmentação
+   - Métricas: Context Precision, Context Recall
 
-3. **Experimentos Comparativos**:
-   - Executar Experimento 1: Estratégias de chunking
-   - Executar Experimento 2: Configurações de retrieval
-   - Executar Experimento 3: Prompts de generation
-   - Gerar relatórios com RAGAS e BERTScore
+4. **Experimento 4: Retrieval Dense vs Híbrido**
+   - Configuração A: Dense retrieval (embeddings apenas)
+   - Configuração B: Hybrid retrieval (70% dense + 30% BM25)
+   - Objetivo: Impacto de BM25 em termos normativos
+   - Métricas: Precision@5, Recall@5, MRR
 
-**Tempo estimado:** 2-3 dias para pipeline completo + testes
+**Dataset de Teste:**
+- 30-50 perguntas representativas sobre IRPF
+- Ground truths extraídos do Perguntão oficial
+- 5 execuções por configuração (média e desvio padrão)
 
-**Após conclusão:** Fase 10 (Dashboards e Visualização) e produção.
+**Tempo estimado:** 3-5 dias para execução completa + análise
+
+**Após conclusão:** Análise estatística, geração de relatórios e visualizações (Fase 10).
 
 ---
 
 ## 📌 Notas Importantes
 
+- ✅ **Fase 9 Completa:** Pipeline RAG totalmente integrado e testado
+  - RAGPipeline: 600+ linhas integrando todos os módulos
+  - Métodos: ingest_documents(), query(), batch_query(), evaluate()
+  - Cache semântico, error handling, logging estruturado
+  - 18 testes unitários + testes de integração end-to-end
 - ✅ **Fase 8 Completa:** Todas as métricas de avaliação implementadas e validadas
   - BERTScore: 4/4 testes passando (P/R/F1: 0.717-1.000)
   - RAGAS: Integração com Gemini 2.5 Flash, score perfeito (1.000 faithfulness)
@@ -849,7 +839,7 @@ class RAGPipeline:
 - ✅ **Modelos:** 100% gratuitos (Google Gemini 2.5 Flash + models/gemini-embedding-001)
 - ⚠️ **API Key necessária:** Obtenha gratuitamente em https://aistudio.google.com/
 - ⚠️ **Quota Gemini Free Tier:** 5 req/min, 20 req/dia por modelo - considerar cache e batching
-- 🎯 **Foco atual:** Integração de todos os componentes em pipeline unificado
+- 🎯 **Foco atual:** Preparação e execução de experimentos científicos
 
 ---
 

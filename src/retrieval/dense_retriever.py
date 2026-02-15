@@ -7,8 +7,8 @@ from typing import List, Dict, Optional, Any, Tuple
 import numpy as np
 from dataclasses import dataclass
 
-from ingestion.vector_store import VectorStore, create_vector_store
-from ingestion.embeddings_pipeline import EmbeddingsPipeline, create_embeddings_pipeline
+from src.ingestion.vector_store import VectorStore, create_vector_store
+from src.ingestion.embeddings_pipeline import EmbeddingsPipeline, create_embeddings_pipeline
 
 
 @dataclass
