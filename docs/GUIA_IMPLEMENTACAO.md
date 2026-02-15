@@ -695,6 +695,7 @@ class RAGPipeline:
 - [x] .gitignore criado
 - [x] Git inicializado
 - [x] Arquitetura e documentação completa (8 docs, ~3800 linhas)
+📝 Commit: 9d6f6c6 - "docs: expandir arquitetura e criar estrutura inicial"
 
 ## ✅ Fase 2: Configuração do Sistema (100% - 6/6)
 - [x] Sistema de configuração YAML implementado
@@ -703,12 +704,14 @@ class RAGPipeline:
 - [x] config/development.yaml (ambiente dev)
 - [x] config/production.yaml (ambiente prod)
 - [x] Modelos trocados para Google (Gemini 2.0 Flash + text-embedding-004)
+📝 Commit: ede83f1 - "feat: implementar sistema de configuração e estrutura base"
 
-## ✅ Fase 3: Ambiente Python (100% - 2/2) ✨ NOVO
+## ✅ Fase 3: Ambiente Python (100% - 2/2)
 - [x] Ambiente virtual criado (venv)
 - [x] Dependências instaladas compatíveis com Python 3.12
 - [x] Integração .env → YAML implementada (prioridade: .env > {env}.yaml > default.yaml)
 - [x] Sistema de configuração testado e validado ✓
+📝 Commit: ede83f1 - "feat: implementar sistema de configuração e estrutura base"
 
 ## 🔄 Fase 4: Ingestão de Dados (0% - 0/6)
 - [ ] src/ingestion/extractors/pdf_extractor.py
