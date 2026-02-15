@@ -685,7 +685,7 @@ class RAGPipeline:
 
 ## ✅ Checklist de Implementação - Status Atualizado
 
-### 📊 Progresso Geral: 68% Completo (23/34 tarefas)
+### 📊 Progresso Geral: 76% Completo (26/34 tarefas)
 
 ```markdown
 ## ✅ Fase 1: Setup Inicial (100% - 6/6)
@@ -732,10 +732,10 @@ class RAGPipeline:
 - [ ] Testar e comparar performance dos retrievers
 📝 Commit: db17679 - "feat: implementa sistema de retrieval (dense, BM25, hybrid)"
 
-## 🔄 Fase 6: Geração de Respostas (0% - 0/3)
-- [ ] src/generation/llm_client.py (Google Gemini)
-- [ ] src/generation/prompts.py (templates especializados)
-- [ ] src/generation/output_parser.py (estruturação)
+## ✅ Fase 6: Geração de Respostas (100% - 3/3)
+- [x] src/generation/llm_client.py (Google Gemini) - Commit: 549cabf
+- [x] src/generation/prompts.py (templates especializados) - Commit: 549cabf
+- [x] src/generation/output_parser.py (estruturação) - Commit: 549cabf
 
 ## 🔄 Fase 7: Guardrails (0% - 0/3)
 - [ ] src/guardrails/input_validator.py (PII, prompt injection)
