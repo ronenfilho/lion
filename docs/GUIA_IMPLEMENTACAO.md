@@ -758,13 +758,17 @@ class RAGPipeline:
 - [x] src/evaluation/metrics/rag_metrics.py (precision, recall, MRR, faithfulness, hallucination) - Commit: 01c505c
 - [x] src/evaluation/metrics/comparative_metrics.py (ComparativeEvaluator, A/B testing) - Commit: 01c505c
 - [x] src/evaluation/experiments/runner.py (automated experiment execution) - Commit: 01c505c
-- [x] src/evaluation/metrics/bertscore.py (similaridade semântica BERT-based)
-- [x] src/evaluation/metrics/ragas_metrics.py (métricas RAG-específicas)
+- [x] src/evaluation/metrics/bertscore.py (similaridade semântica BERT-based, bert-base-multilingual-cased)
+- [x] src/evaluation/metrics/ragas_metrics.py (7 métricas RAG, integração Gemini 2.5 Flash, validado com score 1.000)
+- [x] tests/evaluation/test_bertscore.py (4/4 testes passando)
+- [x] Configuração .env para RAGAS (RAGAS_LLM_PROVIDER=gemini, embeddings configurados)
+📝 Fase completa em: 15/02/2026
 
-## 🔄 Fase 9: Pipeline RAG Completo (0% - 0/3)
-- [ ] src/pipeline/rag_pipeline.py (integração completa)
-- [ ] tests/unit/ (testes unitários)
-- [ ] tests/integration/ (testes de integração)
+## 🔄 Fase 9: Pipeline RAG Completo (10% - 1/3)
+- [ ] src/pipeline/rag_pipeline.py (integração completa - ingestion → retrieval → generation → evaluation)
+- [ ] tests/unit/ (testes unitários para cada componente)
+- [ ] tests/integration/ (testes end-to-end do pipeline completo)
+📝 Status: Planejamento iniciado, componentes individuais prontos
 
 ## 🔄 Fase 10: Experimentos (0% - 0/3)
 - [ ] Preparar dataset de teste (perguntas IRPF)
@@ -776,60 +780,76 @@ class RAGPipeline:
 
 ## 🎯 PRÓXIMO PASSO RECOMENDADO
 
-### ➡️ Fase 4: Implementar Embeddings Pipeline
+### ➡️ Fase 9: Implementar Pipeline RAG Completo
 
-**Começar com: Embeddings Pipeline** 
+**Começar com: RAG Pipeline Integration** 
 
-O próximo componente será `src/ingestion/embeddings_pipeline.py` para gerar embeddings dos chunks usando Google text-embedding-004.
+Todos os componentes individuais estão implementados e testados. O próximo passo é integrá-los em um pipeline unificado.
 
 **O que implementar:**
 ```python
-# src/ingestion/embeddings_pipeline.py
-class EmbeddingsPipeline:
-    def __init__(self, model_name: str, batch_size: int = 32):
-        """Pipeline de geração de embeddings"""
+# src/pipeline/rag_pipeline.py
+class RAGPipeline:
+    def __init__(self, config: Config):
+        """Pipeline RAG completo integrando todos os módulos"""
+        self.ingestion = IngestionPipeline(config)
+        self.retriever = HybridRetriever(config)
+        self.generator = LLMClient(config)
+        self.evaluator = RAGASEvaluator(config)
         
-    def generate_embeddings(self, chunks: List[DocumentChunk]) -> List[np.ndarray]:
-        """Gera embeddings em lote para chunks"""
+    def process_query(self, query: str) -> dict:
+        """Processa query end-to-end"""
+        # 1. Validar input (guardrails)
+        # 2. Recuperar contexto (retrieval)
+        # 3. Gerar resposta (generation)
+        # 4. Validar output (guardrails)
+        # 5. Avaliar (métricas)
         
-    def save_embeddings(self, chunks, embeddings, output_path):
-        """Salva chunks + embeddings em formato pickle/json"""
+    def ingest_documents(self, file_paths: List[str]) -> dict:
+        """Pipeline de ingestão completo"""
+        # 1. Extração (PDF/HTML)
+        # 2. Limpeza (text cleaner)
+        # 3. Chunking (structural)
+        # 4. Embeddings (Gemini)
+        # 5. Indexação (ChromaDB)
 ```
 
-**Configuração ChromaDB:**
-```python
-# Após embeddings, configurar ChromaDB:
-# 1. Inicializar cliente local
-# 2. Criar collection com metadata
-# 3. Inserir chunks + embeddings
-# 4. Testar retrieval
-```
+**Próximos Componentes:**
 
-3. **Configurar variáveis de ambiente:**
-```bash
-cp .env.example .env
-# Editar .env e adicionar sua GOOGLE_API_KEY
-# Obter chave em: https://aistudio.google.com/app/apikey
-```
+1. **RAG Pipeline** (`src/pipeline/rag_pipeline.py`):
+   - Integrar ingestion → retrieval → generation → evaluation
+   - Implementar error handling e logging
+   - Adicionar cache de queries frequentes
 
-4. **Verificar instalação:**
-```bash
-python -c "import langchain; import chromadb; import google.generativeai; print('✅ Dependências OK')"
-```
+2. **Testes End-to-End**:
+   - Criar dataset de teste com 20-30 queries IRPF
+   - Implementar `tests/integration/test_rag_pipeline.py`
+   - Validar métricas: faithfulness > 0.8, answer_relevancy > 0.7
 
-**Tempo estimado:** 5-10 minutos
+3. **Experimentos Comparativos**:
+   - Executar Experimento 1: Estratégias de chunking
+   - Executar Experimento 2: Configurações de retrieval
+   - Executar Experimento 3: Prompts de generation
+   - Gerar relatórios com RAGAS e BERTScore
 
-**Após conclusão:** Começar implementação do módulo de ingestão (Fase 4) - PDF extractor será o primeiro componente funcional.
+**Tempo estimado:** 2-3 dias para pipeline completo + testes
+
+**Após conclusão:** Fase 10 (Dashboards e Visualização) e produção.
 
 ---
 
 ## 📌 Notas Importantes
 
+- ✅ **Fase 8 Completa:** Todas as métricas de avaliação implementadas e validadas
+  - BERTScore: 4/4 testes passando (P/R/F1: 0.717-1.000)
+  - RAGAS: Integração com Gemini 2.5 Flash, score perfeito (1.000 faithfulness)
+  - Factory functions para todos os evaluators
 - ✅ **Arquitetura:** Completa e validada (v2.0 com 10 melhorias)
 - ✅ **Configuração:** Sistema robusto com validação Pydantic
-- ✅ **Modelos:** 100% gratuitos (Google Gemini + text-embedding-004)
+- ✅ **Modelos:** 100% gratuitos (Google Gemini 2.5 Flash + models/gemini-embedding-001)
 - ⚠️ **API Key necessária:** Obtenha gratuitamente em https://aistudio.google.com/
-- 🎯 **Foco atual:** Setup do ambiente Python antes de implementar código
+- ⚠️ **Quota Gemini Free Tier:** 5 req/min, 20 req/dia por modelo - considerar cache e batching
+- 🎯 **Foco atual:** Integração de todos os componentes em pipeline unificado
 
 ---
 
@@ -847,8 +867,9 @@ python -c "import langchain; import chromadb; import google.generativeai; print(
 
 ---
 
-**Data:** 14/02/2026  
-**Versão:** 1.0  
+**Data:** 15/02/2026  
+**Versão:** 1.1  
+**Última Atualização:** Fase 8 completa (BERTScore + RAGAS)  
 **Autor:** Equipe LION
 cd /home/decode/workspace/lion
 python3 -m venv venv

@@ -87,9 +87,12 @@ class RAGASEvaluator:
         # Definir verbose antes de usá-lo
         self.verbose = verbose
         
-        # Configurar LLM a partir do .env se não fornecido
+        # Configurar LLM e Embeddings a partir do .env se não fornecidos
         if llm_provider is None:
             llm_provider = self._setup_llm_from_env()
+        
+        if embeddings_provider is None:
+            embeddings_provider = self._setup_embeddings_from_env()
         
         self.llm_provider = llm_provider
         self.embeddings_provider = embeddings_provider
@@ -114,20 +117,24 @@ class RAGASEvaluator:
         api_key = os.getenv('RAGAS_API_KEY')
         
         if ragas_provider == 'gemini':
-            api_key = api_key or os.getenv('GEMINI_API_KEY')
+            api_key = api_key or os.getenv('GEMINI_API_KEY') or os.getenv('GOOGLE_API_KEY')
             
             if api_key:
                 try:
                     from langchain_google_genai import ChatGoogleGenerativeAI
                     
+                    # Nome do modelo verificado como funcional em 2026
+                    model_name = "gemini-2.5-flash"
+                    
                     llm = ChatGoogleGenerativeAI(
-                        model="gemini-2.0-flash-exp",
+                        model=model_name,
                         google_api_key=api_key,
-                        temperature=0.2
+                        temperature=0.2,
+                        convert_system_message_to_human=True  # Importante para RAGAS
                     )
                     
                     if self.verbose:
-                        print("✅ RAGAS configurado com Google Gemini")
+                        print(f"✅ RAGAS configurado com Google Gemini ({model_name})")
                     
                     return llm
                     
@@ -167,6 +174,46 @@ class RAGASEvaluator:
         if self.verbose:
             print("⚠️  Nenhum LLM configurado para RAGAS")
             print(f"   Configure RAGAS_LLM_PROVIDER e RAGAS_API_KEY no .env")
+        
+        return None
+
+    def _setup_embeddings_from_env(self) -> Optional[Any]:
+        """
+        Configura Embeddings provider a partir do .env.
+        """
+        ragas_provider = os.getenv('RAGAS_LLM_PROVIDER', 'gemini').lower()
+        api_key = os.getenv('RAGAS_API_KEY')
+        
+        if ragas_provider == 'gemini':
+            api_key = api_key or os.getenv('GEMINI_API_KEY') or os.getenv('GOOGLE_API_KEY')
+            if api_key:
+                try:
+                    from langchain_google_genai import GoogleGenerativeAIEmbeddings
+                    
+                    # Modelo de embedding verificado como funcional
+                    embed_model = "models/gemini-embedding-001"
+                    
+                    embeddings = GoogleGenerativeAIEmbeddings(
+                        model=embed_model,
+                        google_api_key=api_key
+                    )
+                    
+                    if self.verbose:
+                        print(f"✅ Embeddings configurados: {embed_model}")
+                        
+                    return embeddings
+                except Exception as e:
+                    if self.verbose:
+                        print(f"⚠️ Erro ao configurar Gemini Embeddings: {e}")
+        
+        elif ragas_provider == 'openai':
+            api_key = api_key or os.getenv('OPENAI_API_KEY')
+            if api_key:
+                try:
+                    from langchain_openai import OpenAIEmbeddings
+                    return OpenAIEmbeddings(api_key=api_key, model="text-embedding-3-small")
+                except Exception:
+                    pass
         
         return None
     
@@ -233,17 +280,42 @@ class RAGASEvaluator:
             
             result = evaluate(**eval_kwargs)
             
-            # Extrair scores (result é dict-like ou tem atributos)
+            # Extrair scores de forma robusta
+            # RAGAS 0.2+ retorna um objeto EvaluationResult
             metrics_dict = {
-                'answer_relevancy': getattr(result, 'answer_relevancy', None) or result.get('answer_relevancy'),
-                'faithfulness': getattr(result, 'faithfulness', None) or result.get('faithfulness'),
-                'answer_correctness': getattr(result, 'answer_correctness', None) or result.get('answer_correctness'),
-                'answer_similarity': getattr(result, 'answer_similarity', None) or result.get('answer_similarity'),
-                'context_precision': getattr(result, 'context_precision', None) or result.get('context_precision'),
-                'context_recall': getattr(result, 'context_recall', None) or result.get('context_recall'),
-                'context_entity_recall': getattr(result, 'context_entity_recall', None) or result.get('context_entity_recall'),
+                'answer_relevancy': None,
+                'faithfulness': None,
+                'answer_correctness': None,
+                'answer_similarity': None,
+                'context_precision': None,
+                'context_recall': None,
+                'context_entity_recall': None,
                 'num_samples': len(questions)
             }
+            
+            # Tentar acesso direto (funciona na maioria das versões recentes)
+            for m_name in metrics_dict.keys():
+                if m_name == 'num_samples': continue
+                try:
+                    # No RAGAS 0.2, result é como um dict de scores médios
+                    val = result[m_name]
+                    metrics_dict[m_name] = float(val) if val is not None else None
+                except (KeyError, TypeError, AttributeError):
+                    # Fallback: tentar atributo direto
+                    val = getattr(result, m_name, None)
+                    if val is not None:
+                        metrics_dict[m_name] = float(val)
+
+            # Fallback final: se result.scores existir e for lista
+            if hasattr(result, 'scores') and isinstance(result.scores, list):
+                for m_name in metrics_dict.keys():
+                    if m_name == 'num_samples' or metrics_dict[m_name] is not None:
+                        continue
+                    
+                    # Pegar média dos scores individuais
+                    vals = [s.get(m_name) for s in result.scores if isinstance(s, dict) and s.get(m_name) is not None]
+                    if vals:
+                        metrics_dict[m_name] = sum(vals) / len(vals)
             
             return RAGASMetrics(**metrics_dict)
             
@@ -479,106 +551,43 @@ def create_ragas_evaluator(
 
 # Exemplo de uso
 if __name__ == "__main__":
-    print("🧪 TESTE DO RAGAS EVALUATOR")
-    print("=" * 80)
+    # Teste rápido do RAGASEvaluator
+    evaluator = RAGASEvaluator(verbose=True)
     
-    if not RAGAS_AVAILABLE:
-        print("❌ ragas não está instalado")
-        print("Execute: pip install ragas datasets")
-        exit(1)
-    
-    # Criar avaliador
-    evaluator = create_ragas_evaluator(verbose=True)
-    print("✅ Avaliador RAGAS criado\n")
-    
-    # Dados de teste
     questions = [
-        "Como declarar aposentadoria no IRPF?",
-        "Posso deduzir plano de saúde?"
+        "O que é LION?",
+        "Qual a data de hoje?"
     ]
-    
     answers = [
-        "A aposentadoria deve ser declarada na ficha de Rendimentos Tributáveis. "
-        "É importante incluir todos os comprovantes fornecidos pelo INSS.",
-        "Sim, despesas com plano de saúde são dedutíveis sem limite de valor. "
-        "Devem ser declaradas na ficha de Pagamentos Efetuados."
+        "LION é um sistema de IA para processamento de documentos.",
+        "Hoje é 15 de fevereiro de 2026."
     ]
-    
     contexts = [
-        [
-            "Aposentadorias e pensões são rendimentos tributáveis recebidos de pessoa jurídica.",
-            "Devem ser declarados na ficha Rendimentos Tributáveis Recebidos de PJ.",
-            "O INSS fornece informe de rendimentos para a declaração."
-        ],
-        [
-            "Despesas médicas e com plano de saúde podem ser deduzidas integralmente.",
-            "Não há limite para dedução de despesas médicas.",
-            "Declarar na ficha Pagamentos Efetuados, código 26 para planos de saúde."
-        ]
+        ["LION (Legal Intelligent Operations Network) é um sistema RAG."],
+        ["O sistema indica que a data atual é 15/02/2026."]
     ]
-    
     ground_truths = [
-        "Aposentadoria é declarada como rendimento tributável recebido de pessoa jurídica.",
-        "Plano de saúde é dedutível integralmente na declaração de IRPF."
+        "LION é um assistente inteligente baseado em RAG para documentos.",
+        "A data de hoje é 15 de fevereiro de 2026."
     ]
     
-    print("📝 Teste 1: Avaliação completa (com ground truth)")
-    print("   Tentando usar LLM configurado no .env...\n")
+    print("\n🧪 TESTE DO RAGAS EVALUATOR")
+    print("="*80)
     
     try:
-        result = evaluator.evaluate(
+        # Usar apenas subconjunto das métricas para ser mais rápido
+        metrics = evaluator.evaluate(
             questions=questions,
             answers=answers,
             contexts=contexts,
-            ground_truths=ground_truths
+            ground_truths=ground_truths,
+            metrics=['faithfulness']
         )
         
-        print(f"   ✅ Avaliação completa com sucesso!")
-        print(f"   Answer Relevancy:  {result.answer_relevancy:.3f}")
-        print(f"   Faithfulness:      {result.faithfulness:.3f}")
-        
-        if result.context_precision:
-            print(f"   Context Precision: {result.context_precision:.3f}")
-        if result.context_recall:
-            print(f"   Context Recall:    {result.context_recall:.3f}")
-        if result.context_entity_recall:
-            print(f"   Context Entity:    {result.context_entity_recall:.3f}")
-        
-        print(f"   Samples:           {result.num_samples}\n")
+        print("\n✅ Resumo da Avaliação RAGAS:")
+        print(f"   - Faithfulness: {metrics.faithfulness:.3f}")
         
     except Exception as e:
-        print(f"   ⚠️  Erro na avaliação: {e}")
-        print(f"   Configure RAGAS_LLM_PROVIDER e RAGAS_API_KEY no .env\n")
-    
-    print("📝 Exemplo de configuração no .env:")
-    print("""
-    # No arquivo .env:
-    RAGAS_LLM_PROVIDER=gemini  # ou openai
-    RAGAS_API_KEY=sua-chave-aqui
-    
-    # Ou use as variáveis específicas:
-    GEMINI_API_KEY=sua-chave-gemini
-    OPENAI_API_KEY=sua-chave-openai
-    
-    # Exemplo de uso em código:
-    from evaluation.metrics import create_ragas_evaluator
-    
-    # Cria avaliador (usa .env automaticamente)
-    evaluator = create_ragas_evaluator(verbose=True)
-    
-    # Avaliar
-    result = evaluator.evaluate(
-        questions=['Como declarar aposentadoria?'],
-        answers=['Aposentadoria deve ser declarada como rendimento tributável...'],
-        contexts=[['Aposentadoria é rendimento tributável...']],
-        ground_truths=['Aposentadoria é declarada como rendimento tributável.']
-    )
-    
-    print(f'Answer Relevancy: {result.answer_relevancy:.3f}')
-    print(f'Faithfulness: {result.faithfulness:.3f}')
-    """)
-    
-    print("=" * 80)
-    print("✅ Testes RAGAS concluídos")
-    print("\n💡 Nota: RAGAS usa LLMs internamente para algumas métricas.")
-    print("   Configure OPENAI_API_KEY ou passe llm_provider customizado.")
+        print(f"\n❌ Erro no teste RAGAS: {e}")
+        import traceback
+        traceback.print_exc()

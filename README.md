@@ -286,6 +286,21 @@ Ver [MELHORIAS_ARQUITETURA.md](docs/MELHORIAS_ARQUITETURA.md) para detalhes comp
 
 ---
 
+## 📅 Cronograma de Implementação
+
+- [x] **Fase 1: Setup e Infra**
+- [x] **Fase 2: Módulo de Ingestão**
+- [x] **Fase 3: Processamento e Segmentação**
+- [x] **Fase 4: Vetorização e Indexação**
+- [x] **Fase 5: Interface de Chat/CLI**
+- [x] **Fase 6: Otimização de busca (Híbrida)**
+- [x] **Fase 7: Guardrails e Filtros**
+- [x] **Fase 8: Métricas e Avaliação (BERTScore, RAGAS)** ← **CONCLUÍDO**
+- [ ] **Fase 9: Pipeline RAG Completo**
+- [ ] **Fase 10: Dashboards e Visualização**
+
+---
+
 ## 🤝 Contribuindo
 
 Contribuições são bem-vindas! Este é um projeto acadêmico com foco em:

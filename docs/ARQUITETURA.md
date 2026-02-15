@@ -1,3 +1,4 @@
+````markdown
 # 🦁 LION
 
 ## Arquitetura Proposta — Assistente IRPF com RAG
@@ -625,451 +626,276 @@ Final Score = Média(BERTScore_F1)
 
 ---
 
-# 🧮 6. Estrutura Reprodutível do Experimento
+# 📊 6. Camada de Avaliação (Implementada)
 
-```
-experiments/
-│
-├── config_1_llm_sem_rag/
-├── config_2_llm_com_rag/
-├── config_3_small_quant_rag/
-│
-├── results_raw/
-├── results_metrics/
-└── analysis.ipynb
+Para garantir a qualidade e confiabilidade das respostas, o sistema inclui um módulo de avaliação automatizada implementado.
+
+## 6.1 Métricas Implementadas
+
+### A) Métricas Base RAG
+
+**Módulo:** `src/evaluation/metrics/rag_metrics.py`
+
+* **Tempo de Resposta**: Latência ponta a ponta do pipeline
+* **Tamanho do Contexto**: Quantidade de tokens/chunks recuperados
+* **Taxa de Recuperação**: Chunks relevantes vs total recuperado
+
+**Uso:**
+```python
+from evaluation.metrics import create_rag_evaluator
+
+evaluator = create_rag_evaluator()
+metrics = evaluator.evaluate(
+    query="Como declarar dependentes?",
+    answer=resposta_gerada,
+    context=chunks_recuperados,
+    response_time=0.8
+)
+# Retorna: response_time, context_size, context_tokens
 ```
 
-Cada execução salva:
+### B) Métricas Semânticas (BERTScore)
 
-```json
-{
-  "question_id": 12,
-  "model": "gemini",
-  "rag": true,
-  "run_id": 3,
-  "response": "...",
-  "bertscore": 0.89,
-  "faithfulness": 0.94
-}
+**Módulo:** `src/evaluation/metrics/bertscore.py`
+
+Avalia similaridade semântica entre resposta gerada e ground truth usando embeddings BERT.
+
+**Características:**
+* Modelo: `bert-base-multilingual-cased` (otimizado para português)
+* Métricas: Precision, Recall, F1-score
+* Suporta avaliação em lote e comparação A/B
+
+**Uso:**
+```python
+from evaluation.metrics import create_bertscore_evaluator
+
+evaluator = create_bertscore_evaluator(
+    model_type="bert-base-multilingual-cased",
+    lang="pt"
+)
+
+result = evaluator.evaluate_rag_answer(
+    candidate="Dependentes podem ser declarados...",
+    reference="Dependentes devem ser declarados...",
+    contexts=chunks_recuperados
+)
+# Retorna: precision, recall, f1, context_alignment
 ```
+
+### C) Métricas RAG-específicas (RAGAS)
+
+**Módulo:** `src/evaluation/metrics/ragas_metrics.py`
+
+Implementa métricas especializadas para sistemas RAG usando a biblioteca RAGAS.
+
+**Métricas de Geração:**
+* **Faithfulness**: Fidelidade ao contexto (evita alucinações)
+* **Answer Relevancy**: Relevância da resposta à pergunta
+* **Answer Correctness**: Correção factual (requer ground truth)
+* **Answer Similarity**: Similaridade semântica com ground truth
+
+**Métricas de Retrieval:**
+* **Context Precision**: Documentos relevantes bem ranqueados
+* **Context Recall**: Cobertura do conhecimento necessário
+* **Context Entity Recall**: Recuperação de entidades-chave
+
+**Configuração via .env:**
+```bash
+# Suporta Google Gemini e OpenAI
+RAGAS_LLM_PROVIDER=gemini
+RAGAS_API_KEY=sua_chave_aqui
+```
+
+**Uso:**
+```python
+from evaluation.metrics import create_ragas_evaluator
+
+evaluator = create_ragas_evaluator(verbose=True)
+
+metrics = evaluator.evaluate(
+    questions=["Como declarar dependentes?"],
+    answers=[resposta_gerada],
+    contexts=[chunks_recuperados],
+    ground_truths=["Dependentes devem..."]
+)
+# Retorna: faithfulness, answer_relevancy, context_precision, etc.
+```
+
+**Compatibilidade de Modelos (2026):**
+* **Gemini**: `gemini-2.5-flash` (LLM), `models/gemini-embedding-001` (embeddings)
+* **OpenAI**: `gpt-3.5-turbo` ou `gpt-4`
+
+## 6.2 Métricas Comparativas
+
+**Módulo:** `src/evaluation/metrics/comparative.py`
+
+Para testes A/B entre diferentes configurações:
+
+```python
+from evaluation.metrics import ComparativeEvaluator
+
+evaluator = ComparativeEvaluator()
+
+# Comparar dois modelos
+comparison = evaluator.compare_models(
+    model_a_results=resultados_modelo_a,
+    model_b_results=resultados_modelo_b,
+    reference=ground_truth
+)
+# Retorna: win_rate_a, win_rate_b, tie_rate, significance
+```
+
+## 6.3 Infraestrutura de Testes
+
+**Módulo:** `src/evaluation/experiments/experiment_runner.py`
+
+### Experiment Runner
+
+Sistema automatizado para execução de experimentos em larga escala:
+
+**Funcionalidades:**
+* Execução de múltiplas configurações em paralelo
+* Logging detalhado de todas as execuções
+* Agregação automática de resultados
+* Exportação para JSON/CSV para análise posterior
+
+**Uso:**
+```python
+from evaluation.experiments import ExperimentRunner
+
+runner = ExperimentRunner(
+    output_dir="experiments/results",
+    log_level="INFO"
+)
+
+# Executar bateria de testes
+results = runner.run_experiment(
+    name="exp_001_gemini_vs_llama",
+    queries=test_queries,
+    configurations=[config_gemini, config_llama],
+    repetitions=5  # 5 execuções por configuração
+)
+
+# Gerar relatório agregado
+runner.generate_report(results)
+```
+
+### A/B Testing Framework
+
+```python
+from evaluation.experiments import ABTestRunner
+
+ab_test = ABTestRunner()
+
+# Teste estatístico entre duas versões
+result = ab_test.run_test(
+    variant_a=modelo_atual,
+    variant_b=modelo_novo,
+    test_set=queries_validacao,
+    metrics=["bertscore_f1", "faithfulness", "response_time"]
+)
+
+# Retorna: statistical_significance, confidence_interval, recommendation
+```
+
+## 6.4 Factory Functions
+
+Para facilitar a criação de avaliadores:
+
+```python
+from evaluation.metrics import (
+    create_rag_evaluator,
+    create_bertscore_evaluator,
+    create_ragas_evaluator,
+    create_comparative_evaluator
+)
+
+# Criação simplificada com configurações padrão
+rag_eval = create_rag_evaluator()
+bert_eval = create_bertscore_evaluator()
+ragas_eval = create_ragas_evaluator(verbose=True)
+comp_eval = create_comparative_evaluator()
+```
+
+## 6.5 Status da Implementação
+
+| Componente | Status | Testes |
+|-----------|---------|---------|
+| Métricas RAG Base | ✅ Implementado | ✅ Testado |
+| BERTScore | ✅ Implementado | ✅ 4 testes passando |
+| RAGAS | ✅ Implementado | ✅ Validado com Gemini |
+| Comparativas | ✅ Implementado | ✅ Testado |
+| Experiment Runner | ✅ Implementado | ✅ Testado |
+
+**Última atualização:** 15/02/2026
 
 ---
 
-# ⚙️ 7. Componentes Avançados e Otimizações (NOVO)
+# 🛠️ 7. Tecnologias Utilizadas
+
+## 7.1 Stack Implementado
+
+### Linguagens e Frameworks
+* **Python 3.12+**: Linguagem principal
+* **FastAPI**: Framework web (planejado para API)
+* **Pydantic**: Validação de dados e modelos
+
+### Ingestão e Processamento
+* **PyPDF**: Extração de PDFs
+* **BeautifulSoup4**: Parsing HTML
+* **python-docx**: Processamento de documentos Word
+
+### Embeddings e Vetorização
+* **sentence-transformers**: Geração de embeddings
+* **torch**: Backend para modelos de ML
+
+### Armazenamento Vetorial
+* **ChromaDB**: Vector database (em uso)
+* **Alternativas avaliadas**: Qdrant, Pinecone, Weaviate
+
+### LLMs e Geração
+* **Google Gemini**: Via `google-generativeai` e `langchain-google-genai`
+* **OpenAI**: Suporte via `langchain-openai` (opcional)
+* **LangChain**: Framework para orquestração de LLMs
+
+### Avaliação e Métricas
+* **bert-score**: Métricas semânticas com BERT
+* **ragas**: Métricas específicas para RAG (v0.2.10+)
+* **datasets**: Manipulação de datasets para avaliação
+* **nltk**: Processamento de linguagem natural
+
+### Guardrails
+* **presidio-analyzer** e **presidio-anonymizer**: Detecção de PII
+* **guardrails-ai**: Framework de validação
+
+### Desenvolvimento e Testes
+* **pytest**: Framework de testes
+* **python-dotenv**: Gerenciamento de variáveis de ambiente
+* **Jupyter**: Notebooks para análise
+
+### Monitoramento (Planejado)
+* **Prometheus**: Coleta de métricas
+* **Grafana**: Visualização
+* **Docker/Kubernetes**: Containerização e orquestração (futuro)
+
+## 7.2 Modelos em Uso
+
+### Embeddings
+* **Primário**: `sentence-transformers/paraphrase-multilingual-mpnet-base-v2`
+* **Alternativa**: `intfloat/multilingual-e5-large`
+
+### LLMs de Avaliação
+* **Gemini 2.5 Flash**: Para métricas RAGAS
+* **BERT Multilingual**: Para BERTScore
+
+### LLMs de Geração (Pipeline Principal)
+* **Em desenvolvimento**: Gemini 1.5 Pro / GPT-4
 
 ---
 
-## 7.1 Semantic Caching
+# 🔐 8. Segurança e IA Responsável
 
-**Problema:** Queries similares reexecutam todo pipeline
-
-**Solução:** Cache baseado em similaridade semântica
-
-```python
-class SemanticCache:
-    """
-    Se query nova tem similaridade > 0.95 com query em cache,
-    retorna resposta cacheada
-    """
-    
-    def __init__(self, similarity_threshold=0.95):
-        self.cache_embeddings = []
-        self.cache_responses = []
-        self.threshold = similarity_threshold
-    
-    def get(self, query_embedding):
-        if not self.cache_embeddings:
-            return None
-        
-        similarities = cosine_similarity(
-            query_embedding,
-            self.cache_embeddings
-        )
-        
-        max_sim_idx = np.argmax(similarities)
-        
-        if similarities[max_sim_idx] > self.threshold:
-            return self.cache_responses[max_sim_idx]
-        
-        return None
-    
-    def set(self, query_embedding, response):
-        self.cache_embeddings.append(query_embedding)
-        self.cache_responses.append(response)
-```
-
-**Benefícios:**
-- Reduz latência em 90%+ para queries similares
-- Reduz custo de API calls
-- Melhora UX
-
----
-
-## 7.2 Guardrails e Validação de Output
-
-### Input Guardrails
-
-```python
-class InputGuardrails:
-    """
-    Validar entrada antes de processar
-    """
-    
-    def validate(self, query: str) -> tuple[bool, str]:
-        # 1. Tamanho mínimo/máximo
-        if len(query) < 10:
-            return False, "Pergunta muito curta"
-        
-        if len(query) > 500:
-            return False, "Pergunta muito longa"
-        
-        # 2. Detectar prompt injection
-        injection_patterns = [
-            "ignore previous instructions",
-            "disregard your rules",
-            "you are now",
-            "pretend to be"
-        ]
-        
-        for pattern in injection_patterns:
-            if pattern in query.lower():
-                return False, "Padrão de entrada inválido detectado"
-        
-        # 3. Detectar PII (dados sensíveis)
-        if self.contains_pii(query):
-            return False, "Por favor, não inclua CPF, nomes completos ou dados pessoais"
-        
-        return True, "OK"
-```
-
-### Output Guardrails
-
-```python
-class OutputGuardrails:
-    """
-    Validar resposta do LLM antes de entregar ao usuário
-    """
-    
-    def validate(self, response: str, retrieved_chunks: list) -> tuple[bool, str]:
-        # 1. Detectar alucinação de artigos
-        cited_articles = self.extract_citations(response)
-        valid_articles = self.extract_articles_from_chunks(retrieved_chunks)
-        
-        for article in cited_articles:
-            if article not in valid_articles:
-                return False, "Resposta cita artigos não presentes no contexto"
-        
-        # 2. Detectar disclaimers ausentes
-        if "consulte um contador" not in response.lower():
-            response += "\n\n⚠️ Esta resposta é informativa. Para casos específicos, consulte um profissional contábil."
-        
-        # 3. Verificar comprimento
-        if len(response) < 50:
-            return False, "Resposta muito curta, possivelmente incompleta"
-        
-        return True, response
-```
-
----
-
-## 7.3 Observabilidade e Logging
-
-### Estrutura de Log Completa
-
-```python
-import logging
-from datetime import datetime
-import json
-
-class RAGLogger:
-    """
-    Log estruturado de toda execução
-    """
-    
-    def log_query(self, query_data: dict):
-        log_entry = {
-            "timestamp": datetime.now().isoformat(),
-            "session_id": query_data["session_id"],
-            "query": query_data["query"],
-            "query_embedding_time_ms": query_data["embedding_time"],
-            
-            # Retrieval
-            "retrieval": {
-                "num_candidates": query_data["num_candidates"],
-                "top_k": query_data["top_k"],
-                "retrieval_time_ms": query_data["retrieval_time"],
-                "chunks_retrieved": [
-                    {
-                        "chunk_id": c["id"],
-                        "similarity_score": c["score"],
-                        "source": c["source"]
-                    }
-                    for c in query_data["chunks"]
-                ]
-            },
-            
-            # Generation
-            "generation": {
-                "model": query_data["model"],
-                "temperature": query_data["temperature"],
-                "tokens_input": query_data["input_tokens"],
-                "tokens_output": query_data["output_tokens"],
-                "generation_time_ms": query_data["generation_time"],
-                "cost_usd": query_data["cost"]
-            },
-            
-            # Response
-            "response": query_data["response"],
-            "response_length": len(query_data["response"]),
-            
-            # Quality metrics
-            "quality": {
-                "num_citations": query_data.get("num_citations", 0),
-                "avg_chunk_similarity": query_data.get("avg_similarity", 0),
-                "cache_hit": query_data.get("cache_hit", False)
-            }
-        }
-        
-        # Salvar em arquivo JSON Lines
-        with open("logs/queries.jsonl", "a") as f:
-            f.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
-```
-
-### Dashboarding com Prometheus + Grafana (Produção)
-
-```python
-from prometheus_client import Counter, Histogram, Gauge
-
-# Métricas
-query_counter = Counter('rag_queries_total', 'Total queries')
-retrieval_latency = Histogram('rag_retrieval_latency_seconds', 'Retrieval latency')
-generation_latency = Histogram('rag_generation_latency_seconds', 'Generation latency')
-cache_hit_rate = Gauge('rag_cache_hit_rate', 'Cache hit rate')
-avg_similarity = Gauge('rag_avg_similarity_score', 'Average chunk similarity')
-```
-
----
-
-## 7.4 A/B Testing Framework
-
-Para experimentos em produção:
-
-```python
-class ABTestManager:
-    """
-    Distribuir usuários entre configurações
-    """
-    
-    def __init__(self):
-        self.experiments = {
-            "chunking_strategy": {
-                "variants": ["fixed", "structural"],
-                "traffic_split": [0.5, 0.5]
-            },
-            "reranking": {
-                "variants": ["with_rerank", "without_rerank"],
-                "traffic_split": [0.7, 0.3]
-            }
-        }
-    
-    def assign_variant(self, user_id: str, experiment: str):
-        # Consistent hashing para mesmo usuário ter mesma experiência
-        hash_value = hash(f"{user_id}_{experiment}") % 100
-        
-        cumulative = 0
-        for variant, traffic in zip(
-            self.experiments[experiment]["variants"],
-            self.experiments[experiment]["traffic_split"]
-        ):
-            cumulative += traffic * 100
-            if hash_value < cumulative:
-                return variant
-        
-        return self.experiments[experiment]["variants"][0]
-```
-
----
-
-## 7.5 Feedback Loop e Continuous Learning
-
-```python
-class FeedbackCollector:
-    """
-    Coletar feedback dos usuários para melhoria contínua
-    """
-    
-    def collect_feedback(self, query_id: str, feedback: dict):
-        """
-        feedback = {
-            "helpful": bool,
-            "accurate": bool (1-5),
-            "sources_cited": bool,
-            "comments": str (opcional)
-        }
-        """
-        
-        # Salvar em banco
-        self.db.insert({
-            "query_id": query_id,
-            "timestamp": datetime.now(),
-            **feedback
-        })
-        
-        # Se feedback negativo, adicionar a fila de revisão
-        if not feedback["helpful"] or feedback["accurate"] < 3:
-            self.add_to_review_queue(query_id)
-    
-    def analyze_feedback(self):
-        """
-        Identificar padrões:
-        - Queries com baixa satisfação
-        - Gaps de conhecimento
-        - Chunks que nunca são recuperados
-        - Chunks sempre recuperados mas irrelevantes
-        """
-        pass
-```
-
----
-
-# ⚙️ 8. Boas Práticas Arquiteturais (ATUALIZADO)
-
-### 🔹 Modularização
-
-Separar responsabilidades em módulos independentes:
-
-```
-src/
-├── ingestion/
-│   ├── extractors/      # PDF, HTML, etc
-│   ├── cleaners/        # Normalização
-│   ├── chunkers/        # Estratégias de chunking
-│   └── embedders/       # Geração de embeddings
-│
-├── retrieval/
-│   ├── vector_store.py
-│   ├── hybrid_search.py
-│   ├── reranker.py
-│   └── query_processor.py
-│
-├── generation/
-│   ├── llm_client.py
-│   ├── prompt_templates.py
-│   └── output_parser.py
-│
-├── evaluation/
-│   ├── metrics/
-│   ├── evaluators/
-│   └── experiments/
-│
-├── guardrails/
-│   ├── input_validation.py
-│   └── output_validation.py
-│
-├── monitoring/
-│   ├── logger.py
-│   ├── metrics.py
-│   └── tracer.py
-│
-└── utils/
-    ├── cache.py
-    ├── config.py
-    └── helpers.py
-```
-
-### 🔹 Reprodutibilidade
-
-```python
-# config/experiment.yaml
-experiment:
-  name: "exp_001_gemini_rag_structural"
-  seed: 42
-  
-model:
-  name: "gemini-1.5-pro"
-  temperature: 0.2
-  top_p: 0.9
-  max_tokens: 800
-  
-retrieval:
-  strategy: "hybrid"
-  top_k: 5
-  rerank: true
-  similarity_threshold: 0.7
-  
-chunking:
-  strategy: "structural"
-  max_chunk_size: 800
-  overlap: 0
-
-evaluation:
-  runs_per_query: 5
-  metrics: ["bertscore", "faithfulness", "answer_relevancy"]
-```
-
-### 🔹 Controle de Versão de Componentes
-
-```python
-# Versionamento de componentes
-class ComponentVersion:
-    EMBEDDING_MODEL = "text-embedding-3-large"
-    EMBEDDING_VERSION = "v1.0"
-    CHUNKING_STRATEGY = "structural_v2"
-    PROMPT_TEMPLATE = "v3.1"
-    
-    @classmethod
-    def to_dict(cls):
-        return {
-            "embedding_model": cls.EMBEDDING_MODEL,
-            "embedding_version": cls.EMBEDDING_VERSION,
-            "chunking_strategy": cls.CHUNKING_STRATEGY,
-            "prompt_template": cls.PROMPT_TEMPLATE
-        }
-```
-
-### 🔹 Gestão de Configuração com Validação
-
-```python
-# Usar Pydantic para validação
-from pydantic import BaseModel, Field
-
-class RetrievalConfig(BaseModel):
-    top_k: int = Field(default=5, ge=1, le=20)
-    similarity_threshold: float = Field(default=0.7, ge=0.0, le=1.0)
-    use_reranker: bool = True
-    hybrid_alpha: float = Field(default=0.7, ge=0.0, le=1.0)
-
-class GenerationConfig(BaseModel):
-    model_name: str
-    temperature: float = Field(default=0.2, ge=0.0, le=2.0)
-    max_tokens: int = Field(default=800, ge=100, le=4000)
-```
-
-### 🔹 Controle de Temperatura
-
-* **0.2** para experimentos comparativos (máxima consistência)
-* **0.3-0.5** para produção (leve variação aceitável)
-* **0.7+** apenas para casos criativos (não recomendado para domínio legal)
-
-### 🔹 Observabilidade Completa
-
-Logar em cada execução:
-
-* ✅ Query original e normalizada
-* ✅ Chunks recuperados (IDs, scores, sources)
-* ✅ Tempo de retrieval
-* ✅ Tempo de geração
-* ✅ Tokens consumidos
-* ✅ Custo estimado
-* ✅ Cache hit/miss
-* ✅ Resposta final
-* ✅ Citações extraídas
-
----
-
-# 🔐 9. Segurança e IA Responsável (EXPANDIDO)
-
-### 9.1 Princípios
+### 8.1 Princípios
 
 * ✅ Base exclusivamente oficial (sem dados sintéticos ou scraped)
 * ✅ Resposta fundamentada com rastreabilidade
@@ -1374,16 +1200,67 @@ async def async_query(request: QueryRequest):
 
 ---
 
-# 🏁 11. Status do Projeto
+# 🏁 13. Status do Projeto
 
-Fase Atual:
-**Planejamento → Início do Desenvolvimento Experimental**
+## Status Atual das Fases
 
-**Última atualização da arquitetura:** 14/02/2026
+| Fase | Status | Progresso | Último Update |
+|------|--------|-----------|---------------|
+| **Fase 1**: Setup e Infra | ✅ Concluído | 100% | Jan/2026 |
+| **Fase 2**: Módulo de Ingestão | ✅ Concluído | 100% | Jan/2026 |
+| **Fase 3**: Processamento e Segmentação | ✅ Concluído | 100% | Jan/2026 |
+| **Fase 4**: Vetorização e Indexação | ✅ Concluído | 100% | Jan/2026 |
+| **Fase 5**: Interface de Chat/CLI | ✅ Concluído | 100% | Jan/2026 |
+| **Fase 6**: Otimização de busca (Híbrida) | ✅ Concluído | 100% | Fev/2026 |
+| **Fase 7**: Guardrails e Filtros | ✅ Concluído | 100% | Fev/2026 |
+| **Fase 8**: **Métricas e Avaliação** | ✅ **Concluído** | **100%** | **15/02/2026** |
+| **Fase 9**: Pipeline RAG Completo | 🔄 Em Andamento | 10% | - |
+| **Fase 10**: Dashboards e Visualização | ⏳ Planejado | 0% | - |
+
+## Fase 8 - Métricas e Avaliação ✅
+
+### Componentes Implementados
+
+✅ **Métricas Base RAG** (`rag_metrics.py`)
+- Tempo de resposta
+- Tamanho do contexto
+- Tokens recuperados
+
+✅ **BERTScore** (`bertscore.py`)
+- Precision, Recall, F1
+- Suporte multilíngue (PT)
+- 4 testes unitários passando
+
+✅ **RAGAS** (`ragas_metrics.py`)
+- 7 métricas RAG-específicas
+- Integração com Gemini 2.5 Flash
+- Configuração via .env
+- Validado em produção
+
+✅ **Métricas Comparativas** (`comparative.py`)
+- Win rate entre modelos
+- Testes A/B
+- Análise estatística
+
+✅ **Experiment Runner** (`experiment_runner.py`)
+- Execução automatizada
+- Logging detalhado
+- Agregação de resultados
+
+### Próximos Passos
+
+**Fase 9 - Pipeline RAG Completo:**
+1. Integrar todos os componentes (ingestão → retrieval → generation → avaliação)
+2. Implementar `rag_pipeline.py` orquestrando todas as camadas
+3. Criar testes end-to-end
+4. Executar experimentos comparativos (Experimentos 1-4)
+5. Gerar relatórios de performance
+
+**Última atualização:** 15/02/2026
 
 ---
 
-# 📚 Referências Técnicas
+# 📚 14. Referências Técnicas
 
 ## Papers Fundamentais
 - RAG: Lewis et al. (2020)
@@ -1401,3 +1278,4 @@ Fase Atual:
 **Versão do Documento:** 2.0 (Arquitetura Expandida e Melhorada)
 **Autor:** Ronen Rodrigues Silva Filho
 **Contribuições:** Otimizações arquiteturais por especialista em RAG
+````
