@@ -17,9 +17,8 @@ from ingestion.vector_store import VectorStore
 from retrieval.hybrid_retriever import HybridRetriever
 from retrieval.dense_retriever import DenseRetriever
 from retrieval.bm25_retriever import BM25Retriever
-from generation.llm_client import LLMClient, create_llm_client
-from generation.prompts import PromptManager, create_prompt_manager
-from generation.output_parser import OutputParser, create_output_parser
+from generation import create_llm_client, PromptManager, create_prompt_manager
+from generation import OutputParser, create_output_parser
 
 
 def test_rag_pipeline():
