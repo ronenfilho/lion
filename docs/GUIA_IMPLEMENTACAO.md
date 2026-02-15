@@ -730,7 +730,7 @@ class RAGPipeline:
 - [x] src/retrieval/hybrid_retriever.py (RRF + weighted fusion, 70% dense / 30% BM25)
 - [ ] src/retrieval/reranker.py (cross-encoder para reordenar resultados)
 - [ ] Testar e comparar performance dos retrievers
-📝 Commit: [pendente] - "feat: implementa sistema de retrieval (dense, BM25, hybrid)"
+📝 Commit: db17679 - "feat: implementa sistema de retrieval (dense, BM25, hybrid)"
 
 ## 🔄 Fase 6: Geração de Respostas (0% - 0/3)
 - [ ] src/generation/llm_client.py (Google Gemini)
