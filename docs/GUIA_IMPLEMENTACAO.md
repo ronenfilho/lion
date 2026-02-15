@@ -722,7 +722,7 @@ class RAGPipeline:
 - [x] src/ingestion/vector_store.py (ChromaDB com persistência, busca e filtros)
 📝 Commit: 7da3c3e - "feat: implementa módulo de ingestão com extractors e chunkers"
 📝 Commit: aac8d85 - "feat: adiciona embeddings pipeline com Google Gemini"
-📝 Commit: [pendente] - "feat: adiciona vector store com ChromaDB"
+📝 Commit: 55abc1b - "feat: adiciona vector store com ChromaDB"
 
 ## 🔄 Fase 5: Sistema de Retrieval (0% - 0/5)
 - [ ] src/retrieval/vector_store.py (abstração)
