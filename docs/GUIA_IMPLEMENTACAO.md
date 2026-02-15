@@ -685,7 +685,19 @@ class RAGPipeline:
 
 ## ✅ Checklist de Implementação - Status Atualizado
 
-### 📊 Progresso Geral: 85% Completo (29/34 tarefas)
+### 📊 Progresso Geral: 91% Completo (32/35 tarefas)
+
+**Fases Completas:**
+- ✅ Fase 1: Setup Inicial (6/6)
+- ✅ Fase 2: Configuração (6/6)
+- ✅ Fase 3: Ambiente Python (2/2)
+- ✅ Fase 4: Ingestão (6/6)
+- 🔄 Fase 5: Retrieval (3/5) - 60%
+- ✅ Fase 6: Geração (3/3)
+- ✅ Fase 7: Guardrails (3/3)
+- ✅ Fase 8: Avaliação (5/5)
+- 🔄 Fase 9: Pipeline Completo (0/3)
+- 🔄 Fase 10: Experimentos (0/3)
 
 ```markdown
 ## ✅ Fase 1: Setup Inicial (100% - 6/6)
@@ -742,10 +754,12 @@ class RAGPipeline:
 - [x] src/guardrails/input_validator.py (PII, prompt injection) - Commit: d199133
 - [x] src/guardrails/output_validator.py (citações, relevância) - Commit: d199133
 
-## 🔄 Fase 8: Avaliação (0% - 0/3)
-- [ ] src/evaluation/metrics/bertscore.py
-- [ ] src/evaluation/metrics/ragas_metrics.py
-- [ ] src/evaluation/experiments/runner.py
+## ✅ Fase 8: Avaliação (100% - 5/5)
+- [x] src/evaluation/metrics/rag_metrics.py (precision, recall, MRR, faithfulness, hallucination) - Commit: 01c505c
+- [x] src/evaluation/metrics/comparative_metrics.py (ComparativeEvaluator, A/B testing) - Commit: 01c505c
+- [x] src/evaluation/experiments/runner.py (automated experiment execution) - Commit: 01c505c
+- [x] src/evaluation/metrics/bertscore.py (similaridade semântica BERT-based)
+- [x] src/evaluation/metrics/ragas_metrics.py (métricas RAG-específicas)
 
 ## 🔄 Fase 9: Pipeline RAG Completo (0% - 0/3)
 - [ ] src/pipeline/rag_pipeline.py (integração completa)

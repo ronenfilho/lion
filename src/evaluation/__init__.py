@@ -18,6 +18,18 @@ from .metrics.comparative_metrics import (
     create_comparative_evaluator
 )
 
+from .metrics.bertscore import (
+    BERTScoreEvaluator,
+    BERTScoreResult,
+    create_bertscore_evaluator
+)
+
+from .metrics.ragas_metrics import (
+    RAGASEvaluator,
+    RAGASMetrics,
+    create_ragas_evaluator
+)
+
 from .experiments.runner import (
     ExperimentRunner,
     ExperimentConfig,
@@ -40,6 +52,16 @@ __all__ = [
     'RunResult',
     'ComparisonReport',
     'create_comparative_evaluator',
+    
+    # BERTScore
+    'BERTScoreEvaluator',
+    'BERTScoreResult',
+    'create_bertscore_evaluator',
+    
+    # RAGAS
+    'RAGASEvaluator',
+    'RAGASMetrics',
+    'create_ragas_evaluator',
     
     # Experiment Runner
     'ExperimentRunner',

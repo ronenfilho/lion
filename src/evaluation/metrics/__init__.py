@@ -12,6 +12,8 @@ from .comparative_metrics import (
     ComparisonReport,
     create_comparative_evaluator
 )
+from .bertscore import BERTScoreEvaluator, BERTScoreResult, create_bertscore_evaluator
+from .ragas_metrics import RAGASEvaluator, RAGASMetrics, create_ragas_evaluator
 
 
 __all__ = [
@@ -24,4 +26,10 @@ __all__ = [
     'RunResult',
     'ComparisonReport',
     'create_comparative_evaluator',
+    'BERTScoreEvaluator',
+    'BERTScoreResult',
+    'create_bertscore_evaluator',
+    'RAGASEvaluator',
+    'RAGASMetrics',
+    'create_ragas_evaluator',
 ]
