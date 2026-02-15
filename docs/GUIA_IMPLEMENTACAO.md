@@ -685,7 +685,7 @@ class RAGPipeline:
 
 ## ✅ Checklist de Implementação - Status Atualizado
 
-### 📊 Progresso Geral: 41% Completo (14/34 tarefas)
+### 📊 Progresso Geral: 53% Completo (18/34 tarefas)
 
 ```markdown
 ## ✅ Fase 1: Setup Inicial (100% - 6/6)
@@ -713,13 +713,15 @@ class RAGPipeline:
 - [x] Sistema de configuração testado e validado ✓
 📝 Commit: ede83f1 - "feat: implementar sistema de configuração e estrutura base"
 
-## 🔄 Fase 4: Ingestão de Dados (0% - 0/6)
-- [ ] src/ingestion/extractors/pdf_extractor.py
-- [ ] src/ingestion/extractors/text_cleaner.py
-- [ ] src/ingestion/chunking/structural_chunker.py
-- [ ] src/ingestion/chunking/qa_chunker.py
-- [ ] src/ingestion/embeddings_pipeline.py
+## ✅ Fase 4: Ingestão de Dados (67% - 4/6)
+- [x] src/ingestion/extractors/pdf_extractor.py (PyMuPDF + detecção estrutural)
+- [x] src/ingestion/extractors/html_extractor.py (BeautifulSoup4 + encoding automático)
+- [x] src/ingestion/extractors/text_cleaner.py (normalização + limpeza legal)
+- [x] src/ingestion/chunking/structural_chunker.py (99.3% qualidade, validado com 1.07M chars)
+- [ ] src/ingestion/chunking/qa_chunker.py (opcional)
+- [ ] src/ingestion/embeddings_pipeline.py (text-embedding-004)
 - [ ] Configurar ChromaDB local
+📝 Commit: 7da3c3e - "feat: implementa módulo de ingestão com extractors e chunkers"
 
 ## 🔄 Fase 5: Sistema de Retrieval (0% - 0/5)
 - [ ] src/retrieval/vector_store.py (abstração)
@@ -758,23 +760,33 @@ class RAGPipeline:
 
 ## 🎯 PRÓXIMO PASSO RECOMENDADO
 
-### ➡️ Fase 4: Implementar Módulo de Ingestão
+### ➡️ Fase 4: Implementar Embeddings Pipeline
 
-**Começar com: PDF Extractor** 
+**Começar com: Embeddings Pipeline** 
 
-O primeiro componente funcional será `src/ingestion/extractors/pdf_extractor.py` para processar documentos IRPF.
+O próximo componente será `src/ingestion/embeddings_pipeline.py` para gerar embeddings dos chunks usando Google text-embedding-004.
 
 **O que implementar:**
-```bash
-cd /home/decode/workspace/lion
-python3 -m venv venv
-source venv/bin/activate
+```python
+# src/ingestion/embeddings_pipeline.py
+class EmbeddingsPipeline:
+    def __init__(self, model_name: str, batch_size: int = 32):
+        """Pipeline de geração de embeddings"""
+        
+    def generate_embeddings(self, chunks: List[DocumentChunk]) -> List[np.ndarray]:
+        """Gera embeddings em lote para chunks"""
+        
+    def save_embeddings(self, chunks, embeddings, output_path):
+        """Salva chunks + embeddings em formato pickle/json"""
 ```
 
-2. **Instalar dependências:**
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
+**Configuração ChromaDB:**
+```python
+# Após embeddings, configurar ChromaDB:
+# 1. Inicializar cliente local
+# 2. Criar collection com metadata
+# 3. Inserir chunks + embeddings
+# 4. Testar retrieval
 ```
 
 3. **Configurar variáveis de ambiente:**
