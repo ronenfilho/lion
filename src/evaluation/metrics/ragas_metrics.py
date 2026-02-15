@@ -3,6 +3,7 @@ RAGAS Evaluator - LION
 Métricas RAG-específicas usando biblioteca RAGAS
 """
 
+import os
 from typing import List, Dict, Optional, Any
 from dataclasses import dataclass, asdict
 import warnings
@@ -14,15 +15,16 @@ try:
         faithfulness,
         context_precision,
         context_recall,
-        context_relevancy,
+        context_entity_recall,
         answer_correctness,
         answer_similarity
     )
     from datasets import Dataset
     RAGAS_AVAILABLE = True
-except ImportError:
+except ImportError as e:
     RAGAS_AVAILABLE = False
-    print("⚠️  ragas não instalado. Execute: pip install ragas datasets")
+    print(f"⚠️  ragas não instalado corretamente: {e}")
+    print("Execute: pip install ragas datasets")
 
 
 @dataclass
@@ -37,7 +39,7 @@ class RAGASMetrics:
     # Retrieval quality
     context_precision: Optional[float] = None  # Contexto relevante está ranqueado alto?
     context_recall: Optional[float] = None  # Todo contexto relevante foi recuperado?
-    context_relevancy: Optional[float] = None  # Contexto recuperado é relevante?
+    context_entity_recall: Optional[float] = None  # Entidades do contexto recuperadas?
     
     # Metadata
     num_samples: int = 1
@@ -59,7 +61,7 @@ class RAGASEvaluator:
     Retrieval Metrics:
     - context_precision: Contexto relevante está bem ranqueado?
     - context_recall: Todo contexto relevante foi recuperado?
-    - context_relevancy: O contexto recuperado é relevante para a pergunta?
+    - context_entity_recall: Entidades do contexto foram recuperadas?
     """
     
     def __init__(
@@ -72,7 +74,7 @@ class RAGASEvaluator:
         Inicializa avaliador RAGAS.
         
         Args:
-            llm_provider: LLM para métricas que requerem (opcional)
+            llm_provider: LLM para métricas que requerem (opcional, usa env se None)
             embeddings_provider: Embeddings para métricas que requerem (opcional)
             verbose: Se True, imprime detalhes
         """
@@ -82,9 +84,91 @@ class RAGASEvaluator:
                 "Execute: pip install ragas datasets"
             )
         
+        # Definir verbose antes de usá-lo
+        self.verbose = verbose
+        
+        # Configurar LLM a partir do .env se não fornecido
+        if llm_provider is None:
+            llm_provider = self._setup_llm_from_env()
+        
         self.llm_provider = llm_provider
         self.embeddings_provider = embeddings_provider
-        self.verbose = verbose
+    
+    def _setup_llm_from_env(self) -> Optional[Any]:
+        """
+        Configura LLM provider a partir das variáveis de ambiente.
+        
+        Suporta:
+        - RAGAS_LLM_PROVIDER=gemini (usa RAGAS_API_KEY ou GEMINI_API_KEY)
+        - RAGAS_LLM_PROVIDER=openai (usa RAGAS_API_KEY ou OPENAI_API_KEY)
+        
+        Returns:
+            LLM provider configurado ou None
+        """
+        from dotenv import load_dotenv
+        load_dotenv()
+        
+        ragas_provider = os.getenv('RAGAS_LLM_PROVIDER', 'gemini').lower()
+        
+        # Buscar API key (prioriza RAGAS_API_KEY, depois a específica do provider)
+        api_key = os.getenv('RAGAS_API_KEY')
+        
+        if ragas_provider == 'gemini':
+            api_key = api_key or os.getenv('GEMINI_API_KEY')
+            
+            if api_key:
+                try:
+                    from langchain_google_genai import ChatGoogleGenerativeAI
+                    
+                    llm = ChatGoogleGenerativeAI(
+                        model="gemini-2.0-flash-exp",
+                        google_api_key=api_key,
+                        temperature=0.2
+                    )
+                    
+                    if self.verbose:
+                        print("✅ RAGAS configurado com Google Gemini")
+                    
+                    return llm
+                    
+                except ImportError:
+                    if self.verbose:
+                        print("⚠️  langchain-google-genai não instalado")
+                        print("   Execute: pip install langchain-google-genai")
+                except Exception as e:
+                    if self.verbose:
+                        print(f"⚠️  Erro ao configurar Gemini: {e}")
+        
+        elif ragas_provider == 'openai':
+            api_key = api_key or os.getenv('OPENAI_API_KEY')
+            
+            if api_key:
+                try:
+                    from langchain_openai import ChatOpenAI
+                    
+                    llm = ChatOpenAI(
+                        model="gpt-3.5-turbo",
+                        api_key=api_key,
+                        temperature=0.2
+                    )
+                    
+                    if self.verbose:
+                        print("✅ RAGAS configurado com OpenAI")
+                    
+                    return llm
+                    
+                except ImportError:
+                    if self.verbose:
+                        print("⚠️  langchain-openai não instalado")
+                except Exception as e:
+                    if self.verbose:
+                        print(f"⚠️  Erro ao configurar OpenAI: {e}")
+        
+        if self.verbose:
+            print("⚠️  Nenhum LLM configurado para RAGAS")
+            print(f"   Configure RAGAS_LLM_PROVIDER e RAGAS_API_KEY no .env")
+        
+        return None
     
     def evaluate(
         self,
@@ -135,20 +219,29 @@ class RAGASEvaluator:
         
         # Avaliar
         try:
-            result = evaluate(
-                dataset=dataset,
-                metrics=selected_metrics
-            )
+            # Passar LLM se disponível
+            eval_kwargs = {
+                'dataset': dataset,
+                'metrics': selected_metrics
+            }
             
-            # Extrair scores
+            if self.llm_provider:
+                eval_kwargs['llm'] = self.llm_provider
+            
+            if self.embeddings_provider:
+                eval_kwargs['embeddings'] = self.embeddings_provider
+            
+            result = evaluate(**eval_kwargs)
+            
+            # Extrair scores (result é dict-like ou tem atributos)
             metrics_dict = {
-                'answer_relevancy': result.get('answer_relevancy'),
-                'faithfulness': result.get('faithfulness'),
-                'answer_correctness': result.get('answer_correctness'),
-                'answer_similarity': result.get('answer_similarity'),
-                'context_precision': result.get('context_precision'),
-                'context_recall': result.get('context_recall'),
-                'context_relevancy': result.get('context_relevancy'),
+                'answer_relevancy': getattr(result, 'answer_relevancy', None) or result.get('answer_relevancy'),
+                'faithfulness': getattr(result, 'faithfulness', None) or result.get('faithfulness'),
+                'answer_correctness': getattr(result, 'answer_correctness', None) or result.get('answer_correctness'),
+                'answer_similarity': getattr(result, 'answer_similarity', None) or result.get('answer_similarity'),
+                'context_precision': getattr(result, 'context_precision', None) or result.get('context_precision'),
+                'context_recall': getattr(result, 'context_recall', None) or result.get('context_recall'),
+                'context_entity_recall': getattr(result, 'context_entity_recall', None) or result.get('context_entity_recall'),
                 'num_samples': len(questions)
             }
             
@@ -246,7 +339,7 @@ class RAGASEvaluator:
         # Para RAGAS, precisamos de answers dummy
         dummy_answers = ["Resposta placeholder"] * len(questions)
         
-        metrics = ['context_precision', 'context_relevancy']
+        metrics = ['context_precision', 'context_entity_recall']
         
         if ground_truths:
             metrics.append('context_recall')
@@ -262,7 +355,7 @@ class RAGASEvaluator:
         return {
             'context_precision': result.context_precision,
             'context_recall': result.context_recall,
-            'context_relevancy': result.context_relevancy
+            'context_entity_recall': result.context_entity_recall
         }
     
     def _select_metrics(
@@ -286,14 +379,14 @@ class RAGASEvaluator:
             'faithfulness': faithfulness,
             'context_precision': context_precision,
             'context_recall': context_recall,
-            'context_relevancy': context_relevancy,
+            'context_entity_recall': context_entity_recall,
             'answer_correctness': answer_correctness,
             'answer_similarity': answer_similarity
         }
         
         # Se não especificou, usar métricas básicas
         if metric_names is None:
-            metric_names = ['answer_relevancy', 'faithfulness', 'context_relevancy']
+            metric_names = ['answer_relevancy', 'faithfulness', 'context_entity_recall']
             
             # Adicionar métricas que requerem ground truth
             if has_ground_truth:
@@ -430,6 +523,8 @@ if __name__ == "__main__":
     ]
     
     print("📝 Teste 1: Avaliação completa (com ground truth)")
+    print("   Tentando usar LLM configurado no .env...\n")
+    
     try:
         result = evaluator.evaluate(
             questions=questions,
@@ -438,38 +533,50 @@ if __name__ == "__main__":
             ground_truths=ground_truths
         )
         
+        print(f"   ✅ Avaliação completa com sucesso!")
         print(f"   Answer Relevancy:  {result.answer_relevancy:.3f}")
         print(f"   Faithfulness:      {result.faithfulness:.3f}")
-        print(f"   Context Relevancy: {result.context_relevancy:.3f}")
         
         if result.context_precision:
             print(f"   Context Precision: {result.context_precision:.3f}")
         if result.context_recall:
             print(f"   Context Recall:    {result.context_recall:.3f}")
+        if result.context_entity_recall:
+            print(f"   Context Entity:    {result.context_entity_recall:.3f}")
         
-        print(f"   Samples:           {result.num_samples}")
-        print(f"   ✅ Avaliação completa\n")
+        print(f"   Samples:           {result.num_samples}\n")
         
     except Exception as e:
         print(f"   ⚠️  Erro na avaliação: {e}")
-        print(f"   (RAGAS pode requerer configuração de LLM)\n")
+        print(f"   Configure RAGAS_LLM_PROVIDER e RAGAS_API_KEY no .env\n")
     
-    print("📝 Teste 2: Avaliação sem ground truth")
-    try:
-        result2 = evaluator.evaluate(
-            questions=questions,
-            answers=answers,
-            contexts=contexts
-        )
-        
-        print(f"   Answer Relevancy:  {result2.answer_relevancy:.3f}")
-        print(f"   Faithfulness:      {result2.faithfulness:.3f}")
-        print(f"   Context Relevancy: {result2.context_relevancy:.3f}")
-        print(f"   ✅ Avaliação sem ground truth\n")
-        
-    except Exception as e:
-        print(f"   ⚠️  Erro: {e}")
-        print(f"   (RAGAS requer OpenAI API key ou LLM configurado)\n")
+    print("📝 Exemplo de configuração no .env:")
+    print("""
+    # No arquivo .env:
+    RAGAS_LLM_PROVIDER=gemini  # ou openai
+    RAGAS_API_KEY=sua-chave-aqui
+    
+    # Ou use as variáveis específicas:
+    GEMINI_API_KEY=sua-chave-gemini
+    OPENAI_API_KEY=sua-chave-openai
+    
+    # Exemplo de uso em código:
+    from evaluation.metrics import create_ragas_evaluator
+    
+    # Cria avaliador (usa .env automaticamente)
+    evaluator = create_ragas_evaluator(verbose=True)
+    
+    # Avaliar
+    result = evaluator.evaluate(
+        questions=['Como declarar aposentadoria?'],
+        answers=['Aposentadoria deve ser declarada como rendimento tributável...'],
+        contexts=[['Aposentadoria é rendimento tributável...']],
+        ground_truths=['Aposentadoria é declarada como rendimento tributável.']
+    )
+    
+    print(f'Answer Relevancy: {result.answer_relevancy:.3f}')
+    print(f'Faithfulness: {result.faithfulness:.3f}')
+    """)
     
     print("=" * 80)
     print("✅ Testes RAGAS concluídos")
