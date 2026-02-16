@@ -5,6 +5,7 @@ Sistema para execução de experimentos comparativos do RAG
 
 import json
 import argparse
+import logging
 from pathlib import Path
 from typing import List, Dict, Optional, Any
 from datetime import datetime
@@ -52,6 +53,9 @@ class ExperimentRunner:
         self.raw_dir.mkdir(parents=True, exist_ok=True)
         self.analysis_dir.mkdir(parents=True, exist_ok=True)
         
+        # Configurar logging
+        self._setup_logging()
+        
         # Inicializar componentes base
         self.vector_store = create_vector_store()
         self.embeddings = create_embeddings_pipeline()
@@ -61,10 +65,35 @@ class ExperimentRunner:
         self.ragas_evaluator = create_ragas_evaluator()
         self.bert_evaluator = BERTScoreEvaluator()
         
+        logging.info("ExperimentRunner inicializado")
+        logging.info(f"Dataset: {len(self.dataset['questions'])} perguntas")
+        logging.info(f"Resultados raw: {self.raw_dir}")
+        logging.info(f"Análises: {self.analysis_dir}")
+        
         print(f"✅ ExperimentRunner inicializado")
         print(f"   Dataset: {len(self.dataset['questions'])} perguntas")
         print(f"   Resultados raw: {self.raw_dir}")
         print(f"   Análises: {self.analysis_dir}")
+    
+    def _setup_logging(self):
+        """Configura logging para arquivo e console"""
+        log_dir = Path("logs")
+        log_dir.mkdir(exist_ok=True)
+        
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        log_file = log_dir / f"{timestamp}_experiments.log"
+        
+        # Configurar logging
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(asctime)s - %(levelname)s - %(message)s',
+            handlers=[
+                logging.FileHandler(log_file, encoding='utf-8'),
+                logging.StreamHandler()
+            ]
+        )
+        
+        logging.info(f"Log iniciado: {log_file}")
     
     def _load_dataset(self, path: str) -> Dict:
         """Carrega dataset de teste"""
@@ -113,6 +142,13 @@ class ExperimentRunner:
         Returns:
             Resultados agregados com métricas
         """
+        logging.info("="*70)
+        logging.info(f"Experimento: {experiment_name}")
+        logging.info("="*70)
+        logging.info("Configuração:")
+        for key, value in config.items():
+            logging.info(f"  {key}: {value}")
+        
         print(f"\n{'='*70}")
         print(f"🧪 Experimento: {experiment_name}")
         print(f"{'='*70}")
@@ -214,6 +250,14 @@ class ExperimentRunner:
         output_path = self.raw_dir / f'{experiment_name}_{timestamp}.json'
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=2, ensure_ascii=False)
+        
+        logging.info("Experimento concluído!")
+        logging.info(f"Resultados: {output_path}")
+        logging.info(f"Sucesso: {output_data['successful_queries']}/{len(questions)}")
+        logging.info("Métricas Agregadas:")
+        for metric, value in sorted(aggregated.items()):
+            if isinstance(value, (int, float)):
+                logging.info(f"  {metric}: {value:.4f}")
         
         print(f"\n✅ Experimento concluído!")
         print(f"   Resultados: {output_path}")
@@ -518,6 +562,11 @@ class ExperimentRunner:
         summary_path = self.raw_dir / f'{experiment_type}_summary_{timestamp}.json'
         with open(summary_path, 'w', encoding='utf-8') as f:
             json.dump(summary, f, indent=2, ensure_ascii=False)
+        
+        logging.info("="*70)
+        logging.info("Todos os experimentos concluídos!")
+        logging.info(f"Sumário: {summary_path}")
+        logging.info("="*70)
         
         print(f"\n{'='*70}")
         print(f"✅ Todos os experimentos concluídos!")

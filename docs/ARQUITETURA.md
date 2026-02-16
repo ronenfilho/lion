@@ -1177,7 +1177,7 @@ async def async_query(request: QueryRequest):
 │
 ├── 📂 scripts/
 │   ├── setup_database.py
-│   ├── run_experiments.py
+│   ├── 3_run_experiments.py
 │   └── generate_report.py
 │
 ├── .env.example

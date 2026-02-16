@@ -157,7 +157,7 @@ print(result['chunks'])
 
 ```bash
 # Rodar experimento específico
-python scripts/run_experiments.py --config experiments/configs/exp_001_gemini_rag.yaml
+python scripts/3_run_experiments.py --config experiments/configs/exp_001_gemini_rag.yaml
 
 # Analisar resultados
 python scripts/generate_report.py --experiment exp_001

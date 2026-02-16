@@ -561,7 +561,7 @@ def main():
     print(f"   3. Ingerir Manual RFB no vector store:")
     print(f"      python scripts/ingest_manual_rfb.py")
     print(f"   4. Executar experimentos:")
-    print(f"      python scripts/run_experiments.py --dataset {output_path}")
+    print(f"      python scripts/3_run_experiments.py --dataset {output_path}")
 
 
 if __name__ == '__main__':

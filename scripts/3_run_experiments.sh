@@ -8,4 +8,4 @@ source /home/decode/workspace/lion/venv/bin/activate
 export PYTHONPATH="/home/decode/workspace/lion:$PYTHONPATH"
 
 # Executar script Python
-python scripts/4_run_experiments.py "$@"
+python scripts/3_run_experiments.py "$@"

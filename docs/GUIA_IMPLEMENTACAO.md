@@ -1386,7 +1386,7 @@ model = "Qwen/Qwen-0.5B-Chat"
 
 ### Implementação
 
-#### Adicionar ao `scripts/run_experiments.py`
+#### Adicionar ao `scripts/3_run_experiments.py`
 
 ```python
 elif experiment_type == 'model_comparison':
@@ -1464,10 +1464,10 @@ class LocalLLMClient:
 
 ```bash
 # Teste com 1 pergunta
-python scripts/run_experiments.py --experiment model_comparison --max-questions 1
+python scripts/3_run_experiments.py --experiment model_comparison --max-questions 1
 
 # Experimento completo
-python scripts/run_experiments.py --experiment model_comparison --max-questions 30
+python scripts/3_run_experiments.py --experiment model_comparison --max-questions 30
 
 # Analisar resultados
 python scripts/analyze_results.py --experiment model_comparison --compare --statistical-test
@@ -1562,7 +1562,7 @@ Query → Classifier (complexidade) →
     - TinyLlama CPU: F1=0.602, 236s, faithfulness=0.346 ❌
     - **Conclusão**: Sem GPU, usar Gemini Flash exclusivamente
     - **Ação**: Re-executar com GPU + quantização 4-bit antes de decisão híbrida
-  - Scripts: `run_experiments.py` (701 linhas), `analyze_results.py` (817 linhas), `local_llm_client.py` (264 linhas)
+  - Scripts: `3_run_experiments.py` (701 linhas), `4_analyze_results.py` (817 linhas), `local_llm_client.py` (264 linhas)
   - Relatórios: 4 análises detalhadas + resumo consolidado
 - ✅ **Fase 9 Completa:** Pipeline RAG totalmente integrado e testado
   - RAGPipeline: 676 linhas integrando 11 componentes
