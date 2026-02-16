@@ -75,20 +75,19 @@ class ExperimentRunner:
         """
         Retorna exemplos para few-shot learning.
         
-        Usa as últimas 2 perguntas (29 e 30) do dataset como exemplos.
+        Usa a última pergunta (30) do dataset como exemplo.
         
         Returns:
             Lista de dicts com 'question' e 'answer'
         """
         examples = []
-        # Perguntas 29 e 30 (índices 28 e 29)
-        for i in [28, 29]:
-            if i < len(self.dataset['questions']):
-                qa = self.dataset['questions'][i]
-                examples.append({
-                    'question': qa['question'],
-                    'answer': qa['ground_truth']
-                })
+        # Pergunta 30 (índice 29)
+        if len(self.dataset['questions']) > 29:
+            qa = self.dataset['questions'][29]
+            examples.append({
+                'question': qa['question'],
+                'answer': qa['ground_truth']
+            })
         return examples
     
     def run_experiment(
@@ -164,10 +163,10 @@ class ExperimentRunner:
         # Processar perguntas
         questions = self.dataset['questions']
         
-        # Se usar few-shot, excluir as últimas 2 perguntas (29 e 30) do processamento
+        # Se usar few-shot, excluir a última pergunta (30) do processamento
         if config.get('use_few_shot', False):
-            # Processar apenas as primeiras 28 perguntas
-            questions = questions[:28]
+            # Processar apenas as primeiras 29 perguntas
+            questions = questions[:29]
         
         if max_questions:
             questions = questions[:max_questions]
