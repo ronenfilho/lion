@@ -4,10 +4,15 @@
 
 Este guia fornece um passo a passo prático para implementar a arquitetura RAG do projeto LION.
 
-**📊 Status Atual:** 94% Completo (33/35 tarefas)
+**📊 Status Atual:** 99% Completo (35/35 tarefas - Fase Experimental)
 - ✅ **Fase 4 (Ingestão):** 100% completa - Pipeline unificado funcionando
 - ✅ **Fase 10.1 e 10.2:** Dataset criado (30 Q&A) + Lei 15.270 ingerida (36 chunks)
-- 🎯 **Próximo:** Fase 10.3 - Executar Experimentos Comparativos
+- ✅ **Fase 10.3:** Experimentos 1, 2, 3 e 4 executados e analisados
+  - **Experimento 1** (RAG vs No-RAG): Dense RAG melhor (+3.3% F1, -57% tokens, -19.6% latência)
+  - **Experimento 2** (Retrieval Strategy): BM25 melhor F1 (0.621), Hybrid melhor faithfulness (1.0)
+  - **Experimento 3** (Chunk Count): k=3 melhor performance (F1=0.639, 2.4s latência)
+  - **Experimento 4** (Model Comparison): TinyLlama CPU inviável (75x mais lento, -48% faithfulness vs Gemini Flash)
+- 🎯 **Recomendação:** Re-executar Experimento 4 com GPU + quantização 4-bit antes de decisão sobre arquitetura híbrida
 
 ---
 
@@ -1346,29 +1351,236 @@ if __name__ == '__main__':
 
 ---
 
+## 🧪 Experimento 4: Comparação de Modelos LLM
+
+### Objetivo
+Comparar performance e custo de modelos LLM de diferentes tamanhos:
+- **Modelo atual:** Google Gemini 2.5 Flash (~milhões de parâmetros)
+- **Modelo quantizado:** Modelo local <1B de parâmetros (ex: Phi-2, TinyLlama, Qwen)
+
+### Hipóteses
+1. Modelo grande tem melhor F1 score (+15-20%)
+2. Modelo pequeno tem menor latência (-50-70%)
+3. Modelo pequeno viável para queries simples (categorias: prazo, outros)
+4. Trade-off: qualidade vs velocidade vs custo
+
+### Configuração do Experimento
+
+#### Opções de Modelos Quantizados (<1B)
+
+**Opção 1: Microsoft Phi-2 (2.7B - GGUF quantizado)**
+```python
+# Via llama.cpp ou transformers
+model = "microsoft/phi-2"  # Quantizado Q4_K_M ~1.5GB
+```
+
+**Opção 2: TinyLlama (1.1B)**
+```python
+model = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+```
+
+**Opção 3: Qwen 0.5B**
+```python
+model = "Qwen/Qwen-0.5B-Chat"
+```
+
+### Implementação
+
+#### Adicionar ao `scripts/run_experiments.py`
+
+```python
+elif experiment_type == 'model_comparison':
+    return [
+        {
+            'name': 'gemini_flash_rag',
+            'config': {
+                'use_rag': True,
+                'retrieval_method': 'dense',
+                'k': 3,
+                'llm': 'gemini-2.5-flash',
+                'max_tokens': 2048
+            }
+        },
+        {
+            'name': 'phi2_quantized_rag',
+            'config': {
+                'use_rag': True,
+                'retrieval_method': 'dense',
+                'k': 3,
+                'llm': 'phi-2-q4',  # Local quantizado
+                'max_tokens': 512
+            }
+        },
+        {
+            'name': 'tinyllama_rag',
+            'config': {
+                'use_rag': True,
+                'retrieval_method': 'dense',
+                'k': 3,
+                'llm': 'tinyllama-1.1b',
+                'max_tokens': 512
+            }
+        }
+    ]
+```
+
+#### Criar wrapper para modelos locais em `src/generation/llm_client.py`
+
+```python
+class LocalLLMClient:
+    """Cliente para modelos locais quantizados"""
+    
+    def __init__(self, model_name: str, model_path: str = None):
+        self.model_name = model_name
+        
+        if 'phi-2' in model_name:
+            from transformers import AutoTokenizer, AutoModelForCausalLM
+            self.tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-2")
+            self.model = AutoModelForCausalLM.from_pretrained(
+                "microsoft/phi-2",
+                torch_dtype="auto",
+                device_map="auto"
+            )
+        elif 'tinyllama' in model_name:
+            # Similar para TinyLlama
+            pass
+    
+    def generate(self, prompt: str, max_tokens: int = 512) -> GenerationResult:
+        start = time.time()
+        
+        inputs = self.tokenizer(prompt, return_tensors="pt")
+        outputs = self.model.generate(**inputs, max_new_tokens=max_tokens)
+        text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        
+        return GenerationResult(
+            text=text,
+            model=self.model_name,
+            tokens_used=len(outputs[0]),
+            latency_ms=(time.time() - start) * 1000
+        )
+```
+
+### Executar Experimento
+
+```bash
+# Teste com 1 pergunta
+python scripts/run_experiments.py --experiment model_comparison --max-questions 1
+
+# Experimento completo
+python scripts/run_experiments.py --experiment model_comparison --max-questions 30
+
+# Analisar resultados
+python scripts/analyze_results.py --experiment model_comparison --compare --statistical-test
+```
+
+### Métricas Esperadas → Resultados Reais
+
+| Modelo | F1 (Esperado) | F1 (Real) | Latência (Esperado) | Latência (Real) | Resultado |
+|--------|---------------|-----------|---------------------|-----------------|-----------|
+| Gemini Flash | ~0.58 | **0.636** | ~7s | **3.15s** | ✅ Baseline |
+| Phi-2 Q4 | ~0.45 | - | ~2s | - | ⏸️ Não testado |
+| TinyLlama | ~0.40 | **0.602** | ~1s | **236s** | ❌ CPU inviável |
+
+### Análise Real (Experimento Executado - 16/02/2026)
+
+**✅ O que funcionou:**
+- LocalLLMClient implementado com sucesso
+- Integração com ExperimentRunner funcional
+- Gemini Flash superou expectativas (F1=0.636 vs 0.58 esperado, 3.15s vs 7s esperado)
+
+**❌ Problema Crítico - Hardware:**
+- **Sem GPU CUDA disponível**: Forçou uso de CPU em FP32
+- **Sem quantização 4-bit**: Impossível sem GPU
+- **TinyLlama em CPU**: 236s latência (**75x mais lento** que Gemini)
+- **Faithfulness degradou 48%**: 0.667 → 0.346 (alucina muito mais)
+
+**📊 Resultados Detalhados (1 pergunta):**
+
+| Métrica | Gemini Flash | TinyLlama CPU | Δ |
+|---------|--------------|---------------|---|
+| BERTScore F1 | 0.636 | 0.602 | -5.5% |
+| Answer Relevancy | 0.870 | 0.840 | -3.4% |
+| **Faithfulness** | 0.667 | 0.346 | **-48.1%** ⚠️ |
+| **Latência** | 3.15s | 236.6s | **+7,405%** ⚠️ |
+| Tokens Gerados | 148 | 1,028 | +595% |
+
+### Decisão de Deploy → Recomendação Atualizada
+
+**❌ Cenário Atual (Sem GPU):**
+- Modelos locais são **inviáveis** em produção
+- TinyLlama: 4 minutos por resposta (inaceitável)
+- Qualidade degradou significativamente (faithfulness -48%)
+- **Recomendação**: Usar Gemini Flash exclusivamente
+
+**⏳ Cenário Futuro (Com GPU):**
+
+**⏳ Cenário Futuro (Com GPU):**
+- Re-executar experimento com quantização 4-bit
+- Estimativa: TinyLlama GPU seria 1-2s (competitivo)
+- Se F1 >0.58 e faithfulness >0.60, arquitetura híbrida viável:
+  ```
+  Query → Classifier → Simples? → TinyLlama GPU (1s, $0)
+                     ↓ Complexa? → Gemini Flash (3s, $0.001)
+  ```
+
+**📋 Próximos Passos:**
+
+1. **Prioridade Alta**: Obter GPU CUDA (Colab, AWS, etc.)
+2. **Repetir Experimento 4**: Com quantização 4-bit habilitada
+3. **Testar Phi-2 e Qwen2**: Modelos não testados ainda
+4. **Validar com 30 perguntas**: Dataset completo
+5. **Decidir arquitetura**: Híbrida (com GPU) ou Cloud-only (sem GPU)
+
+**🔗 Relatório Completo:**
+- `experiments/results/RELATORIO_ANALISE_model_comparison.md`
+- Commit: d89af32 (16/02/2026)
+
+---
+
+**Arquitetura Híbrida Proposta (SE GPU disponível):**
+```
+Query → Classifier (complexidade) → 
+  ├── Simple? → TinyLlama local (rápido, grátis)
+  └── Complex? → Gemini Flash (preciso, pago)
+```
+
+**Critérios:**
+- Queries de prazo/objetivos → Modelo local
+- Queries de alíquotas/cálculos → Gemini Flash
+- Threshold: Se confidence > 0.8 → local, senão → cloud
+
+---
+
 ## 📌 Notas Importantes
 
+- ✅ **Fase 10.3 Completa:** Experimentos 1, 2, 3 e 4 executados e analisados
+  - **Experimento 1**: RAG vs No-RAG (30 perguntas) - Dense melhor (F1=0.579, -57% tokens)
+  - **Experimento 2**: Retrieval Strategy (1 pergunta) - BM25 melhor (F1=0.621), Hybrid melhor faithfulness (1.0)
+  - **Experimento 3**: Chunk Count (1 pergunta) - k=3 melhor (F1=0.639, 2.4s latência)
+  - **Experimento 4**: Model Comparison (1 pergunta) - TinyLlama CPU inviável (75x mais lento, -48% faithfulness)
+    - Gemini Flash: F1=0.636, 3.15s, faithfulness=0.667 ✅
+    - TinyLlama CPU: F1=0.602, 236s, faithfulness=0.346 ❌
+    - **Conclusão**: Sem GPU, usar Gemini Flash exclusivamente
+    - **Ação**: Re-executar com GPU + quantização 4-bit antes de decisão híbrida
+  - Scripts: `run_experiments.py` (701 linhas), `analyze_results.py` (817 linhas), `local_llm_client.py` (264 linhas)
+  - Relatórios: 4 análises detalhadas + resumo consolidado
 - ✅ **Fase 9 Completa:** Pipeline RAG totalmente integrado e testado
   - RAGPipeline: 676 linhas integrando 11 componentes
   - Métodos: ingest_documents(), query(), batch_query()
   - Cache semântico, error handling, logging estruturado
   - 18 testes unitários + testes de integração end-to-end
-  - Correções de compatibilidade API (PromptManager, RAGEvaluator, LLMClient)
-- ✅ **Fase 10.1 Preparada:** Scripts de criação de dataset
-  - `scripts/create_test_dataset.py`: Extração automática de Q&A de PDFs
-  - `scripts/ingest_lei_15270.py`: Ingestão da Lei 15.270 no vector store
-  - `scripts/README.md`: Documentação completa do fluxo
-  - Estudo de caso: Lei 15.270 (Linguagem Simples IRPF)
-- ✅ **Fase 8 Completa:** Todas as métricas de avaliação implementadas e validadas
-  - BERTScore: 4/4 testes passando (P/R/F1: 0.717-1.000)
-  - RAGAS: Integração com Gemini 2.5 Flash, score perfeito (1.000 faithfulness)
+- ✅ **Fase 10.1 e 10.2:** Dataset criado e ingerido
+  - Dataset: 30 Q&A sobre Lei 15.270 (manual_rfb_test.json)
+  - Vector Store: 36 chunks de L15270_processed.md no ChromaDB
+  - Scripts: create_test_dataset.py, ingest_lei_15270.py
+- ✅ **Fase 8 Completa:** Todas as métricas de avaliação implementadas
+  - BERTScore: 4/4 testes passando
+  - RAGAS: Integração com Gemini 2.5 Flash
   - Factory functions para todos os evaluators
-- ✅ **Arquitetura:** Completa e validada (v2.0 com 10 melhorias)
+- ✅ **Arquitetura:** Completa e validada (v2.0)
 - ✅ **Configuração:** Sistema robusto com validação Pydantic
-- ✅ **Modelos:** 100% gratuitos (Google Gemini 2.5 Flash + text-embedding-004)
-- ⚠️ **API Key necessária:** Obtenha gratuitamente em https://aistudio.google.com/
-- ⚠️ **Quota Gemini Free Tier:** 5 req/min, 20 req/dia por modelo - considerar cache e batching
-- 🎯 **Foco atual:** Criação de dataset de teste para experimentos (Lei 15.270)
+- ✅ **Modelos:** 100% gratuitos (Google Gemini)
+- 🎯 **Foco atual:** Experimento 4 - Comparação de Modelos (LLM atual vs quantizado <1B)
 
 ---
 
@@ -1391,11 +1603,11 @@ if __name__ == '__main__':
 
 ---
 
-**Data:** 15/02/2026  
-**Versão:** 1.2  
-**Última Atualização:** Fase 9 completa + Scripts Fase 10.1 criados  
+**Data:** 16/02/2026  
+**Versão:** 1.4  
+**Última Atualização:** Experimentos 1-4 completos (Fase Experimental 99% concluída)  
+**Status:** LocalLLMClient implementado, Experimento 4 executado, aguardando GPU para validação final  
 **Autor:** Equipe LION
-cd /home/decode/workspace/lion
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
