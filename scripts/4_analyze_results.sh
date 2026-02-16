@@ -38,4 +38,4 @@ if [ $# -eq 0 ]; then
 fi
 
 # Executar análise
-python "$SCRIPT_DIR/analyze_results.py" "$@"
+python "$SCRIPT_DIR/4_analyze_results.py" "$@"

@@ -5,6 +5,7 @@ Script para análise estatística e visualização de resultados de experimentos
 
 import json
 import argparse
+import logging
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import numpy as np
@@ -41,9 +42,36 @@ class ResultsAnalyzer:
         # Criar diretório de análises se não existir
         self.analysis_dir.mkdir(parents=True, exist_ok=True)
         
+        # Configurar logging
+        self._setup_logging()
+        
+        logging.info("ResultsAnalyzer inicializado")
+        logging.info(f"Diretório raw: {self.raw_dir}")
+        logging.info(f"Diretório analysis: {self.analysis_dir}")
+        
         print(f"📊 ResultsAnalyzer inicializado")
         print(f"   Diretório raw: {self.raw_dir}")
         print(f"   Diretório analysis: {self.analysis_dir}")
+    
+    def _setup_logging(self):
+        """Configura logging para arquivo e console"""
+        log_dir = Path("logs")
+        log_dir.mkdir(exist_ok=True)
+        
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        log_file = log_dir / f"{timestamp}_analysis.log"
+        
+        # Configurar logging
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(asctime)s - %(levelname)s - %(message)s',
+            handlers=[
+                logging.FileHandler(log_file, encoding='utf-8'),
+                logging.StreamHandler()
+            ]
+        )
+        
+        logging.info(f"Log iniciado: {log_file}")
     
     def load_experiment(self, experiment_type: str) -> Dict[str, Any]:
         """
@@ -89,6 +117,10 @@ class ResultsAnalyzer:
                 self.summary = json.load(f)
         
         self.experiments = experiments
+        
+        logging.info(f"{len(experiments)} experimentos carregados: {experiment_type}")
+        for name in experiments.keys():
+            logging.info(f"  - {name}")
         
         print(f"✅ {len(experiments)} experimentos carregados: {experiment_type}")
         for name in experiments.keys():
@@ -630,6 +662,7 @@ class ResultsAnalyzer:
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(report_text)
             
+            logging.info(f"Relatório salvo em: {output_path}")
             print(f"✅ Relatório salvo em: {output_path}")
         
         return report_text
