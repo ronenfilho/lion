@@ -1,0 +1,144 @@
+{
+  "experiment_name": "model_comparison_groq_k3_hybrid_70_30_few_shot",
+  "config": {
+    "use_rag": true,
+    "retrieval_method": "hybrid",
+    "k": 3,
+    "dense_weight": 0.7,
+    "bm25_weight": 0.3,
+    "llm": "groq:llama-3.1-8b-instant",
+    "use_few_shot": true
+  },
+  "timestamp": "2026-02-16T15:46:44.161936",
+  "total_questions": 1,
+  "successful_queries": 1,
+  "failed_queries": 0,
+  "aggregated_metrics": {
+    "latency_ms_mean": 1045.881748199463,
+    "latency_ms_std": 0.0,
+    "latency_ms_min": 1045.881748199463,
+    "latency_ms_max": 1045.881748199463,
+    "latency_ms_median": 1045.881748199463,
+    "num_chunks_mean": 3.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 3.0,
+    "num_chunks_max": 3.0,
+    "num_chunks_median": 3.0,
+    "tokens_used_mean": 1801.0,
+    "tokens_used_std": 0.0,
+    "tokens_used_min": 1801.0,
+    "tokens_used_max": 1801.0,
+    "tokens_used_median": 1801.0,
+    "bertscore_precision_mean": 0.5882161855697632,
+    "bertscore_precision_std": 0.0,
+    "bertscore_precision_min": 0.5882161855697632,
+    "bertscore_precision_max": 0.5882161855697632,
+    "bertscore_precision_median": 0.5882161855697632,
+    "bertscore_recall_mean": 0.6023144721984863,
+    "bertscore_recall_std": 0.0,
+    "bertscore_recall_min": 0.6023144721984863,
+    "bertscore_recall_max": 0.6023144721984863,
+    "bertscore_recall_median": 0.6023144721984863,
+    "bertscore_f1_mean": 0.5951818227767944,
+    "bertscore_f1_std": 0.0,
+    "bertscore_f1_min": 0.5951818227767944,
+    "bertscore_f1_max": 0.5951818227767944,
+    "bertscore_f1_median": 0.5951818227767944,
+    "answer_relevancy_mean": 0.8973625142032539,
+    "answer_relevancy_std": 0.0,
+    "answer_relevancy_min": 0.8973625142032539,
+    "answer_relevancy_max": 0.8973625142032539,
+    "answer_relevancy_median": 0.8973625142032539,
+    "faithfulness_mean": 1.0,
+    "faithfulness_std": 0.0,
+    "faithfulness_min": 1.0,
+    "faithfulness_max": 1.0,
+    "faithfulness_median": 1.0,
+    "context_precision_mean": 0.9999999999,
+    "context_precision_std": 0.0,
+    "context_precision_min": 0.9999999999,
+    "context_precision_max": 0.9999999999,
+    "context_precision_median": 0.9999999999,
+    "context_recall_mean": 0.3333333333333333,
+    "context_recall_std": 0.0,
+    "context_recall_min": 0.3333333333333333,
+    "context_recall_max": 0.3333333333333333,
+    "context_recall_median": 0.3333333333333333
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "Os principais objetivos da Lei nº 15.270, de 2025, são:\n\n- Reduzir o imposto sobre a renda devido nas bases de cálculo mensal e anual;\n- Instituir a tributação mínima para as pessoas físicas que auferem altas rendas;\n- Alterar a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de 26 de dezembro de 1995.\n\nEsses objetivos são mencionados no texto da Lei, que altera as leis mencionadas para instituir a redução do imposto sobre a renda e a tributação mínima para as pessoas físicas que auferem altas rendas.",
+      "answer_core": "Os principais objetivos da Lei nº 15.270, de 2025, são:\n\n- Reduzir o imposto sobre a renda devido nas bases de cálculo mensal e anual;\n- Instituir a tributação mínima para as pessoas físicas que auferem altas rendas;\n- Alterar a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de 26 de dezembro de 1995.\n\nEsses objetivos são mencionados no texto da Lei, que altera as leis mencionadas para instituir a redução do imposto sobre a renda e a tributação mínima para as pessoas físicas que auferem altas rendas.",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 0.01639344262295082,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        },
+        {
+          "id": "6404eb1e638e5b35",
+          "content": "### Artigo 8º {#artigo-8}\n\nEsta Lei entra em vigor na data de sua publicação e produzirá\n\nefeitos a partir de 1º de janeiro de 2026\n\nBrasília, 26 de novembro de 2025; 204\nda Independência e\n137\nda República.\n\nLUIZ\nINÁCIO LULA DA SILVA\n\nFernando Haddad\n\nManoel Carlos de Almeida Neto\n\nSimone Nassar Tebet\n\nEste texto não substitui o publicado no DOU de 27.11.2025\n\n\n\n---\n\n*Documento processado automaticamente pelo LION RAG System*",
+          "score": 0.004838709677419356,
+          "metadata": {
+            "chunk_index": 35,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631198",
+            "processed_from": "markdown",
+            "section": "### Artigo 8º {#artigo-8}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 0.004761904761904762,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1045.881748199463,
+        "num_chunks": 3,
+        "tokens_used": 1801,
+        "bertscore_precision": 0.5882161855697632,
+        "bertscore_recall": 0.6023144721984863,
+        "bertscore_f1": 0.5951818227767944,
+        "answer_relevancy": 0.8973625142032539,
+        "faithfulness": 1.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 0.3333333333333333
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 3,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    }
+  ]
+}
