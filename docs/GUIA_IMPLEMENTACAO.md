@@ -4,6 +4,11 @@
 
 Este guia fornece um passo a passo prático para implementar a arquitetura RAG do projeto LION.
 
+**📊 Status Atual:** 94% Completo (33/35 tarefas)
+- ✅ **Fase 4 (Ingestão):** 100% completa - Pipeline unificado funcionando
+- ✅ **Fase 10.1 e 10.2:** Dataset criado (30 Q&A) + Lei 15.270 ingerida (36 chunks)
+- 🎯 **Próximo:** Fase 10.3 - Executar Experimentos Comparativos
+
 ---
 
 ## 🎯 Fase 1: Setup Inicial (Semana 1)
@@ -685,19 +690,19 @@ class RAGPipeline:
 
 ## ✅ Checklist de Implementação - Status Atualizado
 
-### 📊 Progresso Geral: 91% Completo (32/35 tarefas)
+### 📊 Progresso Geral: 94% Completo (33/35 tarefas)
 
 **Fases Completas:**
 - ✅ Fase 1: Setup Inicial (6/6)
 - ✅ Fase 2: Configuração (6/6)
 - ✅ Fase 3: Ambiente Python (2/2)
-- ✅ Fase 4: Ingestão (6/6)
+- ✅ Fase 4: Ingestão (10/10) - **100%**
 - 🔄 Fase 5: Retrieval (3/5) - 60%
 - ✅ Fase 6: Geração (3/3)
 - ✅ Fase 7: Guardrails (3/3)
 - ✅ Fase 8: Avaliação (5/5)
 - 🔄 Fase 9: Pipeline Completo (0/3)
-- 🔄 Fase 10: Experimentos (0/3)
+- 🔄 Fase 10: Experimentos (2/5) - **40%**
 
 ```markdown
 ## ✅ Fase 1: Setup Inicial (100% - 6/6)
@@ -725,16 +730,22 @@ class RAGPipeline:
 - [x] Sistema de configuração testado e validado ✓
 📝 Commit: ede83f1 - "feat: implementar sistema de configuração e estrutura base"
 
-## ✅ Fase 4: Ingestão de Dados (100% - 6/6)
+## ✅ Fase 4: Ingestão de Dados (100% - 10/10)
 - [x] src/ingestion/extractors/pdf_extractor.py (PyMuPDF + detecção estrutural)
-- [x] src/ingestion/extractors/html_extractor.py (BeautifulSoup4 + encoding automático)
+- [x] src/ingestion/extractors/html_extractor.py (BeautifulSoup4 + encoding automático, tables + line breaks)
 - [x] src/ingestion/extractors/text_cleaner.py (normalização + limpeza legal)
-- [x] src/ingestion/chunking/structural_chunker.py (99.3% qualidade, validado com 1.07M chars)
-- [x] src/ingestion/embeddings_pipeline.py (gemini-embedding-001, 3072d, testado com 50 chunks)
+- [x] src/ingestion/chunking/structural_chunker.py (unified chunker com chunk_markdown() + chunk_pdf())
+- [x] src/ingestion/embeddings_pipeline.py (gemini-embedding-001, 3072d)
 - [x] src/ingestion/vector_store.py (ChromaDB com persistência, busca e filtros)
+- [x] scripts/2_ingest_processed_documents.py (pipeline completo: load → chunk → embed → store)
+- [x] scripts/2.1_show_chunk_stats.py + 2.2_show_chunks.py (visualização de chunks)
+- [x] scripts/1_create_test_dataset.py (extração Q&A do Manual RFB)
+- [x] experiments/datasets/manual_rfb_test.json (30 pares pergunta-resposta estruturados)
 📝 Commit: 7da3c3e - "feat: implementa módulo de ingestão com extractors e chunkers"
 📝 Commit: aac8d85 - "feat: adiciona embeddings pipeline com Google Gemini"
 📝 Commit: 55abc1b - "feat: adiciona vector store com ChromaDB"
+📝 Commit: a1e1023 - "feat(ingestion): unifica chunkers e implementa pipeline completo de ingestão"
+✅ **Pipeline Testado**: 36 chunks criados de L15270_processed.md, embeddings 3072d, ChromaDB persistente
 
 ## ✅ Fase 5: Sistema de Retrieval (60% - 3/5)
 - [x] src/retrieval/dense_retriever.py (busca vetorial com ChromaDB)
@@ -770,11 +781,11 @@ class RAGPipeline:
 - [x] tests/integration/test_rag_pipeline_integration.py (testes end-to-end do pipeline completo)
 📝 Fase completa em: 15/02/2026
 
-## 🔄 Fase 10: Experimentos (0% - 0/5)
-- [ ] **Etapa 10.1**: Criar dataset de teste (extração de perguntas e respostas)
-- [ ] **Etapa 10.2**: Ingerir Lei 15.270 no vector store
-- [ ] **Etapa 10.3**: Executar experimentos comparativos (4 experimentos)
-- [ ] **Etapa 10.4**: Analisar resultados e calcular métricas
+## 🔄 Fase 10: Experimentos (30% - 2/5)
+- [x] **Etapa 10.1**: Criar dataset de teste ✅ (manual_rfb_test.json com 30 Q&A)
+- [x] **Etapa 10.2**: Ingerir documentos processados ✅ (L15270_processed.md → 36 chunks no ChromaDB)
+- [ ] **Etapa 10.3**: Executar experimentos comparativos (4 experimentos: dense vs BM25 vs hybrid)
+- [ ] **Etapa 10.4**: Analisar resultados e calcular métricas (RAGAS, BERTScore)
 - [ ] **Etapa 10.5**: Gerar relatórios e visualizações
 ```
 
@@ -782,22 +793,310 @@ class RAGPipeline:
 
 ## 🎯 PRÓXIMO PASSO RECOMENDADO
 
-### ➡️ Fase 10.1: Criar Dataset de Teste
+### ➡️ Fase 10.3: Executar Experimentos Comparativos
 
-**Estudo de Caso: Lei 15.270** (Linguagem Simples)
+**✅ Status Atual:** 
+- Dataset de teste criado: `experiments/datasets/manual_rfb_test.json` (30 Q&A estruturados)
+- Lei 15.270 ingerida: 36 chunks no ChromaDB (coleção "irpf_2025")
+- Pipeline de ingestão completo: `scripts/2_ingest_processed_documents.py`
+- Ferramentas de visualização: `2.1_show_chunk_stats.py`, `2.2_show_chunks.py`
 
-O pipeline RAG está completo e funcional. Agora precisamos preparar o dataset de teste para validar experimentalmente as hipóteses da pesquisa.
+**🎯 Objetivo:** Executar experimentos comparativos para validar as hipóteses da pesquisa e medir o impacto de diferentes configurações do RAG.
 
-#### **Tarefa Imediata: Extração de Perguntas e Respostas**
+#### **Tarefa Imediata: Implementar e Executar Experimentos**
 
-**Objetivo:** Criar conjunto de 30-50 pares pergunta-resposta extraídos da Lei 15.270 para avaliação quantitativa.
+**Experimentos Planejados:**
 
-**Documento Fonte:**
-- **Lei nº 15.270/2025** (Linguagem Simples para IRPF)
-- Formato: PDF oficial com estrutura de perguntas e respostas
-- Localização: `data/raw/lei_15270_2025.pdf`
+1. **Experimento 1: RAG vs Sem RAG**
+   - **Config A**: Gemini sem RAG (baseline)
+   - **Config B**: Gemini 2.5 Flash + RAG (dense retrieval)
+   - **Objetivo**: Medir ganho de acurácia e redução de alucinações
+   - **Métricas**: Faithfulness, Answer Relevancy, BERTScore F1
 
-**Estrutura do Dataset:**
+2. **Experimento 2: LLM Grande vs Pequeno+RAG**
+   - **Config A**: Gemini 2.0 Flash (maior contexto, sem RAG)
+   - **Config B**: Gemini 2.5 Flash + RAG
+   - **Objetivo**: Validar se arquitetura RAG supera tamanho do modelo
+   - **Métricas**: Fidelidade normativa, Custo-benefício (tokens)
+
+3. **Experimento 3: Estratégias de Retrieval**
+   - **Config A**: Dense retrieval (embeddings apenas)
+   - **Config B**: BM25 retrieval (termos apenas)
+   - **Config C**: Hybrid retrieval (70% dense + 30% BM25)
+   - **Objetivo**: Melhor estratégia de busca para termos normativos
+   - **Métricas**: Context Precision, Context Recall, MRR
+
+4. **Experimento 4: Número de Chunks Retrieved**
+   - **Config A**: k=3 chunks
+   - **Config B**: k=5 chunks
+   - **Config C**: k=10 chunks
+   - **Objetivo**: Balancear contexto vs ruído
+   - **Métricas**: Answer Relevancy, Context Utilization, Latência
+
+**Pipeline de Execução:**
+
+```bash
+# 1. Criar script de experimentos
+scripts/3_run_experiments.py
+
+# 2. Executar cada configuração
+python scripts/3_run_experiments.py --experiment rag_vs_no_rag
+python scripts/3_run_experiments.py --experiment llm_size
+python scripts/3_run_experiments.py --experiment retrieval_strategy
+python scripts/3_run_experiments.py --experiment chunk_count
+
+# 3. Analisar resultados
+python scripts/3.1_analyze_results.py
+
+# 4. Gerar relatórios
+python scripts/3.2_generate_report.py
+```
+
+**Estrutura do Script de Experimentos:**
+
+```python
+# scripts/3_run_experiments.py
+"""
+Executa experimentos comparativos com diferentes configurações RAG
+"""
+import json
+from pathlib import Path
+from typing import Dict, List
+import time
+
+from src.pipeline.rag_pipeline import RAGPipeline
+from src.evaluation.metrics.ragas_metrics import RAGASEvaluator
+from src.evaluation.metrics.bertscore import BERTScoreEvaluator
+
+class ExperimentRunner:
+    def __init__(self, dataset_path: str):
+        self.dataset = self._load_dataset(dataset_path)
+        self.results_dir = Path('experiments/results/')
+        self.results_dir.mkdir(parents=True, exist_ok=True)
+    
+    def _load_dataset(self, path: str) -> Dict:
+        """Carrega dataset de teste"""
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    
+    def run_experiment(
+        self, 
+        experiment_name: str, 
+        config: Dict
+    ) -> Dict:
+        """
+        Executa experimento com configuração específica
+        
+        Args:
+            experiment_name: Nome do experimento
+            config: Configuração do RAG (retrieval_method, k, etc)
+        
+        Returns:
+            Resultados agregados com métricas
+        """
+        print(f"\n{'='*60}")
+        print(f"🧪 Experimento: {experiment_name}")
+        print(f"{'='*60}\n")
+        
+        # Inicializar pipeline com configuração
+        pipeline = RAGPipeline(config)
+        
+        # Inicializar avaliadores
+        ragas_eval = RAGASEvaluator()
+        bert_eval = BERTScoreEvaluator()
+        
+        results = []
+        
+        # Processar cada pergunta do dataset
+        for i, qa in enumerate(self.dataset['questions'], 1):
+            print(f"[{i}/{len(self.dataset['questions'])}] {qa['question'][:60]}...")
+            
+            start_time = time.time()
+            
+            # Query RAG
+            response = pipeline.query(qa['question'])
+            
+            latency = (time.time() - start_time) * 1000
+            
+            # Calcular métricas
+            metrics = {
+                'latency_ms': latency,
+                'num_chunks': len(response.get('chunks', [])),
+            }
+            
+            # RAGAS metrics
+            if config.get('use_rag', True):
+                ragas_scores = ragas_eval.evaluate(
+                    question=qa['question'],
+                    answer=response['answer'],
+                    contexts=[c['content'] for c in response['chunks']],
+                    ground_truth=qa['ground_truth']
+                )
+                metrics.update(ragas_scores)
+            
+            # BERTScore
+            bert_scores = bert_eval.evaluate(
+                predictions=[response['answer']],
+                references=[qa['ground_truth']]
+            )
+            metrics['bertscore_f1'] = bert_scores['f1']
+            
+            # Salvar resultado individual
+            result = {
+                'question_id': qa['id'],
+                'question': qa['question'],
+                'answer': response['answer'],
+                'ground_truth': qa['ground_truth'],
+                'metrics': metrics,
+                'config': config
+            }
+            
+            results.append(result)
+        
+        # Agregar métricas
+        aggregated = self._aggregate_metrics(results)
+        
+        # Salvar resultados
+        output_path = self.results_dir / f'{experiment_name}_results.json'
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump({
+                'experiment_name': experiment_name,
+                'config': config,
+                'aggregated_metrics': aggregated,
+                'individual_results': results
+            }, f, indent=2, ensure_ascii=False)
+        
+        print(f"\n✅ Resultados salvos: {output_path}")
+        print(f"\n📊 Métricas Agregadas:")
+        for metric, value in aggregated.items():
+            print(f"   {metric}: {value:.4f}")
+        
+        return aggregated
+    
+    def _aggregate_metrics(self, results: List[Dict]) -> Dict:
+        """Calcula média e desvio padrão das métricas"""
+        import numpy as np
+        
+        metrics_dict = {}
+        
+        for result in results:
+            for metric, value in result['metrics'].items():
+                if metric not in metrics_dict:
+                    metrics_dict[metric] = []
+                metrics_dict[metric].append(value)
+        
+        aggregated = {}
+        for metric, values in metrics_dict.items():
+            aggregated[f'{metric}_mean'] = np.mean(values)
+            aggregated[f'{metric}_std'] = np.std(values)
+        
+        return aggregated
+
+def main():
+    import argparse
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--experiment', required=True, 
+                       choices=['rag_vs_no_rag', 'llm_size', 
+                               'retrieval_strategy', 'chunk_count'])
+    parser.add_argument('--dataset', default='experiments/datasets/manual_rfb_test.json')
+    
+    args = parser.parse_args()
+    
+    runner = ExperimentRunner(args.dataset)
+    
+    # Definir configurações para cada experimento
+    experiments = {
+        'rag_vs_no_rag': [
+            {
+                'name': 'no_rag_baseline',
+                'config': {'use_rag': False, 'llm': 'gemini-2.5-flash'}
+            },
+            {
+                'name': 'rag_enabled',
+                'config': {
+                    'use_rag': True, 
+                    'retrieval_method': 'dense',
+                    'k': 5,
+                    'llm': 'gemini-2.5-flash'
+                }
+            }
+        ],
+        'llm_size': [
+            {
+                'name': 'large_llm_no_rag',
+                'config': {'use_rag': False, 'llm': 'gemini-2.0-flash'}
+            },
+            {
+                'name': 'small_llm_with_rag',
+                'config': {
+                    'use_rag': True,
+                    'retrieval_method': 'dense',
+                    'k': 5,
+                    'llm': 'gemini-2.5-flash'
+                }
+            }
+        ],
+        'retrieval_strategy': [
+            {
+                'name': 'dense_only',
+                'config': {
+                    'use_rag': True,
+                    'retrieval_method': 'dense',
+                    'k': 5
+                }
+            },
+            {
+                'name': 'bm25_only',
+                'config': {
+                    'use_rag': True,
+                    'retrieval_method': 'bm25',
+                    'k': 5
+                }
+            },
+            {
+                'name': 'hybrid',
+                'config': {
+                    'use_rag': True,
+                    'retrieval_method': 'hybrid',
+                    'dense_weight': 0.7,
+                    'bm25_weight': 0.3,
+                    'k': 5
+                }
+            }
+        ],
+        'chunk_count': [
+            {
+                'name': 'k3',
+                'config': {'use_rag': True, 'retrieval_method': 'hybrid', 'k': 3}
+            },
+            {
+                'name': 'k5',
+                'config': {'use_rag': True, 'retrieval_method': 'hybrid', 'k': 5}
+            },
+            {
+                'name': 'k10',
+                'config': {'use_rag': True, 'retrieval_method': 'hybrid', 'k': 10}
+            }
+        ]
+    }
+    
+    # Executar experimentos
+    for exp_config in experiments[args.experiment]:
+        runner.run_experiment(
+            experiment_name=f"{args.experiment}_{exp_config['name']}",
+            config=exp_config['config']
+        )
+
+if __name__ == '__main__':
+    main()
+```
+
+**Tempo estimado:** 2-3 dias (implementação + execução + análise inicial)
+
+**Após execução:** Fase 10.4 (análise de resultados) e Fase 10.5 (relatórios/visualizações)
+
+---
 ```json
 {
   "dataset_name": "lei_15270_qa_test",
