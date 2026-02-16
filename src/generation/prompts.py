@@ -255,6 +255,58 @@ Responda de forma clara e estruturada.""",
         
         return 'rag_default'
     
+    def generate_rag_prompt(
+        self,
+        question: str,
+        context_chunks: List[str]
+    ) -> str:
+        """
+        Gera prompt RAG com contexto.
+        
+        Args:
+            question: Pergunta do usuário
+            context_chunks: Lista de chunks de contexto
+        
+        Returns:
+            Prompt formatado completo
+        """
+        # Detectar melhor template
+        template_name = self.detect_query_type(question)
+        template = self.get_template(template_name)
+        
+        # Formatar contexto
+        context = "\n\n".join([
+            f"[Trecho {i+1}]\n{chunk}"
+            for i, chunk in enumerate(context_chunks)
+        ])
+        
+        # Formatar prompt
+        user_prompt = template.user_template.format(
+            query=question,
+            context=context
+        )
+        
+        # Retornar prompt completo (system + user)
+        return f"{template.system_instruction}\n\n{user_prompt}"
+    
+    def generate_no_rag_prompt(self, question: str) -> str:
+        """
+        Gera prompt sem RAG (baseline).
+        
+        Args:
+            question: Pergunta do usuário
+        
+        Returns:
+            Prompt formatado sem contexto
+        """
+        system = """Você é um assistente especializado em Imposto de Renda Pessoa Física (IRPF) brasileiro.
+
+Responda à pergunta do usuário com base no seu conhecimento sobre legislação tributária brasileira.
+
+Use linguagem clara e acessível. Cite artigos de lei quando apropriado."""
+        
+        return f"{system}\n\nPergunta: {question}\n\nResposta:"
+    
     def list_templates(self) -> List[Dict[str, str]]:
         """
         Lista todos os templates disponíveis.

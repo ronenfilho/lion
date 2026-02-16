@@ -172,24 +172,17 @@ class DenseRetriever:
         Returns:
             Embedding (numpy array)
         """
-        # Criar chunk temporário para a query
-        from ingestion.chunking.structural_chunker import DocumentChunk
+        # Gerar embedding diretamente da query
+        # Usar método direto da API em vez de passar por DocumentChunk
+        import google.generativeai as genai
         
-        query_chunk = DocumentChunk(
-            chunk_id="query",
+        result = genai.embed_content(
+            model=self.embeddings_pipeline.model_name,
             content=query,
-            source="query",
-            metadata={}
+            task_type="retrieval_query"
         )
         
-        # Gerar embedding (task_type="retrieval_query" para queries)
-        embeddings = self.embeddings_pipeline.generate_embeddings(
-            [query_chunk],
-            task_type="retrieval_query",
-            show_progress=False
-        )
-        
-        return embeddings[0]
+        return np.array(result['embedding'], dtype=np.float32)
     
     def _embed_queries(self, queries: List[str]) -> List[np.ndarray]:
         """

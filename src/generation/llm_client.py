@@ -129,8 +129,11 @@ class LLMClient:
                 # Extrair texto
                 text = response.text if response.text else ""
                 
-                # Contar tokens (aproximado)
-                tokens_used = len(text.split())  # Aproximação simples
+                # Contar tokens (usar usage_metadata da API se disponível)
+                if hasattr(response, 'usage_metadata') and response.usage_metadata:
+                    tokens_used = response.usage_metadata.candidates_token_count
+                else:
+                    tokens_used = len(text.split())  # Fallback: aproximação por palavras
                 
                 # Finish reason
                 finish_reason = (
