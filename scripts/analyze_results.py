@@ -24,17 +24,26 @@ class ResultsAnalyzer:
         Inicializa analisador de resultados.
         
         Args:
-            results_dir: Diretório com arquivos JSON de resultados
+            results_dir: Diretório base com resultados
         """
         self.results_dir = Path(results_dir)
+        self.raw_dir = self.results_dir / "raw"
+        self.analysis_dir = self.results_dir / "analysis"
         self.experiments = {}
         self.summary = None
         
         if not self.results_dir.exists():
             raise ValueError(f"Diretório não encontrado: {results_dir}")
         
+        if not self.raw_dir.exists():
+            raise ValueError(f"Diretório raw/ não encontrado: {self.raw_dir}")
+        
+        # Criar diretório de análises se não existir
+        self.analysis_dir.mkdir(parents=True, exist_ok=True)
+        
         print(f"📊 ResultsAnalyzer inicializado")
-        print(f"   Diretório: {self.results_dir}")
+        print(f"   Diretório raw: {self.raw_dir}")
+        print(f"   Diretório analysis: {self.analysis_dir}")
     
     def load_experiment(self, experiment_type: str) -> Dict[str, Any]:
         """
@@ -46,8 +55,9 @@ class ResultsAnalyzer:
         Returns:
             Dicionário com todos os experimentos desse tipo
         """
+        # Buscar arquivos no diretório raw/
         pattern = f"{experiment_type}_*.json"
-        files = list(self.results_dir.glob(pattern))
+        files = list(self.raw_dir.glob(pattern))
         
         if not files:
             raise ValueError(f"Nenhum resultado encontrado para: {experiment_type}")
@@ -63,8 +73,8 @@ class ResultsAnalyzer:
                 experiment_name = data['experiment_name']
                 experiments[experiment_name] = data
         
-        # Carregar summary se existir
-        summary_file = self.results_dir / f"{experiment_type}_summary.json"
+        # Carregar summary se existir (no diretório raw/)
+        summary_file = self.raw_dir / f"{experiment_type}_summary.json"
         if summary_file.exists():
             with open(summary_file, 'r', encoding='utf-8') as f:
                 self.summary = json.load(f)
@@ -605,8 +615,8 @@ class ResultsAnalyzer:
         
         # Salvar em arquivo se especificado
         if output_file:
-            output_path = Path(output_file)
-            output_path.parent.mkdir(parents=True, exist_ok=True)
+            # Salvar no diretório analysis/
+            output_path = self.analysis_dir / Path(output_file).name
             
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(report_text)

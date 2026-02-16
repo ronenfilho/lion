@@ -46,6 +46,12 @@ class ExperimentRunner:
         self.results_dir = Path(results_dir)
         self.results_dir.mkdir(parents=True, exist_ok=True)
         
+        # Criar subdiretórios para organização
+        self.raw_dir = self.results_dir / "raw"
+        self.analysis_dir = self.results_dir / "analysis"
+        self.raw_dir.mkdir(parents=True, exist_ok=True)
+        self.analysis_dir.mkdir(parents=True, exist_ok=True)
+        
         # Inicializar componentes base
         self.vector_store = create_vector_store()
         self.embeddings = create_embeddings_pipeline()
@@ -57,7 +63,8 @@ class ExperimentRunner:
         
         print(f"✅ ExperimentRunner inicializado")
         print(f"   Dataset: {len(self.dataset['questions'])} perguntas")
-        print(f"   Resultados: {self.results_dir}")
+        print(f"   Resultados raw: {self.raw_dir}")
+        print(f"   Análises: {self.analysis_dir}")
     
     def _load_dataset(self, path: str) -> Dict:
         """Carrega dataset de teste"""
@@ -194,7 +201,8 @@ class ExperimentRunner:
             'individual_results': results
         }
         
-        output_path = self.results_dir / f'{experiment_name}.json'
+        # Salvar no diretório raw/
+        output_path = self.raw_dir / f'{experiment_name}.json'
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=2, ensure_ascii=False)
         
@@ -494,7 +502,8 @@ class ExperimentRunner:
             ]
         }
         
-        summary_path = self.results_dir / f'{experiment_type}_summary.json'
+        # Salvar sumário no diretório raw/
+        summary_path = self.raw_dir / f'{experiment_type}_summary.json'
         with open(summary_path, 'w', encoding='utf-8') as f:
             json.dump(summary, f, indent=2, ensure_ascii=False)
         
