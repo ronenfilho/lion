@@ -19,6 +19,7 @@ from src.retrieval.bm25_retriever import BM25Retriever, create_bm25_retriever
 from src.retrieval.hybrid_retriever import HybridRetriever, create_hybrid_retriever
 from src.generation.llm_client import LLMClient, GenerationConfig
 from src.generation.local_llm_client import LocalLLMClient
+from src.generation.groq_client import GroqLLMClient
 from src.generation.prompts import PromptManager
 from src.evaluation.metrics.ragas_metrics import RAGASEvaluator, create_ragas_evaluator
 from src.evaluation.metrics.bertscore import BERTScoreEvaluator
@@ -63,6 +64,25 @@ class ExperimentRunner:
         with open(path, 'r', encoding='utf-8') as f:
             return json.load(f)
     
+    def _get_few_shot_examples(self) -> List[Dict[str, str]]:
+        """
+        Retorna exemplos para few-shot learning.
+        
+        Usa perguntas 2, 3 e 4 do dataset como exemplos.
+        
+        Returns:
+            Lista de dicts com 'question' e 'answer'
+        """
+        examples = []
+        # Perguntas 2, 3, 4 (índices 1, 2, 3)
+        for i in [1, 2, 3]:
+            qa = self.dataset['questions'][i]
+            examples.append({
+                'question': qa['question'],
+                'answer': qa['ground_truth']
+            })
+        return examples
+    
     def run_experiment(
         self,
         experiment_name: str,
@@ -101,6 +121,10 @@ class ExperimentRunner:
         if llm_name.startswith('local:'):
             model_name = llm_name.replace('local:', '')
             llm_client = LocalLLMClient(model_name=model_name, quantize=True)
+        # Verificar se é Groq
+        elif llm_name.startswith('groq:'):
+            model_name = llm_name.replace('groq:', '')
+            llm_client = GroqLLMClient(model_name=model_name)
         else:
             llm_client = LLMClient(
                 model_name=llm_name,
@@ -301,11 +325,21 @@ class ExperimentRunner:
         
         # Gerar resposta
         if config.get('use_rag', True) and contexts:
-            # RAG: usar contexto
-            prompt = self.prompt_manager.generate_rag_prompt(
-                question=question,
-                context_chunks=contexts
-            )
+            # Verificar se usa few-shot
+            if config.get('use_few_shot', False):
+                # Carregar exemplos do dataset (perguntas 2-4)
+                examples = self._get_few_shot_examples()
+                prompt = self.prompt_manager.generate_few_shot_prompt(
+                    question=question,
+                    context_chunks=contexts,
+                    examples=examples
+                )
+            else:
+                # RAG: usar contexto normal
+                prompt = self.prompt_manager.generate_rag_prompt(
+                    question=question,
+                    context_chunks=contexts
+                )
         else:
             # Sem RAG: apenas pergunta
             prompt = self.prompt_manager.generate_no_rag_prompt(question)
@@ -587,13 +621,6 @@ class ExperimentRunner:
         elif experiment_type == 'llm_size':
             return [
                 {
-                    'name': 'flash_no_rag',
-                    'config': {
-                        'use_rag': False,
-                        'llm': 'gemini-2.0-flash'
-                    }
-                },
-                {
                     'name': 'flash_with_rag',
                     'config': {
                         'use_rag': True,
@@ -601,30 +628,38 @@ class ExperimentRunner:
                         'k': 5,
                         'dense_weight': 0.7,
                         'bm25_weight': 0.3,
+                        'llm': 'gemini-2.0-flash'
+                    }
+                },
+                {
+                    'name': 'flash_no_rag',
+                    'config': {
+                        'use_rag': False,
                         'llm': 'gemini-2.5-flash'
                     }
                 }
             ]
         
         elif experiment_type == 'model_comparison':
-            # Para teste inicial, usar apenas modelos menores
             return [
                 {
-                    'name': 'gemini_flash_baseline',
+                    'name': 'tinyllama_few_shot',
                     'config': {
                         'use_rag': True,
                         'retrieval_method': 'dense',
                         'k': 3,
-                        'llm': 'gemini-2.5-flash'
+                        'llm': 'local:tinyllama',
+                        'use_few_shot': True
                     }
                 },
                 {
-                    'name': 'tinyllama',
+                    'name': 'groq_llama_3.1_8b',
                     'config': {
                         'use_rag': True,
                         'retrieval_method': 'dense',
                         'k': 3,
-                        'llm': 'local:tinyllama'
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
                     }
                 }
             ]

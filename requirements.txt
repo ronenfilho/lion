@@ -11,6 +11,7 @@ faiss-cpu==1.9.0.post1
 
 # LLM Providers
 google-generativeai==0.8.3
+groq==0.13.0
 
 # Document Processing
 pymupdf==1.24.14

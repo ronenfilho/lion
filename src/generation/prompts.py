@@ -307,6 +307,63 @@ Use linguagem clara e acessível. Cite artigos de lei quando apropriado."""
         
         return f"{system}\n\nPergunta: {question}\n\nResposta:"
     
+    def generate_few_shot_prompt(
+        self,
+        question: str,
+        context_chunks: List[str],
+        examples: List[Dict[str, str]]
+    ) -> str:
+        """
+        Gera prompt com few-shot learning.
+        
+        Args:
+            question: Pergunta do usuário
+            context_chunks: Lista de chunks de contexto
+            examples: Lista de dicts com 'question' e 'answer'
+        
+        Returns:
+            Prompt formatado com exemplos
+        """
+        # System instruction
+        system = """Você é um assistente especializado em Imposto de Renda Pessoa Física (IRPF) brasileiro.
+
+REGRAS IMPORTANTES:
+1. Base suas respostas EXCLUSIVAMENTE nas informações do contexto fornecido
+2. Se a informação não estiver no contexto, diga claramente "Não encontrei essa informação nos documentos consultados"
+3. Cite os artigos, parágrafos ou seções relevantes quando aplicável
+4. Use linguagem clara e acessível
+5. Seja direto e objetivo
+
+Veja os exemplos abaixo de como responder:"""
+        
+        # Construir exemplos
+        examples_text = "\n\n---\n\n".join([
+            f"Exemplo {i+1}:\nPergunta: {ex['question']}\nResposta: {ex['answer']}"
+            for i, ex in enumerate(examples)
+        ])
+        
+        # Construir contexto
+        context = "\n\n".join([
+            f"[Trecho {i+1}]\n{chunk}"
+            for i, chunk in enumerate(context_chunks)
+        ])
+        
+        # Montar prompt final
+        user_prompt = f"""{examples_text}
+
+---
+
+Agora responda à seguinte pergunta usando o contexto fornecido:
+
+Contexto:
+{context}
+
+Pergunta: {question}
+
+Resposta:"""
+        
+        return f"{system}\n\n{user_prompt}"
+    
     def list_templates(self) -> List[Dict[str, str]]:
         """
         Lista todos os templates disponíveis.
