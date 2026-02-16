@@ -639,11 +639,20 @@ class ExperimentRunner:
                     }
                 }
             ]
-        
-        elif experiment_type == 'model_comparison':
+
+        elif experiment_type == 'local_model_comparison':
             return [
                 {
-                    'name': 'tinyllama_few_shot',
+                    'name': 'tinyllama_with_rag',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'dense',
+                        'k': 3,
+                        'llm': 'local:tinyllama'
+                    }
+                },
+                {
+                    'name': 'tinyllama_few_shot_with_rag',
                     'config': {
                         'use_rag': True,
                         'retrieval_method': 'dense',
@@ -651,9 +660,24 @@ class ExperimentRunner:
                         'llm': 'local:tinyllama',
                         'use_few_shot': True
                     }
-                },
+                }
+            ]
+
+        elif experiment_type == 'model_comparison':
+            return [
+                # === BASELINE (Sem RAG) ===
                 {
-                    'name': 'groq_llama_3.1_8b',
+                    'name': 'groq_llama_3.1_8b_baseline',
+                    'config': {
+                        'use_rag': False,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': False
+                    }
+                },
+                
+                # === VARIAÇÕES k=3 ===
+                {
+                    'name': 'groq_k3_dense_few_shot',
                     'config': {
                         'use_rag': True,
                         'retrieval_method': 'dense',
@@ -661,9 +685,135 @@ class ExperimentRunner:
                         'llm': 'groq:llama-3.1-8b-instant',
                         'use_few_shot': True
                     }
+                },
+                {
+                    'name': 'groq_k3_bm25_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 3,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                {
+                    'name': 'groq_k3_hybrid_70_30_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'hybrid',
+                        'k': 3,
+                        'dense_weight': 0.7,
+                        'bm25_weight': 0.3,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                {
+                    'name': 'groq_k3_hybrid_50_50_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'hybrid',
+                        'k': 3,
+                        'dense_weight': 0.5,
+                        'bm25_weight': 0.5,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                
+                # === VARIAÇÕES k=5 ===
+                {
+                    'name': 'groq_k5_dense_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'dense',
+                        'k': 5,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                {
+                    'name': 'groq_k5_bm25_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 5,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                {
+                    'name': 'groq_k5_hybrid_70_30_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'hybrid',
+                        'k': 5,
+                        'dense_weight': 0.7,
+                        'bm25_weight': 0.3,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                {
+                    'name': 'groq_k5_hybrid_50_50_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'hybrid',
+                        'k': 5,
+                        'dense_weight': 0.5,
+                        'bm25_weight': 0.5,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                
+                # === VARIAÇÕES k=10 ===
+                {
+                    'name': 'groq_k10_dense_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'dense',
+                        'k': 10,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                {
+                    'name': 'groq_k10_bm25_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 10,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                {
+                    'name': 'groq_k10_hybrid_70_30_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'hybrid',
+                        'k': 10,
+                        'dense_weight': 0.7,
+                        'bm25_weight': 0.3,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
+                },
+                {
+                    'name': 'groq_k10_hybrid_50_50_few_shot',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'hybrid',
+                        'k': 10,
+                        'dense_weight': 0.5,
+                        'bm25_weight': 0.5,
+                        'llm': 'groq:llama-3.1-8b-instant',
+                        'use_few_shot': True
+                    }
                 }
             ]
-        
+                    
         else:
             raise ValueError(f"Tipo de experimento desconhecido: {experiment_type}")
 
