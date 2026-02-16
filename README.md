@@ -1,22 +1,19 @@
 # 🦁 LION - Legal Interpretation and Official Norms
 
-## Assistente Virtual para Dúvidas do IRPF (2026) com Arquitetura RAG
+Assistente Virtual RAG para IRPF (2026) - Interpretação normativa com IA responsável
 
 [![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](https://github.com/ronenfilho/lion)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
 
 ## 📌 Visão Geral
 
-O **LION** é um assistente virtual baseado em **RAG (Retrieval-Augmented Generation)** para interpretação normativa do **Imposto de Renda da Pessoa Física (IRPF)**. 
-
-O sistema garante:
-- ✅ **Acurácia normativa** com fundamentação em fontes oficiais
-- ✅ **Rastreabilidade legal** completa
-- ✅ **Redução de alucinações** através de guardrails
-- ✅ **IA Responsável** sem uso de dados pessoais
+Sistema RAG (Retrieval-Augmented Generation) para consultas sobre **Imposto de Renda da Pessoa Física (IRPF)** com:
+- ✅ Fundamentação em fontes oficiais da RFB
+- ✅ Rastreabilidade legal completa
+- ✅ Redução de alucinações via guardrails
+- ✅ Sem uso de dados pessoais
 
 ---
 
@@ -28,314 +25,112 @@ O sistema garante:
 
 ## 🏗️ Arquitetura
 
-### Visão Geral do Sistema
-
 ```
-┌────────────────────┐
-│    Usuário         │
-└─────────┬──────────┘
-          │
-          ▼
-┌─────────────────────┐
-│ Query Understanding │  ← Intent Classification
-└─────────┬───────────┘    Entity Extraction
-          │                Normalization
-          ▼
-┌─────────────────────┐
-│ Hybrid Retrieval    │  ← Dense (70%) + Sparse (30%)
-│  + Re-ranking       │    BM25 + Embeddings
-└─────────┬───────────┘
-          │
-          ▼
-┌─────────────────────┐
-│ Context Builder     │  ← Top-5 chunks
-└─────────┬───────────┘    + Metadata
-          │
-          ▼
-┌─────────────────────┐
-│ LLM Generation      │  ← Prompt Engineering
-│  + Guardrails       │    Citation Validation
-└─────────┬───────────┘
-          │
-          ▼
-┌─────────────────────┐
-│  Resposta Final     │  ← Com fontes citadas
-└─────────────────────┘    + Disclaimer
+Usuário → Query Understanding → Hybrid Retrieval → Context Builder → LLM + Guardrails → Resposta
 ```
 
-### Componentes Principais
+**Componentes**: Ingestão estrutural | Busca híbrida (dense 70% + BM25 30%) | Gemini/Groq | Validação de citações
 
-1. **📥 Ingestão**: Extração, limpeza e segmentação estrutural de documentos normativos
-2. **🔍 Retrieval Híbrido**: Busca vetorial + BM25 + Re-ranking
-3. **🧠 Geração**: LLMs com prompt engineering otimizado
-4. **🛡️ Guardrails**: Validação de entrada/saída para segurança
-5. **📊 Avaliação**: BERTScore, RAGAS e métricas customizadas
-6. **💾 Cache Semântico**: Redução de latência e custos
+**Base**: IN RFB 2.255/2025, Perguntão IRPF 2025, Lei 15.263/2025
 
 ---
 
-## 📚 Base de Conhecimento
+## 🔬 Experimentos
 
-### Fontes Oficiais
+| ID | Foco | Objetivo |
+|----|------|----------|
+| **1** | RAG vs Sem RAG | Ganho de acurácia |
+| **2** | LLM Pequeno+RAG vs Grande | Arquitetura vs tamanho |
+| **3** | Chunking Estrutural vs Fixo | Melhor segmentação |
+| **4** | Dense vs Hybrid | Impacto BM25 |
+| **5** | Few-shot vs RAG | Exemplos substituem retrieval? |
 
-- **Instrução Normativa RFB nº 2.255/2025**
-- **Perguntas e Respostas IRPF 2025** ("Perguntão")
-- **Lei nº 15.263/2025** (Linguagem Simples)
+### Métricas de Avaliação
 
-> Todos os dados são públicos e oficiais da Receita Federal do Brasil.
+#### Performance
+- **latency_ms**: Tempo total de processamento (ms). Ex: 1176ms
+- **tokens_used**: Tokens consumidos pelo LLM. Ex: 1423 (impacta custo)
+- **num_chunks**: Quantidade de trechos recuperados. Ex: k=3
 
----
+#### Qualidade Semântica (BERTScore)
+- **bertscore_precision**: % da resposta gerada presente no ground truth (evita info incorreta). Ex: 0.57
+- **bertscore_recall**: % do ground truth capturado na resposta (completude). Ex: 0.65
+- **bertscore_f1**: Média harmônica precision/recall - **métrica principal de qualidade**. Ex: 0.61
 
-## 🔬 Metodologia Experimental
-
-### Experimentos Planejados
-
-| ID | Descrição | Objetivo |
-|----|-----------|----------|
-| **Exp 1** | RAG vs Sem RAG (Gemini) | Medir ganho de acurácia |
-| **Exp 2** | LLM Grande vs Pequeno+RAG | Validar arquitetura vs tamanho |
-| **Exp 3** | Chunking Fixo vs Estrutural | Melhor estratégia de segmentação |
-| **Exp 4** | Few-shot vs RAG | Exemplos substituem retrieval? |
-| **Exp 5** | Dense vs Hybrid Retrieval | Impacto de BM25 |
-
-### Métricas
-
-- **BERTScore F1**: Similaridade semântica com resposta oficial
-- **Faithfulness (RAGAS)**: Fidelidade às fontes
-- **Answer Relevancy**: Relevância da resposta
-- **Precision@5 / Recall@5**: Qualidade do retrieval
-- **Citation Accuracy**: % de citações corretas
+#### Qualidade RAG (RAGAS)
+- **answer_relevancy**: Relevância da resposta à pergunta (sem divagações). Ex: 0.90
+- **faithfulness**: Fidelidade aos chunks recuperados (anti-alucinação). Ex: 0.80
+- **context_precision**: Qualidade do ranking dos chunks recuperados. Ex: 0.99
+- **context_recall**: % do ground truth encontrado nos chunks (eficácia do retrieval). Ex: 0.33
 
 ---
 
 ## 🚀 Quick Start
 
-### Instalação
-
 ```bash
-# Clonar repositório
-git clone https://github.com/ronenfilho/lion.git
-cd lion
-
-# Criar ambiente virtual
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# ou: venv\Scripts\activate  # Windows
-
-# Instalar dependências
+# Setup
+git clone https://github.com/ronenfilho/lion.git && cd lion
+python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
+cp .env.example .env  # Editar com API keys
 
-# Configurar variáveis de ambiente
-cp .env.example .env
-# Editar .env com suas API keys
+# Uso
+python scripts/3_run_experiments.py --experiment model_comparison --max-questions 5
+python scripts/4_analyze_results.py --experiment model_comparison
 ```
 
-### Uso Básico
-
+**API Python**:
 ```python
-from src.rag_pipeline import RAGPipeline
+from src.pipeline.rag_pipeline import RAGPipeline
 
-# Inicializar pipeline
-config = {
-    'use_reranking': True,
-    'enable_cache': True,
-    'top_k': 5
-}
-rag = RAGPipeline(config)
-
-# Fazer pergunta
-result = rag.query("Quem é obrigado a declarar o IRPF 2025?")
-
-print(result['answer'])
-# Imprime resposta fundamentada com citações
-
-print(result['chunks'])
-# Mostra chunks recuperados com fontes
+rag = RAGPipeline({'top_k': 5, 'use_reranking': True})
+result = rag.query("Quem é obrigado a declarar IRPF 2025?")
+print(result['answer'], result['chunks'])
 ```
-
-### Executar Experimentos
-
-```bash
-# Rodar experimento específico
-python scripts/3_run_experiments.py --config experiments/configs/exp_001_gemini_rag.yaml
-
-# Analisar resultados
-python scripts/generate_report.py --experiment exp_001
-```
-
----
-
-## 📂 Estrutura do Projeto
-
-`ARQUITETURA.md`
 
 ---
 
 ## 📊 Resultados Esperados
 
-### Hipóteses
-
-- **H1**: RAG reduz alucinações em **30-40%** vs LLM sem contexto
-- **H2**: LLM pequeno (8B) + RAG supera LLM grande sem RAG em **fidelidade normativa**
-- **H3**: Chunking estrutural aumenta **precisão em 15-20%**
-- **H4**: Busca híbrida melhora **Precision@5 em 10-15%**
+**Hipóteses**:
+- H1: RAG reduz alucinações vs LLM sem contexto
+- H2: LLM 8B+RAG supera LLM grande sem RAG em fidelidade
+- H3: Chunking estrutural aumenta precisão
+- H4: Busca híbrida melhora Precision
 
 ---
 
 ## 🛡️ IA Responsável
 
-### Princípios
-
-- ✅ Apenas fontes oficiais públicas
-- ✅ Transparência total de fontes
-- ✅ Sem dados pessoais ou sintéticos
-- ✅ Disclaimers em todas respostas
-- ✅ Não constitui consultoria jurídica
-
-### Segurança
-
-- Detecção automática de PII (CPF, email, etc)
-- Proteção contra prompt injection
-- Validação de citações
-- Rate limiting
-- Logs estruturados para auditoria
+✅ Apenas fontes públicas oficiais | ✅ Transparência total | ✅ Sem dados pessoais | ✅ Disclaimers obrigatórios | ✅ Detecção PII | ✅ Anti prompt-injection
 
 ---
 
 ## 📖 Documentação
 
-### Documentos Principais
-
-| Documento | Descrição |
-|-----------|-----------|
-| [PROJETO_LION.md](docs/PROJETO_LION.md) | Visão geral e fundamentação teórica |
-| [ARQUITETURA.md](docs/ARQUITETURA.md) | Arquitetura técnica detalhada (v2.0) |
-| [MELHORIAS_ARQUITETURA.md](docs/MELHORIAS_ARQUITETURA.md) | Melhorias implementadas |
-| [GUIA_IMPLEMENTACAO.md](docs/GUIA_IMPLEMENTACAO.md) | Passo a passo de implementação |
-
-### Arquitetura Avançada (v2.0)
-
-A arquitetura foi expandida com:
-
-- 🆕 **Query Understanding Layer** (intent classification, entity extraction)
-- 🔍 **Hybrid Search** (Dense + Sparse + Re-ranking)
-- 🛡️ **Guardrails** completos (input/output validation)
-- 💾 **Semantic Caching** multi-camadas
-- 📊 **Observabilidade** estruturada (logs, métricas, tracing)
-- 🎯 **Prompt Engineering** otimizado para domínio legal
-- 🚀 **Produção-ready** (deploy, escalabilidade, custos)
-
-Ver [MELHORIAS_ARQUITETURA.md](docs/MELHORIAS_ARQUITETURA.md) para detalhes completos.
+- [PROJETO_LION.md](docs/PROJETO_LION.md) - Fundamentação teórica
+- [ARQUITETURA.md](docs/ARQUITETURA.md) - Detalhes técnicos v2.0
+- [GUIA_IMPLEMENTACAO.md](docs/GUIA_IMPLEMENTACAO.md) - Passo a passo
 
 ---
 
-## 🧪 Tecnologias
+## 🧪 Stack
 
-### Core
-- **Python 3.10+**
-- **LangChain / LlamaIndex** - Framework RAG
-- **ChromaDB / Qdrant** - Vector store
-- **OpenAI / Anthropic / Google** - LLM providers
-
-### Embeddings
-- text-embedding-3-large (OpenAI)
-- BGE-m3 (BAAI)
-- multilingual-e5-large
-
-### Evaluation
-- RAGAS
-- BERTScore
-- Custom metrics (Citation Accuracy, Normative Coverage)
-
-### Infraestrutura
-- FastAPI (API REST)
-- Streamlit (Interface)
-- Prometheus + Grafana (Monitoramento)
-- Docker (Containerização)
-
----
-
-## 📈 Roadmap
-
-### ✅ Fase 1: Planejamento (Concluída)
-- Definição do problema
-- Arquitetura detalhada
-- Estrutura do projeto
-
-### 🔄 Fase 2: Desenvolvimento (Em Andamento)
-- [ ] Implementação do pipeline de ingestão
-- [ ] Retrieval híbrido + re-ranking
-- [ ] Generation layer + guardrails
-- [ ] Sistema de avaliação
-
-### 📊 Fase 3: Experimentação
-- [ ] Execução dos 5 experimentos
-- [ ] Análise estatística
-- [ ] Validação de hipóteses
-
-### 📝 Fase 4: Documentação
-- [ ] Relatório final
-- [ ] Artigo científico
-- [ ] Apresentação
-
-### 🚀 Fase 5: Produção (Opcional)
-- [ ] API REST
-- [ ] Interface web
-- [ ] Deploy cloud
-- [ ] Monitoramento
-
----
-
-## 📅 Cronograma de Implementação
-
-- [x] **Fase 1: Setup e Infra**
-- [x] **Fase 2: Módulo de Ingestão**
-- [x] **Fase 3: Processamento e Segmentação**
-- [x] **Fase 4: Vetorização e Indexação**
-- [x] **Fase 5: Interface de Chat/CLI**
-- [x] **Fase 6: Otimização de busca (Híbrida)**
-- [x] **Fase 7: Guardrails e Filtros**
-- [x] **Fase 8: Métricas e Avaliação (BERTScore, RAGAS)** ← **CONCLUÍDO**
-- [x] **Fase 9: Pipeline RAG Completo** ← **CONCLUÍDO**
-- [ ] **Fase 10: Experimentos e Dashboards**
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Este é um projeto acadêmico com foco em:
-
-- Metodologia replicável
-- Código bem documentado
-- Boas práticas de engenharia
-
-### Como Contribuir
-
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Ver [LICENSE](LICENSE) para mais detalhes.
+**Core**: Python 3.10+ | LangChain | ChromaDB | OpenAI/Google/Groq/Local
+**Embeddings**: models/gemini-embedding-001
+**Eval**: RAGAS | BERTScore | Custom metrics  
+**Infra**: FastAPI | Streamlit | Docker
 
 ---
 
 ## 👨‍💻 Autor
 
-**Ronen Rodrigues Silva Filho**
-
-- 📅 Ano: 2026
+**Ronen Rodrigues Silva Filho** | 2026  
+📧 Issues: [github.com/ronenfilho/lion/issues](https://github.com/ronenfilho/lion/issues)
 
 ---
 
 ## 📚 Citação
-
-Se você usar este projeto em sua pesquisa, por favor cite:
 
 ```bibtex
 @misc{silva2026lion,
@@ -343,28 +138,12 @@ Se você usar este projeto em sua pesquisa, por favor cite:
   author={Silva Filho, Ronen Rodrigues},
   year={2026},
   publisher={GitHub},
-  howpublished={\\url{https://github.com/ronenfilho/lion}}
+  url={https://github.com/ronenfilho/lion}
 }
 ```
 
 ---
 
-## 📞 Suporte
+**Última atualização**: 16/02/2026 | **Licença**: MIT
 
-Para dúvidas ou problemas:
-- Abra uma [issue](https://github.com/ronenfilho/lion/issues)
-- Consulte a [documentação](docs/)
-
----
-
-**Última atualização:** 14 de fevereiro de 2026
-
-**Status do Projeto:** 🟡 Em Desenvolvimento Ativo
-
----
-
-<div align="center">
-
-### ⭐ Se este projeto foi útil, considere dar uma estrela!
-
-</div>
+<div align="center">⭐ Star se este projeto foi útil!</div>
