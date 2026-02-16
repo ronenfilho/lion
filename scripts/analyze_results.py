@@ -55,7 +55,7 @@ class ResultsAnalyzer:
         Returns:
             Dicionário com todos os experimentos desse tipo
         """
-        # Buscar arquivos no diretório raw/
+        # Buscar arquivos no diretório raw/ (ignora arquivos de summary)
         pattern = f"{experiment_type}_*.json"
         files = list(self.raw_dir.glob(pattern))
         
@@ -65,7 +65,8 @@ class ResultsAnalyzer:
         experiments = {}
         
         for file in files:
-            if file.name.endswith('_summary.json'):
+            # Ignorar arquivos de summary
+            if '_summary_' in file.name:
                 continue
             
             with open(file, 'r', encoding='utf-8') as f:
@@ -73,10 +74,12 @@ class ResultsAnalyzer:
                 experiment_name = data['experiment_name']
                 experiments[experiment_name] = data
         
-        # Carregar summary se existir (no diretório raw/)
-        summary_file = self.raw_dir / f"{experiment_type}_summary.json"
-        if summary_file.exists():
-            with open(summary_file, 'r', encoding='utf-8') as f:
+        # Carregar summary mais recente se existir (no diretório raw/)
+        summary_files = list(self.raw_dir.glob(f"{experiment_type}_summary_*.json"))
+        if summary_files:
+            # Ordenar por timestamp no nome do arquivo (mais recente primeiro)
+            summary_files.sort(reverse=True)
+            with open(summary_files[0], 'r', encoding='utf-8') as f:
                 self.summary = json.load(f)
         
         self.experiments = experiments

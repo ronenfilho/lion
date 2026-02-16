@@ -195,6 +195,9 @@ class ExperimentRunner:
         # Agregar métricas
         aggregated = self._aggregate_metrics(results)
         
+        # Criar timestamp para o arquivo
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        
         # Salvar resultados
         output_data = {
             'experiment_name': experiment_name,
@@ -207,8 +210,8 @@ class ExperimentRunner:
             'individual_results': results
         }
         
-        # Salvar no diretório raw/
-        output_path = self.raw_dir / f'{experiment_name}.json'
+        # Salvar no diretório raw/ com timestamp
+        output_path = self.raw_dir / f'{experiment_name}_{timestamp}.json'
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=2, ensure_ascii=False)
         
@@ -493,6 +496,9 @@ class ExperimentRunner:
             # Pausa entre experimentos
             time.sleep(2)
         
+        # Criar timestamp para o arquivo de sumário
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        
         # Salvar sumário
         summary = {
             'experiment_type': experiment_type,
@@ -508,8 +514,8 @@ class ExperimentRunner:
             ]
         }
         
-        # Salvar sumário no diretório raw/
-        summary_path = self.raw_dir / f'{experiment_type}_summary.json'
+        # Salvar sumário no diretório raw/ com timestamp
+        summary_path = self.raw_dir / f'{experiment_type}_summary_{timestamp}.json'
         with open(summary_path, 'w', encoding='utf-8') as f:
             json.dump(summary, f, indent=2, ensure_ascii=False)
         
