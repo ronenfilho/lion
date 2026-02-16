@@ -770,23 +770,252 @@ class RAGPipeline:
 - [x] tests/integration/test_rag_pipeline_integration.py (testes end-to-end do pipeline completo)
 📝 Fase completa em: 15/02/2026
 
-## 🔄 Fase 10: Experimentos (0% - 0/3)
-- [ ] Preparar dataset de teste (perguntas IRPF)
-- [ ] Executar experimentos comparativos
-- [ ] Analisar resultados e métricas
+## 🔄 Fase 10: Experimentos (0% - 0/5)
+- [ ] **Etapa 10.1**: Criar dataset de teste (extração de perguntas e respostas)
+- [ ] **Etapa 10.2**: Ingerir Lei 15.270 no vector store
+- [ ] **Etapa 10.3**: Executar experimentos comparativos (4 experimentos)
+- [ ] **Etapa 10.4**: Analisar resultados e calcular métricas
+- [ ] **Etapa 10.5**: Gerar relatórios e visualizações
 ```
 
 ---
 
 ## 🎯 PRÓXIMO PASSO RECOMENDADO
 
-### ➡️ Fase 10: Executar Experimentos Comparativos
+### ➡️ Fase 10.1: Criar Dataset de Teste
 
-**Começar com: Preparação do Dataset de Teste** 
+**Estudo de Caso: Lei 15.270** (Linguagem Simples)
 
-O pipeline RAG está completo e funcional. Agora é hora de executar os experimentos científicos definidos na arquitetura para validar as hipóteses.
+O pipeline RAG está completo e funcional. Agora precisamos preparar o dataset de teste para validar experimentalmente as hipóteses da pesquisa.
 
-**Experimentos Planejados:**
+#### **Tarefa Imediata: Extração de Perguntas e Respostas**
+
+**Objetivo:** Criar conjunto de 30-50 pares pergunta-resposta extraídos da Lei 15.270 para avaliação quantitativa.
+
+**Documento Fonte:**
+- **Lei nº 15.270/2025** (Linguagem Simples para IRPF)
+- Formato: PDF oficial com estrutura de perguntas e respostas
+- Localização: `data/raw/lei_15270_2025.pdf`
+
+**Estrutura do Dataset:**
+```json
+{
+  "dataset_name": "lei_15270_qa_test",
+  "version": "1.0",
+  "created_at": "2026-02-15",
+  "total_questions": 30,
+  "questions": [
+    {
+      "id": "q001",
+      "question": "Quem é obrigado a declarar o Imposto de Renda?",
+      "ground_truth": "É obrigado a apresentar a Declaração de Ajuste Anual quem recebeu...",
+      "category": "obrigatoriedade",
+      "difficulty": "facil",
+      "source": "Lei 15.270/2025, Art. 3º",
+      "metadata": {
+        "article": "3",
+        "section": "obrigatoriedade"
+      }
+    }
+  ]
+}
+```
+
+**Pipeline de Criação:**
+
+1. **Extração do PDF:**
+   ```python
+   from src.ingestion.extractors.pdf_extractor import PDFExtractor
+   
+   extractor = PDFExtractor()
+   doc_data = extractor.extract('data/raw/lei_15270_2025.pdf')
+   ```
+
+2. **Script de Extração:** `scripts/create_test_dataset.py`
+   ```python
+   """
+   Script para extrair perguntas e respostas da Lei 15.270
+   e criar dataset de teste estruturado
+   """
+   import json
+   from pathlib import Path
+   from typing import List, Dict
+   import re
+   
+   def extract_qa_pairs(text: str) -> List[Dict]:
+       """
+       Extrai pares de perguntas e respostas do texto.
+       
+       Estratégia:
+       - Identificar padrões de perguntas (ex: linhas terminando com '?')
+       - Capturar resposta até próxima pergunta ou seção
+       - Extrair metadados (artigo, parágrafo, etc)
+       """
+       qa_pairs = []
+       
+       # Regex para identificar perguntas
+       question_pattern = r'^(.+?\?)\s*$'
+       
+       # Processar texto linha por linha
+       lines = text.split('\n')
+       current_question = None
+       current_answer = []
+       
+       for i, line in enumerate(lines):
+           line = line.strip()
+           if not line:
+               continue
+           
+           # Detectar pergunta
+           match = re.match(question_pattern, line, re.MULTILINE)
+           if match:
+               # Salvar Q&A anterior
+               if current_question:
+                   qa_pairs.append({
+                       'question': current_question,
+                       'answer': ' '.join(current_answer).strip()
+                   })
+               
+               # Iniciar nova pergunta
+               current_question = match.group(1)
+               current_answer = []
+           elif current_question:
+               # Acumular resposta
+               current_answer.append(line)
+       
+       # Adicionar última Q&A
+       if current_question:
+           qa_pairs.append({
+               'question': current_question,
+               'answer': ' '.join(current_answer).strip()
+           })
+       
+       return qa_pairs
+   
+   def enrich_qa_metadata(qa_pairs: List[Dict]) -> List[Dict]:
+       """
+       Enriquece Q&A com metadados adicionais.
+       """
+       enriched = []
+       
+       for i, qa in enumerate(qa_pairs, 1):
+           enriched.append({
+               'id': f'q{i:03d}',
+               'question': qa['question'],
+               'ground_truth': qa['answer'],
+               'category': classify_category(qa['question']),
+               'difficulty': 'medio',  # Ajustar manualmente
+               'source': 'Lei 15.270/2025',
+               'metadata': extract_source_metadata(qa['answer'])
+           })
+       
+       return enriched
+   
+   def classify_category(question: str) -> str:
+       """Classifica pergunta em categoria"""
+       keywords = {
+           'obrigatoriedade': ['obrigado', 'obrigada', 'obrigatório'],
+           'deducoes': ['dedução', 'deduzir', 'abater'],
+           'dependentes': ['dependente', 'filho', 'cônjuge'],
+           'rendimentos': ['rendimento', 'renda', 'salário'],
+           'prazo': ['prazo', 'data', 'quando'],
+           'penalidades': ['multa', 'penalidade', 'sanção']
+       }
+       
+       question_lower = question.lower()
+       for category, words in keywords.items():
+           if any(word in question_lower for word in words):
+               return category
+       
+       return 'outros'
+   
+   def extract_source_metadata(text: str) -> Dict:
+       """Extrai metadados de fonte (artigos, parágrafos)"""
+       metadata = {}
+       
+       # Buscar artigos
+       art_match = re.search(r'art(?:igo)?\.?\s*(\d+)', text, re.IGNORECASE)
+       if art_match:
+           metadata['article'] = art_match.group(1)
+       
+       return metadata
+   
+   def main():
+       # 1. Extrair PDF
+       from src.ingestion.extractors.pdf_extractor import PDFExtractor
+       
+       pdf_path = 'data/raw/lei_15270_2025.pdf'
+       extractor = PDFExtractor()
+       
+       print(f"📄 Extraindo {pdf_path}...")
+       doc_data = extractor.extract(pdf_path)
+       
+       # 2. Extrair Q&A
+       print("🔍 Extraindo pares de perguntas e respostas...")
+       qa_pairs = extract_qa_pairs(doc_data['text'])
+       print(f"   Encontrados: {len(qa_pairs)} pares Q&A")
+       
+       # 3. Enriquecer com metadados
+       print("📊 Enriquecendo com metadados...")
+       enriched_qa = enrich_qa_metadata(qa_pairs)
+       
+       # 4. Criar dataset estruturado
+       dataset = {
+           'dataset_name': 'lei_15270_qa_test',
+           'version': '1.0',
+           'created_at': '2026-02-15',
+           'total_questions': len(enriched_qa),
+           'source_document': 'Lei 15.270/2025',
+           'questions': enriched_qa
+       }
+       
+       # 5. Salvar JSON
+       output_path = Path('experiments/datasets/lei_15270_test.json')
+       output_path.parent.mkdir(parents=True, exist_ok=True)
+       
+       with open(output_path, 'w', encoding='utf-8') as f:
+           json.dump(dataset, f, ensure_ascii=False, indent=2)
+       
+       print(f"\n✅ Dataset criado: {output_path}")
+       print(f"   Total de perguntas: {len(enriched_qa)}")
+       
+       # 6. Estatísticas
+       categories = {}
+       for qa in enriched_qa:
+           cat = qa['category']
+           categories[cat] = categories.get(cat, 0) + 1
+       
+       print("\n📊 Distribuição por categoria:")
+       for cat, count in sorted(categories.items(), key=lambda x: -x[1]):
+           print(f"   {cat}: {count}")
+   
+   if __name__ == '__main__':
+       main()
+   ```
+
+3. **Validação Manual:**
+   - Revisar 10-20% das Q&A extraídas
+   - Ajustar dificuldades e categorias
+   - Corrigir respostas truncadas ou incompletas
+
+4. **Ingestão da Lei 15.270:**
+   ```python
+   # scripts/ingest_lei_15270.py
+   from src.pipeline.rag_pipeline import create_rag_pipeline
+   
+   pipeline = create_rag_pipeline(verbose=True)
+   
+   result = pipeline.ingest_documents([
+       'data/raw/lei_15270_2025.pdf'
+   ])
+   
+   print(f"✅ Documentos processados: {result.documents_processed}")
+   print(f"✅ Chunks indexados: {result.chunks_indexed}")
+   ```
+
+**Próximos Passos (após criação do dataset):**
+
+**Fase 10.2 - Experimentos Comparativos:**
 
 1. **Experimento 1: RAG vs Sem RAG** (Gemini)
    - Configuração A: Gemini sem RAG (baseline)
@@ -812,34 +1041,35 @@ O pipeline RAG está completo e funcional. Agora é hora de executar os experime
    - Objetivo: Impacto de BM25 em termos normativos
    - Métricas: Precision@5, Recall@5, MRR
 
-**Dataset de Teste:**
-- 30-50 perguntas representativas sobre IRPF
-- Ground truths extraídos do Perguntão oficial
-- 5 execuções por configuração (média e desvio padrão)
-
-**Tempo estimado:** 3-5 dias para execução completa + análise
-
-**Após conclusão:** Análise estatística, geração de relatórios e visualizações (Fase 10).
+**Tempo estimado:** 
+- Dataset: 1-2 dias (extração + validação)
+- Experimentos: 3-5 dias (execução + análise)
 
 ---
 
 ## 📌 Notas Importantes
 
 - ✅ **Fase 9 Completa:** Pipeline RAG totalmente integrado e testado
-  - RAGPipeline: 600+ linhas integrando todos os módulos
-  - Métodos: ingest_documents(), query(), batch_query(), evaluate()
+  - RAGPipeline: 676 linhas integrando 11 componentes
+  - Métodos: ingest_documents(), query(), batch_query()
   - Cache semântico, error handling, logging estruturado
   - 18 testes unitários + testes de integração end-to-end
+  - Correções de compatibilidade API (PromptManager, RAGEvaluator, LLMClient)
+- ✅ **Fase 10.1 Preparada:** Scripts de criação de dataset
+  - `scripts/create_test_dataset.py`: Extração automática de Q&A de PDFs
+  - `scripts/ingest_lei_15270.py`: Ingestão da Lei 15.270 no vector store
+  - `scripts/README.md`: Documentação completa do fluxo
+  - Estudo de caso: Lei 15.270 (Linguagem Simples IRPF)
 - ✅ **Fase 8 Completa:** Todas as métricas de avaliação implementadas e validadas
   - BERTScore: 4/4 testes passando (P/R/F1: 0.717-1.000)
   - RAGAS: Integração com Gemini 2.5 Flash, score perfeito (1.000 faithfulness)
   - Factory functions para todos os evaluators
 - ✅ **Arquitetura:** Completa e validada (v2.0 com 10 melhorias)
 - ✅ **Configuração:** Sistema robusto com validação Pydantic
-- ✅ **Modelos:** 100% gratuitos (Google Gemini 2.5 Flash + models/gemini-embedding-001)
+- ✅ **Modelos:** 100% gratuitos (Google Gemini 2.5 Flash + text-embedding-004)
 - ⚠️ **API Key necessária:** Obtenha gratuitamente em https://aistudio.google.com/
 - ⚠️ **Quota Gemini Free Tier:** 5 req/min, 20 req/dia por modelo - considerar cache e batching
-- 🎯 **Foco atual:** Preparação e execução de experimentos científicos
+- 🎯 **Foco atual:** Criação de dataset de teste para experimentos (Lei 15.270)
 
 ---
 
@@ -855,11 +1085,16 @@ O pipeline RAG está completo e funcional. Agora é hora de executar os experime
 - run-llama/llama_index
 - explodinggradients/ragas
 
+### Scripts Disponíveis
+- `scripts/create_test_dataset.py` - Extração de Q&A de documentos
+- `scripts/ingest_lei_15270.py` - Ingestão no vector store
+- `scripts/README.md` - Documentação detalhada
+
 ---
 
 **Data:** 15/02/2026  
-**Versão:** 1.1  
-**Última Atualização:** Fase 8 completa (BERTScore + RAGAS)  
+**Versão:** 1.2  
+**Última Atualização:** Fase 9 completa + Scripts Fase 10.1 criados  
 **Autor:** Equipe LION
 cd /home/decode/workspace/lion
 python3 -m venv venv

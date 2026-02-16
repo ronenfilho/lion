@@ -2,6 +2,10 @@
 Structural Chunker - LION
 Divide documentos em chunks baseado em estrutura semântica
 
+Suporta múltiplos formatos:
+- Markdown (arquivos .md processados)
+- PDFSection (seções extraídas de PDF/HTML)
+
 Melhorias implementadas:
 - Respeita limites de artigos e parágrafos legais
 - Adiciona contexto hierárquico automático
@@ -10,7 +14,8 @@ Melhorias implementadas:
 """
 
 import re
-from typing import List, Dict, Optional, Tuple
+import hashlib
+from typing import List, Dict, Optional, Tuple, Union, Any
 from dataclasses import dataclass
 
 
@@ -40,6 +45,10 @@ class StructuralChunker:
     """
     Divide documentos em chunks baseado em estrutura semântica
     
+    Suporta:
+    - Markdown: Detecta artigos (### Artigo) e headers (##)
+    - PDFSection: Processa seções extraídas de PDF/HTML
+    
     Estratégias:
     - Respeita seções e hierarquia do documento
     - Mantém contexto de títulos superiores
@@ -49,9 +58,9 @@ class StructuralChunker:
     
     def __init__(
         self,
-        max_chunk_size: int = 800,
-        min_chunk_size: int = 400,
-        overlap: int = 0,
+        max_chunk_size: int = 1000,
+        min_chunk_size: int = 100,
+        overlap: int = 200,
         add_context_window: bool = True,
         respect_boundaries: bool = True
     ):
@@ -70,6 +79,270 @@ class StructuralChunker:
         self.overlap = overlap
         self.add_context_window = add_context_window
         self.respect_boundaries = respect_boundaries
+    
+    def chunk_markdown(
+        self,
+        content: str,
+        source: str,
+        metadata: Optional[Dict[str, Any]] = None
+    ) -> List[Chunk]:
+        """
+        Divide documento Markdown em chunks preservando estrutura
+        
+        Args:
+            content: Conteúdo do documento Markdown
+            source: Nome/identificador da fonte
+            metadata: Metadados adicionais
+            
+        Returns:
+            Lista de chunks
+        """
+        if metadata is None:
+            metadata = {}
+        
+        # Dividir por seções (artigos ou headers)
+        sections = self._parse_markdown_sections(content)
+        
+        chunks = []
+        chunk_counter = 0
+        
+        for section_title, section_content in sections:
+            # Se a seção é pequena, manter inteira
+            if len(section_content) <= self.max_chunk_size:
+                chunk_id = self._generate_chunk_id(source, chunk_counter)
+                chunks.append(Chunk(
+                    chunk_id=chunk_id,
+                    content=section_content,
+                    source=source,
+                    metadata={
+                        **metadata,
+                        "section": section_title,
+                        "chunk_index": chunk_counter,
+                        "chunk_method": "markdown_section"
+                    }
+                ))
+                chunk_counter += 1
+            else:
+                # Dividir seção grande em chunks menores com overlap
+                section_chunks = self._split_markdown_section(
+                    section_content,
+                    section_title,
+                    source,
+                    chunk_counter,
+                    metadata
+                )
+                chunks.extend(section_chunks)
+                chunk_counter += len(section_chunks)
+        
+        return chunks
+    
+    def _parse_markdown_sections(self, content: str) -> List[Tuple[str, str]]:
+        """
+        Divide conteúdo Markdown por seções (artigos ou headers)
+        
+        Returns:
+            Lista de tuplas (título_seção, conteúdo_seção)
+        """
+        sections = []
+        
+        # Padrões para detectar seções
+        patterns = [
+            r'^### Artigo \d+.*?{#artigo-.*?}$',  # Artigos
+            r'^##+ .*$',  # Headers H2, H3, etc
+        ]
+        
+        lines = content.split('\n')
+        current_section = []
+        current_title = "Introdução"
+        
+        for line in lines:
+            # Verificar se é início de nova seção
+            is_section_start = any(re.match(pattern, line, re.MULTILINE) for pattern in patterns)
+            
+            if is_section_start:
+                # Salvar seção anterior
+                if current_section:
+                    section_content = '\n'.join(current_section).strip()
+                    if len(section_content) >= self.min_chunk_size:
+                        sections.append((current_title, section_content))
+                
+                # Iniciar nova seção
+                current_title = line.strip()
+                current_section = [line]
+            else:
+                current_section.append(line)
+        
+        # Adicionar última seção
+        if current_section:
+            section_content = '\n'.join(current_section).strip()
+            if len(section_content) >= self.min_chunk_size:
+                sections.append((current_title, section_content))
+        
+        return sections if sections else [("Documento Completo", content)]
+    
+    def _split_markdown_section(
+        self,
+        section_content: str,
+        section_title: str,
+        source: str,
+        start_index: int,
+        metadata: Dict[str, Any]
+    ) -> List[Chunk]:
+        """
+        Divide seção Markdown grande em chunks com overlap
+        
+        Returns:
+            Lista de chunks da seção
+        """
+        chunks = []
+        paragraphs = section_content.split('\n\n')
+        
+        current_chunk = []
+        current_size = 0
+        chunk_index = start_index
+        
+        for para in paragraphs:
+            para_size = len(para)
+            
+            # Se o parágrafo sozinho já é maior que max_chunk_size
+            if para_size > self.max_chunk_size:
+                # Salvar chunk atual se houver
+                if current_chunk:
+                    chunk_content = '\n\n'.join(current_chunk)
+                    chunk_id = self._generate_chunk_id(source, chunk_index)
+                    chunks.append(Chunk(
+                        chunk_id=chunk_id,
+                        content=chunk_content,
+                        source=source,
+                        metadata={
+                            **metadata,
+                            "section": section_title,
+                            "chunk_index": chunk_index,
+                            "chunk_method": "markdown_split"
+                        }
+                    ))
+                    chunk_index += 1
+                    current_chunk = []
+                    current_size = 0
+                
+                # Dividir parágrafo grande por sentenças
+                sentences = re.split(r'(?<=[.!?])\s+', para)
+                temp_chunk = []
+                temp_size = 0
+                
+                for sent in sentences:
+                    sent_size = len(sent)
+                    if temp_size + sent_size > self.max_chunk_size:
+                        if temp_chunk:
+                            chunk_content = ' '.join(temp_chunk)
+                            chunk_id = self._generate_chunk_id(source, chunk_index)
+                            chunks.append(Chunk(
+                                chunk_id=chunk_id,
+                                content=chunk_content,
+                                source=source,
+                                metadata={
+                                    **metadata,
+                                    "section": section_title,
+                                    "chunk_index": chunk_index,
+                                    "chunk_method": "markdown_sentence_split"
+                                }
+                            ))
+                            chunk_index += 1
+                            
+                            # Overlap: manter últimas sentenças
+                            if self.overlap > 0 and len(temp_chunk) > 1:
+                                overlap_text = ' '.join(temp_chunk[-2:])
+                                if len(overlap_text) <= self.overlap:
+                                    temp_chunk = temp_chunk[-2:]
+                                    temp_size = len(overlap_text)
+                                else:
+                                    temp_chunk = []
+                                    temp_size = 0
+                            else:
+                                temp_chunk = []
+                                temp_size = 0
+                        
+                        temp_chunk.append(sent)
+                        temp_size += sent_size
+                    else:
+                        temp_chunk.append(sent)
+                        temp_size += sent_size
+                
+                if temp_chunk:
+                    chunk_content = ' '.join(temp_chunk)
+                    chunk_id = self._generate_chunk_id(source, chunk_index)
+                    chunks.append(Chunk(
+                        chunk_id=chunk_id,
+                        content=chunk_content,
+                        source=source,
+                        metadata={
+                            **metadata,
+                            "section": section_title,
+                            "chunk_index": chunk_index,
+                            "chunk_method": "markdown_sentence_split"
+                        }
+                    ))
+                    chunk_index += 1
+            
+            # Parágrafo normal
+            elif current_size + para_size > self.max_chunk_size:
+                if current_chunk:
+                    chunk_content = '\n\n'.join(current_chunk)
+                    chunk_id = self._generate_chunk_id(source, chunk_index)
+                    chunks.append(Chunk(
+                        chunk_id=chunk_id,
+                        content=chunk_content,
+                        source=source,
+                        metadata={
+                            **metadata,
+                            "section": section_title,
+                            "chunk_index": chunk_index,
+                            "chunk_method": "markdown_paragraph"
+                        }
+                    ))
+                    chunk_index += 1
+                    
+                    # Overlap: manter último parágrafo se couber
+                    if self.overlap > 0 and current_chunk:
+                        last_para = current_chunk[-1]
+                        if len(last_para) <= self.overlap:
+                            current_chunk = [last_para, para]
+                            current_size = len(last_para) + para_size
+                        else:
+                            current_chunk = [para]
+                            current_size = para_size
+                    else:
+                        current_chunk = [para]
+                        current_size = para_size
+                else:
+                    current_chunk = [para]
+                    current_size = para_size
+            else:
+                current_chunk.append(para)
+                current_size += para_size
+        
+        # Salvar último chunk
+        if current_chunk:
+            chunk_content = '\n\n'.join(current_chunk)
+            chunk_id = self._generate_chunk_id(source, chunk_index)
+            chunks.append(Chunk(
+                chunk_id=chunk_id,
+                content=chunk_content,
+                source=source,
+                metadata={
+                    **metadata,
+                    "section": section_title,
+                    "chunk_index": chunk_index,
+                    "chunk_method": "markdown_final"
+                }
+            ))
+        
+        return chunks
+    
+    def _generate_chunk_id(self, source: str, index: int) -> str:
+        """Gera ID único para o chunk"""
+        unique_str = f"{source}_{index}"
+        return hashlib.md5(unique_str.encode()).hexdigest()[:16]
     
     def chunk_sections(
         self, 
