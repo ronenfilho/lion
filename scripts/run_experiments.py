@@ -18,6 +18,7 @@ from src.retrieval.dense_retriever import DenseRetriever, create_dense_retriever
 from src.retrieval.bm25_retriever import BM25Retriever, create_bm25_retriever
 from src.retrieval.hybrid_retriever import HybridRetriever, create_hybrid_retriever
 from src.generation.llm_client import LLMClient, GenerationConfig
+from src.generation.local_llm_client import LocalLLMClient
 from src.generation.prompts import PromptManager
 from src.evaluation.metrics.ragas_metrics import RAGASEvaluator, create_ragas_evaluator
 from src.evaluation.metrics.bertscore import BERTScoreEvaluator
@@ -94,13 +95,20 @@ class ExperimentRunner:
         print()
         
         # Inicializar componentes baseado na config
-        llm_client = LLMClient(
-            model_name=config.get('llm', 'gemini-2.5-flash'),
-            config=GenerationConfig(
-                temperature=config.get('temperature', 0.2),
-                max_tokens=config.get('max_tokens', 2048)  # Aumentado para 2048
+        llm_name = config.get('llm', 'gemini-2.5-flash')
+        
+        # Verificar se é modelo local
+        if llm_name.startswith('local:'):
+            model_name = llm_name.replace('local:', '')
+            llm_client = LocalLLMClient(model_name=model_name, quantize=True)
+        else:
+            llm_client = LLMClient(
+                model_name=llm_name,
+                config=GenerationConfig(
+                    temperature=config.get('temperature', 0.2),
+                    max_tokens=config.get('max_tokens', 2048)  # Aumentado para 2048
+                )
             )
-        )
         
         # Configurar retriever se usar RAG
         retriever = None
@@ -598,6 +606,29 @@ class ExperimentRunner:
                 }
             ]
         
+        elif experiment_type == 'model_comparison':
+            # Para teste inicial, usar apenas modelos menores
+            return [
+                {
+                    'name': 'gemini_flash_baseline',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'dense',
+                        'k': 3,
+                        'llm': 'gemini-2.5-flash'
+                    }
+                },
+                {
+                    'name': 'tinyllama',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'dense',
+                        'k': 3,
+                        'llm': 'local:tinyllama'
+                    }
+                }
+            ]
+        
         else:
             raise ValueError(f"Tipo de experimento desconhecido: {experiment_type}")
 
@@ -610,7 +641,7 @@ def main():
     parser.add_argument(
         '--experiment',
         required=True,
-        choices=['rag_vs_no_rag', 'retrieval_strategy', 'chunk_count', 'llm_size'],
+        choices=['rag_vs_no_rag', 'retrieval_strategy', 'chunk_count', 'llm_size', 'model_comparison'],
         help='Tipo de experimento a executar'
     )
     
