@@ -1,0 +1,425 @@
+{
+  "experiment_name": "model_comparison_groq_k10_hybrid_50_50_few_shot",
+  "config": {
+    "use_rag": true,
+    "retrieval_method": "hybrid",
+    "k": 10,
+    "dense_weight": 0.5,
+    "bm25_weight": 0.5,
+    "llm": "groq:llama-3.1-8b-instant",
+    "use_few_shot": true
+  },
+  "timestamp": "2026-02-17T01:38:45.518448",
+  "total_questions": 29,
+  "successful_queries": 0,
+  "failed_queries": 29,
+  "aggregated_metrics": {},
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499004, Requested 2861. Please try again in 5m22.272s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499000, Requested 2864. Please try again in 5m22.0992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498997, Requested 2965. Please try again in 5m39.0336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q004",
+      "question": "A distribuição de lucros e dividendos para pessoa física residente será tributada pelo IRRF?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498994, Requested 3380. Please try again in 6m50.2272s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q005",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498991, Requested 3347. Please try again in 6m44.0064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q006",
+      "question": "Qual o prazo para recolhimento do IRRF devido pela pessoa jurídica sobre os lucros e dividendos distribuídos?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498988, Requested 3217. Please try again in 6m21.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q007",
+      "question": "A lei traz alguma hipótese de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para pessoa física no Brasil?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498985, Requested 3354. Please try again in 6m44.1792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q008",
+      "question": "Para que não haja a retenção do IRRF sobre os lucros e dividendos apurados até o ano-calendário de 2025, quais são os requisitos que devem ser cumpridos?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498982, Requested 3423. Please try again in 6m55.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q009",
+      "question": "Para que não haja a retenção do IRRF sobre os lucros e dividendos apurados no ano-calendário de 2025, como as empresas podem atender ao critério de aprovação da distribuição dos lucros ou dividendos até 31 de dezembro de 2025, tendo em vista artigos 132 e 176 da Lei 6.404/76 e art. 1078 do Código Civil?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498979, Requested 3334. Please try again in 6m39.6864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q010",
+      "question": "O IRRF dos lucros e dividendos também se aplica às distribuições efetuadas por empresas do Simples Nacional?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498975, Requested 3034. Please try again in 5m47.1552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q011",
+      "question": "Qual o código de receita deve ser utilizado no DARF que será pago para recolher o IRRF sobre os lucros e dividendos pagos a pessoa física residente no Brasil?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498972, Requested 3256. Please try again in 6m24.9984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q012",
+      "question": "A capitalização de lucros apurados sujeita-se ao IRRF com base no art. 6º-A da Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498969, Requested 3359. Please try again in 6m42.2784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q013",
+      "question": "A capitalização de lucros apurados até 31 de dezembro de 2025 deliberada e aprovada em 2025 é tributada pelo imposto de renda com base no art. 6º-A da Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498966, Requested 3144. Please try again in 6m4.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q014",
+      "question": "Após a incorporação dos lucros apurados até 31 de dezembro de 2025 (deliberada e aprovada em 2025), eventual devolução do capital social estará sujeita à tributação? Existe um prazo mínimo para que o recurso seja mantido em capital para afastar a tributação?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498963, Requested 3156. Please try again in 6m6.163199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q015",
+      "question": "A distribuição de lucros e dividendos para não residente no Brasil será tributada pelo IRRF?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498960, Requested 3317. Please try again in 6m33.4656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q016",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados no exterior?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498957, Requested 3251. Please try again in 6m21.5424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q017",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados em países que não tribute a renda ou que a tribute a alíquota máxima inferior a 17%?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498953, Requested 3272. Please try again in 6m24.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q018",
+      "question": "Qual o prazo para pagamento do IRRF devido pela pessoa jurídica sobre os lucros e dividendos distribuídos?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498950, Requested 3271. Please try again in 6m23.7888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q019",
+      "question": "A lei traz alguma hipótese de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para não residentes no Brasil?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498947, Requested 3263. Please try again in 6m21.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q020",
+      "question": "Para que não haja a tributação pelo IRRF sobre os lucros e dividendos apurados até o ano- calendário de 2025, quais são os requisitos que devem ser cumpridos?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498944, Requested 3400. Please try again in 6m45.0432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q021",
+      "question": "No caso de pagamentos efetuados a governos estrangeiros, fundos soberanos e entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários a não tributação se aplica independentemente do ano-calendário em que o lucro foi apurado?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498941, Requested 3356. Please try again in 6m36.9216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q022",
+      "question": "No caso de lucros ou dividendos distribuídos para não-residente a tributação do IRRF é afastada se o valor pago for inferior a R$ 50.000,00?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498938, Requested 3398. Please try again in 6m43.6608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q023",
+      "question": "Qual o código de receita deve ser utilizado no DARF que será pago para recolher o IRRF sobre os lucros e dividendos pagos ao não-residente?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498934, Requested 3277. Please try again in 6m22.0608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q024",
+      "question": "A capitalização de lucros e dividendos é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995 com a redação dada pela Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498932, Requested 3057. Please try again in 5m43.699199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q025",
+      "question": "A capitalização de lucros apurados até 31 de dezembro de 2025 deliberada e aprovada em 2025 é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995 com a redação dada pela Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498928, Requested 3205. Please try again in 6m8.5824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q026",
+      "question": "Após a incorporação dos lucros apurados até 31 de dezembro de 2025 (deliberada e aprovada em 2025), eventual devolução do capital social estará sujeita à tributação? Existe um prazo mínimo para que o recurso seja mantido em capital para afastar a tributação?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498922, Requested 3156. Please try again in 5m59.0784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q027",
+      "question": "A capitalização de lucros apurados após 31 de dezembro de 2025 ou daqueles apurados nesse período, mas cuja deliberação seja efetuada posteriormente a esta data, é sujeita ao IRRF com base no art. 10, § 4º da Lei nº 9.249, de 1995 com a redação dada pela Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498919, Requested 2972. Please try again in 5m26.7648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q028",
+      "question": "Como devem ser constituídas as entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários para que os lucros e dividendos a elas distribuídos não sejam tributados pelo IRRF?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498916, Requested 3159. Please try again in 5m58.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q029",
+      "question": "A entidade no exterior que tenha como principal atividade a administração de benefícios previdenciários, mas que também receba contribuições provenientes da poupança soberana de países estrangeiros poderá fruir da não tributação do IRRF sobre os lucros e dividendos pagos?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 498913, Requested 3429. Please try again in 6m44.697599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.5,
+        "bm25_weight": 0.5,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    }
+  ]
+}

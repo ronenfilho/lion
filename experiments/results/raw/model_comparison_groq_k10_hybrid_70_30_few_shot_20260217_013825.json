@@ -1,0 +1,1740 @@
+{
+  "experiment_name": "model_comparison_groq_k10_hybrid_70_30_few_shot",
+  "config": {
+    "use_rag": true,
+    "retrieval_method": "hybrid",
+    "k": 10,
+    "dense_weight": 0.7,
+    "bm25_weight": 0.3,
+    "llm": "groq:llama-3.1-8b-instant",
+    "use_few_shot": true
+  },
+  "timestamp": "2026-02-17T01:38:25.973597",
+  "total_questions": 29,
+  "successful_queries": 8,
+  "failed_queries": 21,
+  "aggregated_metrics": {
+    "latency_ms_mean": 1211.4242017269135,
+    "latency_ms_std": 242.0477364059005,
+    "latency_ms_min": 991.2843704223633,
+    "latency_ms_max": 1626.2547969818115,
+    "latency_ms_median": 1131.4891576766968,
+    "num_chunks_mean": 10.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 10.0,
+    "num_chunks_max": 10.0,
+    "num_chunks_median": 10.0,
+    "tokens_used_mean": 3356.5,
+    "tokens_used_std": 225.77311620297044,
+    "tokens_used_min": 2979.0,
+    "tokens_used_max": 3749.0,
+    "tokens_used_median": 3341.0,
+    "bertscore_precision_mean": 0.6175367012619972,
+    "bertscore_precision_std": 0.054629510792454684,
+    "bertscore_precision_min": 0.5261468291282654,
+    "bertscore_precision_max": 0.6730005741119385,
+    "bertscore_precision_median": 0.6283906102180481,
+    "bertscore_recall_mean": 0.5801983624696732,
+    "bertscore_recall_std": 0.09440281993571369,
+    "bertscore_recall_min": 0.3999783992767334,
+    "bertscore_recall_max": 0.7075483202934265,
+    "bertscore_recall_median": 0.6035128533840179,
+    "bertscore_f1_mean": 0.5927697792649269,
+    "bertscore_f1_std": 0.0605329049407288,
+    "bertscore_f1_min": 0.48608821630477905,
+    "bertscore_f1_max": 0.6672731041908264,
+    "bertscore_f1_median": 0.5921643674373627,
+    "answer_relevancy_mean": 0.7399449309486289,
+    "answer_relevancy_std": 0.28301115468677557,
+    "answer_relevancy_min": 0.0,
+    "answer_relevancy_max": 0.8926966308692016,
+    "answer_relevancy_median": 0.8604309252003408,
+    "faithfulness_mean": 0.9188988095238095,
+    "faithfulness_std": 0.11254319764628712,
+    "faithfulness_min": 0.7142857142857143,
+    "faithfulness_max": 1.0,
+    "faithfulness_median": 1.0,
+    "context_precision_mean": 0.47857142855347423,
+    "context_precision_std": 0.29913581753927376,
+    "context_precision_min": 0.0,
+    "context_precision_max": 0.8761904761729524,
+    "context_precision_median": 0.5769841269620635,
+    "context_recall_mean": 0.40773809523809523,
+    "context_recall_std": 0.26175252610172633,
+    "context_recall_min": 0.0,
+    "context_recall_max": 1.0,
+    "context_recall_median": 0.3333333333333333
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "A Lei nº 15.270, de 2025, tem como objetivo principal instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas. Além disso, a lei também visa compensar os Estados, o Distrito Federal e os Municípios pela redução de receitas em razão do disposto nos arts. 3º-A e 11-A da Lei nº 9.250, de 26 de dezembro de 1995.\n\nEsses objetivos estão explicitados no Artigo 1º da Lei, que estabelece a alteração da Lei nº 9.250, de 26 de dezembro de 1995, e da Lei nº 9.249, de 26 de dezembro de 1995, para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nAlém disso, o Artigo 4º da Lei estabelece a compensação dos Estados, o Distrito Federal e os Municípios pela redução de receitas em razão do disposto nos arts. 3º-A e 11-A da Lei nº 9.250, de 26 de dezembro de 1995, com o aumento de receitas dos respectivos Fundos de Participação decorrente do disposto no § 4º do art. 10 da Lei nº 9.249, de 26 de dezembro de 1995, e no art. 16-A da Lei nº 9.250, de 26 de dezembro de 1995.",
+      "answer_core": "A Lei nº 15.270, de 2025, tem como objetivo principal instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas. Além disso, a lei também visa compensar os Estados, o Distrito Federal e os Municípios pela redução de receitas em razão do disposto nos arts. 3º-A e 11-A da Lei nº 9.250, de 26 de dezembro de 1995.\n\nEsses objetivos estão explicitados no Artigo 1º da Lei, que estabelece a alteração da Lei nº 9.250, de 26 de dezembro de 1995, e da Lei nº 9.249, de 26 de dezembro de 1995, para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nAlém disso, o Artigo 4º da Lei estabelece a compensação dos Estados, o Distrito Federal e os Municípios pela redução de receitas em razão do disposto nos arts. 3º-A e 11-A da Lei nº 9.250, de 26 de dezembro de 1995, com o aumento de receitas dos respectivos Fundos de Participação decorrente do disposto no § 4º do art. 10 da Lei nº 9.249, de 26 de dezembro de 1995, e no art. 16-A da Lei nº 9.250, de 26 de dezembro de 1995.",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 0.01639344262295082,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        },
+        {
+          "id": "6404eb1e638e5b35",
+          "content": "### Artigo 8º {#artigo-8}\n\nEsta Lei entra em vigor na data de sua publicação e produzirá\n\nefeitos a partir de 1º de janeiro de 2026\n\nBrasília, 26 de novembro de 2025; 204\nda Independência e\n137\nda República.\n\nLUIZ\nINÁCIO LULA DA SILVA\n\nFernando Haddad\n\nManoel Carlos de Almeida Neto\n\nSimone Nassar Tebet\n\nEste texto não substitui o publicado no DOU de 27.11.2025\n\n\n\n---\n\n*Documento processado automaticamente pelo LION RAG System*",
+          "score": 0.004838709677419356,
+          "metadata": {
+            "chunk_index": 35,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631198",
+            "processed_from": "markdown",
+            "section": "### Artigo 8º {#artigo-8}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 0.004761904761904762,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        },
+        {
+          "id": "58f0b08806395669",
+          "content": "### Artigo 5º {#artigo-5}\n\nA parcela da arrecadação da União resultante desta Lei que\nexceder o montante necessário para compensar a redução do imposto devido,\nprevista nos\narts. 3º-A\n11-A da Lei nº 9.250, de 26 de dezembro de 1995\n, e\na compensação de que trata o art. 4º desta Lei serão consideradas como fonte\nde compensação para o cálculo da alíquota de referência da Contribuição\nSocial sobre Bens e Serviços (CBS) do ano subsequente de que tratam os\narts. 352 a 359 da Lei Complementar nº 214, de 16 de janeiro de 2025\n, nos\ntermos do parágrafo único do\nart. 18 da Emenda Constitucional nº 132, de 20\nde dezembro de 2023\n\nParágrafo único.\nPara os fins do disposto neste artigo, será considerada a arrecadação\nlíquida da União das entregas previstas no\ninciso I do caput do\nart. 159 da Constituição Federal\n, para cálculo do valor destinado como fonte\nde compensação para o cálculo da alíquota de referência da CBS.",
+          "score": 0.004687500000000001,
+          "metadata": {
+            "chunk_index": 33,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631194",
+            "processed_from": "markdown",
+            "section": "### Artigo 5º {#artigo-5}"
+          }
+        },
+        {
+          "id": "b4a72a5cea78f6c1",
+          "content": "do imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:\n\n- I - relativos a resultados apurados\naté o ano-calendário de 2025:\n\n  - a) cuja distribuição tenha sido\naprovada até 31 de dezembro de 2025; e\n\n  - b) sejam exigíveis nos termos da\nlegislação civil ou empresarial, desde que seu pagamento, crédito,\nemprego ou entrega ocorra nos termos originalmente previstos no ato\nde aprovação;\n\n- II - pagos, creditados, empregados,\nentregues ou remetidos a:\n\n  - a) governos estrangeiros, desde que\nhaja reciprocidade de tratamento em relação aos rendimentos\nauferidos em seus países pelo governo brasileiro;\n\n  - b) fundos soberanos, conforme\ndefinidos no\n\n**§ 5º do art. 3º da Lei nº 11.312, de 27 de junho de**\n\n2006\n; e\n\n  - c) entidades no exterior que tenham\ncomo principal atividade a administração de benefícios\nprevidenciários, tais como aposentadorias e pensões, conforme\ndefinidas em regulamento.” (NR)",
+          "score": 0.004615384615384616,
+          "metadata": {
+            "chunk_index": 29,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631186",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "37611a86bec6ccd7",
+          "content": "\n**§ 1º São vedadas quaisquer deduções da base de cálculo.**\n\n\n\n**§ 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega**\n\nde lucros e dividendos no mesmo mês, realizado por uma mesma pessoa\njurídica a uma mesma pessoa física residente no Brasil, o valor\nretido na fonte referente ao Imposto sobre a Renda das Pessoas\nFísicas deve ser recalculado de modo a considerar o total dos\nvalores pagos, creditados, empregados ou entregues no mês.\n\n\n**§ 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de**\n\nque trata este artigo os lucros e dividendos:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025;\n\n- II - cuja distribuição tenha sido aprovada até 31 de dezembro de\n2025; e\n\n- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”",
+          "score": 0.004545454545454546,
+          "metadata": {
+            "chunk_index": 6,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631138",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "af2a04e60bc7a5c0",
+          "content": "- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”\n\n“Art. 10.\n.....................................................................................................................................\n\n.............................................................................................................................................................\n\n- R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro\nreais e trinta e quatro centavos) a partir do ano-calendário de 2015\naté o ano-calendário de 2025; e\n\n- X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a\npartir do ano-calendário de 2026.\n\n.....................................................................................................................................................\n” (NR)",
+          "score": 0.004477611940298508,
+          "metadata": {
+            "chunk_index": 7,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631140",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "fe91a2c6d4a2cb5b",
+          "content": "- IV - os rendimentos auferidos em contas de depósitos de poupança;\n\n- V - a remuneração produzida pelos seguintes títulos e valores\nmobiliários:\n\n  - a) Letra Hipotecária, de que trata a\nLei nº 7.684, de 2 de dezembro\nde 1988\n\n  - b) Letra de Crédito Imobiliário (LCI), de que tratam os\narts. 12 a\n17 da Lei nº 10.931, de 2 de agosto de 2004\n\n  - c) Certificado de Recebíveis Imobiliários (CRI), de que trata o\nart. 6º da Lei nº 9.514, de 20 de novembro de 1997\n\n  - d) Letra Imobiliária Garantida (LIG), de que trata o\nart. 63 da Lei nº 13.097, de 19 de janeiro de 2015;\n\n  - e) Letra de Crédito do Desenvolvimento (LCD), de que trata a\nLei nº 14.937,\nde 26 de julho de 2024\n\n  - f) títulos e valores mobiliários relacionados a projetos de\ninvestimento e infraestrutura, de que trata o\nart. 2º da Lei nº 12.431,\nde 24 de junho de 2011",
+          "score": 0.004411764705882354,
+          "metadata": {
+            "chunk_index": 13,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631153",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        },
+        {
+          "id": "3b16054450319271",
+          "content": "### Artigo 1º {#artigo-1}\n\nEsta Lei altera a\n\nLei nº 9.250, de 26 de dezembro de 1995\n, e a\nLei nº 9.249, de 26 de dezembro de 1995\n, para instituir a redução do imposto\nsobre a renda devido nas bases de cálculo mensal e anual e a tributação\nmínima para as pessoas físicas que auferem altas rendas.",
+          "score": 0.004347826086956523,
+          "metadata": {
+            "chunk_index": 2,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631129",
+            "processed_from": "markdown",
+            "section": "### Artigo 1º {#artigo-1}"
+          }
+        },
+        {
+          "id": "33f0e87621bcbe89",
+          "content": "### Artigo 4º {#artigo-4}\n\nOs Estados, o Distrito Federal e os Municípios serão\ncompensados pela redução de receitas em razão do disposto nos\narts. 3º-A\n11-A da Lei nº 9.250, de 26 de dezembro de 1995\n, com o aumento de receitas\ndos respectivos Fundos de Participação decorrente do disposto no\n\n**§ 4º do**\n\nart. 10 da Lei nº 9.249, de 26 de dezembro de 1995\n, e no\nart. 16-A da Lei nº 9.250,\nde 26 de dezembro de 1995\n\nParágrafo único.\nCaso o aumento das receitas de que trata o\ncaput\ndeste artigo seja\ninsuficiente para a promoção da compensação, ela será realizada\ntrimestralmente pela União com o valor equivalente às receitas decorrentes\nda aprovação desta Lei que excedam as estimativas de impacto orçamentário e\nfinanceiro desta Lei.",
+          "score": 0.004285714285714286,
+          "metadata": {
+            "chunk_index": 32,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631192",
+            "processed_from": "markdown",
+            "section": "### Artigo 4º {#artigo-4}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1583.0628871917725,
+        "num_chunks": 10,
+        "tokens_used": 3259,
+        "bertscore_precision": 0.5317646265029907,
+        "bertscore_recall": 0.5981234312057495,
+        "bertscore_f1": 0.5629953742027283,
+        "answer_relevancy": 0.8926966308692016,
+        "faithfulness": 1.0,
+        "context_precision": 0.6111111110805556,
+        "context_recall": 0.3333333333333333
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "answer_full": "A Lei nº 15.270, de 2025, altera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de 26 de dezembro de 1995, para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nOs principais elementos contidos na Lei nº 15.270, de 2025, são:\n\n1. Redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n2. Tributação mínima para as pessoas físicas que auferem altas rendas;\n3. Alteração da Lei nº 9.250, de 26 de dezembro de 1995, e da Lei nº 9.249, de 26 de dezembro de 1995;\n4. Compensação dos Estados, do Distrito Federal e dos Municípios pela redução de receitas;\n5. Aumento de receitas dos respectivos Fundos de Participação;\n6. Realização trimestral da compensação pela União com o valor equivalente às receitas decorrentes da aprovação da Lei.\n\nEsses são os principais elementos contidos na Lei nº 15.270, de 2025.",
+      "answer_core": "A Lei nº 15.270, de 2025, altera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de 26 de dezembro de 1995, para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nOs principais elementos contidos na Lei nº 15.270, de 2025, são:\n\n1. Redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n2. Tributação mínima para as pessoas físicas que auferem altas rendas;\n3. Alteração da Lei nº 9.250, de 26 de dezembro de 1995, e da Lei nº 9.249, de 26 de dezembro de 1995;\n4. Compensação dos Estados, do Distrito Federal e dos Municípios pela redução de receitas;\n5. Aumento de receitas dos respectivos Fundos de Participação;\n6. Realização trimestral da compensação pela União com o valor equivalente às receitas decorrentes da aprovação da Lei.\n\nEsses são os principais elementos contidos na Lei nº 15.270, de 2025.",
+      "ground_truth": "Os principais elementos da Lei nº 15.270, de 2025, são: ampliação da faixa de isenção do Imposto de Renda da Pessoa Física; tributação anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00; iii. inserção da tributação do IRRF sobre lucros e dividendos pagos a não residente no Brasil.",
+      "chunks": [
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 0.01639344262295082,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        },
+        {
+          "id": "6404eb1e638e5b35",
+          "content": "### Artigo 8º {#artigo-8}\n\nEsta Lei entra em vigor na data de sua publicação e produzirá\n\nefeitos a partir de 1º de janeiro de 2026\n\nBrasília, 26 de novembro de 2025; 204\nda Independência e\n137\nda República.\n\nLUIZ\nINÁCIO LULA DA SILVA\n\nFernando Haddad\n\nManoel Carlos de Almeida Neto\n\nSimone Nassar Tebet\n\nEste texto não substitui o publicado no DOU de 27.11.2025\n\n\n\n---\n\n*Documento processado automaticamente pelo LION RAG System*",
+          "score": 0.004838709677419356,
+          "metadata": {
+            "chunk_index": 35,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631198",
+            "processed_from": "markdown",
+            "section": "### Artigo 8º {#artigo-8}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 0.004761904761904762,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        },
+        {
+          "id": "58f0b08806395669",
+          "content": "### Artigo 5º {#artigo-5}\n\nA parcela da arrecadação da União resultante desta Lei que\nexceder o montante necessário para compensar a redução do imposto devido,\nprevista nos\narts. 3º-A\n11-A da Lei nº 9.250, de 26 de dezembro de 1995\n, e\na compensação de que trata o art. 4º desta Lei serão consideradas como fonte\nde compensação para o cálculo da alíquota de referência da Contribuição\nSocial sobre Bens e Serviços (CBS) do ano subsequente de que tratam os\narts. 352 a 359 da Lei Complementar nº 214, de 16 de janeiro de 2025\n, nos\ntermos do parágrafo único do\nart. 18 da Emenda Constitucional nº 132, de 20\nde dezembro de 2023\n\nParágrafo único.\nPara os fins do disposto neste artigo, será considerada a arrecadação\nlíquida da União das entregas previstas no\ninciso I do caput do\nart. 159 da Constituição Federal\n, para cálculo do valor destinado como fonte\nde compensação para o cálculo da alíquota de referência da CBS.",
+          "score": 0.004687500000000001,
+          "metadata": {
+            "chunk_index": 33,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631194",
+            "processed_from": "markdown",
+            "section": "### Artigo 5º {#artigo-5}"
+          }
+        },
+        {
+          "id": "b4a72a5cea78f6c1",
+          "content": "do imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:\n\n- I - relativos a resultados apurados\naté o ano-calendário de 2025:\n\n  - a) cuja distribuição tenha sido\naprovada até 31 de dezembro de 2025; e\n\n  - b) sejam exigíveis nos termos da\nlegislação civil ou empresarial, desde que seu pagamento, crédito,\nemprego ou entrega ocorra nos termos originalmente previstos no ato\nde aprovação;\n\n- II - pagos, creditados, empregados,\nentregues ou remetidos a:\n\n  - a) governos estrangeiros, desde que\nhaja reciprocidade de tratamento em relação aos rendimentos\nauferidos em seus países pelo governo brasileiro;\n\n  - b) fundos soberanos, conforme\ndefinidos no\n\n**§ 5º do art. 3º da Lei nº 11.312, de 27 de junho de**\n\n2006\n; e\n\n  - c) entidades no exterior que tenham\ncomo principal atividade a administração de benefícios\nprevidenciários, tais como aposentadorias e pensões, conforme\ndefinidas em regulamento.” (NR)",
+          "score": 0.004615384615384616,
+          "metadata": {
+            "chunk_index": 29,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631186",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "37611a86bec6ccd7",
+          "content": "\n**§ 1º São vedadas quaisquer deduções da base de cálculo.**\n\n\n\n**§ 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega**\n\nde lucros e dividendos no mesmo mês, realizado por uma mesma pessoa\njurídica a uma mesma pessoa física residente no Brasil, o valor\nretido na fonte referente ao Imposto sobre a Renda das Pessoas\nFísicas deve ser recalculado de modo a considerar o total dos\nvalores pagos, creditados, empregados ou entregues no mês.\n\n\n**§ 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de**\n\nque trata este artigo os lucros e dividendos:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025;\n\n- II - cuja distribuição tenha sido aprovada até 31 de dezembro de\n2025; e\n\n- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”",
+          "score": 0.004545454545454546,
+          "metadata": {
+            "chunk_index": 6,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631138",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "af2a04e60bc7a5c0",
+          "content": "- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”\n\n“Art. 10.\n.....................................................................................................................................\n\n.............................................................................................................................................................\n\n- R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro\nreais e trinta e quatro centavos) a partir do ano-calendário de 2015\naté o ano-calendário de 2025; e\n\n- X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a\npartir do ano-calendário de 2026.\n\n.....................................................................................................................................................\n” (NR)",
+          "score": 0.004477611940298508,
+          "metadata": {
+            "chunk_index": 7,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631140",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "fe91a2c6d4a2cb5b",
+          "content": "- IV - os rendimentos auferidos em contas de depósitos de poupança;\n\n- V - a remuneração produzida pelos seguintes títulos e valores\nmobiliários:\n\n  - a) Letra Hipotecária, de que trata a\nLei nº 7.684, de 2 de dezembro\nde 1988\n\n  - b) Letra de Crédito Imobiliário (LCI), de que tratam os\narts. 12 a\n17 da Lei nº 10.931, de 2 de agosto de 2004\n\n  - c) Certificado de Recebíveis Imobiliários (CRI), de que trata o\nart. 6º da Lei nº 9.514, de 20 de novembro de 1997\n\n  - d) Letra Imobiliária Garantida (LIG), de que trata o\nart. 63 da Lei nº 13.097, de 19 de janeiro de 2015;\n\n  - e) Letra de Crédito do Desenvolvimento (LCD), de que trata a\nLei nº 14.937,\nde 26 de julho de 2024\n\n  - f) títulos e valores mobiliários relacionados a projetos de\ninvestimento e infraestrutura, de que trata o\nart. 2º da Lei nº 12.431,\nde 24 de junho de 2011",
+          "score": 0.004411764705882354,
+          "metadata": {
+            "chunk_index": 13,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631153",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        },
+        {
+          "id": "3b16054450319271",
+          "content": "### Artigo 1º {#artigo-1}\n\nEsta Lei altera a\n\nLei nº 9.250, de 26 de dezembro de 1995\n, e a\nLei nº 9.249, de 26 de dezembro de 1995\n, para instituir a redução do imposto\nsobre a renda devido nas bases de cálculo mensal e anual e a tributação\nmínima para as pessoas físicas que auferem altas rendas.",
+          "score": 0.004347826086956523,
+          "metadata": {
+            "chunk_index": 2,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631129",
+            "processed_from": "markdown",
+            "section": "### Artigo 1º {#artigo-1}"
+          }
+        },
+        {
+          "id": "33f0e87621bcbe89",
+          "content": "### Artigo 4º {#artigo-4}\n\nOs Estados, o Distrito Federal e os Municípios serão\ncompensados pela redução de receitas em razão do disposto nos\narts. 3º-A\n11-A da Lei nº 9.250, de 26 de dezembro de 1995\n, com o aumento de receitas\ndos respectivos Fundos de Participação decorrente do disposto no\n\n**§ 4º do**\n\nart. 10 da Lei nº 9.249, de 26 de dezembro de 1995\n, e no\nart. 16-A da Lei nº 9.250,\nde 26 de dezembro de 1995\n\nParágrafo único.\nCaso o aumento das receitas de que trata o\ncaput\ndeste artigo seja\ninsuficiente para a promoção da compensação, ela será realizada\ntrimestralmente pela União com o valor equivalente às receitas decorrentes\nda aprovação desta Lei que excedam as estimativas de impacto orçamentário e\nfinanceiro desta Lei.",
+          "score": 0.004285714285714286,
+          "metadata": {
+            "chunk_index": 32,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631192",
+            "processed_from": "markdown",
+            "section": "### Artigo 4º {#artigo-4}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1224.238634109497,
+        "num_chunks": 10,
+        "tokens_used": 3176,
+        "bertscore_precision": 0.5261468291282654,
+        "bertscore_recall": 0.6236752867698669,
+        "bertscore_f1": 0.5707748532295227,
+        "answer_relevancy": 0.8701609993908104,
+        "faithfulness": 0.875,
+        "context_precision": 0.6111111110805556,
+        "context_recall": 0.3333333333333333
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "answer_full": "A partir de 1º de janeiro de 2026.",
+      "answer_core": "A partir de 1º de janeiro de 2026.",
+      "ground_truth": "A ampliação da faixa de isenção da pessoa física será aplicada a partir de janeiro de 2026. A retenção na fonte do IRRF sobre lucros e dividendos pagos acima de R$ 50 mil a pessoa física residente no Brasil e em qualquer valor a pessoa física ou jurídica no exterior deve ser aplicada a partir de janeiro de 2026. Já o regime anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00, deve ser aplicada a partir do exercício de 2027, ano-calendário de 2026.",
+      "chunks": [
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 0.01631411951348493,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        },
+        {
+          "id": "6404eb1e638e5b35",
+          "content": "### Artigo 8º {#artigo-8}\n\nEsta Lei entra em vigor na data de sua publicação e produzirá\n\nefeitos a partir de 1º de janeiro de 2026\n\nBrasília, 26 de novembro de 2025; 204\nda Independência e\n137\nda República.\n\nLUIZ\nINÁCIO LULA DA SILVA\n\nFernando Haddad\n\nManoel Carlos de Almeida Neto\n\nSimone Nassar Tebet\n\nEste texto não substitui o publicado no DOU de 27.11.2025\n\n\n\n---\n\n*Documento processado automaticamente pelo LION RAG System*",
+          "score": 0.016208355367530406,
+          "metadata": {
+            "chunk_index": 35,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631198",
+            "processed_from": "markdown",
+            "section": "### Artigo 8º {#artigo-8}"
+          }
+        },
+        {
+          "id": "e3927ec39680d147",
+          "content": "- I - a alíquota efetiva de tributação\ndos lucros da pessoa jurídica, apurada nos termos do\nart. 16-B da\nLei nº 9.250, de 26 de dezembro de 1995\n, acrescida de 10 (dez)\npontos percentuais; e\n\n- II - o percentual previsto nos\nincisos\nIII do § 1º do art. 16-B da Lei nº 9.250, de 26 de dezembro\nde 1995.\n\n\n**§ 2º O Poder Executivo regulamentará o**\n\nmodo pelo qual será formalizada a opção referida no\ncaput\ndeste artigo, bem como a maneira pela qual o residente ou o\ndomiciliado no exterior pleiteará, em até 360 (trezentos e sessenta)\ndias, contados de cada exercício, o crédito de que trata este\nartigo.”",
+          "score": 0.004761904761904762,
+          "metadata": {
+            "chunk_index": 31,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631190",
+            "processed_from": "markdown",
+            "section": "### Artigo 10-A {#artigo-10-a}"
+          }
+        },
+        {
+          "id": "37611a86bec6ccd7",
+          "content": "\n**§ 1º São vedadas quaisquer deduções da base de cálculo.**\n\n\n\n**§ 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega**\n\nde lucros e dividendos no mesmo mês, realizado por uma mesma pessoa\njurídica a uma mesma pessoa física residente no Brasil, o valor\nretido na fonte referente ao Imposto sobre a Renda das Pessoas\nFísicas deve ser recalculado de modo a considerar o total dos\nvalores pagos, creditados, empregados ou entregues no mês.\n\n\n**§ 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de**\n\nque trata este artigo os lucros e dividendos:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025;\n\n- II - cuja distribuição tenha sido aprovada até 31 de dezembro de\n2025; e\n\n- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”",
+          "score": 0.004687500000000001,
+          "metadata": {
+            "chunk_index": 6,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631138",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "3364a4ba69a9a823",
+          "content": "\n**§ 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos à**\n\nincidência mensal superior a R$ 7.350,00 (sete mil, trezentos e\ncinquenta reais) não terão redução no imposto devido.\n\n\n**§ 3º A redução do imposto de que trata este artigo também será**\n\naplicada no cálculo do imposto cobrado exclusivamente na fonte no\npagamento do décimo terceiro salário a que se refere o\ninciso VIII\ncaput\ndo art. 7º da Constituição Federal.\n\n“CAPÍTULO II-A\n\nDA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS\n\nArt.\n6º-A\nA partir do mês de janeiro do ano-calendário de 2026, o pagamento, o\ncreditamento, o emprego ou a entrega de lucros e dividendos por uma\nmesma pessoa jurídica a uma mesma pessoa física residente no Brasil\nem montante superior a R$ 50.000,00 (cinquenta mil reais) em um\nmesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda\ndas Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total\ndo valor pago, creditado, empregado ou entregue.",
+          "score": 0.004615384615384616,
+          "metadata": {
+            "chunk_index": 5,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631136",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "af2a04e60bc7a5c0",
+          "content": "- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”\n\n“Art. 10.\n.....................................................................................................................................\n\n.............................................................................................................................................................\n\n- R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro\nreais e trinta e quatro centavos) a partir do ano-calendário de 2015\naté o ano-calendário de 2025; e\n\n- X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a\npartir do ano-calendário de 2026.\n\n.....................................................................................................................................................\n” (NR)",
+          "score": 0.004545454545454546,
+          "metadata": {
+            "chunk_index": 7,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631140",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 0.004477611940298508,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        },
+        {
+          "id": "986892326f96ebc6",
+          "content": "\n**§ 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa**\n\njurídica poderá ser realizado com base nas demonstrações financeiras\nconsolidadas da fonte pagadora, na forma de regulamento.\n\n\n**§ 6º As empresas não sujeitas ao regime de tributação pelo lucro**\n\nreal poderão optar por cálculo simplificado do lucro contábil, o\nqual corresponderá ao valor do faturamento com a dedução das\nseguintes despesas:\n\n- I - folha de salários, remuneração de administradores e gerentes e\nrespectivos encargos legais;\n\n- II - preço de aquisição das mercadorias destinadas à venda, no caso\nde atividade comercial;\n\n- III - matéria-prima agregada ao produto industrializado e material\nde embalagem, no caso de atividade industrial;\n\n- IV - aluguéis de imóveis necessários à operação da empresa, desde\nque tenha havido retenção e recolhimento de imposto de renda pela\nfonte pagadora quando a legislação o exigir;",
+          "score": 0.004411764705882354,
+          "metadata": {
+            "chunk_index": 24,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631176",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "58f0b08806395669",
+          "content": "### Artigo 5º {#artigo-5}\n\nA parcela da arrecadação da União resultante desta Lei que\nexceder o montante necessário para compensar a redução do imposto devido,\nprevista nos\narts. 3º-A\n11-A da Lei nº 9.250, de 26 de dezembro de 1995\n, e\na compensação de que trata o art. 4º desta Lei serão consideradas como fonte\nde compensação para o cálculo da alíquota de referência da Contribuição\nSocial sobre Bens e Serviços (CBS) do ano subsequente de que tratam os\narts. 352 a 359 da Lei Complementar nº 214, de 16 de janeiro de 2025\n, nos\ntermos do parágrafo único do\nart. 18 da Emenda Constitucional nº 132, de 20\nde dezembro de 2023\n\nParágrafo único.\nPara os fins do disposto neste artigo, será considerada a arrecadação\nlíquida da União das entregas previstas no\ninciso I do caput do\nart. 159 da Constituição Federal\n, para cálculo do valor destinado como fonte\nde compensação para o cálculo da alíquota de referência da CBS.",
+          "score": 0.004347826086956523,
+          "metadata": {
+            "chunk_index": 33,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631194",
+            "processed_from": "markdown",
+            "section": "### Artigo 5º {#artigo-5}"
+          }
+        },
+        {
+          "id": "b4a72a5cea78f6c1",
+          "content": "do imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:\n\n- I - relativos a resultados apurados\naté o ano-calendário de 2025:\n\n  - a) cuja distribuição tenha sido\naprovada até 31 de dezembro de 2025; e\n\n  - b) sejam exigíveis nos termos da\nlegislação civil ou empresarial, desde que seu pagamento, crédito,\nemprego ou entrega ocorra nos termos originalmente previstos no ato\nde aprovação;\n\n- II - pagos, creditados, empregados,\nentregues ou remetidos a:\n\n  - a) governos estrangeiros, desde que\nhaja reciprocidade de tratamento em relação aos rendimentos\nauferidos em seus países pelo governo brasileiro;\n\n  - b) fundos soberanos, conforme\ndefinidos no\n\n**§ 5º do art. 3º da Lei nº 11.312, de 27 de junho de**\n\n2006\n; e\n\n  - c) entidades no exterior que tenham\ncomo principal atividade a administração de benefícios\nprevidenciários, tais como aposentadorias e pensões, conforme\ndefinidas em regulamento.” (NR)",
+          "score": 0.004285714285714286,
+          "metadata": {
+            "chunk_index": 29,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631186",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 992.7239418029785,
+        "num_chunks": 10,
+        "tokens_used": 2979,
+        "bertscore_precision": 0.6194463968276978,
+        "bertscore_recall": 0.3999783992767334,
+        "bertscore_f1": 0.48608821630477905,
+        "answer_relevancy": 0.7412529498965895,
+        "faithfulness": 1.0,
+        "context_precision": 0.5428571428435713,
+        "context_recall": 0.3333333333333333
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q004",
+      "question": "A distribuição de lucros e dividendos para pessoa física residente será tributada pelo IRRF?",
+      "answer_full": "Sim, a distribuição de lucros e dividendos para pessoa física residente no Brasil será tributada pelo Imposto sobre a Renda das Pessoas Físicas (IRPF).",
+      "answer_core": "Sim, a distribuição de lucros e dividendos para pessoa física residente no Brasil será tributada pelo Imposto sobre a Renda das Pessoas Físicas (IRPF).",
+      "ground_truth": "Com a edição da Lei nº 15.270, de 26 de novembro de 2025, a distribuição de lucros e dividendos por pessoas jurídicas no Brasil passará a se sujeitar à retenção na fonte a partir de janeiro de 2026. A retenção será devida quando se tratar de distribuição de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês. Nesse caso, a pessoa jurídica deverá efetuar a retenção do IRRF sobre esse pagamento. O IRRF incidirá sobre o valor total do pagamento de lucros ou dividendos superiores a R$ 50.000,00. Se o total de rendimentos auferidos no ano pela pessoa física superar R$ 600.000,00, a pessoa física deverá submeter os rendimentos dos lucros e dividendos recebidos a partir de 2026 ao regime de tributação anual de altas rendas previsto no art. 16-A da Lei nº 15.270, de 2025. O IRRF retido pela pessoa jurídica no decorrer do ano-calendário poderá ser deduzido do imposto apurado nesse regime. Na hipótese em que o contribuinte aufira rendimentos a título de lucros e dividendos e de outros rendimentos em montante inferior a R$ 600.000,00, o valor do IRRF retido pela empresa sobre os lucros distribuídos poderá ser restituído ao contribuinte.",
+      "chunks": [
+        {
+          "id": "37611a86bec6ccd7",
+          "content": "\n**§ 1º São vedadas quaisquer deduções da base de cálculo.**\n\n\n\n**§ 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega**\n\nde lucros e dividendos no mesmo mês, realizado por uma mesma pessoa\njurídica a uma mesma pessoa física residente no Brasil, o valor\nretido na fonte referente ao Imposto sobre a Renda das Pessoas\nFísicas deve ser recalculado de modo a considerar o total dos\nvalores pagos, creditados, empregados ou entregues no mês.\n\n\n**§ 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de**\n\nque trata este artigo os lucros e dividendos:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025;\n\n- II - cuja distribuição tenha sido aprovada até 31 de dezembro de\n2025; e\n\n- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”",
+          "score": 0.01639344262295082,
+          "metadata": {
+            "chunk_index": 6,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631138",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 0.015638148667601683,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        },
+        {
+          "id": "802daca60e4f30d1",
+          "content": "- I - 34% (trinta e quatro por cento), no caso de pagamento de lucros\nou dividendos pelas pessoas jurídicas não alcançadas pelo disposto\nnos incisos II e III deste parágrafo;\n\n- II - 40% (quarenta por cento), no caso de pagamento de lucros ou\ndividendos pelas pessoas jurídicas de seguros privados e de\ncapitalização e por aquelas referidas nos\nincisos II, III, IV, V,\nVI, VII\nX do § 1º do art. 1º da Lei Complementar nº 105, de 10\nde janeiro de 2001\n; e\n\n- III - 45% (quarenta e cinco por cento), no caso de pagamento de\nlucros ou dividendos pelas pessoas jurídicas referidas no\ninciso I\ndo § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de\n2001\n\n\n**§ 2º O valor do redutor de que trata este artigo corresponderá ao**\n\nresultado obtido por meio da multiplicação do montante dos lucros e\ndividendos pagos, creditados, empregados ou entregues à pessoa\nfísica pela pessoa jurídica pela diferença entre:",
+          "score": 0.015625,
+          "metadata": {
+            "chunk_index": 21,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631169",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "fc648b823c6f05d7",
+          "content": "### Artigo 10 {#artigo-10}\n\n. Os lucros ou dividendos\ncalculados com base nos resultados apurados a partir do mês de\njaneiro de 1996, pagos ou creditados pelas pessoas jurídicas\ntributadas com base no lucro real, presumido ou arbitrado, não\nficarão sujeitos à incidência do imposto de renda na fonte, nem\nintegrarão a base de cálculo do imposto de renda do beneficiário,\npessoa física ou jurídica, domiciliado no País, observado o disposto\nnos\narts. 6º-A\n16-A da Lei nº 9.250, de 26 de dezembro de 1995\n\n.............................................................................................................................................................\n\n\n**§ 4º**\n\nOs lucros ou dividendos pagos,\ncreditados, entregues, empregados ou remetidos ao exterior ficarão\nsujeitos à incidência do imposto de renda na fonte à alíquota de 10%\n(dez por cento).\n\n\n**§ 5º Não ficarão sujeitos à incidência**\n\ndo imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:",
+          "score": 0.015336463223787167,
+          "metadata": {
+            "chunk_index": 28,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631184",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "e7f7c0b2d9132196",
+          "content": "### Artigo 16-B {#artigo-16-b}\n\n. Caso se verifique que a soma da alíquota efetiva de\ntributação dos lucros da pessoa jurídica com a alíquota efetiva da\ntributação mínima do imposto de renda aplicável à pessoa física\nbeneficiária ultrapassa a soma das alíquotas nominais do imposto\nsobre a renda das pessoas jurídicas e da Contribuição Social sobre o\nLucro Líquido (CSLL), será concedido redutor da tributação mínima do\nImposto sobre a Renda das Pessoas Físicas calculado sobre os\nreferidos lucros e dividendos pagos, creditados, empregados ou\nentregues por cada pessoa jurídica à pessoa física sujeita ao\npagamento da tributação mínima do imposto de que trata o art. 16-A\ndesta Lei.\n\n\n**§ 1º A soma das alíquotas nominais a serem consideradas para fins do**\n\nlimite previsto no\ncaput\ndeste artigo correspondem a:\n\n- I - 34% (trinta e quatro por cento), no caso de pagamento de lucros\nou dividendos pelas pessoas jurídicas não alcançadas pelo disposto\nnos incisos II e III deste parágrafo;",
+          "score": 0.015286470871449204,
+          "metadata": {
+            "chunk_index": 20,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631167",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "802e6946eee3e91d",
+          "content": "resultado obtido por meio da multiplicação do montante dos lucros e\ndividendos pagos, creditados, empregados ou entregues à pessoa\nfísica pela pessoa jurídica pela diferença entre:\n\n- I - a soma da alíquota efetiva de tributação dos lucros da pessoa\njurídica com a alíquota efetiva da tributação mínima do imposto de\nrenda aplicável à pessoa física beneficiária; e\n\n- II - o percentual previsto nos incisos I, II e III do § 1º deste\nartigo.\n\n\n**§ 3º Para fins do disposto neste artigo, considera-se:**\n\n\n- I - alíquota efetiva de tributação dos lucros da pessoa jurídica, a\nrazão observada, no exercício a que se referem os lucros e\ndividendos distribuídos, entre:\n\n  - a) o valor devido do imposto de renda e da CSLL da pessoa jurídica;\n\n  - b) o lucro contábil da pessoa jurídica;\n\n- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda\ndas Pessoas Físicas, a razão entre:",
+          "score": 0.015246842709529276,
+          "metadata": {
+            "chunk_index": 22,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631172",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "3364a4ba69a9a823",
+          "content": "\n**§ 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos à**\n\nincidência mensal superior a R$ 7.350,00 (sete mil, trezentos e\ncinquenta reais) não terão redução no imposto devido.\n\n\n**§ 3º A redução do imposto de que trata este artigo também será**\n\naplicada no cálculo do imposto cobrado exclusivamente na fonte no\npagamento do décimo terceiro salário a que se refere o\ninciso VIII\ncaput\ndo art. 7º da Constituição Federal.\n\n“CAPÍTULO II-A\n\nDA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS\n\nArt.\n6º-A\nA partir do mês de janeiro do ano-calendário de 2026, o pagamento, o\ncreditamento, o emprego ou a entrega de lucros e dividendos por uma\nmesma pessoa jurídica a uma mesma pessoa física residente no Brasil\nem montante superior a R$ 50.000,00 (cinquenta mil reais) em um\nmesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda\ndas Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total\ndo valor pago, creditado, empregado ou entregue.",
+          "score": 0.01522144522144522,
+          "metadata": {
+            "chunk_index": 5,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631136",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "fe85779ff6e38644",
+          "content": "### Artigo 10-A {#artigo-10-a}\n\n. Caso se verifique que a\nsoma da alíquota efetiva de tributação dos lucros da pessoa jurídica\ndomiciliada no Brasil distribuidora dos lucros e dividendos com a\nalíquota prevista no § 4º do art. 10 desta Lei ultrapassa a soma das\nalíquotas nominais do imposto sobre a renda das pessoas jurídicas e\nda Contribuição Social sobre o Lucro Líquido (CSLL), será concedido,\npor opção do beneficiário residente ou domiciliado no exterior,\ncrédito calculado sobre o montante de lucros e dividendos pagos,\ncreditados, entregues, empregados ou remetidos que tenham sido\ntributados com fundamento no § 4º do art. 10 desta Lei.\n\n\n**§ 1º O valor do crédito de que trata**\n\neste artigo corresponderá ao resultado obtido por meio da\nmultiplicação do montante dos lucros e dividendos pagos, creditados,\nentregues, empregados ou remetidos pela pessoa jurídica pela\ndiferença entre:",
+          "score": 0.014761904761904763,
+          "metadata": {
+            "chunk_index": 30,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631188",
+            "processed_from": "markdown",
+            "section": "### Artigo 10-A {#artigo-10-a}"
+          }
+        },
+        {
+          "id": "b4a72a5cea78f6c1",
+          "content": "do imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:\n\n- I - relativos a resultados apurados\naté o ano-calendário de 2025:\n\n  - a) cuja distribuição tenha sido\naprovada até 31 de dezembro de 2025; e\n\n  - b) sejam exigíveis nos termos da\nlegislação civil ou empresarial, desde que seu pagamento, crédito,\nemprego ou entrega ocorra nos termos originalmente previstos no ato\nde aprovação;\n\n- II - pagos, creditados, empregados,\nentregues ou remetidos a:\n\n  - a) governos estrangeiros, desde que\nhaja reciprocidade de tratamento em relação aos rendimentos\nauferidos em seus países pelo governo brasileiro;\n\n  - b) fundos soberanos, conforme\ndefinidos no\n\n**§ 5º do art. 3º da Lei nº 11.312, de 27 de junho de**\n\n2006\n; e\n\n  - c) entidades no exterior que tenham\ncomo principal atividade a administração de benefícios\nprevidenciários, tais como aposentadorias e pensões, conforme\ndefinidas em regulamento.” (NR)",
+          "score": 0.01457983193277311,
+          "metadata": {
+            "chunk_index": 29,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631186",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "0d53defc4f1a7b51",
+          "content": "- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda\ndas Pessoas Físicas, a razão entre:\n\n  - a) o acréscimo do valor devido da tributação mínima do Imposto sobre\na Renda das Pessoas Físicas, antes da redução de que trata este\nartigo, resultante da inclusão dos lucros e dividendos na base de\ncálculo da tributação mínima do imposto; e\n\n  - b) o montante dos lucros e dividendos recebidos pela pessoa física\nno ano-calendário; e\n\n- III - lucro contábil da pessoa jurídica: o resultado do exercício\nantes dos tributos sobre a renda e das respectivas provisões.\n\n\n**§ 4º A concessão do redutor de que trata este artigo fica**\n\ncondicionada à apresentação de demonstrações financeiras da pessoa\njurídica, elaboradas de acordo com a legislação societária e com as\nnormas contábeis em vigor, na forma de regulamento.\n\n\n**§ 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa**",
+          "score": 0.014556692242114238,
+          "metadata": {
+            "chunk_index": 23,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631174",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1010.8506679534912,
+        "num_chunks": 10,
+        "tokens_used": 3421,
+        "bertscore_precision": 0.6288319826126099,
+        "bertscore_recall": 0.4681870937347412,
+        "bertscore_f1": 0.5367472767829895,
+        "answer_relevancy": 0.8267275620785078,
+        "faithfulness": 1.0,
+        "context_precision": 0.8095238094968253,
+        "context_recall": 0.42857142857142855
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q005",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos?",
+      "answer_full": "A alíquota a ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos é de 10% (dez por cento), conforme estabelecido no Artigo 6º-A da Lei, que dispõe sobre a tributação mensal de altas rendas.",
+      "answer_core": "A alíquota a ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos é de 10% (dez por cento), conforme estabelecido no Artigo 6º-A da Lei, que dispõe sobre a tributação mensal de altas rendas.",
+      "ground_truth": "A lei determina que o IRRF incidirá à alíquota de 10% sobre a totalidade dos dividendos distribuídos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês.",
+      "chunks": [
+        {
+          "id": "802e6946eee3e91d",
+          "content": "resultado obtido por meio da multiplicação do montante dos lucros e\ndividendos pagos, creditados, empregados ou entregues à pessoa\nfísica pela pessoa jurídica pela diferença entre:\n\n- I - a soma da alíquota efetiva de tributação dos lucros da pessoa\njurídica com a alíquota efetiva da tributação mínima do imposto de\nrenda aplicável à pessoa física beneficiária; e\n\n- II - o percentual previsto nos incisos I, II e III do § 1º deste\nartigo.\n\n\n**§ 3º Para fins do disposto neste artigo, considera-se:**\n\n\n- I - alíquota efetiva de tributação dos lucros da pessoa jurídica, a\nrazão observada, no exercício a que se referem os lucros e\ndividendos distribuídos, entre:\n\n  - a) o valor devido do imposto de renda e da CSLL da pessoa jurídica;\n\n  - b) o lucro contábil da pessoa jurídica;\n\n- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda\ndas Pessoas Físicas, a razão entre:",
+          "score": 0.016208355367530406,
+          "metadata": {
+            "chunk_index": 22,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631172",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "802daca60e4f30d1",
+          "content": "- I - 34% (trinta e quatro por cento), no caso de pagamento de lucros\nou dividendos pelas pessoas jurídicas não alcançadas pelo disposto\nnos incisos II e III deste parágrafo;\n\n- II - 40% (quarenta por cento), no caso de pagamento de lucros ou\ndividendos pelas pessoas jurídicas de seguros privados e de\ncapitalização e por aquelas referidas nos\nincisos II, III, IV, V,\nVI, VII\nX do § 1º do art. 1º da Lei Complementar nº 105, de 10\nde janeiro de 2001\n; e\n\n- III - 45% (quarenta e cinco por cento), no caso de pagamento de\nlucros ou dividendos pelas pessoas jurídicas referidas no\ninciso I\ndo § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de\n2001\n\n\n**§ 2º O valor do redutor de que trata este artigo corresponderá ao**\n\nresultado obtido por meio da multiplicação do montante dos lucros e\ndividendos pagos, creditados, empregados ou entregues à pessoa\nfísica pela pessoa jurídica pela diferença entre:",
+          "score": 0.015887174541947928,
+          "metadata": {
+            "chunk_index": 21,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631169",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "37611a86bec6ccd7",
+          "content": "\n**§ 1º São vedadas quaisquer deduções da base de cálculo.**\n\n\n\n**§ 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega**\n\nde lucros e dividendos no mesmo mês, realizado por uma mesma pessoa\njurídica a uma mesma pessoa física residente no Brasil, o valor\nretido na fonte referente ao Imposto sobre a Renda das Pessoas\nFísicas deve ser recalculado de modo a considerar o total dos\nvalores pagos, creditados, empregados ou entregues no mês.\n\n\n**§ 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de**\n\nque trata este artigo os lucros e dividendos:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025;\n\n- II - cuja distribuição tenha sido aprovada até 31 de dezembro de\n2025; e\n\n- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”",
+          "score": 0.015873015873015872,
+          "metadata": {
+            "chunk_index": 6,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631138",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "e7f7c0b2d9132196",
+          "content": "### Artigo 16-B {#artigo-16-b}\n\n. Caso se verifique que a soma da alíquota efetiva de\ntributação dos lucros da pessoa jurídica com a alíquota efetiva da\ntributação mínima do imposto de renda aplicável à pessoa física\nbeneficiária ultrapassa a soma das alíquotas nominais do imposto\nsobre a renda das pessoas jurídicas e da Contribuição Social sobre o\nLucro Líquido (CSLL), será concedido redutor da tributação mínima do\nImposto sobre a Renda das Pessoas Físicas calculado sobre os\nreferidos lucros e dividendos pagos, creditados, empregados ou\nentregues por cada pessoa jurídica à pessoa física sujeita ao\npagamento da tributação mínima do imposto de que trata o art. 16-A\ndesta Lei.\n\n\n**§ 1º A soma das alíquotas nominais a serem consideradas para fins do**\n\nlimite previsto no\ncaput\ndeste artigo correspondem a:\n\n- I - 34% (trinta e quatro por cento), no caso de pagamento de lucros\nou dividendos pelas pessoas jurídicas não alcançadas pelo disposto\nnos incisos II e III deste parágrafo;",
+          "score": 0.015482954545454546,
+          "metadata": {
+            "chunk_index": 20,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631167",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "fc648b823c6f05d7",
+          "content": "### Artigo 10 {#artigo-10}\n\n. Os lucros ou dividendos\ncalculados com base nos resultados apurados a partir do mês de\njaneiro de 1996, pagos ou creditados pelas pessoas jurídicas\ntributadas com base no lucro real, presumido ou arbitrado, não\nficarão sujeitos à incidência do imposto de renda na fonte, nem\nintegrarão a base de cálculo do imposto de renda do beneficiário,\npessoa física ou jurídica, domiciliado no País, observado o disposto\nnos\narts. 6º-A\n16-A da Lei nº 9.250, de 26 de dezembro de 1995\n\n.............................................................................................................................................................\n\n\n**§ 4º**\n\nOs lucros ou dividendos pagos,\ncreditados, entregues, empregados ou remetidos ao exterior ficarão\nsujeitos à incidência do imposto de renda na fonte à alíquota de 10%\n(dez por cento).\n\n\n**§ 5º Não ficarão sujeitos à incidência**\n\ndo imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:",
+          "score": 0.015117056856187291,
+          "metadata": {
+            "chunk_index": 28,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631184",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "0d53defc4f1a7b51",
+          "content": "- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda\ndas Pessoas Físicas, a razão entre:\n\n  - a) o acréscimo do valor devido da tributação mínima do Imposto sobre\na Renda das Pessoas Físicas, antes da redução de que trata este\nartigo, resultante da inclusão dos lucros e dividendos na base de\ncálculo da tributação mínima do imposto; e\n\n  - b) o montante dos lucros e dividendos recebidos pela pessoa física\nno ano-calendário; e\n\n- III - lucro contábil da pessoa jurídica: o resultado do exercício\nantes dos tributos sobre a renda e das respectivas provisões.\n\n\n**§ 4º A concessão do redutor de que trata este artigo fica**\n\ncondicionada à apresentação de demonstrações financeiras da pessoa\njurídica, elaboradas de acordo com a legislação societária e com as\nnormas contábeis em vigor, na forma de regulamento.\n\n\n**§ 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa**",
+          "score": 0.015083672546359114,
+          "metadata": {
+            "chunk_index": 23,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631174",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "fe85779ff6e38644",
+          "content": "### Artigo 10-A {#artigo-10-a}\n\n. Caso se verifique que a\nsoma da alíquota efetiva de tributação dos lucros da pessoa jurídica\ndomiciliada no Brasil distribuidora dos lucros e dividendos com a\nalíquota prevista no § 4º do art. 10 desta Lei ultrapassa a soma das\nalíquotas nominais do imposto sobre a renda das pessoas jurídicas e\nda Contribuição Social sobre o Lucro Líquido (CSLL), será concedido,\npor opção do beneficiário residente ou domiciliado no exterior,\ncrédito calculado sobre o montante de lucros e dividendos pagos,\ncreditados, entregues, empregados ou remetidos que tenham sido\ntributados com fundamento no § 4º do art. 10 desta Lei.\n\n\n**§ 1º O valor do crédito de que trata**\n\neste artigo corresponderá ao resultado obtido por meio da\nmultiplicação do montante dos lucros e dividendos pagos, creditados,\nentregues, empregados ou remetidos pela pessoa jurídica pela\ndiferença entre:",
+          "score": 0.01498363721365124,
+          "metadata": {
+            "chunk_index": 30,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631188",
+            "processed_from": "markdown",
+            "section": "### Artigo 10-A {#artigo-10-a}"
+          }
+        },
+        {
+          "id": "986892326f96ebc6",
+          "content": "\n**§ 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa**\n\njurídica poderá ser realizado com base nas demonstrações financeiras\nconsolidadas da fonte pagadora, na forma de regulamento.\n\n\n**§ 6º As empresas não sujeitas ao regime de tributação pelo lucro**\n\nreal poderão optar por cálculo simplificado do lucro contábil, o\nqual corresponderá ao valor do faturamento com a dedução das\nseguintes despesas:\n\n- I - folha de salários, remuneração de administradores e gerentes e\nrespectivos encargos legais;\n\n- II - preço de aquisição das mercadorias destinadas à venda, no caso\nde atividade comercial;\n\n- III - matéria-prima agregada ao produto industrializado e material\nde embalagem, no caso de atividade industrial;\n\n- IV - aluguéis de imóveis necessários à operação da empresa, desde\nque tenha havido retenção e recolhimento de imposto de renda pela\nfonte pagadora quando a legislação o exigir;",
+          "score": 0.01490950226244344,
+          "metadata": {
+            "chunk_index": 24,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631176",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "3364a4ba69a9a823",
+          "content": "\n**§ 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos à**\n\nincidência mensal superior a R$ 7.350,00 (sete mil, trezentos e\ncinquenta reais) não terão redução no imposto devido.\n\n\n**§ 3º A redução do imposto de que trata este artigo também será**\n\naplicada no cálculo do imposto cobrado exclusivamente na fonte no\npagamento do décimo terceiro salário a que se refere o\ninciso VIII\ncaput\ndo art. 7º da Constituição Federal.\n\n“CAPÍTULO II-A\n\nDA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS\n\nArt.\n6º-A\nA partir do mês de janeiro do ano-calendário de 2026, o pagamento, o\ncreditamento, o emprego ou a entrega de lucros e dividendos por uma\nmesma pessoa jurídica a uma mesma pessoa física residente no Brasil\nem montante superior a R$ 50.000,00 (cinquenta mil reais) em um\nmesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda\ndas Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total\ndo valor pago, creditado, empregado ou entregue.",
+          "score": 0.014733475479744136,
+          "metadata": {
+            "chunk_index": 5,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631136",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 0.014166666666666668,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1064.2857551574707,
+        "num_chunks": 10,
+        "tokens_used": 3424,
+        "bertscore_precision": 0.67106693983078,
+        "bertscore_recall": 0.6635220050811768,
+        "bertscore_f1": 0.6672731041908264,
+        "answer_relevancy": 0.8568329244335926,
+        "faithfulness": 1.0,
+        "context_precision": 0.11111111109999999,
+        "context_recall": 1.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "aliquota",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q006",
+      "question": "Qual o prazo para recolhimento do IRRF devido pela pessoa jurídica sobre os lucros e dividendos distribuídos?",
+      "answer_full": "Não encontrei informações específicas sobre o prazo para recolhimento do IRRF devido pela pessoa jurídica sobre os lucros e dividendos distribuídos nos trechos fornecidos.",
+      "answer_core": "Não encontrei informações específicas sobre o prazo para recolhimento do IRRF devido pela pessoa jurídica sobre os lucros e dividendos distribuídos nos trechos fornecidos.",
+      "ground_truth": "O prazo para o recolhimento do IRRF é até o último dia útil do segundo decêndio do mês subsequente ao mês de ocorrência do fato gerador. (Lei nº 11.196/ 2005, art. 70, inciso I, alínea e)",
+      "chunks": [
+        {
+          "id": "37611a86bec6ccd7",
+          "content": "\n**§ 1º São vedadas quaisquer deduções da base de cálculo.**\n\n\n\n**§ 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega**\n\nde lucros e dividendos no mesmo mês, realizado por uma mesma pessoa\njurídica a uma mesma pessoa física residente no Brasil, o valor\nretido na fonte referente ao Imposto sobre a Renda das Pessoas\nFísicas deve ser recalculado de modo a considerar o total dos\nvalores pagos, creditados, empregados ou entregues no mês.\n\n\n**§ 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de**\n\nque trata este artigo os lucros e dividendos:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025;\n\n- II - cuja distribuição tenha sido aprovada até 31 de dezembro de\n2025; e\n\n- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”",
+          "score": 0.01576112412177986,
+          "metadata": {
+            "chunk_index": 6,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631138",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "802daca60e4f30d1",
+          "content": "- I - 34% (trinta e quatro por cento), no caso de pagamento de lucros\nou dividendos pelas pessoas jurídicas não alcançadas pelo disposto\nnos incisos II e III deste parágrafo;\n\n- II - 40% (quarenta por cento), no caso de pagamento de lucros ou\ndividendos pelas pessoas jurídicas de seguros privados e de\ncapitalização e por aquelas referidas nos\nincisos II, III, IV, V,\nVI, VII\nX do § 1º do art. 1º da Lei Complementar nº 105, de 10\nde janeiro de 2001\n; e\n\n- III - 45% (quarenta e cinco por cento), no caso de pagamento de\nlucros ou dividendos pelas pessoas jurídicas referidas no\ninciso I\ndo § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de\n2001\n\n\n**§ 2º O valor do redutor de que trata este artigo corresponderá ao**\n\nresultado obtido por meio da multiplicação do montante dos lucros e\ndividendos pagos, creditados, empregados ou entregues à pessoa\nfísica pela pessoa jurídica pela diferença entre:",
+          "score": 0.015702087286527514,
+          "metadata": {
+            "chunk_index": 21,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631169",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "802e6946eee3e91d",
+          "content": "resultado obtido por meio da multiplicação do montante dos lucros e\ndividendos pagos, creditados, empregados ou entregues à pessoa\nfísica pela pessoa jurídica pela diferença entre:\n\n- I - a soma da alíquota efetiva de tributação dos lucros da pessoa\njurídica com a alíquota efetiva da tributação mínima do imposto de\nrenda aplicável à pessoa física beneficiária; e\n\n- II - o percentual previsto nos incisos I, II e III do § 1º deste\nartigo.\n\n\n**§ 3º Para fins do disposto neste artigo, considera-se:**\n\n\n- I - alíquota efetiva de tributação dos lucros da pessoa jurídica, a\nrazão observada, no exercício a que se referem os lucros e\ndividendos distribuídos, entre:\n\n  - a) o valor devido do imposto de renda e da CSLL da pessoa jurídica;\n\n  - b) o lucro contábil da pessoa jurídica;\n\n- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda\ndas Pessoas Físicas, a razão entre:",
+          "score": 0.015687263556116014,
+          "metadata": {
+            "chunk_index": 22,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631172",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "fc648b823c6f05d7",
+          "content": "### Artigo 10 {#artigo-10}\n\n. Os lucros ou dividendos\ncalculados com base nos resultados apurados a partir do mês de\njaneiro de 1996, pagos ou creditados pelas pessoas jurídicas\ntributadas com base no lucro real, presumido ou arbitrado, não\nficarão sujeitos à incidência do imposto de renda na fonte, nem\nintegrarão a base de cálculo do imposto de renda do beneficiário,\npessoa física ou jurídica, domiciliado no País, observado o disposto\nnos\narts. 6º-A\n16-A da Lei nº 9.250, de 26 de dezembro de 1995\n\n.............................................................................................................................................................\n\n\n**§ 4º**\n\nOs lucros ou dividendos pagos,\ncreditados, entregues, empregados ou remetidos ao exterior ficarão\nsujeitos à incidência do imposto de renda na fonte à alíquota de 10%\n(dez por cento).\n\n\n**§ 5º Não ficarão sujeitos à incidência**\n\ndo imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:",
+          "score": 0.015277777777777777,
+          "metadata": {
+            "chunk_index": 28,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631184",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "b4a72a5cea78f6c1",
+          "content": "do imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:\n\n- I - relativos a resultados apurados\naté o ano-calendário de 2025:\n\n  - a) cuja distribuição tenha sido\naprovada até 31 de dezembro de 2025; e\n\n  - b) sejam exigíveis nos termos da\nlegislação civil ou empresarial, desde que seu pagamento, crédito,\nemprego ou entrega ocorra nos termos originalmente previstos no ato\nde aprovação;\n\n- II - pagos, creditados, empregados,\nentregues ou remetidos a:\n\n  - a) governos estrangeiros, desde que\nhaja reciprocidade de tratamento em relação aos rendimentos\nauferidos em seus países pelo governo brasileiro;\n\n  - b) fundos soberanos, conforme\ndefinidos no\n\n**§ 5º do art. 3º da Lei nº 11.312, de 27 de junho de**\n\n2006\n; e\n\n  - c) entidades no exterior que tenham\ncomo principal atividade a administração de benefícios\nprevidenciários, tais como aposentadorias e pensões, conforme\ndefinidas em regulamento.” (NR)",
+          "score": 0.0109375,
+          "metadata": {
+            "chunk_index": 29,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631186",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "986892326f96ebc6",
+          "content": "\n**§ 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa**\n\njurídica poderá ser realizado com base nas demonstrações financeiras\nconsolidadas da fonte pagadora, na forma de regulamento.\n\n\n**§ 6º As empresas não sujeitas ao regime de tributação pelo lucro**\n\nreal poderão optar por cálculo simplificado do lucro contábil, o\nqual corresponderá ao valor do faturamento com a dedução das\nseguintes despesas:\n\n- I - folha de salários, remuneração de administradores e gerentes e\nrespectivos encargos legais;\n\n- II - preço de aquisição das mercadorias destinadas à venda, no caso\nde atividade comercial;\n\n- III - matéria-prima agregada ao produto industrializado e material\nde embalagem, no caso de atividade industrial;\n\n- IV - aluguéis de imóveis necessários à operação da empresa, desde\nque tenha havido retenção e recolhimento de imposto de renda pela\nfonte pagadora quando a legislação o exigir;",
+          "score": 0.004838709677419356,
+          "metadata": {
+            "chunk_index": 24,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631176",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "0d53defc4f1a7b51",
+          "content": "- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda\ndas Pessoas Físicas, a razão entre:\n\n  - a) o acréscimo do valor devido da tributação mínima do Imposto sobre\na Renda das Pessoas Físicas, antes da redução de que trata este\nartigo, resultante da inclusão dos lucros e dividendos na base de\ncálculo da tributação mínima do imposto; e\n\n  - b) o montante dos lucros e dividendos recebidos pela pessoa física\nno ano-calendário; e\n\n- III - lucro contábil da pessoa jurídica: o resultado do exercício\nantes dos tributos sobre a renda e das respectivas provisões.\n\n\n**§ 4º A concessão do redutor de que trata este artigo fica**\n\ncondicionada à apresentação de demonstrações financeiras da pessoa\njurídica, elaboradas de acordo com a legislação societária e com as\nnormas contábeis em vigor, na forma de regulamento.\n\n\n**§ 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa**",
+          "score": 0.004761904761904762,
+          "metadata": {
+            "chunk_index": 23,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631174",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "e3927ec39680d147",
+          "content": "- I - a alíquota efetiva de tributação\ndos lucros da pessoa jurídica, apurada nos termos do\nart. 16-B da\nLei nº 9.250, de 26 de dezembro de 1995\n, acrescida de 10 (dez)\npontos percentuais; e\n\n- II - o percentual previsto nos\nincisos\nIII do § 1º do art. 16-B da Lei nº 9.250, de 26 de dezembro\nde 1995.\n\n\n**§ 2º O Poder Executivo regulamentará o**\n\nmodo pelo qual será formalizada a opção referida no\ncaput\ndeste artigo, bem como a maneira pela qual o residente ou o\ndomiciliado no exterior pleiteará, em até 360 (trezentos e sessenta)\ndias, contados de cada exercício, o crédito de que trata este\nartigo.”",
+          "score": 0.004687500000000001,
+          "metadata": {
+            "chunk_index": 31,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631190",
+            "processed_from": "markdown",
+            "section": "### Artigo 10-A {#artigo-10-a}"
+          }
+        },
+        {
+          "id": "fe85779ff6e38644",
+          "content": "### Artigo 10-A {#artigo-10-a}\n\n. Caso se verifique que a\nsoma da alíquota efetiva de tributação dos lucros da pessoa jurídica\ndomiciliada no Brasil distribuidora dos lucros e dividendos com a\nalíquota prevista no § 4º do art. 10 desta Lei ultrapassa a soma das\nalíquotas nominais do imposto sobre a renda das pessoas jurídicas e\nda Contribuição Social sobre o Lucro Líquido (CSLL), será concedido,\npor opção do beneficiário residente ou domiciliado no exterior,\ncrédito calculado sobre o montante de lucros e dividendos pagos,\ncreditados, entregues, empregados ou remetidos que tenham sido\ntributados com fundamento no § 4º do art. 10 desta Lei.\n\n\n**§ 1º O valor do crédito de que trata**\n\neste artigo corresponderá ao resultado obtido por meio da\nmultiplicação do montante dos lucros e dividendos pagos, creditados,\nentregues, empregados ou remetidos pela pessoa jurídica pela\ndiferença entre:",
+          "score": 0.004615384615384616,
+          "metadata": {
+            "chunk_index": 30,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631188",
+            "processed_from": "markdown",
+            "section": "### Artigo 10-A {#artigo-10-a}"
+          }
+        },
+        {
+          "id": "e7f7c0b2d9132196",
+          "content": "### Artigo 16-B {#artigo-16-b}\n\n. Caso se verifique que a soma da alíquota efetiva de\ntributação dos lucros da pessoa jurídica com a alíquota efetiva da\ntributação mínima do imposto de renda aplicável à pessoa física\nbeneficiária ultrapassa a soma das alíquotas nominais do imposto\nsobre a renda das pessoas jurídicas e da Contribuição Social sobre o\nLucro Líquido (CSLL), será concedido redutor da tributação mínima do\nImposto sobre a Renda das Pessoas Físicas calculado sobre os\nreferidos lucros e dividendos pagos, creditados, empregados ou\nentregues por cada pessoa jurídica à pessoa física sujeita ao\npagamento da tributação mínima do imposto de que trata o art. 16-A\ndesta Lei.\n\n\n**§ 1º A soma das alíquotas nominais a serem consideradas para fins do**\n\nlimite previsto no\ncaput\ndeste artigo correspondem a:\n\n- I - 34% (trinta e quatro por cento), no caso de pagamento de lucros\nou dividendos pelas pessoas jurídicas não alcançadas pelo disposto\nnos incisos II e III deste parágrafo;",
+          "score": 0.004545454545454546,
+          "metadata": {
+            "chunk_index": 20,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631167",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 991.2843704223633,
+        "num_chunks": 10,
+        "tokens_used": 3261,
+        "bertscore_precision": 0.6730005741119385,
+        "bertscore_recall": 0.6089022755622864,
+        "bertscore_f1": 0.6393489241600037,
+        "answer_relevancy": 0.0,
+        "faithfulness": 1.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q007",
+      "question": "A lei traz alguma hipótese de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para pessoa física no Brasil?",
+      "answer_full": "Sim, a lei traz várias hipóteses de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para pessoa física no Brasil.\n\nDe acordo com o Artigo 10, § 3º, os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos a:\n\n- I - governos estrangeiros, desde que haja reciprocidade de tratamento em relação aos rendimentos auferidos em seus países pelo governo brasileiro;\n- II - fundos soberanos, conforme definidos no § 5º do art. 3º da Lei nº 11.312, de 27 de junho de 2006;\n- III - entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários, tais como aposentadorias e pensões, conforme definidas em regulamento.\n\nAlém disso, de acordo com o Artigo 10, § 6º, os lucros e dividendos pagos, creditados, empregados, entregues ou remetidos a:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025:\n - a) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e\n - b) sejam exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação;\n\ntambém estão isentos de tributação do IRRF.\n\nPortanto, essas são as hipóteses de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para pessoa física no Brasil.",
+      "answer_core": "Sim, a lei traz várias hipóteses de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para pessoa física no Brasil.\n\nDe acordo com o Artigo 10, § 3º, os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos a:\n\n- I - governos estrangeiros, desde que haja reciprocidade de tratamento em relação aos rendimentos auferidos em seus países pelo governo brasileiro;\n- II - fundos soberanos, conforme definidos no § 5º do art. 3º da Lei nº 11.312, de 27 de junho de 2006;\n- III - entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários, tais como aposentadorias e pensões, conforme definidas em regulamento.\n\nAlém disso, de acordo com o Artigo 10, § 6º, os lucros e dividendos pagos, creditados, empregados, entregues ou remetidos a:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025:\n - a) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e\n - b) sejam exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação;\n\ntambém estão isentos de tributação do IRRF.\n\nPortanto, essas são as hipóteses de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para pessoa física no Brasil.",
+      "ground_truth": "Os lucros e dividendos pagos a uma mesma pessoa física em valor inferior a R$ 50.000,00 em um mesmo mês não ficam sujeitos à retenção do IRRF pela pessoa jurídica, independentemente do ano em que foi apurado e/ou distribuído esse lucro. Além disso, a lei também afasta a retenção do IRRF quando o lucro ou dividendo pago seja (i) relativo a resultados apurados até o ano-calendário de 2025; (ii) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e (iii) exigível nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação até 2028.",
+      "chunks": [
+        {
+          "id": "37611a86bec6ccd7",
+          "content": "\n**§ 1º São vedadas quaisquer deduções da base de cálculo.**\n\n\n\n**§ 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega**\n\nde lucros e dividendos no mesmo mês, realizado por uma mesma pessoa\njurídica a uma mesma pessoa física residente no Brasil, o valor\nretido na fonte referente ao Imposto sobre a Renda das Pessoas\nFísicas deve ser recalculado de modo a considerar o total dos\nvalores pagos, creditados, empregados ou entregues no mês.\n\n\n**§ 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de**\n\nque trata este artigo os lucros e dividendos:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025;\n\n- II - cuja distribuição tenha sido aprovada até 31 de dezembro de\n2025; e\n\n- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”",
+          "score": 0.016162909836065574,
+          "metadata": {
+            "chunk_index": 6,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631138",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "fc648b823c6f05d7",
+          "content": "### Artigo 10 {#artigo-10}\n\n. Os lucros ou dividendos\ncalculados com base nos resultados apurados a partir do mês de\njaneiro de 1996, pagos ou creditados pelas pessoas jurídicas\ntributadas com base no lucro real, presumido ou arbitrado, não\nficarão sujeitos à incidência do imposto de renda na fonte, nem\nintegrarão a base de cálculo do imposto de renda do beneficiário,\npessoa física ou jurídica, domiciliado no País, observado o disposto\nnos\narts. 6º-A\n16-A da Lei nº 9.250, de 26 de dezembro de 1995\n\n.............................................................................................................................................................\n\n\n**§ 4º**\n\nOs lucros ou dividendos pagos,\ncreditados, entregues, empregados ou remetidos ao exterior ficarão\nsujeitos à incidência do imposto de renda na fonte à alíquota de 10%\n(dez por cento).\n\n\n**§ 5º Não ficarão sujeitos à incidência**\n\ndo imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:",
+          "score": 0.015482954545454546,
+          "metadata": {
+            "chunk_index": 28,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631184",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "802daca60e4f30d1",
+          "content": "- I - 34% (trinta e quatro por cento), no caso de pagamento de lucros\nou dividendos pelas pessoas jurídicas não alcançadas pelo disposto\nnos incisos II e III deste parágrafo;\n\n- II - 40% (quarenta por cento), no caso de pagamento de lucros ou\ndividendos pelas pessoas jurídicas de seguros privados e de\ncapitalização e por aquelas referidas nos\nincisos II, III, IV, V,\nVI, VII\nX do § 1º do art. 1º da Lei Complementar nº 105, de 10\nde janeiro de 2001\n; e\n\n- III - 45% (quarenta e cinco por cento), no caso de pagamento de\nlucros ou dividendos pelas pessoas jurídicas referidas no\ninciso I\ndo § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de\n2001\n\n\n**§ 2º O valor do redutor de que trata este artigo corresponderá ao**\n\nresultado obtido por meio da multiplicação do montante dos lucros e\ndividendos pagos, creditados, empregados ou entregues à pessoa\nfísica pela pessoa jurídica pela diferença entre:",
+          "score": 0.015384615384615385,
+          "metadata": {
+            "chunk_index": 21,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631169",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "802e6946eee3e91d",
+          "content": "resultado obtido por meio da multiplicação do montante dos lucros e\ndividendos pagos, creditados, empregados ou entregues à pessoa\nfísica pela pessoa jurídica pela diferença entre:\n\n- I - a soma da alíquota efetiva de tributação dos lucros da pessoa\njurídica com a alíquota efetiva da tributação mínima do imposto de\nrenda aplicável à pessoa física beneficiária; e\n\n- II - o percentual previsto nos incisos I, II e III do § 1º deste\nartigo.\n\n\n**§ 3º Para fins do disposto neste artigo, considera-se:**\n\n\n- I - alíquota efetiva de tributação dos lucros da pessoa jurídica, a\nrazão observada, no exercício a que se referem os lucros e\ndividendos distribuídos, entre:\n\n  - a) o valor devido do imposto de renda e da CSLL da pessoa jurídica;\n\n  - b) o lucro contábil da pessoa jurídica;\n\n- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda\ndas Pessoas Físicas, a razão entre:",
+          "score": 0.015367965367965367,
+          "metadata": {
+            "chunk_index": 22,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631172",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 0.015344376634699215,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        },
+        {
+          "id": "b4a72a5cea78f6c1",
+          "content": "do imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:\n\n- I - relativos a resultados apurados\naté o ano-calendário de 2025:\n\n  - a) cuja distribuição tenha sido\naprovada até 31 de dezembro de 2025; e\n\n  - b) sejam exigíveis nos termos da\nlegislação civil ou empresarial, desde que seu pagamento, crédito,\nemprego ou entrega ocorra nos termos originalmente previstos no ato\nde aprovação;\n\n- II - pagos, creditados, empregados,\nentregues ou remetidos a:\n\n  - a) governos estrangeiros, desde que\nhaja reciprocidade de tratamento em relação aos rendimentos\nauferidos em seus países pelo governo brasileiro;\n\n  - b) fundos soberanos, conforme\ndefinidos no\n\n**§ 5º do art. 3º da Lei nº 11.312, de 27 de junho de**\n\n2006\n; e\n\n  - c) entidades no exterior que tenham\ncomo principal atividade a administração de benefícios\nprevidenciários, tais como aposentadorias e pensões, conforme\ndefinidas em regulamento.” (NR)",
+          "score": 0.015336463223787167,
+          "metadata": {
+            "chunk_index": 29,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631186",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "e7f7c0b2d9132196",
+          "content": "### Artigo 16-B {#artigo-16-b}\n\n. Caso se verifique que a soma da alíquota efetiva de\ntributação dos lucros da pessoa jurídica com a alíquota efetiva da\ntributação mínima do imposto de renda aplicável à pessoa física\nbeneficiária ultrapassa a soma das alíquotas nominais do imposto\nsobre a renda das pessoas jurídicas e da Contribuição Social sobre o\nLucro Líquido (CSLL), será concedido redutor da tributação mínima do\nImposto sobre a Renda das Pessoas Físicas calculado sobre os\nreferidos lucros e dividendos pagos, creditados, empregados ou\nentregues por cada pessoa jurídica à pessoa física sujeita ao\npagamento da tributação mínima do imposto de que trata o art. 16-A\ndesta Lei.\n\n\n**§ 1º A soma das alíquotas nominais a serem consideradas para fins do**\n\nlimite previsto no\ncaput\ndeste artigo correspondem a:\n\n- I - 34% (trinta e quatro por cento), no caso de pagamento de lucros\nou dividendos pelas pessoas jurídicas não alcançadas pelo disposto\nnos incisos II e III deste parágrafo;",
+          "score": 0.015132827324478178,
+          "metadata": {
+            "chunk_index": 20,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631167",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "0d53defc4f1a7b51",
+          "content": "- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda\ndas Pessoas Físicas, a razão entre:\n\n  - a) o acréscimo do valor devido da tributação mínima do Imposto sobre\na Renda das Pessoas Físicas, antes da redução de que trata este\nartigo, resultante da inclusão dos lucros e dividendos na base de\ncálculo da tributação mínima do imposto; e\n\n  - b) o montante dos lucros e dividendos recebidos pela pessoa física\nno ano-calendário; e\n\n- III - lucro contábil da pessoa jurídica: o resultado do exercício\nantes dos tributos sobre a renda e das respectivas provisões.\n\n\n**§ 4º A concessão do redutor de que trata este artigo fica**\n\ncondicionada à apresentação de demonstrações financeiras da pessoa\njurídica, elaboradas de acordo com a legislação societária e com as\nnormas contábeis em vigor, na forma de regulamento.\n\n\n**§ 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa**",
+          "score": 0.014925373134328356,
+          "metadata": {
+            "chunk_index": 23,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631174",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "fe85779ff6e38644",
+          "content": "### Artigo 10-A {#artigo-10-a}\n\n. Caso se verifique que a\nsoma da alíquota efetiva de tributação dos lucros da pessoa jurídica\ndomiciliada no Brasil distribuidora dos lucros e dividendos com a\nalíquota prevista no § 4º do art. 10 desta Lei ultrapassa a soma das\nalíquotas nominais do imposto sobre a renda das pessoas jurídicas e\nda Contribuição Social sobre o Lucro Líquido (CSLL), será concedido,\npor opção do beneficiário residente ou domiciliado no exterior,\ncrédito calculado sobre o montante de lucros e dividendos pagos,\ncreditados, entregues, empregados ou remetidos que tenham sido\ntributados com fundamento no § 4º do art. 10 desta Lei.\n\n\n**§ 1º O valor do crédito de que trata**\n\neste artigo corresponderá ao resultado obtido por meio da\nmultiplicação do montante dos lucros e dividendos pagos, creditados,\nentregues, empregados ou remetidos pela pessoa jurídica pela\ndiferença entre:",
+          "score": 0.014918032786885246,
+          "metadata": {
+            "chunk_index": 30,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631188",
+            "processed_from": "markdown",
+            "section": "### Artigo 10-A {#artigo-10-a}"
+          }
+        },
+        {
+          "id": "8bff966ac9b788d0",
+          "content": "- IV - aluguéis de imóveis necessários à operação da empresa, desde\nque tenha havido retenção e recolhimento de imposto de renda pela\nfonte pagadora quando a legislação o exigir;\n\n- V - juros sobre financiamentos necessários à operação da empresa,\ndesde que concedidos por instituição financeira ou outra entidade\nautorizada a operar pelo Banco Central do Brasil; e\n\n- VI - depreciação de equipamentos necessários à operação da empresa,\nno caso de atividade industrial, observada a regulamentação sobre\ndepreciação a que se sujeitam as pessoas jurídicas submetidas ao\nregime do lucro real.\n\n\n**§ 7º A Secretaria Especial da Receita Federal do Brasil do**\n\nMinistério da Fazenda poderá fornecer os dados a que se refere este\nartigo e calcular o valor do redutor na declaração pré-preenchida do\nImposto sobre a Renda das Pessoas Físicas, a partir das informações\nprestadas pelas pessoas jurídicas pagadoras dos lucros e dividendos.\n\n\n**§ 8º O valor das bolsas concedidas no âmbito do Programa**",
+          "score": 0.014492753623188406,
+          "metadata": {
+            "chunk_index": 25,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631178",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1626.2547969818115,
+        "num_chunks": 10,
+        "tokens_used": 3749,
+        "bertscore_precision": 0.6279492378234863,
+        "bertscore_recall": 0.7075483202934265,
+        "bertscore_f1": 0.665376603603363,
+        "answer_relevancy": 0.8640289259670891,
+        "faithfulness": 0.7619047619047619,
+        "context_precision": 0.26666666665333333,
+        "context_recall": 0.5
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q008",
+      "question": "Para que não haja a retenção do IRRF sobre os lucros e dividendos apurados até o ano-calendário de 2025, quais são os requisitos que devem ser cumpridos?",
+      "answer_full": "Para que não haja a retenção do IRRF sobre os lucros e dividendos apurados até o ano-calendário de 2025, os requisitos que devem ser cumpridos são:\n\n- I - a distribuição tenha sido aprovada até 31 de dezembro de 2025;\n- II - os lucros e dividendos sejam exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação.\n\nEsses requisitos estão descritos no trecho 1 do contexto fornecido, especificamente nos itens I e II do inciso I do caput do artigo.",
+      "answer_core": "Para que não haja a retenção do IRRF sobre os lucros e dividendos apurados até o ano-calendário de 2025, os requisitos que devem ser cumpridos são:\n\n- I - a distribuição tenha sido aprovada até 31 de dezembro de 2025;\n- II - os lucros e dividendos sejam exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação.\n\nEsses requisitos estão descritos no trecho 1 do contexto fornecido, especificamente nos itens I e II do inciso I do caput do artigo.",
+      "ground_truth": "Nos termos da lei, para evitar o IRRF desses lucros e dividendos e seu cômputo para a tributação mínima exige-se que a distribuição tenha sido aprovada até 31 de dezembro de 2025. Para isso, a aprovação deve ser efetuada até 31 de dezembro de 2025 pelo órgão competente da pessoa jurídica em observância às normas de direito privado e considerando também as disposições dos atos constitutivos da pessoa jurídica. Tal exigência se aplica independentemente do tipo societário e do período em que o lucro foi gerado, inclusive àquele referente ao mês de dezembro de 2025. No caso de sociedades anônimas, por exemplo, a aprovação deve se dar, em regra, pela assembleia-geral, que é o órgão competente de acordo com a Lei nº 6.404, de 1976, para deliberar o pagamento dos lucros e dividendos. Eventual proposta de distribuição elaborada pela administração da sociedade não supre a necessidade da deliberação pelo órgão competente até a data prevista na lei, ou seja, 31 de dezembro de 2025. Essa competência, contudo, pode ser atribuída aos órgãos da administração no caso de dividendo intermediários, se o estatuto da Companhia assim dispuser, conforme dispõe o artigo 204 da Lei nº 6.404 de 1976. Além disso, a lei também determina como condição para não tributação que os lucros e dividendos sejam exigíveis nos termos da legislação civil ou empresarial e que o seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação. Para lucros apurados até 2024, será necessária a aprovação pelo órgão competente até 31 de dezembro de 2025 e que o pagamento dos lucros e dividendos seja realizado nos termos originalmente previstos no ato de aprovação até 2028. O valor dos lucros e dividendos cuja distribuição tenha sido aprovada pelo órgão competente da sociedade devem ser registrados no passivo da entidade (circulante e não-circulante, em conformidade com o cronograma estipulado para pagamento) e a partir desse momento não poderão entrar no cômputo da base de cálculo dos juros sobre capital próprio de que trata o art. 9º da Lei nº 9.249, de 1995.",
+      "chunks": [
+        {
+          "id": "b4a72a5cea78f6c1",
+          "content": "do imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:\n\n- I - relativos a resultados apurados\naté o ano-calendário de 2025:\n\n  - a) cuja distribuição tenha sido\naprovada até 31 de dezembro de 2025; e\n\n  - b) sejam exigíveis nos termos da\nlegislação civil ou empresarial, desde que seu pagamento, crédito,\nemprego ou entrega ocorra nos termos originalmente previstos no ato\nde aprovação;\n\n- II - pagos, creditados, empregados,\nentregues ou remetidos a:\n\n  - a) governos estrangeiros, desde que\nhaja reciprocidade de tratamento em relação aos rendimentos\nauferidos em seus países pelo governo brasileiro;\n\n  - b) fundos soberanos, conforme\ndefinidos no\n\n**§ 5º do art. 3º da Lei nº 11.312, de 27 de junho de**\n\n2006\n; e\n\n  - c) entidades no exterior que tenham\ncomo principal atividade a administração de benefícios\nprevidenciários, tais como aposentadorias e pensões, conforme\ndefinidas em regulamento.” (NR)",
+          "score": 0.01631411951348493,
+          "metadata": {
+            "chunk_index": 29,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631186",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "37611a86bec6ccd7",
+          "content": "\n**§ 1º São vedadas quaisquer deduções da base de cálculo.**\n\n\n\n**§ 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega**\n\nde lucros e dividendos no mesmo mês, realizado por uma mesma pessoa\njurídica a uma mesma pessoa física residente no Brasil, o valor\nretido na fonte referente ao Imposto sobre a Renda das Pessoas\nFísicas deve ser recalculado de modo a considerar o total dos\nvalores pagos, creditados, empregados ou entregues no mês.\n\n\n**§ 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de**\n\nque trata este artigo os lucros e dividendos:\n\n- I - relativos a resultados apurados até o ano-calendário de 2025;\n\n- II - cuja distribuição tenha sido aprovada até 31 de dezembro de\n2025; e\n\n- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”",
+          "score": 0.016208355367530406,
+          "metadata": {
+            "chunk_index": 6,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631138",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 0.015873015873015872,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        },
+        {
+          "id": "0d53defc4f1a7b51",
+          "content": "- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda\ndas Pessoas Físicas, a razão entre:\n\n  - a) o acréscimo do valor devido da tributação mínima do Imposto sobre\na Renda das Pessoas Físicas, antes da redução de que trata este\nartigo, resultante da inclusão dos lucros e dividendos na base de\ncálculo da tributação mínima do imposto; e\n\n  - b) o montante dos lucros e dividendos recebidos pela pessoa física\nno ano-calendário; e\n\n- III - lucro contábil da pessoa jurídica: o resultado do exercício\nantes dos tributos sobre a renda e das respectivas provisões.\n\n\n**§ 4º A concessão do redutor de que trata este artigo fica**\n\ncondicionada à apresentação de demonstrações financeiras da pessoa\njurídica, elaboradas de acordo com a legislação societária e com as\nnormas contábeis em vigor, na forma de regulamento.\n\n\n**§ 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa**",
+          "score": 0.015285326086956522,
+          "metadata": {
+            "chunk_index": 23,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631174",
+            "processed_from": "markdown",
+            "section": "### Artigo 16-B {#artigo-16-b}"
+          }
+        },
+        {
+          "id": "3364a4ba69a9a823",
+          "content": "\n**§ 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos à**\n\nincidência mensal superior a R$ 7.350,00 (sete mil, trezentos e\ncinquenta reais) não terão redução no imposto devido.\n\n\n**§ 3º A redução do imposto de que trata este artigo também será**\n\naplicada no cálculo do imposto cobrado exclusivamente na fonte no\npagamento do décimo terceiro salário a que se refere o\ninciso VIII\ncaput\ndo art. 7º da Constituição Federal.\n\n“CAPÍTULO II-A\n\nDA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS\n\nArt.\n6º-A\nA partir do mês de janeiro do ano-calendário de 2026, o pagamento, o\ncreditamento, o emprego ou a entrega de lucros e dividendos por uma\nmesma pessoa jurídica a uma mesma pessoa física residente no Brasil\nem montante superior a R$ 50.000,00 (cinquenta mil reais) em um\nmesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda\ndas Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total\ndo valor pago, creditado, empregado ou entregue.",
+          "score": 0.004687500000000001,
+          "metadata": {
+            "chunk_index": 5,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631136",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "af2a04e60bc7a5c0",
+          "content": "- III - exigíveis nos termos da legislação civil ou empresarial, desde\nque seu pagamento, crédito, emprego ou entrega ocorra nos termos\noriginalmente previstos no ato de aprovação.”\n\n“Art. 10.\n.....................................................................................................................................\n\n.............................................................................................................................................................\n\n- R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro\nreais e trinta e quatro centavos) a partir do ano-calendário de 2015\naté o ano-calendário de 2025; e\n\n- X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a\npartir do ano-calendário de 2026.\n\n.....................................................................................................................................................\n” (NR)",
+          "score": 0.004615384615384616,
+          "metadata": {
+            "chunk_index": 7,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631140",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        },
+        {
+          "id": "d138ce6c8ae2fa9e",
+          "content": "2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.\n\n\n**§ 2º A alíquota da tributação mínima do Imposto sobre a Renda das**\n\nPessoas Físicas será fixada com base nos rendimentos apurados nos\ntermos do § 1º deste artigo, observado o seguinte:\n\n- I - para rendimentos iguais ou superiores a R$ 1.200.000,00 (um\nmilhão e duzentos mil reais), a alíquota será de 10% (dez por\ncento); e\n\n- II - para rendimentos superiores a R$ 600.000,00 (seiscentos mil\nreais) e inferiores a R$ 1.200.000,00 (um milhão e duzentos mil\nreais), a alíquota crescerá linearmente de 0 (zero) a 10% (dez por\ncento), conforme a seguinte fórmula:\n\nAlíquota % = (REND/60.000) - 10, em que:\n\nREND = rendimentos apurados na forma prevista no § 1º deste artigo.\n\n\n**§ 3º O valor devido da tributação mínima do Imposto sobre a Renda**\n\ndas Pessoas Físicas será apurado a partir da multiplicação da\nalíquota pela base de cálculo, com a dedução:",
+          "score": 0.004545454545454546,
+          "metadata": {
+            "chunk_index": 17,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631161",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        },
+        {
+          "id": "fc648b823c6f05d7",
+          "content": "### Artigo 10 {#artigo-10}\n\n. Os lucros ou dividendos\ncalculados com base nos resultados apurados a partir do mês de\njaneiro de 1996, pagos ou creditados pelas pessoas jurídicas\ntributadas com base no lucro real, presumido ou arbitrado, não\nficarão sujeitos à incidência do imposto de renda na fonte, nem\nintegrarão a base de cálculo do imposto de renda do beneficiário,\npessoa física ou jurídica, domiciliado no País, observado o disposto\nnos\narts. 6º-A\n16-A da Lei nº 9.250, de 26 de dezembro de 1995\n\n.............................................................................................................................................................\n\n\n**§ 4º**\n\nOs lucros ou dividendos pagos,\ncreditados, entregues, empregados ou remetidos ao exterior ficarão\nsujeitos à incidência do imposto de renda na fonte à alíquota de 10%\n(dez por cento).\n\n\n**§ 5º Não ficarão sujeitos à incidência**\n\ndo imposto de renda na fonte, nos termos do\ncaput\ndeste\nartigo, os lucros e dividendos:",
+          "score": 0.004477611940298508,
+          "metadata": {
+            "chunk_index": 28,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631184",
+            "processed_from": "markdown",
+            "section": "### Artigo 10 {#artigo-10}"
+          }
+        },
+        {
+          "id": "500fbeb06737f72e",
+          "content": "### Artigo 11-A {#artigo-11-a}\n\n. A partir do exercício de 2027, ano-calendário de 2026,\nserá concedida redução do Imposto sobre a Renda das Pessoas Físicas\nanual, apurado sobre os rendimentos tributáveis sujeitos ao ajuste\nanual, de acordo com a seguinte tabela:\n\nTabela de redução do ajuste anual\n\n\n| RENDIMENTOS TRIBUTÁVEIS SUJEITOS AO AJUSTE ANUAL | REDUÇÃO DO IMPOSTO DE RENDA |\n| --- | --- |\n| até R$ 60.000,00 | até R$ 2.694,15 (de modo que o imposto devido seja zero) |\n| de R$ 60.000,01 até R$ 88.200,00 | R$ 8.429,73 - (0,095575 x rendimentos tributáveis sujeitos ao ajuste anual) (de modo que a redução do imposto seja decrescente linearmente até zerar para rendimentos a partir de R$ 88.200,00) |\n\n\n**§ 1º O valor da redução de que trata o**\n\ncaput\ndeste artigo\nfica limitado ao valor do imposto de renda anual calculado de acordo\ncom a tabela progressiva anual vigente no ano-calendário.\n\n\n**§ 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos**",
+          "score": 0.004411764705882354,
+          "metadata": {
+            "chunk_index": 8,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631142",
+            "processed_from": "markdown",
+            "section": "### Artigo 11-A {#artigo-11-a}"
+          }
+        },
+        {
+          "id": "45ebcf380328a7e1",
+          "content": "### Artigo 3º-A {#artigo-3-a}\n\n. A partir do mês de janeiro do ano-calendário de 2026,\nserá concedida redução do imposto sobre os rendimentos tributáveis\nsujeitos à incidência mensal do Imposto sobre a Renda das Pessoas\nFísicas, de acordo com a seguinte tabela:\n\nTabela de redução do imposto mensal\n\n\n| RENDIMENTOS TRIBUTÁVEIS SUJEITOS AO AJUSTE MENSAL | REDUÇÃO DO IMPOSTO DE RENDA |\n| --- | --- |\n| até R$ 5.000,00 | até R$ 312,89 (de modo que o imposto devido seja zero) |\n| de R$ 5.000,01 até R$ 7.350,00 | R$ 978,62 - (0,133145 x rendimentos tributáveis sujeitos à incidência mensal) (de modo que a redução do imposto seja decrescente linearmente até zerar para rendimentos a partir de R$ 7.350,00) |\n\n\n**§ 1º O valor da redução de que trata o**\n\ncaput\ndeste artigo\nfica limitado ao valor do imposto determinado de acordo com a tabela\nprogressiva mensal e com o disposto no art. 4º desta Lei.\n\n\n**§ 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos à**",
+          "score": 0.004285714285714286,
+          "metadata": {
+            "chunk_index": 4,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631133",
+            "processed_from": "markdown",
+            "section": "### Artigo 3º-A {#artigo-3-a}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1198.6925601959229,
+        "num_chunks": 10,
+        "tokens_used": 3583,
+        "bertscore_precision": 0.6620870232582092,
+        "bertscore_recall": 0.5716500878334045,
+        "bertscore_f1": 0.6135538816452026,
+        "answer_relevancy": 0.8678594549532401,
+        "faithfulness": 0.7142857142857143,
+        "context_precision": 0.8761904761729524,
+        "context_recall": 0.3333333333333333
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q009",
+      "question": "Para que não haja a retenção do IRRF sobre os lucros e dividendos apurados no ano-calendário de 2025, como as empresas podem atender ao critério de aprovação da distribuição dos lucros ou dividendos até 31 de dezembro de 2025, tendo em vista artigos 132 e 176 da Lei 6.404/76 e art. 1078 do Código Civil?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499091, Requested 3334. Please try again in 6m59.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q010",
+      "question": "O IRRF dos lucros e dividendos também se aplica às distribuições efetuadas por empresas do Simples Nacional?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499088, Requested 3034. Please try again in 6m6.6816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q011",
+      "question": "Qual o código de receita deve ser utilizado no DARF que será pago para recolher o IRRF sobre os lucros e dividendos pagos a pessoa física residente no Brasil?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499085, Requested 3256. Please try again in 6m44.5248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q012",
+      "question": "A capitalização de lucros apurados sujeita-se ao IRRF com base no art. 6º-A da Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499082, Requested 3359. Please try again in 7m1.8048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q013",
+      "question": "A capitalização de lucros apurados até 31 de dezembro de 2025 deliberada e aprovada em 2025 é tributada pelo imposto de renda com base no art. 6º-A da Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499079, Requested 3144. Please try again in 6m24.1344s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q014",
+      "question": "Após a incorporação dos lucros apurados até 31 de dezembro de 2025 (deliberada e aprovada em 2025), eventual devolução do capital social estará sujeita à tributação? Existe um prazo mínimo para que o recurso seja mantido em capital para afastar a tributação?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499076, Requested 3156. Please try again in 6m25.6896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q015",
+      "question": "A distribuição de lucros e dividendos para não residente no Brasil será tributada pelo IRRF?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499072, Requested 3317. Please try again in 6m52.8192s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q016",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados no exterior?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499069, Requested 3251. Please try again in 6m40.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q017",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados em países que não tribute a renda ou que a tribute a alíquota máxima inferior a 17%?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499066, Requested 3272. Please try again in 6m44.0064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q018",
+      "question": "Qual o prazo para pagamento do IRRF devido pela pessoa jurídica sobre os lucros e dividendos distribuídos?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499063, Requested 3271. Please try again in 6m43.3152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q019",
+      "question": "A lei traz alguma hipótese de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para não residentes no Brasil?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499060, Requested 3263. Please try again in 6m41.4144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q020",
+      "question": "Para que não haja a tributação pelo IRRF sobre os lucros e dividendos apurados até o ano- calendário de 2025, quais são os requisitos que devem ser cumpridos?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499054, Requested 3400. Please try again in 7m4.0512s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q021",
+      "question": "No caso de pagamentos efetuados a governos estrangeiros, fundos soberanos e entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários a não tributação se aplica independentemente do ano-calendário em que o lucro foi apurado?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499051, Requested 3356. Please try again in 6m55.9296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q022",
+      "question": "No caso de lucros ou dividendos distribuídos para não-residente a tributação do IRRF é afastada se o valor pago for inferior a R$ 50.000,00?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499048, Requested 3398. Please try again in 7m2.6688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q023",
+      "question": "Qual o código de receita deve ser utilizado no DARF que será pago para recolher o IRRF sobre os lucros e dividendos pagos ao não-residente?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499045, Requested 3277. Please try again in 6m41.241599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q024",
+      "question": "A capitalização de lucros e dividendos é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995 com a redação dada pela Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499041, Requested 3254. Please try again in 6m36.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q025",
+      "question": "A capitalização de lucros apurados até 31 de dezembro de 2025 deliberada e aprovada em 2025 é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995 com a redação dada pela Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499039, Requested 3205. Please try again in 6m27.7632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q026",
+      "question": "Após a incorporação dos lucros apurados até 31 de dezembro de 2025 (deliberada e aprovada em 2025), eventual devolução do capital social estará sujeita à tributação? Existe um prazo mínimo para que o recurso seja mantido em capital para afastar a tributação?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499035, Requested 3156. Please try again in 6m18.604799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q027",
+      "question": "A capitalização de lucros apurados após 31 de dezembro de 2025 ou daqueles apurados nesse período, mas cuja deliberação seja efetuada posteriormente a esta data, é sujeita ao IRRF com base no art. 10, § 4º da Lei nº 9.249, de 1995 com a redação dada pela Lei nº 15.270, de 2025?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499033, Requested 2972. Please try again in 5m46.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q028",
+      "question": "Como devem ser constituídas as entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários para que os lucros e dividendos a elas distribuídos não sejam tributados pelo IRRF?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499029, Requested 3159. Please try again in 6m18.086399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    },
+    {
+      "question_id": "q029",
+      "question": "A entidade no exterior que tenha como principal atividade a administração de benefícios previdenciários, mas que também receba contribuições provenientes da poupança soberana de países estrangeiros poderá fruir da não tributação do IRRF sobre os lucros e dividendos pagos?",
+      "error": "Erro na geração Groq: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01hwr1sg0qexermxze8bymttnq` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499026, Requested 3429. Please try again in 7m4.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "hybrid",
+        "k": 10,
+        "dense_weight": 0.7,
+        "bm25_weight": 0.3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      }
+    }
+  ]
+}

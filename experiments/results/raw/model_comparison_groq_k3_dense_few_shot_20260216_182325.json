@@ -1,0 +1,214 @@
+{
+  "experiment_name": "model_comparison_groq_k3_dense_few_shot",
+  "config": {
+    "use_rag": true,
+    "retrieval_method": "dense",
+    "k": 3,
+    "llm": "groq:llama-3.1-8b-instant",
+    "use_few_shot": true
+  },
+  "timestamp": "2026-02-16T18:23:25.041377",
+  "total_questions": 3,
+  "successful_queries": 3,
+  "failed_queries": 0,
+  "aggregated_metrics": {
+    "latency_ms_mean": 1003.983736038208,
+    "latency_ms_std": 105.63054149114659,
+    "latency_ms_min": 860.6278896331787,
+    "latency_ms_max": 1112.0421886444092,
+    "latency_ms_median": 1039.2811298370361,
+    "num_chunks_mean": 1.3333333333333333,
+    "num_chunks_std": 0.4714045207910317,
+    "num_chunks_min": 1.0,
+    "num_chunks_max": 2.0,
+    "num_chunks_median": 1.0,
+    "tokens_used_mean": 818.6666666666666,
+    "tokens_used_std": 21.483844059096022,
+    "tokens_used_min": 795.0,
+    "tokens_used_max": 847.0,
+    "tokens_used_median": 814.0,
+    "bertscore_precision_mean": 0.572489062945048,
+    "bertscore_precision_std": 0.024343986483071227,
+    "bertscore_precision_min": 0.5387300848960876,
+    "bertscore_precision_max": 0.5952160358428955,
+    "bertscore_precision_median": 0.5835210680961609,
+    "bertscore_recall_mean": 0.5739148457845052,
+    "bertscore_recall_std": 0.049862932083271014,
+    "bertscore_recall_min": 0.5042561292648315,
+    "bertscore_recall_max": 0.6182423830032349,
+    "bertscore_recall_median": 0.5992460250854492,
+    "bertscore_f1_mean": 0.5712442000706991,
+    "bertscore_f1_std": 0.02237897088400957,
+    "bertscore_f1_min": 0.5459734797477722,
+    "bertscore_f1_max": 0.6003801822662354,
+    "bertscore_f1_median": 0.5673789381980896,
+    "answer_relevancy_mean": 0.8600615565222883,
+    "answer_relevancy_std": 0.009946064733400822,
+    "answer_relevancy_min": 0.8463295286102482,
+    "answer_relevancy_max": 0.8695657256270275,
+    "answer_relevancy_median": 0.8642894153295893,
+    "faithfulness_mean": 1.0,
+    "faithfulness_std": 0.0,
+    "faithfulness_min": 1.0,
+    "faithfulness_max": 1.0,
+    "faithfulness_median": 1.0,
+    "context_precision_mean": 0.83333333325,
+    "context_precision_std": 0.2357022603719456,
+    "context_precision_min": 0.49999999995,
+    "context_precision_max": 0.9999999999,
+    "context_precision_median": 0.9999999999,
+    "context_recall_mean": 0.1111111111111111,
+    "context_recall_std": 0.15713484026367722,
+    "context_recall_min": 0.0,
+    "context_recall_max": 0.3333333333333333,
+    "context_recall_median": 0.0
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "De acordo com o texto da Lei nº 15.270, de 26 de novembro de 2025, os objetivos da lei são:\n\n* Alterar a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de 26 de dezembro de 1995;\n* Instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n* Estabelecer a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nEsses objetivos estão descritos no trecho inicial da lei, que afirma que a lei tem como objetivo alterar as leis mencionadas e instituir a redução do imposto sobre a renda e a tributação mínima para as pessoas físicas que auferem altas rendas.",
+      "answer_core": "De acordo com o texto da Lei nº 15.270, de 26 de novembro de 2025, os objetivos da lei são:\n\n* Alterar a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de 26 de dezembro de 1995;\n* Instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n* Estabelecer a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nEsses objetivos estão descritos no trecho inicial da lei, que afirma que a lei tem como objetivo alterar as leis mencionadas e instituir a redução do imposto sobre a renda e a tributação mínima para as pessoas físicas que auferem altas rendas.",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 0.7927810840347321,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1112.0421886444092,
+        "num_chunks": 1,
+        "tokens_used": 795,
+        "bertscore_precision": 0.5835210680961609,
+        "bertscore_recall": 0.6182423830032349,
+        "bertscore_f1": 0.6003801822662354,
+        "answer_relevancy": 0.8695657256270275,
+        "faithfulness": 1.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 0.3333333333333333
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "dense",
+        "k": 3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "answer_full": "A Lei nº 15.270, de 26 de novembro de 2025, altera as Leis nº 9.250 e 9.249, de 26 de dezembro de 1995, com o objetivo de instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nOs principais elementos contidos na Lei nº 15.270, de 2025, são:\n\n- Redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n- Tributação mínima para as pessoas físicas que auferem altas rendas;\n- Alteração das Leis nº 9.250 e 9.249, de 26 de dezembro de 1995.\n\nEsses elementos são mencionados no texto da Lei nº 15.270, de 2025, que foi publicada na Presidência da República, Casa Civil, Secretaria Especial para Assuntos Jurídicos.",
+      "answer_core": "A Lei nº 15.270, de 26 de novembro de 2025, altera as Leis nº 9.250 e 9.249, de 26 de dezembro de 1995, com o objetivo de instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nOs principais elementos contidos na Lei nº 15.270, de 2025, são:\n\n- Redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n- Tributação mínima para as pessoas físicas que auferem altas rendas;\n- Alteração das Leis nº 9.250 e 9.249, de 26 de dezembro de 1995.\n\nEsses elementos são mencionados no texto da Lei nº 15.270, de 2025, que foi publicada na Presidência da República, Casa Civil, Secretaria Especial para Assuntos Jurídicos.",
+      "ground_truth": "Os principais elementos da Lei nº 15.270, de 2025, são: ampliação da faixa de isenção do Imposto de Renda da Pessoa Física; tributação anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00; iii. inserção da tributação do IRRF sobre lucros e dividendos pagos a não residente no Brasil.",
+      "chunks": [
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 0.8004875069767867,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1039.2811298370361,
+        "num_chunks": 1,
+        "tokens_used": 847,
+        "bertscore_precision": 0.5387300848960876,
+        "bertscore_recall": 0.5992460250854492,
+        "bertscore_f1": 0.5673789381980896,
+        "answer_relevancy": 0.8463295286102482,
+        "faithfulness": 1.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 0.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "dense",
+        "k": 3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "answer_full": "De acordo com o Artigo 8º da Lei nº 15.270, de 2025, a Lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1º de janeiro de 2026.",
+      "answer_core": "De acordo com o Artigo 8º da Lei nº 15.270, de 2025, a Lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1º de janeiro de 2026.",
+      "ground_truth": "A ampliação da faixa de isenção da pessoa física será aplicada a partir de janeiro de 2026. A retenção na fonte do IRRF sobre lucros e dividendos pagos acima de R$ 50 mil a pessoa física residente no Brasil e em qualquer valor a pessoa física ou jurídica no exterior deve ser aplicada a partir de janeiro de 2026. Já o regime anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00, deve ser aplicada a partir do exercício de 2027, ano-calendário de 2026.",
+      "chunks": [
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 0.787400645125549,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        },
+        {
+          "id": "6404eb1e638e5b35",
+          "content": "### Artigo 8º {#artigo-8}\n\nEsta Lei entra em vigor na data de sua publicação e produzirá\n\nefeitos a partir de 1º de janeiro de 2026\n\nBrasília, 26 de novembro de 2025; 204\nda Independência e\n137\nda República.\n\nLUIZ\nINÁCIO LULA DA SILVA\n\nFernando Haddad\n\nManoel Carlos de Almeida Neto\n\nSimone Nassar Tebet\n\nEste texto não substitui o publicado no DOU de 27.11.2025\n\n\n\n---\n\n*Documento processado automaticamente pelo LION RAG System*",
+          "score": 0.7146906580813251,
+          "metadata": {
+            "chunk_index": 35,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631198",
+            "processed_from": "markdown",
+            "section": "### Artigo 8º {#artigo-8}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 860.6278896331787,
+        "num_chunks": 2,
+        "tokens_used": 814,
+        "bertscore_precision": 0.5952160358428955,
+        "bertscore_recall": 0.5042561292648315,
+        "bertscore_f1": 0.5459734797477722,
+        "answer_relevancy": 0.8642894153295893,
+        "faithfulness": 1.0,
+        "context_precision": 0.49999999995,
+        "context_recall": 0.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "dense",
+        "k": 3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    }
+  ]
+}

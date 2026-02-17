@@ -527,18 +527,45 @@ class ResultsAnalyzer:
         report.append(f"# Relatório de Análise: {experiment_type}")
         report.append(f"\n**Data:** {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
         report.append(f"\n**Experimentos Analisados:** {len(self.experiments)}\n")
-        report.append("---\n")
+        
+        # Adicionar informações gerais sobre o dataset
+        total_questions = 0
+        total_success = 0
+        total_errors = 0
+        
+        for exp_name, exp_data in self.experiments.items():
+            questions = len(exp_data.get('individual_results', []))
+            success = sum(1 for r in exp_data['individual_results'] if 'error' not in r)
+            errors = questions - success
+            
+            total_questions = max(total_questions, questions)
+            total_success += success
+            total_errors += errors
+        
+        report.append(f"\n**Total de Questões Testadas:** {total_questions}")
+        report.append(f"\n**Configurações Comparadas:** {len(self.experiments)}")
+        report.append(f"\n**Total de Execuções:** {total_success}")
+        if total_errors > 0:
+            report.append(f"\n**Erros Encontrados:** {total_errors}")
+        report.append("\n---\n")
         
         # 1. Sumário Executivo
         report.append("## 1. Sumário Executivo\n")
         
-        # Tabela de comparação geral
-        metrics = ['bertscore_f1', 'latency_ms', 'tokens_used']
-        for metric in metrics:
+        # Tabela de comparação geral - TODAS as métricas
+        all_metrics = [
+            'bertscore_f1', 'bertscore_precision', 'bertscore_recall',
+            'answer_relevancy', 'faithfulness', 
+            'context_precision', 'context_recall',
+            'latency_ms', 'tokens_used', 'num_chunks'
+        ]
+        
+        for metric in all_metrics:
             df = self.get_metrics_comparison(metric)
-            report.append(f"\n### {metric.replace('_', ' ').title()}\n")
-            report.append(df.to_markdown(index=False))
-            report.append("\n")
+            if not df.empty:
+                report.append(f"\n### {metric.replace('_', ' ').title()}\n")
+                report.append(df.to_markdown(index=False))
+                report.append("\n")
         
         # 2. Comparação contra Baseline
         if 'no_rag_baseline' in str(list(self.experiments.keys())):
@@ -556,17 +583,57 @@ class ResultsAnalyzer:
                 report.append("\n")
         
         # 3. Análise por Categoria
-        report.append("\n## 3. Análise por Categoria\n")
+        report.append("\n## 3. Análise Detalhada por Configuração\n")
         
         for exp_name in self.experiments.keys():
+            exp = self.experiments[exp_name]
             report.append(f"\n### {exp_name}\n")
+            
+            # Informações da configuração
+            config = exp.get('config', {})
+            report.append(f"\n**Configuração:**")
+            report.append(f"\n- use_rag: {config.get('use_rag', 'N/A')}")
+            if config.get('use_rag'):
+                report.append(f"\n- retrieval_method: {config.get('retrieval_method', 'N/A')}")
+                report.append(f"\n- k: {config.get('k', 'N/A')}")
+                if 'dense_weight' in config:
+                    report.append(f"\n- dense_weight: {config.get('dense_weight', 'N/A')}")
+                if 'bm25_weight' in config:
+                    report.append(f"\n- bm25_weight: {config.get('bm25_weight', 'N/A')}")
+            report.append(f"\n- llm: {config.get('llm', 'N/A')}")
+            report.append(f"\n- use_few_shot: {config.get('use_few_shot', 'N/A')}")
+            
+            # Métricas agregadas
+            agg = exp.get('aggregated_metrics', {})
+            if agg:
+                report.append(f"\n\n**Métricas Agregadas:**\n")
+                
+                # BERTScore
+                report.append(f"\n*BERTScore:*")
+                for key in ['bertscore_f1', 'bertscore_precision', 'bertscore_recall']:
+                    if f'{key}_mean' in agg:
+                        report.append(f"\n- {key}: {agg[f'{key}_mean']:.4f} (±{agg.get(f'{key}_std', 0):.4f})")
+                
+                # RAGAS
+                report.append(f"\n\n*RAGAS:*")
+                for key in ['answer_relevancy', 'faithfulness', 'context_precision', 'context_recall']:
+                    if f'{key}_mean' in agg:
+                        report.append(f"\n- {key}: {agg[f'{key}_mean']:.4f} (±{agg.get(f'{key}_std', 0):.4f})")
+                
+                # Performance
+                report.append(f"\n\n*Performance:*")
+                for key in ['latency_ms', 'tokens_used', 'num_chunks']:
+                    if f'{key}_mean' in agg:
+                        report.append(f"\n- {key}: {agg[f'{key}_mean']:.2f} (±{agg.get(f'{key}_std', 0):.2f})")
+                
+                report.append("\n")
+            
+            # Análise por categoria
             df_cat = self.analyze_by_category(exp_name)
-            
-            # Selecionar colunas principais
-            cols = ['category', 'count', 'bertscore_f1_mean', 'latency_ms_mean', 'tokens_used_mean']
-            cols = [c for c in cols if c in df_cat.columns]
-            
-            if cols:
+            if not df_cat.empty:
+                report.append(f"\n**Por Categoria:**\n")
+                # Selecionar todas as colunas disponíveis
+                cols = [c for c in df_cat.columns]
                 report.append(df_cat[cols].to_markdown(index=False))
                 report.append("\n")
         
@@ -628,26 +695,85 @@ class ResultsAnalyzer:
         report.append("\n## 7. Conclusões e Recomendações\n")
         report.append("\n### Principais Achados\n")
         
-        # Identificar melhor configuração
-        df_f1 = self.get_metrics_comparison('bertscore_f1')
-        if not df_f1.empty and 'mean' in df_f1.columns:
-            best_exp = df_f1.iloc[0]
-            report.append(f"\n✅ **Melhor BERTScore F1:** {best_exp['experiment']} (F1={best_exp['mean']:.4f})")
+        # Identificar melhor configuração em cada métrica
+        metrics_to_check = [
+            ('bertscore_f1', 'BERTScore F1', '✅', True),
+            ('faithfulness', 'Faithfulness (Anti-Alucinação)', '🎯', True),
+            ('answer_relevancy', 'Answer Relevancy', '📊', True),
+            ('context_precision', 'Context Precision', '🔍', True),
+            ('latency_ms', 'Latência', '⚡', False),
+            ('tokens_used', 'Tokens (Custo)', '💰', False)
+        ]
         
-        df_latency = self.get_metrics_comparison('latency_ms')
-        if not df_latency.empty and 'mean' in df_latency.columns:
-            fastest_exp = df_latency.iloc[-1]  # Menor latência
-            report.append(f"\n⚡ **Menor Latência:** {fastest_exp['experiment']} ({fastest_exp['mean']:.0f}ms)")
+        for metric, label, emoji, higher_better in metrics_to_check:
+            df = self.get_metrics_comparison(metric)
+            if not df.empty and 'mean' in df.columns:
+                if higher_better:
+                    best_exp = df.iloc[0]
+                else:
+                    best_exp = df.iloc[-1]
+                report.append(f"\n{emoji} **Melhor {label}:** {best_exp['experiment']}")
+                report.append(f"   - Valor: {best_exp['mean']:.4f}")
+                if 'std' in best_exp:
+                    report.append(f" (±{best_exp['std']:.4f})")
         
-        df_tokens = self.get_metrics_comparison('tokens_used')
-        if not df_tokens.empty and 'mean' in df_tokens.columns:
-            efficient_exp = df_tokens.iloc[-1]  # Menor tokens
-            report.append(f"\n💰 **Mais Eficiente (tokens):** {efficient_exp['experiment']} ({efficient_exp['mean']:.0f} tokens)")
+        # Ranking geral (média normalizada)
+        report.append("\n\n### Ranking Geral (Score Normalizado)\n")
+        report.append("\nCombinação de todas as métricas com pesos iguais:\n")
+        
+        # Calcular score geral para cada experimento
+        overall_scores = []
+        for exp_name in self.experiments.keys():
+            exp = self.experiments[exp_name]
+            agg = exp.get('aggregated_metrics', {})
+            
+            # Métricas positivas (maior é melhor)
+            positive_metrics = ['bertscore_f1_mean', 'faithfulness_mean', 
+                              'answer_relevancy_mean', 'context_precision_mean']
+            # Métricas negativas (menor é melhor)
+            negative_metrics = ['latency_ms_mean', 'tokens_used_mean']
+            
+            score = 0
+            count = 0
+            
+            for metric in positive_metrics:
+                if metric in agg:
+                    score += agg[metric]
+                    count += 1
+            
+            for metric in negative_metrics:
+                if metric in agg:
+                    # Normalizar invertendo (1000/valor para latência, 2000/valor para tokens)
+                    if 'latency' in metric:
+                        score += (1000 / max(agg[metric], 1))
+                    else:
+                        score += (2000 / max(agg[metric], 1))
+                    count += 1
+            
+            if count > 0:
+                overall_scores.append({
+                    'experiment': exp_name,
+                    'score': score / count
+                })
+        
+        if overall_scores:
+            overall_scores.sort(key=lambda x: x['score'], reverse=True)
+            for i, item in enumerate(overall_scores, 1):
+                medal = "🥇" if i == 1 else "🥈" if i == 2 else "🥉" if i == 3 else f"{i}."
+                report.append(f"\n{medal} **{item['experiment']}** - Score: {item['score']:.4f}")
         
         report.append("\n\n### Recomendações\n")
-        report.append("\n1. Considerar trade-off entre qualidade (F1) e eficiência (tokens/latência)")
-        report.append("\n2. Analisar qualitativamente os piores casos para identificar padrões de erro")
-        report.append("\n3. Testar configurações adicionais baseadas nos insights deste relatório")
+        report.append("\n1. **Produção**: Usar configuração com melhor equilíbrio entre F1 e latência")
+        report.append("\n2. **Desenvolvimento**: Analisar qualitativamente os piores casos")
+        report.append("\n3. **Pesquisa**: Testar configurações híbridas adicionais")
+        report.append("\n4. **Otimização**: Considerar cache para queries similares (reduz latência)")
+        
+        # Adicionar informações de execução
+        report.append("\n\n### Informações de Execução\n")
+        report.append(f"\n- Total de configurações testadas: {len(self.experiments)}")
+        report.append(f"\n- Total de questões por configuração: {total_questions}")
+        report.append(f"\n- Total de avaliações: {total_success}")
+        report.append(f"\n- Taxa de sucesso: {(total_success/(len(self.experiments)*total_questions)*100):.1f}%")
         
         report.append("\n\n---\n")
         report.append(f"\n*Relatório gerado automaticamente em {datetime.now().strftime('%d/%m/%Y às %H:%M:%S')}*")

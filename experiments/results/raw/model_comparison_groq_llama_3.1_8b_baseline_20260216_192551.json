@@ -1,0 +1,713 @@
+{
+  "experiment_name": "model_comparison_groq_llama_3.1_8b_baseline",
+  "config": {
+    "use_rag": false,
+    "llm": "groq:llama-3.1-8b-instant",
+    "use_few_shot": false
+  },
+  "timestamp": "2026-02-16T19:25:51.562624",
+  "total_questions": 29,
+  "successful_queries": 29,
+  "failed_queries": 0,
+  "aggregated_metrics": {
+    "latency_ms_mean": 888.4263614128375,
+    "latency_ms_std": 164.66265088883702,
+    "latency_ms_min": 589.9920463562012,
+    "latency_ms_max": 1267.62056350708,
+    "latency_ms_median": 853.5089492797852,
+    "num_chunks_mean": 0.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 0.0,
+    "num_chunks_max": 0.0,
+    "num_chunks_median": 0.0,
+    "tokens_used_mean": 540.551724137931,
+    "tokens_used_std": 112.42272018710777,
+    "tokens_used_min": 322.0,
+    "tokens_used_max": 719.0,
+    "tokens_used_median": 555.0,
+    "bertscore_precision_mean": 0.549497205635597,
+    "bertscore_precision_std": 0.07609111879375495,
+    "bertscore_precision_min": 0.36982303857803345,
+    "bertscore_precision_max": 0.7184783220291138,
+    "bertscore_precision_median": 0.5648354887962341,
+    "bertscore_recall_mean": 0.6104377980889946,
+    "bertscore_recall_std": 0.038595964279578183,
+    "bertscore_recall_min": 0.5569806098937988,
+    "bertscore_recall_max": 0.7606632113456726,
+    "bertscore_recall_median": 0.6029444336891174,
+    "bertscore_f1_mean": 0.574810753608572,
+    "bertscore_f1_std": 0.04534403331441963,
+    "bertscore_f1_min": 0.4547908902168274,
+    "bertscore_f1_max": 0.6656840443611145,
+    "bertscore_f1_median": 0.5799545645713806
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois a data de corte do meu conhecimento é 01 de janeiro de 2023. Além disso, não há registro de uma Lei com esse número e data no Diário Oficial da União.\n\nNo entanto, posso sugerir algumas opções para você:\n\n1. Verifique se a Lei nº 15.270, de 2025, foi publicada no Diário Oficial da União. Se sim, você pode acessar o texto da lei e entender seus objetivos.\n2. Verifique se a Lei nº 15.270, de 2025, está relacionada ao Imposto de Renda Pessoa Física (IRPF). Se sim, posso tentar ajudar a entender seus objetivos e impactos no IRPF.\n3. Se você tiver acesso a uma fonte confiável, como um site oficial do governo ou uma revista especializada em direito tributário, você pode encontrar informações sobre a Lei nº 15.270, de 2025.\n\nLembre-se de que a legislação tributária brasileira é complexa e pode mudar frequentemente. É importante verificar as fontes oficiais para obter informações atualizadas e precisas.",
+      "answer_core": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois a data de corte do meu conhecimento é 01 de janeiro de 2023. Além disso, não há registro de uma Lei com esse número e data no Diário Oficial da União.\n\nNo entanto, posso sugerir algumas opções para você:\n\n1. Verifique se a Lei nº 15.270, de 2025, foi publicada no Diário Oficial da União. Se sim, você pode acessar o texto da lei e entender seus objetivos.\n2. Verifique se a Lei nº 15.270, de 2025, está relacionada ao Imposto de Renda Pessoa Física (IRPF). Se sim, posso tentar ajudar a entender seus objetivos e impactos no IRPF.\n3. Se você tiver acesso a uma fonte confiável, como um site oficial do governo ou uma revista especializada em direito tributário, você pode encontrar informações sobre a Lei nº 15.270, de 2025.\n\nLembre-se de que a legislação tributária brasileira é complexa e pode mudar frequentemente. É importante verificar as fontes oficiais para obter informações atualizadas e precisas.",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 863.9252185821533,
+        "num_chunks": 0,
+        "tokens_used": 416,
+        "bertscore_precision": 0.5528555512428284,
+        "bertscore_recall": 0.6258161067962646,
+        "bertscore_f1": 0.5870777368545532
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "answer_full": "Infelizmente, não tenho conhecimento sobre a Lei nº 15.270, de 2025, pois a minha última atualização de conhecimento foi em dezembro de 2023. Além disso, não há registro de uma lei com esse número e data na legislação brasileira.\n\nNo entanto, posso sugerir algumas opções para você encontrar a resposta:\n\n1. Verifique a legislação atualizada: Você pode verificar o site do Congresso Nacional ou do Senado Federal para saber se a Lei nº 15.270, de 2025, foi aprovada e publicada.\n2. Consulte a legislação tributária: Se a lei for relacionada ao Imposto de Renda Pessoa Física (IRPF), você pode consultar a legislação tributária atualizada, como a Lei nº 11.196, de 2005, que é a base da legislação tributária brasileira.\n3. Contate um profissional especializado: Se você precisar de informações específicas sobre a lei, é recomendável contatar um profissional especializado em direito tributário ou contabilidade.\n\nLembre-se de que a legislação tributária brasileira é complexa e pode mudar frequentemente. É importante manter-se atualizado para evitar erros ou problemas fiscais.",
+      "answer_core": "Infelizmente, não tenho conhecimento sobre a Lei nº 15.270, de 2025, pois a minha última atualização de conhecimento foi em dezembro de 2023. Além disso, não há registro de uma lei com esse número e data na legislação brasileira.\n\nNo entanto, posso sugerir algumas opções para você encontrar a resposta:\n\n1. Verifique a legislação atualizada: Você pode verificar o site do Congresso Nacional ou do Senado Federal para saber se a Lei nº 15.270, de 2025, foi aprovada e publicada.\n2. Consulte a legislação tributária: Se a lei for relacionada ao Imposto de Renda Pessoa Física (IRPF), você pode consultar a legislação tributária atualizada, como a Lei nº 11.196, de 2005, que é a base da legislação tributária brasileira.\n3. Contate um profissional especializado: Se você precisar de informações específicas sobre a lei, é recomendável contatar um profissional especializado em direito tributário ou contabilidade.\n\nLembre-se de que a legislação tributária brasileira é complexa e pode mudar frequentemente. É importante manter-se atualizado para evitar erros ou problemas fiscais.",
+      "ground_truth": "Os principais elementos da Lei nº 15.270, de 2025, são: ampliação da faixa de isenção do Imposto de Renda da Pessoa Física; tributação anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00; iii. inserção da tributação do IRRF sobre lucros e dividendos pagos a não residente no Brasil.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 728.9421558380127,
+        "num_chunks": 0,
+        "tokens_used": 423,
+        "bertscore_precision": 0.532711923122406,
+        "bertscore_recall": 0.6205351948738098,
+        "bertscore_f1": 0.5732795596122742
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "answer_full": "Infelizmente, não posso fornecer informações sobre uma lei que ainda não foi publicada. A Lei nº 15.270, de 2025, não é uma lei real, pois não há registro de uma lei com esse número e data na legislação brasileira.\n\nNo entanto, se você estiver procurando informações sobre a aplicação de leis relacionadas ao Imposto de Renda Pessoa Física (IRPF), posso ajudar com isso.\n\nNo Brasil, as leis tributárias geralmente entram em vigor após a publicação no Diário Oficial da União. A data de entrada em vigor é normalmente estabelecida no próprio texto da lei ou em um decreto que a regulamenta.\n\nSe você tiver alguma outra pergunta ou precisar de informações sobre uma lei específica, estou aqui para ajudar.",
+      "answer_core": "Infelizmente, não posso fornecer informações sobre uma lei que ainda não foi publicada. A Lei nº 15.270, de 2025, não é uma lei real, pois não há registro de uma lei com esse número e data na legislação brasileira.\n\nNo entanto, se você estiver procurando informações sobre a aplicação de leis relacionadas ao Imposto de Renda Pessoa Física (IRPF), posso ajudar com isso.\n\nNo Brasil, as leis tributárias geralmente entram em vigor após a publicação no Diário Oficial da União. A data de entrada em vigor é normalmente estabelecida no próprio texto da lei ou em um decreto que a regulamenta.\n\nSe você tiver alguma outra pergunta ou precisar de informações sobre uma lei específica, estou aqui para ajudar.",
+      "ground_truth": "A ampliação da faixa de isenção da pessoa física será aplicada a partir de janeiro de 2026. A retenção na fonte do IRRF sobre lucros e dividendos pagos acima de R$ 50 mil a pessoa física residente no Brasil e em qualquer valor a pessoa física ou jurídica no exterior deve ser aplicada a partir de janeiro de 2026. Já o regime anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00, deve ser aplicada a partir do exercício de 2027, ano-calendário de 2026.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 589.9920463562012,
+        "num_chunks": 0,
+        "tokens_used": 322,
+        "bertscore_precision": 0.5351861715316772,
+        "bertscore_recall": 0.5592082738876343,
+        "bertscore_f1": 0.5469335317611694
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q004",
+      "question": "A distribuição de lucros e dividendos para pessoa física residente será tributada pelo IRRF?",
+      "answer_full": "Sim, a distribuição de lucros e dividendos para pessoa física residente no Brasil será tributada pelo Imposto de Renda Retido na Fonte (IRRF).\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, que instituiu o IRRF, a distribuição de lucros e dividendos é considerada renda tributável.\n\nO artigo 22, inciso I, da Lei nº 9.250/95 estabelece que são consideradas rendas tributáveis, entre outras, as seguintes:\n\n\"I - as distribuições de lucros e dividendos, inclusive as provenientes de empresas de que o beneficiário seja acionista, ou titular de quotas de fundo de investimento, ou de outras formas de participação em sociedades, inclusive as de responsabilidade limitada, e as provenientes de fundos de investimento, de que o beneficiário seja acionista ou titular de quotas, exceto as distribuições de lucros e dividendos realizadas por sociedades que tenham como único acionista o próprio beneficiário ou seu cônjuge, ou entes consanguíneos até o terceiro grau, ou entes por ele adoptados, ou os que sejam seus descendentes, ou os que sejam seus ascendentes, ou os que sejam seus irmãos, ou os que sejam seus cônjuges, ou os que sejam seus companheiros, desde que o acionista ou titular de quotas seja residente no Brasil e que a sociedade distribuidora seja residente no Brasil ou no exterior e que a distribuição seja feita por meio de pagamento de dividendos ou de distribuição de lucros, ou de outras formas de distribuição de resultados, e que o beneficiário seja residente no Brasil e que a sociedade distribuidora seja residente no Brasil ou no exterior e que a distribuição seja feita por meio de pagamento de dividendos ou de distribuição de lucros, ou de outras formas de distribuição de resultados, e que o beneficiário seja residente no Brasil e que a sociedade distribuidora seja residente no Brasil ou no exterior e que a distribuição seja feita por meio de pagamento de dividendos ou de distribuição de lucros, ou de outras formas de distribuição de resultados, e que o",
+      "answer_core": "Sim, a distribuição de lucros e dividendos para pessoa física residente no Brasil será tributada pelo Imposto de Renda Retido na Fonte (IRRF).\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, que instituiu o IRRF, a distribuição de lucros e dividendos é considerada renda tributável.\n\nO artigo 22, inciso I, da Lei nº 9.250/95 estabelece que são consideradas rendas tributáveis, entre outras, as seguintes:\n\n\"I - as distribuições de lucros e dividendos, inclusive as provenientes de empresas de que o beneficiário seja acionista, ou titular de quotas de fundo de investimento, ou de outras formas de participação em sociedades, inclusive as de responsabilidade limitada, e as provenientes de fundos de investimento, de que o beneficiário seja acionista ou titular de quotas, exceto as distribuições de lucros e dividendos realizadas por sociedades que tenham como único acionista o próprio beneficiário ou seu cônjuge, ou entes consanguíneos até o terceiro grau, ou entes por ele adoptados, ou os que sejam seus descendentes, ou os que sejam seus ascendentes, ou os que sejam seus irmãos, ou os que sejam seus cônjuges, ou os que sejam seus companheiros, desde que o acionista ou titular de quotas seja residente no Brasil e que a sociedade distribuidora seja residente no Brasil ou no exterior e que a distribuição seja feita por meio de pagamento de dividendos ou de distribuição de lucros, ou de outras formas de distribuição de resultados, e que o beneficiário seja residente no Brasil e que a sociedade distribuidora seja residente no Brasil ou no exterior e que a distribuição seja feita por meio de pagamento de dividendos ou de distribuição de lucros, ou de outras formas de distribuição de resultados, e que o beneficiário seja residente no Brasil e que a sociedade distribuidora seja residente no Brasil ou no exterior e que a distribuição seja feita por meio de pagamento de dividendos ou de distribuição de lucros, ou de outras formas de distribuição de resultados, e que o",
+      "ground_truth": "Com a edição da Lei nº 15.270, de 26 de novembro de 2025, a distribuição de lucros e dividendos por pessoas jurídicas no Brasil passará a se sujeitar à retenção na fonte a partir de janeiro de 2026. A retenção será devida quando se tratar de distribuição de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês. Nesse caso, a pessoa jurídica deverá efetuar a retenção do IRRF sobre esse pagamento. O IRRF incidirá sobre o valor total do pagamento de lucros ou dividendos superiores a R$ 50.000,00. Se o total de rendimentos auferidos no ano pela pessoa física superar R$ 600.000,00, a pessoa física deverá submeter os rendimentos dos lucros e dividendos recebidos a partir de 2026 ao regime de tributação anual de altas rendas previsto no art. 16-A da Lei nº 15.270, de 2025. O IRRF retido pela pessoa jurídica no decorrer do ano-calendário poderá ser deduzido do imposto apurado nesse regime. Na hipótese em que o contribuinte aufira rendimentos a título de lucros e dividendos e de outros rendimentos em montante inferior a R$ 600.000,00, o valor do IRRF retido pela empresa sobre os lucros distribuídos poderá ser restituído ao contribuinte.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 1168.1005954742432,
+        "num_chunks": 0,
+        "tokens_used": 646,
+        "bertscore_precision": 0.5781738758087158,
+        "bertscore_recall": 0.5569806098937988,
+        "bertscore_f1": 0.5673794150352478
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q005",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos?",
+      "answer_full": "A retenção do Imposto de Renda Retido na Fonte (IRRF) sobre lucros e dividendos pagos é realizada pela pessoa jurídica que paga esses valores. De acordo com a legislação brasileira, a alíquota a ser utilizada para essa retenção é de 20% sobre os lucros e dividendos pagos a pessoas físicas.\n\nIsso está previsto no artigo 22 da Lei nº 9.249, de 26 de dezembro de 1995, que estabelece a alíquota de 20% para a retenção do IRRF sobre lucros e dividendos pagos a pessoas físicas.\n\nNo entanto, é importante notar que a alíquota pode variar dependendo da situação específica. Por exemplo, se o lucro ou dividendos for pago a uma pessoa jurídica, a alíquota pode ser de 15% (artigo 22 da Lei nº 9.249/1995).\n\nAlém disso, é importante lembrar que a pessoa jurídica que paga os lucros e dividendos é responsável por realizar a retenção do IRRF e pagar o valor retido ao Fisco, juntamente com a declaração de ajuste do IRRF (artigo 22 da Lei nº 9.249/1995).\n\nPortanto, para efetuar a retenção do IRRF sobre os lucros e dividendos pagos, a pessoa jurídica deve utilizar a alíquota de 20% sobre os valores pagos a pessoas físicas.",
+      "answer_core": "A retenção do Imposto de Renda Retido na Fonte (IRRF) sobre lucros e dividendos pagos é realizada pela pessoa jurídica que paga esses valores. De acordo com a legislação brasileira, a alíquota a ser utilizada para essa retenção é de 20% sobre os lucros e dividendos pagos a pessoas físicas.\n\nIsso está previsto no artigo 22 da Lei nº 9.249, de 26 de dezembro de 1995, que estabelece a alíquota de 20% para a retenção do IRRF sobre lucros e dividendos pagos a pessoas físicas.\n\nNo entanto, é importante notar que a alíquota pode variar dependendo da situação específica. Por exemplo, se o lucro ou dividendos for pago a uma pessoa jurídica, a alíquota pode ser de 15% (artigo 22 da Lei nº 9.249/1995).\n\nAlém disso, é importante lembrar que a pessoa jurídica que paga os lucros e dividendos é responsável por realizar a retenção do IRRF e pagar o valor retido ao Fisco, juntamente com a declaração de ajuste do IRRF (artigo 22 da Lei nº 9.249/1995).\n\nPortanto, para efetuar a retenção do IRRF sobre os lucros e dividendos pagos, a pessoa jurídica deve utilizar a alíquota de 20% sobre os valores pagos a pessoas físicas.",
+      "ground_truth": "A lei determina que o IRRF incidirá à alíquota de 10% sobre a totalidade dos dividendos distribuídos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 840.6665325164795,
+        "num_chunks": 0,
+        "tokens_used": 496,
+        "bertscore_precision": 0.46874019503593445,
+        "bertscore_recall": 0.5940228700637817,
+        "bertscore_f1": 0.5239970684051514
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "aliquota",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q006",
+      "question": "Qual o prazo para recolhimento do IRRF devido pela pessoa jurídica sobre os lucros e dividendos distribuídos?",
+      "answer_full": "A pergunta feita pelo usuário está incorreta, pois o IRRF (Imposto sobre a Renda Retido na Fonte) é recolhido pela pessoa física que recebe rendimentos, não pela pessoa jurídica.\n\nNo entanto, se você está se referindo ao prazo para recolhimento do IRRF devido pela pessoa física sobre os lucros e dividendos recebidos, a resposta é que o prazo é o mesmo para o recolhimento do IRRF de outras fontes de renda.\n\nDe acordo com o artigo 430 do Código Tributário Nacional (CTN), o prazo para recolhimento do IRRF é o dia 20 do mês subsequente ao período de apuração.\n\nNo entanto, se a pessoa física recebe rendimentos de várias fontes, como salário, aluguel de imóvel, lucros e dividendos, ela pode optar pelo regime de apuração do IRRF por declaração, que é apresentada no prazo de 30 de abril do ano seguinte ao período de apuração.\n\nÉ importante notar que o prazo para recolhimento do IRRF pode ser alterado por lei ou por decreto, então é sempre recomendável verificar a legislação atualizada antes de tomar qualquer decisão.\n\nSe você tiver alguma outra pergunta ou precisar de mais informações, sinta-se à vontade para perguntar!",
+      "answer_core": "A pergunta feita pelo usuário está incorreta, pois o IRRF (Imposto sobre a Renda Retido na Fonte) é recolhido pela pessoa física que recebe rendimentos, não pela pessoa jurídica.\n\nNo entanto, se você está se referindo ao prazo para recolhimento do IRRF devido pela pessoa física sobre os lucros e dividendos recebidos, a resposta é que o prazo é o mesmo para o recolhimento do IRRF de outras fontes de renda.\n\nDe acordo com o artigo 430 do Código Tributário Nacional (CTN), o prazo para recolhimento do IRRF é o dia 20 do mês subsequente ao período de apuração.\n\nNo entanto, se a pessoa física recebe rendimentos de várias fontes, como salário, aluguel de imóvel, lucros e dividendos, ela pode optar pelo regime de apuração do IRRF por declaração, que é apresentada no prazo de 30 de abril do ano seguinte ao período de apuração.\n\nÉ importante notar que o prazo para recolhimento do IRRF pode ser alterado por lei ou por decreto, então é sempre recomendável verificar a legislação atualizada antes de tomar qualquer decisão.\n\nSe você tiver alguma outra pergunta ou precisar de mais informações, sinta-se à vontade para perguntar!",
+      "ground_truth": "O prazo para o recolhimento do IRRF é até o último dia útil do segundo decêndio do mês subsequente ao mês de ocorrência do fato gerador. (Lei nº 11.196/ 2005, art. 70, inciso I, alínea e)",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 798.5804080963135,
+        "num_chunks": 0,
+        "tokens_used": 459,
+        "bertscore_precision": 0.49831151962280273,
+        "bertscore_recall": 0.6256536245346069,
+        "bertscore_f1": 0.5547688007354736
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q007",
+      "question": "A lei traz alguma hipótese de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para pessoa física no Brasil?",
+      "answer_full": "Sim, a lei brasileira traz hipóteses de afastamento da tributação do Imposto sobre a Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos para pessoa física no Brasil.\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, o IRRF não incide sobre:\n\n- Lucros e dividendos distribuídos a acionistas que tenham investido no capital social da empresa distribuidora pelo menos 10% do valor do investimento, por um período mínimo de 24 meses, contados a partir da data da aquisição do título.\n- Lucros e dividendos distribuídos a acionistas que tenham investido no capital social da empresa distribuidora pelo menos 10% do valor do investimento, por um período mínimo de 24 meses, contados a partir da data da aquisição do título, desde que o valor do investimento seja inferior a R$ 80.000,00.\n\nAlém disso, o artigo 22 da Lei nº 9.250/95 também estabelece que o IRRF não incide sobre os lucros e dividendos distribuídos a acionistas que tenham investido no capital social da empresa distribuidora pelo menos 10% do valor do investimento, por um período mínimo de 24 meses, contados a partir da data da aquisição do título, desde que o valor do investimento seja inferior a R$ 80.000,00 e o acionista seja residente no exterior.\n\nÉ importante notar que essas hipóteses de isenção do IRRF estão sujeitas a condições e requisitos específicos, e é recomendável consultar um profissional tributário para verificar a aplicação dessas regras em cada caso específico.",
+      "answer_core": "Sim, a lei brasileira traz hipóteses de afastamento da tributação do Imposto sobre a Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos para pessoa física no Brasil.\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, o IRRF não incide sobre:\n\n- Lucros e dividendos distribuídos a acionistas que tenham investido no capital social da empresa distribuidora pelo menos 10% do valor do investimento, por um período mínimo de 24 meses, contados a partir da data da aquisição do título.\n- Lucros e dividendos distribuídos a acionistas que tenham investido no capital social da empresa distribuidora pelo menos 10% do valor do investimento, por um período mínimo de 24 meses, contados a partir da data da aquisição do título, desde que o valor do investimento seja inferior a R$ 80.000,00.\n\nAlém disso, o artigo 22 da Lei nº 9.250/95 também estabelece que o IRRF não incide sobre os lucros e dividendos distribuídos a acionistas que tenham investido no capital social da empresa distribuidora pelo menos 10% do valor do investimento, por um período mínimo de 24 meses, contados a partir da data da aquisição do título, desde que o valor do investimento seja inferior a R$ 80.000,00 e o acionista seja residente no exterior.\n\nÉ importante notar que essas hipóteses de isenção do IRRF estão sujeitas a condições e requisitos específicos, e é recomendável consultar um profissional tributário para verificar a aplicação dessas regras em cada caso específico.",
+      "ground_truth": "Os lucros e dividendos pagos a uma mesma pessoa física em valor inferior a R$ 50.000,00 em um mesmo mês não ficam sujeitos à retenção do IRRF pela pessoa jurídica, independentemente do ano em que foi apurado e/ou distribuído esse lucro. Além disso, a lei também afasta a retenção do IRRF quando o lucro ou dividendo pago seja (i) relativo a resultados apurados até o ano-calendário de 2025; (ii) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e (iii) exigível nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação até 2028.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 970.801830291748,
+        "num_chunks": 0,
+        "tokens_used": 555,
+        "bertscore_precision": 0.5648354887962341,
+        "bertscore_recall": 0.5959053039550781,
+        "bertscore_f1": 0.5799545645713806
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q008",
+      "question": "Para que não haja a retenção do IRRF sobre os lucros e dividendos apurados até o ano-calendário de 2025, quais são os requisitos que devem ser cumpridos?",
+      "answer_full": "Para evitar a retenção do Imposto sobre a Renda Retido na Fonte (IRRF) sobre os lucros e dividendos apurados até o ano-calendário de 2025, os seguintes requisitos devem ser cumpridos:\n\n1. **Declaração de Imposto de Renda**: O titular do direito à receita deve apresentar a Declaração de Imposto de Renda Pessoa Física (DIRPF) no prazo estabelecido pela Lei nº 9.250, de 26 de dezembro de 1995, que é até o último dia do prazo para apresentação da declaração do ano-calendário em que o rendimento foi auferido.\n\n2. **Declarar o rendimento**: O rendimento deve ser declarado na DIRPF, observando o disposto no artigo 31 da Lei nº 9.250/95, que estabelece a obrigação de declarar todos os rendimentos auferidos no ano-calendário.\n\n3. **Pagamento do imposto**: O imposto devido deve ser pago até o vencimento do prazo para apresentação da DIRPF, conforme estabelecido no artigo 22 da Lei nº 9.250/95.\n\n4. **Não cumprimento dos requisitos**: Se o titular do direito à receita não cumprir com esses requisitos, o IRRF será retido na fonte, conforme estabelece o artigo 22 da Lei nº 9.250/95.\n\nÉ importante observar que esses requisitos devem ser cumpridos para evitar a retenção do IRRF sobre os lucros e dividendos apurados até o ano-calendário de 2025. Além disso, é fundamental verificar as alterações na legislação tributária que possam afetar esses requisitos.",
+      "answer_core": "Para evitar a retenção do Imposto sobre a Renda Retido na Fonte (IRRF) sobre os lucros e dividendos apurados até o ano-calendário de 2025, os seguintes requisitos devem ser cumpridos:\n\n1. **Declaração de Imposto de Renda**: O titular do direito à receita deve apresentar a Declaração de Imposto de Renda Pessoa Física (DIRPF) no prazo estabelecido pela Lei nº 9.250, de 26 de dezembro de 1995, que é até o último dia do prazo para apresentação da declaração do ano-calendário em que o rendimento foi auferido.\n\n2. **Declarar o rendimento**: O rendimento deve ser declarado na DIRPF, observando o disposto no artigo 31 da Lei nº 9.250/95, que estabelece a obrigação de declarar todos os rendimentos auferidos no ano-calendário.\n\n3. **Pagamento do imposto**: O imposto devido deve ser pago até o vencimento do prazo para apresentação da DIRPF, conforme estabelecido no artigo 22 da Lei nº 9.250/95.\n\n4. **Não cumprimento dos requisitos**: Se o titular do direito à receita não cumprir com esses requisitos, o IRRF será retido na fonte, conforme estabelece o artigo 22 da Lei nº 9.250/95.\n\nÉ importante observar que esses requisitos devem ser cumpridos para evitar a retenção do IRRF sobre os lucros e dividendos apurados até o ano-calendário de 2025. Além disso, é fundamental verificar as alterações na legislação tributária que possam afetar esses requisitos.",
+      "ground_truth": "Nos termos da lei, para evitar o IRRF desses lucros e dividendos e seu cômputo para a tributação mínima exige-se que a distribuição tenha sido aprovada até 31 de dezembro de 2025. Para isso, a aprovação deve ser efetuada até 31 de dezembro de 2025 pelo órgão competente da pessoa jurídica em observância às normas de direito privado e considerando também as disposições dos atos constitutivos da pessoa jurídica. Tal exigência se aplica independentemente do tipo societário e do período em que o lucro foi gerado, inclusive àquele referente ao mês de dezembro de 2025. No caso de sociedades anônimas, por exemplo, a aprovação deve se dar, em regra, pela assembleia-geral, que é o órgão competente de acordo com a Lei nº 6.404, de 1976, para deliberar o pagamento dos lucros e dividendos. Eventual proposta de distribuição elaborada pela administração da sociedade não supre a necessidade da deliberação pelo órgão competente até a data prevista na lei, ou seja, 31 de dezembro de 2025. Essa competência, contudo, pode ser atribuída aos órgãos da administração no caso de dividendo intermediários, se o estatuto da Companhia assim dispuser, conforme dispõe o artigo 204 da Lei nº 6.404 de 1976. Além disso, a lei também determina como condição para não tributação que os lucros e dividendos sejam exigíveis nos termos da legislação civil ou empresarial e que o seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação. Para lucros apurados até 2024, será necessária a aprovação pelo órgão competente até 31 de dezembro de 2025 e que o pagamento dos lucros e dividendos seja realizado nos termos originalmente previstos no ato de aprovação até 2028. O valor dos lucros e dividendos cuja distribuição tenha sido aprovada pelo órgão competente da sociedade devem ser registrados no passivo da entidade (circulante e não-circulante, em conformidade com o cronograma estipulado para pagamento) e a partir desse momento não poderão entrar no cômputo da base de cálculo dos juros sobre capital próprio de que trata o art. 9º da Lei nº 9.249, de 1995.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 993.7922954559326,
+        "num_chunks": 0,
+        "tokens_used": 571,
+        "bertscore_precision": 0.6104269623756409,
+        "bertscore_recall": 0.5927706956863403,
+        "bertscore_f1": 0.6014692783355713
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q009",
+      "question": "Para que não haja a retenção do IRRF sobre os lucros e dividendos apurados no ano-calendário de 2025, como as empresas podem atender ao critério de aprovação da distribuição dos lucros ou dividendos até 31 de dezembro de 2025, tendo em vista artigos 132 e 176 da Lei 6.404/76 e art. 1078 do Código Civil?",
+      "answer_full": "Para evitar a retenção do Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos apurados no ano-calendário de 2025, as empresas precisam atender ao critério de aprovação da distribuição dos lucros ou dividendos até 31 de dezembro de 2025.\n\nDe acordo com o art. 132 da Lei 6.404/76 (Lei das Sociedades Anônimas), a distribuição de lucros ou dividendos só pode ser feita após a aprovação da assembleia geral da sociedade. Além disso, o art. 176 da mesma lei estabelece que a distribuição de lucros ou dividendos deve ser feita dentro do prazo de 30 dias após a aprovação da assembleia geral.\n\nJá o art. 1078 do Código Civil estabelece que a distribuição de lucros ou dividendos deve ser feita de acordo com as regras estabelecidas na lei societária, ou seja, de acordo com a Lei 6.404/76.\n\nPara atender a esses critérios, as empresas podem seguir os seguintes passos:\n\n1. Realizar a assembleia geral até 31 de dezembro de 2025 para aprovar a distribuição dos lucros ou dividendos;\n2. Aprovar a distribuição dos lucros ou dividendos de acordo com as regras estabelecidas na Lei 6.404/76;\n3. Realizar a distribuição dos lucros ou dividendos dentro do prazo de 30 dias após a aprovação da assembleia geral.\n\nAlém disso, as empresas também precisam cumprir com as obrigações fiscais, como a declaração do Imposto de Renda da Pessoa Jurídica (IRPJ) e a entrega da Nota Fiscal de Informações do Imposto de Renda (NF-e).\n\nÉ importante notar que a retenção do IRRF é uma obrigação do empregador ou da empresa que paga os lucros ou dividendos, e não do beneficiário. Portanto, mesmo que a empresa cumpra com os critérios acima, o beneficiário ainda pode ser obrigado a pagar o IRRF sobre os lucros ou dividendos recebidos.\n\nÉ recomendável que as empresas consultem um profissional tribut",
+      "answer_core": "Para evitar a retenção do Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos apurados no ano-calendário de 2025, as empresas precisam atender ao critério de aprovação da distribuição dos lucros ou dividendos até 31 de dezembro de 2025.\n\nDe acordo com o art. 132 da Lei 6.404/76 (Lei das Sociedades Anônimas), a distribuição de lucros ou dividendos só pode ser feita após a aprovação da assembleia geral da sociedade. Além disso, o art. 176 da mesma lei estabelece que a distribuição de lucros ou dividendos deve ser feita dentro do prazo de 30 dias após a aprovação da assembleia geral.\n\nJá o art. 1078 do Código Civil estabelece que a distribuição de lucros ou dividendos deve ser feita de acordo com as regras estabelecidas na lei societária, ou seja, de acordo com a Lei 6.404/76.\n\nPara atender a esses critérios, as empresas podem seguir os seguintes passos:\n\n1. Realizar a assembleia geral até 31 de dezembro de 2025 para aprovar a distribuição dos lucros ou dividendos;\n2. Aprovar a distribuição dos lucros ou dividendos de acordo com as regras estabelecidas na Lei 6.404/76;\n3. Realizar a distribuição dos lucros ou dividendos dentro do prazo de 30 dias após a aprovação da assembleia geral.\n\nAlém disso, as empresas também precisam cumprir com as obrigações fiscais, como a declaração do Imposto de Renda da Pessoa Jurídica (IRPJ) e a entrega da Nota Fiscal de Informações do Imposto de Renda (NF-e).\n\nÉ importante notar que a retenção do IRRF é uma obrigação do empregador ou da empresa que paga os lucros ou dividendos, e não do beneficiário. Portanto, mesmo que a empresa cumpra com os critérios acima, o beneficiário ainda pode ser obrigado a pagar o IRRF sobre os lucros ou dividendos recebidos.\n\nÉ recomendável que as empresas consultem um profissional tribut",
+      "ground_truth": "Em relação aos lucros e dividendos apurados ao longo do ano-calendário de 2025, para atender aos critérios estabelecidos pela Lei nº 15.270, de 2025, a empresa poderá elaborar um balanço intermediário ou balancete de verificação referente ao período de janeiro a novembro de 2025. Com base nesse balanço, a distribuição dos lucros deverá ser aprovada até 31 de dezembro de 2025, de forma a cumprir o requisito temporal previsto na lei. Caso o balanço definitivo levantado em 31 de dezembro de 2025 apresente um resultado inferior ao valor anteriormente aprovado para distribuição, a isenção poderá ser mantida. Nessa hipótese, contudo, a distribuição isenta deverá ficar limitada ao montante do resultado efetivamente apurado no ano-calendário de 2025. Vale mencionar que o valor dos lucros e dividendos cuja distribuição tenha sido aprovada pelo órgão competente da sociedade, inclusive os apurados com base no balanço intermediário ou balancete de verificação, devem ser registrados no passivo da entidade (circulante e não-circulante, em conformidade com o cronograma estipulado para pagamento) e a partir desse momento não poderão entrar no cômputo da base de cálculo dos juros sobre capital próprio de que trata o art. 9º da Lei nº 9.249, de 1995.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 1267.62056350708,
+        "num_chunks": 0,
+        "tokens_used": 719,
+        "bertscore_precision": 0.6040471196174622,
+        "bertscore_recall": 0.6155584454536438,
+        "bertscore_f1": 0.6097484230995178
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q010",
+      "question": "O IRRF dos lucros e dividendos também se aplica às distribuições efetuadas por empresas do Simples Nacional?",
+      "answer_full": "Excelente pergunta!\n\nDe acordo com a legislação brasileira, o Imposto de Renda Retido na Fonte (IRRF) sobre lucros e dividendos é aplicado a distribuições efetuadas por empresas que não se enquadram no Simples Nacional.\n\nNo entanto, é importante esclarecer que o Simples Nacional é um regime especial de tributação para microempresas e empresas de pequeno porte, que têm regras específicas de tributação.\n\nSegundo o artigo 1º da Lei nº 12.973, de 13 de maio de 2014, que instituiu o Simples Nacional, as empresas que se enquadram nesse regime são isentas do pagamento do IRRF sobre distribuições de lucros e dividendos.\n\nNo entanto, se a empresa que distribui lucros e dividendos não se enquadra no Simples Nacional, o IRRF sobre essas distribuições é aplicado, conforme previsto no artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995.\n\nPortanto, a resposta à sua pergunta é que o IRRF sobre lucros e dividendos não se aplica às distribuições efetuadas por empresas do Simples Nacional, desde que essas empresas se enquadrem nesse regime e cumpram com as regras específicas de tributação.",
+      "answer_core": "Excelente pergunta!\n\nDe acordo com a legislação brasileira, o Imposto de Renda Retido na Fonte (IRRF) sobre lucros e dividendos é aplicado a distribuições efetuadas por empresas que não se enquadram no Simples Nacional.\n\nNo entanto, é importante esclarecer que o Simples Nacional é um regime especial de tributação para microempresas e empresas de pequeno porte, que têm regras específicas de tributação.\n\nSegundo o artigo 1º da Lei nº 12.973, de 13 de maio de 2014, que instituiu o Simples Nacional, as empresas que se enquadram nesse regime são isentas do pagamento do IRRF sobre distribuições de lucros e dividendos.\n\nNo entanto, se a empresa que distribui lucros e dividendos não se enquadra no Simples Nacional, o IRRF sobre essas distribuições é aplicado, conforme previsto no artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995.\n\nPortanto, a resposta à sua pergunta é que o IRRF sobre lucros e dividendos não se aplica às distribuições efetuadas por empresas do Simples Nacional, desde que essas empresas se enquadrem nesse regime e cumpram com as regras específicas de tributação.",
+      "ground_truth": "Sim. A retenção na fonte prevista na lei também se aplica aos pagamentos de lucros e dividendos efetuados por empresas do Simples Nacional. Assim como no caso dos pagamentos feitos por outras pessoas jurídica, a distribuição de lucros e dividendos por pessoas jurídicas do Simples Nacional será sujeita à retenção na fonte a partir de janeiro de 2026 à alíquota de 10% quando se tratar de pagamentos a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês. Com a Lei nº 15.270/25, a isenção prevista no art. 14 da Lei Complementar nº 123/06 deixou de ser aplicada de modo que os lucros e dividendos pagos passarão a estar sujeitos a retenção na fonte do IRRF quando se tratar de pagamentos a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês. A tributação do sócio de uma empresa no Simples Nacional não é matéria reservada à Lei Complementar razão pela qual assume prevalência o disposto na Lei nº 15.270/25. Vale mencionar que a mesma hipótese de afastamento prevista na lei para lucros apurados até 31 de dezembro de 2025 se aplica para os lucros e dividendos pagos por empresas do Simples Nacional (ver questão 7 a 9).",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 783.480167388916,
+        "num_chunks": 0,
+        "tokens_used": 445,
+        "bertscore_precision": 0.6252669095993042,
+        "bertscore_recall": 0.6282590627670288,
+        "bertscore_f1": 0.62675940990448
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q011",
+      "question": "Qual o código de receita deve ser utilizado no DARF que será pago para recolher o IRRF sobre os lucros e dividendos pagos a pessoa física residente no Brasil?",
+      "answer_full": "Para recolher o Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos a pessoa física residente no Brasil, você deve utilizar o código de receita 2379.\n\nDe acordo com o artigo 236 do Código Tributário Nacional (CTN), o código de receita é um código utilizado para identificar a natureza da receita tributável. O artigo 236 do CTN estabelece que o código de receita será utilizado para identificar a receita tributável, incluindo o IRRF.\n\nAlém disso, o artigo 3º da Instrução Normativa RFB nº 1.708, de 2019, estabelece que o código de receita 2379 será utilizado para recolher o IRRF sobre os lucros e dividendos pagos a pessoa física residente no Brasil.\n\nPortanto, ao preencher o DARF, certifique-se de utilizar o código de receita 2379 para recolher o IRRF sobre os lucros e dividendos pagos a pessoa física residente no Brasil.",
+      "answer_core": "Para recolher o Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos a pessoa física residente no Brasil, você deve utilizar o código de receita 2379.\n\nDe acordo com o artigo 236 do Código Tributário Nacional (CTN), o código de receita é um código utilizado para identificar a natureza da receita tributável. O artigo 236 do CTN estabelece que o código de receita será utilizado para identificar a receita tributável, incluindo o IRRF.\n\nAlém disso, o artigo 3º da Instrução Normativa RFB nº 1.708, de 2019, estabelece que o código de receita 2379 será utilizado para recolher o IRRF sobre os lucros e dividendos pagos a pessoa física residente no Brasil.\n\nPortanto, ao preencher o DARF, certifique-se de utilizar o código de receita 2379 para recolher o IRRF sobre os lucros e dividendos pagos a pessoa física residente no Brasil.",
+      "ground_truth": "A pessoa jurídica que distribuir lucros e dividendos sujeitos à tributação nos termos da Lei deverá utilizar o código de receita “1841 - IRRF - Lucros ou Dividendos” no Documento de Arrecadação de Receitas Federais - Darf para recolhimento do Imposto sobre a Renda Retido na Fonte incidente sobre lucros ou dividendos de que tratam o art. 10, § 4º, da Lei nº 9.249, de 26 de dezembro de 1995, e o art. 6º-A da Lei nº 9.250, de 26 de dezembro de 1995.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 666.7778491973877,
+        "num_chunks": 0,
+        "tokens_used": 401,
+        "bertscore_precision": 0.5858353972434998,
+        "bertscore_recall": 0.6159659624099731,
+        "bertscore_f1": 0.6005229949951172
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q012",
+      "question": "A capitalização de lucros apurados sujeita-se ao IRRF com base no art. 6º-A da Lei nº 15.270, de 2025?",
+      "answer_full": "Infelizmente, não posso fornecer informações sobre uma lei específica que não existe. A Lei nº 15.270, de 2025, não é uma lei real. No entanto, posso fornecer informações sobre a capitalização de lucros apurados e o Imposto sobre a Renda Retido na Fonte (IRRF).\n\nA capitalização de lucros apurados é um regime de tributação para empresas, e não para pessoas físicas. De acordo com o art. 34 da Lei nº 9.249, de 1995, o IRRF é aplicado sobre a remuneração de trabalhadores autônomos, incluindo os que optam pelo regime de capitalização de lucros apurados.\n\nNo entanto, se você está se referindo ao art. 6º-A da Lei nº 15.270, de 2025, não posso fornecer informações sobre essa lei, pois não existe.\n\nSe você tiver alguma outra pergunta sobre o IRRF ou a capitalização de lucros apurados, ficarei feliz em ajudar.",
+      "answer_core": "Infelizmente, não posso fornecer informações sobre uma lei específica que não existe. A Lei nº 15.270, de 2025, não é uma lei real. No entanto, posso fornecer informações sobre a capitalização de lucros apurados e o Imposto sobre a Renda Retido na Fonte (IRRF).\n\nA capitalização de lucros apurados é um regime de tributação para empresas, e não para pessoas físicas. De acordo com o art. 34 da Lei nº 9.249, de 1995, o IRRF é aplicado sobre a remuneração de trabalhadores autônomos, incluindo os que optam pelo regime de capitalização de lucros apurados.\n\nNo entanto, se você está se referindo ao art. 6º-A da Lei nº 15.270, de 2025, não posso fornecer informações sobre essa lei, pois não existe.\n\nSe você tiver alguma outra pergunta sobre o IRRF ou a capitalização de lucros apurados, ficarei feliz em ajudar.",
+      "ground_truth": "A capitalização de lucros configura “emprego” que é uma das hipóteses previstas para a retenção do imposto de renda com base no art. 6º-A da lei. Além disso, a capitalização de lucros deverá ser computada para fins da tributação mínima em caso de renda anual superior a R$ 600 mil. Dessa forma, os lucros e dividendos devidos a uma mesma pessoa física residente no Brasil que, em um determinado mês, ultrapassem o valor de R$ 50.000,00, e que passem a ser incorporados a partir de 2026, estarão sujeitos à tributação à alíquota de 10%. Para a apuração da tributação das altas rendas, conforme o art. 16-A, deverão ser considerados no cálculo: (i) o valor total dos lucros e dividendos distribuídos e incorporados, ainda que não tenham sofrido retenção do Imposto de Renda na fonte (IRRF); e (ii) o montante do IRRF antecipado ao longo do ano sobre esses dividendos. O valor dos lucros atribuídos ao sócio ou acionista que forem incorporados ao capital da empresa poderá ser acrescido ao custo de aquisição correspondente da pessoa física na Declaração de Ajuste Anual (DAA), na ficha de Bens e Direitos. É importante destacar que, para fins de apuração do Imposto de Renda da Pessoa Física (IRPF) devido na declaração de ajuste anual, calculado nos termos do art. 12 da Lei nº 9.250, de 1995, permanece aplicável a isenção prevista no art. 10 da Lei nº 9.249, de 1995.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 679.3181896209717,
+        "num_chunks": 0,
+        "tokens_used": 392,
+        "bertscore_precision": 0.5932420492172241,
+        "bertscore_recall": 0.576157808303833,
+        "bertscore_f1": 0.5845751762390137
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q013",
+      "question": "A capitalização de lucros apurados até 31 de dezembro de 2025 deliberada e aprovada em 2025 é tributada pelo imposto de renda com base no art. 6º-A da Lei nº 15.270, de 2025?",
+      "answer_full": "Infelizmente, não posso fornecer informações sobre uma lei que não existe. A Lei nº 15.270, de 2025, não é uma lei real e, portanto, não há artigo 6º-A que possa ser citado.\n\nNo entanto, posso esclarecer como funciona a capitalização de lucros no Brasil. De acordo com o artigo 183 da Lei nº 9.250, de 1995 (Lei do IRPF), os lucros apurados até 31 de dezembro de cada ano podem ser capitalizados, desde que a decisão seja tomada até 30 de abril do ano seguinte.\n\nA capitalização de lucros é uma opção que permite que os contribuintes escolham pagar o imposto de renda em uma única parcela, em vez de pagar ao longo do ano. Para isso, é necessário que a decisão de capitalização seja deliberada e aprovada até 30 de abril do ano seguinte.\n\nA alíquota aplicada à capitalização de lucros é a mesma que a alíquota aplicada ao lucro real, que varia de acordo com a faixa de renda do contribuinte. Em 2023, a alíquota máxima é de 27,5%.\n\nSe você tiver alguma outra pergunta ou precisar de mais informações, estou à disposição para ajudar.",
+      "answer_core": "Infelizmente, não posso fornecer informações sobre uma lei que não existe. A Lei nº 15.270, de 2025, não é uma lei real e, portanto, não há artigo 6º-A que possa ser citado.\n\nNo entanto, posso esclarecer como funciona a capitalização de lucros no Brasil. De acordo com o artigo 183 da Lei nº 9.250, de 1995 (Lei do IRPF), os lucros apurados até 31 de dezembro de cada ano podem ser capitalizados, desde que a decisão seja tomada até 30 de abril do ano seguinte.\n\nA capitalização de lucros é uma opção que permite que os contribuintes escolham pagar o imposto de renda em uma única parcela, em vez de pagar ao longo do ano. Para isso, é necessário que a decisão de capitalização seja deliberada e aprovada até 30 de abril do ano seguinte.\n\nA alíquota aplicada à capitalização de lucros é a mesma que a alíquota aplicada ao lucro real, que varia de acordo com a faixa de renda do contribuinte. Em 2023, a alíquota máxima é de 27,5%.\n\nSe você tiver alguma outra pergunta ou precisar de mais informações, estou à disposição para ajudar.",
+      "ground_truth": "A lei assegurou a não tributação dos lucros e dividendos nas seguintes hipóteses: quando relativos a resultados apurados até o ano-calendário de 2025; quando a sua distribuição tiver sido aprovada até 31 de dezembro de 2025; e iii. quando forem exigíveis nos termos da legislação civil ou empresarial, desde que o pagamento, crédito, emprego ou entrega ocorra conforme originalmente previsto no ato de aprovação. Dessa forma, no caso específico de lucros apurados até 31 de dezembro de 2025 e destinados ao aumento do capital social da pessoa jurídica, desde que a deliberação e a aprovação do respectivo evento societário ocorram até essa mesma data, conclui- se que tais valores não estarão sujeitos à incidência do imposto de renda, nos termos do art. 6º-A da Lei nº 15.270, de 2025. Por outro lado, os lucros e dividendos apurados até 2025 devidos a uma mesma pessoa física residente no Brasil que, em um determinado mês, ultrapassem o valor de R$ 50.000,00, e que passem a ser incorporados a partir de 2026, estarão sujeitos à tributação à alíquota de 10%. (ver pergunta 12). Os valores capitalizados, referentes a lucros apurados até 31 de dezembro de 2025 e observadas as condições legais, deverão ser acrescidos ao custo de aquisição da participação societária detida pela pessoa física, o qual deverá ser devidamente atualizado na Declaração de Ajuste Anual (DAA), na ficha de Bens e Direitos. No caso de capitalização de lucros em geral, vide item 12.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 780.2820205688477,
+        "num_chunks": 0,
+        "tokens_used": 474,
+        "bertscore_precision": 0.6067863702774048,
+        "bertscore_recall": 0.5980271100997925,
+        "bertscore_f1": 0.6023748517036438
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "rendimentos",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q014",
+      "question": "Após a incorporação dos lucros apurados até 31 de dezembro de 2025 (deliberada e aprovada em 2025), eventual devolução do capital social estará sujeita à tributação? Existe um prazo mínimo para que o recurso seja mantido em capital para afastar a tributação?",
+      "answer_full": "A incorporação de lucros apurados é um processo que permite que as empresas distribuam lucros aos sócios sem que isso seja considerado como distribuição de dividendos, que são tributados como renda. No entanto, se os lucros incorporados forem posteriormente devolvidos ao capital social, isso pode ser considerado como uma distribuição de lucros, sujeita à tributação.\n\nDe acordo com o artigo 195 do Código Tributário Nacional (CTN), a distribuição de lucros é considerada como renda e está sujeita à tributação como IRPJ (Imposto de Renda das Pessoas Jurídicas) e CSLL (Contribuição Social sobre o Lucro Líquido).\n\nNo entanto, o artigo 195 do CTN também estabelece que a distribuição de lucros não é considerada como renda se os recursos forem mantidos no capital social por um período mínimo de 5 anos.\n\nPortanto, se os lucros incorporados forem devolvidos ao capital social após um período de 5 anos, a tributação pode ser afastada. No entanto, se os recursos forem devolvidos antes de 5 anos, a distribuição de lucros pode ser considerada como renda e estar sujeita à tributação.\n\nÉ importante notar que a legislação tributária pode mudar ao longo do tempo, e é sempre recomendável consultar um profissional especializado em direito tributário para obter orientação específica sobre a situação de sua empresa.\n\nEm resumo, a devolução de capital social após a incorporação de lucros apurados pode ser sujeita à tributação se os recursos forem devolvidos antes de 5 anos. É importante manter os recursos no capital social por um período mínimo de 5 anos para afastar a tributação.",
+      "answer_core": "A incorporação de lucros apurados é um processo que permite que as empresas distribuam lucros aos sócios sem que isso seja considerado como distribuição de dividendos, que são tributados como renda. No entanto, se os lucros incorporados forem posteriormente devolvidos ao capital social, isso pode ser considerado como uma distribuição de lucros, sujeita à tributação.\n\nDe acordo com o artigo 195 do Código Tributário Nacional (CTN), a distribuição de lucros é considerada como renda e está sujeita à tributação como IRPJ (Imposto de Renda das Pessoas Jurídicas) e CSLL (Contribuição Social sobre o Lucro Líquido).\n\nNo entanto, o artigo 195 do CTN também estabelece que a distribuição de lucros não é considerada como renda se os recursos forem mantidos no capital social por um período mínimo de 5 anos.\n\nPortanto, se os lucros incorporados forem devolvidos ao capital social após um período de 5 anos, a tributação pode ser afastada. No entanto, se os recursos forem devolvidos antes de 5 anos, a distribuição de lucros pode ser considerada como renda e estar sujeita à tributação.\n\nÉ importante notar que a legislação tributária pode mudar ao longo do tempo, e é sempre recomendável consultar um profissional especializado em direito tributário para obter orientação específica sobre a situação de sua empresa.\n\nEm resumo, a devolução de capital social após a incorporação de lucros apurados pode ser sujeita à tributação se os recursos forem devolvidos antes de 5 anos. É importante manter os recursos no capital social por um período mínimo de 5 anos para afastar a tributação.",
+      "ground_truth": "A devolução de capital social está sujeita à tributação pela sistemática de ganho de capital caso o valor recebido pelo beneficiário supere o custo de aquisição da participação societária por ele detida. Nesse caso, a legislação não contempla prazo específico para que tais valores sejam mantidos na conta de capital social. Não obstante, para que seja mantida a não tributação apurados até 31 de dezembro de 2025 incorporados ao capital social, eventuais devoluções efetuadas em anos subsequentes devem ser efetuadas em consonância com os requisitos previstos nas normas de Direito Privado. Reduções de capital efetuadas simultaneamente ao evento de incorporação do lucro ao capital social e em desacordo com as normas de Direito Privado que regem a matéria poderão ensejar a cobrança do imposto de renda sobre os lucros e dividendos capitalizados que foi afastada por se tratar de um lucro relativo a resultados apurados até o ano- calendário de 2025 e cuja distribuição tenha sido aprovada até 31 de dezembro de 2025. Com isso, no que tange à incorporação de lucros ao capital social, pode-se dizer que: Os lucros apurados até 31 de dezembro de 2025 e destinados ao aumento do capital social da pessoa jurídica, desde que a deliberação e a aprovação do respectivo evento societário ocorram até essa mesma data, não estarão sujeitos à tributação pelo IRRF com base no art. 6º-A da lei; Os lucros e dividendos apurados até 2025 devidos a uma mesma pessoa física residente no Brasil que, em um determinado mês, ultrapassem o valor de R$ 50.000,00, e que passem a ser incorporados ao capital social a partir de 2026, estarão sujeitos à tributação pelo IRRF com base no art. 6º-A da lei no momento da capitalização;e Os lucros e dividendos apurados após 2025 devidos a uma mesma pessoa física residente no Brasil que, em um determinado mês, ultrapassem o valor de R$ 50.000,00, e que passem a ser incorporados ao capital social estarão sujeitos à tributação pelo IRRF com base no art. 6º-A da lei no momento da capitalização. Ressalte-se que, para qualquer uma das hipóteses acima, o disposto no art. 63 do Decreto-Lei nº 1.598, de 1977, não tem aplicação, de modo que a manutenção ou não dos lucros no capital social pelo prazo de cinco anos é irrelevante para se determinar se a capitalização enseja ou não a tributação pelo IRRF. Com isso, no caso, por exemplo, de lucros e dividendos apurados após 2025 devidos a uma mesma pessoa física residente no Brasil que, em um determinado mês, ultrapassem o valor de R$ 50.000,00, e que passem a ser incorporados ao capital social estarão sujeitos à tributação pelo IRRF com base no art. 6º- A da lei no momento da capitalização, ainda que a pessoa jurídica mantenha o lucro capitalizado por mais de cinco anos. Além disso, para qualquer uma das hipóteses acima, o valor dos lucros atribuídos ao sócio ou acionista que forem incorporados ao capital da empresa poderá ser acrescido ao custo de aquisição correspondente da pessoa física na Declaração de Ajuste Anual (DAA), na ficha de Bens e Direitos. No que diz respeito à tributação anual de altas rendas prevista no art. 16-A da Lei nº 15.270, de 2024, cabe mencionar que a lei exclui do regime os rendimentos de ganho de capital, exceto os decorrentes de operações realizadas em bolsa ou no mercado de balcão organizado sujeitas à tributação com base no ganho líquido no Brasil. Portanto, excetuadas as operações realizadas em bolsa ou mercado de balcão, a devolução de capital que tenha por origem lucros de que trata esta questão não deverão ser incluídos, como regra, no regime de tributação de altas renda.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 1058.007001876831,
+        "num_chunks": 0,
+        "tokens_used": 602,
+        "bertscore_precision": 0.6288888454437256,
+        "bertscore_recall": 0.5916301012039185,
+        "bertscore_f1": 0.60969078540802
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "prazo",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q015",
+      "question": "A distribuição de lucros e dividendos para não residente no Brasil será tributada pelo IRRF?",
+      "answer_full": "Sim, a distribuição de lucros e dividendos para não residente no Brasil é tributada pelo Imposto de Renda Retido na Fonte (IRRF).\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, o IRRF é aplicado sobre a distribuição de lucros e dividendos pagos a não residentes no Brasil.\n\nAlém disso, o artigo 22 da Lei nº 9.250/95 também estabelece que o IRRF é aplicado sobre a distribuição de lucros e dividendos pagos a residentes no Brasil que tenham como beneficiário não residente no Brasil.\n\nO IRRF é calculado com base na alíquota de 20% sobre o valor da distribuição de lucros e dividendos, conforme estabelecido no artigo 22 da Lei nº 9.250/95.\n\nÉ importante notar que a distribuição de lucros e dividendos também pode ser tributada pelo Imposto de Renda da Pessoa Jurídica (IRPJ) e pelo Imposto sobre a Renda das Pessoas Físicas (IRPF), dependendo das condições específicas do caso.\n\nPortanto, é fundamental consultar um profissional tributário para obter orientação específica sobre a tributação da distribuição de lucros e dividendos para não residentes no Brasil.",
+      "answer_core": "Sim, a distribuição de lucros e dividendos para não residente no Brasil é tributada pelo Imposto de Renda Retido na Fonte (IRRF).\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, o IRRF é aplicado sobre a distribuição de lucros e dividendos pagos a não residentes no Brasil.\n\nAlém disso, o artigo 22 da Lei nº 9.250/95 também estabelece que o IRRF é aplicado sobre a distribuição de lucros e dividendos pagos a residentes no Brasil que tenham como beneficiário não residente no Brasil.\n\nO IRRF é calculado com base na alíquota de 20% sobre o valor da distribuição de lucros e dividendos, conforme estabelecido no artigo 22 da Lei nº 9.250/95.\n\nÉ importante notar que a distribuição de lucros e dividendos também pode ser tributada pelo Imposto de Renda da Pessoa Jurídica (IRPJ) e pelo Imposto sobre a Renda das Pessoas Físicas (IRPF), dependendo das condições específicas do caso.\n\nPortanto, é fundamental consultar um profissional tributário para obter orientação específica sobre a tributação da distribuição de lucros e dividendos para não residentes no Brasil.",
+      "ground_truth": "Com a edição da Lei nº 15.270, de 26 de novembro de 2025, a distribuição de lucros e dividendos por pessoas jurídicas no Brasil para não residentes no País passará a ser tributada a partir de janeiro de 2026. Nesse caso, a pessoa jurídica deverá efetuar a retenção do IRRF sobre esse pagamento.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 766.39723777771,
+        "num_chunks": 0,
+        "tokens_used": 442,
+        "bertscore_precision": 0.5164992809295654,
+        "bertscore_recall": 0.6029444336891174,
+        "bertscore_f1": 0.5563842058181763
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q016",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados no exterior?",
+      "answer_full": "De acordo com a legislação tributária brasileira, a alíquota a ser utilizada pela pessoa jurídica para efetuar a retenção do Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados no exterior é de 25% sobre o montante do lucro ou dividendos.\n\nIsso está previsto no Artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, que dispõe sobre a retenção de imposto sobre a renda na fonte, e no Artigo 1º da Instrução Normativa RFB nº 1.708, de 31 de outubro de 2019, que estabelece as normas para a retenção de imposto sobre a renda na fonte.\n\nNo entanto, é importante notar que, de acordo com o Artigo 22, § 1º, da Lei nº 9.250/95, a alíquota de 25% pode ser reduzida para 15% se o beneficiário do lucro ou dividendos for residente no exterior e tiver um tratamento fiscal favorável no país de residência, conforme previsto em tratado ou acordo internacional.\n\nAlém disso, é necessário verificar se o beneficiário do lucro ou dividendos está sujeito à tributação no Brasil, pois, se estiver, a retenção do IRRF pode ser feita em conformidade com a legislação brasileira.\n\nPortanto, é fundamental consultar a legislação específica e os tratados ou acordos internacionais aplicáveis para determinar a alíquota correta a ser utilizada para a retenção do IRRF.",
+      "answer_core": "De acordo com a legislação tributária brasileira, a alíquota a ser utilizada pela pessoa jurídica para efetuar a retenção do Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados no exterior é de 25% sobre o montante do lucro ou dividendos.\n\nIsso está previsto no Artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, que dispõe sobre a retenção de imposto sobre a renda na fonte, e no Artigo 1º da Instrução Normativa RFB nº 1.708, de 31 de outubro de 2019, que estabelece as normas para a retenção de imposto sobre a renda na fonte.\n\nNo entanto, é importante notar que, de acordo com o Artigo 22, § 1º, da Lei nº 9.250/95, a alíquota de 25% pode ser reduzida para 15% se o beneficiário do lucro ou dividendos for residente no exterior e tiver um tratamento fiscal favorável no país de residência, conforme previsto em tratado ou acordo internacional.\n\nAlém disso, é necessário verificar se o beneficiário do lucro ou dividendos está sujeito à tributação no Brasil, pois, se estiver, a retenção do IRRF pode ser feita em conformidade com a legislação brasileira.\n\nPortanto, é fundamental consultar a legislação específica e os tratados ou acordos internacionais aplicáveis para determinar a alíquota correta a ser utilizada para a retenção do IRRF.",
+      "ground_truth": "A lei determina que o IRRF incidirá à alíquota de 10%.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 1082.2844505310059,
+        "num_chunks": 0,
+        "tokens_used": 585,
+        "bertscore_precision": 0.36982303857803345,
+        "bertscore_recall": 0.5904479026794434,
+        "bertscore_f1": 0.4547908902168274
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "aliquota",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q017",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados em países que não tribute a renda ou que a tribute a alíquota máxima inferior a 17%?",
+      "answer_full": "De acordo com a legislação tributária brasileira, a retenção do Imposto de Renda Retido na Fonte (IRRF) sobre lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados em países que não tribute a renda ou que a tribute a alíquota máxima inferior a 17% deve ser feita utilizando a alíquota de 25%.\n\nIsso está previsto no artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, que dispõe sobre a retenção da contribuição previdenciária e do imposto de renda na fonte, e no artigo 22 da Lei nº 9.532, de 10 de dezembro de 1997, que dispõe sobre a retenção da contribuição previdenciária e do imposto de renda na fonte sobre rendimentos e proventos do trabalho.\n\nNo entanto, é importante observar que a alíquota de 25% pode ser reduzida para 15% se o país de residência ou domicílio do sócio ou acionista tiver um tratado de dupla tributação com o Brasil que estabeleça uma alíquota máxima inferior a 25%.\n\nAlém disso, é fundamental verificar se o país de residência ou domicílio do sócio ou acionista tem um tratado de dupla tributação com o Brasil que estabeleça uma alíquota máxima inferior a 17%, pois nesse caso a alíquota de retenção seria de 15%.\n\nPortanto, é importante consultar a legislação tributária brasileira e os tratados de dupla tributação em vigor para determinar a alíquota correta de retenção do IRRF.",
+      "answer_core": "De acordo com a legislação tributária brasileira, a retenção do Imposto de Renda Retido na Fonte (IRRF) sobre lucros e dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados em países que não tribute a renda ou que a tribute a alíquota máxima inferior a 17% deve ser feita utilizando a alíquota de 25%.\n\nIsso está previsto no artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, que dispõe sobre a retenção da contribuição previdenciária e do imposto de renda na fonte, e no artigo 22 da Lei nº 9.532, de 10 de dezembro de 1997, que dispõe sobre a retenção da contribuição previdenciária e do imposto de renda na fonte sobre rendimentos e proventos do trabalho.\n\nNo entanto, é importante observar que a alíquota de 25% pode ser reduzida para 15% se o país de residência ou domicílio do sócio ou acionista tiver um tratado de dupla tributação com o Brasil que estabeleça uma alíquota máxima inferior a 25%.\n\nAlém disso, é fundamental verificar se o país de residência ou domicílio do sócio ou acionista tem um tratado de dupla tributação com o Brasil que estabeleça uma alíquota máxima inferior a 17%, pois nesse caso a alíquota de retenção seria de 15%.\n\nPortanto, é importante consultar a legislação tributária brasileira e os tratados de dupla tributação em vigor para determinar a alíquota correta de retenção do IRRF.",
+      "ground_truth": "Aplica-se a alíquota de 10% no caso de lucros ou dividendos pagos, creditados, entregues, empregados ou remetidos para sócios ou acionistas residentes ou domiciliados em países que não tribute a renda ou que a tribute a alíquota máxima inferior a 17%.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 951.9946575164795,
+        "num_chunks": 0,
+        "tokens_used": 608,
+        "bertscore_precision": 0.5282298922538757,
+        "bertscore_recall": 0.7606632113456726,
+        "bertscore_f1": 0.6234885454177856
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "rendimentos",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q018",
+      "question": "Qual o prazo para pagamento do IRRF devido pela pessoa jurídica sobre os lucros e dividendos distribuídos?",
+      "answer_full": "Peço desculpas, mas a pergunta parece ter um erro. O IRRF (Imposto sobre a Renda Retido na Fonte) é um imposto que incide sobre a renda bruta percebida por pessoa física, não pessoa jurídica.\n\nNo entanto, se você está se referindo ao imposto devido pela pessoa jurídica sobre os lucros e dividendos distribuídos, é o Imposto de Renda das Pessoas Jurídicas (IRPJ) que incide.\n\nO prazo para pagamento do IRPJ é o mesmo que o prazo para entrega da Declaração de Imposto de Renda das Pessoas Jurídicas (DIRPJ), que é o dia 30 de abril do ano subsequente ao período de apuração.\n\nNo entanto, se você está se referindo ao prazo para pagamento do imposto sobre os lucros e dividendos distribuídos, é o prazo de 30 dias após a data da distribuição dos lucros e dividendos, conforme estabelecido no artigo 34 da Lei nº 9.249, de 26 de dezembro de 1995.\n\nLembre-se de que a legislação tributária pode mudar ao longo do tempo, então é importante verificar a legislação atualizada para obter informações precisas.",
+      "answer_core": "Peço desculpas, mas a pergunta parece ter um erro. O IRRF (Imposto sobre a Renda Retido na Fonte) é um imposto que incide sobre a renda bruta percebida por pessoa física, não pessoa jurídica.\n\nNo entanto, se você está se referindo ao imposto devido pela pessoa jurídica sobre os lucros e dividendos distribuídos, é o Imposto de Renda das Pessoas Jurídicas (IRPJ) que incide.\n\nO prazo para pagamento do IRPJ é o mesmo que o prazo para entrega da Declaração de Imposto de Renda das Pessoas Jurídicas (DIRPJ), que é o dia 30 de abril do ano subsequente ao período de apuração.\n\nNo entanto, se você está se referindo ao prazo para pagamento do imposto sobre os lucros e dividendos distribuídos, é o prazo de 30 dias após a data da distribuição dos lucros e dividendos, conforme estabelecido no artigo 34 da Lei nº 9.249, de 26 de dezembro de 1995.\n\nLembre-se de que a legislação tributária pode mudar ao longo do tempo, então é importante verificar a legislação atualizada para obter informações precisas.",
+      "ground_truth": "O prazo para o recolhimento do IRRF na data do pagamento, crédito, entrega, emprego ou remessa. (Lei nº 11.196/ 2005, art. 70, inciso I, alínea a)",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 778.2456874847412,
+        "num_chunks": 0,
+        "tokens_used": 426,
+        "bertscore_precision": 0.47836071252822876,
+        "bertscore_recall": 0.6546881794929504,
+        "bertscore_f1": 0.5528042316436768
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q019",
+      "question": "A lei traz alguma hipótese de afastamento da tributação do IRRF sobre os lucros e dividendos pagos para não residentes no Brasil?",
+      "answer_full": "Sim, a lei brasileira traz hipóteses de afastamento da tributação do Imposto sobre a Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos para não residentes no Brasil.\n\nDe acordo com o Artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, o IRRF não incide sobre os lucros e dividendos pagos a não residentes no Brasil, desde que atendidas as seguintes condições:\n\n1. **Pagamento de imposto no país de residência**: O não residente deve ter pago o imposto correspondente no país de residência, de acordo com as leis e regulamentos aplicáveis (Artigo 22, parágrafo 1º, da Lei nº 9.250/95).\n2. **Declaração de não residência**: O não residente deve apresentar declaração de não residência no Brasil, conforme estabelecido pelo Ministério da Fazenda (Artigo 22, parágrafo 2º, da Lei nº 9.250/95).\n3. **Comprovação de pagamento de imposto**: O pagador do lucro ou dividendos deve comprovar o pagamento do imposto correspondente no país de residência do não residente (Artigo 22, parágrafo 3º, da Lei nº 9.250/95).\n\nAlém disso, a Lei nº 12.973, de 13 de maio de 2014, estabeleceu a possibilidade de isenção do IRRF sobre os lucros e dividendos pagos a não residentes no Brasil, desde que atendidas as seguintes condições:\n\n1. **Pagamento de imposto no país de residência**: O não residente deve ter pago o imposto correspondente no país de residência, de acordo com as leis e regulamentos aplicáveis (Artigo 1º da Lei nº 12.973/14).\n2. **Declaração de não residência**: O não residente deve apresentar declaração de não residência no Brasil, conforme estabelecido pelo Ministério da Fazenda (Artigo 2º da Lei nº 12.973/14).\n3. **Comprovação de pagamento de imposto**:",
+      "answer_core": "Sim, a lei brasileira traz hipóteses de afastamento da tributação do Imposto sobre a Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos para não residentes no Brasil.\n\nDe acordo com o Artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, o IRRF não incide sobre os lucros e dividendos pagos a não residentes no Brasil, desde que atendidas as seguintes condições:\n\n1. **Pagamento de imposto no país de residência**: O não residente deve ter pago o imposto correspondente no país de residência, de acordo com as leis e regulamentos aplicáveis (Artigo 22, parágrafo 1º, da Lei nº 9.250/95).\n2. **Declaração de não residência**: O não residente deve apresentar declaração de não residência no Brasil, conforme estabelecido pelo Ministério da Fazenda (Artigo 22, parágrafo 2º, da Lei nº 9.250/95).\n3. **Comprovação de pagamento de imposto**: O pagador do lucro ou dividendos deve comprovar o pagamento do imposto correspondente no país de residência do não residente (Artigo 22, parágrafo 3º, da Lei nº 9.250/95).\n\nAlém disso, a Lei nº 12.973, de 13 de maio de 2014, estabeleceu a possibilidade de isenção do IRRF sobre os lucros e dividendos pagos a não residentes no Brasil, desde que atendidas as seguintes condições:\n\n1. **Pagamento de imposto no país de residência**: O não residente deve ter pago o imposto correspondente no país de residência, de acordo com as leis e regulamentos aplicáveis (Artigo 1º da Lei nº 12.973/14).\n2. **Declaração de não residência**: O não residente deve apresentar declaração de não residência no Brasil, conforme estabelecido pelo Ministério da Fazenda (Artigo 2º da Lei nº 12.973/14).\n3. **Comprovação de pagamento de imposto**:",
+      "ground_truth": "A lei afasta a retenção do IRRF quando o lucro ou dividendo pago seja (i) relativo a resultados apurados até o ano-calendário de 2025; (ii) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e (iii) que sejam exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação. Ademais, requer-se também que o pagamento, o crédito, o emprego ou a entrega deve deste lucro ou dividendo ocorra até 2028. A lei também afasta a tributação no caso de lucros e dividendos distribuídos para: governos estrangeiros, desde que haja reciprocidade de tratamento em relação aos rendimentos auferidos em seus países pelo governo brasileiro; fundos soberanos, conforme definidos no § 5º do art. 3º da Lei nº 11.312, de 27 de junho de 2006; e entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários, tais como aposentadorias e pensões, conforme definidas em regulamento.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 977.4367809295654,
+        "num_chunks": 0,
+        "tokens_used": 660,
+        "bertscore_precision": 0.5705896019935608,
+        "bertscore_recall": 0.5687892436981201,
+        "bertscore_f1": 0.5696880221366882
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q020",
+      "question": "Para que não haja a tributação pelo IRRF sobre os lucros e dividendos apurados até o ano- calendário de 2025, quais são os requisitos que devem ser cumpridos?",
+      "answer_full": "Para evitar a tributação pelo Imposto sobre a Renda Retido na Fonte (IRRF) sobre os lucros e dividendos apurados até o ano-calendário de 2025, os seguintes requisitos devem ser cumpridos:\n\n1. **Requisito de Residência**: O titular do direito à renda ou o beneficiário dos lucros ou dividendos deve ser residente no Brasil no momento da distribuição dos lucros ou dividendos. (Art. 22, § 1º, da Lei nº 9.249, de 26 de dezembro de 1995)\n2. **Requisito de Domicílio**: O titular do direito à renda ou o beneficiário dos lucros ou dividendos deve ter domicílio no Brasil no momento da distribuição dos lucros ou dividendos. (Art. 22, § 2º, da Lei nº 9.249, de 26 de dezembro de 1995)\n3. **Requisito de Controle Social**: A empresa que distribui os lucros ou dividendos deve ser controlada por brasileiros ou por empresas brasileiras, ou ainda, por empresas estrangeiras que tenham sede no Brasil e sejam controladas por brasileiros ou por empresas brasileiras. (Art. 22, § 3º, da Lei nº 9.249, de 26 de dezembro de 1995)\n4. **Requisito de Distribuição**: A distribuição dos lucros ou dividendos deve ser feita em conformidade com as leis brasileiras e com as normas do Conselho Monetário Nacional (CMN). (Art. 22, § 4º, da Lei nº 9.249, de 26 de dezembro de 1995)\n\nAlém disso, é importante observar que a Lei nº 13.846, de 11 de julho de 2019, que alterou a Lei nº 9.249, de 26 de dezembro de 1995, estabeleceu que os lucros e dividendos distribuídos até o ano-calendário de 2025 não serão considerados como renda tributável para fins de Imposto de Renda Retido na Fonte, desde que atendidos os requisitos acima mencionados.\n\nLembre-se de que a legislação tribut",
+      "answer_core": "Para evitar a tributação pelo Imposto sobre a Renda Retido na Fonte (IRRF) sobre os lucros e dividendos apurados até o ano-calendário de 2025, os seguintes requisitos devem ser cumpridos:\n\n1. **Requisito de Residência**: O titular do direito à renda ou o beneficiário dos lucros ou dividendos deve ser residente no Brasil no momento da distribuição dos lucros ou dividendos. (Art. 22, § 1º, da Lei nº 9.249, de 26 de dezembro de 1995)\n2. **Requisito de Domicílio**: O titular do direito à renda ou o beneficiário dos lucros ou dividendos deve ter domicílio no Brasil no momento da distribuição dos lucros ou dividendos. (Art. 22, § 2º, da Lei nº 9.249, de 26 de dezembro de 1995)\n3. **Requisito de Controle Social**: A empresa que distribui os lucros ou dividendos deve ser controlada por brasileiros ou por empresas brasileiras, ou ainda, por empresas estrangeiras que tenham sede no Brasil e sejam controladas por brasileiros ou por empresas brasileiras. (Art. 22, § 3º, da Lei nº 9.249, de 26 de dezembro de 1995)\n4. **Requisito de Distribuição**: A distribuição dos lucros ou dividendos deve ser feita em conformidade com as leis brasileiras e com as normas do Conselho Monetário Nacional (CMN). (Art. 22, § 4º, da Lei nº 9.249, de 26 de dezembro de 1995)\n\nAlém disso, é importante observar que a Lei nº 13.846, de 11 de julho de 2019, que alterou a Lei nº 9.249, de 26 de dezembro de 1995, estabeleceu que os lucros e dividendos distribuídos até o ano-calendário de 2025 não serão considerados como renda tributável para fins de Imposto de Renda Retido na Fonte, desde que atendidos os requisitos acima mencionados.\n\nLembre-se de que a legislação tribut",
+      "ground_truth": "Nos termos da lei, para evitar a tributação desses lucros e dividendos pelo IRRF exige-se que a distribuição tenha sido aprovada até 31 de dezembro de 2025. Para isso, a aprovação deve ser efetuada pelo órgão competente da pessoa jurídica em observância às normas de direito privado e considerando também as disposições dos atos constitutivos da pessoa jurídica. No caso de sociedades anônimas, por exemplo, a aprovação deve se dar, em regra, pela assembleia-geral, que é o órgão competente de acordo com a Lei nº 6.404, de 1976, para deliberar o pagamento dos lucros e dividendos. Eventual proposta de distribuição elaborada pela administração da sociedade não supre a necessidade da deliberação pelo órgão competente até a data prevista na lei, ou seja, 31 de dezembro de 2025. Essa competência, contudo, pode ser atribuída aos órgãos da administração no caso de dividendo intermediários, se o estatuto da Companhia assim dispuser, conforme dispõe o artigo 204 da Lei nº 6.404 de 1976. Além disso, determina-se também como condição para não tributação que os lucros e dividendos sejam exigíveis nos termos da legislação civil ou empresarial e que o seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação. Ademais, o pagamento, o crédito, o emprego ou a entrega deve ocorrer nos anos-calendário até 2028. O valor dos lucros e dividendos cuja distribuição tenha sido aprovada  pelo órgão competente da sociedade devem ser registrados no passivo da entidade (circulante e não-circulante, em conformidade com o cronograma estipulado para pagamento) e a partir desse momento não poderão entrar no cômputo da base de cálculo dos juros sobre capital próprio de que trata o art. 9º da Lei nº 9.249, de 1995. Observação: Ver também perguntas 8 a 9.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 1009.1032981872559,
+        "num_chunks": 0,
+        "tokens_used": 670,
+        "bertscore_precision": 0.6505358815193176,
+        "bertscore_recall": 0.6357619166374207,
+        "bertscore_f1": 0.643064022064209
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q021",
+      "question": "No caso de pagamentos efetuados a governos estrangeiros, fundos soberanos e entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários a não tributação se aplica independentemente do ano-calendário em que o lucro foi apurado?",
+      "answer_full": "No Brasil, a não tributação de pagamentos efetuados a governos estrangeiros, fundos soberanos e entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários está prevista no artigo 39 da Lei nº 9.249, de 26 de dezembro de 1995.\n\nDe acordo com o artigo 39, a não tributação se aplica a pagamentos efetuados a:\n\n* Governos estrangeiros;\n* Fundos soberanos;\n* Entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários.\n\nNo entanto, é importante notar que a não tributação não depende do ano-calendário em que o lucro foi apurado, mas sim da natureza do pagamento. Se o pagamento for efetuado a uma das entidades mencionadas acima e tiver como principal atividade a administração de benefícios previdenciários, a não tributação se aplica independentemente do ano-calendário em que o lucro foi apurado.\n\nAlém disso, é importante lembrar que a não tributação também está condicionada à apresentação de documentos que comprovem a natureza do pagamento e a atividade principal da entidade beneficiária. Portanto, é fundamental que as empresas brasileiras que efetuam pagamentos a essas entidades mantenham registros precisos e apresentem os documentos necessários para comprovar a não tributação.\n\nEm resumo, a não tributação de pagamentos efetuados a governos estrangeiros, fundos soberanos e entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários se aplica independentemente do ano-calendário em que o lucro foi apurado, desde que o pagamento seja efetuado a uma das entidades mencionadas acima e seja comprovada a natureza do pagamento e a atividade principal da entidade beneficiária.",
+      "answer_core": "No Brasil, a não tributação de pagamentos efetuados a governos estrangeiros, fundos soberanos e entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários está prevista no artigo 39 da Lei nº 9.249, de 26 de dezembro de 1995.\n\nDe acordo com o artigo 39, a não tributação se aplica a pagamentos efetuados a:\n\n* Governos estrangeiros;\n* Fundos soberanos;\n* Entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários.\n\nNo entanto, é importante notar que a não tributação não depende do ano-calendário em que o lucro foi apurado, mas sim da natureza do pagamento. Se o pagamento for efetuado a uma das entidades mencionadas acima e tiver como principal atividade a administração de benefícios previdenciários, a não tributação se aplica independentemente do ano-calendário em que o lucro foi apurado.\n\nAlém disso, é importante lembrar que a não tributação também está condicionada à apresentação de documentos que comprovem a natureza do pagamento e a atividade principal da entidade beneficiária. Portanto, é fundamental que as empresas brasileiras que efetuam pagamentos a essas entidades mantenham registros precisos e apresentem os documentos necessários para comprovar a não tributação.\n\nEm resumo, a não tributação de pagamentos efetuados a governos estrangeiros, fundos soberanos e entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários se aplica independentemente do ano-calendário em que o lucro foi apurado, desde que o pagamento seja efetuado a uma das entidades mencionadas acima e seja comprovada a natureza do pagamento e a atividade principal da entidade beneficiária.",
+      "ground_truth": "Sim. No caso de distribuição de lucros e dividendos a estas entidades o afastamento da tributação do IRRF se aplica independentemente do ano-calendário que o lucro foi apurado pela pessoa jurídica no Brasil. Com isso, não importa, para esses casos, se o lucro foi apurado antes ou após 31 de dezembro de 2025.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 853.5089492797852,
+        "num_chunks": 0,
+        "tokens_used": 619,
+        "bertscore_precision": 0.4867599904537201,
+        "bertscore_recall": 0.5990331172943115,
+        "bertscore_f1": 0.5370919108390808
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "dependentes",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q022",
+      "question": "No caso de lucros ou dividendos distribuídos para não-residente a tributação do IRRF é afastada se o valor pago for inferior a R$ 50.000,00?",
+      "answer_full": "Não é exatamente assim que funciona a tributação do IRRF em relação a lucros ou dividendos distribuídos para não-residentes.\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995 (Lei do IRRF), a tributação do IRRF é aplicada sobre os rendimentos distribuídos a não-residentes, independentemente do valor.\n\nNo entanto, o artigo 22, parágrafo 1º, da Lei nº 9.250/95 estabelece que a tributação do IRRF é afastada se o valor distribuído for inferior a R$ 50.000,00, mas apenas se o beneficiário for pessoa física residente no exterior e o pagamento for efetuado diretamente ao beneficiário.\n\nSe o valor distribuído for superior a R$ 50.000,00, ou se o pagamento for efetuado por meio de instituição financeira, a tributação do IRRF será aplicada sobre o valor distribuído.\n\nPortanto, a resposta à pergunta é que a tributação do IRRF é afastada se o valor distribuído for inferior a R$ 50.000,00 e o pagamento for efetuado diretamente ao beneficiário, que é pessoa física residente no exterior.",
+      "answer_core": "Não é exatamente assim que funciona a tributação do IRRF em relação a lucros ou dividendos distribuídos para não-residentes.\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995 (Lei do IRRF), a tributação do IRRF é aplicada sobre os rendimentos distribuídos a não-residentes, independentemente do valor.\n\nNo entanto, o artigo 22, parágrafo 1º, da Lei nº 9.250/95 estabelece que a tributação do IRRF é afastada se o valor distribuído for inferior a R$ 50.000,00, mas apenas se o beneficiário for pessoa física residente no exterior e o pagamento for efetuado diretamente ao beneficiário.\n\nSe o valor distribuído for superior a R$ 50.000,00, ou se o pagamento for efetuado por meio de instituição financeira, a tributação do IRRF será aplicada sobre o valor distribuído.\n\nPortanto, a resposta à pergunta é que a tributação do IRRF é afastada se o valor distribuído for inferior a R$ 50.000,00 e o pagamento for efetuado diretamente ao beneficiário, que é pessoa física residente no exterior.",
+      "ground_truth": "No caso de pagamento para não-residente, a tributação pelo IRRF deve ser aplicada independentemente do valor dos lucros e dividendos pagos.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 750.4982948303223,
+        "num_chunks": 0,
+        "tokens_used": 455,
+        "bertscore_precision": 0.43261075019836426,
+        "bertscore_recall": 0.6609628796577454,
+        "bertscore_f1": 0.5229454040527344
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q023",
+      "question": "Qual o código de receita deve ser utilizado no DARF que será pago para recolher o IRRF sobre os lucros e dividendos pagos ao não-residente?",
+      "answer_full": "Para recolher o Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos a não-residentes, você deve utilizar o código de receita 2379.\n\nDe acordo com o artigo 236 do Decreto-Lei nº 1.598, de 26 de fevereiro de 1977, que regulamenta a Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional), o código de receita 2379 é utilizado para a recolha do IRRF sobre os lucros e dividendos pagos a não-residentes.\n\nAlém disso, o artigo 22 da Instrução Normativa RFB nº 1.710, de 24 de outubro de 2019, que dispõe sobre a utilização de códigos de receita e de natureza da receita, também confirma a utilização do código 2379 para essa finalidade.\n\nLembre-se de verificar as atualizações legais e regulamentares para garantir a precisão e a conformidade com as normas fiscais.",
+      "answer_core": "Para recolher o Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos a não-residentes, você deve utilizar o código de receita 2379.\n\nDe acordo com o artigo 236 do Decreto-Lei nº 1.598, de 26 de fevereiro de 1977, que regulamenta a Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional), o código de receita 2379 é utilizado para a recolha do IRRF sobre os lucros e dividendos pagos a não-residentes.\n\nAlém disso, o artigo 22 da Instrução Normativa RFB nº 1.710, de 24 de outubro de 2019, que dispõe sobre a utilização de códigos de receita e de natureza da receita, também confirma a utilização do código 2379 para essa finalidade.\n\nLembre-se de verificar as atualizações legais e regulamentares para garantir a precisão e a conformidade com as normas fiscais.",
+      "ground_truth": "A pessoa jurídica que distribuir lucros e dividendos sujeitos à tributação nos termos da Lei deverá utilizar o código de receita “1841 - IRRF - Lucros ou Dividendos” no Documento de Arrecadação de Receitas Federais - Darf para recolhimento do Imposto sobre a Renda Retido na Fonte incidente sobre lucros ou dividendos de que tratam o art. 10, § 4º, da Lei nº 9.249, de 26 de dezembro de 1995, e o art. 6º-A da Lei nº 9.250, de 26 de dezembro de 1995.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 673.0902194976807,
+        "num_chunks": 0,
+        "tokens_used": 401,
+        "bertscore_precision": 0.6177880764007568,
+        "bertscore_recall": 0.648786187171936,
+        "bertscore_f1": 0.6329078078269958
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q024",
+      "question": "A capitalização de lucros e dividendos é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995 com a redação dada pela Lei nº 15.270, de 2025?",
+      "answer_full": "A capitalização de lucros e dividendos é um tema complexo no âmbito do Imposto de Renda Pessoa Física (IRPF) brasileiro.\n\nDe acordo com a legislação atual, a capitalização de lucros e dividendos é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995, que foi alterado pela Lei nº 15.270, de 2023 (não de 2025, pois não há uma lei com esse número).\n\nO art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2023, estabelece que os lucros e dividendos capitalizados em ações ou quotas de sociedades são considerados renda isenta de imposto de renda, desde que sejam mantidos por pelo menos 5 anos.\n\nNo entanto, é importante notar que a capitalização de lucros e dividendos pode ser considerada como uma operação de natureza financeira, e não como uma operação de natureza patrimonial. Isso significa que, se a capitalização for realizada em um prazo inferior a 5 anos, pode ser considerada como uma operação de natureza financeira, e não como uma operação de natureza patrimonial, e, portanto, pode ser tributada pelo imposto de renda.\n\nAlém disso, é importante verificar se a capitalização de lucros e dividendos está em conformidade com as regras de tributação do IRPF, e se há alguma outra legislação específica que regule essa operação.\n\nEm resumo, a capitalização de lucros e dividendos é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2023, desde que sejam mantidos por pelo menos 5 anos. No entanto, é importante verificar as regras de tributação do IRPF e se há alguma outra legislação específica que regule essa operação.",
+      "answer_core": "A capitalização de lucros e dividendos é um tema complexo no âmbito do Imposto de Renda Pessoa Física (IRPF) brasileiro.\n\nDe acordo com a legislação atual, a capitalização de lucros e dividendos é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995, que foi alterado pela Lei nº 15.270, de 2023 (não de 2025, pois não há uma lei com esse número).\n\nO art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2023, estabelece que os lucros e dividendos capitalizados em ações ou quotas de sociedades são considerados renda isenta de imposto de renda, desde que sejam mantidos por pelo menos 5 anos.\n\nNo entanto, é importante notar que a capitalização de lucros e dividendos pode ser considerada como uma operação de natureza financeira, e não como uma operação de natureza patrimonial. Isso significa que, se a capitalização for realizada em um prazo inferior a 5 anos, pode ser considerada como uma operação de natureza financeira, e não como uma operação de natureza patrimonial, e, portanto, pode ser tributada pelo imposto de renda.\n\nAlém disso, é importante verificar se a capitalização de lucros e dividendos está em conformidade com as regras de tributação do IRPF, e se há alguma outra legislação específica que regule essa operação.\n\nEm resumo, a capitalização de lucros e dividendos é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2023, desde que sejam mantidos por pelo menos 5 anos. No entanto, é importante verificar as regras de tributação do IRPF e se há alguma outra legislação específica que regule essa operação.",
+      "ground_truth": "A partir de 2026, a capitalização de lucros configura “emprego” que é uma das hipóteses previstas para a ocorrência do fato gerador do imposto de renda com base no § 4º do art. 10 da lei. Com isso, a capitalização de lucros implica, como regra, a tributação dos lucros e dividendos nos termos da nova lei à alíquota de 10%.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 1079.308271408081,
+        "num_chunks": 0,
+        "tokens_used": 676,
+        "bertscore_precision": 0.4955984950065613,
+        "bertscore_recall": 0.5944486260414124,
+        "bertscore_f1": 0.5405414700508118
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "rendimentos",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q025",
+      "question": "A capitalização de lucros apurados até 31 de dezembro de 2025 deliberada e aprovada em 2025 é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995 com a redação dada pela Lei nº 15.270, de 2025?",
+      "answer_full": "A capitalização de lucros apurados até 31 de dezembro de 2025, deliberada e aprovada em 2025, é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025.\n\nO art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025, estabelece que a capitalização de lucros apurados até 31 de dezembro de 2025 será tributada com base no lucro real, conforme art. 13 da Lei nº 9.249, de 1995.\n\nNo entanto, é importante observar que a capitalização de lucros apurados até 31 de dezembro de 2025, deliberada e aprovada em 2025, está sujeita à regra do art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025, que estabelece a tributação com base no lucro real.\n\nPortanto, a resposta é sim, a capitalização de lucros apurados até 31 de dezembro de 2025, deliberada e aprovada em 2025, é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025.\n\nReferências:\n\n- Lei nº 9.249, de 1995\n- Lei nº 15.270, de 2025\n- Art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025\n- Art. 13 da Lei nº 9.249, de 1995",
+      "answer_core": "A capitalização de lucros apurados até 31 de dezembro de 2025, deliberada e aprovada em 2025, é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025.\n\nO art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025, estabelece que a capitalização de lucros apurados até 31 de dezembro de 2025 será tributada com base no lucro real, conforme art. 13 da Lei nº 9.249, de 1995.\n\nNo entanto, é importante observar que a capitalização de lucros apurados até 31 de dezembro de 2025, deliberada e aprovada em 2025, está sujeita à regra do art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025, que estabelece a tributação com base no lucro real.\n\nPortanto, a resposta é sim, a capitalização de lucros apurados até 31 de dezembro de 2025, deliberada e aprovada em 2025, é tributada pelo imposto de renda com base no art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025.\n\nReferências:\n\n- Lei nº 9.249, de 1995\n- Lei nº 15.270, de 2025\n- Art. 10, § 4º, da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025\n- Art. 13 da Lei nº 9.249, de 1995",
+      "ground_truth": "A lei assegurou a não tributação dos lucros e dividendos: i. relativos a resultados apurados até o ano-calendário de 2025; ii. cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e iii. que sejam exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação. Sendo assim, no caso específico dos lucros apurados até 31 de dezembro de 2025, que sejam destinados ao aumento do capital social da pessoa jurídica, quando a deliberação e aprovação do evento societário ocorra até 31 de dezembro deste mesmo ano, pode-se concluir que não estarão sujeitos ao imposto de renda com base no art. 10 da Lei nº 15.270, de 2025.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 834.2313766479492,
+        "num_chunks": 0,
+        "tokens_used": 681,
+        "bertscore_precision": 0.6165107488632202,
+        "bertscore_recall": 0.5638160705566406,
+        "bertscore_f1": 0.5889871716499329
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "rendimentos",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q026",
+      "question": "Após a incorporação dos lucros apurados até 31 de dezembro de 2025 (deliberada e aprovada em 2025), eventual devolução do capital social estará sujeita à tributação? Existe um prazo mínimo para que o recurso seja mantido em capital para afastar a tributação?",
+      "answer_full": "A incorporação de lucros apurados é um mecanismo previsto na Lei nº 9.249, de 26 de dezembro de 1995, que permite que as empresas distribuam lucros para os sócios sem que isso seja considerado como distribuição de dividendos.\n\nNo entanto, se os lucros incorporados forem posteriormente devolvidos ao capital social, isso pode ser considerado como uma distribuição de lucros, sujeita à tributação.\n\nDe acordo com o artigo 225 da Lei nº 9.249/1995, a devolução de capital social é considerada como uma distribuição de lucros se ocorrer dentro de um período de 5 anos a contar da data da incorporação.\n\nPortanto, se os lucros forem incorporados até 31 de dezembro de 2025 e devolvidos ao capital social após esse período, a tributação pode ser afastada. No entanto, se a devolução ocorrer dentro do período de 5 anos, a tributação pode ser aplicada.\n\nÉ importante notar que a tributação pode ser afastada se o recurso for mantido em capital por um período mínimo de 5 anos, a contar da data da incorporação. Isso é previsto no artigo 225 da Lei nº 9.249/1995.\n\nEm resumo, a devolução de capital social após a incorporação de lucros pode ser sujeita à tributação se ocorrer dentro de um período de 5 anos. Para afastar a tributação, o recurso deve ser mantido em capital por um período mínimo de 5 anos.",
+      "answer_core": "A incorporação de lucros apurados é um mecanismo previsto na Lei nº 9.249, de 26 de dezembro de 1995, que permite que as empresas distribuam lucros para os sócios sem que isso seja considerado como distribuição de dividendos.\n\nNo entanto, se os lucros incorporados forem posteriormente devolvidos ao capital social, isso pode ser considerado como uma distribuição de lucros, sujeita à tributação.\n\nDe acordo com o artigo 225 da Lei nº 9.249/1995, a devolução de capital social é considerada como uma distribuição de lucros se ocorrer dentro de um período de 5 anos a contar da data da incorporação.\n\nPortanto, se os lucros forem incorporados até 31 de dezembro de 2025 e devolvidos ao capital social após esse período, a tributação pode ser afastada. No entanto, se a devolução ocorrer dentro do período de 5 anos, a tributação pode ser aplicada.\n\nÉ importante notar que a tributação pode ser afastada se o recurso for mantido em capital por um período mínimo de 5 anos, a contar da data da incorporação. Isso é previsto no artigo 225 da Lei nº 9.249/1995.\n\nEm resumo, a devolução de capital social após a incorporação de lucros pode ser sujeita à tributação se ocorrer dentro de um período de 5 anos. Para afastar a tributação, o recurso deve ser mantido em capital por um período mínimo de 5 anos.",
+      "ground_truth": "A devolução de capital social está sujeita à tributação pela sistemática de ganho de capital caso o valor recebido pelo beneficiário supere o custo de aquisição da participação societária por ele detida. Nesse caso, a legislação não contempla prazo específico para que tais valores sejam mantidos na conta de capital social. Não obstante, para que seja mantida a não tributação desses lucros incorporados ao capital social, eventuais devoluções efetuadas em anos subsequentes devem ser efetuadas em consonância com os requisitos previstos nas normas de Direito Privado. Reduções de capital efetuadas simultaneamente ao evento de incorporação do lucro ao capital social e em desacordo com as normas de Direito Privado que regem a matéria poderão ensejar a cobrança do imposto de renda sobre os lucros e dividendos capitalizados que foi afastada por se tratar de um lucro relativo a resultados apurados até o ano-calendário de 2025 e cuja distribuição tenha sido aprovada até 31 de dezembro de 2025.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 932.6648712158203,
+        "num_chunks": 0,
+        "tokens_used": 548,
+        "bertscore_precision": 0.5837560892105103,
+        "bertscore_recall": 0.6034780740737915,
+        "bertscore_f1": 0.5934532880783081
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "prazo",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q027",
+      "question": "A capitalização de lucros apurados após 31 de dezembro de 2025 ou daqueles apurados nesse período, mas cuja deliberação seja efetuada posteriormente a esta data, é sujeita ao IRRF com base no art. 10, § 4º da Lei nº 9.249, de 1995 com a redação dada pela Lei nº 15.270, de 2025?",
+      "answer_full": "A capitalização de lucros apurados após 31 de dezembro de 2025 ou daqueles apurados nesse período, mas cuja deliberação seja efetuada posteriormente a esta data, está sujeita ao Imposto sobre a Renda Retido na Fonte (IRRF) com base no art. 10, § 4º da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025.\n\nO art. 10, § 4º da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025, estabelece que a capitalização de lucros apurados após 31 de dezembro de 2025 ou daqueles apurados nesse período, mas cuja deliberação seja efetuada posteriormente a esta data, é sujeita ao IRRF.\n\nEssa alteração foi introduzida pela Lei nº 15.270, de 2025, que modificou a redação do art. 10, § 4º da Lei nº 9.249, de 1995, com o objetivo de incluir a capitalização de lucros apurados após 31 de dezembro de 2025 no âmbito do IRRF.\n\nPortanto, a resposta é sim, a capitalização de lucros apurados após 31 de dezembro de 2025 ou daqueles apurados nesse período, mas cuja deliberação seja efetuada posteriormente a esta data, está sujeita ao IRRF com base no art. 10, § 4º da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025.",
+      "answer_core": "A capitalização de lucros apurados após 31 de dezembro de 2025 ou daqueles apurados nesse período, mas cuja deliberação seja efetuada posteriormente a esta data, está sujeita ao Imposto sobre a Renda Retido na Fonte (IRRF) com base no art. 10, § 4º da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025.\n\nO art. 10, § 4º da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025, estabelece que a capitalização de lucros apurados após 31 de dezembro de 2025 ou daqueles apurados nesse período, mas cuja deliberação seja efetuada posteriormente a esta data, é sujeita ao IRRF.\n\nEssa alteração foi introduzida pela Lei nº 15.270, de 2025, que modificou a redação do art. 10, § 4º da Lei nº 9.249, de 1995, com o objetivo de incluir a capitalização de lucros apurados após 31 de dezembro de 2025 no âmbito do IRRF.\n\nPortanto, a resposta é sim, a capitalização de lucros apurados após 31 de dezembro de 2025 ou daqueles apurados nesse período, mas cuja deliberação seja efetuada posteriormente a esta data, está sujeita ao IRRF com base no art. 10, § 4º da Lei nº 9.249, de 1995, com a redação dada pela Lei nº 15.270, de 2025.",
+      "ground_truth": "A capitalização de lucros configura “emprego” que é uma das hipóteses previstas para a ocorrência do fato gerador do imposto de renda com base no art. 10, § 4º da lei. Com isso, a capitalização de lucros implica, como regra, a tributação dos lucros e dividendos leia alíquota de 10%. Com isso, no que tange à incorporação de lucros ao capital social, pode-se dizer que: Os lucros apurados até 31 de dezembro de 2025 e destinados ao aumento do capital social da pessoa jurídica, desde que a deliberação e a aprovação do respectivo evento societário ocorram até essa mesma data, não estarão sujeitos à tributação pelo IRRF com base no art. 10 da Lei nº 9.249, de 1995; Os lucros e dividendos apurados até 2025 e que passem a ser incorporados ao capital social a partir de 2026 estarão sujeitos à tributação pelo IRRF com base no art. 10 da Lei nº 9.249, de 1995 no momento da capitalização; e Os lucros e dividendos apurados após 2025 e que passem a ser incorporados ao capital social estarão sujeitos à tributação pelo IRRF com base no art. 10 da Lei nº 9.249, de 1995, no momento da capitalização. Ressalte-se que, para qualquer uma das hipóteses acima, o disposto no art. 63 do Decreto-Lei nº 1.598, de 1977, não tem aplicação, de modo que a manutenção ou não dos lucros no capital social pelo prazo de cinco anos é irrelevante para se determinar se a capitalização enseja ou não a tributação pelo IRRF. Com isso, no caso, por exemplo, de lucros e dividendos apurados após 2025 e que passem a ser incorporados ao capital social estarão sujeitos à tributação pelo IRRF com base no art. 10 da Lei nº 9.249, de 1995, no momento da capitalização, ainda que a pessoa jurídica mantenha o lucro capitalizado por mais de cinco anos. Além disso, para qualquer uma das hipóteses acima, o valor dos lucros atribuídos ao não residente e que forem incorporados ao capital da empresa poderá ser acrescido ao seu custo de aquisição da participação societária.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 761.4026069641113,
+        "num_chunks": 0,
+        "tokens_used": 620,
+        "bertscore_precision": 0.7184783220291138,
+        "bertscore_recall": 0.6201173663139343,
+        "bertscore_f1": 0.6656840443611145
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "prazo",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q028",
+      "question": "Como devem ser constituídas as entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários para que os lucros e dividendos a elas distribuídos não sejam tributados pelo IRRF?",
+      "answer_full": "Para evitar a tributação pelo Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos distribuídos por entidades no exterior que administram benefícios previdenciários, é necessário que essas entidades sejam constituídas de forma a não serem consideradas como pessoas jurídicas residentes no Brasil.\n\nDe acordo com a Lei nº 9.249, de 26 de dezembro de 1995, que dispõe sobre a tributação de rendimentos e proventos do trabalho, os rendimentos pagos a residentes no exterior são isentos de imposto sobre a renda (art. 62, inciso I).\n\nNo entanto, para que essa isenção seja aplicada, a entidade no exterior deve ser constituída de forma a não ser considerada como pessoa jurídica residente no Brasil. Isso pode ser alcançado se a entidade for constituída em um país que não tenha um tratado de não dupla tributação com o Brasil, ou se a entidade for constituída em um país que tenha um tratado de não dupla tributação com o Brasil, mas que não considere a entidade como residente em seu território.\n\nAlém disso, a entidade no exterior deve ser constituída de forma a não ter a finalidade de realizar atividades econômicas no Brasil, e os lucros e dividendos distribuídos por essa entidade não devem ser considerados como rendimentos de trabalho ou serviços prestados no Brasil.\n\nÉ importante notar que a constituição de uma entidade no exterior que administra benefícios previdenciários pode ser complexa e requer a atenção de um profissional especializado em direito tributário e internacional. Além disso, é fundamental verificar as condições específicas do país onde a entidade será constituída e os tratados de não dupla tributação que o país tenha com o Brasil.\n\nEm resumo, para evitar a tributação pelo IRRF sobre os lucros e dividendos distribuídos por entidades no exterior que administram benefícios previdenciários, é necessário que essas entidades sejam constituídas de forma a não serem consideradas como pessoas jurídicas residentes no Brasil, e que atendam às condições específicas do país onde serão constituídas",
+      "answer_core": "Para evitar a tributação pelo Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos distribuídos por entidades no exterior que administram benefícios previdenciários, é necessário que essas entidades sejam constituídas de forma a não serem consideradas como pessoas jurídicas residentes no Brasil.\n\nDe acordo com a Lei nº 9.249, de 26 de dezembro de 1995, que dispõe sobre a tributação de rendimentos e proventos do trabalho, os rendimentos pagos a residentes no exterior são isentos de imposto sobre a renda (art. 62, inciso I).\n\nNo entanto, para que essa isenção seja aplicada, a entidade no exterior deve ser constituída de forma a não ser considerada como pessoa jurídica residente no Brasil. Isso pode ser alcançado se a entidade for constituída em um país que não tenha um tratado de não dupla tributação com o Brasil, ou se a entidade for constituída em um país que tenha um tratado de não dupla tributação com o Brasil, mas que não considere a entidade como residente em seu território.\n\nAlém disso, a entidade no exterior deve ser constituída de forma a não ter a finalidade de realizar atividades econômicas no Brasil, e os lucros e dividendos distribuídos por essa entidade não devem ser considerados como rendimentos de trabalho ou serviços prestados no Brasil.\n\nÉ importante notar que a constituição de uma entidade no exterior que administra benefícios previdenciários pode ser complexa e requer a atenção de um profissional especializado em direito tributário e internacional. Além disso, é fundamental verificar as condições específicas do país onde a entidade será constituída e os tratados de não dupla tributação que o país tenha com o Brasil.\n\nEm resumo, para evitar a tributação pelo IRRF sobre os lucros e dividendos distribuídos por entidades no exterior que administram benefícios previdenciários, é necessário que essas entidades sejam constituídas de forma a não serem consideradas como pessoas jurídicas residentes no Brasil, e que atendam às condições específicas do país onde serão constituídas",
+      "ground_truth": "O afastamento da tributação se aplica à entidade ou outros arranjos jurídicos, incluídos fundos e demais veículos de investimentos, formados por lei ou de outra forma, de acordo com a legislação aplicável do país estrangeiro.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 1037.5397205352783,
+        "num_chunks": 0,
+        "tokens_used": 678,
+        "bertscore_precision": 0.4374280273914337,
+        "bertscore_recall": 0.6057328581809998,
+        "bertscore_f1": 0.5080031752586365
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q029",
+      "question": "A entidade no exterior que tenha como principal atividade a administração de benefícios previdenciários, mas que também receba contribuições provenientes da poupança soberana de países estrangeiros poderá fruir da não tributação do IRRF sobre os lucros e dividendos pagos?",
+      "answer_full": "A pergunta é interessante, pois envolve a aplicação da legislação tributária brasileira em relação a entidades no exterior que administram benefícios previdenciários e recebem contribuições de países estrangeiros.\n\nDe acordo com a Lei nº 9.249, de 26 de dezembro de 1995, que instituiu o Imposto sobre a Renda das Pessoas Jurídicas (IRPJ) e o Imposto sobre a Renda das Pessoas Físicas (IRPF), incluindo o Imposto sobre a Renda das Pessoas Jurídicas Retido na Fonte (IRRF), os lucros e dividendos pagos por entidades no exterior a residentes no Brasil são tributados pelo IRRF.\n\nNo entanto, há uma exceção para entidades que atuam como administradoras de benefícios previdenciários e recebem contribuições de países estrangeiros. De acordo com o artigo 22, inciso I, alínea \"b\", da Lei nº 9.249/95, os lucros e dividendos pagos por entidades no exterior que atuam como administradoras de benefícios previdenciários e recebem contribuições de países estrangeiros são isentos do IRRF, desde que atendam aos seguintes requisitos:\n\n* A entidade no exterior seja residente em país que tenha um tratado de não dupla tributação com o Brasil;\n* A entidade no exterior seja administradora de benefícios previdenciários e receba contribuições de países estrangeiros;\n* A entidade no exterior não seja controlada, direta ou indiretamente, por residente no Brasil ou por pessoa que tenha residência ou sede em país que não tenha um tratado de não dupla tributação com o Brasil.\n\nPortanto, se a entidade no exterior atender a esses requisitos, ela poderá fruir da não tributação do IRRF sobre os lucros e dividendos pagos.\n\nLembre-se de que a legislação tributária brasileira é complexa e pode variar dependendo das circunstâncias específicas do caso. É importante consultar um profissional especializado em direito tributário para obter orientação personalizada.",
+      "answer_core": "A pergunta é interessante, pois envolve a aplicação da legislação tributária brasileira em relação a entidades no exterior que administram benefícios previdenciários e recebem contribuições de países estrangeiros.\n\nDe acordo com a Lei nº 9.249, de 26 de dezembro de 1995, que instituiu o Imposto sobre a Renda das Pessoas Jurídicas (IRPJ) e o Imposto sobre a Renda das Pessoas Físicas (IRPF), incluindo o Imposto sobre a Renda das Pessoas Jurídicas Retido na Fonte (IRRF), os lucros e dividendos pagos por entidades no exterior a residentes no Brasil são tributados pelo IRRF.\n\nNo entanto, há uma exceção para entidades que atuam como administradoras de benefícios previdenciários e recebem contribuições de países estrangeiros. De acordo com o artigo 22, inciso I, alínea \"b\", da Lei nº 9.249/95, os lucros e dividendos pagos por entidades no exterior que atuam como administradoras de benefícios previdenciários e recebem contribuições de países estrangeiros são isentos do IRRF, desde que atendam aos seguintes requisitos:\n\n* A entidade no exterior seja residente em país que tenha um tratado de não dupla tributação com o Brasil;\n* A entidade no exterior seja administradora de benefícios previdenciários e receba contribuições de países estrangeiros;\n* A entidade no exterior não seja controlada, direta ou indiretamente, por residente no Brasil ou por pessoa que tenha residência ou sede em país que não tenha um tratado de não dupla tributação com o Brasil.\n\nPortanto, se a entidade no exterior atender a esses requisitos, ela poderá fruir da não tributação do IRRF sobre os lucros e dividendos pagos.\n\nLembre-se de que a legislação tributária brasileira é complexa e pode variar dependendo das circunstâncias específicas do caso. É importante consultar um profissional especializado em direito tributário para obter orientação personalizada.",
+      "ground_truth": "O recebimento de contribuições provenientes da poupança soberana de países estrangeiros, pela entidade, e administração desses recursos em favor dos respectivos governos, não implica descumprimento do requisito da lei.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 1086.3711833953857,
+        "num_chunks": 0,
+        "tokens_used": 686,
+        "bertscore_precision": 0.4471416771411896,
+        "bertscore_recall": 0.5965349078178406,
+        "bertscore_f1": 0.511146068572998
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": false
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    }
+  ]
+}
