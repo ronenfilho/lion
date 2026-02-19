@@ -56,8 +56,8 @@ logs/*.jsonl
 *.log
 
 # Experiments results
-experiments/results/raw/*.json
-experiments/results/metrics/*.json
+# experiments/results/raw/*.json  # Commented out to allow version control of experiment results
+# experiments/results/metrics/*.json
 
 # Cache
 .cache/
@@ -80,3 +80,6 @@ models/
 # Temporary files
 *.tmp
 temp/
+data/embeddings/*.pkl
+# Pipeline completo testado
+test_full_pipeline.py

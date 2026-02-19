@@ -1,0 +1,284 @@
+{
+  "experiment_name": "model_comparison_groq_k3_bm25_few_shot",
+  "config": {
+    "use_rag": true,
+    "retrieval_method": "bm25",
+    "k": 3,
+    "llm": "groq:llama-3.1-8b-instant",
+    "use_few_shot": true
+  },
+  "timestamp": "2026-02-16T18:26:28.251077",
+  "total_questions": 3,
+  "successful_queries": 3,
+  "failed_queries": 0,
+  "aggregated_metrics": {
+    "latency_ms_mean": 620.0427214304606,
+    "latency_ms_std": 179.53713158350428,
+    "latency_ms_min": 490.4289245605469,
+    "latency_ms_max": 873.9278316497803,
+    "latency_ms_median": 495.7714080810547,
+    "num_chunks_mean": 3.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 3.0,
+    "num_chunks_max": 3.0,
+    "num_chunks_median": 3.0,
+    "tokens_used_mean": 1260.6666666666667,
+    "tokens_used_std": 201.43871414292624,
+    "tokens_used_min": 1057.0,
+    "tokens_used_max": 1535.0,
+    "tokens_used_median": 1190.0,
+    "bertscore_precision_mean": 0.580993135770162,
+    "bertscore_precision_std": 0.05238308796016304,
+    "bertscore_precision_min": 0.5102286338806152,
+    "bertscore_precision_max": 0.6353561878204346,
+    "bertscore_precision_median": 0.597394585609436,
+    "bertscore_recall_mean": 0.5987495581309,
+    "bertscore_recall_std": 0.040254214756830387,
+    "bertscore_recall_min": 0.5480667352676392,
+    "bertscore_recall_max": 0.6465418338775635,
+    "bertscore_recall_median": 0.6016401052474976,
+    "bertscore_f1_mean": 0.5882484912872314,
+    "bertscore_f1_std": 0.038071288104606645,
+    "bertscore_f1_min": 0.5521767139434814,
+    "bertscore_f1_max": 0.640900194644928,
+    "bertscore_f1_median": 0.5716685652732849,
+    "answer_relevancy_mean": 0.8737475693616902,
+    "answer_relevancy_std": 0.021059244351834074,
+    "answer_relevancy_min": 0.8516543116630365,
+    "answer_relevancy_max": 0.9020902564961016,
+    "answer_relevancy_median": 0.8674981399259326,
+    "faithfulness_mean": 0.9444444444444445,
+    "faithfulness_std": 0.0785674201318386,
+    "faithfulness_min": 0.8333333333333334,
+    "faithfulness_max": 1.0,
+    "faithfulness_median": 1.0,
+    "context_precision_mean": 0.9999999999,
+    "context_precision_std": 0.0,
+    "context_precision_min": 0.9999999999,
+    "context_precision_max": 0.9999999999,
+    "context_precision_median": 0.9999999999,
+    "context_recall_mean": 0.1111111111111111,
+    "context_recall_std": 0.15713484026367722,
+    "context_recall_min": 0.0,
+    "context_recall_max": 0.3333333333333333,
+    "context_recall_median": 0.0
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "A Lei nº 15.270, de 2025, tem como objetivos:\n\n- Instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n- Estabelecer a tributação mínima para as pessoas físicas que auferem altas rendas;\n- Dá outras providências.\n\nEsses objetivos são mencionados no texto da Lei, que é reproduzido no contexto fornecido.",
+      "answer_core": "A Lei nº 15.270, de 2025, tem como objetivos:\n\n- Instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n- Estabelecer a tributação mínima para as pessoas físicas que auferem altas rendas;\n- Dá outras providências.\n\nEsses objetivos são mencionados no texto da Lei, que é reproduzido no contexto fornecido.",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 6.119256015084644,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        },
+        {
+          "id": "6404eb1e638e5b35",
+          "content": "### Artigo 8º {#artigo-8}\n\nEsta Lei entra em vigor na data de sua publicação e produzirá\n\nefeitos a partir de 1º de janeiro de 2026\n\nBrasília, 26 de novembro de 2025; 204\nda Independência e\n137\nda República.\n\nLUIZ\nINÁCIO LULA DA SILVA\n\nFernando Haddad\n\nManoel Carlos de Almeida Neto\n\nSimone Nassar Tebet\n\nEste texto não substitui o publicado no DOU de 27.11.2025\n\n\n\n---\n\n*Documento processado automaticamente pelo LION RAG System*",
+          "score": 2.6878517249644727,
+          "metadata": {
+            "chunk_index": 35,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631198",
+            "processed_from": "markdown",
+            "section": "### Artigo 8º {#artigo-8}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 2.386274324764596,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 495.7714080810547,
+        "num_chunks": 3,
+        "tokens_used": 1190,
+        "bertscore_precision": 0.6353561878204346,
+        "bertscore_recall": 0.6465418338775635,
+        "bertscore_f1": 0.640900194644928,
+        "answer_relevancy": 0.9020902564961016,
+        "faithfulness": 1.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 0.3333333333333333
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "bm25",
+        "k": 3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "answer_full": "A Lei nº 15.270, de 26 de novembro de 2025, altera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de 26 de dezembro de 1995, com o objetivo de instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nOs principais elementos contidos na Lei nº 15.270, de 2025, são:\n\n- Redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n- Tributação mínima para as pessoas físicas que auferem altas rendas;\n- Alterações nos incisos da Lei nº 9.250, de 1995, e da Lei nº 9.249, de 1995, relacionados à isenção de imposto sobre a renda.\n\nAlém disso, a Lei nº 15.270, de 2025, também estabelece regras específicas para a isenção de imposto sobre a renda em relação a lucros e dividendos, como:\n\n- A isenção se aplica a lucros e dividendos relativos a resultados apurados até o ano-calendário de 2025;\n- A distribuição dos lucros e dividendos deve ter sido aprovada até 31 de dezembro de 2025 pelo órgão societário competente;\n- O pagamento, o crédito, o emprego ou a entrega dos lucros e dividendos deve ocorrer nos anos-calendário de 2026, 2027 e 2028, e observar os termos previstos no ato de aprovação realizado até 31 de dezembro de 2025.\n\nEssas são as principais alterações e regras estabelecidas pela Lei nº 15.270, de 2025.",
+      "answer_core": "A Lei nº 15.270, de 26 de novembro de 2025, altera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de 26 de dezembro de 1995, com o objetivo de instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.\n\nOs principais elementos contidos na Lei nº 15.270, de 2025, são:\n\n- Redução do imposto sobre a renda devido nas bases de cálculo mensal e anual;\n- Tributação mínima para as pessoas físicas que auferem altas rendas;\n- Alterações nos incisos da Lei nº 9.250, de 1995, e da Lei nº 9.249, de 1995, relacionados à isenção de imposto sobre a renda.\n\nAlém disso, a Lei nº 15.270, de 2025, também estabelece regras específicas para a isenção de imposto sobre a renda em relação a lucros e dividendos, como:\n\n- A isenção se aplica a lucros e dividendos relativos a resultados apurados até o ano-calendário de 2025;\n- A distribuição dos lucros e dividendos deve ter sido aprovada até 31 de dezembro de 2025 pelo órgão societário competente;\n- O pagamento, o crédito, o emprego ou a entrega dos lucros e dividendos deve ocorrer nos anos-calendário de 2026, 2027 e 2028, e observar os termos previstos no ato de aprovação realizado até 31 de dezembro de 2025.\n\nEssas são as principais alterações e regras estabelecidas pela Lei nº 15.270, de 2025.",
+      "ground_truth": "Os principais elementos da Lei nº 15.270, de 2025, são: ampliação da faixa de isenção do Imposto de Renda da Pessoa Física; tributação anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00; iii. inserção da tributação do IRRF sobre lucros e dividendos pagos a não residente no Brasil.",
+      "chunks": [
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 6.119256015084644,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        },
+        {
+          "id": "6404eb1e638e5b35",
+          "content": "### Artigo 8º {#artigo-8}\n\nEsta Lei entra em vigor na data de sua publicação e produzirá\n\nefeitos a partir de 1º de janeiro de 2026\n\nBrasília, 26 de novembro de 2025; 204\nda Independência e\n137\nda República.\n\nLUIZ\nINÁCIO LULA DA SILVA\n\nFernando Haddad\n\nManoel Carlos de Almeida Neto\n\nSimone Nassar Tebet\n\nEste texto não substitui o publicado no DOU de 27.11.2025\n\n\n\n---\n\n*Documento processado automaticamente pelo LION RAG System*",
+          "score": 2.6878517249644727,
+          "metadata": {
+            "chunk_index": 35,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631198",
+            "processed_from": "markdown",
+            "section": "### Artigo 8º {#artigo-8}"
+          }
+        },
+        {
+          "id": "4dfccce9dfd1d175",
+          "content": "- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta\nrelativa à atividade rural;\n\n- IX - os valores recebidos a título de indenização por acidente de\ntrabalho, por danos materiais, inclusive corporais, ou morais,\nressalvados os lucros cessantes;\n\n- X - os rendimentos isentos de que tratam os incisos XIV e XXI do\ncaput\nart. 6º da Lei nº 7.713, de 22 de dezembro de 1988\n\n- XI - os rendimentos de títulos e valores mobiliários isentos ou\nsujeitos à alíquota zero do Imposto sobre a Renda, exceto os\nrendimentos de ações e demais participações societárias;\n\n- XII - os lucros e dividendos:\n\n  - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025\npelo órgão societário competente para tal deliberação;\n\n  - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n\n2. observe os termos previstos no ato de aprovação realizado até 31\nde dezembro de 2025.",
+          "score": 2.386274324764596,
+          "metadata": {
+            "chunk_index": 16,
+            "chunk_method": "markdown_paragraph",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631159",
+            "processed_from": "markdown",
+            "section": "### Artigo 13 {#artigo-13}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 873.9278316497803,
+        "num_chunks": 3,
+        "tokens_used": 1535,
+        "bertscore_precision": 0.5102286338806152,
+        "bertscore_recall": 0.6016401052474976,
+        "bertscore_f1": 0.5521767139434814,
+        "answer_relevancy": 0.8516543116630365,
+        "faithfulness": 0.8333333333333334,
+        "context_precision": 0.9999999999,
+        "context_recall": 0.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "bm25",
+        "k": 3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "answer_full": "De acordo com o contexto fornecido, a Lei nº 15.270, de 2025, entra em vigor na data de sua publicação e produzirá efeitos a partir de 1º de janeiro de 2026 (Artigo 8º).\n\nPortanto, a resposta é: 1º de janeiro de 2026.",
+      "answer_core": "De acordo com o contexto fornecido, a Lei nº 15.270, de 2025, entra em vigor na data de sua publicação e produzirá efeitos a partir de 1º de janeiro de 2026 (Artigo 8º).\n\nPortanto, a resposta é: 1º de janeiro de 2026.",
+      "ground_truth": "A ampliação da faixa de isenção da pessoa física será aplicada a partir de janeiro de 2026. A retenção na fonte do IRRF sobre lucros e dividendos pagos acima de R$ 50 mil a pessoa física residente no Brasil e em qualquer valor a pessoa física ou jurídica no exterior deve ser aplicada a partir de janeiro de 2026. Já o regime anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00, deve ser aplicada a partir do exercício de 2027, ano-calendário de 2026.",
+      "chunks": [
+        {
+          "id": "6404eb1e638e5b35",
+          "content": "### Artigo 8º {#artigo-8}\n\nEsta Lei entra em vigor na data de sua publicação e produzirá\n\nefeitos a partir de 1º de janeiro de 2026\n\nBrasília, 26 de novembro de 2025; 204\nda Independência e\n137\nda República.\n\nLUIZ\nINÁCIO LULA DA SILVA\n\nFernando Haddad\n\nManoel Carlos de Almeida Neto\n\nSimone Nassar Tebet\n\nEste texto não substitui o publicado no DOU de 27.11.2025\n\n\n\n---\n\n*Documento processado automaticamente pelo LION RAG System*",
+          "score": 7.432919229818619,
+          "metadata": {
+            "chunk_index": 35,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631198",
+            "processed_from": "markdown",
+            "section": "### Artigo 8º {#artigo-8}"
+          }
+        },
+        {
+          "id": "e9a0fa0f64ce123f",
+          "content": "## 📖 Texto Completo\n\nPresidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nLEI\nNº 15.270, DE 26 DE NOVEMBRO DE 2025\n\nProdução de efeitos\nAltera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de\n26 de dezembro de 1995, para instituir a redução do imposto sobre a\nrenda devido nas bases de cálculo mensal e anual e a tributação mínima\npara as pessoas físicas que auferem altas rendas; e dá outras\nprovidências.\n\nO PRESIDENTE DA REPÚBLICA\nFaço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "score": 6.119256015084644,
+          "metadata": {
+            "chunk_index": 1,
+            "chunk_method": "markdown_section",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631125",
+            "processed_from": "markdown",
+            "section": "## 📖 Texto Completo"
+          }
+        },
+        {
+          "id": "e3927ec39680d147",
+          "content": "- I - a alíquota efetiva de tributação\ndos lucros da pessoa jurídica, apurada nos termos do\nart. 16-B da\nLei nº 9.250, de 26 de dezembro de 1995\n, acrescida de 10 (dez)\npontos percentuais; e\n\n- II - o percentual previsto nos\nincisos\nIII do § 1º do art. 16-B da Lei nº 9.250, de 26 de dezembro\nde 1995.\n\n\n**§ 2º O Poder Executivo regulamentará o**\n\nmodo pelo qual será formalizada a opção referida no\ncaput\ndeste artigo, bem como a maneira pela qual o residente ou o\ndomiciliado no exterior pleiteará, em até 360 (trezentos e sessenta)\ndias, contados de cada exercício, o crédito de que trata este\nartigo.”",
+          "score": 4.861709474128946,
+          "metadata": {
+            "chunk_index": 31,
+            "chunk_method": "markdown_final",
+            "collection": "irpf_2025",
+            "filename": "L15270_processed.md",
+            "indexed_at": "2026-02-15T21:56:25.631190",
+            "processed_from": "markdown",
+            "section": "### Artigo 10-A {#artigo-10-a}"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 490.4289245605469,
+        "num_chunks": 3,
+        "tokens_used": 1057,
+        "bertscore_precision": 0.597394585609436,
+        "bertscore_recall": 0.5480667352676392,
+        "bertscore_f1": 0.5716685652732849,
+        "answer_relevancy": 0.8674981399259326,
+        "faithfulness": 1.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 0.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "bm25",
+        "k": 3,
+        "llm": "groq:llama-3.1-8b-instant",
+        "use_few_shot": true
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    }
+  ]
+}
