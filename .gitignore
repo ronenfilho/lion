@@ -47,6 +47,9 @@ env/
 # Data files
 data/raw/*.pdf
 data/raw/*.html
+data/raw/**/*.pdf
+data/raw/**/*.doc
+data/raw/**/*.docx
 data/processed/*.json
 data/embeddings/chroma_db/
 
