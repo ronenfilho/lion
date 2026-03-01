@@ -902,7 +902,7 @@ def main():
     
     parser.add_argument(
         '--dataset',
-        default='experiments/datasets/manual_rfb_test.json',
+        default='data/datasets/test/manual_rfb_test.json',
         help='Caminho para dataset de teste'
     )
     
@@ -915,7 +915,7 @@ def main():
     
     parser.add_argument(
         '--results-dir',
-        default='experiments/results',
+        default='data/experiments/results/raw',
         help='Diretório para salvar resultados'
     )
     

@@ -1,6 +1,6 @@
 """
 Script de Ingestão de Documentos Processados - LION
-Lê arquivos .md da pasta data/processed/ e carrega no ChromaDB
+Lê arquivos de chunks JSON de data/processed/chunks/ e carrega no ChromaDB
 """
 
 import sys
@@ -48,36 +48,42 @@ def get_user_choice() -> bool:
             print("❌ Opção inválida. Digite 1 ou 2.")
 
 
-def find_processed_documents(processed_dir: Path) -> list[Path]:
+def find_chunk_files(chunks_dir: Path) -> list[Path]:
     """
-    Busca todos os arquivos .md na pasta processed
+    Busca todos os arquivos JSON de chunks
     
     Args:
-        processed_dir: Diretório com documentos processados
+        chunks_dir: Diretório com chunks processados
         
     Returns:
-        Lista de caminhos dos arquivos .md
+        Lista de caminhos dos arquivos JSON
     """
-    if not processed_dir.exists():
-        print(f"⚠️  Diretório não encontrado: {processed_dir}")
+    if not chunks_dir.exists():
+        print(f"⚠️  Diretório não encontrado: {chunks_dir}")
         return []
     
-    md_files = list(processed_dir.glob("*.md"))
-    return sorted(md_files)
+    json_files = []
+    # Busca em legislation e qa_reference
+    for subdir in chunks_dir.iterdir():
+        if subdir.is_dir():
+            json_files.extend(subdir.glob("*.json"))
+    
+    return sorted(json_files)
 
 
-def load_markdown_content(md_path: Path) -> str:
+def load_chunks_from_json(json_path: Path) -> list[dict]:
     """
-    Carrega conteúdo de um arquivo Markdown
+    Carrega chunks de um arquivo JSON
     
     Args:
-        md_path: Caminho do arquivo .md
+        json_path: Caminho do arquivo JSON
         
     Returns:
-        Conteúdo do arquivo
+        Lista de chunks
     """
-    with open(md_path, 'r', encoding='utf-8') as f:
-        return f.read()
+    import json
+    with open(json_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
 
 def main():
@@ -88,25 +94,28 @@ def main():
     print("="*70)
     
     # Configurações
-    PROCESSED_DIR = Path("data/processed")
+    CHUNKS_DIR = Path("data/processed/chunks")
     COLLECTION_NAME = os.getenv("CHROMA_COLLECTION_NAME", "irpf_2025")
-    PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", "./data/embeddings/chroma_db")
+    PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", "./data/vectorstore/chroma_db")
     
     # Perguntar ao usuário sobre zerar ou incrementar
     should_reset = get_user_choice()
     
-    # Buscar documentos processados
-    print(f"\n📁 Buscando documentos em: {PROCESSED_DIR}")
-    md_files = find_processed_documents(PROCESSED_DIR)
+    # Buscar chunks processados
+    print(f"\n📁 Buscando chunks em: {CHUNKS_DIR}")
+    chunk_files = find_chunk_files(CHUNKS_DIR)
     
-    if not md_files:
-        print("❌ Nenhum arquivo .md encontrado na pasta processed/")
-        print(f"   Procure em: {PROCESSED_DIR.absolute()}")
+    if not chunk_files:
+        print("❌ Nenhum arquivo de chunks encontrado")
+        print(f"   Procure em: {CHUNKS_DIR.absolute()}")
+        print(f"\n💡 Dica: Execute primeiro:")
+        print(f"   python scripts/2.1_convert_documents.py")
+        print(f"   python scripts/2.2_create_chunks.py")
         return
     
-    print(f"✅ Encontrados {len(md_files)} arquivo(s):")
-    for md_file in md_files:
-        print(f"   - {md_file.name}")
+    print(f"✅ Encontrados {len(chunk_files)} arquivo(s):")
+    for chunk_file in chunk_files:
+        print(f"   - {chunk_file.parent.name}/{chunk_file.name}")
     
     # Inicializar Vector Store
     print(f"\n🗄️  Inicializando ChromaDB...")
@@ -133,12 +142,6 @@ def main():
     
     # Inicializar componentes
     print("\n🔧 Inicializando componentes...")
-    chunker = StructuralChunker(
-        max_chunk_size=1000,
-        overlap=200,
-        min_chunk_size=100
-    )
-    print("   ✓ Structural Chunker configurado")
     
     embeddings_pipeline = EmbeddingsPipeline(
         batch_size=100,
@@ -146,47 +149,62 @@ def main():
     )
     print("   ✓ Pipeline de embeddings configurado")
     
-    # Processar cada documento
-    print(f"\n📊 Processando {len(md_files)} documento(s)...")
+    # Processar cada arquivo de chunks
+    print(f"\n📊 Processando {len(chunk_files)} arquivo(s) de chunks...")
     print("="*70)
     
     total_chunks = 0
     
-    for md_file in md_files:
-        print(f"\n📄 Processando: {md_file.name}")
+    for chunk_file in chunk_files:
+        print(f"\n📄 Processando: {chunk_file.parent.name}/{chunk_file.name}")
         
-        # 1. Carregar conteúdo
-        print("   [1/4] Carregando conteúdo...")
-        content = load_markdown_content(md_file)
-        print(f"         ✓ {len(content)} caracteres")
+        # 1. Carregar chunks do JSON
+        print("   [1/3] Carregando chunks...")
+        chunks_data = load_chunks_from_json(chunk_file)
+        print(f"         ✓ {len(chunks_data)} chunks carregados")
         
-        # 2. Chunking
-        print("   [2/4] Criando chunks...")
-        chunks = chunker.chunk_markdown(
-            content=content,
-            source=md_file.stem,
-            metadata={
-                "filename": md_file.name,
-                "processed_from": "markdown",
-                "collection": COLLECTION_NAME
-            }
-        )
-        print(f"         ✓ {len(chunks)} chunks criados")
+        # 2. Gerar embeddings
+        print("   [2/3] Gerando embeddings...")
+        # Extrair conteúdo dos chunks
+        chunk_contents = [chunk['content'] for chunk in chunks_data]
         
-        # 3. Gerar embeddings
-        print("   [3/4] Gerando embeddings...")
+        # Criar objetos Chunk temporários para o pipeline
+        from dataclasses import dataclass
+        @dataclass
+        class TempChunk:
+            chunk_id: str
+            content: str
+            metadata: dict
+        
+        temp_chunks = [
+            TempChunk(
+                chunk_id=chunk['chunk_id'],
+                content=chunk['content'],
+                metadata=chunk.get('metadata', {})
+            )
+            for chunk in chunks_data
+        ]
+        
         embeddings = embeddings_pipeline.generate_embeddings(
-            chunks=chunks,
+            chunks=temp_chunks,
             task_type="retrieval_document",
             show_progress=False
         )
         print(f"         ✓ {len(embeddings)} embeddings gerados ({embeddings[0].shape[0]}d)")
         
-        # 4. Armazenar no ChromaDB
-        print("   [4/4] Armazenando no ChromaDB...")
-        ids = [chunk.chunk_id for chunk in chunks]
-        documents = [chunk.content for chunk in chunks]
-        metadatas = [chunk.metadata for chunk in chunks]
+        # 3. Armazenar no ChromaDB
+        print("   [3/3] Armazenando no ChromaDB...")
+        ids = [chunk['chunk_id'] for chunk in chunks_data]
+        documents = [chunk['content'] for chunk in chunks_data]
+        metadatas = [
+            {
+                **chunk.get('metadata', {}),
+                'doc_id': chunk['doc_id'],
+                'section_title': chunk.get('section_title', ''),
+                'source_file': chunk_file.stem
+            }
+            for chunk in chunks_data
+        ]
         
         vector_store.add_documents(
             ids=ids,
@@ -194,9 +212,9 @@ def main():
             documents=documents,
             metadatas=metadatas
         )
-        print(f"         ✓ {len(chunks)} chunks armazenados")
+        print(f"         ✓ {len(chunks_data)} chunks armazenados")
         
-        total_chunks += len(chunks)
+        total_chunks += len(chunks_data)
     
     # Resumo final
     print("\n" + "="*70)

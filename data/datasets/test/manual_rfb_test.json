@@ -1,10 +1,10 @@
 {
   "dataset_name": "manual_rfb_qa_test",
   "version": "1.0",
-  "created_at": "2026-02-15",
+  "created_at": "2026-03-01",
   "total_questions": 30,
   "source_document": "Manual Padrão RFB - Tributação (v.19.12.2025)",
-  "source_file": "data/raw/Manual_Padrao_RFB_PeR_Tributacao_Cotin_V.19.12.2025.pdf",
+  "source_file": "data/raw/qa_reference/Manual_Padrao_RFB_PeR_Tributacao_Cotin_V.19.12.2025.pdf",
   "description": "Dataset de teste para experimentos RAG baseado no Manual Padrão RFB de Tributação",
   "questions": [
     {

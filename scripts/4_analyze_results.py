@@ -20,24 +20,20 @@ class ResultsAnalyzer:
     Analisa resultados de experimentos RAG com estatísticas e comparações
     """
     
-    def __init__(self, results_dir: str = "experiments/results"):
+    def __init__(self, results_dir: str = "data/experiments/results/raw"):
         """
         Inicializa analisador de resultados.
         
         Args:
-            results_dir: Diretório base com resultados
+            results_dir: Diretório base com resultados brutos
         """
-        self.results_dir = Path(results_dir)
-        self.raw_dir = self.results_dir / "raw"
-        self.analysis_dir = self.results_dir / "analysis"
+        self.raw_dir = Path(results_dir)
+        self.analysis_dir = self.raw_dir.parent / "analysis"
         self.experiments = {}
         self.summary = None
         
-        if not self.results_dir.exists():
-            raise ValueError(f"Diretório não encontrado: {results_dir}")
-        
         if not self.raw_dir.exists():
-            raise ValueError(f"Diretório raw/ não encontrado: {self.raw_dir}")
+            raise ValueError(f"Diretório não encontrado: {results_dir}")
         
         # Criar diretório de análises se não existir
         self.analysis_dir.mkdir(parents=True, exist_ok=True)
@@ -866,7 +862,7 @@ def main():
     
     parser.add_argument(
         '--results-dir',
-        default='experiments/results',
+        default='data/experiments/results/raw',
         help='Diretório com resultados'
     )
     
