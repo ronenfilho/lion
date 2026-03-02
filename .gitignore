@@ -45,15 +45,15 @@ env/
 .ipynb_checkpoints
 
 # Data files — arquivos brutos (binários e HTML originais não versionados)
-#data/raw/*.pdf
+data/raw/*.pdf
 data/raw/*.html
-#data/raw/**/*.pdf
+data/raw/**/*.pdf
 #data/raw/**/*.html
-#data/raw/**/*.doc
-#data/raw/**/*.docx
+data/raw/**/*.doc
+data/raw/**/*.docx
 data/processed/*.json
 data/processed/metadata/
-#data/embeddings/chroma_db/
+data/embeddings/chroma_db/
 
 # Backups temporários
 *.bak
