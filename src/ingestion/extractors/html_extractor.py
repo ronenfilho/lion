@@ -784,10 +784,10 @@ class HTMLExtractor(BaseExtractor):
                     # Se é Subseção, sem indentação
                     if is_subsecao:
                         lines += ["", f"* **{title}**", ""]
-                    # Se é Artigo dentro de Subseção, COM indentação
-                    elif is_article and in_subsecao:
+                    # Se é Artigo, SEMPRE com indentação de 2 espaços
+                    elif is_article:
                         lines += ["", f"  * {title}", ""]
-                    # Artigo fora de Subseção, sem indentação
+                    # Outros níveis 7, sem indentação
                     else:
                         lines += ["", f"* **{title}**", ""]
                 elif md_level == 8:
@@ -819,8 +819,8 @@ class HTMLExtractor(BaseExtractor):
                         # Nível 8 para § (um abaixo de artigo nível 7)
                         par_level = md_level + 1 if md_level > 0 else 7
                         
-                        # Adicionar indentação extra se estiver em artigo indentado
-                        extra_indent = "  " if (is_article and in_subsecao) else ""
+                        # Sempre adicionar indentação extra se estiver em artigo (nível 7)
+                        extra_indent = "  " if is_article else ""
                         
                         if par_level <= 6:
                             if par_text:
@@ -853,8 +853,8 @@ class HTMLExtractor(BaseExtractor):
                         # Nível 9 para incisos (dentro de §)
                         inciso_level = md_level + 2 if md_level > 0 else 8
                         
-                        # Adicionar indentação extra se estiver em artigo indentado
-                        extra_indent = "  " if (is_article and in_subsecao) else ""
+                        # Sempre adicionar indentação extra se estiver em artigo
+                        extra_indent = "  " if is_article else ""
                         
                         if inciso_level <= 6:
                             lines += ["", f"{'#' * inciso_level} {inciso_num} - {inciso_text}", ""]
@@ -877,8 +877,8 @@ class HTMLExtractor(BaseExtractor):
                         # Nível 10 para alíneas (dentro de inciso)
                         alinea_level = md_level + 3 if md_level > 0 else 9
                         
-                        # Adicionar indentação extra se estiver em artigo indentado
-                        extra_indent = "  " if (is_article and in_subsecao) else ""
+                        # Sempre adicionar indentação extra se estiver em artigo
+                        extra_indent = "  " if is_article else ""
                         
                         if alinea_level <= 6:
                             lines += ["", f"{'#' * alinea_level} {alinea_letra}) {alinea_text}", ""]
