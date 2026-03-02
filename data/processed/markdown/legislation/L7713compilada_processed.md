@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L7713compilada.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 18:22
+- **Processado em**: 02/03/2026 18:35
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -39,6 +39,7 @@
 ### Art. 18
 ### Art. 19
 ### Art. 20
+##### Parágrafo único. (Vetado).
 ### Art. 21
 ### Art. 22
 ### Art. 23
@@ -53,6 +54,7 @@
 ### Art. 34
 ### Art. 35
 ### Art. 36
+##### Parágrafo único. Incide, entretanto, o imposto de renda na fonte;
 ### Art. 37
 ### Art. 38
 ### Art. 39
@@ -75,6 +77,9 @@
 ### Art. 56
 ### Art. 57
 ### Art. 58
+##### Brasília, 22 de dezembro de 1988; 167º da Independência e 100º da República.
+##### JOSÉ SARNEY Mailson Ferreira da Nóbrega
+##### Este texto não substitui o publicado no DOU de 23.12.1998
 
 </details>
 
@@ -505,7 +510,9 @@ Parágrafo único. Nas operações em que o valor não se expressar em dinheiro,
 ### Art. 20.
 
 A autoridade lançadora, mediante processo regular, arbitrará o valor ou preço, sempre que não mereça fé, por notoriamente diferente do de mercado, o valor ou preço informado pelo contribuinte, ressalvada, em caso de contestação, avaliação contraditória, administrativa ou judicial.
-Parágrafo único. (Vetado).
+
+
+##### Parágrafo único. (Vetado).
 
 
 ### Art. 21.
@@ -725,12 +732,15 @@ O sócio quotista, o acionista ou titular da empresa individual ficará sujeito 
 ### Art. 36.
 
 Os lucros que forem tributados na forma do artigo anterior, quando distribuídos, não estarão sujeitos à incidência do imposto de renda na fonte.
-Parágrafo único. Incide, entretanto, o imposto de renda na fonte;
-
-###### a) em relação aos lucros que não tenham sido tributados na forma do artigo anterior;
 
 
-###### b) no caso de pagamento, crédito, entrega, emprego ou remessa de lucros, quando o beneficiário for residente ou domiciliado no exterior.
+##### Parágrafo único. Incide, entretanto, o imposto de renda na fonte;
+
+
+  - a) em relação aos lucros que não tenham sido tributados na forma do artigo anterior;
+
+
+  - b) no caso de pagamento, crédito, entrega, emprego ou remessa de lucros, quando o beneficiário for residente ou domiciliado no exterior.
 
 
 
@@ -959,9 +969,15 @@ Esta Lei entra em vigor em 1º de janeiro de 1989.
 ### Art. 58.
 
 Revogam-se o art. 50 da Lei nº 4.862, de 29 de novembro de 1965 , os arts. 1º a 9º do Decreto-Lei nº 1.510, de 27 de dezembro de 1976 , os arts. 65 e 66 do Decreto-Lei nº 1.598, de 26 de dezembro de 1977 , os arts. 1º a 4º do Decreto-Lei nº 1.641, de 7 de dezembro de 1978 , os arts. 12 e 13 do Decreto-Lei nº 1.950, de 14 de julho de 1982 , os arts. 15 e 100 da Lei nº 7.450, de 23 de dezembro de 1985 , o art. 18 do Decreto-Lei nº 2.287, de 23 de julho de 1986 , o item IV e o parágrafo único do art. 12 do Decreto-Lei nº 2.292, de 21 de novembro de 1986 , o item III do art. 2º do Decreto-Lei nº 2.301, de 21 de novembro de 1986 , o item III do art. 7º do Decreto-Lei nº 2.394, de 21 de dezembro de 1987 , e demais disposições em contrário.
-Brasília, 22 de dezembro de 1988; 167º da Independência e 100º da República.
-JOSÉ SARNEY Mailson Ferreira da Nóbrega
-Este texto não substitui o publicado no DOU de 23.12.1998
+
+
+##### Brasília, 22 de dezembro de 1988; 167º da Independência e 100º da República.
+
+
+##### JOSÉ SARNEY Mailson Ferreira da Nóbrega
+
+
+##### Este texto não substitui o publicado no DOU de 23.12.1998
 
 | Ano de Aquisição ou Incorporação | Percentual de Redução | Ano de Aquisição ou Incorporação | Percentual de Redução |
 | --- | --- | --- | --- |

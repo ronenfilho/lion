@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L9250compilado.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 18:22
+- **Processado em**: 02/03/2026 18:35
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -17,6 +17,7 @@
 <summary>📋 Esquema da Legislação</summary>
 
 # LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995.
+##### O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 ### CAPÍTULO I - DISPOSIÇÕES PRELIMINARES
 ### Art. 1º
 ### Art. 2º
@@ -66,6 +67,7 @@
 ### Art. 31
 ### Art. 32
 ### Art. 33
+##### Parágrafo único. (VETADO)
 ### Art. 34
 ### Art. 35
 ### CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS
@@ -76,6 +78,9 @@
 ### Art. 40
 ### Art. 41
 ### Art. 42
+##### Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.
+##### FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente
+##### Este texto não substitui o publicado no D.O.U. de 27.12.1995
 
 </details>
 
@@ -84,7 +89,9 @@
 ## 📖 Texto Normativo
 
 LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995.
-O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+
+
+##### O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 
 
 ##### CAPÍTULO I - DISPOSIÇÕES PRELIMINARES
@@ -1041,7 +1048,9 @@ O inciso VII do art. 6º da Lei 7.713, de 22 de dezembro de 1988 , passa a vigor
   * Art. 33.
 
 Sujeitam-se à incidência do imposto de renda na fonte e na declaração de ajuste anual os benefícios recebidos de entidade de previdência privada, bem como as importâncias correspondentes ao resgate de contribuições.
-Parágrafo único. (VETADO)
+
+
+* Parágrafo único. (VETADO)
 
 
   * Art. 34.
@@ -1192,9 +1201,15 @@ Esta Lei entra em vigor na data de sua publicação.
   * Art. 42.
 
 Revogam-se as disposições em contrário e, especialmente, o Decreto-Lei nº 1.380, de 23 de dezembro de 1974 , o art. 27 da Lei nº 7.713, de 22 de dezembro de 1988 , o art. 26 da Lei nº 8.218, de 29 de agosto de 1991 , e os arts. 8º a 20 e 23 da Lei nº 8.981, de 20 de janeiro de 1995 .
-Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.
-FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente
-Este texto não substitui o publicado no D.O.U. de 27.12.1995
+
+
+* Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.
+
+
+* FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente
+
+
+* Este texto não substitui o publicado no D.O.U. de 27.12.1995
 
 | BASE DE CÁLCULO EM R$ | ALÍQUOTA% | PARCELA A DEDUZIR DO IMPOSTO EM R$ |
 | --- | --- | --- |

@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L15270.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 18:22
+- **Processado em**: 02/03/2026 18:35
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -17,6 +17,7 @@
 <summary>📋 Esquema da Legislação</summary>
 
 # LEI Nº 15.270, DE 26 DE NOVEMBRO DE 2025
+##### O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 ### Art. 1º
 ### Art. 2º
 ### “CAPÍTULO II-A
@@ -31,6 +32,12 @@
 ### Art. 6º
 ### Art. 7º
 ### Art. 8º
+##### Brasília, 26 de novembro de 2025; 204 o da Independência e 137 o da República.
+##### LUIZ INÁCIO LULA DA SILVA
+##### Fernando Haddad
+##### Manoel Carlos de Almeida Neto
+##### Simone Nassar Tebet
+##### Este texto não substitui o publicado no DOU de 27.11.2025
 
 </details>
 
@@ -39,7 +46,9 @@
 ## 📖 Texto Normativo
 
 LEI Nº 15.270, DE 26 DE NOVEMBRO DE 2025
-O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+
+
+##### O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 
 
 ### Art. 1º
@@ -462,15 +471,24 @@ Revoga-se o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995 .
 ### Art. 8º
 
 Esta Lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1º de janeiro de 2026 .
-Brasília, 26 de novembro de 2025; 204 o da Independência e 137 o da República.
 
 
-**LUIZ INÁCIO LULA DA SILVA**
+##### Brasília, 26 de novembro de 2025; 204 o da Independência e 137 o da República.
 
-Fernando Haddad
-Manoel Carlos de Almeida Neto
-Simone Nassar Tebet
-Este texto não substitui o publicado no DOU de 27.11.2025
+
+##### LUIZ INÁCIO LULA DA SILVA
+
+
+##### Fernando Haddad
+
+
+##### Manoel Carlos de Almeida Neto
+
+
+##### Simone Nassar Tebet
+
+
+##### Este texto não substitui o publicado no DOU de 27.11.2025
 
 | RENDIMENTOS TRIBUTÁVEIS SUJEITOS AO AJUSTE MENSAL | REDUÇÃO DO IMPOSTO DE RENDA |
 | --- | --- |

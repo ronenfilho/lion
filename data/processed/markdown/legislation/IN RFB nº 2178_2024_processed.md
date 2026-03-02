@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 2178_2024.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 18:22
+- **Processado em**: 02/03/2026 18:35
 - **viewport**: width=device-width, initial-scale=1
 - **encoding_detected**: utf-8
 

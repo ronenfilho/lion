@@ -249,15 +249,27 @@ class HTMLExtractor(BaseExtractor):
                     mapping = (6, "###### ", "article")
                 elif re.match(r"^\s*§\s*(?:único|Único|\d+[º°]?)", text, re.I):
                     mapping = (0, "", "body")  # parágrafo → formato negrito via _format_legal_line
+                elif re.match(r"^\s*[IVX]+\s*[-–]", text):
+                    mapping = (0, "", "body")  # inciso
+                elif re.match(r"^\s*[a-z]\)", text):
+                    mapping = (0, "", "body")  # alínea
+                elif re.match(r"^\s*LIVRO\s+", text, re.I):
+                    mapping = (1, "# ", "heading")
+                elif re.match(r"^\s*T[ÍI]TULO\s+", text, re.I):
+                    mapping = (2, "## ", "heading")
                 elif re.match(r"^\s*CAP[IÍ]TULO\s+", text, re.I):
                     mapping = (3, "### ", "heading")
                 elif re.match(r"^\s*SE[ÇC][ÃA]O\s+", text, re.I):
                     mapping = (4, "#### ", "heading")
                 elif re.match(r"^\s*SUBSE[ÇC][ÃA]O\s+", text, re.I):
                     mapping = (5, "##### ", "heading")
-                # Textos curtos em maiúsculas (possivelmente títulos descritivos) → heading temporário
-                elif len(text) < 150 and text.isupper() and not re.match(r"^\s*[IVX]+\s*[-–]", text):
-                    mapping = (0, "", "heading")  # heading temporário para combinação
+                # Textos curtos que começam com maiúscula (possíveis títulos descritivos/subtítulos)
+                # Não devem ter marcadores típicos de conteúdo de artigo OU estruturas principais
+                # Também não devem ser números romanos seguidos de hífen (incisos)
+                elif len(text) < 100 and text and text[0].isupper() and \
+                     not any(pattern in text.lower() for pattern in ['§', 'art.', 'lei nº', 'decreto', 'inciso', 'alínea']) and \
+                     not re.match(r"^\s*(LIVRO|TÍTULO|CAPÍTULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|[IVXLCDM]+\s*[-–])\s+", text, re.I):
+                    mapping = (5, "##### ", "heading")  # Nível 5 = TpicodeSeo (subtítulo)
                 elif mapping is None:
                     mapping = (0, "", "body")
 
@@ -368,10 +380,12 @@ class HTMLExtractor(BaseExtractor):
                      not re.match(r"^ART\.", next_title_upper):
                     should_combine = True
                 
-                # Título já combinado + mais texto descritivo (não começando com maiúsculas estruturais)
+                # Título já combinado + mais texto descritivo (só combinar se começar com DA/DO/DAS/DOS)
+                # Não combinar textos curtos que devem ser subtítulos separados
                 elif not next_sec.content.strip() and \
                      (" - " in current.title or "\n" in current.title) and \
-                     not re.match(r"^(LIVRO|TÍTULO|CAPÍTULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|ART\.)", next_title_upper, re.I):
+                     not re.match(r"^(LIVRO|TÍTULO|CAPÍTULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|ART\.)", next_title_upper, re.I) and \
+                     re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
                     should_combine = True
                 
                 if should_combine:
@@ -385,7 +399,7 @@ class HTMLExtractor(BaseExtractor):
                     current = HTMLSection(
                         title=combined_title,
                         content=next_sec.content,  # Pegar conteúdo da segunda (pode estar vazio ou não)
-                        level=max(current.level, next_sec.level),  # Usar o maior nível para preservar hierarquia
+                        level=current.level,  # Preservar nível da estrutura principal (não usar max)
                         tag_name=current.tag_name,
                         metadata=current.metadata,
                     )
