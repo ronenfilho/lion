@@ -615,8 +615,18 @@ class HTMLExtractor(BaseExtractor):
         out += ["<details>", "<summary>📋 Esquema da Legislação</summary>", ""]
 
         for lvl, title in headings:
-            hashes = "#" * max(1, min(lvl, 10))  # Suporta até nível 10
-            out.append(f"{hashes} {title}")
+            if lvl <= 6:
+                hashes = "#" * lvl
+                out.append(f"{hashes} {title}")
+            elif lvl == 7:
+                out.append(f"* {title}")
+            elif lvl == 8:
+                out.append(f"  - {title}")
+            elif lvl == 9:
+                out.append(f"    - {title}")
+            else:  # lvl >= 10
+                indent = "  " * (lvl - 8)
+                out.append(f"{indent}- {title}")
 
         out += ["", "</details>", "", "---", ""]
         return out
@@ -753,11 +763,25 @@ class HTMLExtractor(BaseExtractor):
             # ── Renderizar título da seção ──────────────────────────────────
             if title and md_level > 0:
                 art_m = re.match(r"Art\.?\s*(\d+[º°]?(?:-[A-Z])?)", title, re.I)
-                if art_m:
-                    art_id = re.sub(r"[º°]", "", art_m.group(1)).lower()
-                    lines += ["", f"{'#' * md_level} {title} {{#art-{art_id}}}", ""]
-                else:
-                    lines += ["", f"{'#' * md_level} {title}", ""]
+                if md_level <= 6:
+                    if art_m:
+                        art_id = re.sub(r"[º°]", "", art_m.group(1)).lower()
+                        lines += ["", f"{'#' * md_level} {title} {{#art-{art_id}}}", ""]
+                    else:
+                        lines += ["", f"{'#' * md_level} {title}", ""]
+                elif md_level == 7:
+                    if art_m:
+                        art_id = re.sub(r"[º°]", "", art_m.group(1)).lower()
+                        lines += ["", f"* **{title}** {{#art-{art_id}}}", ""]
+                    else:
+                        lines += ["", f"* **{title}**", ""]
+                elif md_level == 8:
+                    lines += ["", f"  - **{title}**", ""]
+                elif md_level == 9:
+                    lines += ["", f"    - **{title}**", ""]
+                else:  # md_level >= 10
+                    indent = "  " * (md_level - 8)
+                    lines += ["", f"{indent}- **{title}**", ""]
             elif title and md_level == 0:
                 lines += ["", f"**{title}**", ""]
 
@@ -772,17 +796,34 @@ class HTMLExtractor(BaseExtractor):
                         lines.append("")
                         continue
 
-                    # Parágrafo: ####### ou ########
+                    # Parágrafo: * ou -
                     par_m = re.match(r"^(\*\*)?\s*(§\s*(?:único|Único|\d+[º°]?)\.?)\s*(.*?)(\*\*)?$", line_stripped)
                     if par_m:
                         par_marker = par_m.group(2)
                         par_text = par_m.group(3).strip()
                         # Nível 8 para § (um abaixo de artigo nível 7)
                         par_level = md_level + 1 if md_level > 0 else 7
-                        if par_text:
-                            lines += ["", f"{'#' * par_level} {par_marker} {par_text}", ""]
-                        else:
-                            lines += ["", f"{'#' * par_level} {par_marker}", ""]
+                        if par_level <= 6:
+                            if par_text:
+                                lines += ["", f"{'#' * par_level} {par_marker} {par_text}", ""]
+                            else:
+                                lines += ["", f"{'#' * par_level} {par_marker}", ""]
+                        elif par_level == 7:
+                            if par_text:
+                                lines += ["", f"* **{par_marker}** {par_text}", ""]
+                            else:
+                                lines += ["", f"* **{par_marker}**", ""]
+                        elif par_level == 8:
+                            if par_text:
+                                lines += ["", f"  - **{par_marker}** {par_text}", ""]
+                            else:
+                                lines += ["", f"  - **{par_marker}**", ""]
+                        else:  # par_level >= 9
+                            indent = "  " * (par_level - 8)
+                            if par_text:
+                                lines += ["", f"{indent}- **{par_marker}** {par_text}", ""]
+                            else:
+                                lines += ["", f"{indent}- **{par_marker}**", ""]
                         continue
 
                     # Inciso romano: I -, II -, III - ...
@@ -792,7 +833,17 @@ class HTMLExtractor(BaseExtractor):
                         inciso_text = inciso_m.group(2).strip()
                         # Nível 9 para incisos (dentro de §)
                         inciso_level = md_level + 2 if md_level > 0 else 8
-                        lines += ["", f"{'#' * inciso_level} {inciso_num} - {inciso_text}", ""]
+                        if inciso_level <= 6:
+                            lines += ["", f"{'#' * inciso_level} {inciso_num} - {inciso_text}", ""]
+                        elif inciso_level == 7:
+                            lines += ["", f"* {inciso_num} - {inciso_text}", ""]
+                        elif inciso_level == 8:
+                            lines += ["", f"  - {inciso_num} - {inciso_text}", ""]
+                        elif inciso_level == 9:
+                            lines += ["", f"    - {inciso_num} - {inciso_text}", ""]
+                        else:  # inciso_level >= 10
+                            indent = "  " * (inciso_level - 8)
+                            lines += ["", f"{indent}- {inciso_num} - {inciso_text}", ""]
                         continue
 
                     # Alínea: a), b), c) ...
@@ -802,7 +853,17 @@ class HTMLExtractor(BaseExtractor):
                         alinea_text = alinea_m.group(2).strip()
                         # Nível 10 para alíneas (dentro de inciso)
                         alinea_level = md_level + 3 if md_level > 0 else 9
-                        lines += ["", f"{'#' * alinea_level} {alinea_letra}) {alinea_text}", ""]
+                        if alinea_level <= 6:
+                            lines += ["", f"{'#' * alinea_level} {alinea_letra}) {alinea_text}", ""]
+                        elif alinea_level == 7:
+                            lines += ["", f"* {alinea_letra}) {alinea_text}", ""]
+                        elif alinea_level == 8:
+                            lines += ["", f"  - {alinea_letra}) {alinea_text}", ""]
+                        elif alinea_level == 9:
+                            lines += ["", f"    - {alinea_letra}) {alinea_text}", ""]
+                        else:  # alinea_level >= 10
+                            indent = "  " * (alinea_level - 8)
+                            lines += ["", f"{indent}- {alinea_letra}) {alinea_text}", ""]
                         continue
 
                     # Texto normal

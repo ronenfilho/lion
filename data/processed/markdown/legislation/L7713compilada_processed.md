@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L7713compilada.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 16:34
+- **Processado em**: 02/03/2026 16:40
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
