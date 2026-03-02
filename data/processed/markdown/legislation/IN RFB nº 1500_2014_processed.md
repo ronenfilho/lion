@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 1500_2014.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 16:52
+- **Processado em**: 02/03/2026 17:25
 - **viewport**: width=device-width, initial-scale=1
 - **GENERATOR**: LibreOffice 4.1.3.2 (Windows)
 - **CREATED**: 20140815;555387584
@@ -821,93 +821,93 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 * **Subseção I Da Regra Geral**
 
 
-* **Art. 13. O rendimento pago a título de Gratificação Natalina, para efeitos de apuração do IRRF, tem o seguinte tratamento:**
+  * Art. 13. O rendimento pago a título de Gratificação Natalina, para efeitos de apuração do IRRF, tem o seguinte tratamento:
 
 
-    - I - é integralmente tributado, com base na tabela mensal vigente no mês de quitação;
+      - I - é integralmente tributado, com base na tabela mensal vigente no mês de quitação;
 
 
-    - II - a tributação ocorre exclusivamente na fonte e separadamente dos demais rendimentos recebidos no mês pelo beneficiário;
+      - II - a tributação ocorre exclusivamente na fonte e separadamente dos demais rendimentos recebidos no mês pelo beneficiário;
 
 
-    - III - não há retenção na fonte pelo pagamento de sua antecipação;
+      - III - não há retenção na fonte pelo pagamento de sua antecipação;
 
 
-    - IV - na apuração de sua base de cálculo deve ser considerado o valor total desse rendimento, inclusive antecipações, sendo permitidas as deduções previstas no art. 52, desde que a ele correspondente; e
+      - IV - na apuração de sua base de cálculo deve ser considerado o valor total desse rendimento, inclusive antecipações, sendo permitidas as deduções previstas no art. 52, desde que a ele correspondente; e
 
 
-    - V - deve ser observado o disposto no art. 65-A.
-
-
-
-  - **§ 1º** Considera-se mês de quitação o mês de dezembro, o da rescisão do contrato de trabalho, ou o do pagamento acumulado a título de Gratificação Natalina.
+      - V - deve ser observado o disposto no art. 65-A.
 
 
 
-
-  - **§ 2º** Considera-se pagamento acumulado, a título de Gratificação Natalina, o pagamento desse rendimento relativo a mais de um ano-calendário.
+    - **§ 1º** Considera-se mês de quitação o mês de dezembro, o da rescisão do contrato de trabalho, ou o do pagamento acumulado a título de Gratificação Natalina.
 
 
 
 
-  - **§ 3º** No caso de pagamento de complementação de Gratificação Natalina, posteriormente ao mês de quitação, o imposto deve ser recalculado tomando-se por base o total desse rendimento, mediante utilização da tabela do mês de quitação, deduzindo-se do imposto assim apurado o valor retido anteriormente.
+    - **§ 2º** Considera-se pagamento acumulado, a título de Gratificação Natalina, o pagamento desse rendimento relativo a mais de um ano-calendário.
 
 
 
 
-  - **§ 4º** No caso de rendimentos pagos acumuladamente, a título de Gratificação Natalina e eventuais acréscimos, deve ser observado o disposto no Capítulo VII.
+    - **§ 3º** No caso de pagamento de complementação de Gratificação Natalina, posteriormente ao mês de quitação, o imposto deve ser recalculado tomando-se por base o total desse rendimento, mediante utilização da tabela do mês de quitação, deduzindo-se do imposto assim apurado o valor retido anteriormente.
 
 
 
 
-  - **§ 5º** Cabe ao sindicato de cada categoria profissional de trabalhador avulso a responsabilidade pela retenção e o recolhimento do imposto incidente sobre a Gratificação Natalina, no mês de quitação, considerando como base de cálculo do imposto o valor total da Gratificação Natalina paga, no ano, pelo sindicato.
+    - **§ 4º** No caso de rendimentos pagos acumuladamente, a título de Gratificação Natalina e eventuais acréscimos, deve ser observado o disposto no Capítulo VII.
 
 
 
 
-  - **§ 6º** Na determinação da base de cálculo da Gratificação Natalina devem ser observados os seguintes procedimentos:
-
-
-
-    - I - os valores relativos à pensão alimentícia e à contribuição previdenciária podem ser deduzidos, desde que correspondentes a esse rendimento, não podendo ser utilizados para a determinação da base de cálculo de quaisquer outros rendimentos;
-
-
-    - II - pode ser excluída a parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, correspondente ao 13º (décimo terceiro) salário pago pela Previdência Social da União, dos estados, do Distrito Federal e dos municípios, por qualquer pessoa jurídica de direito público interno ou por entidades de previdência complementar, a partir do mês em que o contribuinte completar 65 (sessenta e cinco) anos de idade, até o valor mensal constante da tabela do Anexo IV a esta Instrução Normativa.
-
-
-
-  - **§ 7º** Na hipótese de Gratificação Natalina paga mediante precatório ou requisição de pequeno valor, em cumprimento de decisão da Justiça Federal, nos termos do art. 27 da Lei nº 10.833, de 29 de dezembro de 2003, aplica-se o disposto no art. 25.
+    - **§ 5º** Cabe ao sindicato de cada categoria profissional de trabalhador avulso a responsabilidade pela retenção e o recolhimento do imposto incidente sobre a Gratificação Natalina, no mês de quitação, considerando como base de cálculo do imposto o valor total da Gratificação Natalina paga, no ano, pelo sindicato.
 
 
 
 
-  - **§ 8º** Alternativamente às deduções a que se refere o inciso IV do caput, a fonte pagadora utilizará desconto simplificado mensal, correspondente a 25% (vinte e cinco por cento) do valor máximo da faixa com alíquota de 0% (zero por cento) da tabela progressiva mensal, caso seja mais benéfico ao contribuinte, dispensadas a comprovação da despesa e a indicação de sua espécie.
+    - **§ 6º** Na determinação da base de cálculo da Gratificação Natalina devem ser observados os seguintes procedimentos:
+
+
+
+      - I - os valores relativos à pensão alimentícia e à contribuição previdenciária podem ser deduzidos, desde que correspondentes a esse rendimento, não podendo ser utilizados para a determinação da base de cálculo de quaisquer outros rendimentos;
+
+
+      - II - pode ser excluída a parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, correspondente ao 13º (décimo terceiro) salário pago pela Previdência Social da União, dos estados, do Distrito Federal e dos municípios, por qualquer pessoa jurídica de direito público interno ou por entidades de previdência complementar, a partir do mês em que o contribuinte completar 65 (sessenta e cinco) anos de idade, até o valor mensal constante da tabela do Anexo IV a esta Instrução Normativa.
+
+
+
+    - **§ 7º** Na hipótese de Gratificação Natalina paga mediante precatório ou requisição de pequeno valor, em cumprimento de decisão da Justiça Federal, nos termos do art. 27 da Lei nº 10.833, de 29 de dezembro de 2003, aplica-se o disposto no art. 25.
+
+
+
+
+    - **§ 8º** Alternativamente às deduções a que se refere o inciso IV do caput, a fonte pagadora utilizará desconto simplificado mensal, correspondente a 25% (vinte e cinco por cento) do valor máximo da faixa com alíquota de 0% (zero por cento) da tabela progressiva mensal, caso seja mais benéfico ao contribuinte, dispensadas a comprovação da despesa e a indicação de sua espécie.
 
 
 
 * **Subseção II Do Maior de 65 anos**
 
 
-* **Art. 14. Na hipótese de recebimento, por beneficiário maior de 65 (sessenta e cinco) anos, de rendimentos de aposentadoria, pensão, transferência para a reserva remunerada ou reforma, de mais de uma fonte pagadora, deverá ser observado relativamente à Gratificação Natalina paga por fonte, o seguinte:**
+  * Art. 14. Na hipótese de recebimento, por beneficiário maior de 65 (sessenta e cinco) anos, de rendimentos de aposentadoria, pensão, transferência para a reserva remunerada ou reforma, de mais de uma fonte pagadora, deverá ser observado relativamente à Gratificação Natalina paga por fonte, o seguinte:
 
 
-    - I - pode ser excluída a parcela isenta a que se refere o inciso II do § 6º do art. 13;
+      - I - pode ser excluída a parcela isenta a que se refere o inciso II do § 6º do art. 13;
 
 
-    - II - a parcela isenta da Gratificação Natalina paga por fonte deve ser informada como outros rendimentos isentos e não tributáveis na DAA.
+      - II - a parcela isenta da Gratificação Natalina paga por fonte deve ser informada como outros rendimentos isentos e não tributáveis na DAA.
 
 
 
 * **Subseção III Da Previdência Complementar**
 
 
-* **Art. 15. O abono anual pago pelas entidades fechadas de previdência complementar, quando ele tenha a característica de previdência complementar, segue regra idêntica àquela aplicável ao Regime Geral da Previdência Social no que se refere à incidência do imposto sobre a renda relativa ao rendimento da Gratificação Natalina.**
+  * Art. 15. O abono anual pago pelas entidades fechadas de previdência complementar, quando ele tenha a característica de previdência complementar, segue regra idêntica àquela aplicável ao Regime Geral da Previdência Social no que se refere à incidência do imposto sobre a renda relativa ao rendimento da Gratificação Natalina.
 
 
 * **Subseção IV Do Governo Estrangeiro**
 
 
-* **Art. 16. A Gratificação Natalina recebida de órgãos de governo estrangeiro no País por residente no Brasil é tributada em conjunto com os demais rendimentos recebidos no mês pelo beneficiário, sujeitos ao recolhimento mensal obrigatório (carnê-leão), no mês do recebimento e na DAA.**
+  * Art. 16. A Gratificação Natalina recebida de órgãos de governo estrangeiro no País por residente no Brasil é tributada em conjunto com os demais rendimentos recebidos no mês pelo beneficiário, sujeitos ao recolhimento mensal obrigatório (carnê-leão), no mês do recebimento e na DAA.
 
 
 ###### Seção II Da Participação nos Lucros ou Resultados das Empresas
@@ -1304,42 +1304,42 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 * **Subseção I Dos Rendimentos Decorrentes de Decisão da Justiça Federal**
 
 
-* **Art. 25. No caso de rendimentos pagos, em cumprimento de decisão da Justiça Federal, mediante precatório ou requisição de pequeno valor, o IRRF deve ser retido pela instituição financeira responsável pelo pagamento e incide à alíquota de 3% (três por cento) sobre o montante pago, sem quaisquer deduções, no momento do pagamento ao beneficiário ou seu representante legal, ressalvado o disposto no Capítulo VII.**
+  * Art. 25. No caso de rendimentos pagos, em cumprimento de decisão da Justiça Federal, mediante precatório ou requisição de pequeno valor, o IRRF deve ser retido pela instituição financeira responsável pelo pagamento e incide à alíquota de 3% (três por cento) sobre o montante pago, sem quaisquer deduções, no momento do pagamento ao beneficiário ou seu representante legal, ressalvado o disposto no Capítulo VII.
 
 
-  - **§ 1º** Fica dispensada a retenção do imposto caso o beneficiário declare à instituição financeira responsável pelo pagamento que os rendimentos recebidos são isentos ou não tributáveis, declaração essa que poderá ser prestada por meio eletrônico próprio da Justiça Federal.
+    - **§ 1º** Fica dispensada a retenção do imposto caso o beneficiário declare à instituição financeira responsável pelo pagamento que os rendimentos recebidos são isentos ou não tributáveis, declaração essa que poderá ser prestada por meio eletrônico próprio da Justiça Federal.
 
 
 
 
-  - **§ 2º** O IRRF de acordo com o caput será considerado antecipação do imposto apurado na DAA.
+    - **§ 2º** O IRRF de acordo com o caput será considerado antecipação do imposto apurado na DAA.
 
 
 
 * **Subseção II Dos Rendimentos Decorrentes de Decisão da Justiça do Trabalho**
 
 
-* **Art. 26. Os rendimentos pagos em cumprimento de decisões da Justiça do Trabalho estão sujeitos ao IRRF com base nas tabelas progressivas constantes do Anexo II, observados a tabela de redução constante do Anexo X e o disposto no Capítulo VII.**
+  * Art. 26. Os rendimentos pagos em cumprimento de decisões da Justiça do Trabalho estão sujeitos ao IRRF com base nas tabelas progressivas constantes do Anexo II, observados a tabela de redução constante do Anexo X e o disposto no Capítulo VII.
 
 
-  - **§ 1º** Cabe à fonte pagadora, no prazo de 15 (quinze) dias da data da retenção, comprovar, nos respectivos autos, o recolhimento do IRRF incidente sobre os rendimentos pagos.
-
-
-
-
-  - **§ 2º** Na hipótese de omissão da fonte pagadora relativamente à comprovação de que trata o § 1º, e nos pagamentos de honorários periciais, compete ao Juízo do Trabalho calcular o IRRF e determinar o seu recolhimento à instituição financeira depositária do crédito.
+    - **§ 1º** Cabe à fonte pagadora, no prazo de 15 (quinze) dias da data da retenção, comprovar, nos respectivos autos, o recolhimento do IRRF incidente sobre os rendimentos pagos.
 
 
 
 
-  - **§ 3º** A não indicação pela fonte pagadora da natureza jurídica das parcelas objeto de acordo homologado perante a Justiça do Trabalho acarreta a incidência do IRRF sobre o valor total da avença.
+    - **§ 2º** Na hipótese de omissão da fonte pagadora relativamente à comprovação de que trata o § 1º, e nos pagamentos de honorários periciais, compete ao Juízo do Trabalho calcular o IRRF e determinar o seu recolhimento à instituição financeira depositária do crédito.
+
+
+
+
+    - **§ 3º** A não indicação pela fonte pagadora da natureza jurídica das parcelas objeto de acordo homologado perante a Justiça do Trabalho acarreta a incidência do IRRF sobre o valor total da avença.
 
 
 
 * **Subseção III Dos Rendimentos Decorrentes de Decisões da Justiça Estadual e do Distrito Federal**
 
 
-* **Art. 27. Na hipótese de rendimentos pagos, em cumprimento de decisão da Justiça Estadual e do Distrito Federal, o IRRF deve ser apurado e recolhido conforme a natureza do rendimento, utilizando o código de receita próprio, ressalvado o disposto no Capítulo VII.**
+  * Art. 27. Na hipótese de rendimentos pagos, em cumprimento de decisão da Justiça Estadual e do Distrito Federal, o IRRF deve ser apurado e recolhido conforme a natureza do rendimento, utilizando o código de receita próprio, ressalvado o disposto no Capítulo VII.
 
 
 ###### Seção III Dos Servidores no Exterior a Serviço do País
@@ -1449,196 +1449,196 @@ Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o val
 * **Subseção I Dos RRA Submetidos à Incidência do Imposto sobre a Renda com Base na Tabela Progressiva Correspondentes a Anos-calendário Anteriores ao do Recebimento**
 
 
-* **Art. 36. Os RRA, a partir de 11 de março de 2015, submetidos à incidência do imposto sobre a renda com base na tabela progressiva, quando correspondentes a anos-calendário anteriores ao do recebimento, serão tributados exclusivamente na fonte, no mês do recebimento ou crédito, em separado dos demais rendimentos recebidos no mês.**
+  * Art. 36. Os RRA, a partir de 11 de março de 2015, submetidos à incidência do imposto sobre a renda com base na tabela progressiva, quando correspondentes a anos-calendário anteriores ao do recebimento, serão tributados exclusivamente na fonte, no mês do recebimento ou crédito, em separado dos demais rendimentos recebidos no mês.
 
 
-    - I - 
+      - I - 
 
 
-    - II - 
-
-
-
-  - **§ 1º** Aplica-se o disposto no caput, inclusive, aos rendimentos decorrentes de decisões das Justiças do Trabalho, Federal, Estaduais e do Distrito Federal.
+      - II - 
 
 
 
-
-  - **§ 2º** Os rendimentos a que se refere o caput abrangem o décimo terceiro salário e quaisquer acréscimos e juros deles decorrentes.
+    - **§ 1º** Aplica-se o disposto no caput, inclusive, aos rendimentos decorrentes de decisões das Justiças do Trabalho, Federal, Estaduais e do Distrito Federal.
 
 
 
 
-  - **§ 3º** O disposto no caput aplica-se desde 28 de julho de 2010 aos rendimentos decorrentes:
-
-
-
-    - I - de aposentadoria, pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos estados, do Distrito Federal e dos municípios; e
-
-
-    - II - do trabalho.
-
-
-
-  - **§ 4º** Não se sujeitam à incidência do imposto sobre a renda os juros de mora devidos pelo atraso no pagamento de remuneração por exercício de emprego cargo ou função.
-
-
-
-* **Art. 37. O imposto será retido, pela pessoa física ou jurídica obrigada ao pagamento ou pela instituição financeira depositária do crédito, e calculado sobre o montante dos rendimentos pagos, mediante a utilização de tabela progressiva resultante da multiplicação da quantidade de meses a que se referem os rendimentos pelos valores constantes da tabela progressiva mensal correspondente ao mês do recebimento ou crédito, observada a tabela de redução constante do Anexo X.**
-
-
-  - **§ 1º** O décimo terceiro salário, quando houver, representará em relação ao disposto no caput a 1 (um) mês.
+    - **§ 2º** Os rendimentos a que se refere o caput abrangem o décimo terceiro salário e quaisquer acréscimos e juros deles decorrentes.
 
 
 
 
-  - **§ 2º** A fórmula de cálculo da tabela progressiva acumulada a que se refere o caput, deverá ser efetuada na forma prevista no Anexo IV a esta Instrução Normativa.
+    - **§ 3º** O disposto no caput aplica-se desde 28 de julho de 2010 aos rendimentos decorrentes:
 
 
 
-* **Art. 38. Do montante a que se refere o art. 37 poderão ser excluídas despesas, relativas aos rendimentos tributáveis, com ação judicial necessária ao seu recebimento, inclusive de advogados, se tiverem sido pagas pelo contribuinte, sem indenização.**
+      - I - de aposentadoria, pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos estados, do Distrito Federal e dos municípios; e
 
 
-* **Art. 39. A base de cálculo será determinada mediante a dedução das seguintes despesas relativas ao montante dos rendimentos tributáveis, observado o previsto no art. 36:**
+      - II - do trabalho.
 
 
-    - I - importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, de acordo homologado judicialmente ou de separação ou divórcio consensual realizado por escritura pública; e
+
+    - **§ 4º** Não se sujeitam à incidência do imposto sobre a renda os juros de mora devidos pelo atraso no pagamento de remuneração por exercício de emprego cargo ou função.
 
 
-    - II - contribuições para a Previdência Social da União, dos estados, do Distrito Federal e dos municípios.
+
+  * Art. 37. O imposto será retido, pela pessoa física ou jurídica obrigada ao pagamento ou pela instituição financeira depositária do crédito, e calculado sobre o montante dos rendimentos pagos, mediante a utilização de tabela progressiva resultante da multiplicação da quantidade de meses a que se referem os rendimentos pelos valores constantes da tabela progressiva mensal correspondente ao mês do recebimento ou crédito, observada a tabela de redução constante do Anexo X.
+
+
+    - **§ 1º** O décimo terceiro salário, quando houver, representará em relação ao disposto no caput a 1 (um) mês.
+
+
+
+
+    - **§ 2º** A fórmula de cálculo da tabela progressiva acumulada a que se refere o caput, deverá ser efetuada na forma prevista no Anexo IV a esta Instrução Normativa.
+
+
+
+  * Art. 38. Do montante a que se refere o art. 37 poderão ser excluídas despesas, relativas aos rendimentos tributáveis, com ação judicial necessária ao seu recebimento, inclusive de advogados, se tiverem sido pagas pelo contribuinte, sem indenização.
+
+
+  * Art. 39. A base de cálculo será determinada mediante a dedução das seguintes despesas relativas ao montante dos rendimentos tributáveis, observado o previsto no art. 36:
+
+
+      - I - importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, de acordo homologado judicialmente ou de separação ou divórcio consensual realizado por escritura pública; e
+
+
+      - II - contribuições para a Previdência Social da União, dos estados, do Distrito Federal e dos municípios.
 
 Parágrafo único. Aplica-se o disposto no inciso I do caput, independentemente de o beneficiário ser considerado dependente para fins do disposto no art. 90.
 
 
-* **Art. 40. A pessoa responsável pela retenção de que trata o caput do art. 37 deverá, na forma, prazo e condições estabelecidos na legislação do imposto, fornecer à pessoa física beneficiária o Comprovante de Rendimentos Pagos e de Retenção do IRRF, bem como apresentar à Secretaria da Receita Federal do Brasil (RFB) declaração contendo informações sobre:**
+  * Art. 40. A pessoa responsável pela retenção de que trata o caput do art. 37 deverá, na forma, prazo e condições estabelecidos na legislação do imposto, fornecer à pessoa física beneficiária o Comprovante de Rendimentos Pagos e de Retenção do IRRF, bem como apresentar à Secretaria da Receita Federal do Brasil (RFB) declaração contendo informações sobre:
 
 
-    - I - os pagamentos efetuados à pessoa física e o respectivo IRRF;
+      - I - os pagamentos efetuados à pessoa física e o respectivo IRRF;
 
 
-    - II - a quantidade de meses;
+      - II - a quantidade de meses;
 
 
-    - III - se houver, as exclusões e deduções de que tratam, respectivamente, os arts. 38 e 39.
+      - III - se houver, as exclusões e deduções de que tratam, respectivamente, os arts. 38 e 39.
 
 
 
-  - **§ 1º** No caso de rendimentos pagos, em cumprimento de decisão da Justiça Federal, mediante precatório ou requisição de pequeno valor:
+    - **§ 1º** No caso de rendimentos pagos, em cumprimento de decisão da Justiça Federal, mediante precatório ou requisição de pequeno valor:
 
 
 
-    - I - além das informações de que tratam os incisos I e II do caput, a instituição financeira deverá informar:
+      - I - além das informações de que tratam os incisos I e II do caput, a instituição financeira deverá informar:
 
 
-    - a) os honorários pagos a perito e o respectivo IRRF; e
+      - a) os honorários pagos a perito e o respectivo IRRF; e
 
 
-    - b) a indicação do advogado da pessoa física beneficiária;
+      - b) a indicação do advogado da pessoa física beneficiária;
 
 
-    - c) o valor a que se refere o art. 38; e
+      - c) o valor a que se refere o art. 38; e
 
 
-    - d) a indicação do advogado recebedor dos recursos da ação;
+      - d) a indicação do advogado recebedor dos recursos da ação;
 
 
-    - II - fica dispensada a retenção do imposto quando a pessoa física beneficiária declarar à instituição financeira responsável pelo pagamento que os rendimentos recebidos são isentos ou não tributáveis.
+      - II - fica dispensada a retenção do imposto quando a pessoa física beneficiária declarar à instituição financeira responsável pelo pagamento que os rendimentos recebidos são isentos ou não tributáveis.
 
 
 
-  - **§ 2º** Para fins do disposto no inciso II do § 1º, deverá ser utilizada a declaração constante do Anexo Único à Instrução Normativa SRF nº 491, de 12 de janeiro de 2005.
+    - **§ 2º** Para fins do disposto no inciso II do § 1º, deverá ser utilizada a declaração constante do Anexo Único à Instrução Normativa SRF nº 491, de 12 de janeiro de 2005.
 
 
 
-* **Art. 41. O somatório dos rendimentos de que trata o art. 36, recebidos no decorrer do ano-calendário, observado o disposto no art. 38, poderá integrar a base de cálculo do imposto sobre a renda na DAA do ano-calendário do recebimento, à opção irretratável do contribuinte.**
+  * Art. 41. O somatório dos rendimentos de que trata o art. 36, recebidos no decorrer do ano-calendário, observado o disposto no art. 38, poderá integrar a base de cálculo do imposto sobre a renda na DAA do ano-calendário do recebimento, à opção irretratável do contribuinte.
 
 
-  - **§ 1º** O IRRF será considerado antecipação do imposto devido apurado na DAA.
+    - **§ 1º** O IRRF será considerado antecipação do imposto devido apurado na DAA.
 
 
 
 
-  - **§ 2º** A opção de que trata o caput:
+    - **§ 2º** A opção de que trata o caput:
 
 
 
-    - I - será exercida na DAA; e
+      - I - será exercida na DAA; e
 
 
-    - II - não poderá ser alterada, ressalvadas as hipóteses em que:
+      - II - não poderá ser alterada, ressalvadas as hipóteses em que:
 
 
-    - a) a sua modificação ocorra no prazo fixado para a apresentação da DAA;
+      - a) a sua modificação ocorra no prazo fixado para a apresentação da DAA;
 
 
-    - b) a fonte pagadora, relativamente à DAA do exercício de 2011, ano-calendário de 2010, não tenha fornecido à pessoa física beneficiária o comprovante a que se refere o art. 40 ou, quando fornecido, o fez de modo incompleto ou impreciso, de forma a prejudicar o exercício da opção.
+      - b) a fonte pagadora, relativamente à DAA do exercício de 2011, ano-calendário de 2010, não tenha fornecido à pessoa física beneficiária o comprovante a que se refere o art. 40 ou, quando fornecido, o fez de modo incompleto ou impreciso, de forma a prejudicar o exercício da opção.
 
 
 
-  - **§ 3º** No caso de que trata a alínea “b” do inciso II do § 2º, após o prazo fixado para a apresentação da DAA, a retificação poderá ser efetuada, uma única vez, até 31 de dezembro de 2011.
+    - **§ 3º** No caso de que trata a alínea “b” do inciso II do § 2º, após o prazo fixado para a apresentação da DAA, a retificação poderá ser efetuada, uma única vez, até 31 de dezembro de 2011.
 
 
 
-* **Art. 42. Na hipótese de a pessoa responsável pela retenção de que trata o caput do art. 37 não ter feito a retenção em conformidade com o disposto neste Capítulo ou ter promovido retenção indevida ou a maior, a pessoa física beneficiária poderá efetuar ajuste específico na apuração do imposto relativo aos RRA na DAA referente ao ano-calendário correspondente, do seguinte modo:**
+  * Art. 42. Na hipótese de a pessoa responsável pela retenção de que trata o caput do art. 37 não ter feito a retenção em conformidade com o disposto neste Capítulo ou ter promovido retenção indevida ou a maior, a pessoa física beneficiária poderá efetuar ajuste específico na apuração do imposto relativo aos RRA na DAA referente ao ano-calendário correspondente, do seguinte modo:
 
 
-    - I - a apuração do imposto será efetuada:
+      - I - a apuração do imposto será efetuada:
 
 
-    - a) em ficha própria; e
+      - a) em ficha própria; e
 
 
-    - b) separadamente por fonte pagadora e para cada mês-calendário, com exceção da hipótese em que a mesma fonte pagadora tenha realizado mais de um pagamento referente aos rendimentos de um mesmo ano-calendário, sendo, neste caso, o cálculo realizado de modo unificado; e
+      - b) separadamente por fonte pagadora e para cada mês-calendário, com exceção da hipótese em que a mesma fonte pagadora tenha realizado mais de um pagamento referente aos rendimentos de um mesmo ano-calendário, sendo, neste caso, o cálculo realizado de modo unificado; e
 
 
-    - II - o imposto resultante da apuração de que trata o inciso I será adicionado ao imposto apurado na DAA, sujeitando-se aos mesmos prazos de pagamento e condições deste.
+      - II - o imposto resultante da apuração de que trata o inciso I será adicionado ao imposto apurado na DAA, sujeitando-se aos mesmos prazos de pagamento e condições deste.
 
 
 
-  - **§ 1º** Aplica-se o disposto no caput à hipótese de que trata o § 3º do art. 50.
+    - **§ 1º** Aplica-se o disposto no caput à hipótese de que trata o § 3º do art. 50.
 
 
 
 
-  - **§ 2º** A faculdade prevista no caput será exercida na DAA relativa ao ano-calendário de recebimento dos RRA, e deverá abranger a totalidade destes no respectivo ano-calendário.
+    - **§ 2º** A faculdade prevista no caput será exercida na DAA relativa ao ano-calendário de recebimento dos RRA, e deverá abranger a totalidade destes no respectivo ano-calendário.
 
 
 
 
-  - **§ 3º** A pessoa responsável pela retenção:
+    - **§ 3º** A pessoa responsável pela retenção:
 
 
 
-    - I - na hipótese de a Declaração do Imposto sobre a Renda Retido na Fonte (Dirf) já ter sido apresentada, deverá retificá-la de modo a informar os RRA na ficha própria;
+      - I - na hipótese de a Declaração do Imposto sobre a Renda Retido na Fonte (Dirf) já ter sido apresentada, deverá retificá-la de modo a informar os RRA na ficha própria;
 
 
-    - II - caso tenha preenchido o Comprovante de Rendimentos Pagos e de IRRF sem informar os RRA no quadro próprio para esses rendimentos, deverá corrigi-lo e fornecê-lo ao beneficiário; e
+      - II - caso tenha preenchido o Comprovante de Rendimentos Pagos e de IRRF sem informar os RRA no quadro próprio para esses rendimentos, deverá corrigi-lo e fornecê-lo ao beneficiário; e
 
 
-    - III - não deverá recalcular o IRRF.
+      - III - não deverá recalcular o IRRF.
 
 
 
-  - **§ 4º** O disposto neste artigo aplica-se inclusive para as DAA referentes aos anos-calendário de 2010 e de 2011.
+    - **§ 4º** O disposto neste artigo aplica-se inclusive para as DAA referentes aos anos-calendário de 2010 e de 2011.
 
 
 
 * **Subseção II Dos Demais RRA**
 
 
-* **Art. 43. Os RRA que não decorram do previsto no art. 36 estarão sujeitos:**
+  * Art. 43. Os RRA que não decorram do previsto no art. 36 estarão sujeitos:
 
 
-    - I - quando pagos em cumprimento de decisão judicial:
+      - I - quando pagos em cumprimento de decisão judicial:
 
 
-    - a) da Justiça Federal, mediante precatório ou requisição de pequeno valor, ao disposto no art. 25; e
+      - a) da Justiça Federal, mediante precatório ou requisição de pequeno valor, ao disposto no art. 25; e
 
 
-    - b) da Justiça do Trabalho, ao disposto no art. 26; e
+      - b) da Justiça do Trabalho, ao disposto no art. 26; e
 
 
-    - II - nas demais hipóteses, ao disposto no art. 12 da Lei nº 7.713, de 1988.
+      - II - nas demais hipóteses, ao disposto no art. 12 da Lei nº 7.713, de 1988.
 
 
 
@@ -1912,20 +1912,20 @@ Parágrafo único. A faculdade prevista no caput:
 * **Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros Públicos**
 
 
-* **Art. 57. Na determinação da base de cálculo sujeita à incidência mensal do imposto, até o exercício de 2014, ano-calendário de 2013, os titulares de serviços de registros públicos, para fins de implementação dos serviços, previstos na Lei nº 6.015, de 31 de dezembro de 1973, em meio eletrônico, poderão deduzir os investimentos e demais gastos efetuados com informatização, que compreende a aquisição de hardware, aquisição e desenvolvimento de software e a instalação de redes.**
+  * Art. 57. Na determinação da base de cálculo sujeita à incidência mensal do imposto, até o exercício de 2014, ano-calendário de 2013, os titulares de serviços de registros públicos, para fins de implementação dos serviços, previstos na Lei nº 6.015, de 31 de dezembro de 1973, em meio eletrônico, poderão deduzir os investimentos e demais gastos efetuados com informatização, que compreende a aquisição de hardware, aquisição e desenvolvimento de software e a instalação de redes.
 
 
-  - **§ 1º** Os investimentos e gastos efetuados deverão estar devidamente escriturados no livro Caixa e comprovados com documentação idônea, a qual será mantida em poder dos titulares dos serviços de registros públicos de que trata o caput, à disposição da fiscalização, enquanto não ocorrer a decadência ou a prescrição.
-
-
-
-
-  - **§ 2º** Na hipótese de alienação dos bens de que trata o caput, o valor da alienação deverá integrar o rendimento bruto da atividade.
+    - **§ 1º** Os investimentos e gastos efetuados deverão estar devidamente escriturados no livro Caixa e comprovados com documentação idônea, a qual será mantida em poder dos titulares dos serviços de registros públicos de que trata o caput, à disposição da fiscalização, enquanto não ocorrer a decadência ou a prescrição.
 
 
 
 
-  - **§ 3º** O excesso de deduções apurado no mês pode ser compensado nos meses seguintes, até dezembro, não podendo ser transposto para o ano seguinte.
+    - **§ 2º** Na hipótese de alienação dos bens de que trata o caput, o valor da alienação deverá integrar o rendimento bruto da atividade.
+
+
+
+
+    - **§ 3º** O excesso de deduções apurado no mês pode ser compensado nos meses seguintes, até dezembro, não podendo ser transposto para o ano seguinte.
 
 
 
@@ -3310,67 +3310,67 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 * **Subseção I Das Pessoas Físicas que Ingressarem no País com Visto Temporário**
 
 
-* **Art. 108. Estão isentos do imposto sobre a renda os rendimentos pagos, creditados, empregados, entregues ou remetidos pela Fifa ou por Subsidiária Fifa no Brasil, para pessoas físicas, não residentes no País, empregadas ou de outra forma contratadas para trabalhar de forma pessoal e direta na organização ou realização dos Eventos, que ingressarem no País com visto temporário.**
+  * Art. 108. Estão isentos do imposto sobre a renda os rendimentos pagos, creditados, empregados, entregues ou remetidos pela Fifa ou por Subsidiária Fifa no Brasil, para pessoas físicas, não residentes no País, empregadas ou de outra forma contratadas para trabalhar de forma pessoal e direta na organização ou realização dos Eventos, que ingressarem no País com visto temporário.
 
 
-  - **§ 1º** As isenções previstas neste artigo também são aplicáveis aos árbitros, jogadores de futebol e outros membros das delegações, exclusivamente no que concerne ao pagamento de prêmios relacionados aos Eventos, efetuado pelas pessoas jurídicas mencionadas no caput.
-
-
-
-
-  - **§ 2º** O disposto no caput aplica-se também às seguintes pessoas jurídicas não domiciliadas no País:
+    - **§ 1º** As isenções previstas neste artigo também são aplicáveis aos árbitros, jogadores de futebol e outros membros das delegações, exclusivamente no que concerne ao pagamento de prêmios relacionados aos Eventos, efetuado pelas pessoas jurídicas mencionadas no caput.
 
 
 
-    - I - Confederações Fifa;
+
+    - **§ 2º** O disposto no caput aplica-se também às seguintes pessoas jurídicas não domiciliadas no País:
 
 
-    - II - Associações estrangeiras membros da Fifa;
+
+      - I - Confederações Fifa;
 
 
-    - III - Emissora Fonte da Fifa; e
+      - II - Associações estrangeiras membros da Fifa;
 
 
-    - IV - Prestadores de Serviços da Fifa.
+      - III - Emissora Fonte da Fifa; e
+
+
+      - IV - Prestadores de Serviços da Fifa.
 
 
 
 * **Subseção II Do Reembolso de Despesas Recebido por Voluntário**
 
 
-* **Art. 109. Estão isentos do imposto sobre a renda os valores dos benefícios indiretos e o reembolso de despesas recebidos por Voluntário da Fifa, da Subsidiária Fifa no Brasil ou do Comitê Organizador Brasileiro Ltda (LOC) que auxiliar na organização e realização dos Eventos, até o valor de 5 (cinco) salários mínimos por mês, sem prejuízo de aplicação da tabela de incidência mensal do imposto sobre a renda sobre o valor excedente.**
+  * Art. 109. Estão isentos do imposto sobre a renda os valores dos benefícios indiretos e o reembolso de despesas recebidos por Voluntário da Fifa, da Subsidiária Fifa no Brasil ou do Comitê Organizador Brasileiro Ltda (LOC) que auxiliar na organização e realização dos Eventos, até o valor de 5 (cinco) salários mínimos por mês, sem prejuízo de aplicação da tabela de incidência mensal do imposto sobre a renda sobre o valor excedente.
 
 
-  - **§ 1º** No caso de recebimento de 2 (dois) ou mais pagamentos em 1 (um) mesmo mês, a parcela isenta deve ser considerada em relação à soma desses pagamentos.
-
-
-
-
-  - **§ 2º** Caso esteja obrigado a apresentar a DAA, o contribuinte deverá informar a soma dos valores mensais recebidos e considerados isentos na forma deste artigo.
+    - **§ 1º** No caso de recebimento de 2 (dois) ou mais pagamentos em 1 (um) mesmo mês, a parcela isenta deve ser considerada em relação à soma desses pagamentos.
 
 
 
 
-  - **§ 3º** Os rendimentos que excederem o limite de isenção de que trata o caput não poderão ser aproveitados para fruição da isenção em meses subsequentes.
+    - **§ 2º** Caso esteja obrigado a apresentar a DAA, o contribuinte deverá informar a soma dos valores mensais recebidos e considerados isentos na forma deste artigo.
+
+
+
+
+    - **§ 3º** Os rendimentos que excederem o limite de isenção de que trata o caput não poderão ser aproveitados para fruição da isenção em meses subsequentes.
 
 
 
 * **Subseção III Das Disposições Gerais**
 
 
-* **Art. 110. A Fifa ou Subsidiária Fifa no Brasil apresentará à Secretaria da Receita Federal do Brasil relação dos Eventos e das pessoas físicas passíveis de serem beneficiadas pelas desonerações previstas nos arts. 108 e 109.**
+  * Art. 110. A Fifa ou Subsidiária Fifa no Brasil apresentará à Secretaria da Receita Federal do Brasil relação dos Eventos e das pessoas físicas passíveis de serem beneficiadas pelas desonerações previstas nos arts. 108 e 109.
 
 
-  - **§ 1º** A relação mencionada no caput deverá ser atualizada trimestralmente ou sempre que exigido na forma prevista no Decreto nº 7.578, de 11 de outubro de 2011.
-
-
-
-
-  - **§ 2º** A Secretaria da Receita Federal do Brasil divulgará a relação das pessoas físicas e jurídicas habilitadas à fruição dos benefícios de que tratam os arts. 108 e 109.
+    - **§ 1º** A relação mencionada no caput deverá ser atualizada trimestralmente ou sempre que exigido na forma prevista no Decreto nº 7.578, de 11 de outubro de 2011.
 
 
 
-* **Art. 111. O disposto nesta Seção aplica-se aos fatos geradores que ocorrerem no período de 1º de janeiro de 2011 a 31 de dezembro de 2015.**
+
+    - **§ 2º** A Secretaria da Receita Federal do Brasil divulgará a relação das pessoas físicas e jurídicas habilitadas à fruição dos benefícios de que tratam os arts. 108 e 109.
+
+
+
+  * Art. 111. O disposto nesta Seção aplica-se aos fatos geradores que ocorrerem no período de 1º de janeiro de 2011 a 31 de dezembro de 2015.
 
 
 ###### Seção II

@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L9250compilado.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 16:52
+- **Processado em**: 02/03/2026 17:25
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
