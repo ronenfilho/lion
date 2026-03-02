@@ -2,6 +2,79 @@
 
 > Documentação detalhada da implementação RAG. Para visão geral, ver [README.md](../README.md)
 
+## Estrutura dos Documentos Markdown
+
+### Hierarquia da Legislação Brasileira (LC 95/98)
+
+Os documentos processados seguem 10 níveis hierárquicos:
+
+**Níveis 1-6 (Headings `#` a `######`)**:
+1. `#` **Título do Decreto/Lei** - Ex: "DECRETO Nº 9.580, DE 22 DE NOVEMBRO DE 2018"
+2. `##` **Preâmbulo** - Artigos antes do corpo principal (Art. 1º-5º) ou ANEXO
+3. `###` **Livro** - Ex: "LIVRO I - DA TRIBUTAÇÃO DAS PESSOAS FÍSICAS"
+4. `####` **Título** - Ex: "TÍTULO I - DOS CONTRIBUINTES E RESPONSÁVEIS"
+5. `#####` **Capítulo** - Ex: "CAPÍTULO I - DOS CONTRIBUINTES"
+6. `######` **Seção/Artigo** - Ex: "Seção I - Dos menores" ou "Art. 1º"
+
+**Níveis 7-10 (Listas `*` e `-`)**:
+7. `*` **Subseção/Artigo RIR** - Ex: "* **Art. 453**" ou "* **Subseção única - Dos alimentos**"
+8. `  -` **Parágrafo (§)** - Ex: "  - **§ 1º** São também contribuintes..."
+9. `    -` **Inciso** - Ex: "    - I - de qualquer um dos pais"
+10. `      -` **Alínea** - Ex: "      - a) rendimentos do trabalho"
+
+### Estrutura do Arquivo Markdown
+
+**1. Metadados** (linhas 1-16):
+```markdown
+---
+arquivo: D9580_processed.md
+padrão detectado: planalto
+processado em: 2026-03-02 16:52:12
+---
+```
+
+**2. Esquema Collapsible** (linhas 17-1500+):
+```markdown
+<details>
+<summary>📋 Esquema da Legislação</summary>
+
+# DECRETO Nº 9.580, DE 22 DE NOVEMBRO DE 2018
+## Art. 1º
+## Art. 2º
+### LIVRO I - DA TRIBUTAÇÃO DAS PESSOAS FÍSICAS
+#### TÍTULO I - DOS CONTRIBUINTES E RESPONSÁVEIS
+* Art. 1º
+* Art. 2º
+...
+</details>
+```
+- Mostra **apenas títulos estruturais e artigos**
+- **Não inclui**: parágrafos (§), incisos, alíneas
+- Permite navegação rápida da estrutura legal
+
+**3. Corpo do Documento** (linhas 1500+):
+```markdown
+## 📖 Texto Normativo
+
+## Art. 1º
+Texto do artigo...
+
+* **§ 1º** Texto do parágrafo...
+
+  - I - Texto do inciso...
+  
+    - a) Texto da alínea...
+```
+- Contém **todo o conteúdo** com hierarquia completa
+- Parágrafos, incisos e alíneas aparecem dentro dos artigos
+
+### Regras de Renderização
+
+- **Níveis 1-6**: Usam headings markdown (`#` a `######`)
+- **Nível 7+**: Usam listas (`*` e `-` com indentação) para compatibilidade com renderizadores
+- **Artigos**: Sem links de âncora, apenas número (Ex: "Art. 453" não "Art. 453 {#art-453}")
+- **Combinação de títulos**: "LIVRO I" + "DA TRIBUTAÇÃO" → "LIVRO I - DA TRIBUTAÇÃO"
+
 ## Componentes Core
 
 ### 1. Ingestion Pipeline
