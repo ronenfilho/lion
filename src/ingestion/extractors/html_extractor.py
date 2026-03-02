@@ -203,8 +203,41 @@ class HTMLExtractor(BaseExtractor):
             if not text or len(text) < self.min_text_length:
                 continue
 
+            # ── Prioridade máxima: detectar títulos estruturais especiais ────
+            # ANEXO e REGULAMENTO devem ser seções de nível 2, independente de CSS
+            if re.match(r"^\s*ANEXO\s*$", text, re.I):
+                _flush()
+                current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
+                content_buffer = []
+                continue
+            
+            if re.match(r"^\s*REGULAMENTO\s+(DO\s+|DA\s+)?IMPOSTO", text, re.I):
+                _flush()
+                current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
+                content_buffer = []
+                continue
+            
+            # LIVRO, TÍTULO, CAPÍTULO estruturais (podem vir com CSS incorreto)
+            if re.match(r"^\s*LIVRO\s+[IVXLCDM]+\s*$", text, re.I):
+                _flush()
+                current_section = HTMLSection(title=text, content="", level=1, tag_name=el.name)
+                content_buffer = []
+                continue
+            
+            if re.match(r"^\s*TÍTULO\s+[IVXLCDM]+\s*$", text, re.I):
+                _flush()
+                current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
+                content_buffer = []
+                continue
+
             classes = el.get("class", [])
             mapping = _lookup_css(classes) if classes else None
+
+            # ── Sobrescrever mapping se texto começar com "Art." ─────────────
+            # Artigos podem ter classes incorretas (MsoNormal, 04ParteNormativa)
+            # mas devem SEMPRE criar uma seção de artigo
+            if _is_article_start(text):
+                mapping = (3, "### ", "article")  # Nível 3 para artigos do preâmbulo
 
             if mapping is None and el.name in ("h1","h2","h3","h4","h5","h6"):
                 lvl = int(el.name[1])
@@ -269,7 +302,83 @@ class HTMLExtractor(BaseExtractor):
                     metadata={"type": "tabela"},
                 ))
 
-        return sections
+        # ── Pós-processamento: combinar títulos consecutivos específicos ─────
+        # Combinar apenas padrões conhecidos da legislação brasileira:
+        # 1. "ANEXO" + "REGULAMENTO..."
+        # 2. "LIVRO X" + "DA/DO/DAS..."
+        # 3. "TÍTULO X" + "DA/DO/DAS..."
+        # 4. "CAPÍTULO X" + texto descritivo
+        # 5. "Seção X" + texto descritivo
+        # 6. "Subseção X" + texto descritivo
+        combined_sections: List[HTMLSection] = []
+        i = 0
+        while i < len(sections):
+            current = sections[i]
+            
+            # Se a seção atual tem título mas não tem conteúdo, verificar a próxima
+            if current.title and not current.content.strip() and (i + 1) < len(sections):
+                next_sec = sections[i + 1]
+                
+                # A próxima deve ter título
+                if next_sec.title:
+                    current_title_upper = current.title.upper().strip()
+                    next_title_upper = next_sec.title.upper().strip()
+                    
+                    should_combine = False
+                    
+                    # ANEXO + REGULAMENTO
+                    if current_title_upper == "ANEXO" and "REGULAMENTO" in next_title_upper:
+                        should_combine = True
+                    
+                    # LIVRO X + DA/DO/DAS... (ambas vazias)
+                    elif not next_sec.content.strip() and \
+                         re.match(r"LIVRO\s+[IVXLCDM]+$", current_title_upper) and \
+                         re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
+                        should_combine = True
+                    
+                    # TÍTULO X + DA/DO/DAS... (ambas vazias)
+                    elif not next_sec.content.strip() and \
+                         re.match(r"TÍTULO\s+[IVXLCDM]+$", current_title_upper) and \
+                         re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
+                        should_combine = True
+                    
+                    # CAPÍTULO X + texto descritivo (ambas vazias, não artigo)
+                    elif not next_sec.content.strip() and \
+                         re.match(r"CAPÍTULO\s+[IVXLCDM0-9]+$", current_title_upper) and \
+                         not re.match(r"^ART\.", next_title_upper):
+                        should_combine = True
+                    
+                    # Seção X + texto descritivo (ambas vazias, não artigo)
+                    elif not next_sec.content.strip() and \
+                         re.match(r"SE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
+                         not re.match(r"^ART\.", next_title_upper):
+                        should_combine = True
+                    
+                    # Subseção X + texto descritivo (ambas vazias, não artigo)
+                    elif not next_sec.content.strip() and \
+                         re.match(r"SUBSE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
+                         not re.match(r"^ART\.", next_title_upper):
+                        should_combine = True
+                    
+                    if should_combine:
+                        # Combinar os títulos
+                        combined_title = f"{current.title} - {next_sec.title}"
+                        combined_section = HTMLSection(
+                            title=combined_title,
+                            content=next_sec.content,  # Pegar conteúdo da segunda (pode estar vazio ou não)
+                            level=min(current.level, next_sec.level),
+                            tag_name=current.tag_name,
+                            metadata=current.metadata,
+                        )
+                        combined_sections.append(combined_section)
+                        i += 2  # Pular ambas as seções
+                        continue
+            
+            # Caso contrário, adicionar a seção normalmente
+            combined_sections.append(current)
+            i += 1
+
+        return combined_sections
 
     # ------------------------------------------------------------------
     # Padrão RFB SPA
@@ -401,6 +510,118 @@ class HTMLExtractor(BaseExtractor):
         return meta
 
     # ------------------------------------------------------------------
+    # Esquema hierárquico customizado
+    # ------------------------------------------------------------------
+
+    def _build_esquema(
+        self,
+        sections: List[HTMLSection],
+        full_text: str,
+        max_entries: int = None,  # None = sem limite
+        doc_title: str = "",  # Título do documento
+    ) -> List[str]:
+        """
+        Constrói o Esquema hierárquico da legislação.
+        
+        IMPORTANTE: Mostra APENAS os TÍTULOS das seções (headings),
+        SEM incluir o conteúdo dos artigos (parágrafos, incisos, alíneas).
+        Esses elementos devem aparecer apenas no corpo do documento.
+        """
+        # ── Detectar contexto estrutural ────────────────────────────────────
+        has_preamble = False
+        has_anexo = False
+        first_structural_idx = -1
+
+        for i, sec in enumerate(sections):
+            # Detectar se há artigos antes da estrutura principal
+            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+", sec.title, re.I)):
+                if first_structural_idx == -1:  # Ainda não encontrou estrutura principal
+                    has_preamble = True
+            # Encontrar onde começa a estrutura principal
+            if re.match(r"ANEXO.*REGULAMENTO|REGULAMENTO", sec.title, re.I):
+                has_anexo = True
+                if first_structural_idx == -1:
+                    first_structural_idx = i
+                break
+            if sec.level == 1 or (sec.level == 2 and re.match(r"(LIVRO|TÍTULO)", sec.title, re.I)):
+                if first_structural_idx == -1:
+                    first_structural_idx = i
+                break
+
+        # ── Construir lista de headings remapeados (APENAS TÍTULOS) ─────────
+        headings: List[Tuple[int, str]] = []
+
+        # ── Adicionar título do documento no início (nível 1) ───────────────
+        if doc_title:
+            headings.append((1, doc_title))
+
+        for idx, sec in enumerate(sections):
+            raw_level = sec.level
+            title = sec.title.strip()
+
+            if not title:
+                continue
+
+            # Limpar título
+            clean_title = re.sub(r"\s*\{#[^}]+\}", "", title).strip()
+            clean_title = re.sub(r"\s*\((?:Incluído|Redação|Revogado|Acrescido)[^)]*\)", "", clean_title, flags=re.I).strip()
+            clean_title = re.sub(r"\s+Produção de efeitos.*$", "", clean_title).strip()
+            if len(clean_title) > 100:
+                clean_title = clean_title[:97] + "…"
+
+            # ── Remapear níveis (mesma lógica do save_to_markdown) ──────────
+            md_level = 0
+            is_article = bool(re.match(r"Art\.?\s*\d+", clean_title, re.I))
+            is_anexo = bool(re.match(r"ANEXO.*REGULAMENTO|REGULAMENTO", clean_title, re.I))
+
+            # Preâmbulo: artigos ANTES do first_structural_idx
+            if first_structural_idx > 0 and idx < first_structural_idx and is_article:
+                md_level = 2
+
+            # ANEXO
+            elif is_anexo:
+                md_level = 2
+
+            # Pós-anexo: hierarquia LC 95/98
+            elif first_structural_idx >= 0 and idx >= first_structural_idx:
+                if raw_level == 1:  # Livro
+                    md_level = 3
+                elif raw_level == 2:  # Título
+                    md_level = 4
+                elif raw_level == 3:  # Capítulo / Artigo RIR
+                    if is_article:
+                        md_level = 7  # Artigos #######
+                    else:
+                        md_level = 5  # Capítulos #####
+                elif raw_level == 4:  # Seção
+                    md_level = 6
+                elif raw_level == 5:  # Subseção
+                    md_level = 7
+                elif raw_level == 6:  # Artigo
+                    md_level = 7
+                else:
+                    md_level = raw_level
+            else:
+                md_level = raw_level
+
+            if md_level > 0:
+                headings.append((md_level, clean_title))
+
+        if not headings:
+            return []
+
+        # ── Montar linhas Markdown ───────────────────────────────────────────
+        out: List[str] = []
+        out += ["<details>", "<summary>📋 Esquema da Legislação</summary>", ""]
+
+        for lvl, title in headings:
+            hashes = "#" * max(1, min(lvl, 10))  # Suporta até nível 10
+            out.append(f"{hashes} {title}")
+
+        out += ["", "</details>", "", "---", ""]
+        return out
+
+    # ------------------------------------------------------------------
     # Persistência
     # ------------------------------------------------------------------
 
@@ -425,6 +646,14 @@ class HTMLExtractor(BaseExtractor):
 
         lines: List[str] = []
         title = metadata.get("title") or source_path.stem
+        
+        # ── Tentar extrair título real do decreto da primeira seção L0 ──────
+        if sections and sections[0].level == 0 and sections[0].content:
+            first_line = sections[0].content.split('\n')[0].strip()
+            # Se parece com título de decreto/lei, usar
+            if re.match(r"^(DECRETO|LEI|INSTRUÇÃO NORMATIVA|PORTARIA|RESOLUÇÃO)", first_line, re.I):
+                title = first_line
+        
         lines += [f"# {title}", ""]
 
         lines += [
@@ -441,27 +670,144 @@ class HTMLExtractor(BaseExtractor):
         lines += ["", "</details>", "", "---", ""]
 
         # --- Esquema hierárquico da legislação ---
-        lines.extend(self._build_esquema(sections, full_text))
+        lines.extend(self._build_esquema(sections, full_text, doc_title=title))
 
         lines += ["## 📖 Texto Normativo", ""]
 
-        for section in sections:
-            level = max(1, min(section.level, 6)) if section.level > 0 else 0
+        # ── Detectar contexto estrutural do documento ────────────────────────
+        # Identifica se há preâmbulo (seções L0 ou Art. antes do primeiro Livro/Anexo)
+        # e se há anexo explícito para calcular offset correto dos níveis
+        has_preamble = False
+        has_anexo = False
+        first_structural_idx = -1
 
-            if section.title:
-                if level > 0:
-                    # Adicionar âncora em TODOS os headings de artigo (qualquer nível)
-                    art_m = re.match(r"Art\.?\s*(\d+[º°]?(?:-[A-Z])?)", section.title, re.I)
-                    if art_m:
-                        art_id = re.sub(r"[º°]", "", art_m.group(1)).lower()
-                        lines += ["", f"{'#' * level} {section.title} {{#art-{art_id}}}", ""]
+        for i, sec in enumerate(sections):
+            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+", sec.title, re.I)):
+                has_preamble = True
+            if re.match(r"ANEXO|REGULAMENTO", sec.title, re.I):
+                has_anexo = True
+                first_structural_idx = i
+                break
+            if sec.level == 1 or (sec.level > 1 and re.match(r"(LIVRO|TÍTULO|CAPÍTULO)", sec.title, re.I)):
+                first_structural_idx = i
+                break
+
+        # ── Processar seções com remapeamento dinâmico de níveis ────────────
+        for idx, section in enumerate(sections):
+            raw_level = section.level
+            title = section.title
+            content = section.content
+
+            # ── Determinar nível markdown ajustado ──────────────────────────
+            # Estrutura esperada:
+            #   # → Decreto (raiz)
+            #   ## → Artigos do preâmbulo / ANEXO
+            #   ### → LIVRO
+            #   #### → TÍTULO
+            #   ##### → CAPÍTULO
+            #   ###### → SEÇÃO / Artigo (contexto RIR)
+            #   ####### → SUBSEÇÃO / § (parágrafo)
+            #   ######## → Inciso I, II, III
+            #   ######### → Alínea a), b), c)
+
+            md_level = 0
+            is_article = bool(re.match(r"Art\.?\s*\d+", title, re.I))
+            is_anexo = bool(re.match(r"ANEXO|REGULAMENTO", title, re.I))
+
+            # Preâmbulo: artigos antes da estrutura principal
+            if has_preamble and idx < first_structural_idx and is_article:
+                md_level = 2  # ## Art. 1º (preâmbulo)
+
+            # ANEXO é nível 2
+            elif is_anexo:
+                md_level = 2
+
+            # Contexto pós-anexo: mapear estrutura hierárquica LC 95/98
+            elif first_structural_idx >= 0 and idx >= first_structural_idx:
+                if raw_level == 1:  # Livro
+                    md_level = 3
+                elif raw_level == 2:  # Título
+                    md_level = 4
+                elif raw_level == 3:  # Capítulo / Artigo RIR
+                    if is_article:
+                        md_level = 6  # Artigos no RIR ficam ######
                     else:
-                        lines += ["", f"{'#' * level} {section.title}", ""]
+                        md_level = 5  # Capítulos #####
+                elif raw_level == 4:  # Seção
+                    md_level = 6
+                elif raw_level == 5:  # Subseção
+                    md_level = 7
+                elif raw_level == 6:  # Artigo
+                    md_level = 7
                 else:
-                    lines += ["", f"**{section.title}**", ""]
+                    md_level = raw_level  # fallback
 
-            if section.content:
-                lines += section.content.split("\n")
+            # Seções L0 (texto sem título estrutural)
+            elif raw_level == 0:
+                md_level = 0
+
+            # Fallback: manter nível original
+            else:
+                md_level = raw_level
+
+            # ── Renderizar título da seção ──────────────────────────────────
+            if title and md_level > 0:
+                art_m = re.match(r"Art\.?\s*(\d+[º°]?(?:-[A-Z])?)", title, re.I)
+                if art_m:
+                    art_id = re.sub(r"[º°]", "", art_m.group(1)).lower()
+                    lines += ["", f"{'#' * md_level} {title} {{#art-{art_id}}}", ""]
+                else:
+                    lines += ["", f"{'#' * md_level} {title}", ""]
+            elif title and md_level == 0:
+                lines += ["", f"**{title}**", ""]
+
+            # ── Processar conteúdo com sub-hierarquia ───────────────────────
+            # Expandir parágrafos (§), incisos (I, II, III), alíneas (a, b, c)
+            # como níveis hierárquicos adicionais
+            if content:
+                content_lines = content.split("\n")
+                for line in content_lines:
+                    line_stripped = line.strip()
+                    if not line_stripped:
+                        lines.append("")
+                        continue
+
+                    # Parágrafo: ####### ou ########
+                    par_m = re.match(r"^(\*\*)?\s*(§\s*(?:único|Único|\d+[º°]?)\.?)\s*(.*?)(\*\*)?$", line_stripped)
+                    if par_m:
+                        par_marker = par_m.group(2)
+                        par_text = par_m.group(3).strip()
+                        # Nível 8 para § (um abaixo de artigo nível 7)
+                        par_level = md_level + 1 if md_level > 0 else 7
+                        if par_text:
+                            lines += ["", f"{'#' * par_level} {par_marker} {par_text}", ""]
+                        else:
+                            lines += ["", f"{'#' * par_level} {par_marker}", ""]
+                        continue
+
+                    # Inciso romano: I -, II -, III - ...
+                    inciso_m = re.match(r"^-?\s*([IVX]+)\s*[-–—]\s*(.*)", line_stripped)
+                    if inciso_m:
+                        inciso_num = inciso_m.group(1)
+                        inciso_text = inciso_m.group(2).strip()
+                        # Nível 9 para incisos (dentro de §)
+                        inciso_level = md_level + 2 if md_level > 0 else 8
+                        lines += ["", f"{'#' * inciso_level} {inciso_num} - {inciso_text}", ""]
+                        continue
+
+                    # Alínea: a), b), c) ...
+                    alinea_m = re.match(r"^-?\s*([a-z])\)\s*(.*)", line_stripped)
+                    if alinea_m:
+                        alinea_letra = alinea_m.group(1)
+                        alinea_text = alinea_m.group(2).strip()
+                        # Nível 10 para alíneas (dentro de inciso)
+                        alinea_level = md_level + 3 if md_level > 0 else 9
+                        lines += ["", f"{'#' * alinea_level} {alinea_letra}) {alinea_text}", ""]
+                        continue
+
+                    # Texto normal
+                    lines.append(line)
+
                 lines.append("")
 
         lines += ["---", "", "*Processado automaticamente pelo LION RAG System*"]

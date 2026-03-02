@@ -1,11 +1,11 @@
-# L9250compilado
+# LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995.
 
 <details>
 <summary>📋 Metadados do Documento</summary>
 
 - **Arquivo**: `L9250compilado.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 12:58
+- **Processado em**: 02/03/2026 14:12
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -16,64 +16,66 @@
 <details>
 <summary>📋 Esquema da Legislação</summary>
 
+# LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995.
 ### CAPÍTULO I
-###### Art. 1º
-###### Art. 2º
+### Art. 1º
+### Art. 2º
 ### CAPÍTULO II
-###### Art. 3º
-###### Art. 3º-A.
-###### Art. 4º.
-###### Art. 5º
-###### Art. 6º
+### Art. 3º
+### Art. 3º-A.
+### Art. 4º.
+### Art. 5º
+### Art. 6º
 ### CAPÍTULO II-A
 ### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS
-###### Art. 6º-A.
+### Art. 6º-A.
 ### CAPÍTULO III
-###### Art. 7º
-###### Art. 8º
-###### Art. 9º
-###### Art. 11.
-###### Art. 11-A.
-###### Art. 12.
-###### Art. 13.
-###### Art. 14.
-###### Art. 15.
-###### Art. 16.
+### Art. 7º
+### Art. 8º
+### Art. 9º
+### Art. 10.
+### Art. 11.
+### Art. 11-A.
+### Art. 12.
+### Art. 13.
+### Art. 14.
+### Art. 15.
+### Art. 16.
 ### CAPÍTULO III-A
 ### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS
-### Art. 16-A. A partir do exercício de 2027, ano-calendário de 2026, a pessoa física cuja soma de todos os rendimentos r…
-###### Art. 16-B.
+### Art. 16-A.
+### Art. 16-B.
 ### CAPÍTULO IV
-###### Art. 17.
-###### Art. 18.
-###### Art. 19.
-###### Art. 20.
-###### Art. 21.
+### Art. 17.
+### Art. 18.
+### Art. 19.
+### Art. 20.
+### Art. 21.
 ### CAPÍTULO V
-###### Art. 22.
-###### Art. 23.
-###### Art. 24.
+### Art. 22.
+### Art. 23.
+### Art. 24.
 ### CAPÍTULO VI
-###### Art. 25.
+### Art. 25.
 ### CAPÍTULO VII
-###### Art. 26.
-###### Art. 27.
-###### Art. 28.
-###### Art. 29.
-###### Art. 30.
-###### Art. 31.
-###### Art. 32.
-###### Art. 33.
-###### Art. 34.
-###### Art. 35.
+### Art. 26.
+### Art. 27.
+### Art. 28.
+### Art. 29.
+### Art. 30.
+### Art. 31.
+### Art. 32.
+### Art. 33.
+### Art. 34.
+### Art. 35.
 ### CAPÍTULO VIII
-###### Art. 36.
-###### Art. 37.
-###### Art. 38.
-###### Art. 39.
-###### Art. 40.
-###### Art. 41.
-###### Art. 42.
+### Art. 36.
+### Art. 37.
+### Art. 38.
+### Art. 39.
+### Art. 40.
+### Art. 41.
+### Art. 42.
 
 </details>
 
@@ -85,7 +87,7 @@ LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995.
 O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 
 
-### CAPÍTULO I
+##### CAPÍTULO I
 
 DISPOSIÇÕES PRELIMINARES
 
@@ -100,7 +102,7 @@ A partir de 1º de janeiro de 1996 o imposto de renda das pessoas físicas será
 Os valores expressos em UFIR na legislação do imposto de renda das pessoas físicas ficam convertidos em Reais, tomando-se por base o valor da UFIR vigente em 1º de janeiro de 1996.
 
 
-### CAPÍTULO II
+##### CAPÍTULO II
 
 DA INCIDÊNCIA MENSAL DO IMPOSTO
 
@@ -116,64 +118,136 @@ Parágrafo único. O imposto de que trata este artigo será calculado sobre os r
 A partir do mês de janeiro do ano-calendário de 2026, será concedida redução do imposto sobre os rendimentos tributáveis sujeitos à incidência mensal do Imposto sobre a Renda das Pessoas Físicas, de acordo com a seguinte tabela: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 Tabela de redução do imposto mensal
 
-**§ 1º O valor da redução de que trata o caput deste artigo fica limitado ao valor do imposto determinado de acordo com a tabela progressiva mensal e com o disposto no art. 4º desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+
+####### § 1º O valor da redução de que trata o caput deste artigo fica limitado ao valor do imposto determinado de acordo com a tabela progressiva mensal e com o disposto no art. 4º desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-**§ 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos à incidência mensal superior a R$ 7.350,00 (sete mil, trezentos e cinquenta reais) não terão redução no imposto devido. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
 
 
-**§ 3º A redução do imposto de que trata este artigo também será aplicada no cálculo do imposto cobrado exclusivamente na fonte no pagamento do décimo terceiro salário a que se refere o inciso VIII do caput do art. 7º da Constituição Federal. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+####### § 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos à incidência mensal superior a R$ 7.350,00 (sete mil, trezentos e cinquenta reais) não terão redução no imposto devido. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+
+####### § 3º A redução do imposto de que trata este artigo também será aplicada no cálculo do imposto cobrado exclusivamente na fonte no pagamento do décimo terceiro salário a que se refere o inciso VIII do caput do art. 7º da Constituição Federal. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
 
 
 ###### Art. 4º. {#art-4}
 
 Na determinação da base de cálculo sujeita à incidência mensal do imposto de renda poderão ser deduzidas:
-- I - a soma dos valores referidos no art. 6º da Lei nº 8.134, de 27 de dezembro de 1990 ;
-- II – as importâncias pagas a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 1.124-A da Lei n o 5.869, de 11 de janeiro de 1973 - Código de Processo Civil; (Redação dada pela Lei nº 11.727, de 2008) (Produção de efeitos)
-- III - a quantia, por dependente, de: (Redação dada pela Lei nº 11.482, de 2007)
-  - a) R$ 132,05 (cento e trinta e dois reais e cinco centavos), para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)
-  - b) R$ 137,99 (cento e trinta e sete reais e noventa e nove centavos), para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)
-  - c) R$ 144,20 (cento e quarenta e quatro reais e vinte centavos), para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)
-  - d) R$ 150,69 (cento e cinquenta reais e sessenta e nove centavos), para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)
-  - e) R$ 157,47 (cento e cinquenta e sete reais e quarenta e sete centavos), para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)
-  - f) R$ 164,56 (cento e sessenta e quatro reais e cinquenta e seis centavos), para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)
-  - g) R$ 171,97 (cento e setenta e um reais e noventa e sete centavos), para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)
-  - h) R$ 179,71 (cento e setenta e nove reais e setenta e um centavos), para o ano-calendário de 2014 e nos meses de janeiro a março do ano-calendário de 2015; e (Redação dada pela Lei nº 13.149, de 2015)
-  - i) R$ 189,59 (cento e oitenta e nove reais e cinquenta e nove centavos), a partir do mês de abril do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)
-- IV - as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;
-- V - as contribuições para as entidades de previdência privada domiciliadas no País, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social;
-- VI - a quantia, correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno ou por entidade de previdência privada, a partir do mês em que o contribuinte completar 65 (sessenta e cinco) anos de idade, de: (Redação dada pela Lei nº 11.482, de 2007)
-  - a) R$ 1.313,69 (mil, trezentos e treze reais e sessenta e nove centavos), por mês, para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)
-  - b) R$ 1.372,81 (mil, trezentos e setenta e dois reais e oitenta e um centavos), por mês, para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)
-  - c) R$ 1.434,59 (mil, quatrocentos e trinta e quatro reais e cinqüenta e nove centavos), por mês, para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)
-  - d) R$ 1.499,15 (mil, quatrocentos e noventa e nove reais e quinze centavos), por mês, para o ano-calendário de 2010; (Redação dada pela Medida Provisória nº 528, de 2011) Produção de efeitos
-  - d) R$ 1.499,15 (mil, quatrocentos e noventa e nove reais e quinze centavos), por mês, para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)
-  - e) R$ 1.566,61 (mil, quinhentos e sessenta e seis reais e sessenta e um centavos), por mês, para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)
-  - f) R$ 1.637,11 (mil, seiscentos e trinta e sete reais e onze centavos), por mês, para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)
-  - g) R$ 1.710,78 (mil, setecentos e dez reais e setenta e oito centavos), por mês, para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)
-  - h) R$ 1.787,77 (mil, setecentos e oitenta e sete reais e setenta e sete centavos), por mês, para o ano-calendário de 2014 e nos meses de janeiro a março do ano-calendário de 2015; e (Redação dada pela Lei nº 13.149, de 2015)
-  - i) R$ 1.903,98 (mil, novecentos e três reais e noventa e oito centavos), por mês, a partir do mês de abril do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)
-- VII - as contribuições para as entidades fechadas de previdência complementar de que trata o § 15 do art. 40 da Constituição Federal, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social. (Redação dada pela Lei nº 14.463, de 2022)
 
-**§ 1º A dedução permitida pelo inciso V aplica-se exclusivamente à base de cálculo relativa aos seguintes rendimentos, assegurada, nos demais casos, a dedução dos valores pagos a esse título, por ocasião da apuração da base de cálculo do imposto devido no ano-calendário, conforme disposto na alínea e do inciso II do art. 8 o desta Lei: (Redação dada pela Lei nº 14.663, de 2023)**
+######## I - a soma dos valores referidos no art. 6º da Lei nº 8.134, de 27 de dezembro de 1990 ;
 
-- I - do trabalho com vínculo empregatício ou de administradores; e (Redação dada pela Lei nº 14.663, de 2023)
-- II - proventos de aposentados e pensionistas, quando a fonte pagadora for responsável pelo desconto e respectivo pagamento das contribuições previdenciárias . (Redação dada pela Lei nº 14.663, de 2023)
 
-**§ 2º Alternativamente às deduções de que trata o caput deste artigo, poderá ser utilizado desconto simplificado mensal, correspondente a 25% (vinte e cinco por cento) do valor máximo da faixa com alíquota zero da tabela progressiva mensal, caso seja mais benéfico ao contribuinte, dispensadas a comprovação da despesa e a indicação de sua espécie. (Redação dada pela Lei nº 14.663, de 2023)**
+######## II - as importâncias pagas a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 1.124-A da Lei n o 5.869, de 11 de janeiro de 1973 - Código de Processo Civil; (Redação dada pela Lei nº 11.727, de 2008) (Produção de efeitos)
+
+
+######## III - a quantia, por dependente, de: (Redação dada pela Lei nº 11.482, de 2007)
+
+
+######### a) R$ 132,05 (cento e trinta e dois reais e cinco centavos), para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)
+
+
+######### b) R$ 137,99 (cento e trinta e sete reais e noventa e nove centavos), para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)
+
+
+######### c) R$ 144,20 (cento e quarenta e quatro reais e vinte centavos), para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)
+
+
+######### d) R$ 150,69 (cento e cinquenta reais e sessenta e nove centavos), para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)
+
+
+######### e) R$ 157,47 (cento e cinquenta e sete reais e quarenta e sete centavos), para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)
+
+
+######### f) R$ 164,56 (cento e sessenta e quatro reais e cinquenta e seis centavos), para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)
+
+
+######### g) R$ 171,97 (cento e setenta e um reais e noventa e sete centavos), para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)
+
+
+######### h) R$ 179,71 (cento e setenta e nove reais e setenta e um centavos), para o ano-calendário de 2014 e nos meses de janeiro a março do ano-calendário de 2015; e (Redação dada pela Lei nº 13.149, de 2015)
+
+
+######### i) R$ 189,59 (cento e oitenta e nove reais e cinquenta e nove centavos), a partir do mês de abril do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)
+
+
+######## IV - as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;
+
+
+######## V - as contribuições para as entidades de previdência privada domiciliadas no País, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social;
+
+
+######## VI - a quantia, correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno ou por entidade de previdência privada, a partir do mês em que o contribuinte completar 65 (sessenta e cinco) anos de idade, de: (Redação dada pela Lei nº 11.482, de 2007)
+
+
+######### a) R$ 1.313,69 (mil, trezentos e treze reais e sessenta e nove centavos), por mês, para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)
+
+
+######### b) R$ 1.372,81 (mil, trezentos e setenta e dois reais e oitenta e um centavos), por mês, para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)
+
+
+######### c) R$ 1.434,59 (mil, quatrocentos e trinta e quatro reais e cinqüenta e nove centavos), por mês, para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)
+
+
+######### d) R$ 1.499,15 (mil, quatrocentos e noventa e nove reais e quinze centavos), por mês, para o ano-calendário de 2010; (Redação dada pela Medida Provisória nº 528, de 2011) Produção de efeitos
+
+
+######### d) R$ 1.499,15 (mil, quatrocentos e noventa e nove reais e quinze centavos), por mês, para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)
+
+
+######### e) R$ 1.566,61 (mil, quinhentos e sessenta e seis reais e sessenta e um centavos), por mês, para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)
+
+
+######### f) R$ 1.637,11 (mil, seiscentos e trinta e sete reais e onze centavos), por mês, para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)
+
+
+######### g) R$ 1.710,78 (mil, setecentos e dez reais e setenta e oito centavos), por mês, para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)
+
+
+######### h) R$ 1.787,77 (mil, setecentos e oitenta e sete reais e setenta e sete centavos), por mês, para o ano-calendário de 2014 e nos meses de janeiro a março do ano-calendário de 2015; e (Redação dada pela Lei nº 13.149, de 2015)
+
+
+######### i) R$ 1.903,98 (mil, novecentos e três reais e noventa e oito centavos), por mês, a partir do mês de abril do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)
+
+
+######## VII - as contribuições para as entidades fechadas de previdência complementar de que trata o § 15 do art. 40 da Constituição Federal, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social. (Redação dada pela Lei nº 14.463, de 2022)
+
+
+
+####### § 1º A dedução permitida pelo inciso V aplica-se exclusivamente à base de cálculo relativa aos seguintes rendimentos, assegurada, nos demais casos, a dedução dos valores pagos a esse título, por ocasião da apuração da base de cálculo do imposto devido no ano-calendário, conforme disposto na alínea e do inciso II do art. 8 o desta Lei: (Redação dada pela Lei nº 14.663, de 2023)
+
+
+
+######## I - do trabalho com vínculo empregatício ou de administradores; e (Redação dada pela Lei nº 14.663, de 2023)
+
+
+######## II - proventos de aposentados e pensionistas, quando a fonte pagadora for responsável pelo desconto e respectivo pagamento das contribuições previdenciárias . (Redação dada pela Lei nº 14.663, de 2023)
+
+
+
+####### § 2º Alternativamente às deduções de que trata o caput deste artigo, poderá ser utilizado desconto simplificado mensal, correspondente a 25% (vinte e cinco por cento) do valor máximo da faixa com alíquota zero da tabela progressiva mensal, caso seja mais benéfico ao contribuinte, dispensadas a comprovação da despesa e a indicação de sua espécie. (Redação dada pela Lei nº 14.663, de 2023)
+
 
 
 ###### Art. 5º {#art-5}
 
 As pessoas físicas residentes ou domiciliadas no Brasil que recebam rendimentos de trabalho assalariado, em moeda estrangeira, de autarquias ou repartições do Governo brasileiro, situadas no exterior, estão sujeitas ao imposto de renda na fonte incidente sobre a base de cálculo de que trata o art. 4º, mediante utilização da tabela progressiva de que trata o art. 3º.
 
-**§ 1º Os rendimentos em moeda estrangeira serão convertidos em Reais, mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento do rendimento.**
+
+####### § 1º Os rendimentos em moeda estrangeira serão convertidos em Reais, mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento do rendimento.
 
 
-**§ 2º As deduções de que tratam os incisos II, IV e V do art. 4º serão convertidas em Reais, mediante utilização do valor do dólar dos Estados Unidos da América fixado para venda pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento do rendimento.**
 
 
-**§ 3º As pessoas físicas computarão, na determinação da base de cálculo de que trata o art. 4º e na declaração de rendimentos, 25% do total dos rendimentos do trabalho assalariado recebidos nas condições referidas neste artigo.**
+####### § 2º As deduções de que tratam os incisos II, IV e V do art. 4º serão convertidas em Reais, mediante utilização do valor do dólar dos Estados Unidos da América fixado para venda pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento do rendimento.
+
+
+
+
+####### § 3º As pessoas físicas computarão, na determinação da base de cálculo de que trata o art. 4º e na declaração de rendimentos, 25% do total dos rendimentos do trabalho assalariado recebidos nas condições referidas neste artigo.
+
 
 
 ###### Art. 6º {#art-6}
@@ -181,30 +255,42 @@ As pessoas físicas residentes ou domiciliadas no Brasil que recebam rendimentos
 Os rendimentos recebidos de fontes situadas no exterior, sujeitos a tributação no Brasil, bem como o imposto pago no exterior, serão convertidos em Reais mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do recebimento do rendimento.
 
 
-### CAPÍTULO II-A (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+##### CAPÍTULO II-A (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS
+##### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS
 
 
 ###### Art. 6º-A. {#art-6-a}
 
 A partir do mês de janeiro do ano-calendário de 2026, o pagamento, o creditamento, o emprego ou a entrega de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil em montante superior a R$ 50.000,00 (cinquenta mil reais) em um mesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda das Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total do valor pago, creditado, empregado ou entregue. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
-**§ 1º São vedadas quaisquer deduções da base de cálculo. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+
+####### § 1º São vedadas quaisquer deduções da base de cálculo. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-**§ 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega de lucros e dividendos no mesmo mês, realizado por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil, o valor retido na fonte referente ao Imposto sobre a Renda das Pessoas Físicas deve ser recalculado de modo a considerar o total dos valores pagos, creditados, empregados ou entregues no mês. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
 
 
-**§ 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de que trata este artigo os lucros e dividendos: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
-
-- I - relativos a resultados apurados até o ano-calendário de 2025; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- II - cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- III - exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+####### § 2º Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega de lucros e dividendos no mesmo mês, realizado por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil, o valor retido na fonte referente ao Imposto sobre a Renda das Pessoas Físicas deve ser recalculado de modo a considerar o total dos valores pagos, creditados, empregados ou entregues no mês. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-### CAPÍTULO III
+
+
+####### § 3º Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de que trata este artigo os lucros e dividendos: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+######## I - relativos a resultados apurados até o ano-calendário de 2025; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## II - cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## III - exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+##### CAPÍTULO III
 
 DA DECLARAÇÃO DE RENDIMENTOS
 
@@ -213,28 +299,46 @@ DA DECLARAÇÃO DE RENDIMENTOS
 
 A pessoa física deverá apurar o saldo em Reais do imposto a pagar ou o valor a ser restituído, relativamente aos rendimentos percebidos no ano-calendário, e apresentar anualmente, até o último dia útil do mês de abril do ano-calendário subseqüente, declaração de rendimentos em modelo aprovado pela Secretaria da Receita Federal.
 
-**§ 1º O prazo de que trata este artigo aplica-se inclusive à declaração de rendimentos relativa ao exercício de 1996, ano-calendário de 1995.**
+
+####### § 1º O prazo de que trata este artigo aplica-se inclusive à declaração de rendimentos relativa ao exercício de 1996, ano-calendário de 1995.
 
 
-**§ 2º O Ministro da Fazenda poderá estabelecer limites e condições para dispensar pessoas físicas da obrigação de apresentar declaração de rendimentos. (Redação dada pela Lei nº 9.532, de 10.12.1997) (Produção de efeito)**
 
 
-**§ 3º Fica o Ministro da Fazenda autorizado a prorrogar o prazo para a apresentação da declaração, dentro do exercício financeiro.**
+####### § 2º O Ministro da Fazenda poderá estabelecer limites e condições para dispensar pessoas físicas da obrigação de apresentar declaração de rendimentos. (Redação dada pela Lei nº 9.532, de 10.12.1997) (Produção de efeito)
 
 
-**§ 4º Homologada a partilha ou feita a adjudicação dos bens, deverá ser apresentada pelo inventariante, dentro de trinta dias contados da data em que transitar em julgado a sentença respectiva, declaração dos rendimentos correspondentes ao período de 1º de janeiro até a data da homologação ou adjudicação.**
 
 
-**§ 5º Se a homologação ou adjudicação ocorrer antes do prazo anualmente fixado para a entrega das declarações de rendimentos, juntamente com a declaração referida no parágrafo anterior deverá ser entregue a declaração dos rendimentos correspondente ao ano-calendário anterior.**
+####### § 3º Fica o Ministro da Fazenda autorizado a prorrogar o prazo para a apresentação da declaração, dentro do exercício financeiro.
+
+
+
+
+####### § 4º Homologada a partilha ou feita a adjudicação dos bens, deverá ser apresentada pelo inventariante, dentro de trinta dias contados da data em que transitar em julgado a sentença respectiva, declaração dos rendimentos correspondentes ao período de 1º de janeiro até a data da homologação ou adjudicação.
+
+
+
+
+####### § 5º Se a homologação ou adjudicação ocorrer antes do prazo anualmente fixado para a entrega das declarações de rendimentos, juntamente com a declaração referida no parágrafo anterior deverá ser entregue a declaração dos rendimentos correspondente ao ano-calendário anterior.
+
 
 
 ###### Art. 8º {#art-8}
 
 A base de cálculo do imposto devido no ano-calendário será a diferença entre as somas:
-- I - de todos os rendimentos percebidos durante o ano-calendário, exceto os isentos, os não-tributáveis, os tributáveis exclusivamente na fonte e os sujeitos à tributação definitiva;
-- II - das deduções relativas:
-  - a) aos pagamentos efetuados, no ano-calendário, a médicos, dentistas, psicólogos, fisioterapeutas, fonoaudiólogos, terapeutas ocupacionais e hospitais, bem como as despesas com exames laboratoriais, serviços radiológicos, aparelhos ortopédicos e próteses ortopédicas e dentárias;
-  - b) a pagamentos de despesas com instrução do contribuinte e de seus dependentes, efetuados a estabelecimentos de ensino, relativamente à educação infantil, compreendendo as creches e as pré-escolas; ao ensino fundamental; ao ensino médio; à educação superior, compreendendo os cursos de graduação e de pós-graduação (mestrado, doutorado e especialização); e à educação profissional, compreendendo o ensino técnico e o tecnológico, até o limite anual individual de: (Redação dada pela Lei nº 11.482, de 2007) (Vide Medida Provisória nº 2.159-70, de 2001)
+
+######## I - de todos os rendimentos percebidos durante o ano-calendário, exceto os isentos, os não-tributáveis, os tributáveis exclusivamente na fonte e os sujeitos à tributação definitiva;
+
+
+######## II - das deduções relativas:
+
+
+######### a) aos pagamentos efetuados, no ano-calendário, a médicos, dentistas, psicólogos, fisioterapeutas, fonoaudiólogos, terapeutas ocupacionais e hospitais, bem como as despesas com exames laboratoriais, serviços radiológicos, aparelhos ortopédicos e próteses ortopédicas e dentárias;
+
+
+######### b) a pagamentos de despesas com instrução do contribuinte e de seus dependentes, efetuados a estabelecimentos de ensino, relativamente à educação infantil, compreendendo as creches e as pré-escolas; ao ensino fundamental; ao ensino médio; à educação superior, compreendendo os cursos de graduação e de pós-graduação (mestrado, doutorado e especialização); e à educação profissional, compreendendo o ensino técnico e o tecnológico, até o limite anual individual de: (Redação dada pela Lei nº 11.482, de 2007) (Vide Medida Provisória nº 2.159-70, de 2001)
+
 1. R$ 2.480,66 (dois mil, quatrocentos e oitenta reais e sessenta e seis centavos) para o ano-calendário de 2007; (Redação dada pela Lei nº 11.482, de 2007)
 2. R$ 2.592,29 (dois mil, quinhentos e noventa e dois reais e vinte e nove centavos) para o ano-calendário de 2008; (Redação dada pela Lei nº 11.482, de 2007)
 3. R$ 2.708,94 (dois mil, setecentos e oito reais e noventa e quatro centavos) para o ano-calendário de 2009; (Redação dada pela Lei nº 11.482, de 2007)
@@ -245,7 +349,9 @@ A base de cálculo do imposto devido no ano-calendário será a diferença entre
 8. R$ 3.230,46 (três mil, duzentos e trinta reais e quarenta e seis centavos) para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)
 9. R$ 3.375,83 (três mil, trezentos e setenta e cinco reais e oitenta e três centavos) para o ano-calendário de 2014; e (Redação dada pela Lei nº 13.149, de 2015)
 10. R$ 3.561,50 (três mil, quinhentos e sessenta e um reais e cinquenta centavos), a partir do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)
-  - c) à quantia, por dependente, de: (Redação dada pela Lei nº 11.482, de 2007)
+
+######### c) à quantia, por dependente, de: (Redação dada pela Lei nº 11.482, de 2007)
+
 1. R$ 1.584,60 (mil, quinhentos e oitenta e quatro reais e sessenta centavos) para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)
 2. R$ 1.655,88 (mil, seiscentos e cinqüenta e cinco reais e oitenta e oito centavos) para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)
 3. R$ 1.730,40 (mil, setecentos e trinta reais e quarenta centavos) para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)
@@ -255,45 +361,101 @@ A base de cálculo do imposto devido no ano-calendário será a diferença entre
 7. R$ 2.063,64 (dois mil, sessenta e três reais e sessenta e quatro centavos) para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)
 8. R$ 2.156,52 (dois mil, cento e cinquenta e seis reais e cinquenta e dois centavos) para o ano-calendário de 2014; e (Redação dada pela Lei nº 13.149, de 2015)
 9. R$ 2.275,08 (dois mil, duzentos e setenta e cinco reais e oito centavos) a partir do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)
-  - d) às contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;
-  - e) às contribuições para as entidades de previdência privada domiciliadas no País, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social;
-  - f) às importâncias pagas a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 1.124-A da Lei n o 5.869, de 11 de janeiro de 1973 - Código de Processo Civil; (Redação dada pela Lei nº 11.727, de 2008) (Produção de efeitos)
-  - g) às despesas escrituradas no Livro Caixa, previstas nos incisos I a III do art. 6º da Lei nº 8.134, de 27 de dezembro de 1990 , no caso de trabalho não-assalariado, inclusive dos leiloeiros e dos titulares de serviços notariais e de registro.
-  - h) (VETADO). (Incluído pela Lei nº 12.469, de 2011)
-  - i) às contribuições para as entidades fechadas de previdência complementar de que trata o § 15 do art. 40 da Constituição Federal , cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social. (Redação dada pela Lei nº 14.463, de 2022)
-  - j) (VETADO). (Incluído pela Lei nº 13.149, de 2015)
 
-**§ 1º A quantia correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, representada pela soma dos valores mensais computados a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, não integrará a soma de que trata o inciso I.**
+######### d) às contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;
 
 
-**§ 2º O disposto na alínea a do inciso II:**
-
-- I - aplica-se, também, aos pagamentos efetuados a empresas domiciliadas no País, destinados à cobertura de despesas com hospitalização, médicas e odontológicas, bem como a entidades que assegurem direito de atendimento ou ressarcimento de despesas da mesma natureza;
-- II - restringe-se aos pagamentos efetuados pelo contribuinte, relativos ao próprio tratamento e ao de seus dependentes;
-- III - limita-se a pagamentos especificados e comprovados, com indicação do nome, endereço e número de inscrição no Cadastro de Pessoas Físicas - CPF ou no Cadastro Geral de Contribuintes - CGC de quem os recebeu, podendo, na falta de documentação, ser feita indicação do cheque nominativo pelo qual foi efetuado o pagamento;
-- IV - não se aplica às despesas ressarcidas por entidade de qualquer espécie ou cobertas por contrato de seguro;
-- V - no caso de despesas com aparelhos ortopédicos e próteses ortopédicas e dentárias, exige-se a comprovação com receituário médico e nota fiscal em nome do beneficiário.
-
-**§ 3 o As despesas médicas e de educação dos alimentandos, quando realizadas pelo alimentante em virtude de cumprimento de decisão judicial, de acordo homologado judicialmente ou de escritura pública a que se refere o art. 1.124-A da Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil, poderão ser deduzidas pelo alimentante na determinação da base de cálculo do imposto de renda na declaração, observado, no caso de despesas de educação, o limite previsto na alínea b do inciso II do caput deste artigo. (Redação dada pela Lei nº 11.727, de 2008) (Produção de efeitos)**
+######### e) às contribuições para as entidades de previdência privada domiciliadas no País, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social;
 
 
-**§ 4 o (VETADO). (Incluído pela Lei nº 12.469, de 2011)**
+######### f) às importâncias pagas a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 1.124-A da Lei n o 5.869, de 11 de janeiro de 1973 - Código de Processo Civil; (Redação dada pela Lei nº 11.727, de 2008) (Produção de efeitos)
+
+
+######### g) às despesas escrituradas no Livro Caixa, previstas nos incisos I a III do art. 6º da Lei nº 8.134, de 27 de dezembro de 1990 , no caso de trabalho não-assalariado, inclusive dos leiloeiros e dos titulares de serviços notariais e de registro.
+
+
+######### h) (VETADO). (Incluído pela Lei nº 12.469, de 2011)
+
+
+######### i) às contribuições para as entidades fechadas de previdência complementar de que trata o § 15 do art. 40 da Constituição Federal , cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social. (Redação dada pela Lei nº 14.463, de 2022)
+
+
+######### j) (VETADO). (Incluído pela Lei nº 13.149, de 2015)
+
+
+
+####### § 1º A quantia correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, representada pela soma dos valores mensais computados a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, não integrará a soma de que trata o inciso I.
+
+
+
+
+####### § 2º O disposto na alínea a do inciso II:
+
+
+
+######## I - aplica-se, também, aos pagamentos efetuados a empresas domiciliadas no País, destinados à cobertura de despesas com hospitalização, médicas e odontológicas, bem como a entidades que assegurem direito de atendimento ou ressarcimento de despesas da mesma natureza;
+
+
+######## II - restringe-se aos pagamentos efetuados pelo contribuinte, relativos ao próprio tratamento e ao de seus dependentes;
+
+
+######## III - limita-se a pagamentos especificados e comprovados, com indicação do nome, endereço e número de inscrição no Cadastro de Pessoas Físicas - CPF ou no Cadastro Geral de Contribuintes - CGC de quem os recebeu, podendo, na falta de documentação, ser feita indicação do cheque nominativo pelo qual foi efetuado o pagamento;
+
+
+######## IV - não se aplica às despesas ressarcidas por entidade de qualquer espécie ou cobertas por contrato de seguro;
+
+
+######## V - no caso de despesas com aparelhos ortopédicos e próteses ortopédicas e dentárias, exige-se a comprovação com receituário médico e nota fiscal em nome do beneficiário.
+
+
+
+####### § 3 o As despesas médicas e de educação dos alimentandos, quando realizadas pelo alimentante em virtude de cumprimento de decisão judicial, de acordo homologado judicialmente ou de escritura pública a que se refere o art. 1.124-A da Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil, poderão ser deduzidas pelo alimentante na determinação da base de cálculo do imposto de renda na declaração, observado, no caso de despesas de educação, o limite previsto na alínea b do inciso II do caput deste artigo. (Redação dada pela Lei nº 11.727, de 2008) (Produção de efeitos)
+
+
+
+
+####### § 4 o (VETADO). (Incluído pela Lei nº 12.469, de 2011)
+
 
 
 ###### Art. 9º {#art-9}
 
 O resultado da atividade rural, apurado na forma da Lei nº 8.023, de 12 de abril de 1990 , com as alterações posteriores, quando positivo, integrará a base de cálculo do imposto definida no artigo anterior.
-Art. 10. O contribuinte poderá optar por desconto simplificado, que substituirá todas as deduções admitidas na legislação, correspondente à dedução de 20% (vinte por cento) do valor dos rendimentos tributáveis na Declaração de Ajuste Anual, independentemente do montante desses rendimentos, dispensadas a comprovação da despesa e a indicação de sua espécie, limitada a: (Redação dada pela Lei nº 11.482, de 2007)
-- I - R$ 11.669,72 (onze mil, seiscentos e sessenta e nove reais e setenta e dois centavos) para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)
-- II - R$ 12.194,86 (doze mil, cento e noventa e quatro reais e oitenta e seis centavos) para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)
-- III - R$ 12.743,63 (doze mil, setecentos e quarenta e três reais e sessenta e três centavos) para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)
-- IV - R$ 13.317,09 (treze mil, trezentos e dezessete reais e nove centavos) para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)
-- V - R$ 13.916,36 (treze mil, novecentos e dezesseis reais e trinta e seis centavos) para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)
-- VI - R$ 14.542,60 (quatorze mil, quinhentos e quarenta e dois reais e sessenta centavos) para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)
-- VII - R$ 15.197,02 (quinze mil, cento e noventa e sete reais e dois centavos) para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)
-- VIII - R$ 15.880,89 (quinze mil, oitocentos e oitenta reais e oitenta e nove centavos) para o ano-calendário de 2014; e (Redação dada pela Lei nº 13.149, de 2015)
-- IX - R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro reais e trinta e quatro centavos) a partir do ano-calendário de 2015 até o ano-calendário de 2025; e (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos
-- X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a partir do ano-calendário de 2026. (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+###### Art. 10. {#art-10}
+
+O contribuinte poderá optar por desconto simplificado, que substituirá todas as deduções admitidas na legislação, correspondente à dedução de 20% (vinte por cento) do valor dos rendimentos tributáveis na Declaração de Ajuste Anual, independentemente do montante desses rendimentos, dispensadas a comprovação da despesa e a indicação de sua espécie, limitada a: (Redação dada pela Lei nº 11.482, de 2007)
+
+######## I - R$ 11.669,72 (onze mil, seiscentos e sessenta e nove reais e setenta e dois centavos) para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)
+
+
+######## II - R$ 12.194,86 (doze mil, cento e noventa e quatro reais e oitenta e seis centavos) para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)
+
+
+######## III - R$ 12.743,63 (doze mil, setecentos e quarenta e três reais e sessenta e três centavos) para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)
+
+
+######## IV - R$ 13.317,09 (treze mil, trezentos e dezessete reais e nove centavos) para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)
+
+
+######## V - R$ 13.916,36 (treze mil, novecentos e dezesseis reais e trinta e seis centavos) para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)
+
+
+######## VI - R$ 14.542,60 (quatorze mil, quinhentos e quarenta e dois reais e sessenta centavos) para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)
+
+
+######## VII - R$ 15.197,02 (quinze mil, cento e noventa e sete reais e dois centavos) para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)
+
+
+######## VIII - R$ 15.880,89 (quinze mil, oitocentos e oitenta reais e oitenta e nove centavos) para o ano-calendário de 2014; e (Redação dada pela Lei nº 13.149, de 2015)
+
+
+######## IX - R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro reais e trinta e quatro centavos) a partir do ano-calendário de 2015 até o ano-calendário de 2025; e (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a partir do ano-calendário de 2026. (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos
+
 Parágrafo único. O valor deduzido não poderá ser utilizado para comprovação de acréscimo patrimonial, sendo considerado rendimento consumido. (Incluído pela Lei nº 11.482, de 2007)
 
 
@@ -307,40 +469,82 @@ Parágrafo único. O valor deduzido não poderá ser utilizado para comprovaçã
 A partir do exercício de 2027, ano-calendário de 2026, será concedida redução do Imposto sobre a Renda das Pessoas Físicas anual, apurado sobre os rendimentos tributáveis sujeitos ao ajuste anual, de acordo com a seguinte tabela: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 Tabela de redução do ajuste anual
 
-**§ 1º O valor da redução de que trata o caput deste artigo fica limitado ao valor do imposto de renda anual calculado de acordo com a tabela progressiva anual vigente no ano-calendário. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+
+####### § 1º O valor da redução de que trata o caput deste artigo fica limitado ao valor do imposto de renda anual calculado de acordo com a tabela progressiva anual vigente no ano-calendário. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-**§ 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos ao ajuste anual superiores a R$ 88.200,00 (oitenta e oito mil e duzentos reais) não terão redução no imposto devido. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+
+
+####### § 2º Os contribuintes que tiverem rendimentos tributáveis sujeitos ao ajuste anual superiores a R$ 88.200,00 (oitenta e oito mil e duzentos reais) não terão redução no imposto devido. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
 
 
 ###### Art. 12. {#art-12}
 
 Do imposto apurado conforme a tabela progressiva anual, poderão ser deduzidos: (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos
-- I - as contribuições feitas aos Fundos controlados pelos Conselhos Municipais, Estaduais e Nacional dos Direitos da Criança e do Adolescente e pelos Conselhos Municipais, Estaduais e Nacional do Idoso; (Redação dada pela Lei nº 12.213, de 2010) (Vigência)
-- II - as contribuições efetivamente realizadas em favor de projetos culturais, aprovados na forma da regulamentação do Programa Nacional de Apoio à Cultura - PRONAC, instituído pelo art. 1º da Lei nº 8.313, de 23 de dezembro de 1991;
-- III - os investimentos feitos a título de incentivo às atividades audiovisuais, na forma e condições previstas nos arts. 1º e 4º da Lei nº 8.685, de 20 de julho de 1993 ;
-- IV - (VETADO)
-- V - o imposto retido na fonte ou o pago, inclusive a título de recolhimento complementar, correspondente aos rendimentos incluídos na base de cálculo;
-- VI - o imposto pago no exterior de acordo com o previsto no art. 5º da Lei nº 4.862, de 29 de novembro de 1965.
-- VII - até o exercício de 2019, ano-calendário de 2018, a contribuição patronal paga à Previdência Social pelo empregador doméstico incidente sobre o valor da remuneração do empregado; e (Redação dada pela Lei nº 13.097, de 2015)
-- VIII - doações e patrocínios diretamente efetuados por pessoas físicas no âmbito do Programa Nacional de Apoio à Atenção Oncológica - PRONON e do Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência - PRONAS/PCD, previamente aprovados pelo Ministério da Saúde. (Redação dada pela Lei nº 12.715, de 2012)
 
-**§ 1º A soma das deduções a que se referem os incisos I a IV não poderá reduzir o imposto devido em mais de doze por cento.**
+######## I - as contribuições feitas aos Fundos controlados pelos Conselhos Municipais, Estaduais e Nacional dos Direitos da Criança e do Adolescente e pelos Conselhos Municipais, Estaduais e Nacional do Idoso; (Redação dada pela Lei nº 12.213, de 2010) (Vigência)
 
 
-**§ 2° (VETADO)**
+######## II - as contribuições efetivamente realizadas em favor de projetos culturais, aprovados na forma da regulamentação do Programa Nacional de Apoio à Cultura - PRONAC, instituído pelo art. 1º da Lei nº 8.313, de 23 de dezembro de 1991;
 
 
-**§ 3° - A dedução de que trata o inciso VII do caput deste artigo: (Incluído pela Lei nº 11.324, de 2006)**
+######## III - os investimentos feitos a título de incentivo às atividades audiovisuais, na forma e condições previstas nos arts. 1º e 4º da Lei nº 8.685, de 20 de julho de 1993 ;
 
-- I - está limitada: (Incluído pela Lei nº 11.324, de 2006)
-  - a) a 1 (um) empregado doméstico por declaração, inclusive no caso da declaração em conjunto; (Incluído pela Lei nº 11.324, de 2006)
-  - b) ao valor recolhido no ano-calendário a que se referir a declaração; (Incluído pela Lei nº 11.324, de 2006)
-- II - aplica-se somente ao modelo completo de Declaração de Ajuste Anual; (Incluído pela Lei nº 11.324, de 2006)
-- III - não poderá exceder: (Incluído pela Lei nº 11.324, de 2006)
-  - a) ao valor da contribuição patronal calculada sobre 1 (um) salário mínimo mensal, sobre o 13 o (décimo terceiro) salário e sobre a remuneração adicional de férias, referidos também a 1 (um) salário mínimo; (Incluído pela Lei nº 11.324, de 2006)
-  - b) ao valor do imposto apurado na forma do art. 11 desta Lei, deduzidos os valores de que tratam os incisos I a III do caput deste artigo; (Incluído pela Lei nº 11.324, de 2006)
-- IV - fica condicionada à comprovação da regularidade do empregador doméstico perante o regime geral de previdência social quando se tratar de contribuinte individual. (Incluído pela Lei nº 11.324, de 2006)
+
+######## IV - (VETADO)
+
+
+######## V - o imposto retido na fonte ou o pago, inclusive a título de recolhimento complementar, correspondente aos rendimentos incluídos na base de cálculo;
+
+
+######## VI - o imposto pago no exterior de acordo com o previsto no art. 5º da Lei nº 4.862, de 29 de novembro de 1965.
+
+
+######## VII - até o exercício de 2019, ano-calendário de 2018, a contribuição patronal paga à Previdência Social pelo empregador doméstico incidente sobre o valor da remuneração do empregado; e (Redação dada pela Lei nº 13.097, de 2015)
+
+
+######## VIII - doações e patrocínios diretamente efetuados por pessoas físicas no âmbito do Programa Nacional de Apoio à Atenção Oncológica - PRONON e do Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência - PRONAS/PCD, previamente aprovados pelo Ministério da Saúde. (Redação dada pela Lei nº 12.715, de 2012)
+
+
+
+####### § 1º A soma das deduções a que se referem os incisos I a IV não poderá reduzir o imposto devido em mais de doze por cento.
+
+
+
+
+####### § 2° (VETADO)
+
+
+
+
+####### § 3° - A dedução de que trata o inciso VII do caput deste artigo: (Incluído pela Lei nº 11.324, de 2006)
+
+
+
+######## I - está limitada: (Incluído pela Lei nº 11.324, de 2006)
+
+
+######### a) a 1 (um) empregado doméstico por declaração, inclusive no caso da declaração em conjunto; (Incluído pela Lei nº 11.324, de 2006)
+
+
+######### b) ao valor recolhido no ano-calendário a que se referir a declaração; (Incluído pela Lei nº 11.324, de 2006)
+
+
+######## II - aplica-se somente ao modelo completo de Declaração de Ajuste Anual; (Incluído pela Lei nº 11.324, de 2006)
+
+
+######## III - não poderá exceder: (Incluído pela Lei nº 11.324, de 2006)
+
+
+######### a) ao valor da contribuição patronal calculada sobre 1 (um) salário mínimo mensal, sobre o 13 o (décimo terceiro) salário e sobre a remuneração adicional de férias, referidos também a 1 (um) salário mínimo; (Incluído pela Lei nº 11.324, de 2006)
+
+
+######### b) ao valor do imposto apurado na forma do art. 11 desta Lei, deduzidos os valores de que tratam os incisos I a III do caput deste artigo; (Incluído pela Lei nº 11.324, de 2006)
+
+
+######## IV - fica condicionada à comprovação da regularidade do empregador doméstico perante o regime geral de previdência social quando se tratar de contribuinte individual. (Incluído pela Lei nº 11.324, de 2006)
+
 
 
 ###### Art. 13. {#art-13}
@@ -352,10 +556,18 @@ Parágrafo único. Quando positivo, o saldo do imposto deverá ser pago até o �
 ###### Art. 14. {#art-14}
 
 À opção do contribuinte, o saldo do imposto a pagar poderá ser parcelado em até 8 (oito) quotas iguais, mensais e sucessivas, observado o seguinte: (Redação dada pela Lei nº 11.311, de 2006)
-- I - nenhuma quota será inferior a R$ 50,00 (cinqüenta reais), e o imposto de valor inferior a R$ 100,00 (cem reais) será pago de uma só vez;
-- II - a primeira quota deverá ser paga no mês fixado para a entrega da declaração de rendimentos;
-- III - as demais quotas, acrescidas de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data prevista para a entrega da declaração de rendimentos até o mês anterior ao do pagamento e de 1% no mês do pagamento, vencerão no último dia útil de cada mês. (Vide Lei nº 9.430, de 1996)
-- IV - é facultado ao contribuinte antecipar, total ou parcialmente, o pagamento do imposto ou das quotas.
+
+######## I - nenhuma quota será inferior a R$ 50,00 (cinqüenta reais), e o imposto de valor inferior a R$ 100,00 (cem reais) será pago de uma só vez;
+
+
+######## II - a primeira quota deverá ser paga no mês fixado para a entrega da declaração de rendimentos;
+
+
+######## III - as demais quotas, acrescidas de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data prevista para a entrega da declaração de rendimentos até o mês anterior ao do pagamento e de 1% no mês do pagamento, vencerão no último dia útil de cada mês. (Vide Lei nº 9.430, de 1996)
+
+
+######## IV - é facultado ao contribuinte antecipar, total ou parcialmente, o pagamento do imposto ou das quotas.
+
 
 
 ###### Art. 15. {#art-15}
@@ -367,128 +579,276 @@ Nos casos de encerramento de espólio e de saída definitiva do território naci
 
 O valor da restituição do imposto de renda da pessoa física, apurado em declaração de rendimentos, será acrescido de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data prevista para a entrega da declaração de rendimentos até o mês anterior ao da liberação da restituição e de 1% no mês em que o recurso for colocado no banco à disposição do contribuinte. (Vide Lei nº 9.430, de 1996)
 Parágrafo único. Será obedecida a seguinte ordem de prioridade para recebimento da restituição do imposto de renda: (Incluído pela Lei nº 13.498, de 2017)
-- I – idosos, nos termos definidos pelo inciso IX do § 1 o do art. 3 o da Lei n o 10.741, de 1 o de outubro de 2003 ; (Incluído pela Lei nº 13.498, de 2017)
-- II – contribuintes cuja maior fonte de renda seja o magistério; (Incluído pela Lei nº 13.498, de 2017)
-- III – demais contribuintes. (Incluído pela Lei nº 13.498, de 2017)
+
+######## I - idosos, nos termos definidos pelo inciso IX do § 1 o do art. 3 o da Lei n o 10.741, de 1 o de outubro de 2003 ; (Incluído pela Lei nº 13.498, de 2017)
 
 
-### CAPÍTULO III-A (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+######## II - contribuintes cuja maior fonte de renda seja o magistério; (Incluído pela Lei nº 13.498, de 2017)
 
 
-### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS
+######## III - demais contribuintes. (Incluído pela Lei nº 13.498, de 2017)
 
 
-### Art. 16-A. A partir do exercício de 2027, ano-calendário de 2026, a pessoa física cuja soma de todos os rendimentos recebidos no ano-calendário seja superior a R$ 600.000,00 (seiscentos mil reais) fica sujeita à tributação mínima do Imposto sobre a Renda das Pessoas Físicas, nos termos deste artigo. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos {#art-16-a}
 
-**§ 1º Para fins do disposto no caput deste artigo, serão considerados, na definição da base de cálculo da tributação mínima, o resultado da atividade rural, apurado na forma dos arts. 4º , 5º e 14 da Lei nº 8.023, de 12 de abril de 1990 , e os rendimentos recebidos no ano-calendário, inclusive os tributados de forma exclusiva ou definitiva e os isentos ou sujeitos à alíquota zero ou reduzida, deduzindo-se, exclusivamente: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+##### CAPÍTULO III-A (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
-- I - os ganhos de capital, exceto os decorrentes de operações realizadas em bolsa ou no mercado de balcão organizado sujeitas à tributação com base no ganho líquido no Brasil; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- II - os rendimentos recebidos acumuladamente tributados exclusivamente na fonte, de que trata o art. 12-A da Lei nº 7.713, de 22 de dezembro de 1988 , desde que o contribuinte não tenha optado pelo ajuste anual de que trata o § 5º do referido artigo; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- III - os valores recebidos por doação em adiantamento da legítima ou da herança; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- IV - os rendimentos auferidos em contas de depósitos de poupança; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- V - a remuneração produzida pelos seguintes títulos e valores mobiliários: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-  - a) Letra Hipotecária, de que trata a Lei nº 7.684, de 2 de dezembro de 1988 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - b) Letra de Crédito Imobiliário (LCI), de que tratam os arts. 12 a 17 da Lei nº 10.931, de 2 de agosto de 2004 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - c) Certificado de Recebíveis Imobiliários (CRI), de que trata o art. 6º da Lei nº 9.514, de 20 de novembro de 1997 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - d) Letra Imobiliária Garantida (LIG), de que trata o art. 63 da Lei nº 13.097, de 19 de janeiro de 2015; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - e) Letra de Crédito do Desenvolvimento (LCD), de que trata a Lei nº 14.937, de 26 de julho de 2024 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - f) títulos e valores mobiliários relacionados a projetos de investimento e infraestrutura, de que trata o art. 2º da Lei nº 12.431, de 24 de junho de 2011 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - g) fundos de investimento de que trata o art. 3º da Lei nº 12.431, de 24 de junho de 2011 , que estabeleçam em seu regulamento a aplicação de seus recursos nos ativos de que trata a alínea “f” deste inciso em montante não inferior a 85% (oitenta e cinco por cento) do valor de referência do fundo; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - h) fundos de investimento de que trata o art. 1º da Lei nº 11.478, de 29 de maio de 2007 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - i) os rendimentos distribuídos pelos Fundos de Investimento Imobiliário (FIIs) cujas cotas sejam admitidas à negociação exclusivamente em bolsas de valores ou no mercado de balcão organizado e que possuam, no mínimo, 100 (cem) cotistas; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - j) os rendimentos distribuídos pelos Fundos de Investimento nas Cadeias Produtivas Agroindustriais (Fiagro) cujas cotas sejam admitidas à negociação exclusivamente em bolsas de valores ou no mercado de balcão organizado e que possuam, no mínimo, 100 (cem) cotistas; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-- VI - a remuneração produzida pelos seguintes títulos e valores mobiliários, de que tratam os arts. 1º e 23 da Lei nº 11.076, de 30 de dezembro de 2004 : (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-  - a) Certificado de Depósito Agropecuário (CDA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - b) Warrant Agropecuário (WA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - c) Certificado de Direitos Creditórios do Agronegócio (CDCA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - d) Letra de Crédito do Agronegócio (LCA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - e) Certificado de Recebíveis do Agronegócio (CRA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-- VII - a remuneração produzida por Cédula de Produto Rural (CPR), com liquidação financeira, de que trata a Lei nº 8.929, de 22 de agosto de 1994 , desde que negociada no mercado financeiro; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta relativa à atividade rural; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- IX - os valores recebidos a título de indenização por acidente de trabalho, por danos materiais, inclusive corporais, ou morais, ressalvados os lucros cessantes; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- X - os rendimentos isentos de que tratam os incisos XIV e XXI do caput do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988 ; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- XI - os rendimentos de títulos e valores mobiliários isentos ou sujeitos à alíquota zero do Imposto sobre a Renda, exceto os rendimentos de ações e demais participações societárias; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- XII - os lucros e dividendos: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-  - a) relativos a resultados apurados até o ano-calendário de 2025; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025 pelo órgão societário competente para tal deliberação; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - c) desde que o pagamento, o crédito, o emprego ou a entrega: (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+##### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS
+
+
+###### Art. 16-A. {#art-16-a}
+
+A partir do exercício de 2027, ano-calendário de 2026, a pessoa física cuja soma de todos os rendimentos recebidos no ano-calendário seja superior a R$ 600.000,00 (seiscentos mil reais) fica sujeita à tributação mínima do Imposto sobre a Renda das Pessoas Físicas, nos termos deste artigo. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+####### § 1º Para fins do disposto no caput deste artigo, serão considerados, na definição da base de cálculo da tributação mínima, o resultado da atividade rural, apurado na forma dos arts. 4º , 5º e 14 da Lei nº 8.023, de 12 de abril de 1990 , e os rendimentos recebidos no ano-calendário, inclusive os tributados de forma exclusiva ou definitiva e os isentos ou sujeitos à alíquota zero ou reduzida, deduzindo-se, exclusivamente: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+######## I - os ganhos de capital, exceto os decorrentes de operações realizadas em bolsa ou no mercado de balcão organizado sujeitas à tributação com base no ganho líquido no Brasil; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## II - os rendimentos recebidos acumuladamente tributados exclusivamente na fonte, de que trata o art. 12-A da Lei nº 7.713, de 22 de dezembro de 1988 , desde que o contribuinte não tenha optado pelo ajuste anual de que trata o § 5º do referido artigo; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## III - os valores recebidos por doação em adiantamento da legítima ou da herança; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## IV - os rendimentos auferidos em contas de depósitos de poupança; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## V - a remuneração produzida pelos seguintes títulos e valores mobiliários: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### a) Letra Hipotecária, de que trata a Lei nº 7.684, de 2 de dezembro de 1988 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### b) Letra de Crédito Imobiliário (LCI), de que tratam os arts. 12 a 17 da Lei nº 10.931, de 2 de agosto de 2004 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### c) Certificado de Recebíveis Imobiliários (CRI), de que trata o art. 6º da Lei nº 9.514, de 20 de novembro de 1997 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### d) Letra Imobiliária Garantida (LIG), de que trata o art. 63 da Lei nº 13.097, de 19 de janeiro de 2015; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### e) Letra de Crédito do Desenvolvimento (LCD), de que trata a Lei nº 14.937, de 26 de julho de 2024 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### f) títulos e valores mobiliários relacionados a projetos de investimento e infraestrutura, de que trata o art. 2º da Lei nº 12.431, de 24 de junho de 2011 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### g) fundos de investimento de que trata o art. 3º da Lei nº 12.431, de 24 de junho de 2011 , que estabeleçam em seu regulamento a aplicação de seus recursos nos ativos de que trata a alínea “f” deste inciso em montante não inferior a 85% (oitenta e cinco por cento) do valor de referência do fundo; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### h) fundos de investimento de que trata o art. 1º da Lei nº 11.478, de 29 de maio de 2007 ; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### i) os rendimentos distribuídos pelos Fundos de Investimento Imobiliário (FIIs) cujas cotas sejam admitidas à negociação exclusivamente em bolsas de valores ou no mercado de balcão organizado e que possuam, no mínimo, 100 (cem) cotistas; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### j) os rendimentos distribuídos pelos Fundos de Investimento nas Cadeias Produtivas Agroindustriais (Fiagro) cujas cotas sejam admitidas à negociação exclusivamente em bolsas de valores ou no mercado de balcão organizado e que possuam, no mínimo, 100 (cem) cotistas; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## VI - a remuneração produzida pelos seguintes títulos e valores mobiliários, de que tratam os arts. 1º e 23 da Lei nº 11.076, de 30 de dezembro de 2004 : (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### a) Certificado de Depósito Agropecuário (CDA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### b) Warrant Agropecuário (WA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### c) Certificado de Direitos Creditórios do Agronegócio (CDCA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### d) Letra de Crédito do Agronegócio (LCA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### e) Certificado de Recebíveis do Agronegócio (CRA); (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## VII - a remuneração produzida por Cédula de Produto Rural (CPR), com liquidação financeira, de que trata a Lei nº 8.929, de 22 de agosto de 1994 , desde que negociada no mercado financeiro; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta relativa à atividade rural; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## IX - os valores recebidos a título de indenização por acidente de trabalho, por danos materiais, inclusive corporais, ou morais, ressalvados os lucros cessantes; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## X - os rendimentos isentos de que tratam os incisos XIV e XXI do caput do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988 ; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## XI - os rendimentos de títulos e valores mobiliários isentos ou sujeitos à alíquota zero do Imposto sobre a Renda, exceto os rendimentos de ações e demais participações societárias; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## XII - os lucros e dividendos: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### a) relativos a resultados apurados até o ano-calendário de 2025; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025 pelo órgão societário competente para tal deliberação; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### c) desde que o pagamento, o crédito, o emprego ou a entrega: (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
 1. ocorra nos anos-calendário de 2026, 2027 e 2028; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 2. observe os termos previstos no ato de aprovação realizado até 31 de dezembro de 2025. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
-**§ 2º A alíquota da tributação mínima do Imposto sobre a Renda das Pessoas Físicas será fixada com base nos rendimentos apurados nos termos do § 1º deste artigo, observado o seguinte: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
 
-- I - para rendimentos iguais ou superiores a R$ 1.200.000,00 (um milhão e duzentos mil reais), a alíquota será de 10% (dez por cento); e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- II - para rendimentos superiores a R$ 600.000,00 (seiscentos mil reais) e inferiores a R$ 1.200.000,00 (um milhão e duzentos mil reais), a alíquota crescerá linearmente de 0 (zero) a 10% (dez por cento), conforme a seguinte fórmula: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+####### § 2º A alíquota da tributação mínima do Imposto sobre a Renda das Pessoas Físicas será fixada com base nos rendimentos apurados nos termos do § 1º deste artigo, observado o seguinte: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+######## I - para rendimentos iguais ou superiores a R$ 1.200.000,00 (um milhão e duzentos mil reais), a alíquota será de 10% (dez por cento); e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## II - para rendimentos superiores a R$ 600.000,00 (seiscentos mil reais) e inferiores a R$ 1.200.000,00 (um milhão e duzentos mil reais), a alíquota crescerá linearmente de 0 (zero) a 10% (dez por cento), conforme a seguinte fórmula: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
 Alíquota % = (REND/60.000) - 10, em que:
 REND = rendimentos apurados na forma prevista no § 1º deste artigo.
 
-**§ 3º O valor devido da tributação mínima do Imposto sobre a Renda das Pessoas Físicas será apurado a partir da multiplicação da alíquota pela base de cálculo, com a dedução: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
 
-- I - do Imposto sobre a Renda das Pessoas Físicas devido na declaração de ajuste anual, calculado nos termos do art. 12 desta Lei; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- II - do Imposto sobre a Renda das Pessoas Físicas retido exclusivamente na fonte incidente sobre os rendimentos incluídos na base de cálculo da tributação mínima do imposto; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- III - do Imposto sobre a Renda das Pessoas Físicas apurado com fundamento nos arts. 1º a 13 da Lei nº 14.754, de 12 de dezembro de 2023 ; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- IV - do Imposto sobre a Renda das Pessoas Físicas pago definitivamente referente aos rendimentos computados na base de cálculo da tributação mínima do imposto e não considerado nos incisos I, II e III deste parágrafo; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- V - do redutor apurado nos termos do art. 16-B desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-
-**§ 4º Caso o valor apurado nos termos do § 3º deste artigo seja negativo, o valor devido a título de tributação mínima do Imposto sobre a Renda das Pessoas Físicas será 0 (zero). (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+####### § 3º O valor devido da tributação mínima do Imposto sobre a Renda das Pessoas Físicas será apurado a partir da multiplicação da alíquota pela base de cálculo, com a dedução: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-**§ 5º Do valor apurado na forma prevista nos §§ 3º e 4º deste artigo será deduzido o montante do Imposto sobre a Renda das Pessoas Físicas na fonte antecipado nos termos do art. 6º-A desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+
+######## I - do Imposto sobre a Renda das Pessoas Físicas devido na declaração de ajuste anual, calculado nos termos do art. 12 desta Lei; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-**§ 6º O resultado obtido nos termos do § 5º deste artigo será adicionado ao saldo do Imposto sobre a Renda das Pessoas Físicas, a pagar ou a restituir, apurado na declaração de ajuste anual, nos termos do art. 12 desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+######## II - do Imposto sobre a Renda das Pessoas Físicas retido exclusivamente na fonte incidente sobre os rendimentos incluídos na base de cálculo da tributação mínima do imposto; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-**§ 7º No caso da atividade exercida pelos titulares dos serviços notariais e de registro de que trata o art. 236 da Constituição Federal , serão excluídos da base de cálculo da tributação mínima do Imposto sobre a Renda das Pessoas Físicas os repasses obrigatórios efetuados previstos em lei, incidentes sobre os emolumentos. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+######## III - do Imposto sobre a Renda das Pessoas Físicas apurado com fundamento nos arts. 1º a 13 da Lei nº 14.754, de 12 de dezembro de 2023 ; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## IV - do Imposto sobre a Renda das Pessoas Físicas pago definitivamente referente aos rendimentos computados na base de cálculo da tributação mínima do imposto e não considerado nos incisos I, II e III deste parágrafo; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## V - do redutor apurado nos termos do art. 16-B desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+####### § 4º Caso o valor apurado nos termos do § 3º deste artigo seja negativo, o valor devido a título de tributação mínima do Imposto sobre a Renda das Pessoas Físicas será 0 (zero). (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+
+####### § 5º Do valor apurado na forma prevista nos §§ 3º e 4º deste artigo será deduzido o montante do Imposto sobre a Renda das Pessoas Físicas na fonte antecipado nos termos do art. 6º-A desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+
+####### § 6º O resultado obtido nos termos do § 5º deste artigo será adicionado ao saldo do Imposto sobre a Renda das Pessoas Físicas, a pagar ou a restituir, apurado na declaração de ajuste anual, nos termos do art. 12 desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+
+####### § 7º No caso da atividade exercida pelos titulares dos serviços notariais e de registro de que trata o art. 236 da Constituição Federal , serão excluídos da base de cálculo da tributação mínima do Imposto sobre a Renda das Pessoas Físicas os repasses obrigatórios efetuados previstos em lei, incidentes sobre os emolumentos. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
 
 
 ###### Art. 16-B. {#art-16-b}
 
 Caso se verifique que a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica com a alíquota efetiva da tributação mínima do imposto de renda aplicável à pessoa física beneficiária ultrapassa a soma das alíquotas nominais do imposto sobre a renda das pessoas jurídicas e da Contribuição Social sobre o Lucro Líquido (CSLL), será concedido redutor da tributação mínima do Imposto sobre a Renda das Pessoas Físicas calculado sobre os referidos lucros e dividendos pagos, creditados, empregados ou entregues por cada pessoa jurídica à pessoa física sujeita ao pagamento da tributação mínima do imposto de que trata o art. 16-A desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
-**§ 1º A soma das alíquotas nominais a serem consideradas para fins do limite previsto no caput deste artigo correspondem a: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
 
-- I - 34% (trinta e quatro por cento), no caso de pagamento de lucros ou dividendos pelas pessoas jurídicas não alcançadas pelo disposto nos incisos II e III deste parágrafo; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- II - 40% (quarenta por cento), no caso de pagamento de lucros ou dividendos pelas pessoas jurídicas de seguros privados e de capitalização e por aquelas referidas nos incisos II, III, IV, V, VI, VII , IX e X do § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de 2001 ; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- III - 45% (quarenta e cinco por cento), no caso de pagamento de lucros ou dividendos pelas pessoas jurídicas referidas no inciso I do § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de 2001 . (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-
-**§ 2º O valor do redutor de que trata este artigo corresponderá ao resultado obtido por meio da multiplicação do montante dos lucros e dividendos pagos, creditados, empregados ou entregues à pessoa física pela pessoa jurídica pela diferença entre: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
-
-- I - a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica com a alíquota efetiva da tributação mínima do imposto de renda aplicável à pessoa física beneficiária; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- II - o percentual previsto nos incisos I, II e III do § 1º deste artigo. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-
-**§ 3º Para fins do disposto neste artigo, considera-se: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
-
-- I - alíquota efetiva de tributação dos lucros da pessoa jurídica, a razão observada, no exercício a que se referem os lucros e dividendos distribuídos, entre: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-  - a) o valor devido do imposto de renda e da CSLL da pessoa jurídica; e (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - b) o lucro contábil da pessoa jurídica; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-- II - alíquota efetiva da tributação mínima do Imposto sobre a Renda das Pessoas Físicas, a razão entre: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-  - a) o acréscimo do valor devido da tributação mínima do Imposto sobre a Renda das Pessoas Físicas, antes da redução de que trata este artigo, resultante da inclusão dos lucros e dividendos na base de cálculo da tributação mínima do imposto; e (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-  - b) o montante dos lucros e dividendos recebidos pela pessoa física no ano-calendário; e (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
-- III - lucro contábil da pessoa jurídica: o resultado do exercício antes dos tributos sobre a renda e das respectivas provisões. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-
-**§ 4º A concessão do redutor de que trata este artigo fica condicionada à apresentação de demonstrações financeiras da pessoa jurídica, elaboradas de acordo com a legislação societária e com as normas contábeis em vigor, na forma de regulamento. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+####### § 1º A soma das alíquotas nominais a serem consideradas para fins do limite previsto no caput deste artigo correspondem a: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-**§ 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa jurídica poderá ser realizado com base nas demonstrações financeiras consolidadas da fonte pagadora, na forma de regulamento. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+
+######## I - 34% (trinta e quatro por cento), no caso de pagamento de lucros ou dividendos pelas pessoas jurídicas não alcançadas pelo disposto nos incisos II e III deste parágrafo; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-**§ 6º As empresas não sujeitas ao regime de tributação pelo lucro real poderão optar por cálculo simplificado do lucro contábil, o qual corresponderá ao valor do faturamento com a dedução das seguintes despesas: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
-
-- I - folha de salários, remuneração de administradores e gerentes e respectivos encargos legais; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- II - preço de aquisição das mercadorias destinadas à venda, no caso de atividade comercial; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- III - matéria-prima agregada ao produto industrializado e material de embalagem, no caso de atividade industrial; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- IV - aluguéis de imóveis necessários à operação da empresa, desde que tenha havido retenção e recolhimento de imposto de renda pela fonte pagadora quando a legislação o exigir; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- V - juros sobre financiamentos necessários à operação da empresa, desde que concedidos por instituição financeira ou outra entidade autorizada a operar pelo Banco Central do Brasil; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-- VI - depreciação de equipamentos necessários à operação da empresa, no caso de atividade industrial, observada a regulamentação sobre depreciação a que se sujeitam as pessoas jurídicas submetidas ao regime do lucro real. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
-
-**§ 7º A Secretaria Especial da Receita Federal do Brasil do Ministério da Fazenda poderá fornecer os dados a que se refere este artigo e calcular o valor do redutor na declaração pré-preenchida do Imposto sobre a Renda das Pessoas Físicas, a partir das informações prestadas pelas pessoas jurídicas pagadoras dos lucros e dividendos. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+######## II - 40% (quarenta por cento), no caso de pagamento de lucros ou dividendos pelas pessoas jurídicas de seguros privados e de capitalização e por aquelas referidas nos incisos II, III, IV, V, VI, VII , IX e X do § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de 2001 ; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-**§ 8º O valor das bolsas concedidas no âmbito do Programa Universidade para Todos (Prouni), instituído pela Lei nº 11.096, de 13 de janeiro de 2005 , será considerado como imposto pago no cálculo da alíquota efetiva das pessoas jurídicas que aderiram ao programa, nos termos de regulamento. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos**
+######## III - 45% (quarenta e cinco por cento), no caso de pagamento de lucros ou dividendos pelas pessoas jurídicas referidas no inciso I do § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de 2001 . (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 
 
-### CAPÍTULO IV
+
+####### § 2º O valor do redutor de que trata este artigo corresponderá ao resultado obtido por meio da multiplicação do montante dos lucros e dividendos pagos, creditados, empregados ou entregues à pessoa física pela pessoa jurídica pela diferença entre: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+######## I - a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica com a alíquota efetiva da tributação mínima do imposto de renda aplicável à pessoa física beneficiária; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## II - o percentual previsto nos incisos I, II e III do § 1º deste artigo. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+####### § 3º Para fins do disposto neste artigo, considera-se: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+######## I - alíquota efetiva de tributação dos lucros da pessoa jurídica, a razão observada, no exercício a que se referem os lucros e dividendos distribuídos, entre: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### a) o valor devido do imposto de renda e da CSLL da pessoa jurídica; e (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### b) o lucro contábil da pessoa jurídica; (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## II - alíquota efetiva da tributação mínima do Imposto sobre a Renda das Pessoas Físicas, a razão entre: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### a) o acréscimo do valor devido da tributação mínima do Imposto sobre a Renda das Pessoas Físicas, antes da redução de que trata este artigo, resultante da inclusão dos lucros e dividendos na base de cálculo da tributação mínima do imposto; e (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######### b) o montante dos lucros e dividendos recebidos pela pessoa física no ano-calendário; e (Incluída pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## III - lucro contábil da pessoa jurídica: o resultado do exercício antes dos tributos sobre a renda e das respectivas provisões. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+####### § 4º A concessão do redutor de que trata este artigo fica condicionada à apresentação de demonstrações financeiras da pessoa jurídica, elaboradas de acordo com a legislação societária e com as normas contábeis em vigor, na forma de regulamento. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+
+####### § 5º O cálculo da alíquota efetiva e do imposto devido pela pessoa jurídica poderá ser realizado com base nas demonstrações financeiras consolidadas da fonte pagadora, na forma de regulamento. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+
+####### § 6º As empresas não sujeitas ao regime de tributação pelo lucro real poderão optar por cálculo simplificado do lucro contábil, o qual corresponderá ao valor do faturamento com a dedução das seguintes despesas: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+######## I - folha de salários, remuneração de administradores e gerentes e respectivos encargos legais; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## II - preço de aquisição das mercadorias destinadas à venda, no caso de atividade comercial; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## III - matéria-prima agregada ao produto industrializado e material de embalagem, no caso de atividade industrial; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## IV - aluguéis de imóveis necessários à operação da empresa, desde que tenha havido retenção e recolhimento de imposto de renda pela fonte pagadora quando a legislação o exigir; (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## V - juros sobre financiamentos necessários à operação da empresa, desde que concedidos por instituição financeira ou outra entidade autorizada a operar pelo Banco Central do Brasil; e (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+######## VI - depreciação de equipamentos necessários à operação da empresa, no caso de atividade industrial, observada a regulamentação sobre depreciação a que se sujeitam as pessoas jurídicas submetidas ao regime do lucro real. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+####### § 7º A Secretaria Especial da Receita Federal do Brasil do Ministério da Fazenda poderá fornecer os dados a que se refere este artigo e calcular o valor do redutor na declaração pré-preenchida do Imposto sobre a Renda das Pessoas Físicas, a partir das informações prestadas pelas pessoas jurídicas pagadoras dos lucros e dividendos. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+
+####### § 8º O valor das bolsas concedidas no âmbito do Programa Universidade para Todos (Prouni), instituído pela Lei nº 11.096, de 13 de janeiro de 2005 , será considerado como imposto pago no cálculo da alíquota efetiva das pessoas jurídicas que aderiram ao programa, nos termos de regulamento. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
+
+
+
+##### CAPÍTULO IV
 
 TRIBUTAÇÃO DA ATIVIDADE RURAL
 
@@ -498,7 +858,9 @@ TRIBUTAÇÃO DA ATIVIDADE RURAL
 O art. 2º da Lei nº 8.023, de 12 de abril de 1990, passa a vigorar com a seguinte redação:
 "Art. 2º .................................................................
 ........................................................................
-- V - a transformação de produtos decorrentes da atividade rural, sem que sejam alteradas a composição e as características do produto in natura, feita pelo próprio agricultor ou criador, com equipamentos e utensílios usualmente empregados nas atividades rurais, utilizando exclusivamente matéria-prima produzida na área rural explorada, tais como a pasteurização e o acondicionamento do leite, assim como o mel e o suco de laranja, acondicionados em embalagem de apresentação.
+
+######## V - a transformação de produtos decorrentes da atividade rural, sem que sejam alteradas a composição e as características do produto in natura, feita pelo próprio agricultor ou criador, com equipamentos e utensílios usualmente empregados nas atividades rurais, utilizando exclusivamente matéria-prima produzida na área rural explorada, tais como a pasteurização e o acondicionamento do leite, assim como o mel e o suco de laranja, acondicionados em embalagem de apresentação.
+
 Parágrafo único. O disposto neste artigo não se aplica à mera intermediação de animais e de produtos agrícolas."
 
 
@@ -506,13 +868,19 @@ Parágrafo único. O disposto neste artigo não se aplica à mera intermediaçã
 
 O resultado da exploração da atividade rural apurado pelas pessoas físicas, a partir do ano-calendário de 1996, será apurado mediante escrituração do Livro Caixa, que deverá abranger as receitas, as despesas de custeio, os investimentos e demais valores que integram a atividade.
 
-**§ 1º O contribuinte deverá comprovar a veracidade das receitas e das despesas escrituradas no Livro Caixa, mediante documentação idônea que identifique o adquirente ou beneficiário, o valor e a data da operação, a qual será mantida em seu poder à disposição da fiscalização, enquanto não ocorrer a decadência ou prescrição.**
+
+####### § 1º O contribuinte deverá comprovar a veracidade das receitas e das despesas escrituradas no Livro Caixa, mediante documentação idônea que identifique o adquirente ou beneficiário, o valor e a data da operação, a qual será mantida em seu poder à disposição da fiscalização, enquanto não ocorrer a decadência ou prescrição.
 
 
-**§ 2º A falta da escrituração prevista neste artigo implicará arbitramento da base de cálculo à razão de vinte por cento da receita bruta do ano-calendário.**
 
 
-**§ 3º Aos contribuintes que tenham auferido receitas anuais até o valor de R$ 56.000,00 (cinqüenta e seis mil reais) faculta-se apurar o resultado da exploração da atividade rural, mediante prova documental, dispensado o registro do Livro Caixa.**
+####### § 2º A falta da escrituração prevista neste artigo implicará arbitramento da base de cálculo à razão de vinte por cento da receita bruta do ano-calendário.
+
+
+
+
+####### § 3º Aos contribuintes que tenham auferido receitas anuais até o valor de R$ 56.000,00 (cinqüenta e seis mil reais) faculta-se apurar o resultado da exploração da atividade rural, mediante prova documental, dispensado o registro do Livro Caixa.
+
 
 
 ###### Art. 19. {#art-19}
@@ -525,13 +893,19 @@ Parágrafo único. A pessoa física fica obrigada à conservação e guarda do L
 
 O resultado decorrente da atividade rural, exercida no Brasil por residente ou domiciliado no exterior, apurado por ocasião do encerramento do ano-calendário, constituirá a base de cálculo do imposto e será tributado à alíquota de quinze por cento.
 
-**§ 1° Na hipótese de que trata este artigo, a apuração do resultado deverá ser feita por procurador, a quem compete reter e recolher o imposto devido, não sendo permitidas a opção pelo arbitramento de vinte por cento da receita bruta e a compensação de prejuízos apurados.**
+
+####### § 1° Na hipótese de que trata este artigo, a apuração do resultado deverá ser feita por procurador, a quem compete reter e recolher o imposto devido, não sendo permitidas a opção pelo arbitramento de vinte por cento da receita bruta e a compensação de prejuízos apurados.
 
 
-**§ 2° O imposto apurado deverá ser pago na data da ocorrência do fato gerador.**
 
 
-**§ 3º Ocorrendo remessa de lucros antes do encerramento do ano-calendário, o imposto deverá ser recolhido no ato sobre o valor remetido por ocasião do evento, exceto no caso de devolução de capital.**
+####### § 2° O imposto apurado deverá ser pago na data da ocorrência do fato gerador.
+
+
+
+
+####### § 3º Ocorrendo remessa de lucros antes do encerramento do ano-calendário, o imposto deverá ser recolhido no ato sobre o valor remetido por ocasião do evento, exceto no caso de devolução de capital.
+
 
 
 ###### Art. 21. {#art-21}
@@ -539,7 +913,7 @@ O resultado decorrente da atividade rural, exercida no Brasil por residente ou d
 O resultado da atividade rural exercida no exterior, por residentes e domiciliados no Brasil, convertido em reais mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil, para o último dia do ano-calendário a que se refere o resultado, sujeita-se ao mesmo tratamento tributário previsto no art. 9º, vedada a compensação de resultado positivo obtido no exterior, com resultado negativo obtido no País.
 
 
-### CAPÍTULO V
+##### CAPÍTULO V
 
 TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS
 
@@ -547,8 +921,12 @@ TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS
 ###### Art. 22. {#art-22}
 
 Fica isento do imposto de renda o ganho de capital auferido na alienação de bens e direitos de pequeno valor, cujo preço unitário de alienação, no mês em que esta se realizar, seja igual ou inferior a: (Redação dada pela Lei nº 11.196, de 2005)
-- I - R$ 20.000,00 (vinte mil reais), no caso de alienação de ações negociadas no mercado de balcão; (Incluído pela Lei nº 11.196, de 2005) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
-- II - R$ 35.000,00 (trinta e cinco mil reais), nos demais casos. (Incluído pela Lei nº 11.196, de 2005) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
+
+######## I - R$ 20.000,00 (vinte mil reais), no caso de alienação de ações negociadas no mercado de balcão; (Incluído pela Lei nº 11.196, de 2005) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
+
+
+######## II - R$ 35.000,00 (trinta e cinco mil reais), nos demais casos. (Incluído pela Lei nº 11.196, de 2005) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
+
 Parágrafo único. No caso de alienação de diversos bens ou direitos da mesma natureza, será considerado, para os efeitos deste artigo, o valor do conjunto dos bens alienados no mês. (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
 
 
@@ -562,7 +940,7 @@ Fica isento do imposto de renda o ganho de capital auferido na alienação do ú
 Na apuração do ganho de capital de bens adquiridos por meio de arrendamento mercantil, será considerado custo de aquisição o valor residual do bem acrescido dos valores pagos a título de arrendamento.
 
 
-### CAPÍTULO VI
+##### CAPÍTULO VI
 
 DA DECLARAÇÃO DE BENS E DIREITOS
 
@@ -571,29 +949,49 @@ DA DECLARAÇÃO DE BENS E DIREITOS
 
 Como parte integrante da declaração de rendimentos, a pessoa física apresentará relação pormenorizada dos bens imóveis e móveis e direitos que, no País ou no exterior, constituam o seu patrimônio e o de seus dependentes, em 31 de dezembro do ano-calendário, bem como os bens e direitos adquiridos e alienados no mesmo ano.
 
-**§ 1º Devem ser declarados:**
 
-- I - os bens imóveis, os veículos automotores, as embarcações e as aeronaves, independentemente do valor de aquisição;
-- II - os demais bens móveis, tais como antigüidades, obras de arte, objetos de uso pessoal e utensílios, adquiridos a partir do ano-calendário de 1996, cujo valor de aquisição unitário seja igual ou superior a R$ 5.000,00 (cinco mil reais);
-- III - os saldos de aplicações financeiras e de conta corrente bancária cujo valor individual, em 31 de dezembro do ano-calendário, exceda a R$ 140,00 (cento e quarenta reais);
-- IV - os investimentos em participações societárias, em ações negociadas ou não em bolsa de valores e em ouro, ativo-financeiro, adquiridos a partir do ano-calendário de 1996, cujo valor de aquisição unitário seja igual ou superior a R$ 1.000,00 (um mil reais).
-
-**§ 2º Os bens serão declarados discriminadamente pelos valores de aquisição em Reais, constantes dos respectivos instrumentos de transferência de propriedade ou da nota fiscal.**
+####### § 1º Devem ser declarados:
 
 
-**§ 3º Os bens existentes no exterior devem ser declarados pelos valores de aquisição constantes dos respectivos instrumentos de transferência de propriedade, segundo a moeda do país em que estiverem situados, convertidos em Reais pela cotação cambial de venda do dia da transmissão da propriedade.**
+
+######## I - os bens imóveis, os veículos automotores, as embarcações e as aeronaves, independentemente do valor de aquisição;
 
 
-**§ 4 o (Revogado pela Lei nº 14.754, de 2023) Produção de efeito**
+######## II - os demais bens móveis, tais como antigüidades, obras de arte, objetos de uso pessoal e utensílios, adquiridos a partir do ano-calendário de 1996, cujo valor de aquisição unitário seja igual ou superior a R$ 5.000,00 (cinco mil reais);
 
 
-**§ 5º Na declaração de bens e direitos, também deverão ser consignados os ônus reais e obrigações da pessoa física e de seus dependentes, em 31 de dezembro do ano-calendário, cujo valor seja superior a R$ 5.000,00 (cinco mil reais).**
+######## III - os saldos de aplicações financeiras e de conta corrente bancária cujo valor individual, em 31 de dezembro do ano-calendário, exceda a R$ 140,00 (cento e quarenta reais);
 
 
-**§ 6º O disposto nos incisos II e IV do § 1º poderá ser observado na declaração de bens referente ao ano-calendário de 1995, com relação aos bens móveis e aos investimentos adquiridos anteriormente a 1996.**
+######## IV - os investimentos em participações societárias, em ações negociadas ou não em bolsa de valores e em ouro, ativo-financeiro, adquiridos a partir do ano-calendário de 1996, cujo valor de aquisição unitário seja igual ou superior a R$ 1.000,00 (um mil reais).
 
 
-### CAPÍTULO VII
+
+####### § 2º Os bens serão declarados discriminadamente pelos valores de aquisição em Reais, constantes dos respectivos instrumentos de transferência de propriedade ou da nota fiscal.
+
+
+
+
+####### § 3º Os bens existentes no exterior devem ser declarados pelos valores de aquisição constantes dos respectivos instrumentos de transferência de propriedade, segundo a moeda do país em que estiverem situados, convertidos em Reais pela cotação cambial de venda do dia da transmissão da propriedade.
+
+
+
+
+####### § 4 o (Revogado pela Lei nº 14.754, de 2023) Produção de efeito
+
+
+
+
+####### § 5º Na declaração de bens e direitos, também deverão ser consignados os ônus reais e obrigações da pessoa física e de seus dependentes, em 31 de dezembro do ano-calendário, cujo valor seja superior a R$ 5.000,00 (cinco mil reais).
+
+
+
+
+####### § 6º O disposto nos incisos II e IV do § 1º poderá ser observado na declaração de bens referente ao ano-calendário de 1995, com relação aos bens móveis e aos investimentos adquiridos anteriormente a 1996.
+
+
+
+##### CAPÍTULO VII
 
 DISPOSIÇÕES GERAIS
 
@@ -615,7 +1013,9 @@ O art. 48 da Lei nº 8.541, de 23 de dezembro de 1992 , passa a vigorar com a se
 O inciso XV do art. 6º da Lei 7.713, de 22 de dezembro de 1988, passa a vigorar com a seguinte redação:
 "Art. 6º .................................................................
 ........................................................................
-- XV - os rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, até o valor de R$ 900,00 (novecentos reais), por mês, a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, sem prejuízo da parcela isenta prevista na tabela de incidência mensal do imposto."
+
+######## XV - os rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, até o valor de R$ 900,00 (novecentos reais), por mês, a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, sem prejuízo da parcela isenta prevista na tabela de incidência mensal do imposto."
+
 
 
 ###### Art. 29. {#art-29}
@@ -627,10 +1027,14 @@ Estão isentos do imposto de renda na fonte os rendimentos pagos a pessoa físic
 
 A partir de 1º de janeiro de 1996, para efeito do reconhecimento de novas isenções de que tratam os incisos XIV e XXI do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988 , com a redação dada pelo art. 47 da Lei nº 8.541, de 23 de dezembro de 1992 , a moléstia deverá ser comprovada mediante laudo pericial emitido por serviço médico oficial, da União, dos Estados, do Distrito Federal e dos Municípios.
 
-**§ 1º O serviço médico oficial fixará o prazo de validade do laudo pericial, no caso de moléstias passíveis de controle.**
+
+####### § 1º O serviço médico oficial fixará o prazo de validade do laudo pericial, no caso de moléstias passíveis de controle.
 
 
-**§ 2º Na relação das moléstias a que se refere o inciso XIV do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988 , com a redação dada pelo art. 47 da Lei nº 8.541, de 23 de dezembro de 1992 , fica incluída a fibrose cística (mucoviscidose).**
+
+
+####### § 2º Na relação das moléstias a que se refere o inciso XIV do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988 , com a redação dada pelo art. 47 da Lei nº 8.541, de 23 de dezembro de 1992 , fica incluída a fibrose cística (mucoviscidose).
+
 
 
 ###### Art. 31. {#art-31}
@@ -643,7 +1047,9 @@ A partir de 1º de janeiro de 1996, para efeito do reconhecimento de novas isen�
 O inciso VII do art. 6º da Lei 7.713, de 22 de dezembro de 1988 , passa a vigorar com a seguinte redação:
 "Art. 6º..................................................................
 ........................................................................
-- VII - os seguros recebidos de entidades de previdência privada decorrentes de morte ou invalidez permanente do participante."
+
+######## VII - os seguros recebidos de entidades de previdência privada decorrentes de morte ou invalidez permanente do participante."
+
 
 
 ###### Art. 33. {#art-33}
@@ -658,39 +1064,69 @@ As alíneas a e b do § 1º do art. 6º da Lei nº 8.134, de 27 de dezembro de 1
 "Art. 6º..................................................................
 ........................................................................
 
-**§ 1º O disposto neste artigo não se aplica:**
 
-  - a) a quotas de depreciação de instalações, máquinas e equipamentos, bem como a despesas de arrendamento;
-  - b) a despesas de locomoção e transporte, salvo no caso de representante comercial autônomo."
+####### § 1º O disposto neste artigo não se aplica:
+
+
+
+######### a) a quotas de depreciação de instalações, máquinas e equipamentos, bem como a despesas de arrendamento;
+
+
+######### b) a despesas de locomoção e transporte, salvo no caso de representante comercial autônomo."
+
 
 
 ###### Art. 35. {#art-35}
 
 Para efeito do disposto nos arts. 4º, inciso III, e 8º, inciso II, alínea c, poderão ser considerados como dependentes:
-- I - o cônjuge;
-- II - o companheiro ou a companheira, desde que haja vida em comum por mais de cinco anos, ou por período menor se da união resultou filho;
-- III - a filha, o filho, a enteada ou o enteado, até 21 anos, ou de qualquer idade quando incapacitado física ou mentalmente para o trabalho; (Vide ADIN 5583)
-- IV - o menor pobre, até 21 anos, que o contribuinte crie e eduque e do qual detenha a guarda judicial;
-- V - o irmão, o neto ou o bisneto, sem arrimo dos pais, até 21 anos, desde que o contribuinte detenha a guarda judicial, ou de qualquer idade quando incapacitado física ou mentalmente para o trabalho; (Vide ADIN 5583)
-- VI - os pais, os avós ou os bisavós, desde que não aufiram rendimentos, tributáveis ou não, superiores ao limite de isenção mensal;
-- VII - o absolutamente incapaz, do qual o contribuinte seja tutor ou curador.
 
-**§ 1º Os dependentes a que se referem os incisos III e V deste artigo poderão ser assim considerados quando maiores até 24 anos de idade, se ainda estiverem cursando estabelecimento de ensino superior ou escola técnica de segundo grau.**
+######## I - o cônjuge;
 
 
-**§ 2º Os dependentes comuns poderão, opcionalmente, ser considerados por qualquer um dos cônjuges.**
+######## II - o companheiro ou a companheira, desde que haja vida em comum por mais de cinco anos, ou por período menor se da união resultou filho;
 
 
-**§ 3º No caso de filhos de pais separados, poderão ser considerados dependentes os que ficarem sob a guarda do contribuinte, em cumprimento de decisão judicial ou acordo homologado judicialmente.**
+######## III - a filha, o filho, a enteada ou o enteado, até 21 anos, ou de qualquer idade quando incapacitado física ou mentalmente para o trabalho; (Vide ADIN 5583)
 
 
-**§ 4º É vedada a dedução concomitante do montante referente a um mesmo dependente, na determinação da base de cálculo do imposto, por mais de um contribuinte.**
+######## IV - o menor pobre, até 21 anos, que o contribuinte crie e eduque e do qual detenha a guarda judicial;
 
 
-**§ 5 o Sem prejuízo do disposto no inciso IX do parágrafo único do art. 3 o da Lei n o 10.741, de 1 o de outubro de 2003 , a pessoa com deficiência, ou o contribuinte que tenha dependente nessa condição, tem preferência na restituição referida no inciso III do art. 4 o e na alínea “c” do inciso II do art. 8 o . (Incluído pela Lei nº 13.146, de 2015) (Vigência)**
+######## V - o irmão, o neto ou o bisneto, sem arrimo dos pais, até 21 anos, desde que o contribuinte detenha a guarda judicial, ou de qualquer idade quando incapacitado física ou mentalmente para o trabalho; (Vide ADIN 5583)
 
 
-### CAPÍTULO VIII
+######## VI - os pais, os avós ou os bisavós, desde que não aufiram rendimentos, tributáveis ou não, superiores ao limite de isenção mensal;
+
+
+######## VII - o absolutamente incapaz, do qual o contribuinte seja tutor ou curador.
+
+
+
+####### § 1º Os dependentes a que se referem os incisos III e V deste artigo poderão ser assim considerados quando maiores até 24 anos de idade, se ainda estiverem cursando estabelecimento de ensino superior ou escola técnica de segundo grau.
+
+
+
+
+####### § 2º Os dependentes comuns poderão, opcionalmente, ser considerados por qualquer um dos cônjuges.
+
+
+
+
+####### § 3º No caso de filhos de pais separados, poderão ser considerados dependentes os que ficarem sob a guarda do contribuinte, em cumprimento de decisão judicial ou acordo homologado judicialmente.
+
+
+
+
+####### § 4º É vedada a dedução concomitante do montante referente a um mesmo dependente, na determinação da base de cálculo do imposto, por mais de um contribuinte.
+
+
+
+
+####### § 5 o Sem prejuízo do disposto no inciso IX do parágrafo único do art. 3 o da Lei n o 10.741, de 1 o de outubro de 2003 , a pessoa com deficiência, ou o contribuinte que tenha dependente nessa condição, tem preferência na restituição referida no inciso III do art. 4 o e na alínea “c” do inciso II do art. 8 o . (Incluído pela Lei nº 13.146, de 2015) (Vigência)
+
+
+
+##### CAPÍTULO VIII
 
 DISPOSIÇÕES FINAIS E TRANSITÓRIAS
 
@@ -703,37 +1139,59 @@ O contribuinte que no ano-calendário de 1995 tiver auferido rendimentos tribut�
 ###### Art. 37. {#art-37}
 
 Fica a Secretaria da Receita Federal autorizada a:
-- I - instituir modelo de documento fiscal a ser emitido por profissionais liberais;
-- II - celebrar, em nome da União, convênio com os Estados, Distrito Federal e Municípios, objetivando instituir cadastro único de contribuintes, em substituição aos cadastros federal, estaduais e municipais.
+
+######## I - instituir modelo de documento fiscal a ser emitido por profissionais liberais;
+
+
+######## II - celebrar, em nome da União, convênio com os Estados, Distrito Federal e Municípios, objetivando instituir cadastro único de contribuintes, em substituição aos cadastros federal, estaduais e municipais.
+
 
 
 ###### Art. 38. {#art-38}
 
 Os processos fiscais relativos a tributos e contribuições federais e a penalidades isoladas e as declarações não poderão sair dos órgãos da Secretaria da Receita Federal, salvo quando se tratar de:
-- I - encaminhamento de recursos à instância superior;
-- II - restituições de autos aos órgãos de origem;
-- III - encaminhamento de documentos para fins de processamento de dados.
 
-**§ 1º Nos casos a que se referem os incisos I e II deverá ficar cópia autenticada dos documentos essenciais na repartição.**
+######## I - encaminhamento de recursos à instância superior;
 
 
-**§ 2º É facultado o fornecimento de cópia do processo ao sujeito passivo ou a seu mandatário.**
+######## II - restituições de autos aos órgãos de origem;
+
+
+######## III - encaminhamento de documentos para fins de processamento de dados.
+
+
+
+####### § 1º Nos casos a que se referem os incisos I e II deverá ficar cópia autenticada dos documentos essenciais na repartição.
+
+
+
+
+####### § 2º É facultado o fornecimento de cópia do processo ao sujeito passivo ou a seu mandatário.
+
 
 
 ###### Art. 39. {#art-39}
 
 A compensação de que trata o art. 66 da Lei nº 8.383, de 30 de dezembro de 1991 , com a redação dada pelo art. 58 da Lei nº 9.069, de 29 de junho de 1995 , somente poderá ser efetuada com o recolhimento de importância correspondente a imposto, taxa, contribuição federal ou receitas patrimoniais de mesma espécie e destinação constitucional, apurado em períodos subseqüentes.
 
-**§ 1º (VETADO)**
+
+####### § 1º (VETADO)
 
 
-**§ 2° (VETADO)**
 
 
-**§ 3° (VETADO)**
+####### § 2° (VETADO)
 
 
-**§ 4º A partir de 1º de janeiro de 1996, a compensação ou restituição será acrescida de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data do pagamento indevido ou a maior até o mês anterior ao da compensação ou restituição e de 1% relativamente ao mês em que estiver sendo efetuada. (Vide Lei nº 9.532, de 1997)**
+
+
+####### § 3° (VETADO)
+
+
+
+
+####### § 4º A partir de 1º de janeiro de 1996, a compensação ou restituição será acrescida de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data do pagamento indevido ou a maior até o mês anterior ao da compensação ou restituição e de 1% relativamente ao mês em que estiver sendo efetuada. (Vide Lei nº 9.532, de 1997)
+
 
 
 ###### Art. 40. {#art-40}
