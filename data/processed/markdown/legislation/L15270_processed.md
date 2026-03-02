@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L15270.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 18:03
+- **Processado em**: 02/03/2026 18:22
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -463,7 +463,10 @@ Revoga-se o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995 .
 
 Esta Lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1º de janeiro de 2026 .
 Brasília, 26 de novembro de 2025; 204 o da Independência e 137 o da República.
-LUIZ INÁCIO LULA DA SILVA
+
+
+**LUIZ INÁCIO LULA DA SILVA**
+
 Fernando Haddad
 Manoel Carlos de Almeida Neto
 Simone Nassar Tebet

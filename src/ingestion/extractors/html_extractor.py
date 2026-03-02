@@ -243,8 +243,8 @@ class HTMLExtractor(BaseExtractor):
                 lvl = int(el.name[1])
                 mapping = (lvl, "#" * lvl + " ", "heading")
 
-            # Parágrafos sem classe CSS: aplicar heurística de artigo/parágrafo/inciso
-            if mapping is None:
+            # Parágrafos sem classe CSS ou com MsoNormal: aplicar heurística de artigo/parágrafo/inciso
+            if mapping is None or (mapping and mapping[0] == 0 and mapping[2] == "body"):
                 if _is_article_start(text):
                     mapping = (6, "###### ", "article")
                 elif re.match(r"^\s*§\s*(?:único|Único|\d+[º°]?)", text, re.I):
@@ -253,7 +253,12 @@ class HTMLExtractor(BaseExtractor):
                     mapping = (3, "### ", "heading")
                 elif re.match(r"^\s*SE[ÇC][ÃA]O\s+", text, re.I):
                     mapping = (4, "#### ", "heading")
-                else:
+                elif re.match(r"^\s*SUBSE[ÇC][ÃA]O\s+", text, re.I):
+                    mapping = (5, "##### ", "heading")
+                # Textos curtos em maiúsculas (possivelmente títulos descritivos) → heading temporário
+                elif len(text) < 150 and text.isupper() and not re.match(r"^\s*[IVX]+\s*[-–]", text):
+                    mapping = (0, "", "heading")  # heading temporário para combinação
+                elif mapping is None:
                     mapping = (0, "", "body")
 
             level, marker, tipo = mapping
@@ -315,68 +320,82 @@ class HTMLExtractor(BaseExtractor):
         while i < len(sections):
             current = sections[i]
             
-            # Se a seção atual tem título mas não tem conteúdo, verificar a próxima
-            if current.title and not current.content.strip() and (i + 1) < len(sections):
-                next_sec = sections[i + 1]
+            # Continuar combinando elementos consecutivos
+            combined_count = 0
+            while current.title and not current.content.strip() and (i + 1 + combined_count) < len(sections):
+                next_sec = sections[i + 1 + combined_count]
                 
                 # A próxima deve ter título
-                if next_sec.title:
-                    current_title_upper = current.title.upper().strip()
-                    next_title_upper = next_sec.title.upper().strip()
+                if not next_sec.title:
+                    break
                     
-                    should_combine = False
-                    
-                    # ANEXO + REGULAMENTO
-                    if current_title_upper == "ANEXO" and "REGULAMENTO" in next_title_upper:
-                        should_combine = True
-                    
-                    # LIVRO X + DA/DO/DAS... (ambas vazias)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"LIVRO\s+[IVXLCDM]+$", current_title_upper) and \
-                         re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
-                        should_combine = True
-                    
-                    # TÍTULO X + DA/DO/DAS... (ambas vazias)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"TÍTULO\s+[IVXLCDM]+$", current_title_upper) and \
-                         re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
-                        should_combine = True
-                    
-                    # CAPÍTULO X + texto descritivo (ambas vazias, não artigo)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"CAPÍTULO\s+[IVXLCDM0-9]+$", current_title_upper) and \
-                         not re.match(r"^ART\.", next_title_upper):
-                        should_combine = True
-                    
-                    # Seção X + texto descritivo (ambas vazias, não artigo)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"SE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
-                         not re.match(r"^ART\.", next_title_upper):
-                        should_combine = True
-                    
-                    # Subseção X/única + texto descritivo (ambas vazias, não artigo)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"SUBSE[ÇC][ÃA]O\s+(ÚNICA|[IVXLCDM0-9]+)$", current_title_upper, re.I) and \
-                         not re.match(r"^ART\.", next_title_upper):
-                        should_combine = True
-                    
-                    if should_combine:
-                        # Combinar os títulos
+                current_title_upper = current.title.upper().strip()
+                next_title_upper = next_sec.title.upper().strip()
+                
+                should_combine = False
+                
+                # ANEXO + REGULAMENTO
+                if current_title_upper == "ANEXO" and "REGULAMENTO" in next_title_upper:
+                    should_combine = True
+                
+                # LIVRO X + DA/DO/DAS... (ambas vazias)
+                elif not next_sec.content.strip() and \
+                     re.match(r"LIVRO\s+[IVXLCDM]+$", current_title_upper) and \
+                     re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
+                    should_combine = True
+                
+                # TÍTULO X + DA/DO/DAS... (ambas vazias)
+                elif not next_sec.content.strip() and \
+                     re.match(r"TÍTULO\s+[IVXLCDM]+$", current_title_upper) and \
+                     re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
+                    should_combine = True
+                
+                # CAPÍTULO X + texto descritivo (começando com DA/DO/DAS/DOS ou não artigo)
+                elif not next_sec.content.strip() and \
+                     re.match(r"CAPÍTULO\s+[IVXLCDM0-9]+$", current_title_upper) and \
+                     (re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper) or not re.match(r"^ART\.", next_title_upper)):
+                    should_combine = True
+                
+                # Seção X + texto descritivo (ambas vazias, não artigo)
+                elif not next_sec.content.strip() and \
+                     re.match(r"SE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
+                     not re.match(r"^ART\.", next_title_upper):
+                    should_combine = True
+                
+                # Subseção X/única + texto descritivo (ambas vazias, não artigo)
+                elif not next_sec.content.strip() and \
+                     re.match(r"SUBSE[ÇC][ÃA]O\s+(ÚNICA|[IVXLCDM0-9]+)$", current_title_upper, re.I) and \
+                     not re.match(r"^ART\.", next_title_upper):
+                    should_combine = True
+                
+                # Título já combinado + mais texto descritivo (não começando com maiúsculas estruturais)
+                elif not next_sec.content.strip() and \
+                     (" - " in current.title or "\n" in current.title) and \
+                     not re.match(r"^(LIVRO|TÍTULO|CAPÍTULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|ART\.)", next_title_upper, re.I):
+                    should_combine = True
+                
+                if should_combine:
+                    # Combinar os títulos
+                    if " - " in current.title:
+                        # Já tem hífen, adicionar mais texto
+                        combined_title = f"{current.title}\n{next_sec.title}"
+                    else:
                         combined_title = f"{current.title} - {next_sec.title}"
-                        combined_section = HTMLSection(
-                            title=combined_title,
-                            content=next_sec.content,  # Pegar conteúdo da segunda (pode estar vazio ou não)
-                            level=min(current.level, next_sec.level),
-                            tag_name=current.tag_name,
-                            metadata=current.metadata,
-                        )
-                        combined_sections.append(combined_section)
-                        i += 2  # Pular ambas as seções
-                        continue
+                    
+                    current = HTMLSection(
+                        title=combined_title,
+                        content=next_sec.content,  # Pegar conteúdo da segunda (pode estar vazio ou não)
+                        level=max(current.level, next_sec.level),  # Usar o maior nível para preservar hierarquia
+                        tag_name=current.tag_name,
+                        metadata=current.metadata,
+                    )
+                    combined_count += 1
+                else:
+                    break
             
-            # Caso contrário, adicionar a seção normalmente
+            # Adicionar a seção (combinada ou não)
             combined_sections.append(current)
-            i += 1
+            i += 1 + combined_count
 
         return combined_sections
 
@@ -534,7 +553,7 @@ class HTMLExtractor(BaseExtractor):
 
         for i, sec in enumerate(sections):
             # Detectar se há artigos antes da estrutura principal
-            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+", sec.title, re.I)):
+            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+(?:\.\d{3})*", sec.title, re.I)):
                 if first_structural_idx == -1:  # Ainda não encontrou estrutura principal
                     has_preamble = True
             # Encontrar onde começa a estrutura principal
@@ -572,7 +591,7 @@ class HTMLExtractor(BaseExtractor):
             
             # ── Para artigos REAIS, manter apenas "Art. Xº" sem o conteúdo ────────
             if is_article:
-                art_match = re.match(r"(Art\.?\s*\d+[º°]?(?:-[A-Z])?)\s*.*", clean_title, re.I)
+                art_match = re.match(r"(Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?)\s*.*", clean_title, re.I)
                 if art_match:
                     clean_title = art_match.group(1)
             # Não truncar títulos estruturais importantes
@@ -718,7 +737,7 @@ class HTMLExtractor(BaseExtractor):
         first_structural_idx = -1
 
         for i, sec in enumerate(sections):
-            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+", sec.title, re.I)):
+            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+(?:\.\d{3})*", sec.title, re.I)):
                 has_preamble = True
             if re.match(r"ANEXO|REGULAMENTO", sec.title, re.I):
                 has_anexo = True
@@ -962,11 +981,12 @@ def _get_element_text(el) -> str:
 
 def _is_article_start(text: str) -> bool:
     """Verifica se o texto começa com Art. e é um artigo real, não uma referência."""
-    if not re.match(r"^\s*Art\.?\s*\d+[º°]?", text, re.I):
+    # Aceitar números com separador de milhar (ex: Art. 1.000)
+    if not re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?", text, re.I):
         return False
     
     # Extrair o que vem depois de "Art. Xº"
-    m = re.match(r"^\s*Art\.?\s*\d+[º°]?(?:-[A-Z])?\.?\s*(.*)", text, re.DOTALL | re.I)
+    m = re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?\.?\s*(.*)", text, re.DOTALL | re.I)
     if not m:
         return True  # Apenas "Art. X" sem nada, é artigo
     
@@ -989,7 +1009,7 @@ def _is_article_start(text: str) -> bool:
 
 
 def _split_article_head(text: str) -> Tuple[str, str]:
-    m = re.match(r"^(Art\.?\s*\d+[º°]?(?:-[A-Z])?\.?)\s*(.*)", text, re.DOTALL)
+    m = re.match(r"^(Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?\.?)\s*(.*)", text, re.DOTALL)
     if m:
         return m.group(1).strip(), m.group(2).strip()
     return text, ""
@@ -1012,7 +1032,7 @@ def _classify_rfb_segment(text: str) -> Optional[int]:
         return 4
     if re.match(r"^\s*SUBSE[ÇC][ÃA]O", text, re.I):
         return 5
-    if re.match(r"^\s*Art\.?\s*\d+[º°]?", text, re.I):
+    if re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?", text, re.I):
         return 6
     return None
 

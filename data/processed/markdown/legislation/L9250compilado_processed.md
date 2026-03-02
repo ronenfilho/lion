@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L9250compilado.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 18:03
+- **Processado em**: 02/03/2026 18:22
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -17,10 +17,10 @@
 <summary>📋 Esquema da Legislação</summary>
 
 # LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995.
-### CAPÍTULO I
+### CAPÍTULO I - DISPOSIÇÕES PRELIMINARES
 ### Art. 1º
 ### Art. 2º
-### CAPÍTULO II
+### CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO
 ### Art. 3º
 ### Art. 3º-A
 ### Art. 4º
@@ -29,7 +29,7 @@
 ### CAPÍTULO II-A
 ### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS
 ### Art. 6º-A
-### CAPÍTULO III
+### CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS
 ### Art. 7º
 ### Art. 8º
 ### Art. 9º
@@ -45,19 +45,19 @@
 ### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS
 ### Art. 16-A
 ### Art. 16-B
-### CAPÍTULO IV
+### CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL
 ### Art. 17
 ### Art. 18
 ### Art. 19
 ### Art. 20
 ### Art. 21
-### CAPÍTULO V
+### CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS
 ### Art. 22
 ### Art. 23
 ### Art. 24
-### CAPÍTULO VI
+### CAPÍTULO VI - DA DECLARAÇÃO DE BENS E DIREITOS
 ### Art. 25
-### CAPÍTULO VII
+### CAPÍTULO VII - DISPOSIÇÕES GERAIS
 ### Art. 26
 ### Art. 27
 ### Art. 28
@@ -68,7 +68,7 @@
 ### Art. 33
 ### Art. 34
 ### Art. 35
-### CAPÍTULO VIII
+### CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS
 ### Art. 36
 ### Art. 37
 ### Art. 38
@@ -87,9 +87,7 @@ LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995.
 O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 
 
-##### CAPÍTULO I
-
-DISPOSIÇÕES PRELIMINARES
+##### CAPÍTULO I - DISPOSIÇÕES PRELIMINARES
 
 
   * Art. 1º
@@ -102,9 +100,7 @@ A partir de 1º de janeiro de 1996 o imposto de renda das pessoas físicas será
 Os valores expressos em UFIR na legislação do imposto de renda das pessoas físicas ficam convertidos em Reais, tomando-se por base o valor da UFIR vigente em 1º de janeiro de 1996.
 
 
-##### CAPÍTULO II
-
-DA INCIDÊNCIA MENSAL DO IMPOSTO
+##### CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO
 
 
   * Art. 3º
@@ -290,9 +286,7 @@ A partir do mês de janeiro do ano-calendário de 2026, o pagamento, o creditame
 
 
 
-##### CAPÍTULO III
-
-DA DECLARAÇÃO DE RENDIMENTOS
+##### CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS
 
 
   * Art. 7º
@@ -848,9 +842,7 @@ Caso se verifique que a soma da alíquota efetiva de tributação dos lucros da 
 
 
 
-##### CAPÍTULO IV
-
-TRIBUTAÇÃO DA ATIVIDADE RURAL
+##### CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL
 
 
   * Art. 17.
@@ -913,9 +905,7 @@ O resultado decorrente da atividade rural, exercida no Brasil por residente ou d
 O resultado da atividade rural exercida no exterior, por residentes e domiciliados no Brasil, convertido em reais mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil, para o último dia do ano-calendário a que se refere o resultado, sujeita-se ao mesmo tratamento tributário previsto no art. 9º, vedada a compensação de resultado positivo obtido no exterior, com resultado negativo obtido no País.
 
 
-##### CAPÍTULO V
-
-TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS
+##### CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS
 
 
   * Art. 22.
@@ -940,9 +930,7 @@ Fica isento do imposto de renda o ganho de capital auferido na alienação do ú
 Na apuração do ganho de capital de bens adquiridos por meio de arrendamento mercantil, será considerado custo de aquisição o valor residual do bem acrescido dos valores pagos a título de arrendamento.
 
 
-##### CAPÍTULO VI
-
-DA DECLARAÇÃO DE BENS E DIREITOS
+##### CAPÍTULO VI - DA DECLARAÇÃO DE BENS E DIREITOS
 
 
   * Art. 25.
@@ -991,9 +979,7 @@ Como parte integrante da declaração de rendimentos, a pessoa física apresenta
 
 
 
-##### CAPÍTULO VII
-
-DISPOSIÇÕES GERAIS
+##### CAPÍTULO VII - DISPOSIÇÕES GERAIS
 
 
   * Art. 26.
@@ -1126,9 +1112,7 @@ Para efeito do disposto nos arts. 4º, inciso III, e 8º, inciso II, alínea c, 
 
 
 
-##### CAPÍTULO VIII
-
-DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+##### CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS
 
 
   * Art. 36.
