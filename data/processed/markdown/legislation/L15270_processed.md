@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L15270.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 16:48
+- **Processado em**: 02/03/2026 16:52
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -42,12 +42,12 @@ LEI Nº 15.270, DE 26 DE NOVEMBRO DE 2025
 O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 
 
-### Art. 1º {#art-1}
+### Art. 1º
 
 Esta Lei altera a Lei nº 9.250, de 26 de dezembro de 1995 , e a Lei nº 9.249, de 26 de dezembro de 1995 , para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.
 
 
-### Art. 2º {#art-2}
+### Art. 2º
 
 A Lei nº 9.250, de 26 de dezembro de 1995 , passa a vigorar com as seguintes alterações:
 “ Art. 3º-A . A partir do mês de janeiro do ano-calendário de 2026, será concedida redução do imposto sobre os rendimentos tributáveis sujeitos à incidência mensal do Imposto sobre a Renda das Pessoas Físicas, de acordo com a seguinte tabela:
@@ -74,7 +74,7 @@ Tabela de redução do imposto mensal
 ### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS
 
 
-### Art. 6º-A {#art-6-a}
+### Art. 6º-A
 
 . A partir do mês de janeiro do ano-calendário de 2026, o pagamento, o creditamento, o emprego ou a entrega de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil em montante superior a R$ 50.000,00 (cinquenta mil reais) em um mesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda das Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total do valor pago, creditado, empregado ou entregue.
 
@@ -134,7 +134,7 @@ Tabela de redução do ajuste anual
 ### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS
 
 
-### Art. 16-A {#art-16-a}
+### Art. 16-A
 
 . A partir do exercício de 2027, ano-calendário de 2026, a pessoa física cuja soma de todos os rendimentos recebidos no ano-calendário seja superior a R$ 600.000,00 (seiscentos mil reais) fica sujeita à tributação mínima do Imposto sobre a Renda das Pessoas Físicas, nos termos deste artigo.
 
@@ -383,7 +383,7 @@ REND = rendimentos apurados na forma prevista no § 1º deste artigo.
 
 
 
-### Art. 3º {#art-3}
+### Art. 3º
 
 A Lei nº 9.249, de 26 de dezembro de 1995 , passa a vigorar com as seguintes alterações:
 “ Art. 10 . Os lucros ou dividendos calculados com base nos resultados apurados a partir do mês de janeiro de 1996, pagos ou creditados pelas pessoas jurídicas tributadas com base no lucro real, presumido ou arbitrado, não ficarão sujeitos à incidência do imposto de renda na fonte, nem integrarão a base de cálculo do imposto de renda do beneficiário, pessoa física ou jurídica, domiciliado no País, observado o disposto nos arts. 6º-A e 16-A da Lei nº 9.250, de 26 de dezembro de 1995 .
@@ -437,29 +437,29 @@ A Lei nº 9.249, de 26 de dezembro de 1995 , passa a vigorar com as seguintes al
 
 
 
-### Art. 4º {#art-4}
+### Art. 4º
 
 Os Estados, o Distrito Federal e os Municípios serão compensados pela redução de receitas em razão do disposto nos arts. 3º-A e 11-A da Lei nº 9.250, de 26 de dezembro de 1995 , com o aumento de receitas dos respectivos Fundos de Participação decorrente do disposto no § 4º do art. 10 da Lei nº 9.249, de 26 de dezembro de 1995 , e no art. 16-A da Lei nº 9.250, de 26 de dezembro de 1995 .
 Parágrafo único. Caso o aumento das receitas de que trata o caput deste artigo seja insuficiente para a promoção da compensação, ela será realizada trimestralmente pela União com o valor equivalente às receitas decorrentes da aprovação desta Lei que excedam as estimativas de impacto orçamentário e financeiro desta Lei.
 
 
-### Art. 5º {#art-5}
+### Art. 5º
 
 A parcela da arrecadação da União resultante desta Lei que exceder o montante necessário para compensar a redução do imposto devido, prevista nos arts. 3º-A e 11-A da Lei nº 9.250, de 26 de dezembro de 1995 , e a compensação de que trata o art. 4º desta Lei serão consideradas como fonte de compensação para o cálculo da alíquota de referência da Contribuição Social sobre Bens e Serviços (CBS) do ano subsequente de que tratam os arts. 352 a 359 da Lei Complementar nº 214, de 16 de janeiro de 2025 , nos termos do parágrafo único do art. 18 da Emenda Constitucional nº 132, de 20 de dezembro de 2023 .
 Parágrafo único. Para os fins do disposto neste artigo, será considerada a arrecadação líquida da União das entregas previstas no inciso I do caput do art. 159 da Constituição Federal , para cálculo do valor destinado como fonte de compensação para o cálculo da alíquota de referência da CBS.
 
 
-### Art. 6º {#art-6}
+### Art. 6º
 
 No prazo de 1 (um) ano, o Poder Executivo enviará ao Congresso Nacional projeto de lei com a previsão de política nacional de atualização dos valores previstos na legislação do Imposto sobre a Renda das Pessoas Físicas.
 
 
-### Art. 7º {#art-7}
+### Art. 7º
 
 Revoga-se o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995 .
 
 
-### Art. 8º {#art-8}
+### Art. 8º
 
 Esta Lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1º de janeiro de 2026 .
 Brasília, 26 de novembro de 2025; 204 o da Independência e 137 o da República.

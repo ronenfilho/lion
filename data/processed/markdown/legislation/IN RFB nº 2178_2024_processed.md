@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 2178_2024.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 16:48
+- **Processado em**: 02/03/2026 16:52
 - **viewport**: width=device-width, initial-scale=1
 - **encoding_detected**: utf-8
 
@@ -71,13 +71,13 @@ O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que 
 ##### CAPÍTULO I DISPOSIÇÃO PRELIMINAR
 
 
-* **Art. 1º Esta Instrução Normativa estabelece normas e procedimentos para a apresentação da Declaração de Ajuste Anual do Imposto sobre a Renda da Pessoa Física referente ao exercício de 2024, ano-calendário de 2023, pela pessoa física residente no Brasil.** {#art-1}
+* **Art. 1º Esta Instrução Normativa estabelece normas e procedimentos para a apresentação da Declaração de Ajuste Anual do Imposto sobre a Renda da Pessoa Física referente ao exercício de 2024, ano-calendário de 2023, pela pessoa física residente no Brasil.**
 
 
 ##### CAPÍTULO II DA OBRIGATORIEDADE DE APRESENTAÇÃO
 
 
-* **Art. 2º Está obrigada a apresentar a Declaração de Ajuste Anual referente ao exercício de 2024 a pessoa física residente no Brasil que, no ano-calendário de 2023:** {#art-2}
+* **Art. 2º Está obrigada a apresentar a Declaração de Ajuste Anual referente ao exercício de 2024 a pessoa física residente no Brasil que, no ano-calendário de 2023:**
 
 
     - I - recebeu rendimentos tributáveis, sujeitos ao ajuste na declaração, cuja soma foi superior a R$ 30.639,90 (trinta mil, seiscentos e trinta e nove reais e noventa centavos);
@@ -149,7 +149,7 @@ O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que 
 ##### CAPÍTULO III DA OPÇÃO PELO DESCONTO SIMPLIFICADO
 
 
-* **Art. 3º A pessoa física pode optar pelo desconto simplificado, correspondente à dedução de 20% (vinte por cento) do valor dos rendimentos tributáveis na Declaração de Ajuste Anual, limitado a R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro reais e trinta e quatro centavos), observado o disposto nesta Instrução Normativa.** {#art-3}
+* **Art. 3º A pessoa física pode optar pelo desconto simplificado, correspondente à dedução de 20% (vinte por cento) do valor dos rendimentos tributáveis na Declaração de Ajuste Anual, limitado a R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro reais e trinta e quatro centavos), observado o disposto nesta Instrução Normativa.**
 
 
   - **§ 1º** A opção prevista no caput implica a substituição de todas as deduções admitidas na legislação tributária.
@@ -164,7 +164,7 @@ O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que 
 ##### CAPÍTULO IV DA FORMA DE ELABORAÇÃO
 
 
-* **Art. 4º A Declaração de Ajuste Anual deve ser elaborada, exclusivamente:** {#art-4}
+* **Art. 4º A Declaração de Ajuste Anual deve ser elaborada, exclusivamente:**
 
 
     - I - com a utilização de computador, por meio do Programa Gerador da Declaração - PGD relativo ao exercício de 2024, disponível no site da Secretaria Especial da Receita Federal do Brasil - RFB na Internet, no endereço < https://www.gov.br/receitafederal > ; ou
@@ -192,7 +192,7 @@ O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que 
 ##### CAPÍTULO V DAS VEDAÇÕES à UTILIZAÇÃO DO "Meu Imposto de Renda"
 
 
-* **Art. 5º Ficam vedados o preenchimento e a apresentação da Declaração de Ajuste Anual por meio do "Meu Imposto de Renda", previsto no inciso II do caput do art. 4º, na hipótese de o declarante ou o seu dependente informado na declaração, no ano-calendário de 2023:** {#art-5}
+* **Art. 5º Ficam vedados o preenchimento e a apresentação da Declaração de Ajuste Anual por meio do "Meu Imposto de Renda", previsto no inciso II do caput do art. 4º, na hipótese de o declarante ou o seu dependente informado na declaração, no ano-calendário de 2023:**
 
 
     - I - ter recebido rendimentos do exterior;
@@ -241,7 +241,7 @@ O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que 
 ##### CAPÍTULO VI DA DECLARAÇÃO DE AJUSTE ANUAL PRÉ-PREENCHIDA
 
 
-* **Art. 6º O contribuinte poderá utilizar os dados da Declaração de Ajuste Anual Pré-Preenchida para a elaboração de uma nova Declaração de Ajuste Anual.** {#art-6}
+* **Art. 6º O contribuinte poderá utilizar os dados da Declaração de Ajuste Anual Pré-Preenchida para a elaboração de uma nova Declaração de Ajuste Anual.**
 
 
   - **§ 1º** Para fins do disposto no caput, no momento da criação da nova declaração, serão consideradas as informações relativas ao contribuinte referentes ao exercício de 2024, ano-calendário de 2023, recebidas pela RFB por meio, dentre outros:
@@ -297,7 +297,7 @@ O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que 
 ##### CAPÍTULO VII DO PRAZO E DOS MEIOS DISPONÍVEIS PARA A APRESENTAÇÃO
 
 
-* **Art. 7º A Declaração de Ajuste Anual deve ser apresentada no período de 15 de março a 31 de maio de 2024, pela Internet, mediante a utilização:** {#art-7}
+* **Art. 7º A Declaração de Ajuste Anual deve ser apresentada no período de 15 de março a 31 de maio de 2024, pela Internet, mediante a utilização:**
 
 
     - I - do PGD, nos termos do inciso I do caput do art. 4º; ou
@@ -351,7 +351,7 @@ O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que 
 
 
 
-* **Art. 8º A apresentação da Declaração de Ajuste Anual depois do prazo previsto no caput do art. 7º deve ser realizada:** {#art-8}
+* **Art. 8º A apresentação da Declaração de Ajuste Anual depois do prazo previsto no caput do art. 7º deve ser realizada:**
 
 
     - I - pela Internet, mediante a utilização dos meios referidos no art. 4º; ou
@@ -365,7 +365,7 @@ Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada medi
 ##### CAPÍTULO VIII DA RETIFICAÇÃO
 
 
-* **Art. 9º A pessoa física que constatar a ocorrência de erros, omissões ou inexatidões em Declaração de Ajuste Anual já entregue poderá apresentar declaração retificadora:** {#art-9}
+* **Art. 9º A pessoa física que constatar a ocorrência de erros, omissões ou inexatidões em Declaração de Ajuste Anual já entregue poderá apresentar declaração retificadora:**
 
 
     - I - pela Internet, nos termos do art. 4º; ou
@@ -402,7 +402,7 @@ Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada medi
 ##### CAPÍTULO IX DA MULTA POR ATRASO NA ENTREGA OU PELA NÃO APRESENTAÇÃO
 
 
-* **Art. 10. A entrega da Declaração de Ajuste Anual depois do prazo previsto no caput do art. 7º ou a sua não apresentação, se obrigatória, sujeita o contribuinte à multa de 1% (um por cento) ao mês-calendário ou fração de atraso, lançada de ofício e calculada sobre o total do imposto devido nela apurado, ainda que integralmente pago.** {#art-10}
+* **Art. 10. A entrega da Declaração de Ajuste Anual depois do prazo previsto no caput do art. 7º ou a sua não apresentação, se obrigatória, sujeita o contribuinte à multa de 1% (um por cento) ao mês-calendário ou fração de atraso, lançada de ofício e calculada sobre o total do imposto devido nela apurado, ainda que integralmente pago.**
 
 
   - **§ 1º** A multa de que trata este artigo:
@@ -428,7 +428,7 @@ Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada medi
 ##### CAPÍTULO X DA DECLARAÇÃO DE BENS E DIREITOS E DE DÍVIDAS E ÔNUS REAIS
 
 
-* **Art. 11. A pessoa física sujeita à apresentação da Declaração de Ajuste Anual deve nela relacionar os bens e direitos que, no Brasil ou no exterior, constituíram, em 31 de dezembro de 2022 e em 31 de dezembro de 2023, seu patrimônio e o de seus dependentes relacionados na declaração, e os bens e direitos adquiridos e alienados no decorrer do ano-calendário de 2023.** {#art-11}
+* **Art. 11. A pessoa física sujeita à apresentação da Declaração de Ajuste Anual deve nela relacionar os bens e direitos que, no Brasil ou no exterior, constituíram, em 31 de dezembro de 2022 e em 31 de dezembro de 2023, seu patrimônio e o de seus dependentes relacionados na declaração, e os bens e direitos adquiridos e alienados no decorrer do ano-calendário de 2023.**
 
 
   - **§ 1º** Devem ser informados, também, as dívidas e os ônus reais existentes em 31 de dezembro de 2022 e em 31 de dezembro de 2023, em nome do declarante e dos seus dependentes relacionados na declaração, e as dívidas e os ônus constituídos ou extintos no decorrer do ano-calendário de 2023.
@@ -461,7 +461,7 @@ Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada medi
 ##### CAPÍTULO XI DO PAGAMENTO DO IMPOSTO
 
 
-* **Art. 12. O saldo do imposto pode ser pago em até 8 (oito) quotas mensais e sucessivas, observado que:** {#art-12}
+* **Art. 12. O saldo do imposto pode ser pago em até 8 (oito) quotas mensais e sucessivas, observado que:**
 
 
     - I - nenhuma quota deve ser inferior a R$ 50,00 (cinquenta reais);
@@ -561,7 +561,7 @@ Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada medi
 
 
 
-* **Art. 13. A pessoa física que recebe rendimentos do trabalho assalariado de autarquias ou repartições do Governo brasileiro situadas no exterior pode efetuar o pagamento integral do imposto, ou de suas quotas, e dos respectivos acréscimos legais, mediante:** {#art-13}
+* **Art. 13. A pessoa física que recebe rendimentos do trabalho assalariado de autarquias ou repartições do Governo brasileiro situadas no exterior pode efetuar o pagamento integral do imposto, ou de suas quotas, e dos respectivos acréscimos legais, mediante:**
 
 
     - I - as formas previstas no § 2º do art. 12; ou
@@ -574,7 +574,7 @@ Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada medi
 ##### CAPÍTULO XII DA AUTORIZAÇÃO DE ACESSO
 
 
-* **Art. 14. O contribuinte pode autorizar outra pessoa física a elaborar e transmitir a sua Declaração de Ajuste Anual, inclusive acessar os dados da Declaração de Ajuste Anual Pré-Preenchida de que trata o art. 6º.** {#art-14}
+* **Art. 14. O contribuinte pode autorizar outra pessoa física a elaborar e transmitir a sua Declaração de Ajuste Anual, inclusive acessar os dados da Declaração de Ajuste Anual Pré-Preenchida de que trata o art. 6º.**
 
 
   - **§ 1º** As pessoas físicas autorizadora e autorizada devem possuir conta gov.br com Identidade Digital nos níveis Ouro ou Prata.
@@ -619,7 +619,7 @@ Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada medi
 ##### CAPÍTULO XIII DISPOSIÇÕES FINAIS
 
 
-* **Art. 15. A Instrução Normativa SRF nº 81, de 11 de outubro de 2001, passa a vigorar com as seguintes alterações:** {#art-15}
+* **Art. 15. A Instrução Normativa SRF nº 81, de 11 de outubro de 2001, passa a vigorar com as seguintes alterações:**
 
 "Art. 6º .....................................................................................................................
 ....................................................................................................................................
@@ -638,7 +638,7 @@ Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada medi
 
 
 
-* **Art. 16. A Instrução Normativa SRF nº 208, de 27 de setembro de 2002, passa a vigorar com as seguintes alterações:** {#art-16}
+* **Art. 16. A Instrução Normativa SRF nº 208, de 27 de setembro de 2002, passa a vigorar com as seguintes alterações:**
 
 "Art. 9º .....................................................................................................................
 ....................................................................................................................................
@@ -655,7 +655,7 @@ Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada medi
 
 
 
-* **Art. 17. Esta Instrução Normativa entrará em vigor na data de sua publicação no Diário Oficial da União.** {#art-17}
+* **Art. 17. Esta Instrução Normativa entrará em vigor na data de sua publicação no Diário Oficial da União.**
 
 ROBINSON SAKIYAMA BARREIRINHAS
 

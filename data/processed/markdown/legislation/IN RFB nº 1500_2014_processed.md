@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 1500_2014.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 16:48
+- **Processado em**: 02/03/2026 16:52
 - **viewport**: width=device-width, initial-scale=1
 - **GENERATOR**: LibreOffice 4.1.3.2 (Windows)
 - **CREATED**: 20140815;555387584
@@ -250,13 +250,13 @@ Dispõe sobre normas gerais de tributação relativas ao Imposto sobre a Renda d
 O SECRETÁRIO DA RECEITA FEDERAL DO BRASIL, no uso das atribuições que lhe conferem os incisos III e XXVI do art. 280 do Regimento Interno da Secretaria da Receita Federal do Brasil, aprovado pela Portaria MF nº 203, de 14 de maio de 2012, e tendo em vista o disposto no inciso VIII do art. 7º, no inciso II do art. 150 e no caput do art. 202 da Constituição Federal de 1988; nos arts. 43, 45 e 98 da Lei nº 5.172, de 25 de outubro de 1966 - Código Tributário Nacional, no caput do art. 68 e no art. 69 da Lei Complementar nº 109, de 29 de maio de 2001, nos §§ 1º e 2º do art. 14 da Lei Complementar nº 123, de 14 de dezembro de 2006; no inciso IV do § 2º do art. 458 do Decreto-Lei nº 5.452, de 1º de maio de 1943 - Consolidação das Leis do Trabalho, no art. 1º, no § 2º do art. 63 e no art. 100 do Decreto-Lei nº 5.844, de 23 de setembro de 1943, no art. 5º da Lei nº 4.154, de 28 de novembro de 1962, no inciso VI do art. 23 da Lei nº 4.506, de 30 de novembro de 1964, no art. 5º da Lei nº 4.862, de 29 de dezembro de 1965, no art. 1.124-A da Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil, no art. 3º da Lei nº 6.321, de 14 de abril de 1976, nos arts. 1º e 4º-A da Lei nº 7.070, de 20 de dezembro de 1982, no art. 2º da Lei nº 7.418, de 16 de dezembro de 1985, na Lei nº 7.450, de 23 de dezembro de 1985, no art. 5º do Decreto-Lei nº 2.288, de 23 de julho de 1986, no inciso III do art. 12 do Decreto-Lei nº 2.292, de 21 de novembro de 1986, no art. 2º, nos §§ 1º e 2º do art. 3º, nos incisos II a XVI, XX a XXIII, e parágrafo único do art. 6º, no inciso II do art. 7º, no § 1º do art. 8º, nos incisos I e II do art. 9º, no art. 10, no § 4º do art. 12-A, no art. 18, no parágrafo único do art. 22, no art. 26 e no caput e nos §§ 1º e 2º do art. 32 da Lei nº 7.713, de 22 de dezembro de 1988, no art. 14 da Lei nº 7.739, de 16 de março de 1989, no art. 28 da Lei nº 8.036, de 11 de maio de 1990, no art. 260 da Lei nº 8.069, de 13 de julho de 1990, nos arts. 60 e 200 da Lei nº 8.112, de 11 de dezembro de 1990, nos arts. 6º e 16 da Lei nº 8.134, de 27 de dezembro de 1990, no art. 25 da Lei nº 8.218, de 29 de agosto de 1991, no art. 5º, no inciso II do art. 6º, no art. 7º e no § 2º do art. 74 da Lei nº 8.383, de 30 de dezembro de 1991, no § 1º e na alínea “b” do § 3º do art. 22 da Lei nº 8.460, de 17 de setembro de 1992, no caput e § 2º do art. 46 e no art. 48 da Lei nº 8.541, de 23 de dezembro de 1992, no art. 17 da Lei nº 8.668, de 25 de junho de 1993, no caput e § 3º do art. 1º da Lei nº 8.685, de 20 de julho de 1993, nos arts. 1º e 2º da Lei nº 8.687, de 20 de julho de 1993, no caput e § 1º do art. 1º da Lei nº 8.846, de 21 de janeiro de 1994, na alínea “b” do inciso III do art. 1º da Lei nº 8.852, de 4 de fevereiro de 1994, no caput do art. 21, no caput e § 1º do art. 61, no caput e § 2º do art. 63, no caput e nas alíneas “a” e “c” do § 4º do art. 65, no inciso III do art. 68, no art. 70, no § 8º do art. 72 e nos arts. 74 e 76 da Lei nº 8.981, de 20 de janeiro de 1995, no art. 7º da Lei nº 9.003, de 16 de março de 1995, no art. 14 da Lei nº 9.065, de 20 de junho de 1995, nos §§ 2º e 3º do art. 9º, no art. 10, no § 4º do art. 22, no caput e § 2º do art. 23 e no art. 28 da Lei nº 9.249, de 26 de dezembro de 1995, nos incisos I, II e na alínea “d” do inciso VI do caput do art. 4º, no § 3º do art. 5º, no art. 6º, no inciso I, nas alíneas “a” e “b” do inciso II do caput, no § 1º e nos incisos I a V do § 3º do art. 8º, no inciso V do caput e no parágrafo único do art. 10, nos incisos V e VI do caput, no § 1º, na alínea “b” do inciso III do § 3º do art. 12, no art. 13, nos incisos I a IV do art. 14, no parágrafo único do art. 22, no art. 23, no § 4º do art. 25, no parágrafo único do art. 26, no art. 29, no § 2º do art. 30 e no art. 35 da Lei nº 9.250, de 26 de dezembro de 1995, nos arts. 7º e 19 da Lei nº 9.394, de 20 de dezembro de 1996, no art. 67 e no § 1º do caput do art. 68 da Lei nº 9.430, de 27 de dezembro de 1996, no art. 14 da Lei nº 9.468, de 10 de julho de 1997, no art. 12 da Lei nº 9.477, de 24 de julho de 1997, nos arts. 11, 22, no caput e § 1º do art. 23, no caput do art. 28 e nos arts. 33, 35 e 36 da Lei nº 9.532, de 10 de dezembro de 1997, no caput do art. 5º e no art. 16 da Lei nº 9.779, de 19 de janeiro de 1999, no art. 2º da Lei nº 10.209, de 23 de março de 2001, no § 2º do art. 1º da Medida Provisória nº 2.165-36, de 23 de agosto de 2001, no caput, no § 1º e no inciso II do § 6º do art. 24 e nos arts. 25, 61 e 65 da Medida Provisória nº 2.158-35, de 24 de agosto de 2001, no art. 7º da Medida Provisória nº 2.159-70, de 24 de agosto de 2001, nos arts. 12 e 22 da Medida Provisória nº 2.174-28, de 24 de agosto de 2001, na Medida Provisória nº 2.228-1, de 6 de setembro de 2001, nos arts. 1.723 e 1.725 da Lei nº 10.406, de 10 de janeiro de 2002 - Código Civil, do inciso II do art. 19 da Lei nº 10.522, de 19 de julho de 2002, no parágrafo único do art. 9º da Lei nº 10.559, de 13 de novembro de 2002, no caput e § 1º do art. 27 e nos §§ 1º e 2º do art. 28 da Lei nº 10.833, de 29 de dezembro de 2003, no inciso I do § 3º do art. 1º, nos §§ 1º a 7º do art. 2º e nos incisos I a V e parágrafo único do art. 3º da Lei nº 11.033, de 21 de dezembro de 2004, nos arts. 39, 40 e na alínea “d” do inciso I do art. 70 da Lei nº 11.196, de 21 de novembro de 2005, na Lei nº 11.437, de 28 de dezembro de 2006, no inciso II do art. 1º da Lei nº 11.438, de 29 de dezembro de 2006, no parágrafo único do art. 1º da Lei nº 11.482, de 31 de maio de 2007, no art. 56 da Lei nº 11.941, de 27 de maio de 2009, no art. 3º da Lei nº 12.024, de 27 de agosto de 2009, nos arts. 1º e 2º da Lei nº 12.190, de 13 de janeiro de 2010, na Lei nº 12.213, de 20 de janeiro de 2010, no art. 60 da Lei nº 12.249, de 11 de junho de 2010, no caput e § 1º do art. 10, no art. 11 e no caput e §§ 1º e 2º do art. 22 da Lei nº 12.350, de 20 de dezembro de 2010, na Lei nº 12.469, 26 de agosto de 2011, na Lei nº 12.594, de 18 de janeiro de 2012, na Lei nº 12.618, de 30 de abril de 2012, na Lei nº 12.715, de 17 de setembro de 2012, no art. 3º da Lei nº 12.973, de 13 de maio de 2014; no art. 5º do Decreto nº 2.346, de 10 de outubro de 1997, e no § 1º do art. 2º, no art. 3º, nos arts. 6º, 10, 15, 37, 38, no inciso IV do art. 41, nos §§ 1º e 2º do art. 49, no art. 51, no § 2º do art. 74, no art. 75, nos §§ 3º e 4º do art. 80, nos arts. 87, 103, 106 a 109, 116, no caput e no § 1º do art. 119, no caput e no § 2º do art. 132, nos arts. 631, 682, 705, no caput e no § 2º do art. 718, no inciso I do art. 721 e nos arts. 725, 730, 735, 770, 787, 828 e 994 do Decreto nº 3.000, de 26 de março de 1999, resolve:
 
 
-* **Art. 1º Esta Instrução Normativa estabelece normas gerais de tributação relativas ao Imposto sobre a Renda das Pessoas Físicas (IRPF).** {#art-1}
+* **Art. 1º Esta Instrução Normativa estabelece normas gerais de tributação relativas ao Imposto sobre a Renda das Pessoas Físicas (IRPF).**
 
 
 ##### CAPÍTULO I DOS CONTRIBUINTES
 
 
-* **Art. 2º São contribuintes do imposto sobre a renda as pessoas físicas residentes no Brasil titulares de disponibilidade econômica ou jurídica de renda, assim entendido o produto do capital, do trabalho ou da combinação de ambos, e de proventos de qualquer natureza.** {#art-2}
+* **Art. 2º São contribuintes do imposto sobre a renda as pessoas físicas residentes no Brasil titulares de disponibilidade econômica ou jurídica de renda, assim entendido o produto do capital, do trabalho ou da combinação de ambos, e de proventos de qualquer natureza.**
 
 Parágrafo único. São também contribuintes, as pessoas físicas:
 
@@ -270,7 +270,7 @@ Parágrafo único. São também contribuintes, as pessoas físicas:
 ##### CAPÍTULO II DOS RENDIMENTOS TRIBUTÁVEIS
 
 
-* **Art. 3º Constituem rendimentos tributáveis todo o produto do capital, do trabalho ou da combinação de ambos, os alimentos e pensões percebidos em dinheiro e, ainda, os proventos de qualquer natureza, assim também entendidos os acréscimos patrimoniais não correspondentes aos rendimentos declarados.** {#art-3}
+* **Art. 3º Constituem rendimentos tributáveis todo o produto do capital, do trabalho ou da combinação de ambos, os alimentos e pensões percebidos em dinheiro e, ainda, os proventos de qualquer natureza, assim também entendidos os acréscimos patrimoniais não correspondentes aos rendimentos declarados.**
 
 
   - **§ 1º** A tributação independe da denominação dos rendimentos, títulos ou direitos, da localização, condição jurídica ou nacionalidade da fonte, da origem dos bens produtores da renda e da forma de percepção das rendas ou proventos, bastando, para a incidência do imposto, o benefício do contribuinte por qualquer forma e a qualquer título.
@@ -287,7 +287,7 @@ Parágrafo único. São também contribuintes, as pessoas físicas:
 
 
 
-* **Art. 4º Os rendimentos comuns produzidos por bens ou direitos, cuja propriedade seja em condomínio ou decorra do regime de bens no casamento, são tributados da seguinte forma:** {#art-4}
+* **Art. 4º Os rendimentos comuns produzidos por bens ou direitos, cuja propriedade seja em condomínio ou decorra do regime de bens no casamento, são tributados da seguinte forma:**
 
 
     - I - na propriedade em condomínio, inclusive no caso de união estável com estipulação contratual entre os companheiros, a tributação é proporcional à participação de cada condômino;
@@ -304,7 +304,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção I Dos Rendimentos Originários do Trabalho e Assemelhados
 
 
-* **Art. 5º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos originários do trabalho e assemelhados:** {#art-5}
+* **Art. 5º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos originários do trabalho e assemelhados:**
 
 
     - I - alimentação, inclusive in natura, transporte, vale-transporte e uniformes ou vestimentas especiais de trabalho, fornecidos gratuitamente pelo empregador a seus empregados, ou a diferença entre o preço cobrado e o valor de mercado;
@@ -368,7 +368,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção II Dos Rendimentos Pagos por Previdências
 
 
-* **Art. 6º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos originários pagos por previdências:** {#art-6}
+* **Art. 6º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos originários pagos por previdências:**
 
 
     - I - os provenientes de aposentadoria e pensão, de transferência para a reserva remunerada ou de reforma pagos pela Previdência Social da União, dos estados, do Distrito Federal e dos municípios, por qualquer pessoa jurídica de direito público interno ou por entidade de previdência complementar, a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, até o valor mensal previsto na tabela constante do Anexo I, observado o disposto nos §§ 1º a 3º, aplicando-se, sobre o valor excedente, as tabelas progressivas constantes do Anexo II, observada a tabela de redução constante do Anexo X;
@@ -487,7 +487,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção III Dos Rendimentos Decorrentes de Indenizações e Assemelhados
 
 
-* **Art. 7º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos decorrentes de indenizações e assemelhados:** {#art-7}
+* **Art. 7º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos decorrentes de indenizações e assemelhados:**
 
 
     - I - indenização por acidente de trabalho;
@@ -527,7 +527,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção IV Dos Rendimentos de Participações Societárias
 
 
-* **Art. 8º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos de participações societárias:** {#art-8}
+* **Art. 8º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos de participações societárias:**
 
 
     - I - lucros ou dividendos calculados com base nos resultados apurados em 1993 e os apurados a partir do mês de janeiro de 1996, pagos ou creditados pelas pessoas jurídicas, observado o disposto nos arts. 6º-A e 16-A da Lei nº 9.250, de 26 de dezembro de 1995;
@@ -582,7 +582,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção V Dos Rendimentos Obtidos no Mercado Financeiro e Assemelhados
 
 
-* **Art. 9º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos obtidos no mercado financeiro e assemelhados:** {#art-9}
+* **Art. 9º São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos obtidos no mercado financeiro e assemelhados:**
 
 
     - I - rendimentos auferidos em contas de depósitos de poupança;
@@ -631,7 +631,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção VI Dos Rendimentos Obtidos na Alienação de Bens e Direitos
 
 
-* **Art. 10. São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos obtidos na alienação de bens e direitos:** {#art-10}
+* **Art. 10. São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos obtidos na alienação de bens e direitos:**
 
 
     - I - ganho de capital auferido na alienação de bens e direitos de pequeno valor, observado o disposto no § 1º, cujo preço unitário de alienação, no mês em que esta se realizar, seja igual ou inferior a:
@@ -721,7 +721,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção VII Dos Demais Rendimentos
 
 
-* **Art. 11. São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos:** {#art-11}
+* **Art. 11. São isentos ou não se sujeitam ao imposto sobre a renda, os seguintes rendimentos:**
 
 
     - I - bolsas de estudo e de pesquisa caracterizadas como doação, quando recebidas exclusivamente para proceder a estudos ou pesquisas e desde que os resultados dessas atividades não representem vantagem para o doador, nem importem contraprestação de serviços;
@@ -812,7 +812,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ##### CAPÍTULO IV DOS RENDIMENTOS TRIBUTADOS EXCLUSIVAMENTE NA FONTE
 
 
-* **Art. 12. Consideram-se rendimentos tributados exclusivamente na fonte os não sujeitos a antecipação para fins de ajuste anual, cuja retenção e recolhimento tenham sido efetuados pela fonte pagadora.** {#art-12}
+* **Art. 12. Consideram-se rendimentos tributados exclusivamente na fonte os não sujeitos a antecipação para fins de ajuste anual, cuja retenção e recolhimento tenham sido efetuados pela fonte pagadora.**
 
 
 ###### Seção I Da Gratificação Natalina (13º salário)
@@ -821,7 +821,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 * **Subseção I Da Regra Geral**
 
 
-* **Art. 13. O rendimento pago a título de Gratificação Natalina, para efeitos de apuração do IRRF, tem o seguinte tratamento:** {#art-13}
+* **Art. 13. O rendimento pago a título de Gratificação Natalina, para efeitos de apuração do IRRF, tem o seguinte tratamento:**
 
 
     - I - é integralmente tributado, com base na tabela mensal vigente no mês de quitação;
@@ -888,7 +888,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 * **Subseção II Do Maior de 65 anos**
 
 
-* **Art. 14. Na hipótese de recebimento, por beneficiário maior de 65 (sessenta e cinco) anos, de rendimentos de aposentadoria, pensão, transferência para a reserva remunerada ou reforma, de mais de uma fonte pagadora, deverá ser observado relativamente à Gratificação Natalina paga por fonte, o seguinte:** {#art-14}
+* **Art. 14. Na hipótese de recebimento, por beneficiário maior de 65 (sessenta e cinco) anos, de rendimentos de aposentadoria, pensão, transferência para a reserva remunerada ou reforma, de mais de uma fonte pagadora, deverá ser observado relativamente à Gratificação Natalina paga por fonte, o seguinte:**
 
 
     - I - pode ser excluída a parcela isenta a que se refere o inciso II do § 6º do art. 13;
@@ -901,19 +901,19 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 * **Subseção III Da Previdência Complementar**
 
 
-* **Art. 15. O abono anual pago pelas entidades fechadas de previdência complementar, quando ele tenha a característica de previdência complementar, segue regra idêntica àquela aplicável ao Regime Geral da Previdência Social no que se refere à incidência do imposto sobre a renda relativa ao rendimento da Gratificação Natalina.** {#art-15}
+* **Art. 15. O abono anual pago pelas entidades fechadas de previdência complementar, quando ele tenha a característica de previdência complementar, segue regra idêntica àquela aplicável ao Regime Geral da Previdência Social no que se refere à incidência do imposto sobre a renda relativa ao rendimento da Gratificação Natalina.**
 
 
 * **Subseção IV Do Governo Estrangeiro**
 
 
-* **Art. 16. A Gratificação Natalina recebida de órgãos de governo estrangeiro no País por residente no Brasil é tributada em conjunto com os demais rendimentos recebidos no mês pelo beneficiário, sujeitos ao recolhimento mensal obrigatório (carnê-leão), no mês do recebimento e na DAA.** {#art-16}
+* **Art. 16. A Gratificação Natalina recebida de órgãos de governo estrangeiro no País por residente no Brasil é tributada em conjunto com os demais rendimentos recebidos no mês pelo beneficiário, sujeitos ao recolhimento mensal obrigatório (carnê-leão), no mês do recebimento e na DAA.**
 
 
 ###### Seção II Da Participação nos Lucros ou Resultados das Empresas
 
 
-* **Art. 17. São tributadas exclusivamente na fonte as importâncias recebidas pelos trabalhadores a título de Participação nos Lucros ou Resultados (PLR) das empresas.** {#art-17}
+* **Art. 17. São tributadas exclusivamente na fonte as importâncias recebidas pelos trabalhadores a título de Participação nos Lucros ou Resultados (PLR) das empresas.**
 
 
   - **§ 1º** A participação de que trata o caput será tributada pelo imposto sobre a renda exclusivamente na fonte, em separado dos demais rendimentos recebidos, no ano do recebimento ou crédito, com base na tabela progressiva anual constante do Anexo III a esta Instrução Normativa e não integrará a base de cálculo do imposto devido pelo beneficiário na DAA.
@@ -953,7 +953,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção III Do Transportador Autônomo Pessoa Física Residente na República do Paraguai
 
 
-* **Art. 18. Os valores pagos, creditados, entregues, empregados ou remetidos por contratante pessoa jurídica domiciliada no País, autorizada a prestar serviço de transporte rodoviário internacional de carga, a beneficiário transportador autônomo pessoa física residente na República do Paraguai, considerado como sociedade unipessoal naquele País, quando decorrentes da prestação de serviços de transporte rodoviário internacional de carga, estão sujeitos à incidência do IRRF, calculado mediante a utilização das tabelas progressivas constantes do Anexo II, observada a tabela de redução constante do Anexo X.** {#art-18}
+* **Art. 18. Os valores pagos, creditados, entregues, empregados ou remetidos por contratante pessoa jurídica domiciliada no País, autorizada a prestar serviço de transporte rodoviário internacional de carga, a beneficiário transportador autônomo pessoa física residente na República do Paraguai, considerado como sociedade unipessoal naquele País, quando decorrentes da prestação de serviços de transporte rodoviário internacional de carga, estão sujeitos à incidência do IRRF, calculado mediante a utilização das tabelas progressivas constantes do Anexo II, observada a tabela de redução constante do Anexo X.**
 
 
   - **§ 1º** O imposto incidirá sobre 10% (dez por cento) do rendimento bruto decorrente do transporte rodoviário internacional de carga.
@@ -973,7 +973,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção IV Dos Demais Rendimentos
 
 
-* **Art. 19. São também tributados exclusivamente na fonte:** {#art-19}
+* **Art. 19. São também tributados exclusivamente na fonte:**
 
 
     - I - rendimentos produzidos por aplicação financeira de renda fixa ou de renda variável, inclusive operações de swap;
@@ -1065,10 +1065,10 @@ Parágrafo único. Os rendimentos pagos, creditados, entregues, empregados ou re
 ##### CAPÍTULO V DOS RENDIMENTOS SUJEITOS À TRIBUTAÇÃO DEFINITIVA
 
 
-* **Art. 20. Consideram-se rendimentos sujeitos à tributação definitiva os não sujeitos a antecipação para fins de ajuste anual, cujo recolhimento tenha sido efetuado pelo próprio sujeito passivo.** {#art-20}
+* **Art. 20. Consideram-se rendimentos sujeitos à tributação definitiva os não sujeitos a antecipação para fins de ajuste anual, cujo recolhimento tenha sido efetuado pelo próprio sujeito passivo.**
 
 
-* **Art. 21. Estão sujeitos à tributação definitiva:** {#art-21}
+* **Art. 21. Estão sujeitos à tributação definitiva:**
 
 
     - I - ganhos de capital auferidos na alienação de bens e direitos;
@@ -1100,7 +1100,7 @@ Parágrafo único. Os rendimentos pagos, creditados, entregues, empregados ou re
 Parágrafo único. Estão também sujeitos à tributação definitiva os ganhos de capital e os ganhos líquidos referidos nos incisos I, VI, VII, VIII e IX do caput quando recebidos por pessoas não residentes no País.
 
 
-* **Art. 21-A. Para fins da tributação dos prêmios líquidos a que se refere o art. 21, caput, inciso IX, o contribuinte deverá anualmente, em relação aos resultados auferidos no ano anterior:** {#art-21-a}
+* **Art. 21-A. Para fins da tributação dos prêmios líquidos a que se refere o art. 21, caput, inciso IX, o contribuinte deverá anualmente, em relação aos resultados auferidos no ano anterior:**
 
 
     - I - apurar, em relação a todos os agentes operadores, o resultado líquido das apostas, mediante a soma dos ganhos e a subtração das perdas, calculado de forma separada para cada uma das seguintes naturezas de aposta:
@@ -1126,7 +1126,7 @@ Parágrafo único. Estão também sujeitos à tributação definitiva os ganhos 
 Parágrafo único. A apuração a que se refere o inciso III do caput será efetuada por meio de aplicação a ser disponibilizada no site da Secretaria Especial da Receita Federal do Brasil na internet.
 
 
-* **Art. 21-B. Os agentes operadores deverão disponibilizar, por meio de seu canal eletrônico, aos apostadores o Comprovante de Resultados em Apostas em Loterias de Quota Fixa - ComprovaBet até o último dia útil do mês de fevereiro do ano seguinte ao do recebimento dos prêmios ou ao que tenha incorrido em perdas, com as seguintes informações:** {#art-21-b}
+* **Art. 21-B. Os agentes operadores deverão disponibilizar, por meio de seu canal eletrônico, aos apostadores o Comprovante de Resultados em Apostas em Loterias de Quota Fixa - ComprovaBet até o último dia útil do mês de fevereiro do ano seguinte ao do recebimento dos prêmios ou ao que tenha incorrido em perdas, com as seguintes informações:**
 
 
     - I - nome e número de inscrição no Cadastro Nacional da Pessoa Jurídica - CNPJ do agente operador;
@@ -1152,7 +1152,7 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 ###### Seção I Da Tributação por Antecipação
 
 
-* **Art. 22. Estão sujeitos à incidência do IRRF, calculado mediante a utilização das tabelas progressivas constantes do Anexo II, observados a tabela de redução constante do Anexo X e o disposto no art. 65, a título de antecipação do devido na DAA, os rendimentos do trabalho assalariado pagos por pessoa física ou jurídica e os demais rendimentos pagos por pessoa jurídica a pessoa física, tais como:** {#art-22}
+* **Art. 22. Estão sujeitos à incidência do IRRF, calculado mediante a utilização das tabelas progressivas constantes do Anexo II, observados a tabela de redução constante do Anexo X e o disposto no art. 65, a título de antecipação do devido na DAA, os rendimentos do trabalho assalariado pagos por pessoa física ou jurídica e os demais rendimentos pagos por pessoa jurídica a pessoa física, tais como:**
 
 
     - I - rendimentos de trabalho sem vínculo empregatício, proventos de aposentadoria, de reserva e de reforma e pensões civis e militares;
@@ -1224,13 +1224,13 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 
 
 
-* **Art. 22-A. A multa ou qualquer outra vantagem paga ou creditada por pessoa jurídica, ainda que a título de indenização, a beneficiária pessoa física, inclusive isenta, em virtude de rescisão de contrato, sujeita-se à incidência do IRRF à alíquota de 15% (quinze por cento), sendo o imposto considerado como antecipação do devido em cada período de apuração.** {#art-22-a}
+* **Art. 22-A. A multa ou qualquer outra vantagem paga ou creditada por pessoa jurídica, ainda que a título de indenização, a beneficiária pessoa física, inclusive isenta, em virtude de rescisão de contrato, sujeita-se à incidência do IRRF à alíquota de 15% (quinze por cento), sendo o imposto considerado como antecipação do devido em cada período de apuração.**
 
 
-* **Art. 23. Estão sujeitos à incidência do IRRF, à alíquota de 15% (quinze por cento), a título de antecipação do devido na DAA, os resgates, parciais ou totais, de recursos acumulados relativos a participantes dos planos de benefícios de caráter previdenciário, estruturados nas modalidades de contribuição definida ou contribuição variável, das entidades de previdência complementar e das sociedades seguradoras, que não tenham efetuado a opção de que trata o art. 1º da Lei nº 11.053, de 2004.** {#art-23}
+* **Art. 23. Estão sujeitos à incidência do IRRF, à alíquota de 15% (quinze por cento), a título de antecipação do devido na DAA, os resgates, parciais ou totais, de recursos acumulados relativos a participantes dos planos de benefícios de caráter previdenciário, estruturados nas modalidades de contribuição definida ou contribuição variável, das entidades de previdência complementar e das sociedades seguradoras, que não tenham efetuado a opção de que trata o art. 1º da Lei nº 11.053, de 2004.**
 
 
-* **Art. 23-A. A partir do mês de janeiro do ano-calendário de 2026, o pagamento, o creditamento, o emprego ou a entrega de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil em montante superior a R$ 50.000,00 (cinquenta mil reais) em um mesmo mês fica sujeito à retenção na fonte do imposto à alíquota de 10% (dez por cento) sobre o total do valor pago, creditado, empregado ou entregue.** {#art-23-a}
+* **Art. 23-A. A partir do mês de janeiro do ano-calendário de 2026, o pagamento, o creditamento, o emprego ou a entrega de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil em montante superior a R$ 50.000,00 (cinquenta mil reais) em um mesmo mês fica sujeito à retenção na fonte do imposto à alíquota de 10% (dez por cento) sobre o total do valor pago, creditado, empregado ou entregue.**
 
 
   - **§ 1º** São vedadas quaisquer deduções da base de cálculo a que se refere o caput.
@@ -1260,7 +1260,7 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 ###### Seção II Da Tributação na Decisão Judicial
 
 
-* **Art. 24. O imposto sobre a renda incidente sobre os rendimentos pagos em cumprimento de decisão judicial deve ser retido pela pessoa física ou jurídica obrigada ao pagamento no momento em que, por qualquer forma, o rendimento se torne disponível para o beneficiário.** {#art-24}
+* **Art. 24. O imposto sobre a renda incidente sobre os rendimentos pagos em cumprimento de decisão judicial deve ser retido pela pessoa física ou jurídica obrigada ao pagamento no momento em que, por qualquer forma, o rendimento se torne disponível para o beneficiário.**
 
 
   - **§ 1º** Fica dispensada a soma dos rendimentos pagos no mês, para aplicação da alíquota correspondente, nos casos de:
@@ -1304,7 +1304,7 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 * **Subseção I Dos Rendimentos Decorrentes de Decisão da Justiça Federal**
 
 
-* **Art. 25. No caso de rendimentos pagos, em cumprimento de decisão da Justiça Federal, mediante precatório ou requisição de pequeno valor, o IRRF deve ser retido pela instituição financeira responsável pelo pagamento e incide à alíquota de 3% (três por cento) sobre o montante pago, sem quaisquer deduções, no momento do pagamento ao beneficiário ou seu representante legal, ressalvado o disposto no Capítulo VII.** {#art-25}
+* **Art. 25. No caso de rendimentos pagos, em cumprimento de decisão da Justiça Federal, mediante precatório ou requisição de pequeno valor, o IRRF deve ser retido pela instituição financeira responsável pelo pagamento e incide à alíquota de 3% (três por cento) sobre o montante pago, sem quaisquer deduções, no momento do pagamento ao beneficiário ou seu representante legal, ressalvado o disposto no Capítulo VII.**
 
 
   - **§ 1º** Fica dispensada a retenção do imposto caso o beneficiário declare à instituição financeira responsável pelo pagamento que os rendimentos recebidos são isentos ou não tributáveis, declaração essa que poderá ser prestada por meio eletrônico próprio da Justiça Federal.
@@ -1319,7 +1319,7 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 * **Subseção II Dos Rendimentos Decorrentes de Decisão da Justiça do Trabalho**
 
 
-* **Art. 26. Os rendimentos pagos em cumprimento de decisões da Justiça do Trabalho estão sujeitos ao IRRF com base nas tabelas progressivas constantes do Anexo II, observados a tabela de redução constante do Anexo X e o disposto no Capítulo VII.** {#art-26}
+* **Art. 26. Os rendimentos pagos em cumprimento de decisões da Justiça do Trabalho estão sujeitos ao IRRF com base nas tabelas progressivas constantes do Anexo II, observados a tabela de redução constante do Anexo X e o disposto no Capítulo VII.**
 
 
   - **§ 1º** Cabe à fonte pagadora, no prazo de 15 (quinze) dias da data da retenção, comprovar, nos respectivos autos, o recolhimento do IRRF incidente sobre os rendimentos pagos.
@@ -1339,13 +1339,13 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 * **Subseção III Dos Rendimentos Decorrentes de Decisões da Justiça Estadual e do Distrito Federal**
 
 
-* **Art. 27. Na hipótese de rendimentos pagos, em cumprimento de decisão da Justiça Estadual e do Distrito Federal, o IRRF deve ser apurado e recolhido conforme a natureza do rendimento, utilizando o código de receita próprio, ressalvado o disposto no Capítulo VII.** {#art-27}
+* **Art. 27. Na hipótese de rendimentos pagos, em cumprimento de decisão da Justiça Estadual e do Distrito Federal, o IRRF deve ser apurado e recolhido conforme a natureza do rendimento, utilizando o código de receita próprio, ressalvado o disposto no Capítulo VII.**
 
 
 ###### Seção III Dos Servidores no Exterior a Serviço do País
 
 
-* **Art. 28. Os rendimentos do trabalho assalariado recebidos, em moeda estrangeira, por residentes no Brasil, de autarquias ou repartições do Governo brasileiro situadas no exterior, estão sujeitos ao IRRF, mediante utilização da tabela progressiva de que trata o art. 65.** {#art-28}
+* **Art. 28. Os rendimentos do trabalho assalariado recebidos, em moeda estrangeira, por residentes no Brasil, de autarquias ou repartições do Governo brasileiro situadas no exterior, estão sujeitos ao IRRF, mediante utilização da tabela progressiva de que trata o art. 65.**
 
 
   - **§ 1º** Os rendimentos em moeda estrangeira devem ser convertidos em reais mediante utilização do valor do dólar dos Estados Unidos da América, fixado para compra pelo Banco Central do Brasil para o último dia útil da 1ª (primeira) quinzena do mês anterior ao do pagamento do rendimento.
@@ -1365,7 +1365,7 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 ###### Seção IV Das Férias
 
 
-* **Art. 29. No caso de pagamento de férias, inclusive as pagas em dobro, observado o disposto nos incisos V, VII, VIII, IX e X do caput e § 1º do art. 62, a base de cálculo corresponde ao salário relativo ao mês de férias, acrescido, conforme o caso, de 1/3 (um terço) do seu valor.** {#art-29}
+* **Art. 29. No caso de pagamento de férias, inclusive as pagas em dobro, observado o disposto nos incisos V, VII, VIII, IX e X do caput e § 1º do art. 62, a base de cálculo corresponde ao salário relativo ao mês de férias, acrescido, conforme o caso, de 1/3 (um terço) do seu valor.**
 
 
   - **§ 1º** O cálculo do imposto deve ser efetuado em separado de qualquer outro rendimento pago no mês, inclusive no caso de férias indenizadas, ainda que proporcionais, pagas em rescisão de contrato de trabalho.
@@ -1395,7 +1395,7 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 ###### Seção V Do Aluguel de Imóvel Pago por Pessoa Física
 
 
-* **Art. 30. Para determinação da base de cálculo sujeita ao recolhimento mensal obrigatório (carnê-leão) de que trata o Capítulo IX, no caso de rendimentos de aluguéis de imóveis pagos por pessoa física, devem ser observadas as mesmas disposições previstas nos arts. 31 a 35.** {#art-30}
+* **Art. 30. Para determinação da base de cálculo sujeita ao recolhimento mensal obrigatório (carnê-leão) de que trata o Capítulo IX, no caso de rendimentos de aluguéis de imóveis pagos por pessoa física, devem ser observadas as mesmas disposições previstas nos arts. 31 a 35.**
 
 Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o valor locativo do imóvel cedido gratuitamente (comodato) será tributado na DAA.
 
@@ -1403,7 +1403,7 @@ Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o val
 ###### Seção VI Do Aluguel de Imóvel Pago por Pessoa Jurídica
 
 
-* **Art. 31. No caso de aluguéis de imóveis pagos por pessoa jurídica, não integrarão a base de cálculo para efeito de incidência do imposto sobre a renda:** {#art-31}
+* **Art. 31. No caso de aluguéis de imóveis pagos por pessoa jurídica, não integrarão a base de cálculo para efeito de incidência do imposto sobre a renda:**
 
 
     - I - o valor dos impostos, taxas e emolumentos incidentes sobre o bem que produzir o rendimento;
@@ -1428,16 +1428,16 @@ Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o val
 
 
 
-* **Art. 32. Compõem a base de cálculo, para efeito de tributação, os juros de mora, atualização monetária, multas por rescisão de contrato de locação, a indenização por rescisão antecipada ou término do contrato e quaisquer acréscimos ou compensações pelo atraso no pagamento do aluguel, bem como as benfeitorias realizadas no imóvel pelo locatário não reembolsadas pelo locador e as luvas pagas ao locador, ainda que cedido o direito de exploração.** {#art-32}
+* **Art. 32. Compõem a base de cálculo, para efeito de tributação, os juros de mora, atualização monetária, multas por rescisão de contrato de locação, a indenização por rescisão antecipada ou término do contrato e quaisquer acréscimos ou compensações pelo atraso no pagamento do aluguel, bem como as benfeitorias realizadas no imóvel pelo locatário não reembolsadas pelo locador e as luvas pagas ao locador, ainda que cedido o direito de exploração.**
 
 
-* **Art. 33. No caso de rendimentos de aluguéis de imóveis recebidos por residentes ou domiciliados no exterior, compete ao seu procurador a retenção do imposto mediante aplicação da alíquota de 15% (quinze por cento), observado o disposto no art. 31.** {#art-33}
+* **Art. 33. No caso de rendimentos de aluguéis de imóveis recebidos por residentes ou domiciliados no exterior, compete ao seu procurador a retenção do imposto mediante aplicação da alíquota de 15% (quinze por cento), observado o disposto no art. 31.**
 
 
-* **Art. 34. Os rendimentos de aluguéis de imóveis depositados em juízo são tributados somente quando disponibilizados ao beneficiário ou ao seu representante legal.** {#art-34}
+* **Art. 34. Os rendimentos de aluguéis de imóveis depositados em juízo são tributados somente quando disponibilizados ao beneficiário ou ao seu representante legal.**
 
 
-* **Art. 35. É obrigatória a emissão de recibo ou documento equivalente pelo locador ou administrador do bem, quando do recebimento de rendimentos da locação de bens imóveis.** {#art-35}
+* **Art. 35. É obrigatória a emissão de recibo ou documento equivalente pelo locador ou administrador do bem, quando do recebimento de rendimentos da locação de bens imóveis.**
 
 
 ##### CAPÍTULO VII DOS RENDIMENTOS RECEBIDOS ACUMULADAMENTE
@@ -1449,7 +1449,7 @@ Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o val
 * **Subseção I Dos RRA Submetidos à Incidência do Imposto sobre a Renda com Base na Tabela Progressiva Correspondentes a Anos-calendário Anteriores ao do Recebimento**
 
 
-* **Art. 36. Os RRA, a partir de 11 de março de 2015, submetidos à incidência do imposto sobre a renda com base na tabela progressiva, quando correspondentes a anos-calendário anteriores ao do recebimento, serão tributados exclusivamente na fonte, no mês do recebimento ou crédito, em separado dos demais rendimentos recebidos no mês.** {#art-36}
+* **Art. 36. Os RRA, a partir de 11 de março de 2015, submetidos à incidência do imposto sobre a renda com base na tabela progressiva, quando correspondentes a anos-calendário anteriores ao do recebimento, serão tributados exclusivamente na fonte, no mês do recebimento ou crédito, em separado dos demais rendimentos recebidos no mês.**
 
 
     - I - 
@@ -1484,7 +1484,7 @@ Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o val
 
 
 
-* **Art. 37. O imposto será retido, pela pessoa física ou jurídica obrigada ao pagamento ou pela instituição financeira depositária do crédito, e calculado sobre o montante dos rendimentos pagos, mediante a utilização de tabela progressiva resultante da multiplicação da quantidade de meses a que se referem os rendimentos pelos valores constantes da tabela progressiva mensal correspondente ao mês do recebimento ou crédito, observada a tabela de redução constante do Anexo X.** {#art-37}
+* **Art. 37. O imposto será retido, pela pessoa física ou jurídica obrigada ao pagamento ou pela instituição financeira depositária do crédito, e calculado sobre o montante dos rendimentos pagos, mediante a utilização de tabela progressiva resultante da multiplicação da quantidade de meses a que se referem os rendimentos pelos valores constantes da tabela progressiva mensal correspondente ao mês do recebimento ou crédito, observada a tabela de redução constante do Anexo X.**
 
 
   - **§ 1º** O décimo terceiro salário, quando houver, representará em relação ao disposto no caput a 1 (um) mês.
@@ -1496,10 +1496,10 @@ Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o val
 
 
 
-* **Art. 38. Do montante a que se refere o art. 37 poderão ser excluídas despesas, relativas aos rendimentos tributáveis, com ação judicial necessária ao seu recebimento, inclusive de advogados, se tiverem sido pagas pelo contribuinte, sem indenização.** {#art-38}
+* **Art. 38. Do montante a que se refere o art. 37 poderão ser excluídas despesas, relativas aos rendimentos tributáveis, com ação judicial necessária ao seu recebimento, inclusive de advogados, se tiverem sido pagas pelo contribuinte, sem indenização.**
 
 
-* **Art. 39. A base de cálculo será determinada mediante a dedução das seguintes despesas relativas ao montante dos rendimentos tributáveis, observado o previsto no art. 36:** {#art-39}
+* **Art. 39. A base de cálculo será determinada mediante a dedução das seguintes despesas relativas ao montante dos rendimentos tributáveis, observado o previsto no art. 36:**
 
 
     - I - importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, de acordo homologado judicialmente ou de separação ou divórcio consensual realizado por escritura pública; e
@@ -1510,7 +1510,7 @@ Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o val
 Parágrafo único. Aplica-se o disposto no inciso I do caput, independentemente de o beneficiário ser considerado dependente para fins do disposto no art. 90.
 
 
-* **Art. 40. A pessoa responsável pela retenção de que trata o caput do art. 37 deverá, na forma, prazo e condições estabelecidos na legislação do imposto, fornecer à pessoa física beneficiária o Comprovante de Rendimentos Pagos e de Retenção do IRRF, bem como apresentar à Secretaria da Receita Federal do Brasil (RFB) declaração contendo informações sobre:** {#art-40}
+* **Art. 40. A pessoa responsável pela retenção de que trata o caput do art. 37 deverá, na forma, prazo e condições estabelecidos na legislação do imposto, fornecer à pessoa física beneficiária o Comprovante de Rendimentos Pagos e de Retenção do IRRF, bem como apresentar à Secretaria da Receita Federal do Brasil (RFB) declaração contendo informações sobre:**
 
 
     - I - os pagamentos efetuados à pessoa física e o respectivo IRRF;
@@ -1550,7 +1550,7 @@ Parágrafo único. Aplica-se o disposto no inciso I do caput, independentemente 
 
 
 
-* **Art. 41. O somatório dos rendimentos de que trata o art. 36, recebidos no decorrer do ano-calendário, observado o disposto no art. 38, poderá integrar a base de cálculo do imposto sobre a renda na DAA do ano-calendário do recebimento, à opção irretratável do contribuinte.** {#art-41}
+* **Art. 41. O somatório dos rendimentos de que trata o art. 36, recebidos no decorrer do ano-calendário, observado o disposto no art. 38, poderá integrar a base de cálculo do imposto sobre a renda na DAA do ano-calendário do recebimento, à opção irretratável do contribuinte.**
 
 
   - **§ 1º** O IRRF será considerado antecipação do imposto devido apurado na DAA.
@@ -1579,7 +1579,7 @@ Parágrafo único. Aplica-se o disposto no inciso I do caput, independentemente 
 
 
 
-* **Art. 42. Na hipótese de a pessoa responsável pela retenção de que trata o caput do art. 37 não ter feito a retenção em conformidade com o disposto neste Capítulo ou ter promovido retenção indevida ou a maior, a pessoa física beneficiária poderá efetuar ajuste específico na apuração do imposto relativo aos RRA na DAA referente ao ano-calendário correspondente, do seguinte modo:** {#art-42}
+* **Art. 42. Na hipótese de a pessoa responsável pela retenção de que trata o caput do art. 37 não ter feito a retenção em conformidade com o disposto neste Capítulo ou ter promovido retenção indevida ou a maior, a pessoa física beneficiária poderá efetuar ajuste específico na apuração do imposto relativo aos RRA na DAA referente ao ano-calendário correspondente, do seguinte modo:**
 
 
     - I - a apuração do imposto será efetuada:
@@ -1626,7 +1626,7 @@ Parágrafo único. Aplica-se o disposto no inciso I do caput, independentemente 
 * **Subseção II Dos Demais RRA**
 
 
-* **Art. 43. Os RRA que não decorram do previsto no art. 36 estarão sujeitos:** {#art-43}
+* **Art. 43. Os RRA que não decorram do previsto no art. 36 estarão sujeitos:**
 
 
     - I - quando pagos em cumprimento de decisão judicial:
@@ -1645,7 +1645,7 @@ Parágrafo único. Aplica-se o disposto no inciso I do caput, independentemente 
 ###### Seção II Dos RRA Relativos ao Ano-Calendário do Recebimento
 
 
-* **Art. 44. Os RRA relativos ao ano-calendário de recebimento estarão sujeitos à regra de que trata o art. 12-B da Lei nº 7.713, de 22 de dezembro de 1988.** {#art-44}
+* **Art. 44. Os RRA relativos ao ano-calendário de recebimento estarão sujeitos à regra de que trata o art. 12-B da Lei nº 7.713, de 22 de dezembro de 1988.**
 
 Parágrafo único. Caso os RRA sejam pagos em cumprimento de decisão judicial:
 
@@ -1659,7 +1659,7 @@ Parágrafo único. Caso os RRA sejam pagos em cumprimento de decisão judicial:
 ###### Seção III Das Disposições Gerais Relativas aos RRA
 
 
-* **Art. 45. Para efeitos de apuração do imposto de que trata o art. 37, no caso de parcelas de RRA pagas:** {#art-45}
+* **Art. 45. Para efeitos de apuração do imposto de que trata o art. 37, no caso de parcelas de RRA pagas:**
 
 
     - I - em meses distintos, a quantidade de meses relativa a cada parcela será obtida pela multiplicação da quantidade de meses total pelo resultado da divisão entre o valor da parcela e a soma dos valores de todas as parcelas, arredondando-se com uma casa decimal, se for o caso;
@@ -1691,18 +1691,18 @@ Parágrafo único. O arredondamento do algarismo da casa decimal de que trata o 
 
 
 
-* **Art. 46. No caso de se configurar a tributação exclusiva na fonte, nos termos do que dispõem os arts. 37 e 38, os respectivos valores relativos a essa tributação terão caráter apenas informativo na DAA referente ao ano-calendário do respectivo recebimento.** {#art-46}
+* **Art. 46. No caso de se configurar a tributação exclusiva na fonte, nos termos do que dispõem os arts. 37 e 38, os respectivos valores relativos a essa tributação terão caráter apenas informativo na DAA referente ao ano-calendário do respectivo recebimento.**
 
 
-* **Art. 47. Em relação ao disposto no art. 41, por ocasião do ajuste anual, as opções poderão ser exercidas de modo individual em relação ao titular e a cada dependente, desde que reflita o total de rendimentos recebidos individualmente por eles.** {#art-47}
+* **Art. 47. Em relação ao disposto no art. 41, por ocasião do ajuste anual, as opções poderão ser exercidas de modo individual em relação ao titular e a cada dependente, desde que reflita o total de rendimentos recebidos individualmente por eles.**
 
 
-* **Art. 48. No caso de sucessão causa mortis, em que tiver sido encerrado o espólio, a quantidade de meses relativa ao valor dos RRA transmitido a cada sucessor será idêntica à quantidade de meses aplicada ao valor dos RRA do de cujus.** {#art-48}
+* **Art. 48. No caso de sucessão causa mortis, em que tiver sido encerrado o espólio, a quantidade de meses relativa ao valor dos RRA transmitido a cada sucessor será idêntica à quantidade de meses aplicada ao valor dos RRA do de cujus.**
 
 Parágrafo único. Na hipótese de pagamento em parcelas ou de valor a título complementar, serão utilizados os mesmos critérios de cálculo estabelecidos nos arts. 45 e 49 respectivamente.
 
 
-* **Art. 49. Na hipótese de RRA a título complementar, o imposto a ser retido será a diferença entre o incidente sobre a totalidade dos RRA paga, inclusive o superveniente, e a soma dos retidos anteriormente.** {#art-49}
+* **Art. 49. Na hipótese de RRA a título complementar, o imposto a ser retido será a diferença entre o incidente sobre a totalidade dos RRA paga, inclusive o superveniente, e a soma dos retidos anteriormente.**
 
 
   - **§ 1º** Eventual diferença negativa de imposto, apurada na forma do caput, não poderá ser compensada ou restituída.
@@ -1731,10 +1731,10 @@ Parágrafo único. Na hipótese de pagamento em parcelas ou de valor a título c
 
 
 
-* **Art. 49-A. As despesas a que se referem os arts. 38 e 39 que tenham sido excluídas da base de cálculo do imposto sobre a renda incidente sobre RRA em montante maior do que o devido, na hipótese de devolução deste ao contribuinte, sua tributação será, no momento do recebimento, sob a forma de RRA, aplicando-se o disposto no art. 49.** {#art-49-a}
+* **Art. 49-A. As despesas a que se referem os arts. 38 e 39 que tenham sido excluídas da base de cálculo do imposto sobre a renda incidente sobre RRA em montante maior do que o devido, na hipótese de devolução deste ao contribuinte, sua tributação será, no momento do recebimento, sob a forma de RRA, aplicando-se o disposto no art. 49.**
 
 
-* **Art. 50. Nos anos-calendário de 2012 e 2013, no caso de rendimentos pagos, em cumprimento de decisão da Justiças Federal, a pessoa física beneficiária dos RRA poderá apresentar à pessoa responsável pela retenção a que se refere o art. 37 declaração, na forma do Anexo V a esta Instrução Normativa, assinada pelo beneficiário ou por seu representante legal, quando não identificadas as informações relativas à quantidade de meses a que se refere o art. 37, bem como as exclusões e deduções de que tratam os arts. 39 e 40, necessários ao cálculo do IRRF.** {#art-50}
+* **Art. 50. Nos anos-calendário de 2012 e 2013, no caso de rendimentos pagos, em cumprimento de decisão da Justiças Federal, a pessoa física beneficiária dos RRA poderá apresentar à pessoa responsável pela retenção a que se refere o art. 37 declaração, na forma do Anexo V a esta Instrução Normativa, assinada pelo beneficiário ou por seu representante legal, quando não identificadas as informações relativas à quantidade de meses a que se refere o art. 37, bem como as exclusões e deduções de que tratam os arts. 39 e 40, necessários ao cálculo do IRRF.**
 
 
   - **§ 1º** A declaração de que trata o caput deve ser emitida em 2 (duas) vias, devendo o responsável pela retenção a que se refere o art. 38 arquivar a 1ª (primeira) via e devolver a 2ª (segunda) via, como recibo, ao interessado.
@@ -1751,7 +1751,7 @@ Parágrafo único. Na hipótese de pagamento em parcelas ou de valor a título c
 
 
 
-* **Art. 51. Na hipótese de que trata o caput do art. 50, a pessoa física beneficiária poderá efetuar ajuste específico na apuração do imposto relativo aos RRA, do seguinte modo:** {#art-51}
+* **Art. 51. Na hipótese de que trata o caput do art. 50, a pessoa física beneficiária poderá efetuar ajuste específico na apuração do imposto relativo aos RRA, do seguinte modo:**
 
 
     - I - a apuração do imposto será efetuada:
@@ -1780,7 +1780,7 @@ Parágrafo único. A faculdade prevista no caput:
 ##### CAPÍTULO VIII DA BASE DE CÁLCULO MENSAL
 
 
-* **Art. 52. A base de cálculo sujeita à incidência mensal do IRRF é determinada mediante a dedução das seguintes parcelas do rendimento tributável:** {#art-52}
+* **Art. 52. A base de cálculo sujeita à incidência mensal do IRRF é determinada mediante a dedução das seguintes parcelas do rendimento tributável:**
 
 
     - I - as importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do direito de família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 1.124-A da Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil;
@@ -1822,7 +1822,7 @@ Parágrafo único. A faculdade prevista no caput:
 ###### Seção I Da Sujeição ao Recolhimento Mensal Obrigatório
 
 
-* **Art. 53. Está sujeita ao pagamento mensal do imposto a pessoa física residente no País que recebe:** {#art-53}
+* **Art. 53. Está sujeita ao pagamento mensal do imposto a pessoa física residente no País que recebe:**
 
 
     - I - rendimentos de outras pessoas físicas que não tenham sido tributados na fonte no País, tais como decorrentes de arrendamento, subarrendamento, locação e sublocação de móveis ou imóveis, e os decorrentes do trabalho não assalariado, assim compreendidas todas as espécies de remuneração por serviços ou trabalhos prestados sem vínculo empregatício;
@@ -1876,16 +1876,16 @@ Parágrafo único. A faculdade prevista no caput:
 
 
 
-* **Art. 54. Os rendimentos sujeitos ao recolhimento mensal obrigatório (carnê-leão) devem integrar a base de cálculo do imposto na DAA, sendo o imposto pago considerado antecipação do apurado nessa declaração.** {#art-54}
+* **Art. 54. Os rendimentos sujeitos ao recolhimento mensal obrigatório (carnê-leão) devem integrar a base de cálculo do imposto na DAA, sendo o imposto pago considerado antecipação do apurado nessa declaração.**
 
 
 ###### Seção II Da Base de Cálculo do Recolhimento Mensal
 
 
-* **Art. 55. O recolhimento mensal obrigatório (carnê-leão), relativo aos rendimentos recebidos no ano-calendário de pessoas físicas ou de fontes situadas no exterior, será calculado com base nos valores das tabelas progressivas mensais constantes do Anexo II, observada a tabela de redução constante do Anexo X.** {#art-55}
+* **Art. 55. O recolhimento mensal obrigatório (carnê-leão), relativo aos rendimentos recebidos no ano-calendário de pessoas físicas ou de fontes situadas no exterior, será calculado com base nos valores das tabelas progressivas mensais constantes do Anexo II, observada a tabela de redução constante do Anexo X.**
 
 
-* **Art. 56. Para a determinação da base de cálculo do recolhimento mensal obrigatório (carnê-leão), pode-se deduzir do rendimento tributável:** {#art-56}
+* **Art. 56. Para a determinação da base de cálculo do recolhimento mensal obrigatório (carnê-leão), pode-se deduzir do rendimento tributável:**
 
 
     - I - as parcelas previstas nos incisos I a V do caput do art. 52; e
@@ -1912,7 +1912,7 @@ Parágrafo único. A faculdade prevista no caput:
 * **Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros Públicos**
 
 
-* **Art. 57. Na determinação da base de cálculo sujeita à incidência mensal do imposto, até o exercício de 2014, ano-calendário de 2013, os titulares de serviços de registros públicos, para fins de implementação dos serviços, previstos na Lei nº 6.015, de 31 de dezembro de 1973, em meio eletrônico, poderão deduzir os investimentos e demais gastos efetuados com informatização, que compreende a aquisição de hardware, aquisição e desenvolvimento de software e a instalação de redes.** {#art-57}
+* **Art. 57. Na determinação da base de cálculo sujeita à incidência mensal do imposto, até o exercício de 2014, ano-calendário de 2013, os titulares de serviços de registros públicos, para fins de implementação dos serviços, previstos na Lei nº 6.015, de 31 de dezembro de 1973, em meio eletrônico, poderão deduzir os investimentos e demais gastos efetuados com informatização, que compreende a aquisição de hardware, aquisição e desenvolvimento de software e a instalação de redes.**
 
 
   - **§ 1º** Os investimentos e gastos efetuados deverão estar devidamente escriturados no livro Caixa e comprovados com documentação idônea, a qual será mantida em poder dos titulares dos serviços de registros públicos de que trata o caput, à disposição da fiscalização, enquanto não ocorrer a decadência ou a prescrição.
@@ -1932,10 +1932,10 @@ Parágrafo único. A faculdade prevista no caput:
 ##### CAPÍTULO X DAS NORMAS DE RETENÇÃO NA FONTE
 
 
-* **Art. 58. O imposto deve ser retido por ocasião de cada pagamento e, se houver mais de um pagamento pela mesma fonte pagadora, aplica-se a alíquota correspondente à soma dos rendimentos pagos à pessoa física, no mês, a qualquer título, compensando-se o imposto retido anteriormente.** {#art-58}
+* **Art. 58. O imposto deve ser retido por ocasião de cada pagamento e, se houver mais de um pagamento pela mesma fonte pagadora, aplica-se a alíquota correspondente à soma dos rendimentos pagos à pessoa física, no mês, a qualquer título, compensando-se o imposto retido anteriormente.**
 
 
-* **Art. 59. O recolhimento do IRRF sobre quaisquer rendimentos deve ser efetuado, de forma centralizada, pelo estabelecimento matriz da pessoa jurídica.** {#art-59}
+* **Art. 59. O recolhimento do IRRF sobre quaisquer rendimentos deve ser efetuado, de forma centralizada, pelo estabelecimento matriz da pessoa jurídica.**
 
 
   - **§ 1º** A retenção do imposto deverá ser efetuada pela fonte pagadora, matriz ou filial.
@@ -1955,13 +1955,13 @@ Parágrafo único. A faculdade prevista no caput:
 ##### CAPÍTULO XI DA DISPENSA DA RETENÇÃO
 
 
-* **Art. 60. O reembolso total ou parcial, efetuado pela fonte pagadora em folha de salários, de parcelas mensais referentes a pagamentos feitos por pessoas físicas a empresas domiciliadas no País, destinados a coberturas de despesas médicas, odontológicas ou de hospitalização, e a entidades que assegurem direito de atendimento ou ressarcimento de despesas da mesma natureza, não constitui rendimento tributável, para fins de cálculo do IRPF, devendo ser, entretanto, observado o disposto no inciso II do § 3º do art. 94.** {#art-60}
+* **Art. 60. O reembolso total ou parcial, efetuado pela fonte pagadora em folha de salários, de parcelas mensais referentes a pagamentos feitos por pessoas físicas a empresas domiciliadas no País, destinados a coberturas de despesas médicas, odontológicas ou de hospitalização, e a entidades que assegurem direito de atendimento ou ressarcimento de despesas da mesma natureza, não constitui rendimento tributável, para fins de cálculo do IRPF, devendo ser, entretanto, observado o disposto no inciso II do § 3º do art. 94.**
 
 
-* **Art. 61. É dispensada a retenção de imposto, de valor igual ou inferior a R$ 10,00 (dez reais), incidente na fonte sobre rendimentos que devam integrar a base de cálculo do imposto devido na DAA, observado o disposto no § 3º do art. 105.** {#art-61}
+* **Art. 61. É dispensada a retenção de imposto, de valor igual ou inferior a R$ 10,00 (dez reais), incidente na fonte sobre rendimentos que devam integrar a base de cálculo do imposto devido na DAA, observado o disposto no § 3º do art. 105.**
 
 
-* **Art. 62. Estão dispensados da retenção do IRRF e da tributação na DAA os rendimentos de que tratam os atos declaratórios emitidos pelo Procurador-Geral da Fazenda Nacional com base no art. 19 da Lei nº 10.522, de 19 de julho de 2002, desde que observados os termos dos respectivos atos declaratórios, tais como os recebidos a título de:** {#art-62}
+* **Art. 62. Estão dispensados da retenção do IRRF e da tributação na DAA os rendimentos de que tratam os atos declaratórios emitidos pelo Procurador-Geral da Fazenda Nacional com base no art. 19 da Lei nº 10.522, de 19 de julho de 2002, desde que observados os termos dos respectivos atos declaratórios, tais como os recebidos a título de:**
 
 
     - I - Programa de Demissão Voluntária (PDV) (Ato Declaratório PGFN nº 3, de 12 de agosto de 2002);
@@ -2105,7 +2105,7 @@ Parágrafo único. A faculdade prevista no caput:
 ##### CAPÍTULO XII DOS ADIANTAMENTOS
 
 
-* **Art. 63. O adiantamento de rendimentos correspondentes a determinado mês não está sujeito à retenção, desde que os rendimentos sejam integralmente pagos no próprio mês a que se referirem, momento em que são efetuados o cálculo e a retenção do imposto sobre o total dos rendimentos pagos no mês.** {#art-63}
+* **Art. 63. O adiantamento de rendimentos correspondentes a determinado mês não está sujeito à retenção, desde que os rendimentos sejam integralmente pagos no próprio mês a que se referirem, momento em que são efetuados o cálculo e a retenção do imposto sobre o total dos rendimentos pagos no mês.**
 
 
   - **§ 1º** Se o adiantamento se referir a rendimentos que não sejam integralmente pagos no próprio mês, o imposto será calculado de imediato sobre esse adiantamento, observado o disposto no art. 59.
@@ -2120,7 +2120,7 @@ Parágrafo único. A faculdade prevista no caput:
 ##### CAPÍTULO XIII DO REAJUSTAMENTO DA BASE DE CÁLCULO
 
 
-* **Art. 64. Quando a fonte pagadora assumir o ônus do imposto devido pelo beneficiário, a importância paga, creditada, empregada, remetida ou entregue, é considerada líquida, cabendo o reajustamento do respectivo rendimento bruto, sobre o qual recai o imposto.** {#art-64}
+* **Art. 64. Quando a fonte pagadora assumir o ônus do imposto devido pelo beneficiário, a importância paga, creditada, empregada, remetida ou entregue, é considerada líquida, cabendo o reajustamento do respectivo rendimento bruto, sobre o qual recai o imposto.**
 
 
   - **§ 1º** Para reajustamento da base de cálculo aplica-se a seguinte fórmula:
@@ -2163,7 +2163,7 @@ T, a alíquota da classe de rendimentos a que pertence o RP.
 ###### Seção I Do Cálculo do Imposto na Fonte e do Recolhimento Mensal
 
 
-* **Art. 65. O imposto sobre a renda mensal é calculado mediante a utilização das tabelas progressivas constantes do Anexo II, observado o disposto no art. 65-A.** {#art-65}
+* **Art. 65. O imposto sobre a renda mensal é calculado mediante a utilização das tabelas progressivas constantes do Anexo II, observado o disposto no art. 65-A.**
 
 
   - **§ 1º** O imposto de que trata este artigo é calculado sobre os rendimentos efetivamente recebidos em cada mês.
@@ -2185,7 +2185,7 @@ T, a alíquota da classe de rendimentos a que pertence o RP.
 ###### Seção I-A Da redução mensal do imposto
 
 
-* **Art. 65-A. Ao imposto apurado na forma do art. 65, a partir do mês de janeiro de 2026, será concedida uma redução conforme a tabela de que trata o Anexo X.** {#art-65-a}
+* **Art. 65-A. Ao imposto apurado na forma do art. 65, a partir do mês de janeiro de 2026, será concedida uma redução conforme a tabela de que trata o Anexo X.**
 
 
   - **§ 1º** O valor da redução de que trata o caput fica limitado ao valor do imposto determinado de acordo com as tabelas progressivas constantes do Anexo II, observado o disposto no art. 52.
@@ -2205,13 +2205,13 @@ T, a alíquota da classe de rendimentos a que pertence o RP.
 ###### Seção II Do Prazo para o Recolhimento Mensal Obrigatório
 
 
-* **Art. 66. O imposto apurado na forma do art. 65 deverá ser pago até o último dia útil do mês subsequente àquele em que os rendimentos ou ganhos forem percebidos.** {#art-66}
+* **Art. 66. O imposto apurado na forma do art. 65 deverá ser pago até o último dia útil do mês subsequente àquele em que os rendimentos ou ganhos forem percebidos.**
 
 
 ##### CAPÍTULO XV DO RECOLHIMENTO COMPLEMENTAR
 
 
-* **Art. 67. É facultado ao contribuinte antecipar o imposto devido na DAA mediante o recolhimento complementar do imposto.** {#art-67}
+* **Art. 67. É facultado ao contribuinte antecipar o imposto devido na DAA mediante o recolhimento complementar do imposto.**
 
 
   - **§ 1º** O recolhimento deve ser efetuado, no curso do ano-calendário, até o último dia útil do mês de dezembro.
@@ -2226,7 +2226,7 @@ T, a alíquota da classe de rendimentos a que pertence o RP.
 ###### Seção I Da Base de Cálculo
 
 
-* **Art. 68. Para efeitos do disposto no art. 67, a base de cálculo é a diferença entre a soma dos seguintes valores:** {#art-68}
+* **Art. 68. Para efeitos do disposto no art. 67, a base de cálculo é a diferença entre a soma dos seguintes valores:**
 
 
     - I - de todos os rendimentos recebidos no curso do ano-calendário sujeitos à tributação na DAA, inclusive o resultado positivo da atividade rural;
@@ -2260,7 +2260,7 @@ T, a alíquota da classe de rendimentos a que pertence o RP.
 ###### Seção II Da Complementação do Imposto
 
 
-* **Art. 69. Apurada a base de cálculo conforme disposto no art. 68, a complementação do imposto é determinada mediante a utilização da tabela progressiva anual.** {#art-69}
+* **Art. 69. Apurada a base de cálculo conforme disposto no art. 68, a complementação do imposto é determinada mediante a utilização da tabela progressiva anual.**
 
 
   - **§ 1º** O recolhimento complementar a ser pago em determinado mês é a diferença entre o valor do imposto calculado na forma prevista neste artigo e a soma dos valores do imposto retido na fonte ou pago pelo contribuinte a título de recolhimento mensal obrigatório (carnê-leão), ou do recolhimento complementar efetuado em meses anteriores, se for o caso, e do imposto pago no exterior, incidentes sobre os rendimentos computados na base de cálculo, deduzidos os incentivos de que tratam os incisos I a VIII do caput do art. 80, observados os limites previstos nos §§ 1º a 3º desse mesmo artigo.
@@ -2278,7 +2278,7 @@ T, a alíquota da classe de rendimentos a que pertence o RP.
 ###### Seção I Da Regra Geral
 
 
-* **Art. 70. As pessoas físicas devem apresentar anualmente DAA destinada a apurar o saldo do imposto a pagar ou a ser restituído, observados forma, prazo e condições estabelecidos pela Secretaria da Receita Federal do Brasil.** {#art-70}
+* **Art. 70. As pessoas físicas devem apresentar anualmente DAA destinada a apurar o saldo do imposto a pagar ou a ser restituído, observados forma, prazo e condições estabelecidos pela Secretaria da Receita Federal do Brasil.**
 
 Parágrafo único. Quando motivos de força maior, devidamente justificados perante o chefe da repartição lançadora, impossibilitarem a entrega tempestiva da declaração, pode ser concedida, mediante requerimento, uma só prorrogação de até 60 (sessenta) dias, sem prejuízo do pagamento do imposto nos prazos regulares.
 
@@ -2286,7 +2286,7 @@ Parágrafo único. Quando motivos de força maior, devidamente justificados pera
 ###### Seção II Do Desconto Simplificado
 
 
-* **Art. 71. O contribuinte poderá optar por desconto simplificado, que substituirá todas as deduções admitidas na legislação, correspondente à dedução de 20% (vinte por cento) do valor dos rendimentos tributáveis na DAA, independentemente do montante desses rendimentos, dispensadas a comprovação da despesa e a indicação de sua espécie.** {#art-71}
+* **Art. 71. O contribuinte poderá optar por desconto simplificado, que substituirá todas as deduções admitidas na legislação, correspondente à dedução de 20% (vinte por cento) do valor dos rendimentos tributáveis na DAA, independentemente do montante desses rendimentos, dispensadas a comprovação da despesa e a indicação de sua espécie.**
 
 
   - **§ 1º** A opção pelo desconto simplificado implica:
@@ -2307,7 +2307,7 @@ Parágrafo único. Quando motivos de força maior, devidamente justificados pera
 ###### Seção III Da Apuração da Base de Cálculo do Ajuste Anual
 
 
-* **Art. 72. A base de cálculo do imposto, na DAA, é a diferença entre as somas:** {#art-72}
+* **Art. 72. A base de cálculo do imposto, na DAA, é a diferença entre as somas:**
 
 
     - I - de todos os rendimentos recebidos durante o ano-calendário, exceto os isentos, os não tributáveis, os tributados exclusivamente na fonte e os sujeitos à tributação definitiva; e
@@ -2344,13 +2344,13 @@ Parágrafo único. Quando motivos de força maior, devidamente justificados pera
 ###### Seção IV Da Atividade Rural
 
 
-* **Art. 73. O resultado positivo da atividade rural, apurado de acordo com a Lei nº 8.023, de 12 de abril de 1990, integra a base de cálculo do imposto na declaração de rendimentos.** {#art-73}
+* **Art. 73. O resultado positivo da atividade rural, apurado de acordo com a Lei nº 8.023, de 12 de abril de 1990, integra a base de cálculo do imposto na declaração de rendimentos.**
 
 
 ###### Seção V Dos Bens e Direitos
 
 
-* **Art. 74. Como parte integrante da DAA, a pessoa física deve apresentar relação pormenorizada dos bens móveis e imóveis e direitos que, no País ou no exterior, constituam o seu patrimônio e o de seus dependentes, em 31 de dezembro do ano-calendário, bem como os bens e direitos adquiridos e alienados nesse período.** {#art-74}
+* **Art. 74. Como parte integrante da DAA, a pessoa física deve apresentar relação pormenorizada dos bens móveis e imóveis e direitos que, no País ou no exterior, constituam o seu patrimônio e o de seus dependentes, em 31 de dezembro do ano-calendário, bem como os bens e direitos adquiridos e alienados nesse período.**
 
 
   - **§ 1º** Devem ser declarados:
@@ -2433,7 +2433,7 @@ Parágrafo único. Quando motivos de força maior, devidamente justificados pera
 ###### Seção VI Das Dívidas e Ônus Reais
 
 
-* **Art. 75. Os ônus reais e obrigações da pessoa física e de seus dependentes, em 31 de dezembro do ano-calendário, devem ser consignados quando o valor for superior a R$ 5.000,00 (cinco mil reais).** {#art-75}
+* **Art. 75. Os ônus reais e obrigações da pessoa física e de seus dependentes, em 31 de dezembro do ano-calendário, devem ser consignados quando o valor for superior a R$ 5.000,00 (cinco mil reais).**
 
 Parágrafo único. As dívidas e ônus reais assumidos em instituições financeiras no exterior são convertidos para reais pela cotação fixada, para compra, pelo Banco Central do Brasil, para 31 de dezembro do ano-calendário.
 
@@ -2441,7 +2441,7 @@ Parágrafo único. As dívidas e ônus reais assumidos em instituições finance
 ###### Seção VII Da Cessão Gratuita de Imóvel
 
 
-* **Art. 76. Ressalvado o disposto no inciso II do caput do art. 11, considera-se rendimento tributável, na DAA, o valor locativo de imóvel cedido gratuitamente.** {#art-76}
+* **Art. 76. Ressalvado o disposto no inciso II do caput do art. 11, considera-se rendimento tributável, na DAA, o valor locativo de imóvel cedido gratuitamente.**
 
 Parágrafo único. O rendimento tributável é equivalente a 10% (dez por cento) do valor venal do imóvel cedido, podendo ser adotado o constante na guia do Imposto Predial e Territorial Urbano (IPTU) correspondente ao ano-calendário da DAA.
 
@@ -2449,13 +2449,13 @@ Parágrafo único. O rendimento tributável é equivalente a 10% (dez por cento)
 ###### Seção VIII Do Acréscimo Patrimonial
 
 
-* **Art. 77. Constitui rendimento tributável na DAA o valor correspondente ao acréscimo patrimonial, apurado mensalmente, não justificado pelos rendimentos tributáveis, não tributáveis, isentos, tributados exclusivamente na fonte ou de tributação definitiva.** {#art-77}
+* **Art. 77. Constitui rendimento tributável na DAA o valor correspondente ao acréscimo patrimonial, apurado mensalmente, não justificado pelos rendimentos tributáveis, não tributáveis, isentos, tributados exclusivamente na fonte ou de tributação definitiva.**
 
 
 ###### Seção IX Dos Ganhos de Capital e Ganhos Líquidos
 
 
-* **Art. 78. Não integram a base de cálculo os ganhos de capital na alienação de bens e direitos e os ganhos líquidos auferidos nas operações realizadas em bolsas de valores, de mercadorias, de futuros e assemelhadas, nos mercados de liquidação futura fora de bolsas e na alienação de ouro, ativo financeiro.** {#art-78}
+* **Art. 78. Não integram a base de cálculo os ganhos de capital na alienação de bens e direitos e os ganhos líquidos auferidos nas operações realizadas em bolsas de valores, de mercadorias, de futuros e assemelhadas, nos mercados de liquidação futura fora de bolsas e na alienação de ouro, ativo financeiro.**
 
 Parágrafo único. Os ganhos são apurados e tributados em separado e o imposto pago não pode ser compensado na declaração de ajuste, com exceção do valor do imposto retido na fonte incidente sobre ganhos líquidos, à alíquota de 0,005% (cinco milésimos por cento), se houver saldo de imposto retido, depois de:
 
@@ -2472,19 +2472,19 @@ Parágrafo único. Os ganhos são apurados e tributados em separado e o imposto 
 ###### Seção IX-A Dos ganhos em aplicações financeiras no exterior e de lucros e dividendos de entidades controladas no exterior
 
 
-* **Art. 78-A. Os rendimentos do capital aplicado no exterior, nas modalidades de aplicações financeiras e de lucros e dividendos de entidades controladas, deverão ser declarados pela pessoa física residente no País diretamente na DAA de forma separada dos demais rendimentos e dos ganhos de capital, conforme previsto no art. 2º da Instrução Normativa RFB nº 2.180, de 11 de março de 2024.** {#art-78-a}
+* **Art. 78-A. Os rendimentos do capital aplicado no exterior, nas modalidades de aplicações financeiras e de lucros e dividendos de entidades controladas, deverão ser declarados pela pessoa física residente no País diretamente na DAA de forma separada dos demais rendimentos e dos ganhos de capital, conforme previsto no art. 2º da Instrução Normativa RFB nº 2.180, de 11 de março de 2024.**
 
 
 ###### Seção X Da Apuração Anual do Imposto
 
 
-* **Art. 79. O imposto sobre a renda na DAA será calculado de acordo com a respectiva tabela progressiva anual, correspondente à soma das tabelas progressivas mensais vigentes nos meses de cada ano-calendário, constante do Anexo VII a esta Instrução Normativa.** {#art-79}
+* **Art. 79. O imposto sobre a renda na DAA será calculado de acordo com a respectiva tabela progressiva anual, correspondente à soma das tabelas progressivas mensais vigentes nos meses de cada ano-calendário, constante do Anexo VII a esta Instrução Normativa.**
 
 
 ###### Seção XI Das Deduções do Imposto Apurado
 
 
-* **Art. 80. Do imposto apurado na forma prevista no art. 79 podem ser deduzidos:** {#art-80}
+* **Art. 80. Do imposto apurado na forma prevista no art. 79 podem ser deduzidos:**
 
 
     - I - as doações efetuadas aos Fundos dos Direitos da Criança e do Adolescente nacional, distrital, estaduais ou municipais;
@@ -2624,7 +2624,7 @@ Parágrafo único. Os ganhos são apurados e tributados em separado e o imposto 
 ###### Seção XII Do Imposto Pago no Exterior
 
 
-* **Art. 81. Havendo acordo, tratado ou convenção para evitar a dupla tributação de renda entre o Brasil e o país de origem dos rendimentos sujeitos à tributação no Brasil, ou reciprocidade de tratamento, o imposto sobre a renda cobrado pelo país de origem pode ser compensado, por ocasião da apuração do imposto devido na DAA, desde que não passível de restituição ou compensação naquele país.** {#art-81}
+* **Art. 81. Havendo acordo, tratado ou convenção para evitar a dupla tributação de renda entre o Brasil e o país de origem dos rendimentos sujeitos à tributação no Brasil, ou reciprocidade de tratamento, o imposto sobre a renda cobrado pelo país de origem pode ser compensado, por ocasião da apuração do imposto devido na DAA, desde que não passível de restituição ou compensação naquele país.**
 
 
   - **§ 1º** O imposto pago em moeda estrangeira deve ser convertido em reais conforme o disposto no inciso II do § 2º do art. 65.
@@ -2639,7 +2639,7 @@ Parágrafo único. Os ganhos são apurados e tributados em separado e o imposto 
 ###### Seção XIII Da Retificação da DAA
 
 
-* **Art. 82. Eventuais erros ou omissão de informações verificados na DAA, depois de sua apresentação, devem ser retificados pelo contribuinte por meio de declaração retificadora, desde que não esteja sob procedimento de ofício, independentemente de autorização administrativa.** {#art-82}
+* **Art. 82. Eventuais erros ou omissão de informações verificados na DAA, depois de sua apresentação, devem ser retificados pelo contribuinte por meio de declaração retificadora, desde que não esteja sob procedimento de ofício, independentemente de autorização administrativa.**
 
 Parágrafo único. A declaração retificadora referida no caput:
 
@@ -2650,13 +2650,13 @@ Parágrafo único. A declaração retificadora referida no caput:
 
 
 
-* **Art. 83. Depois do prazo previsto para a entrega da declaração, não será admitido retificação que tenha por objetivo alteração na forma de tributação, bem como a retificação de declaração que venha alterar matéria tributável objeto de lançamento regularmente cientificado ao sujeito passivo.** {#art-83}
+* **Art. 83. Depois do prazo previsto para a entrega da declaração, não será admitido retificação que tenha por objetivo alteração na forma de tributação, bem como a retificação de declaração que venha alterar matéria tributável objeto de lançamento regularmente cientificado ao sujeito passivo.**
 
 
-* **Art. 83-A. Nas hipóteses de redução de débitos já inscritos em Dívida Ativa da União bem como de redução de débitos objeto de pedido de parcelamento deferido, admitir-se-á a retificação da declaração tão somente após autorização administrativa, desde que haja prova inequívoca da ocorrência de erro no preenchimento da declaração, e enquanto não extinto o crédito tributário.** {#art-83-a}
+* **Art. 83-A. Nas hipóteses de redução de débitos já inscritos em Dívida Ativa da União bem como de redução de débitos objeto de pedido de parcelamento deferido, admitir-se-á a retificação da declaração tão somente após autorização administrativa, desde que haja prova inequívoca da ocorrência de erro no preenchimento da declaração, e enquanto não extinto o crédito tributário.**
 
 
-* **Art. 84. Quando a retificação da declaração resultar em aumento do imposto declarado, será observado o seguinte procedimento:** {#art-84}
+* **Art. 84. Quando a retificação da declaração resultar em aumento do imposto declarado, será observado o seguinte procedimento:**
 
 
     - I - calcula-se o novo valor de cada quota, mantendo-se o número de quotas em que o imposto foi parcelado na declaração retificada; e
@@ -2666,7 +2666,7 @@ Parágrafo único. A declaração retificadora referida no caput:
 
 
 
-* **Art. 85. Na hipótese de a retificação da declaração resultar em redução do imposto a pagar declarado, será observado o seguinte procedimento:** {#art-85}
+* **Art. 85. Na hipótese de a retificação da declaração resultar em redução do imposto a pagar declarado, será observado o seguinte procedimento:**
 
 
     - I - calcula-se o novo valor de cada quota, mantendo-se o número de quotas em que o imposto foi parcelado na declaração retificada, desde que respeitado o valor mínimo estabelecido; e
@@ -2683,7 +2683,7 @@ Parágrafo único. Sobre o montante a ser compensado ou restituído incidem juro
 ###### Seção I Da Contribuição Previdenciária
 
 
-* **Art. 86. São admitidas, a título de dedução, as contribuições:** {#art-86}
+* **Art. 86. São admitidas, a título de dedução, as contribuições:**
 
 
     - I - para a Previdência Social da União, dos estados, do Distrito Federal e dos municípios;
@@ -2710,7 +2710,7 @@ Parágrafo único. Sobre o montante a ser compensado ou restituído incidem juro
 
 
 
-* **Art. 87. As contribuições de que tratam os incisos II e III do caput do art. 86 ficam condicionadas ao recolhimento, também, de contribuições para o regime geral de previdência social ou, quando for o caso, para o regime próprio de previdência social dos servidores titulares de cargo efetivo da União, dos estados, do Distrito Federal ou dos municípios, observada a contribuição mínima, e limitadas a 12% (doze por cento) do total dos rendimentos computados na determinação da base de cálculo do imposto devido na DAA.** {#art-87}
+* **Art. 87. As contribuições de que tratam os incisos II e III do caput do art. 86 ficam condicionadas ao recolhimento, também, de contribuições para o regime geral de previdência social ou, quando for o caso, para o regime próprio de previdência social dos servidores titulares de cargo efetivo da União, dos estados, do Distrito Federal ou dos municípios, observada a contribuição mínima, e limitadas a 12% (doze por cento) do total dos rendimentos computados na determinação da base de cálculo do imposto devido na DAA.**
 
 
   - **§ 1º** Excetuam-se da condição de que trata o caput os beneficiários de aposentadoria ou pensão concedidas por regime próprio de previdência ou pelo regime geral de previdência social, mantido, entretanto, o limite de 12% (doze por cento) do total dos rendimentos computados na determinação da base de cálculo do imposto devido na DAA.
@@ -2727,18 +2727,18 @@ Parágrafo único. Sobre o montante a ser compensado ou restituído incidem juro
 
 
 
-* **Art. 88. A partir do ano-calendário de 2001, as contribuições de que trata o inciso II do caput do art. 86, cujo titular ou quotista seja dependente, conforme o disposto no art. 91, e incluído na declaração, podem ser deduzidas desde que observadas as condições e o limite global referidos no art. 87.** {#art-88}
+* **Art. 88. A partir do ano-calendário de 2001, as contribuições de que trata o inciso II do caput do art. 86, cujo titular ou quotista seja dependente, conforme o disposto no art. 91, e incluído na declaração, podem ser deduzidas desde que observadas as condições e o limite global referidos no art. 87.**
 
 Parágrafo único. Na hipótese de dependente com idade igual ou superior a dezesseis anos, a dedução a que se refere o caput fica condicionada, ainda, ao recolhimento, em seu nome, de contribuições para o regime geral de previdência social, observada a contribuição mínima, ou, quando for o caso, para o regime próprio de previdência social dos servidores titulares de cargo efetivo da União, dos estados, do Distrito Federal ou dos municípios.
 
 
-* **Art. 89. Os prêmios de seguro de vida com cláusula de cobertura por sobrevivência são indedutíveis para fins de determinação da base de cálculo do imposto devido na DAA.** {#art-89}
+* **Art. 89. Os prêmios de seguro de vida com cláusula de cobertura por sobrevivência são indedutíveis para fins de determinação da base de cálculo do imposto devido na DAA.**
 
 
 ###### Seção II Dos Dependentes
 
 
-* **Art. 90. Podem ser considerados dependentes:** {#art-90}
+* **Art. 90. Podem ser considerados dependentes:**
 
 
     - I - o cônjuge;
@@ -2817,7 +2817,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 ###### Seção III Das Despesas com Instrução
 
 
-* **Art. 91. Na determinação da base de cálculo do imposto devido na DAA podem ser deduzidos, a título de despesas com instrução do contribuinte e de seus dependentes incluídos na declaração, os pagamentos efetuados a instituições de ensino até o limite anual individual constante da tabela do Anexo VIII a esta Instrução Normativa.** {#art-91}
+* **Art. 91. Na determinação da base de cálculo do imposto devido na DAA podem ser deduzidos, a título de despesas com instrução do contribuinte e de seus dependentes incluídos na declaração, os pagamentos efetuados a instituições de ensino até o limite anual individual constante da tabela do Anexo VIII a esta Instrução Normativa.**
 
 
   - **§ 1º** Enquadram-se como instituições de ensino aquelas regularmente autorizadas, pelo Poder Público, a ministrar, nos termos da Lei nº 9.394, de 20 de dezembro de 1996, constituídos nas formas previstas no Código Civil e inscritas no Cadastro Nacional da Pessoa Jurídica (CNPJ), as relativas:
@@ -2879,7 +2879,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Art. 92. Não se enquadram no conceito de despesas com instrução:** {#art-92}
+* **Art. 92. Não se enquadram no conceito de despesas com instrução:**
 
 
     - I - as despesas com uniforme, material e transporte escolar, as relativas à elaboração de dissertação de mestrado ou tese de doutorado, contratação de estagiários, computação eletrônica de dados, papel, fotocópia, datilografia, digitação, tradução de textos, impressão de questionários e de tese elaborada, gastos postais e de viagem;
@@ -2907,7 +2907,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Art. 93. As quantias remetidas ao exterior, para pagamento de despesas com matrícula e mensalidades escolares, podem ser deduzidas a título de despesas com instrução, desde que preenchidas as condições previstas nesta seção.** {#art-93}
+* **Art. 93. As quantias remetidas ao exterior, para pagamento de despesas com matrícula e mensalidades escolares, podem ser deduzidas a título de despesas com instrução, desde que preenchidas as condições previstas nesta seção.**
 
 
   - **§ 1º** Os gastos com passagens e estadas feitos pelo contribuinte, com ele próprio ou com seus dependentes, a fim de estudar no exterior, não podem ser deduzidos como despesas com instrução.
@@ -2922,7 +2922,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 ###### Seção IV Das Despesas Médicas
 
 
-* **Art. 94. Na DAA podem ser deduzidos os pagamentos efetuados, no ano-calendário, a médicos, dentistas, psicólogos, fisioterapeutas, fonoaudiólogos, terapeutas ocupacionais e hospitais, bem como as despesas com exames laboratoriais, serviços radiológicos, aparelhos ortopédicos e próteses ortopédicas e dentárias.** {#art-94}
+* **Art. 94. Na DAA podem ser deduzidos os pagamentos efetuados, no ano-calendário, a médicos, dentistas, psicólogos, fisioterapeutas, fonoaudiólogos, terapeutas ocupacionais e hospitais, bem como as despesas com exames laboratoriais, serviços radiológicos, aparelhos ortopédicos e próteses ortopédicas e dentárias.**
 
 
   - **§ 1º** A dedução alcança, também, os pagamentos efetuados a empresas domiciliadas no País destinados a coberturas de despesas médicas, odontológicas, de hospitalização e a entidades que assegurem direito de atendimento ou ressarcimento de despesas da mesma natureza.
@@ -3032,7 +3032,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Art. 95. Consideram-se despesas médicas ou de hospitalização as despesas com instrução de pessoa física com deficiência física ou mental, condicionadas cumulativamente à:** {#art-95}
+* **Art. 95. Consideram-se despesas médicas ou de hospitalização as despesas com instrução de pessoa física com deficiência física ou mental, condicionadas cumulativamente à:**
 
 
     - I - existência de laudo médico, atestando o estado de deficiência;
@@ -3042,10 +3042,10 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Art. 96. As despesas de internação em estabelecimento geriátrico somente são dedutíveis se o referido estabelecimento for qualificado como hospital, nos termos da legislação específica.** {#art-96}
+* **Art. 96. As despesas de internação em estabelecimento geriátrico somente são dedutíveis se o referido estabelecimento for qualificado como hospital, nos termos da legislação específica.**
 
 
-* **Art. 97. A dedução a título de despesas médicas limita-se a pagamentos especificados e comprovados mediante documento fiscal ou outra documentação hábil e idônea que contenha, no mínimo:** {#art-97}
+* **Art. 97. A dedução a título de despesas médicas limita-se a pagamentos especificados e comprovados mediante documento fiscal ou outra documentação hábil e idônea que contenha, no mínimo:**
 
 
     - I - nome, endereço, número de inscrição no Cadastro de Pessoas Físicas (CPF) ou CNPJ do prestador do serviço;
@@ -3080,13 +3080,13 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Art. 98. São admitidos os pagamentos realizados no exterior, exceto os previstos no § 1º do art. 94, convertidos em reais conforme o disposto no § 2º do art. 56.** {#art-98}
+* **Art. 98. São admitidos os pagamentos realizados no exterior, exceto os previstos no § 1º do art. 94, convertidos em reais conforme o disposto no § 2º do art. 56.**
 
 
-* **Art. 99. As despesas médicas dos alimentandos, quando realizadas pelo alimentante, em virtude de cumprimento de decisão judicial, ou de acordo homologado judicialmente ou de escritura pública, poderão ser deduzidas pelo alimentante na determinação da base de cálculo do imposto sobre a renda na declaração.** {#art-99}
+* **Art. 99. As despesas médicas dos alimentandos, quando realizadas pelo alimentante, em virtude de cumprimento de decisão judicial, ou de acordo homologado judicialmente ou de escritura pública, poderão ser deduzidas pelo alimentante na determinação da base de cálculo do imposto sobre a renda na declaração.**
 
 
-* **Art. 100. Na hipótese de apresentação de declaração em separado, são dedutíveis as despesas médicas ou com plano de saúde relativas ao tratamento do declarante e de dependentes incluídos na declaração cujo ônus financeiro tenha sido suportado por um terceiro, se este for integrante da entidade familiar, não havendo, neste caso, a necessidade de comprovação do ônus.** {#art-100}
+* **Art. 100. Na hipótese de apresentação de declaração em separado, são dedutíveis as despesas médicas ou com plano de saúde relativas ao tratamento do declarante e de dependentes incluídos na declaração cujo ônus financeiro tenha sido suportado por um terceiro, se este for integrante da entidade familiar, não havendo, neste caso, a necessidade de comprovação do ônus.**
 
 
   - **§ 1º** A entidade familiar, para fins desta Instrução Normativa, compreende todos os ascendentes e descendentes do declarante, bem como as demais pessoas físicas consideradas seus dependentes perante a legislação tributária.
@@ -3101,7 +3101,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 ###### Seção V Da Pensão Alimentícia
 
 
-* **Art. 101. Podem ser deduzidas as importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do direito de família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, acordo homologado judicialmente, ou de escritura pública.** {#art-101}
+* **Art. 101. Podem ser deduzidas as importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do direito de família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, acordo homologado judicialmente, ou de escritura pública.**
 
 
   - **§ 1º** É vedada a dedução cumulativa dos valores correspondentes à pensão alimentícia e a de dependente, quando se referirem à mesma pessoa, exceto na hipótese de mudança na relação de dependência no decorrer do ano-calendário.
@@ -3118,7 +3118,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Art. 102. Quando a fonte pagadora não for responsável pelo desconto da pensão, o valor mensal pago pode ser considerado para fins de determinação da base de cálculo sujeita ao imposto na fonte, desde que o alimentante forneça à fonte pagadora o comprovante do pagamento.** {#art-102}
+* **Art. 102. Quando a fonte pagadora não for responsável pelo desconto da pensão, o valor mensal pago pode ser considerado para fins de determinação da base de cálculo sujeita ao imposto na fonte, desde que o alimentante forneça à fonte pagadora o comprovante do pagamento.**
 
 
   - **§ 1º** O valor da pensão alimentícia não utilizado como dedução, no próprio mês de seu pagamento, poderá ser deduzido no mês subsequente.
@@ -3130,13 +3130,13 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Art. 103.** {#art-103}
+* **Art. 103.**
 
 
 ###### Seção VI Das Despesas Escrituradas no Livro Caixa
 
 
-* **Art. 104. O contribuinte que receber rendimentos do trabalho não assalariado, inclusive os titulares dos serviços notariais e de registro e os leiloeiros, poderão deduzir, da receita decorrente do exercício da respectiva atividade:** {#art-104}
+* **Art. 104. O contribuinte que receber rendimentos do trabalho não assalariado, inclusive os titulares dos serviços notariais e de registro e os leiloeiros, poderão deduzir, da receita decorrente do exercício da respectiva atividade:**
 
 
     - I - a remuneração paga a terceiros, desde que com vínculo empregatício, e os respectivos encargos trabalhistas e previdenciários;
@@ -3204,7 +3204,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 ###### Seção I Dos Prazos e Condições
 
 
-* **Art. 105. O pagamento ou recolhimento do imposto deve ser efetuado nos seguintes prazos e condições:** {#art-105}
+* **Art. 105. O pagamento ou recolhimento do imposto deve ser efetuado nos seguintes prazos e condições:**
 
 
     - I - o IRRF sobre rendimentos do trabalho assalariado, pagos por pessoa física ou jurídica, e demais rendimentos recebidos por pessoa física pagos por pessoa jurídica, deve ser recolhido até o último dia útil do 2º (segundo) decêndio do mês subsequente ao mês de ocorrência dos fatos geradores;
@@ -3251,7 +3251,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 ###### Seção II Dos Acréscimos Legais
 
 
-* **Art. 106. A falta ou insuficiência do pagamento ou recolhimento do imposto, no prazo previsto, sujeita o contribuinte ao pagamento do total ou da diferença do imposto, com juros e multa de mora.** {#art-106}
+* **Art. 106. A falta ou insuficiência do pagamento ou recolhimento do imposto, no prazo previsto, sujeita o contribuinte ao pagamento do total ou da diferença do imposto, com juros e multa de mora.**
 
 
   - **§ 1º** A multa de mora é calculada à taxa de 0,33% (trinta e três centésimos por cento), por dia de atraso, limitada a 20% (vinte por cento), a partir do 1º (primeiro) dia subsequente ao do vencimento do prazo previsto para o pagamento do imposto até o dia em que ocorrer o seu pagamento.
@@ -3273,7 +3273,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 ###### Seção III Dos Códigos
 
 
-* **Art. 107. Os códigos para pagamento do IRPF, exceto quanto ao retido na fonte, são os seguintes:** {#art-107}
+* **Art. 107. Os códigos para pagamento do IRPF, exceto quanto ao retido na fonte, são os seguintes:**
 
 
     - I - 0190 - recolhimento mensal obrigatório (carnê-leão);
@@ -3310,7 +3310,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 * **Subseção I Das Pessoas Físicas que Ingressarem no País com Visto Temporário**
 
 
-* **Art. 108. Estão isentos do imposto sobre a renda os rendimentos pagos, creditados, empregados, entregues ou remetidos pela Fifa ou por Subsidiária Fifa no Brasil, para pessoas físicas, não residentes no País, empregadas ou de outra forma contratadas para trabalhar de forma pessoal e direta na organização ou realização dos Eventos, que ingressarem no País com visto temporário.** {#art-108}
+* **Art. 108. Estão isentos do imposto sobre a renda os rendimentos pagos, creditados, empregados, entregues ou remetidos pela Fifa ou por Subsidiária Fifa no Brasil, para pessoas físicas, não residentes no País, empregadas ou de outra forma contratadas para trabalhar de forma pessoal e direta na organização ou realização dos Eventos, que ingressarem no País com visto temporário.**
 
 
   - **§ 1º** As isenções previstas neste artigo também são aplicáveis aos árbitros, jogadores de futebol e outros membros das delegações, exclusivamente no que concerne ao pagamento de prêmios relacionados aos Eventos, efetuado pelas pessoas jurídicas mencionadas no caput.
@@ -3338,7 +3338,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 * **Subseção II Do Reembolso de Despesas Recebido por Voluntário**
 
 
-* **Art. 109. Estão isentos do imposto sobre a renda os valores dos benefícios indiretos e o reembolso de despesas recebidos por Voluntário da Fifa, da Subsidiária Fifa no Brasil ou do Comitê Organizador Brasileiro Ltda (LOC) que auxiliar na organização e realização dos Eventos, até o valor de 5 (cinco) salários mínimos por mês, sem prejuízo de aplicação da tabela de incidência mensal do imposto sobre a renda sobre o valor excedente.** {#art-109}
+* **Art. 109. Estão isentos do imposto sobre a renda os valores dos benefícios indiretos e o reembolso de despesas recebidos por Voluntário da Fifa, da Subsidiária Fifa no Brasil ou do Comitê Organizador Brasileiro Ltda (LOC) que auxiliar na organização e realização dos Eventos, até o valor de 5 (cinco) salários mínimos por mês, sem prejuízo de aplicação da tabela de incidência mensal do imposto sobre a renda sobre o valor excedente.**
 
 
   - **§ 1º** No caso de recebimento de 2 (dois) ou mais pagamentos em 1 (um) mesmo mês, a parcela isenta deve ser considerada em relação à soma desses pagamentos.
@@ -3358,7 +3358,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 * **Subseção III Das Disposições Gerais**
 
 
-* **Art. 110. A Fifa ou Subsidiária Fifa no Brasil apresentará à Secretaria da Receita Federal do Brasil relação dos Eventos e das pessoas físicas passíveis de serem beneficiadas pelas desonerações previstas nos arts. 108 e 109.** {#art-110}
+* **Art. 110. A Fifa ou Subsidiária Fifa no Brasil apresentará à Secretaria da Receita Federal do Brasil relação dos Eventos e das pessoas físicas passíveis de serem beneficiadas pelas desonerações previstas nos arts. 108 e 109.**
 
 
   - **§ 1º** A relação mencionada no caput deverá ser atualizada trimestralmente ou sempre que exigido na forma prevista no Decreto nº 7.578, de 11 de outubro de 2011.
@@ -3370,13 +3370,13 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Art. 111. O disposto nesta Seção aplica-se aos fatos geradores que ocorrerem no período de 1º de janeiro de 2011 a 31 de dezembro de 2015.** {#art-111}
+* **Art. 111. O disposto nesta Seção aplica-se aos fatos geradores que ocorrerem no período de 1º de janeiro de 2011 a 31 de dezembro de 2015.**
 
 
 ###### Seção II
 
 
-* **Art. 112.** {#art-112}
+* **Art. 112.**
 
 Parágrafo único.
 
@@ -3384,7 +3384,7 @@ Parágrafo único.
 ###### Seção III Da isenção dos prêmios pagos pelo Comitê Olímpico Brasileiro e pelo Comitê Paralímpico Brasileiro
 
 
-* **Art. 112-A. Ficam isentos do imposto sobre a renda os prêmios em dinheiro pagos pelo Comitê Olímpico Brasileiro - COB ou pelo Comitê Paralímpico Brasileiro - CPB ao atleta em razão da conquista de medalha em Jogos Olímpicos ou Paralímpicos.** {#art-112-a}
+* **Art. 112-A. Ficam isentos do imposto sobre a renda os prêmios em dinheiro pagos pelo Comitê Olímpico Brasileiro - COB ou pelo Comitê Paralímpico Brasileiro - CPB ao atleta em razão da conquista de medalha em Jogos Olímpicos ou Paralímpicos.**
 
 Parágrafo único. Aplica-se o disposto no caput aos fatos geradores ocorridos entre 24 de julho de 2024 e 5 de dezembro de 2024.
 
@@ -3392,10 +3392,10 @@ Parágrafo único. Aplica-se o disposto no caput aos fatos geradores ocorridos e
 ##### CAPÍTULO XX DAS DISPOSIÇÕES FINAIS
 
 
-* **Art. 113. Esta Instrução Normativa entra em vigor na data de sua publicação no Diário Oficial da União.** {#art-113}
+* **Art. 113. Esta Instrução Normativa entra em vigor na data de sua publicação no Diário Oficial da União.**
 
 
-* **Art. 114. Ficam revogadas a Instrução Normativa SRF nº 15, de 6 de fevereiro de 2001, a Instrução Normativa RFB nº 1.127, de 7 de fevereiro de 2011, a Instrução Normativa RFB nº 1.141, de 31 de março de 2011, a Instrução Normativa RFB nº 1.142, de 31 de março de 2011, e a Instrução Normativa RFB nº 1.433, de 30 de dezembro de 2013.** {#art-114}
+* **Art. 114. Ficam revogadas a Instrução Normativa SRF nº 15, de 6 de fevereiro de 2001, a Instrução Normativa RFB nº 1.127, de 7 de fevereiro de 2011, a Instrução Normativa RFB nº 1.141, de 31 de março de 2011, a Instrução Normativa RFB nº 1.142, de 31 de março de 2011, e a Instrução Normativa RFB nº 1.433, de 30 de dezembro de 2013.**
 
 CARLOS ALBERTO FREITAS BARRETO
 ANEXO I RENDIMENTOS PREVIDENCIÁRIOS ISENTOS - CONTRIBUINTE MAIOR 65 ANOS

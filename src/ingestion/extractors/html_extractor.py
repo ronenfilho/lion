@@ -767,19 +767,10 @@ class HTMLExtractor(BaseExtractor):
 
             # ── Renderizar título da seção ──────────────────────────────────
             if title and md_level > 0:
-                art_m = re.match(r"Art\.?\s*(\d+[º°]?(?:-[A-Z])?)", title, re.I)
                 if md_level <= 6:
-                    if art_m:
-                        art_id = re.sub(r"[º°]", "", art_m.group(1)).lower()
-                        lines += ["", f"{'#' * md_level} {title} {{#art-{art_id}}}", ""]
-                    else:
-                        lines += ["", f"{'#' * md_level} {title}", ""]
+                    lines += ["", f"{'#' * md_level} {title}", ""]
                 elif md_level == 7:
-                    if art_m:
-                        art_id = re.sub(r"[º°]", "", art_m.group(1)).lower()
-                        lines += ["", f"* **{title}** {{#art-{art_id}}}", ""]
-                    else:
-                        lines += ["", f"* **{title}**", ""]
+                    lines += ["", f"* **{title}**", ""]
                 elif md_level == 8:
                     lines += ["", f"  - **{title}**", ""]
                 elif md_level == 9:

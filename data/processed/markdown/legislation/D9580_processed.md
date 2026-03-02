@@ -5,7 +5,7 @@
 
 - **Arquivo**: `D9580.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 16:48
+- **Processado em**: 02/03/2026 16:52
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -1734,27 +1734,27 @@ O PRESIDENTE DA REPÚBLICA , no uso da atribuição que lhe confere o art. 84, c
 DECRETA:
 
 
-## Art. 1º {#art-1}
+## Art. 1º
 
 Fica aprovado o Regulamento do Imposto sobre a Renda e Proventos de Qualquer Natureza, anexo a este Decreto.
 
 
-## Art. 2º {#art-2}
+## Art. 2º
 
 O Imposto sobre a Renda e Proventos de Qualquer Natureza será cobrado, fiscalizado, arrecadado e administrado em conformidade com o disposto neste Regulamento.
 
 
-## Art. 3º {#art-3}
+## Art. 3º
 
 Este Regulamento consolida a legislação referente ao Imposto sobre a Renda e Proventos de Qualquer Natureza publicada até 31 de dezembro de 2016.
 
 
-## Art. 4º {#art-4}
+## Art. 4º
 
 Fica revogado o Decreto nº 3.000, de 26 de março de 1999 .
 
 
-## Art. 5º {#art-5}
+## Art. 5º
 
 Este Decreto entra em vigor na data de sua publicação.
 Brasília, 22 de novembro de 2018; 197º da Independência e 130º da República.
@@ -1775,7 +1775,7 @@ Este texto não substitui o publicado no DOU de 23.11.2018
 ##### CAPÍTULO I - DOS CONTRIBUINTES
 
 
-###### Art. 1º {#art-1}
+###### Art. 1º
 
 As pessoas físicas que perceberem renda ou proventos de qualquer natureza, inclusive rendimentos e ganhos de capital, são contribuintes do imposto sobre a renda, sem distinção de nacionalidade, sexo, idade, estado civil ou profissão (Lei nº 4.506, de 30 de novembro de 1964, art. 1º ; Lei nº 5.172, de 25 de outubro de 1966 - Código Tributário Nacional, art. 43 e art. 45 ; Lei nº 7.713, de 22 de dezembro de 1988, art. 2º ; Lei nº 8.383, de 30 de dezembro de 1991, art. 4º ; e Lei nº 9.250, de 26 de dezembro de 1995, art. 3º, parágrafo único).
 
@@ -1789,7 +1789,7 @@ As pessoas físicas que perceberem renda ou proventos de qualquer natureza, incl
 
 
 
-###### Art. 2º {#art-2}
+###### Art. 2º
 
 O imposto sobre a renda será devido à medida que os rendimentos e os ganhos de capital forem percebidos, observado o disposto no art. 78 (Lei nº 8.134, de 27 de dezembro de 1990, art. 2º) .
 
@@ -1800,7 +1800,7 @@ O imposto sobre a renda será devido à medida que os rendimentos e os ganhos de
 ###### Seção I - Dos menores e de outros incapazes
 
 
-###### Art. 3º {#art-3}
+###### Art. 3º
 
 Os rendimentos e os ganhos de capital percebidos por menores e outros incapazes serão tributados em seus respectivos nomes, com o número de inscrição próprio no Cadastro de Pessoas Físicas - CPF (Lei nº 4.506, de 1964, art. 1º ; Decreto-Lei nº 401, de 30 de dezembro de 1968, art. 2º ; Decreto-Lei nº 1.301, de 31 de dezembro de 1973, art. 3º ; e Lei nº 7.713, de 1988, art. 2º) .
 
@@ -1834,7 +1834,7 @@ Os rendimentos e os ganhos de capital percebidos por menores e outros incapazes 
 * **Subseção única - Dos alimentos e das pensões**
 
 
-###### Art. 4º {#art-4}
+###### Art. 4º
 
 Na hipótese de rendimentos percebidos em dinheiro a título de alimentos ou pensões em cumprimento de acordo homologado judicialmente ou de decisão judicial, inclusive alimentos provisionais ou provisórios, verificada a incapacidade civil do alimentado, a tributação será feita em seu nome pelo tutor, pelo curador ou pelo responsável por sua guarda (Decreto-Lei nº 1.301, de 1973, art. 3º, § 1º , e art. 4º). (Vide ADIN 5422)
 Parágrafo único. Opcionalmente, o responsável pela manutenção do alimentado poderá considerá-lo seu dependente e incluir os rendimentos deste em sua declaração, ainda que em valores inferiores ao limite da primeira faixa da tabela progressiva anual (Lei nº 9.250, de 1995, art. 35, caput , incisos III ao V e VII ).
@@ -1843,7 +1843,7 @@ Parágrafo único. Opcionalmente, o responsável pela manutenção do alimentado
 ###### Seção II - Da sociedade conjugal ou da união estável
 
 
-###### Art. 5º {#art-5}
+###### Art. 5º
 
 Na constância da sociedade conjugal, cada cônjuge terá seus rendimentos tributados na proporção de (Lei nº 10.406, de 10 de janeiro de 2002 - Código Civil, art. 1.511 e art. 1.639 ao art. 1.641):
 
@@ -1873,7 +1873,7 @@ Na constância da sociedade conjugal, cada cônjuge terá seus rendimentos tribu
 * **Subseção I - Da tributação em separado**
 
 
-###### Art. 6º {#art-6}
+###### Art. 6º
 
 Cada cônjuge deverá incluir, em sua declaração, a totalidade dos rendimentos próprios e a metade dos rendimentos produzidos pelos bens comuns.
 
@@ -1895,7 +1895,7 @@ Cada cônjuge deverá incluir, em sua declaração, a totalidade dos rendimentos
 * **Subseção II - Da tributação em conjunto**
 
 
-###### Art. 7º {#art-7}
+###### Art. 7º
 
 Os cônjuges poderão optar pela tributação em conjunto de seus rendimentos, inclusive quando provenientes de bens gravados com cláusula de incomunicabilidade ou inalienabilidade, da atividade rural e das pensões de que tiverem gozo privativo.
 
@@ -1917,7 +1917,7 @@ Os cônjuges poderão optar pela tributação em conjunto de seus rendimentos, i
 * **Subseção III - Da dissolução da sociedade conjugal**
 
 
-###### Art. 8º {#art-8}
+###### Art. 8º
 
 Na hipótese de dissolução da sociedade conjugal por morte de um dos cônjuges, serão tributadas, em nome do sobrevivente, as importâncias que este perceber de seu trabalho próprio, das pensões de que tiver gozo privativo, de quaisquer bens que não se incluam no monte a partilhar e cinquenta por cento dos rendimentos produzidos pelos bens comuns enquanto não ultimada a partilha (Decreto-Lei nº 5.844, de 1943, art. 68) .
 Parágrafo único. Na hipótese de separação judicial, divórcio ou anulação de casamento, cada um dos contribuintes terá o tratamento tributário previsto no art. 2º.
@@ -1926,7 +1926,7 @@ Parágrafo único. Na hipótese de separação judicial, divórcio ou anulação
 ###### Seção III - Do espólio
 
 
-###### Art. 9º {#art-9}
+###### Art. 9º
 
 Ao espólio serão aplicadas as mesmas normas a que ficam sujeitas as pessoas físicas, observado o disposto nesta Seção e, no que se refere à responsabilidade tributária, no art. 21 ao art. 23 (Decreto-Lei nº 5.844, de 1943, art. 45, § 3º ; e Lei nº 154, de 25 de novembro de 1947, art. 1º) .
 
@@ -1943,7 +1943,7 @@ Ao espólio serão aplicadas as mesmas normas a que ficam sujeitas as pessoas f�
 * **Subseção I - Da declaração de ajuste anual**
 
 
-###### Art. 10. {#art-10}
+###### Art. 10.
 
 A declaração de ajuste anual, a partir do exercício correspondente ao ano-calendário do falecimento e até a data em que for homologada a partilha ou, se for o caso, a sobrepartilha, feita a adjudicação dos bens ou lavrada em cartório a escritura pública, será apresentada em nome do espólio pelo inventariante ou, se este ainda não houver sido nomeado, pelo cônjuge meeiro, pelo companheiro ou pelo sucessor a qualquer título (Decreto-Lei nº 5.844, de 1943, art. 45 ; Lei nº 154, de 1947, art. 1º ; e Lei nº 13.105, de 16 de março de 2015) .
 
@@ -1983,7 +1983,7 @@ A declaração de ajuste anual, a partir do exercício correspondente ao ano-cal
 
 
 
-###### Art. 11. {#art-11}
+###### Art. 11.
 
 Homologada a partilha, a sobrepartilha, feita a adjudicação dos bens ou registrada em cartório a escritura pública, deverá ser apresentada, pelo inventariante, no prazo, na forma e nas condições estabelecidos pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, a declaração dos rendimentos correspondentes ao período de 1º de janeiro até a data da homologação, da adjudicação ou do registro em cartório (Lei nº 9.250, de 1995, art. 7º, § 4º; Lei nº 9.779, de 19 de janeiro de 1999, art. 16 ; e Lei nº 13.105, de 2015, art. 610).
 
@@ -1991,7 +1991,7 @@ Homologada a partilha, a sobrepartilha, feita a adjudicação dos bens ou regist
 * **Subseção II - Do cálculo do imposto sobre a renda**
 
 
-###### Art. 12. {#art-12}
+###### Art. 12.
 
 Para fins do disposto no art. 11 , o imposto sobre a renda devido será calculado mediante a utilização dos valores correspondentes à soma das tabelas progressivas mensais relativas aos meses do período abrangido pela tributação no ano-calendário (Lei nº 9.250, de 1995, art. 15).
 
@@ -2008,7 +2008,7 @@ Para fins do disposto no art. 11 , o imposto sobre a renda devido será calculad
 ###### Seção IV - Dos bens em condomínio
 
 
-###### Art. 13. {#art-13}
+###### Art. 13.
 
 Os rendimentos decorrentes de bens possuídos em condomínio serão tributados proporcionalmente à parcela que cada condômino detiver.
 Parágrafo único. Os bens em condomínio deverão ser mencionados nas respectivas declarações de bens, relativamente à parte que couber a cada condômino (Decreto-Lei nº 5.844, de 1943, art. 66).
@@ -2020,7 +2020,7 @@ Parágrafo único. Os bens em condomínio deverão ser mencionados nas respectiv
 * **Subseção I - Da saída do País em caráter definitivo**
 
 
-###### Art. 14. {#art-14}
+###### Art. 14.
 
 Os residentes no País que se retirarem em caráter definitivo do território nacional no curso de um ano-calendário, além da declaração correspondente aos rendimentos do ano-calendário anterior, ficam sujeitos à apresentação da Declaração de Saída Definitiva do País correspondente aos rendimentos e aos ganhos de capital percebidos no período de 1º de janeiro até o dia anterior à data da saída do País, observado o disposto no art. 918 (Lei nº 3.470, de 28 de novembro de 1958, art. 17, caput e § 2º).
 
@@ -2042,7 +2042,7 @@ Os residentes no País que se retirarem em caráter definitivo do território na
 * **Subseção II - Dos ausentes no exterior a serviço do País**
 
 
-###### Art. 15. {#art-15}
+###### Art. 15.
 
 As pessoas físicas residentes no território nacional, ausentes no exterior a serviço do País, que recebam rendimentos do trabalho assalariado, em moeda estrangeira, de autarquias ou de repartições do Governo brasileiro situadas no exterior, ficam sujeitas à tributação na forma estabelecida no parágrafo único do art. 37 e no art. 684 (Lei nº 9.250, de 1995, art. 5º, caput ).
 
@@ -2053,7 +2053,7 @@ As pessoas físicas residentes no território nacional, ausentes no exterior a s
 * **Subseção I - Dos portadores de visto permanente**
 
 
-###### Art. 16. {#art-16}
+###### Art. 16.
 
 As pessoas físicas que ingressarem no País com visto permanente ficam sujeitas ao imposto sobre a renda como residentes no País em relação aos fatos geradores ocorridos a partir da data de sua chegada (Lei nº 9.718, de 27 de novembro de 1998, art. 12, caput, inciso II).
 Parágrafo único. Serão declarados os rendimentos e os ganhos de capital percebidos entre a data da chegada e o último dia do ano-calendário (Decreto-Lei nº 5.844, de 1943, art. 61, parágrafo único).
@@ -2062,7 +2062,7 @@ Parágrafo único. Serão declarados os rendimentos e os ganhos de capital perce
 * **Subseção II - Dos portadores de visto temporário**
 
 
-###### Art. 17. {#art-17}
+###### Art. 17.
 
 Fica sujeita à tributação do imposto sobre a renda, como residente, a pessoa física proveniente do exterior que ingressar no País com visto temporário (Lei nº 9.718, de 1998, art. 12, caput , inciso I) :
 
@@ -2077,12 +2077,12 @@ Parágrafo único. Os rendimentos percebidos no território nacional pelas pesso
 * **Subseção III - Da transferência e do retorno no mesmo ano-calendário**
 
 
-###### Art. 18. {#art-18}
+###### Art. 18.
 
 As pessoas que, no curso de um ano-calendário, passarem à condição de residente no País e, nesse mesmo ano-calendário, deixarem o território nacional, em caráter definitivo, ficarão sujeitas à tributação nos termos estabelecidos no art. 14.
 
 
-###### Art. 19. {#art-19}
+###### Art. 19.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda editará as normas quanto às obrigações acessórias decorrentes da aplicação do disposto nesta Seção (Lei nº 9.718, de 1998, art. 12, parágrafo único).
 
@@ -2090,7 +2090,7 @@ A Secretaria da Receita Federal do Brasil do Ministério da Fazenda editará as 
 ###### Seção VII - Dos servidores de representações estrangeiras e de organismos internacionais
 
 
-###### Art. 20. {#art-20}
+###### Art. 20.
 
 Ficam isentos do imposto sobre a renda os rendimentos do trabalho percebidos por (Lei nº 4.506, de 1964, art. 5º ; e Lei nº 7.713, de 1988, art. 30) :
 
@@ -2124,7 +2124,7 @@ Ficam isentos do imposto sobre a renda os rendimentos do trabalho percebidos por
 ###### Seção I - Da responsabilidade dos sucessores
 
 
-###### Art. 21. {#art-21}
+###### Art. 21.
 
 São pessoalmente responsáveis (Decreto-Lei nº 5.844, de 1943, art. 50; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 131, caput , incisos II e III):
 
@@ -2152,7 +2152,7 @@ São pessoalmente responsáveis (Decreto-Lei nº 5.844, de 1943, art. 50; e Lei 
 ###### Seção II - Da responsabilidade de terceiros
 
 
-###### Art. 22. {#art-22}
+###### Art. 22.
 
 Na hipótese de impossibilidade de exigência do cumprimento da obrigação principal pelo contribuinte, respondem solidariamente com este nos atos em que intervierem ou pelas omissões de que forem responsáveis (Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 134, caput , incisos I ao IV):
 
@@ -2170,12 +2170,12 @@ Na hipótese de impossibilidade de exigência do cumprimento da obrigação prin
 Parágrafo único. O disposto neste artigo somente se aplica, em matéria de penalidades, àquelas de caráter moratório (Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 134, parágrafo único) .
 
 
-###### Art. 23. {#art-23}
+###### Art. 23.
 
 As pessoas a que se refere o art. 22 são pessoalmente responsáveis pelos créditos correspondentes a obrigações tributárias resultantes de atos praticados com excesso de poderes ou infração de lei (Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 135, caput , inciso I).
 
 
-###### Art. 24. {#art-24}
+###### Art. 24.
 
 As firmas ou sociedades nacionais e as filiais, as sucursais ou as agências, no País, de firmas ou de sociedades com sede no exterior, são responsáveis pelos débitos do imposto sobre a renda correspondentes aos rendimentos que houverem pago a seus diretores, seus gerentes e seus empregados e de que não tenham dado informação à repartição, quando estes se ausentarem do País sem os terem solvido (Decreto-Lei nº 5.844, de 1943, art. 182).
 
@@ -2183,7 +2183,7 @@ As firmas ou sociedades nacionais e as filiais, as sucursais ou as agências, no
 ###### Seção III - Da responsabilidade de menores
 
 
-###### Art. 25. {#art-25}
+###### Art. 25.
 
 Os rendimentos e os bens de menores somente responderão pela parcela do imposto sobre a renda proporcional à relação entre seus rendimentos tributáveis e o total da base de cálculo do imposto sobre a renda quando declarados conjuntamente com o de seus pais, nos termos do § 3º do art. 3º (Lei nº 4.506, de 1964, art. 4º, § 3º).
 
@@ -2194,7 +2194,7 @@ Os rendimentos e os bens de menores somente responderão pela parcela do imposto
 ##### CAPÍTULO I - DO DOMICÍLIO DA PESSOA FÍSICA
 
 
-###### Art. 26. {#art-26}
+###### Art. 26.
 
 Considera-se como domicílio tributário da pessoa física aquele eleito por ela, nos termos da legislação aplicável (Lei nº 5.172, de 1966 – Código Tributário Nacional, art. 127).
 
@@ -2228,7 +2228,7 @@ Considera-se como domicílio tributário da pessoa física aquele eleito por ela
 
 
 
-###### Art. 27. {#art-27}
+###### Art. 27.
 
 Para fins de intimação, considera-se domicílio (Decreto nº 70.235, de 6 de março de 1972, art. 23, § 4º):
 
@@ -2243,12 +2243,12 @@ Parágrafo único. O endereço eletrônico de que trata o inciso II do caput som
 ##### CAPÍTULO II - DA TRANSFERÊNCIA DE DOMICÍLIO
 
 
-###### Art. 28. {#art-28}
+###### Art. 28.
 
 O contribuinte que transferir sua residência de um Município para outro ou de um ponto para outro do mesmo Município fica obrigado a comunicar essa mudança na forma, no prazo e nas condições estabelecidos pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda (Decreto-Lei nº 5.844, de 1943, art. 195 ; e Lei nº 9.779, de 1999, art. 16).
 
 
-###### Art. 29. {#art-29}
+###### Art. 29.
 
 A transferência do domicílio fiscal da pessoa física residente e domiciliada no País para país ou dependência com tributação favorecida ou regime fiscal privilegiado, nos termos estabelecidos nos art. 254 e art. 255 , somente terá seus efeitos reconhecidos a partir da data em que o contribuinte comprovar (Lei nº 12.249, de 11 de junho de 2010, art. 27):
 
@@ -2260,7 +2260,7 @@ A transferência do domicílio fiscal da pessoa física residente e domiciliada 
 Parágrafo único. Consideram-se residentes de fato, para fins do disposto no inciso I do caput , as pessoas físicas que tenham efetivamente permanecido no país ou na dependência por mais de cento e oitenta e três dias, consecutivos ou não, no período de até doze meses, ou que comprovem ali se localizarem a residência habitual de sua família e a maior parte de seu patrimônio.
 
 
-###### Art. 30. {#art-30}
+###### Art. 30.
 
 A pessoa física que se retirar do território nacional temporariamente deverá nomear pessoa habilitada no País a cumprir, em seu nome, as obrigações previstas neste Regulamento e representá-la perante as autoridades fiscais (Decreto-Lei nº 5.844, de 1943, art. 195, parágrafo único).
 
@@ -2268,7 +2268,7 @@ A pessoa física que se retirar do território nacional temporariamente deverá 
 ##### CAPÍTULO III - DOS RESIDENTES NO EXTERIOR
 
 
-###### Art. 31. {#art-31}
+###### Art. 31.
 
 O domicílio fiscal do procurador ou do representante de residentes ou domiciliados no exterior será o lugar onde se achar a sua residência habitual ou a sede da representação no País, observado, no que couber, o disposto no art. 26 (Decreto-Lei nº 5.844, de 1943, art. 174).
 Parágrafo único. Se o residente no exterior permanecer no território nacional e não tiver procurador, representante ou empresário no País, o domicílio fiscal será o lugar onde estiver exercendo a sua atividade (Decreto-Lei nº 5.844, de 1943, art. 174, parágrafo único).
@@ -2277,7 +2277,7 @@ Parágrafo único. Se o residente no exterior permanecer no território nacional
 #### TÍTULO III - DA INSCRIÇÃO NO CADASTRO DE PESSOAS FÍSICAS
 
 
-###### Art. 32. {#art-32}
+###### Art. 32.
 
 As pessoas físicas ficam obrigadas a se inscrever no CPF, na forma, no prazo e nas condições estabelecidos pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda (Lei nº 4.862, de 29 de novembro de 1965, art. 11 ; Decreto-Lei nº 401, de 1968, art. 1º e art. 2º ; e Lei nº 9.779, de 1999, art. 16) .
 
@@ -2288,12 +2288,12 @@ As pessoas físicas ficam obrigadas a se inscrever no CPF, na forma, no prazo e 
 ##### CAPÍTULO I - DISPOSIÇÕES GERAIS
 
 
-###### Art. 33. {#art-33}
+###### Art. 33.
 
 Constituem rendimento bruto todo o produto do capital, do trabalho ou da combinação de ambos, os alimentos e as pensões percebidos em dinheiro, os proventos de qualquer natureza e os acréscimos patrimoniais não correspondentes aos rendimentos declarados (Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, caput , incisos I e II ; e Lei nº 7.713, de 1988, art. 3º, § 1º).
 
 
-###### Art. 34. {#art-34}
+###### Art. 34.
 
 A tributação independe da denominação dos rendimentos, dos títulos ou dos direitos, da localização, da condição jurídica ou da nacionalidade da fonte, da origem dos bens produtores da renda e da forma de percepção das rendas ou dos proventos, sendo suficiente, para a incidência do imposto sobre a renda, o benefício do contribuinte por qualquer forma e a qualquer título (Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º; e Lei nº 7.713, de 1988, art. 3º, § 4º).
 Parágrafo único. Sem prejuízo do ajuste anual, se for o caso, os rendimentos serão tributados no mês em que forem recebidos, considerado como tal aquele da entrega de recursos pela fonte pagadora, inclusive por meio de depósito em instituição financeira em favor do beneficiário (Lei nº 7.713, de 1988, art. 2º; e Lei nº 8.134, de 1990, art. 2º ao art. 4º).
@@ -2302,7 +2302,7 @@ Parágrafo único. Sem prejuízo do ajuste anual, se for o caso, os rendimentos 
 ##### CAPÍTULO II - DOS RENDIMENTOS ISENTOS OU NÃO TRIBUTÁVEIS
 
 
-###### Art. 35. {#art-35}
+###### Art. 35.
 
 São isentos ou não tributáveis:
 
@@ -2669,7 +2669,7 @@ m ) o ganho de capital auferido por pessoa física na alienação, até 31 de de
 * **Subseção I - Dos rendimentos do trabalho assalariado, de dirigentes e conselheiros de empresas, de pensões, de proventos e de benefícios da previdência privada**
 
 
-###### Art. 36. {#art-36}
+###### Art. 36.
 
 São tributáveis os rendimentos provenientes do trabalho assalariado, as remunerações por trabalho prestado no exercício de empregos, cargos e funções, e quaisquer proventos ou vantagens percebidos, tais como (Lei Complementar nº 109, de 2001, art. 68 ; Lei Complementar nº 123, de 2006, art. 14 ; Lei nº 4.506, de 1964, art. 16 ; Lei nº 7.713, de 1988, art. 3º, § 4º ; Lei nº 8.383, de 1991, art. 74 ; Lei nº 9.250, de 1995, art. 33; Lei nº 9.532, de 10 dezembro de 1997, art. 11, § 1º ; e Lei nº 12.663, de 2012, art. 46):
 
@@ -2775,7 +2775,7 @@ São tributáveis os rendimentos provenientes do trabalho assalariado, as remune
 * **Subseção II - Dos ausentes no exterior a serviço do País**
 
 
-###### Art. 37. {#art-37}
+###### Art. 37.
 
 Na hipótese de rendimentos do trabalho assalariado recebidos em moeda estrangeira por servidores ausentes no exterior a serviço do País de autarquias ou de repartições do Governo brasileiro situadas no exterior, consideram-se tributáveis vinte e cinco por cento do total recebido (Lei nº 9.250, de 1995, art. 5º, caput , e § 3º).
 Parágrafo único. Os rendimentos serão convertidos em reais por meio da utilização do valor do dólar dos Estados Unidos da América divulgado para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento do rendimento (Lei nº 9.250, de 1995, art. 5º, § 1º).
@@ -2787,7 +2787,7 @@ Parágrafo único. Os rendimentos serão convertidos em reais por meio da utiliz
 * **Subseção I - Dos rendimentos diversos**
 
 
-###### Art. 38. {#art-38}
+###### Art. 38.
 
 São tributáveis os rendimentos do trabalho não assalariado, tais como (Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º ; e Lei nº 7.713, de 1988, art. 3º, § 4º) :
 
@@ -2833,7 +2833,7 @@ São tributáveis os rendimentos do trabalho não assalariado, tais como (Lei n�
 * **Subseção II - Da prestação de serviços com veículos**
 
 
-###### Art. 39. {#art-39}
+###### Art. 39.
 
 São tributáveis os rendimentos provenientes da prestação de serviços de transporte, em veículo próprio ou locado, inclusive por meio de arrendamento mercantil, ou adquirido com reserva de domínio ou alienação fiduciária, nos seguintes percentuais (Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º ; e Lei nº 7.713, de 1988, art. 3º, § 4º , e art. 9º):
 
@@ -2866,7 +2866,7 @@ São tributáveis os rendimentos provenientes da prestação de serviços de tra
 * **Subseção III - Dos garimpeiros**
 
 
-###### Art. 40. {#art-40}
+###### Art. 40.
 
 São tributáveis dez por cento do rendimento bruto percebido por garimpeiros na venda a empresas legalmente habilitadas, de metais preciosos e de pedras preciosas e semipreciosas por eles extraídos (Lei nº 7.713, de 1988, art. 10 ; e Lei nº 7.805, de 18 de julho de 1989, art. 22).
 
@@ -2891,7 +2891,7 @@ São tributáveis dez por cento do rendimento bruto percebido por garimpeiros na
 * **Subseção I - Dos aluguéis ou do arrendamento**
 
 
-###### Art. 41. {#art-41}
+###### Art. 41.
 
 São tributáveis os rendimentos decorrentes da ocupação, do uso ou da exploração de bens corpóreos, tais como ( Lei nº 4.506, de 1964, art. 21 ; Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º ; e Lei nº 7.713, de 1988, art. 3º, § 4º ):
 
@@ -2926,7 +2926,7 @@ São tributáveis os rendimentos decorrentes da ocupação, do uso ou da explora
 * **Subseção II - Das exclusões na hipótese de aluguel de imóveis**
 
 
-###### Art. 42. {#art-42}
+###### Art. 42.
 
 Não serão computados no rendimento bruto, na hipótese de aluguéis de imóveis ( Lei nº 7.739, de 16 de março de 1989, art. 14 ):
 
@@ -2946,7 +2946,7 @@ Não serão computados no rendimento bruto, na hipótese de aluguéis de imóvei
 * **Subseção III - Da emissão de recibo**
 
 
-###### Art. 43. {#art-43}
+###### Art. 43.
 
 Será obrigatória a emissão de recibo ou de documento equivalente pelo locador ou pelo administrador do bem, quando do recebimento de rendimentos da locação de bens móveis ou imóveis ( Lei nº 8.846, de 1994, art. 1º, caput, e § 1º ).
 Parágrafo único. Ato do Ministro de Estado da Fazenda estabelecerá, para os efeitos do disposto neste artigo, os documentos que serão considerados equivalentes ao recibo e poderá dispensá-los quando os considerar desnecessários ( Lei nº 8.846, de 1994, art. 1º, § 2º ).
@@ -2955,7 +2955,7 @@ Parágrafo único. Ato do Ministro de Estado da Fazenda estabelecerá, para os e
 * **Subseção IV - Dos royalties**
 
 
-###### Art. 44. {#art-44}
+###### Art. 44.
 
 São tributáveis os rendimentos decorrentes de uso, fruição ou exploração de direitos, tais como ( Lei nº 4.506, de 1964, art. 22 ; Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º ; e Lei nº 7.713, de 1988, art. 3º, § 4º ):
 
@@ -2976,7 +2976,7 @@ Parágrafo único. Serão também considerados royalties os juros de mora e quai
 * **Subseção V - Disposições comuns**
 
 
-###### Art. 45. {#art-45}
+###### Art. 45.
 
 Serão também consideradas como aluguéis ou royalties todas as espécies de rendimentos percebidos pela ocupação, pelo uso, pela fruição ou pela exploração de bens e direitos, além daqueles a que se referem os art. 41 e art. 44, tais como ( Lei nº 4.506, de 1964, art. 23 ; Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º ; e Lei nº 7.713, de 1988, art. 3º, § 4º ):
 
@@ -3018,7 +3018,7 @@ Serão também consideradas como aluguéis ou royalties todas as espécies de re
 ###### Seção IV - Dos alimentos e da pensão
 
 
-###### Art. 46. {#art-46}
+###### Art. 46.
 
 São tributáveis os valores percebidos, em dinheiro, a título de alimentos ou de pensões, em cumprimento de decisão judicial, de acordo homologado judicialmente ou de escritura pública registrada em cartório, inclusive a prestação de alimentos provisionais ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º ; Decreto-Lei nº 1.301, de 1973, art. 3º e art. 4º ; e Lei nº 7.713, de 1988, art. 3º, § 4º ). (Vide ADIN 5422)
 
@@ -3026,7 +3026,7 @@ São tributáveis os valores percebidos, em dinheiro, a título de alimentos ou 
 ###### Seção V - Dos demais rendimentos
 
 
-###### Art. 47. {#art-47}
+###### Art. 47.
 
 São também tributáveis ( Decreto-Lei nº 5.844, de 1943, art. 6º, caput, e alínea “c” , art. 8º, caput, e alínea “e” , e art. 10, § 1º, alíneas “a” e “c” ; Lei nº 4.506, de 1964, art. 26 ; Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º ; Lei nº 7.713, de 1988, art. 3º, § 4º ; e Lei nº 9.430, de 1996, art. 24, § 2º, inciso IV , e art. 70, § 3º, inciso I ):
 
@@ -3114,12 +3114,12 @@ São também tributáveis ( Decreto-Lei nº 5.844, de 1943, art. 6º, caput, e a
 ###### Seção VI - Dos rendimentos recebidos acumuladamente
 
 
-###### Art. 48. {#art-48}
+###### Art. 48.
 
 Os rendimentos recebidos acumuladamente e submetidos à incidência do imposto sobre a renda com base na tabela progressiva, quando correspondentes a anos-calendário anteriores ao do recebimento, serão tributados exclusivamente na fonte, no mês do recebimento ou do crédito, separadamente dos demais rendimentos recebidos no mês, observado o disposto no art. 702 ao art. 706 . ( Lei nº 7.713, de 1988, art. 12-A ).
 
 
-###### Art. 49. {#art-49}
+###### Art. 49.
 
 Os rendimentos recebidos acumuladamente, quando correspondentes ao ano-calendário em curso, serão tributados, no mês do recebimento ou do crédito, sobre o total dos rendimentos, subtraídos do valor das despesas com ação judicial necessárias ao seu recebimento, inclusive de advogados, se houverem sido pagas pelo contribuinte, sem indenização ( Lei nº 7.713, de 1988, art. 12-B ).
 
@@ -3127,7 +3127,7 @@ Os rendimentos recebidos acumuladamente, quando correspondentes ao ano-calendár
 ###### Seção VII - Dos rendimentos da atividade rural
 
 
-###### Art. 50. {#art-50}
+###### Art. 50.
 
 São tributáveis os resultados positivos provenientes da atividade rural exercida pelas pessoas físicas, apurados conforme o disposto nesta Seção ( Lei nº 9.250, de 1995, art. 9º ).
 
@@ -3135,7 +3135,7 @@ São tributáveis os resultados positivos provenientes da atividade rural exerci
 * **Subseção I - Da definição**
 
 
-###### Art. 51. {#art-51}
+###### Art. 51.
 
 Para fins do disposto neste Regulamento, considera-se atividade rural ( Lei nº 8.023, de 12 de abril de 1990, art. 2º ; e Lei nº 9.430, de 1996, art. 59):
 
@@ -3191,7 +3191,7 @@ Para fins do disposto neste Regulamento, considera-se atividade rural ( Lei nº 
 * **Subseção II - Dos arrendatários, dos condôminos e dos parceiros**
 
 
-###### Art. 52. {#art-52}
+###### Art. 52.
 
 Os arrendatários, os condôminos e os parceiros na exploração da atividade rural, comprovada a situação documentalmente, pagarão o imposto, separadamente, na proporção dos rendimentos que couber a cada um ( Lei nº 8.023, de 1990, art. 13 ).
 Parágrafo único. Na hipótese de parceria rural, o disposto neste artigo aplica-se somente em relação aos rendimentos para cuja obtenção o parceiro houver assumido os riscos inerentes à exploração da atividade.
@@ -3200,7 +3200,7 @@ Parágrafo único. Na hipótese de parceria rural, o disposto neste artigo aplic
 * **Subseção III - Das formas de apuração**
 
 
-###### Art. 53. {#art-53}
+###### Art. 53.
 
 O resultado da exploração da atividade rural será apurado mediante escrituração do livro-caixa, que deverá abranger as receitas, as despesas de custeio, os investimentos e os demais valores que integrem a atividade ( Lei nº 9.250, de 1995, art. 18, caput ).
 
@@ -3242,7 +3242,7 @@ O resultado da exploração da atividade rural será apurado mediante escritura�
 * **Subseção IV - Da receita bruta**
 
 
-###### Art. 54. {#art-54}
+###### Art. 54.
 
 A receita bruta da atividade rural será constituída pelo montante das vendas dos produtos oriundos das atividades definidas no art. 51 , exploradas pelo próprio produtor-vendedor.
 
@@ -3326,7 +3326,7 @@ A receita bruta da atividade rural será constituída pelo montante das vendas d
 * **Subseção V - Das despesas de custeio e investimentos**
 
 
-###### Art. 55. {#art-55}
+###### Art. 55.
 
 Os investimentos serão considerados despesas no mês do pagamento ( Lei nº 8.023, de 1990, art. 4º, § 2º ).
 
@@ -3423,12 +3423,12 @@ Os investimentos serão considerados despesas no mês do pagamento ( Lei nº 8.0
 * **Subseção VI - Do resultado da atividade rural**
 
 
-###### Art. 56. {#art-56}
+###### Art. 56.
 
 Considera-se resultado da atividade rural a diferença entre o valor da receita bruta recebida e o das despesas de custeio e de investimentos pagos no ano-calendário, correspondentes a todos os imóveis da pessoa física, independentemente de localização ( Lei nº 8.023, de 1990, art. 4º ).
 
 
-###### Art. 57. {#art-57}
+###### Art. 57.
 
 O resultado auferido em unidade rural comum deverá ser apurado e tributado pelos cônjuges ou pelos companheiros proporcionalmente à sua parte.
 Parágrafo único. Opcionalmente, o resultado poderá ser apurado e tributado em conjunto na declaração de um dos cônjuges ou dos companheiros.
@@ -3437,7 +3437,7 @@ Parágrafo único. Opcionalmente, o resultado poderá ser apurado e tributado em
 * **Subseção VII - Da compensação de prejuízos**
 
 
-###### Art. 58. {#art-58}
+###### Art. 58.
 
 O resultado positivo obtido na exploração da atividade rural pela pessoa física poderá ser compensado com prejuízos apurados em anos-calendário anteriores ( Lei nº 9.250, de 1995, art. 19, caput ).
 
@@ -3471,7 +3471,7 @@ O resultado positivo obtido na exploração da atividade rural pela pessoa físi
 
 
 
-###### Art. 59. {#art-59}
+###### Art. 59.
 
 A pessoa física que, na apuração do resultado da atividade rural, decidir-se pela opção de que trata o art. 63, perderá o direito à compensação do total dos prejuízos correspondentes a anos-calendário anteriores ao da opção ( Lei nº 8.023, de 1990, art. 16, parágrafo único ).
 
@@ -3479,12 +3479,12 @@ A pessoa física que, na apuração do resultado da atividade rural, decidir-se 
 * **Subseção VIII - Da apuração do resultado tributável**
 
 
-###### Art. 60. {#art-60}
+###### Art. 60.
 
 Constitui resultado tributável da atividade rural aquele apurado na forma prevista no art. 56, observado o disposto nos art. 54, art. 55 e art. 58 ( Lei nº 8.023, de 1990, art. 7º ).
 
 
-###### Art. 61. {#art-61}
+###### Art. 61.
 
 O resultado da atividade rural, quando positivo, integrará a base de cálculo do imposto sobre a renda, na declaração de ajuste anual e, quando negativo, constituirá prejuízo compensável na forma prevista no art. 58 ( Lei nº 9.250, de 1995, art. 9º ).
 
@@ -3492,7 +3492,7 @@ O resultado da atividade rural, quando positivo, integrará a base de cálculo d
 * **Subseção IX - Da atividade rural exercida no exterior**
 
 
-###### Art. 62. {#art-62}
+###### Art. 62.
 
 O resultado da atividade rural exercida no exterior por residentes no País, convertido em reais por meio da utilização do valor do dólar dos Estados Unidos da América estabelecido para compra pelo Banco Central do Brasil, para o último dia do ano-calendário a que se refere o resultado, integrará a base de cálculo do imposto, na declaração de ajuste anual, vedada a compensação de resultado positivo, obtido no exterior, com resultado negativo obtido no País ( Lei nº 9.250, de 1995, art. 21 ).
 
@@ -3500,7 +3500,7 @@ O resultado da atividade rural exercida no exterior por residentes no País, con
 * **Subseção X - Do resultado presumido**
 
 
-###### Art. 63. {#art-63}
+###### Art. 63.
 
 À opção do contribuinte, o resultado da atividade rural ficará limitada a vinte por cento da receita bruta do ano-calendário, observado o disposto no art. 59 ( Lei nº 8.023, de 1990, art. 5º ).
 
@@ -3517,7 +3517,7 @@ O resultado da atividade rural exercida no exterior por residentes no País, con
 * **Subseção XI - Do residente no exterior**
 
 
-###### Art. 64. {#art-64}
+###### Art. 64.
 
 O resultado decorrente da atividade rural exercida no País por residente ou domiciliado no exterior, apurado por ocasião do encerramento do ano-calendário, constituirá a base de cálculo do imposto sobre a renda e será tributado à alíquota de quinze por cento ( Lei nº 9.250, de 1995, art. 20 ).
 
@@ -3539,7 +3539,7 @@ O resultado decorrente da atividade rural exercida no País por residente ou dom
 ###### Seção VIII - Da atualização monetária dos rendimentos
 
 
-###### Art. 65. {#art-65}
+###### Art. 65.
 
 Para fins de incidência do imposto sobre a renda, o valor da atualização monetária dos rendimentos acompanha a natureza do principal, ressalvadas as hipóteses específicas previstas neste Regulamento ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º; e Lei nº 7.713, de 1988, art. 3º, § 4º ).
 
@@ -3550,7 +3550,7 @@ Para fins de incidência do imposto sobre a renda, o valor da atualização mone
 ##### CAPÍTULO I - DISPOSIÇÕES GERAIS
 
 
-###### Art. 66. {#art-66}
+###### Art. 66.
 
 As deduções ficam sujeitas à comprovação ou à justificação, a juízo da autoridade lançadora ( Decreto-Lei nº 5.844, de 1943, art. 11, § 3º ).
 
@@ -3570,7 +3570,7 @@ As deduções ficam sujeitas à comprovação ou à justificação, a juízo da 
 ###### Seção I - Das contribuições previdenciárias
 
 
-###### Art. 67. {#art-67}
+###### Art. 67.
 
 Na determinação da base de cálculo sujeita à incidência mensal do imposto sobre a renda, poderão ser deduzidas ( Lei Complementar nº 109, de 2001, art. 69, caput ; e Lei nº 9.250, de 1995, art. 4º, caput, incisos IV, V e VII ):
 
@@ -3594,7 +3594,7 @@ Parágrafo único. A dedução permitida pelo inciso II do caput aplica-se exclu
 ###### Seção II - Das despesas escrituradas no livro-caixa
 
 
-###### Art. 68. {#art-68}
+###### Art. 68.
 
 O contribuinte que perceber rendimentos do trabalho não assalariado, inclusive os titulares dos serviços notariais e de registro, a que se refere o art. 236 da Constituição , e os leiloeiros, poderão deduzir da receita decorrente do exercício da atividade ( Lei nº 8.134, de 1990, art. 6º ; e Lei nº 9.250, de 1995, art. 4º, caput , inciso I ):
 
@@ -3618,7 +3618,7 @@ Parágrafo único. O disposto neste artigo não se aplica ( Lei nº 8.134, de 19
 
 
 
-###### Art. 69. {#art-69}
+###### Art. 69.
 
 As deduções de que trata o art. 68 não poderão exceder à receita mensal da atividade, permitido o cômputo do excesso de deduções nos meses seguintes, até dezembro do mesmo ano-calendário ( Lei nº 8.134, de 1990, art. 6º, § 3º ).
 
@@ -3640,7 +3640,7 @@ As deduções de que trata o art. 68 não poderão exceder à receita mensal da 
 * **Subseção única - Da dedução de despesas com informatização pelos titulares de serviços de registros públicos**
 
 
-###### Art. 70. {#art-70}
+###### Art. 70.
 
 Na determinação da base de cálculo sujeita à incidência mensal do imposto sobre a renda, até o exercício de 2014, ano-calendário de 2013, os titulares de serviços de registros públicos, para fins de implementação dos serviços, previstos na Lei nº 6.015, de 31 de dezembro de 1973 , em meio eletrônico, poderão deduzir os investimentos e os demais gastos efetuados com informatização, que compreende a aquisição de hardware , a aquisição e desenvolvimento de software e a instalação de redes ( Lei nº 12.024, de 27 de agosto de 2009, art. 3º ).
 
@@ -3662,7 +3662,7 @@ Na determinação da base de cálculo sujeita à incidência mensal do imposto s
 ###### Seção III - Dos dependentes
 
 
-###### Art. 71. {#art-71}
+###### Art. 71.
 
 Na determinação da base de cálculo sujeita à incidência mensal do imposto sobre a renda, poderá ser deduzida do rendimento tributável a quantia, por dependente, de ( Lei nº 9.250, de 1995, art. 4º, caput, inciso III ):
 
@@ -3733,7 +3733,7 @@ Na determinação da base de cálculo sujeita à incidência mensal do imposto s
 ###### Seção IV - Da pensão alimentícia
 
 
-###### Art. 72. {#art-72}
+###### Art. 72.
 
 Na determinação da base de cálculo sujeita à incidência mensal do imposto sobre a renda, poderá ser deduzida a importância paga a título de pensão alimentícia observadas as normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 733 da Lei nº 13.105, de 16 de março de 2015 - Código de Processo Civil ( Lei nº 9.250, de 1995, art. 4º, caput , inciso II ).
 
@@ -3768,7 +3768,7 @@ Na determinação da base de cálculo sujeita à incidência mensal do imposto s
 ###### Seção I - Das despesas médicas
 
 
-###### Art. 73. {#art-73}
+###### Art. 73.
 
 Na determinação da base de cálculo do imposto sobre a renda devido na declaração de ajuste anual, poderão ser deduzidos os pagamentos efetuados, no ano-calendário, a médicos, dentistas, psicólogos, fisioterapeutas, fonoaudiólogos, terapeutas ocupacionais e hospitais, e as despesas com exames laboratoriais, serviços radiológicos, aparelhos ortopédicos e próteses ortopédicas e dentárias ( Lei nº 9.250, de 1995, art. 8º, caput, inciso II, alínea “a” ).
 
@@ -3815,7 +3815,7 @@ Na determinação da base de cálculo do imposto sobre a renda devido na declara
 ###### Seção II - Das despesas com instrução
 
 
-###### Art. 74. {#art-74}
+###### Art. 74.
 
 Na determinação da base de cálculo do imposto sobre a renda devido na declaração de ajuste anual, poderão ser deduzidos os pagamentos de despesas com instrução do contribuinte e de seus dependentes, efetuados a estabelecimentos de ensino, relativamente à educação infantil, ao ensino fundamental, ao ensino médio, à educação superior, e à educação profissional, até o limite anual individual de ( Lei nº 9.250, de 1995, art. 8º, caput , inciso II, alínea “b” ):
 
@@ -3885,7 +3885,7 @@ Seção III
 ###### Das contribuições previdenciárias e aos Fundos de Aposentadoria Programada Individual
 
 
-###### Art. 75. {#art-75}
+###### Art. 75.
 
 Na determinação da base de cálculo do imposto sobre a renda devido na declaração de ajuste anual poderão ser deduzidas as contribuições para ( Lei nº 9.250, de 1995, art. 8º, caput, inciso II, alíneas “d”, “e” e “i” ; Lei nº 9.532, de 1997, art. 11 ; e Medida Provisória nº 2.158-35, de 2001, art. 61 ):
 
@@ -3921,7 +3921,7 @@ Na determinação da base de cálculo do imposto sobre a renda devido na declara
 #### TÍTULO VI - DA BASE DE CÁLCULO DO IMPOSTO SOBRE A RENDA NA DECLARAÇÃO
 
 
-###### Art. 76. {#art-76}
+###### Art. 76.
 
 A base de cálculo do imposto sobre a renda devido no ano-calendário será a diferença entre as somas ( Lei Complementar nº 109, de 2001, art. 69 ; Lei nº 9.250, de 1995, art. 8º ; Lei nº 9.532, de 1997, art. 11 ; Lei nº 12.024, de 2009, art. 3 º; e Medida Provisória nº 2.158-35, de 2001, art. 61 ):
 
@@ -3965,7 +3965,7 @@ A base de cálculo do imposto sobre a renda devido no ano-calendário será a di
 ##### DO DESCONTO SIMPLIFICADO
 
 
-###### Art. 77. {#art-77}
+###### Art. 77.
 
 Independentemente do montante dos rendimentos tributáveis na declaração de ajuste anual, recebidos no ano-calendário, o contribuinte poderá optar por desconto simplificado, que substituirá todas as deduções admitidas na legislação, correspondente à dedução de vinte por cento do valor dos rendimentos tributáveis na declaração de ajuste anual, dispensadas a comprovação da despesa e a indicação de sua espécie, limitada a ( Lei nº 9.250, de 1995, art. 10, caput ):
 
@@ -3992,7 +3992,7 @@ Parágrafo único. O valor deduzido na forma estabelecida neste artigo não pode
 #### TÍTULO VII - DO CÁLCULO DO SALDO DO IMPOSTO SOBRE A RENDA
 
 
-###### Art. 78. {#art-78}
+###### Art. 78.
 
 Sem prejuízo do disposto no § 2º do art. 3º, a pessoa física deverá apurar o saldo em reais do imposto sobre a renda a pagar ou o valor a ser restituído, relativamente aos rendimentos percebidos no ano-calendário ( Lei nº 9.250, de 1995, art. 7º ).
 
@@ -4000,12 +4000,12 @@ Sem prejuízo do disposto no § 2º do art. 3º, a pessoa física deverá apurar
 ##### CAPÍTULO I - DA APURAÇÃO ANUAL DO IMPOSTO SOBRE A RENDA
 
 
-###### Art. 79. {#art-79}
+###### Art. 79.
 
 O imposto sobre a renda devido na declaração de ajuste anual incidente sobre os rendimentos de pessoas físicas será calculado de acordo com a tabela progressiva anual correspondente à soma das tabelas progressivas mensais vigentes nos meses de cada ano-calendário ( Lei nº 11.482, de 2007, art. 1º, parágrafo único ).
 
 
-###### Art. 80. {#art-80}
+###### Art. 80.
 
 Do imposto sobre a renda apurado na forma estabelecida no art. 79 , poderão ser deduzidos ( Lei nº 9.250, de 1995, art. 12 ; Lei nº 11.438, de 29 de dezembro de 2006, art. 1º ; e Lei nº 12.715, de 17 de setembro de 2012, art. 4º) :
 
@@ -4056,12 +4056,12 @@ Do imposto sobre a renda apurado na forma estabelecida no art. 79 , poderão ser
 
 
 
-###### Art. 81. {#art-81}
+###### Art. 81.
 
 O montante determinado na forma estabelecida no art. 80 constituirá, se positivo, saldo do imposto sobre a renda a pagar, observado o disposto no art. 116 , e, se negativo, valor a ser restituído ( Lei nº 9.250, de 1995, art. 13, caput ).
 
 
-###### Art. 82. {#art-82}
+###### Art. 82.
 
 O valor da restituição a que se refere o art. 81 será acrescido de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - Selic, para títulos federais, acumulada mensalmente, calculados a partir do primeiro dia do mês subsequente ao previsto para a entrega tempestiva da declaração de ajuste anual até o mês anterior ao da liberação da restituição, e de um por cento no mês em que o recurso financeiro for disponibilizado ao contribuinte em instituição financeira ( Lei nº 9.250, de 1995, art. 16 ; e Lei nº 9.430, de 1996, art. 62 ).
 Parágrafo único. Têm prioridade no recebimento da restituição de que trata este artigo:
@@ -4079,7 +4079,7 @@ Parágrafo único. Têm prioridade no recebimento da restituição de que trata 
 ###### Do espólio e da saída definitiva do País
 
 
-###### Art. 83. {#art-83}
+###### Art. 83.
 
 Nas hipóteses de encerramento de espólio e de saída definitiva do território nacional, o imposto sobre a renda devido será calculado por meio da utilização dos valores correspondentes à soma das tabelas progressivas mensais relativas aos meses do período abrangido pela tributação no ano-calendário ( Lei nº 9.250, de 1995, art. 15 ).
 
@@ -4090,7 +4090,7 @@ Nas hipóteses de encerramento de espólio e de saída definitiva do território
 ###### Seção I - Dos incentivos às atividades culturais ou artísticas
 
 
-###### Art. 84. {#art-84}
+###### Art. 84.
 
 A pessoa física poderá deduzir do imposto sobre a renda devido na forma estabelecida no caput e no § 1º do art. 80 , na declaração de ajuste anual, as quantias efetivamente despendidas no ano-calendário anterior a título de doações ou de patrocínios, tanto por meio de contribuições ao Fundo Nacional de Cultura - FNC, na forma de doações, nos termos estabelecidos no inciso II do caput do art. 5º da Lei nº 8.313, de 23 de dezembro de 1991 , quanto por meio de apoio direto, desde que enquadrados nos objetivos do Pronac, a projetos culturais ( Lei nº 8.313, de 1991, art. 18 e art. 26 ; e Lei nº 9.250, de 1995, art. 12, caput, inciso II ):
 
@@ -4146,7 +4146,7 @@ A pessoa física poderá deduzir do imposto sobre a renda devido na forma estabe
 * **Subseção I - Dos projetos beneficiados com incentivos de fomento à atividade audiovisual**
 
 
-###### Art. 85. {#art-85}
+###### Art. 85.
 
 Poderão ser deduzidos do imposto sobre a renda devido, na forma estabelecida no art. 84 , as quantias despendidas em obras audiovisuais beneficiadas com incentivos previstos na Lei nº 8.685, de 20 de julho de 1993 ( Lei nº 8.685, de 1993, art. 4º, § 5º ).
 
@@ -4154,7 +4154,7 @@ Poderão ser deduzidos do imposto sobre a renda devido, na forma estabelecida no
 * **Subseção II - Da aprovação dos projetos**
 
 
-###### Art. 86. {#art-86}
+###### Art. 86.
 
 Os projetos de que tratam os art. 84 e art. 85 serão previamente aprovados pelo Ministério da Cultura ou pela Agência Nacional do Cinema - Ancine (Lei nº 8.313, de 1991, art. 18, § 1º , e art. 19 ; e Medida Provisória nº 2.228-1, de 6 de setembro de 2001, art. 7º, caput, incisos I e XI, e art. 39, caput, inciso X ).
 
@@ -4162,7 +4162,7 @@ Os projetos de que tratam os art. 84 e art. 85 serão previamente aprovados pelo
 * **Subseção III - Das doações**
 
 
-###### Art. 87. {#art-87}
+###### Art. 87.
 
 Para fins do disposto nesta Subseção, considera-se doação a transferência definitiva e irreversível de numerário ou de bens em favor de proponente, pessoa física ou jurídica sem fins lucrativos, para realização de programa, projeto ou ação cultural (Decreto nº 5.761, de 27 de abril de 2006, art. 4º, caput, inciso IV) .
 Parágrafo único. Equiparam-se a doações, nos termos estabelecidos no regulamento do Pronac, as despesas efetuadas por pessoas físicas com o objetivo de conservar, preservar ou restaurar bens de sua propriedade ou sob sua posse legítima, tombados pelo Governo federal, desde que, nesse caso, atendidos os seguintes requisitos (Lei nº 8.313, de 1991, art. 1º e art. 24, caput, inciso II) :
@@ -4186,7 +4186,7 @@ Parágrafo único. Equiparam-se a doações, nos termos estabelecidos no regulam
 * **Subseção IV - Dos patrocínios**
 
 
-###### Art. 88. {#art-88}
+###### Art. 88.
 
 Para fins do disposto nesta Subseção, considera-se patrocínio a transferência definitiva e irreversível de numerário ou de serviços, com finalidade promocional, a cobertura de gastos ou a utilização de bens móveis ou imóveis do patrocinador, sem a transferência de domínio, para a realização de programa, projeto ou ação cultural (Lei nº 8.313, de 1991, art. 23, caput, inciso II ; e Decreto nº 5.761, de 2006, art. 4º, caput, inciso V)
 Parágrafo único. Constitui infração ao disposto neste artigo o recebimento, pelo patrocinador, de qualquer vantagem financeira ou material em decorrência do patrocínio que efetuar, observado o disposto nos art. 91 e art. 92 ( Lei nº 8.313, de 1991, art. 23, § 1º ).
@@ -4195,7 +4195,7 @@ Parágrafo único. Constitui infração ao disposto neste artigo o recebimento, 
 * **Subseção V - Das vedações**
 
 
-###### Art. 89. {#art-89}
+###### Art. 89.
 
 A doação ou o patrocínio não poderão ser efetuados à pessoa ou à instituição vinculada ao agente (Lei nº 8.313, de 1991, art. 27, caput) .
 
@@ -4246,7 +4246,7 @@ A doação ou o patrocínio não poderão ser efetuados à pessoa ou à institui
 * **Subseção VI - Da fiscalização dos incentivos**
 
 
-###### Art. 90. {#art-90}
+###### Art. 90.
 
 Compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda, no âmbito de suas competências, a fiscalização no que se refere à aplicação dos incentivos fiscais previstos nesta Seção (Lei nº 8.313, de 1991, art. 36) .
 
@@ -4263,12 +4263,12 @@ Compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda, no
 * **Subseção VII - Das infrações**
 
 
-###### Art. 91. {#art-91}
+###### Art. 91.
 
 As infrações ao disposto nesta Seção, sem prejuízo das sanções penais cabíveis, sujeitarão o doador ou o patrocinador ao pagamento do imposto sobre a renda devido, em relação a cada exercício financeiro, além das penalidades e dos demais acréscimos legais (Lei nº 8.313, de 1991, art. 30, caput) .
 
 
-###### Art. 92. {#art-92}
+###### Art. 92.
 
 Para fins do disposto no art. 91 , considera-se solidariamente responsável por inadimplência ou irregularidade verificada a pessoa física ou jurídica propositora do projeto (Lei nº 8.313, de 1991, art. 30, § 1º) .
 
@@ -4276,7 +4276,7 @@ Para fins do disposto no art. 91 , considera-se solidariamente responsável por 
 ###### Seção II - Dos incentivos às atividades audiovisuais
 
 
-###### Art. 93. {#art-93}
+###### Art. 93.
 
 A pessoa física poderá deduzir do imposto sobre a renda devido na forma estabelecida no caput e § 1º do art. 80 , na declaração de ajuste anual, as quantias aplicadas no ano-calendário anterior referentes a (Lei nº 8.685, de 1993, art. 1º, caput, e § 3º, art. 1º-A ; e Medida Provisória nº 2.228-1, de 2001, art. 44 ):
 
@@ -4323,7 +4323,7 @@ A pessoa física poderá deduzir do imposto sobre a renda devido na forma estabe
 * **Subseção I - Dos projetos específicos**
 
 
-###### Art. 94. {#art-94}
+###### Art. 94.
 
 Os projetos específicos, credenciados pela Ancine, poderão fruir do incentivo de que trata:
 
@@ -4340,7 +4340,7 @@ Os projetos específicos, credenciados pela Ancine, poderão fruir do incentivo 
 * **Subseção II - Do depósito em conta bancária do valor da dedução**
 
 
-###### Art. 95. {#art-95}
+###### Art. 95.
 
 O contribuinte que optar pelo uso do incentivo previsto nos art. 93 e art. 94 depositará, no prazo legal estabelecido para o recolhimento do imposto sobre a renda, o valor correspondente ao abatimento em conta de aplicação financeira especial, em instituição financeira pública, cuja movimentação ficará sujeita à comprovação prévia pela Ancine de que se destina a investimentos em projetos de produção de obras audiovisuais cinematográficas e videofonográficas brasileiras de produção independente (Lei nº 8.685, de 1993, art. 4º) .
 
@@ -4348,7 +4348,7 @@ O contribuinte que optar pelo uso do incentivo previsto nos art. 93 e art. 94 de
 * **Subseção III - Do descumprimento do projeto**
 
 
-###### Art. 96. {#art-96}
+###### Art. 96.
 
 O não cumprimento do projeto a que se referem o inciso I ao inciso III do caput do art. 93 e o art. 94 e a não efetivação do investimento ou a sua realização em desacordo com o estatuído implicam a devolução dos benefícios concedidos, com incidência de juros de mora, nos termos estabelecidos no art. 997 , e multa de mora de:
 
@@ -4360,7 +4360,7 @@ O não cumprimento do projeto a que se referem o inciso I ao inciso III do caput
 Parágrafo único. Na hipótese de cumprimento de mais de setenta por cento sobre o valor orçado do projeto, a devolução será proporcional à parte não cumprida.
 
 
-###### Art. 97. {#art-97}
+###### Art. 97.
 
 Compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda, no âmbito de suas competências, a fiscalização no que se refere à aplicação dos incentivos fiscais previstos nesta Seção (Lei nº 8.685, de 1993, art. 9º) .
 
@@ -4377,7 +4377,7 @@ Compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda, no
 ###### Seção III - Das contribuições aos Fundos dos Direitos da Criança e do Adolescente
 
 
-###### Art. 98. {#art-98}
+###### Art. 98.
 
 A pessoa física poderá deduzir do imposto sobre a renda devido na declaração de ajuste anual, observado o disposto no caput e no § 1º do art. 80 , as doações, em espécie ou em bens, feitas aos Fundos dos Direitos da Criança e do Adolescente nacional, distrital, estaduais e municipais (Lei nº 8.069, de 1990, art. 260 , art. 260-C ao art. 260-F ; e Lei nº 9.250, de 1995, art. 12, caput, inciso I ).
 
@@ -4410,7 +4410,7 @@ A pessoa física poderá deduzir do imposto sobre a renda devido na declaração
 
 
 
-###### Art. 99. {#art-99}
+###### Art. 99.
 
 A partir do exercício de 2012, ano-calendário de 2011, a pessoa física pode optar pela dedução diretamente na sua declaração de ajuste anual da doação de que trata o art. 98 , e deverá observar, nesse caso, o limite de três por cento do imposto sobre a renda apurado na declaração (Lei nº 8.069, de 1990, art. 260-A) .
 
@@ -4453,7 +4453,7 @@ A partir do exercício de 2012, ano-calendário de 2011, a pessoa física pode o
 * **Subseção única - Da prestação de informação**
 
 
-###### Art. 100. {#art-100}
+###### Art. 100.
 
 Os órgãos responsáveis pela administração das contas dos Fundos dos Direitos da Criança e do Adolescente nacional, estaduais, distrital e municipais emitirão recibo em favor do doador, assinado por pessoa competente e pelo presidente do Conselho correspondente, do qual constarão (Lei nº 8.069, de 1990, art. 260-D) :
 
@@ -4482,7 +4482,7 @@ Os órgãos responsáveis pela administração das contas dos Fundos dos Direito
 
 
 
-###### Art. 101. {#art-101}
+###### Art. 101.
 
 Os órgãos responsáveis pela administração das contas dos Fundos dos Direitos da Criança e do Adolescente nacional, estaduais, distrital e municipais deverão (Lei nº 8.069, de 1990, art. 260-G e art. 260-H) :
 
@@ -4506,7 +4506,7 @@ Parágrafo único. Na hipótese de descumprimento das obrigações previstas nes
 ###### Seção IV - Das contribuições aos Fundos do Idoso
 
 
-###### Art. 102. {#art-102}
+###### Art. 102.
 
 A pessoa física, a partir do ano-calendário de 2011, poderá deduzir do imposto sobre a renda apurado na declaração de ajuste anual, observado o disposto no caput e no § 1º do art. 80 , as contribuições feitas aos Fundos do Idoso nacional, distrital, estaduais e municipais ( Lei nº 9.250, de 1995, art. 12, caput, inciso I ).
 
@@ -4535,7 +4535,7 @@ A pessoa física, a partir do ano-calendário de 2011, poderá deduzir do impost
 * **Subseção única - Da prestação de informação**
 
 
-###### Art. 103. {#art-103}
+###### Art. 103.
 
 Os Conselhos do Idoso nacional, distrital, estaduais e municipais encaminharão à Secretaria da Receita Federal do Brasil do Ministério da Fazenda as informações, relativas aos Fundos respectivos, necessárias para implementar, no âmbito de suas competências, programa de fiscalização dos incentivos.
 Parágrafo único. As informações de que trata este artigo serão prestadas na forma e nas condições estabelecidas pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda.
@@ -4544,12 +4544,12 @@ Parágrafo único. As informações de que trata este artigo serão prestadas na
 ###### Seção V - Do incentivo a projetos desportivos e paradesportivos
 
 
-###### Art. 104. {#art-104}
+###### Art. 104.
 
 A partir do exercício de 2008, ano-calendário de 2007, e até o exercício de 2023, ano-calendário de 2022, poderão ser deduzidos do imposto sobre a renda devido na forma estabelecida no caput e no § 1º do art. 80 , apurado na declaração de ajuste anual, os valores despendidos a título de patrocínio ou doação, no apoio direto a projetos desportivos e paradesportivos previamente aprovados pelo Ministério do Esporte (Lei nº 11.438, de 2006, art. 1º, art. 4º e art. 5º) .
 
 
-###### Art. 105. {#art-105}
+###### Art. 105.
 
 Para fins do disposto neste Regulamento, considera-se (Lei nº 11.438, de 2006, art. 3º) :
 
@@ -4575,7 +4575,7 @@ Para fins do disposto neste Regulamento, considera-se (Lei nº 11.438, de 2006, 
 
 
 
-###### Art. 106. {#art-106}
+###### Art. 106.
 
 A aprovação dos projetos de que trata o art. 104 somente terá eficácia após a publicação de ato oficial com: (Lei nº 11.438, de 2006, art. 5º, § 1º) .
 
@@ -4592,7 +4592,7 @@ A aprovação dos projetos de que trata o art. 104 somente terá eficácia após
 
 
 
-###### Art. 107. {#art-107}
+###### Art. 107.
 
 Os recursos provenientes de doações ou de patrocínios deverão ser depositados e movimentados em conta bancária específica, no Banco do Brasil S.A. ou na Caixa Econômica Federal, que tenha como titular o proponente do projeto aprovado pelo Ministério do Esporte (Lei nº 11.438, de 2006, art. 12 ).
 
@@ -4600,7 +4600,7 @@ Os recursos provenientes de doações ou de patrocínios deverão ser depositado
 * **Subseção I - Das vedações**
 
 
-###### Art. 108. {#art-108}
+###### Art. 108.
 
 Não são dedutíveis os valores destinados a patrocínio ou doação em favor de projetos que beneficiem, direta ou indiretamente, pessoa física ou jurídica vinculada ao doador ou ao patrocinador (Lei nº 11.438, de 2006, art. 1º, § 4º e § 5º) .
 Parágrafo único. Para fins do disposto neste Regulamento, consideram-se vinculados ao patrocinador ou ao doador:
@@ -4618,7 +4618,7 @@ Parágrafo único. Para fins do disposto neste Regulamento, consideram-se vincul
 * **Subseção II - Das infrações**
 
 
-###### Art. 109. {#art-109}
+###### Art. 109.
 
 Para fins do disposto neste Regulamento, constituem infração (Lei nº 11.438, de 2006, art. 10) :
 
@@ -4650,7 +4650,7 @@ Para fins do disposto neste Regulamento, constituem infração (Lei nº 11.438, 
 * **Subseção III - Da prestação de informação**
 
 
-###### Art. 110. {#art-110}
+###### Art. 110.
 
 O Ministério do Esporte encaminhará à Secretaria da Receita Federal do Brasil do Ministério da Fazenda as informações necessárias para implementar, no âmbito de suas competências, programa de fiscalização dos incentivos.
 Parágrafo único. As informações de que trata este artigo serão prestadas na forma e nas condições estabelecidas pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda.
@@ -4659,12 +4659,12 @@ Parágrafo único. As informações de que trata este artigo serão prestadas na
 ###### Seção VI - Da contribuição patronal paga à previdência social pelo empregador doméstico
 
 
-###### Art. 111. {#art-111}
+###### Art. 111.
 
 Até o exercício de 2019, ano-calendário de 2018, a pessoa física poderá deduzir do imposto sobre a renda devido, observado o disposto no caput e no § 2º do art. 80 , na declaração de ajuste anual, a contribuição patronal paga à previdência social pelo empregador doméstico incidente sobre o valor da remuneração do empregado ( Lei nº 9.250, de 1995, art. 12, caput, inciso VII ).
 
 
-###### Art. 112. {#art-112}
+###### Art. 112.
 
 A dedução de que trata o art. 111 ( Lei nº 9.250, de 1995, art. 12, § 3º ):
 
@@ -4690,7 +4690,7 @@ A dedução de que trata o art. 111 ( Lei nº 9.250, de 1995, art. 12, § 3º ):
 * **Subseção única - Da prestação de informação**
 
 
-###### Art. 113. {#art-113}
+###### Art. 113.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda solicitará as informações necessárias para implementar, no âmbito de suas competências, programa de fiscalização do incentivo.
 Parágrafo único. As informações de que trata este artigo serão prestadas na forma e nas condições estabelecidas pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda.
@@ -4701,7 +4701,7 @@ Parágrafo único. As informações de que trata este artigo serão prestadas na
 Do Programa Nacional de Apoio à Atenção Oncológica e do Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência
 
 
-###### Art. 114. {#art-114}
+###### Art. 114.
 
 Fica facultada às pessoas físicas, a partir do ano-calendário de 2012 até o ano-calendário de 2020, na qualidade de incentivadoras, a opção de deduzirem do imposto sobre a renda devido, apurado na declaração de ajuste anual, os valores correspondentes às doações e aos patrocínios diretamente efetuados em prol de ações e serviços, no âmbito do Pronon e do Pronas/PCD, de que tratam o art. 1º ao art. 3º da Lei nº 12.715, de 2012 , previamente aprovados pelo Ministério da Saúde e desenvolvidos pelas instituições destinatárias a que se referem os art. 2º e art. 3º da referida Lei ( Lei nº 9.250, art. 12, caput, inciso VIII ; e Lei nº 12.715, de 2012, art. 1º ao art. 6º e art. 12) .
 
@@ -4758,7 +4758,7 @@ Fica facultada às pessoas físicas, a partir do ano-calendário de 2012 até o 
 ##### CAPÍTULO III - DO IMPOSTO SOBRE A RENDA PAGO NO EXTERIOR
 
 
-###### Art. 115. {#art-115}
+###### Art. 115.
 
 As pessoas físicas que declararem rendimentos provenientes de fontes situadas no exterior poderão deduzir, do imposto apurado na forma estabelecida no art. 79 , o cobrado pela nação de origem daqueles rendimentos, desde que (Lei nº 4.862, de 1965, art. 5º ; Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 98 ; e Lei nº 9.250, de 1995, art. 12, caput , inciso VI ):
 
@@ -4784,7 +4784,7 @@ As pessoas físicas que declararem rendimentos provenientes de fontes situadas n
 ###### Seção I - Disposições gerais
 
 
-###### Art. 116. {#art-116}
+###### Art. 116.
 
 O saldo do imposto a pagar, na forma estabelecida no art. 81 , deverá ser pago até o último dia útil do mês fixado para a entrega da declaração de ajuste anual, observado o disposto no art. 917 ( Lei nº 9.250, de 1995, art. 13, parágrafo único ).
 
@@ -4792,7 +4792,7 @@ O saldo do imposto a pagar, na forma estabelecida no art. 81 , deverá ser pago 
 ###### Seção II - Do espólio e da saída definitiva do País
 
 
-###### Art. 117. {#art-117}
+###### Art. 117.
 
 O pagamento do imposto nas hipóteses de saída definitiva do País e de encerramento de espólio deverá ser efetuado na data prevista no art. 918 .
 
@@ -4803,7 +4803,7 @@ O pagamento do imposto nas hipóteses de saída definitiva do País e de encerra
 ##### CAPÍTULO I - DA INCIDÊNCIA
 
 
-###### Art. 118. {#art-118}
+###### Art. 118.
 
 Fica sujeita ao pagamento mensal do imposto sobre a renda a pessoa física que receber de outra pessoa física, ou de fontes situadas no exterior, rendimentos que não tenham sido tributados na fonte, no País, tais como ( Lei nº 7.713, de 1988, art. 2º, art. 3º, § 1º , art. 8º e art. 9º ; e Lei nº 9.430, de 1996, art. 24, § 2º, inciso IV ):
 
@@ -4829,12 +4829,12 @@ Fica sujeita ao pagamento mensal do imposto sobre a renda a pessoa física que r
 
 
 
-###### Art. 119. {#art-119}
+###### Art. 119.
 
 Os rendimentos recebidos de fontes situadas no exterior serão convertidos em reais por meio da utilização do valor do dólar dos Estados Unidos da América, estabelecido para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do recebimento do rendimento ( Lei nº 9.250, de 1995, art. 6º ).
 
 
-###### Art. 120. {#art-120}
+###### Art. 120.
 
 Os rendimentos sujeitos à incidência mensal do imposto sobre a renda também integrarão a base de cálculo do referido imposto na declaração de ajuste anual e o imposto sobre a renda pago será deduzido do apurado nessa declaração ( Lei nº 9.250, de 1995, art. 8º, caput, inciso I , e art. 12, caput, inciso V ).
 
@@ -4842,7 +4842,7 @@ Os rendimentos sujeitos à incidência mensal do imposto sobre a renda também i
 ##### CAPÍTULO II - DA BASE DE CÁLCULO
 
 
-###### Art. 121. {#art-121}
+###### Art. 121.
 
 Constitui base de cálculo sujeita à incidência mensal do imposto sobre a renda a diferença entre os rendimentos de que trata o art. 118 e as deduções previstas no inciso I do caput do art. 67 , no art. 68 , e no art. 70 ao art. 72 , observado o disposto nos art. 39 , art. 40 e art. 42 ( Lei nº 7.713, de 1988, art. 2º, art. 3º, § 1º , e art. 8º ; e Lei nº 9.250, de 1995, art. 4º ).
 
@@ -4864,7 +4864,7 @@ Constitui base de cálculo sujeita à incidência mensal do imposto sobre a rend
 ##### CAPÍTULO III - DA APURAÇÃO DO IMPOSTO SOBRE A RENDA
 
 
-###### Art. 122. {#art-122}
+###### Art. 122.
 
 O imposto sobre a renda incidente sobre os rendimentos de que trata este Título será calculado em reais, de acordo com as seguintes tabelas progressivas mensais (Lei nº 11.482, de 2007, art. 1º, caput, incisos IV ao VIII) :
 
@@ -4891,7 +4891,7 @@ Parágrafo único. O imposto sobre a renda será calculado sobre os rendimentos 
 ##### CAPÍTULO IV - DO PRAZO PARA RECOLHIMENTO
 
 
-###### Art. 123. {#art-123}
+###### Art. 123.
 
 O imposto sobre a renda apurado na forma prevista nas tabelas progressivas constantes do art. 122 deverá ser pago até o último dia útil do mês subsequente àquele em que os rendimentos ou os ganhos forem percebidos ( Lei nº 8.383, de 1991, art. 6º ).
 
@@ -4899,7 +4899,7 @@ O imposto sobre a renda apurado na forma prevista nas tabelas progressivas const
 #### TÍTULO IX - DO RECOLHIMENTO COMPLEMENTAR
 
 
-###### Art. 124. {#art-124}
+###### Art. 124.
 
 Sem prejuízo dos pagamentos obrigatórios estabelecidos neste Regulamento, fica facultado ao contribuinte efetuar, no curso do ano-calendário, complementação do imposto sobre a renda devido sobre os rendimentos recebidos ( Lei nº 8.383, de 1991, art. 7º ).
 
@@ -4907,7 +4907,7 @@ Sem prejuízo dos pagamentos obrigatórios estabelecidos neste Regulamento, fica
 ##### CAPÍTULO I - DA BASE DE CÁLCULO
 
 
-###### Art. 125. {#art-125}
+###### Art. 125.
 
 Para fins do recolhimento complementar do imposto sobre a renda, constitui base de cálculo a diferença entre a soma dos valores:
 
@@ -4921,13 +4921,13 @@ Para fins do recolhimento complementar do imposto sobre a renda, constitui base 
 ##### CAPÍTULO II - DA APURAÇÃO DA COMPLEMENTAÇÃO
 
 
-###### Art. 126. {#art-126}
+###### Art. 126.
 
 Apurada a base de cálculo nos termos estabelecidos no art. 125 , a complementação do imposto sobre a renda será determinada por meio da utilização da tabela progressiva anual a que se refere o art. 79 .
 Parágrafo único. O recolhimento complementar corresponderá à diferença entre o valor do imposto sobre a renda calculado nos termos do disposto neste artigo e a soma dos valores do imposto sobre a renda retido na fonte ou pago a título de recolhimento mensal do recolhimento complementar efetuado anteriormente e do imposto pago no exterior nos termos estabelecidos no art. 115 , incidentes sobre os rendimentos computados na base de cálculo, deduzidos os incentivos de que tratam os art. 84 , art. 93 , art. 98 , art. 102 , art. 104 e art. 108 , e observado o disposto nos § 1º e § 2º do art. 80 .
 
 
-###### Art. 127. {#art-127}
+###### Art. 127.
 
 O imposto sobre a renda pago na forma prevista neste Título será deduzido daquele apurado na declaração de ajuste anual ( Lei nº 9.250, de 1995, art. 12, caput, inciso V ).
 
@@ -4941,7 +4941,7 @@ O imposto sobre a renda pago na forma prevista neste Título será deduzido daqu
 ###### Seção I - Da incidência
 
 
-###### Art. 128. {#art-128}
+###### Art. 128.
 
 Fica sujeita ao pagamento do imposto sobre a renda de que trata este Título a pessoa física que auferir ganhos de capital na alienação de bens ou direitos de qualquer natureza ( Lei nº 7.713, de 1988, art. 2º e art. 3º, § 2º ; e Lei nº 8.981, de 1995, art. 21) .
 
@@ -5000,7 +5000,7 @@ Fica sujeita ao pagamento do imposto sobre a renda de que trata este Título a p
 
 
 
-###### Art. 129. {#art-129}
+###### Art. 129.
 
 Na hipótese prevista no art. 128 , aplicam-se:
 
@@ -5030,7 +5030,7 @@ Na hipótese prevista no art. 128 , aplicam-se:
 * **Subseção única - Da herança, do legado ou da doação em adiantamento da legítima e da dissolução da sociedade conjugal**
 
 
-###### Art. 130. {#art-130}
+###### Art. 130.
 
 Na transferência de direito de propriedade por sucessão, nas hipóteses de herança, legado ou doação em adiantamento da legítima, os bens e os direitos poderão ser avaliados a valor de mercado ou pelo valor apresentado na declaração de bens do de cujus ou do doador ( Lei nº 9.532, de 1997, art. 23, caput ).
 
@@ -5057,7 +5057,7 @@ Na transferência de direito de propriedade por sucessão, nas hipóteses de her
 ###### Seção II - Da não incidência e da isenção
 
 
-###### Art. 131. {#art-131}
+###### Art. 131.
 
 Não será considerado ganho de capital ( Lei nº 7.713, de 1988, art. 22, parágrafo único ):
 
@@ -5068,7 +5068,7 @@ Não será considerado ganho de capital ( Lei nº 7.713, de 1988, art. 22, pará
 
 
 
-###### Art. 132. {#art-132}
+###### Art. 132.
 
 Na determinação do ganho de capital, serão excluídas ( Lei nº 7.713, de 1988, art. 22, caput, inciso III ):
 
@@ -5088,7 +5088,7 @@ Na determinação do ganho de capital, serão excluídas ( Lei nº 7.713, de 198
 
 
 
-###### Art. 133. {#art-133}
+###### Art. 133.
 
 Fica isento do imposto sobre a renda o ganho de capital auferido na ( Lei nº 9.250, de 1995, art. 22 e art. 23 ; e Lei nº 11.196, de 2005, art. 39) :
 
@@ -5176,7 +5176,7 @@ Fica isento do imposto sobre a renda o ganho de capital auferido na ( Lei nº 9.
 ###### Seção III - Do valor de alienação
 
 
-###### Art. 134. {#art-134}
+###### Art. 134.
 
 Considera-se valor de alienação ( Lei nº 7.713, de 1988, art. 19, caput e parágrafo único ; Lei nº 9.430, de 1996, art. 19 e art. 24 ; e Lei nº 10.451, de 10 de maio de 2002, art. 4º) :
 
@@ -5233,7 +5233,7 @@ Considera-se valor de alienação ( Lei nº 7.713, de 1988, art. 19, caput e par
 * **Subseção única - Do arbitramento do valor ou do preço**
 
 
-###### Art. 135. {#art-135}
+###### Art. 135.
 
 A autoridade lançadora, por meio de processo regular, arbitrará o valor ou o preço, sempre que não mereça fé, por ser notoriamente diferente do de mercado, o valor ou o preço informado pelo contribuinte, ressalvada, na hipótese de contestação, a avaliação contraditória, administrativa ou judicial ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 148 ; e Lei nº 7.713, de 1988, art. 20 ).
 
@@ -5241,7 +5241,7 @@ A autoridade lançadora, por meio de processo regular, arbitrará o valor ou o p
 ###### Seção IV - Do custo de aquisição
 
 
-###### Art. 136. {#art-136}
+###### Art. 136.
 
 O custo de aquisição dos bens ou dos direitos será o valor pago na sua aquisição ( Lei nº 8.383, de 1991, art. 96, caput e § 5º e § 9º ; Lei nº 8.981, de 1995, art. 22, caput, incisos I e II ; e Lei nº 9.249, de 1995, art. 17 e art. 30 ).
 
@@ -5280,7 +5280,7 @@ O custo de aquisição dos bens ou dos direitos será o valor pago na sua aquisi
 
 
 
-###### Art. 137. {#art-137}
+###### Art. 137.
 
 Podem integrar o custo de aquisição de imóveis, desde que comprovados com documentação hábil e idônea e discriminados na declaração de bens:
 
@@ -5310,17 +5310,17 @@ Podem integrar o custo de aquisição de imóveis, desde que comprovados com doc
 Parágrafo único. Podem integrar o custo de aquisição dos demais bens ou direitos os dispêndios pagos pelo proprietário realizados com reforma, comissão ou corretagem, desde que comprovados com documentação hábil e idônea e discriminados na declaração de bens.
 
 
-###### Art. 138. {#art-138}
+###### Art. 138.
 
 O custo dos bens ou dos direitos adquiridos até 31 de dezembro de 1991 será o valor de mercado constante da declaração de bens e direitos relativa ao exercício de 1992, atualizado nos termos estabelecidos no art. 139.
 
 
-###### Art. 139. {#art-139}
+###### Art. 139.
 
 Para os bens ou os direitos adquiridos no período de 1º de janeiro de 1992 a 31 de dezembro de 1995, o custo de aquisição poderá ser corrigido até esta data, observada a legislação em vigor naquele período, e não será aplicada qualquer correção após a referida data.
 
 
-###### Art. 140. {#art-140}
+###### Art. 140.
 
 Na ausência do valor pago, ressalvado o disposto no art. 131 , o custo de aquisição dos bens ou dos direitos será, conforme o caso ( Lei nº 7.713, de 1988, art. 16, caput e § 4º ):
 
@@ -5343,7 +5343,7 @@ Na ausência do valor pago, ressalvado o disposto no art. 131 , o custo de aquis
 
 
 
-###### Art. 141. {#art-141}
+###### Art. 141.
 
 O custo de aquisição de títulos e valores mobiliários, de quotas de capital e de bens fungíveis será a média ponderada dos custos unitários, por espécie, desses bens ( Lei nº 7.713, de 1988, art. 16, § 2º) .
 
@@ -5370,7 +5370,7 @@ O custo de aquisição de títulos e valores mobiliários, de quotas de capital 
 * **Subseção I - Das participações societárias adquiridas em decorrência de integralização de capital com bens ou direitos**
 
 
-###### Art. 142. {#art-142}
+###### Art. 142.
 
 As pessoas físicas poderão transferir a pessoas jurídicas, a título de integralização de capital, bens e direitos, pelo valor constante da declaração de bens ou pelo valor de mercado ( Lei nº 9.249, de 1995, art. 23, caput ).
 
@@ -5387,7 +5387,7 @@ Subseção II
 Do recebimento da devolução de capital social em bens ou direitos
 
 
-###### Art. 143. {#art-143}
+###### Art. 143.
 
 Os bens e os direitos do ativo da pessoa jurídica que forem transferidos ao seu titular ou ao sócio ou ao acionista, a título de devolução de sua participação no capital social, poderão ser avaliados pelo valor contábil ou pelo valor de mercado ( Lei nº 9.249, de 1995, art. 22, caput ).
 Parágrafo único. Os bens ou os direitos recebidos serão informados, na declaração de bens correspondente à declaração de ajuste anual daquele ano-calendário, pelo valor contábil ou pelo valor de mercado, conforme avaliado pela pessoa jurídica, observado o disposto na alínea “e” do inciso V do caput do art. 35 ( Lei nº 9.249, de 1995, art. 22, § 3º ).
@@ -5396,7 +5396,7 @@ Parágrafo único. Os bens ou os direitos recebidos serão informados, na declar
 * **Subseção III - Dos bens adquiridos por meio de arrendamento mercantil**
 
 
-###### Art. 144. {#art-144}
+###### Art. 144.
 
 Na apuração do ganho de capital de bens adquiridos por meio de arrendamento mercantil, será considerado custo de aquisição o valor residual do bem acrescido dos valores pagos a título de arrendamento ( Lei nº 9.250, de 1995, art. 24 ).
 Parágrafo único. Ao arrendamento residencial com opção de compra, efetuado na forma estabelecida na Lei nº 10.188, de 12 de fevereiro de 2001 , aplica-se, no que couber, a legislação pertinente ao arrendamento mercantil (Lei nº 10.188, de 2001, art. 10) .
@@ -5405,7 +5405,7 @@ Parágrafo único. Ao arrendamento residencial com opção de compra, efetuado n
 * **Subseção IV - Do custo de participações societárias adquiridas com incorporação de lucros e reservas**
 
 
-###### Art. 145. {#art-145}
+###### Art. 145.
 
 Na hipótese de quotas ou ações distribuídas em decorrência de aumento de capital por incorporação de lucros apurados a partir do mês de janeiro de 1996 ou de reservas constituídas com esses lucros, o custo de aquisição será igual à parcela do lucro ou da reserva capitalizado que corresponder ao sócio ou ao acionista ( Lei nº 9.249, de 1995, art. 10, § 1º ).
 
@@ -5413,7 +5413,7 @@ Na hipótese de quotas ou ações distribuídas em decorrência de aumento de ca
 * **Subseção V - Do custo na alienação de imóvel rural**
 
 
-###### Art. 146. {#art-146}
+###### Art. 146.
 
 Em relação aos imóveis rurais adquiridos a partir de 1º de janeiro de 1997, para fins de apuração de ganho de capital na alienação da terra nua, considera-se custo de aquisição e valor da venda o valor da terra nua, constante do Documento de Informação e Apuração do Imposto sobre a Propriedade Territorial Rural relativo ao ano da aquisição e ao ano da alienação, respectivamente, observado o disposto no art. 14 da Lei nº 9.393, de 19 de dezembro de 1996 (Lei nº 9.393, de 1996, art. 19, caput) .
 Parágrafo único. Na apuração de ganho de capital correspondente a imóvel rural adquirido anteriormente a 1º de janeiro de 1997, será considerado custo de aquisição o valor constante da escritura pública, observado o disposto no art. 139 (Lei nº 9.393, de 1996, art. 19, parágrafo único ).
@@ -5422,7 +5422,7 @@ Parágrafo único. Na apuração de ganho de capital correspondente a imóvel ru
 * **Subseção VI - Do Programa Nacional de Desestatização**
 
 
-###### Art. 147. {#art-147}
+###### Art. 147.
 
 Terá o tratamento de permuta a entrega, pelo licitante vencedor, de títulos da dívida pública federal ou de outros créditos contra a União, como contrapartida à aquisição das ações ou das quotas leiloadas no âmbito do Programa Nacional de Desestatização - PND ( Lei nº 8.383, de 1991, art. 65, caput ).
 
@@ -5439,7 +5439,7 @@ Terá o tratamento de permuta a entrega, pelo licitante vencedor, de títulos da
 ###### Seção V - Da apuração do ganho de capital
 
 
-###### Art. 148. {#art-148}
+###### Art. 148.
 
 O ganho de capital será determinado pela diferença positiva entre o valor de alienação e o custo de aquisição, apurados nos termos estabelecidos no art. 134 ao art. 147 ( Lei nº 7.713, de 1988, art. 3º, § 2º) .
 Parágrafo único. Na hipótese de permuta com recebimento de torna em dinheiro, o ganho de capital será obtido da seguinte forma:
@@ -5457,7 +5457,7 @@ Parágrafo único. Na hipótese de permuta com recebimento de torna em dinheiro,
 * **Subseção I - Da redução do ganho de capital apurado**
 
 
-###### Art. 149. {#art-149}
+###### Art. 149.
 
 Na alienação de imóvel adquirido até 31 de dezembro de 1988, poderá ser aplicado percentual fixo de redução sobre o ganho de capital apurado, segundo o ano de aquisição ou de incorporação do bem, de acordo com a seguinte tabela ( Lei nº 7.713, de 1988, art. 18, caput ) :
 
@@ -5484,7 +5484,7 @@ Na alienação de imóvel adquirido até 31 de dezembro de 1988, poderá ser apl
 * **Subseção II - Da redução do ganho de capital nas alienações ocorridas a partir de 14 de outubro de 2005**
 
 
-###### Art. 150. {#art-150}
+###### Art. 150.
 
 Para a apuração da base de cálculo do imposto sobre a renda incidente sobre o ganho de capital por ocasião da alienação, a qualquer título, ocorridas a partir de 14 de outubro de 2005, de bens imóveis realizada por pessoa física residente no País, serão aplicados os fatores de redução FR1 e FR2 do ganho de capital apurado (Lei nº 11.196, de 2005, art.40) .
 
@@ -5504,7 +5504,7 @@ Para a apuração da base de cálculo do imposto sobre a renda incidente sobre o
 
 
 
-###### Art. 151. {#art-151}
+###### Art. 151.
 
 Nas alienações a prazo, o ganho de capital deverá ser apurado como venda à vista e tributado na proporção das parcelas recebidas em cada mês, considerada a atualização monetária, se houver ( Lei nº 7.713, de 1988, art. 21 ).
 
@@ -5518,7 +5518,7 @@ Nas alienações a prazo, o ganho de capital deverá ser apurado como venda à v
 
 
 
-###### Art. 152. {#art-152}
+###### Art. 152.
 
 Deverá ser tributado em nome do espólio o ganho de capital auferido na alienação de bens ou direitos realizada no curso do inventário e na transferência aos herdeiros, ao meeiro ou ao legatário por valor superior ao constante da declaração de bens no encerramento do espólio.
 Parágrafo único. Na cessão de direitos efetuada por herdeiros, meeiro ou legatário no curso do inventário, o ganho de capital deverá ser tributado em nome do cedente do direito.
@@ -5527,7 +5527,7 @@ Parágrafo único. Na cessão de direitos efetuada por herdeiros, meeiro ou lega
 ###### Seção VI - Do cálculo do imposto sobre a renda e do prazo de recolhimento
 
 
-###### Art. 153. {#art-153}
+###### Art. 153.
 
 O ganho de capital apurado na forma estabelecida nos art. 130 e art. 148 , observado o disposto nos art. 149 e art. 150 , fica sujeito ao pagamento do imposto sobre a renda, com as seguintes alíquotas (Lei nº 8.981, de 1995, art. 21 ; e Lei nº 9.532, de 1997, art. 23, § 1º ):
 
@@ -5585,7 +5585,7 @@ O ganho de capital apurado na forma estabelecida nos art. 130 e art. 148 , obser
 ##### CAPÍTULO II - DOS GANHOS DE CAPITAL NA ALIENAÇÃO DE BENS, DIREITOS E RESGATES DE APLICAÇÕES FINANCEIRAS EM MOEDA ESTRANGEIRA
 
 
-###### Art. 154. {#art-154}
+###### Art. 154.
 
 O ganho de capital decorrente da alienação de bens ou direitos e da liquidação ou do resgate de aplicações financeiras, de propriedade de pessoa física, adquiridos, a qualquer título, em moeda estrangeira, será apurado de conformidade com o disposto neste artigo, mantidas as demais normas da legislação em vigor ( Medida Provisória nº 2.158-35, de 2001, art. 24, caput ).
 
@@ -5633,7 +5633,7 @@ O ganho de capital decorrente da alienação de bens ou direitos e da liquidaç�
 ##### CAPÍTULO III - DA DEVOLUÇÃO DE PATRIMÔNIO DE ENTIDADE ISENTA
 
 
-###### Art. 155. {#art-155}
+###### Art. 155.
 
 Fica sujeita à incidência do imposto sobre a renda, à alíquota de quinze por cento, a diferença entre o valor em dinheiro ou o valor dos bens e dos direitos recebidos de instituição isenta, por pessoa física, a título de devolução de patrimônio, e o valor em dinheiro ou o valor dos bens e dos direitos que houver entregue para a formação do referido patrimônio ( Lei nº 9.532, de 1997, art. 17, caput ).
 
@@ -5657,7 +5657,7 @@ Fica sujeita à incidência do imposto sobre a renda, à alíquota de quinze por
 ##### CAPÍTULO IV - da incidência sobre o valor DOS BENS REPATRIADOS
 
 
-###### Art. 156. {#art-156}
+###### Art. 156.
 
 Fica sujeito à incidência do imposto sobre a renda, à alíquota de vinte e cinco por cento, o valor dos bens de qualquer natureza, inclusive financeiros e títulos e valores mobiliários, pertencentes a pessoas físicas residentes no País, repatriados em decorrência de convênio celebrado entre a República Federativa do Brasil e o país onde se encontravam os bens (Lei nº 8.021, de 12 de abril de 1990, art. 10, caput e parágrafo único) .
 
@@ -5665,7 +5665,7 @@ Fica sujeito à incidência do imposto sobre a renda, à alíquota de vinte e ci
 ##### CAPÍTULO V - DAS OPERAÇÕES FINANCEIRAS NOS MERCADOS DE RENDA VARIÁVEL
 
 
-###### Art. 157. {#art-157}
+###### Art. 157.
 
 Às operações financeiras no mercado de renda variável aplicam-se as normas previstas no Título II do Livro III .
 
@@ -5676,7 +5676,7 @@ Fica sujeito à incidência do imposto sobre a renda, à alíquota de vinte e ci
 #### TÍTULO I - DOS CONTRIBUINTES
 
 
-###### Art. 158. {#art-158}
+###### Art. 158.
 
 São contribuintes do imposto sobre a renda e terão seus lucros apurados de acordo com este Regulamento ( Decreto-Lei nº 5.844, de 1943, art. 27 ):
 
@@ -5719,7 +5719,7 @@ São contribuintes do imposto sobre a renda e terão seus lucros apurados de aco
 ##### CAPÍTULO I - DAS PESSOAS JURÍDICAS
 
 
-###### Art. 159. {#art-159}
+###### Art. 159.
 
 Consideram-se pessoas jurídicas, para fins do disposto no inciso I do caput do art. 158 :
 
@@ -5739,12 +5739,12 @@ Consideram-se pessoas jurídicas, para fins do disposto no inciso I do caput do 
 ###### Da sociedade em conta de participação
 
 
-###### Art. 160. {#art-160}
+###### Art. 160.
 
 As sociedades em conta de participação são equiparadas às pessoas jurídicas ( Decreto-Lei nº 2.303, de 21 de novembro de 1986, art. 7º ; e Decreto-Lei nº 2.308, de 19 de dezembro de 1986, art. 3º ).
 
 
-###### Art. 161. {#art-161}
+###### Art. 161.
 
 Na apuração dos resultados das sociedades em conta de participação, assim como na tributação dos lucros apurados e dos distribuídos, serão observadas as normas aplicáveis às pessoas jurídicas em geral e o disposto no art. 269 ( Decreto-Lei nº 2.303, de 1986, art. 7º, parágrafo único ).
 
@@ -5755,7 +5755,7 @@ Na apuração dos resultados das sociedades em conta de participação, assim co
 ###### Seção I - Da caracterização
 
 
-###### Art. 162. {#art-162}
+###### Art. 162.
 
 As empresas individuais são equiparadas às pessoas jurídicas (Decreto-Lei nº 1.706, de 23 de outubro de 1979, art. 2º) .
 
@@ -5809,7 +5809,7 @@ As empresas individuais são equiparadas às pessoas jurídicas (Decreto-Lei nº
 * **Incorporação e loteamento**
 
 
-###### Art. 163. {#art-163}
+###### Art. 163.
 
 Serão equiparadas às pessoas jurídicas, em relação às incorporações imobiliárias ou aos loteamentos com ou sem construção, cuja documentação seja arquivada no Registro Imobiliário, a partir de 1º de janeiro de 1975 ( Decreto-Lei nº 1.381, de 1974, art. 6º ):
 
@@ -5823,7 +5823,7 @@ Serão equiparadas às pessoas jurídicas, em relação às incorporações imob
 * **Incorporação ou loteamento sem registro**
 
 
-###### Art. 164. {#art-164}
+###### Art. 164.
 
 Equipara-se, também, à pessoa jurídica, o proprietário ou o titular de terrenos ou glebas de terra que, sem efetuar o registro dos documentos de incorporação ou loteamento, neles promova a construção de prédio com mais de duas unidades imobiliárias ou a execução de loteamento, se iniciar a alienação das unidades imobiliárias ou dos lotes de terreno antes de decorrido o prazo de sessenta meses, contado da data da averbação, no Registro Imobiliário, da construção do prédio ou da aceitação das obras do loteamento ( Decreto-Lei nº 1.381, de 1974, art. 6º, § 1º ; e Decreto-Lei nº 1.510, de 27 de dezembro de 1976, art. 16 ).
 
@@ -5840,7 +5840,7 @@ Equipara-se, também, à pessoa jurídica, o proprietário ou o titular de terre
 * **Desmembramento de imóvel rural**
 
 
-###### Art. 165. {#art-165}
+###### Art. 165.
 
 A subdivisão ou o desmembramento de imóvel rural havido após 30 de junho de 1977 em mais de dez lotes, ou a alienação de mais de dez quinhões ou frações ideais desse imóvel, será equiparada a loteamento, para fins do disposto no art. 163 ( Decreto-Lei nº 1.510, de 1976, art. 11 e art. 16 ).
 Parágrafo único. O disposto neste artigo não se aplica às hipóteses em que a subdivisão se efetive por força de partilha amigável ou judicial em decorrência de herança, legado, doação como adiantamento da legítima ou extinção de condomínio ( Decreto-Lei nº 1.510, de 1976, art. 11, § 2º ).
@@ -5849,7 +5849,7 @@ Parágrafo único. O disposto neste artigo não se aplica às hipóteses em que 
 * **Aquisição e alienação**
 
 
-###### Art. 166. {#art-166}
+###### Art. 166.
 
 Caracterizam-se a aquisição e a alienação pelos atos de compra e venda, de permuta, de transferência do domínio útil de imóveis foreiros, de cessão de direitos, de promessa dessas operações, de adjudicação ou de arrematação em hasta pública, pela procuração em causa própria, ou por outros contratos afins em que haja transmissão de imóveis ou de direitos sobre imóveis ( Decreto-Lei nº 1.381, de 1974, art. 2º, § 1º ).
 
@@ -5883,7 +5883,7 @@ Caracterizam-se a aquisição e a alienação pelos atos de compra e venda, de p
 * **Condomínios**
 
 
-###### Art. 167. {#art-167}
+###### Art. 167.
 
 Os condomínios na propriedade de imóveis não são considerados sociedades em comum, ainda que pessoas jurídicas também façam parte deles ( Decreto-Lei nº 1.381, de 1974, art. 7º ).
 Parágrafo único. A cada condômino, pessoa física, serão aplicados os critérios de caracterização da empresa individual e os demais dispositivos legais, como se ele fosse o único titular da operação imobiliária, nos limites de sua participação ( Decreto-Lei nº 1.381, de 1974, art. 7º, parágrafo único ).
@@ -5895,7 +5895,7 @@ Parágrafo único. A cada condômino, pessoa física, serão aplicados os crité
 * **Momento de determinação**
 
 
-###### Art. 168. {#art-168}
+###### Art. 168.
 
 A equiparação ocorrerá ( Decreto-Lei nº 1.381, de 1974, art. 6º, § 3º ; e Decreto-Lei nº 1.510, de 1976, art. 11 ):
 
@@ -5909,7 +5909,7 @@ A equiparação ocorrerá ( Decreto-Lei nº 1.381, de 1974, art. 6º, § 3º ; e
 
 
 
-###### Art. 169. {#art-169}
+###### Art. 169.
 
 A equiparação da pessoa física à pessoa jurídica será determinada de acordo com as normas legais e regulamentares em vigor na data ( Decreto-Lei nº 1.381, de 1974, art. 8º ):
 
@@ -5927,7 +5927,7 @@ Parágrafo único. A alteração posterior das normas referidas neste artigo nã
 * **Início da aplicação do regime fiscal**
 
 
-###### Art. 170. {#art-170}
+###### Art. 170.
 
 A aplicação do regime fiscal das pessoas jurídicas às pessoas físicas a elas equiparadas na forma estabelecida nos art. 163 e art. 164 terá início na data em que se completarem as condições determinantes para a equiparação ( Decreto-Lei nº 1.381, de 1974, art. 9º ).
 
@@ -5935,7 +5935,7 @@ A aplicação do regime fiscal das pessoas jurídicas às pessoas físicas a ela
 * **Não subsistência da equiparação**
 
 
-###### Art. 171. {#art-171}
+###### Art. 171.
 
 Não subsistirá a equiparação de que trata o art. 163 se, na forma prevista no § 5º do art. 34 da Lei nº 4.591, de 1964 , ou no art. 23 da Lei nº 6.766, de 1979 , o interessado promover, no Registro Imobiliário, a averbação da desistência da incorporação ou o cancelamento da inscrição do loteamento ( Decreto-Lei nº 1.381, de 1974, art. 6º, § 4º ).
 
@@ -5943,7 +5943,7 @@ Não subsistirá a equiparação de que trata o art. 163 se, na forma prevista n
 * **Obrigações acessórias**
 
 
-###### Art. 172. {#art-172}
+###### Art. 172.
 
 As pessoas físicas consideradas empresas individuais imobiliárias são obrigadas a:
 
@@ -5967,7 +5967,7 @@ Parágrafo único. Quando já estiver equiparada à empresa individual em decorr
 * **Resultados e rendimentos compreendidos**
 
 
-###### Art. 173. {#art-173}
+###### Art. 173.
 
 O lucro da empresa individual de que trata esta Subseção, determinado ao término de cada período de apuração, de acordo com o disposto no art. 481 ao art. 484 , compreenderá ( Decreto-Lei nº 1.381, de 1974, art. 9º, § 2º ):
 
@@ -5993,7 +5993,7 @@ O lucro da empresa individual de que trata esta Subseção, determinado ao térm
 * **Rendimentos excluídos**
 
 
-###### Art. 174. {#art-174}
+###### Art. 174.
 
 Não serão computados, para fins de apuração do lucro da empresa individual ( Decreto-Lei nº 1.381, de 1974, art. 9º, § 4º ):
 
@@ -6007,7 +6007,7 @@ Não serão computados, para fins de apuração do lucro da empresa individual (
 * **Valor de incorporação de imóveis**
 
 
-###### Art. 175. {#art-175}
+###### Art. 175.
 
 Para fins de determinação do valor de incorporação ao patrimônio da empresa individual, poderá ser atualizado monetariamente, até 31 de dezembro de 1995, o custo do terreno ou das glebas de terra em que sejam promovidos loteamentos ou incorporações, e das construções e das benfeitorias executadas, hipótese em que a atualização incide, desde a época de cada pagamento, sobre a quantia efetivamente desembolsada pelo titular da empresa individual, observado o disposto nos art. 136 e art. 138 ( Decreto-Lei nº 1.381, de 1974, art. 9º, § 5º ; e Lei nº 9.249, de 1995, art. 17, caput, inciso I , e art. 30 ).
 Parágrafo único. Os imóveis objeto das operações referidas nesta Subseção serão considerados como integrantes do ativo da empresa individual:
@@ -6028,7 +6028,7 @@ Parágrafo único. Os imóveis objeto das operações referidas nesta Subseção
 * **Distribuição do lucro**
 
 
-###### Art. 176. {#art-176}
+###### Art. 176.
 
 O lucro apurado pela pessoa física equiparada a empresa individual em razão de operações imobiliárias será considerado, após a dedução da provisão para o imposto sobre a renda e da Contribuição Social sobre o Lucro Líquido - CSLL, como automaticamente distribuído no período de apuração ( Decreto-Lei nº 1.510, de 1976, art. 14 ; e Lei nº 7.689, de 15 de dezembro de 1988, art. 2º e art. 4º) .
 Parágrafo único. Os lucros considerados automaticamente distribuídos, apurados a partir de 1º de janeiro de 1996, não ficarão sujeitos à incidência do imposto sobre a renda na fonte, nem integrarão a base de cálculo do imposto sobre a renda do titular da empresa individual ( Lei nº 9.249, de 1995, art. 10 ).
@@ -6037,7 +6037,7 @@ Parágrafo único. Os lucros considerados automaticamente distribuídos, apurado
 * **Subseção IV - Do término da equiparação**
 
 
-###### Art. 177. {#art-177}
+###### Art. 177.
 
 A pessoa física que, após sua equiparação a pessoa jurídica, não promover nenhum dos empreendimentos nem efetuar nenhuma das alienações a que se refere o inciso I do caput do art. 173 , durante o prazo de trinta e seis meses consecutivos, deixará de ser considerada equiparada a pessoa jurídica a partir do término desse prazo, exceto quanto aos efeitos tributários das operações em andamento à época ( Decreto-Lei nº 1.381, de 1974, art. 10 ).
 
@@ -6070,7 +6070,7 @@ A pessoa física que, após sua equiparação a pessoa jurídica, não promover 
 ###### Seção I - Disposições gerais
 
 
-###### Art. 178. {#art-178}
+###### Art. 178.
 
 As imunidades, as isenções e as não incidências de que trata este Capítulo não eximem as pessoas jurídicas das demais obrigações previstas neste Regulamento, especialmente aquelas relativas à retenção e ao recolhimento de impostos sobre rendimentos pagos ou creditados e à prestação de informações ( Lei nº 4.506, de 1964, art. 33 ).
 Parágrafo único. A imunidade, a isenção ou a não incidência que beneficia a pessoa jurídica não aproveita aos que dela percebam rendimentos sob qualquer título e forma ( Decreto-Lei nº 5.844, de 1943, art. 31 ; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 9º, § 1º ).
@@ -6082,7 +6082,7 @@ Parágrafo único. A imunidade, a isenção ou a não incidência que beneficia 
 * **Templos de qualquer culto**
 
 
-###### Art. 179. {#art-179}
+###### Art. 179.
 
 Não ficam sujeitos ao imposto sobre a renda os templos de qualquer culto ( Constituição, art. 150, caput, inciso VI, alínea “b” ; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 9º, caput, inciso IV , alínea “b”).
 
@@ -6090,7 +6090,7 @@ Não ficam sujeitos ao imposto sobre a renda os templos de qualquer culto ( Cons
 * **Partidos políticos e entidades sindicais dos trabalhadores**
 
 
-###### Art. 180. {#art-180}
+###### Art. 180.
 
 Não ficam sujeitos ao imposto sobre a renda os partidos políticos, incluídas as suas fundações, e as entidades sindicais dos trabalhadores, sem fins lucrativos, desde que ( Constituição, art. 150, caput, inciso VI, alínea “c” ; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 9º, caput, inciso IV, alínea “c” , e art. 14 ):
 
@@ -6108,7 +6108,7 @@ Parágrafo único. Na hipótese de não cumprimento ao disposto neste artigo ou 
 * **Instituições de educação e de assistência social**
 
 
-###### Art. 181. {#art-181}
+###### Art. 181.
 
 Não ficam sujeitas ao imposto sobre a renda as instituições de educação e de assistência social, sem fins lucrativos ( Constituição, art. 150, caput, inciso VI, alínea “c” ; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 9º, caput, inciso IV, alínea “c” ).
 
@@ -6180,7 +6180,7 @@ Não ficam sujeitas ao imposto sobre a renda as instituições de educação e d
 
 
 
-###### Art. 182. {#art-182}
+###### Art. 182.
 
 A imunidade de que trata esta Seção:
 
@@ -6198,7 +6198,7 @@ Parágrafo único. O disposto nos art. 180 e art. 181 se aplica às autarquias e
 ###### Seção III - Da suspensão da imunidade
 
 
-###### Art. 183. {#art-183}
+###### Art. 183.
 
 A suspensão da imunidade tributária em decorrência do não cumprimento dos requisitos legais observará o disposto neste artigo. ( Lei nº 9.430, de 1996, art. 32, caput ).
 
@@ -6264,7 +6264,7 @@ A suspensão da imunidade tributária em decorrência do não cumprimento dos re
 * **Subseção I - Das associações e das fundações**
 
 
-###### Art. 184. {#art-184}
+###### Art. 184.
 
 Ficam isentas do imposto sobre a renda as instituições de caráter filantrópico, recreativo, cultural e científico e as associações civis que prestem os serviços para os quais houverem sido instituídas e os coloquem à disposição do grupo de pessoas a que se destinam, sem fins lucrativos ( Lei nº 9.532, de 1997, art. 15 e art. 18 ).
 
@@ -6306,7 +6306,7 @@ Ficam isentas do imposto sobre a renda as instituições de caráter filantrópi
 * **Subseção II - Do Programa Universidade para Todos**
 
 
-###### Art. 185. {#art-185}
+###### Art. 185.
 
 A instituição privada de ensino superior, com fins lucrativos ou sem fins lucrativos não beneficente, que aderir ao Programa Universidade para Todos - Prouni, nos termos do disposto na Lei nº 11.096, de 13 de janeiro de 2005 , ficará isenta do imposto sobre a renda no período de vigência do termo de adesão (Lei nº 11.096, de 2005, art. 8º ; e Lei nº 11.128, de 28 de junho de 2005, art. 1º) .
 
@@ -6328,7 +6328,7 @@ A instituição privada de ensino superior, com fins lucrativos ou sem fins lucr
 * **Subseção III - Das entidades de previdência complementar**
 
 
-###### Art. 186. {#art-186}
+###### Art. 186.
 
 Ficam isentas do imposto sobre a renda as entidades fechadas de previdência complementar e as entidades abertas de previdência complementar sem fins lucrativos regidas pela Lei Complementar nº 109, de 2001 ( Decreto-Lei nº 2.065, de 26 de outubro de 1983, art. 6º ; e Lei nº 11.053, de 29 de dezembro de 2004, art. 7º) .
 
@@ -6336,7 +6336,7 @@ Ficam isentas do imposto sobre a renda as entidades fechadas de previdência com
 * **Subseção IV - Das empresas estrangeiras de transportes**
 
 
-###### Art. 187. {#art-187}
+###### Art. 187.
 
 Ficam isentas do imposto sobre a renda as companhias estrangeiras de navegação marítima e aérea se, no país de sua nacionalidade, as companhias brasileiras de igual objetivo gozarem da mesma prerrogativa ( Decreto-Lei nº 5.844, de 1943, art. 30 ).
 Parágrafo único. A isenção de que trata este artigo alcança os rendimentos auferidos no tráfego internacional por empresas estrangeiras de transporte terrestre, desde que, no país de sua nacionalidade, tratamento idêntico seja dispensado às empresas brasileiras que tenham o mesmo objeto, observado o disposto no parágrafo único do art. 192 ( Decreto-Lei nº 1.228, de 3 de julho de 1972, art. 1º ).
@@ -6345,7 +6345,7 @@ Parágrafo único. A isenção de que trata este artigo alcança os rendimentos 
 * **Subseção V - Das associações de poupança e empréstimo**
 
 
-###### Art. 188. {#art-188}
+###### Art. 188.
 
 Ficam isentas do imposto sobre a renda as associações de poupança e empréstimo autorizadas a funcionar de acordo com o Decreto-Lei nº 70, de 21 de novembro de 1966 , que tenham por objetivo propiciar ou facilitar a aquisição de casa própria aos associados, captar, incentivar e disseminar a poupança, e que atendam às normas estabelecidas pelo Conselho Monetário Nacional ( Decreto-Lei nº 70, de 1966, art. 1º e art. 7º ).
 Parágrafo único. As associações de que trata o caput pagarão o imposto sobre a renda correspondente aos rendimentos e aos ganhos líquidos auferidos em aplicações financeiras, na forma estabelecida no art. 861 .
@@ -6354,7 +6354,7 @@ Parágrafo único. As associações de que trata o caput pagarão o imposto sobr
 * **Subseção VI - Das sociedades de investimento com participação de capital estrangeiro**
 
 
-###### Art. 189. {#art-189}
+###### Art. 189.
 
 As sociedades de investimento a que se refere o art. 49 da Lei nº 4.728, de 14 de julho de 1965 , de cujo capital social participem pessoas físicas ou jurídicas, residentes ou domiciliadas no exterior, farão jus à isenção do imposto sobre a renda, se atenderem às normas e às condições estabelecidas pelo Conselho Monetário Nacional para regular o ingresso de recursos externos no País destinados à subscrição ou à aquisição das ações de emissão das referidas sociedades, relativas a ( Decreto-Lei nº 1.986, de 28 de dezembro de 1982, art. 1º, caput ):
 
@@ -6365,7 +6365,7 @@ As sociedades de investimento a que se refere o art. 49 da Lei nº 4.728, de 14 
 
 
 
-###### Art. 190. {#art-190}
+###### Art. 190.
 
 As sociedades de investimento que se enquadrarem nas disposições de que trata o art. 189 deverão manter seus lucros ou suas reservas em contas específicas de acordo com as normas estabelecidas pelo Conselho Monetário Nacional, aplicando-se-lhes o disposto no art. 63 do Decreto-Lei nº 1.598, de 26 de dezembro de 1977 ( Decreto-Lei nº 1.986, de 1982, art. 1º, parágrafo único ).
 
@@ -6382,7 +6382,7 @@ As sociedades de investimento que se enquadrarem nas disposições de que trata 
 * **Subseção VII - Das isenções específicas**
 
 
-###### Art. 191. {#art-191}
+###### Art. 191.
 
 Não ficam sujeitos ao imposto sobre a renda:
 
@@ -6396,7 +6396,7 @@ Não ficam sujeitos ao imposto sobre a renda:
 * **Subseção VIII - Do reconhecimento da isenção**
 
 
-###### Art. 192. {#art-192}
+###### Art. 192.
 
 As isenções de que trata esta Seção independem de reconhecimento prévio.
 Parágrafo único. Na hipótese prevista no art. 187 , a isenção será reconhecida pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda e alcançará os rendimentos obtidos a partir da existência da reciprocidade de tratamento e não poderá originar, em qualquer hipótese, direito à restituição de receita ( Decreto-Lei nº 1.228, de 1972, art. 2º, caput e parágrafo único ).
@@ -6408,7 +6408,7 @@ Parágrafo único. Na hipótese prevista no art. 187 , a isenção será reconhe
 * **Não incidência**
 
 
-###### Art. 193. {#art-193}
+###### Art. 193.
 
 As sociedades cooperativas que obedecerem ao disposto na legislação específica não terão incidência do imposto sobre suas atividades econômicas, de proveito comum, sem objetivo de lucro ( Lei nº 5.764, de 16 de dezembro de 1971, art. 3º e art. 4º ).
 
@@ -6430,7 +6430,7 @@ As sociedades cooperativas que obedecerem ao disposto na legislação específic
 * **Incidência**
 
 
-###### Art. 194. {#art-194}
+###### Art. 194.
 
 As sociedades cooperativas que obedecerem ao disposto em legislação específica pagarão o imposto sobre a renda calculado sobre os resultados positivos das operações e das atividades estranhas à sua finalidade, tais como (Lei nº 5.764, de 1971, art. 85 ao art. 88 e art. 111; e Lei nº 9.430, de 1996, art. 1º e art. 2º ):
 
@@ -6447,7 +6447,7 @@ As sociedades cooperativas que obedecerem ao disposto em legislação específic
 * **Cooperativas de consumo**
 
 
-###### Art. 195. {#art-195}
+###### Art. 195.
 
 As sociedades cooperativas de consumo que tenham por objeto a compra e o fornecimento de bens aos consumidores ficam sujeitas às mesmas normas de incidência do imposto sobre a renda aplicáveis às demais pessoas jurídicas ( Lei nº 9.532, de 1997, art. 69 ).
 
@@ -6458,7 +6458,7 @@ As sociedades cooperativas de consumo que tenham por objeto a compra e o forneci
 ##### CAPÍTULO I - DA RESPONSABILIDADE DOS SUCESSORES
 
 
-###### Art. 196. {#art-196}
+###### Art. 196.
 
 Respondem pelo imposto sobre a renda devido pelas pessoas jurídicas transformadas, extintas ou cindidas ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 132 ; e Decreto-Lei nº 1.598, de 1977, art. 5º, caput ):
 
@@ -6488,7 +6488,7 @@ Parágrafo único. Respondem solidariamente pelo imposto sobre a renda devido pe
 
 
 
-###### Art. 197. {#art-197}
+###### Art. 197.
 
 A pessoa física ou jurídica que adquirir de outra, por qualquer título, fundo de comércio ou estabelecimento comercial, industrial ou profissional, e continuar a sua exploração, sob a mesma ou outra razão social, ou sob firma ou nome individual, responde pelo imposto sobre a renda, relativo ao fundo ou ao estabelecimento adquirido, devido até a data do ato ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 133 ):
 
@@ -6534,7 +6534,7 @@ A pessoa física ou jurídica que adquirir de outra, por qualquer título, fundo
 
 
 
-###### Art. 198. {#art-198}
+###### Art. 198.
 
 A aquisição de carteira de planos privados de assistência à saúde não caracteriza transmissão de responsabilidade tributária, observado o disposto no art. 197 , desde que sejam asseguradas a todos os participantes da referida carteira as mesmas condições de cobertura assistencial, além da contagem de prazos de carência e de aquisição de benefícios já transcorridos, e a alienação, ainda que a preço simbólico ou a título gratuito (Medida Provisória nº 2.189-49, de 23 de agosto de 2001, art. 15 ):
 
@@ -6545,7 +6545,7 @@ A aquisição de carteira de planos privados de assistência à saúde não cara
 
 
 
-###### Art. 199. {#art-199}
+###### Art. 199.
 
 O disposto neste Capítulo aplica-se por igual aos créditos tributários definitivamente constituídos ou em curso de constituição à data dos atos nele referidos, e aos constituídos posteriormente aos mesmos atos, desde que relativos a obrigações tributárias surgidas até a referida data ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 129 ).
 
@@ -6553,7 +6553,7 @@ O disposto neste Capítulo aplica-se por igual aos créditos tributários defini
 ##### CAPÍTULO II - DA RESPONSABILIDADE DE TERCEIROS
 
 
-###### Art. 200. {#art-200}
+###### Art. 200.
 
 São pessoalmente responsáveis pelos créditos correspondentes a obrigações tributárias resultantes de atos praticados com excesso de poderes ou infração a lei, contrato social ou estatutos ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 134, caput , inciso III e incisos V ao VII, e art. 135 ):
 
@@ -6577,7 +6577,7 @@ São pessoalmente responsáveis pelos créditos correspondentes a obrigações t
 Parágrafo único. Os comissários, os mandatários, os agentes ou os representantes de pessoas jurídicas domiciliadas no exterior respondem, pessoalmente, pelos créditos correspondentes às obrigações tributárias resultantes das operações mencionadas nos art. 411 e art. 412 ( Decreto-Lei nº 5.844, de 1943, art. 192, parágrafo único ; e Lei nº 3.470, de 1958, art. 76) .
 
 
-###### Art. 201. {#art-201}
+###### Art. 201.
 
 Na hipótese de impossibilidade de exigência do cumprimento da obrigação principal pelo contribuinte, respondem solidariamente com este nos atos em que intervierem ou pelas omissões de que forem responsáveis ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 134, caput, inciso III e incisos V ao VII ):
 
@@ -6606,7 +6606,7 @@ Na hipótese de impossibilidade de exigência do cumprimento da obrigação prin
 #### TÍTULO III - DO DOMICÍLIO FISCAL
 
 
-###### Art. 202. {#art-202}
+###### Art. 202.
 
 O domicílio fiscal da pessoa jurídica é (Lei nº 4.154, de 28 de novembro de 1962, art. 34 ; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 127, caput ):
 
@@ -6637,7 +6637,7 @@ O domicílio fiscal da pessoa jurídica é (Lei nº 4.154, de 28 de novembro de 
 
 
 
-###### Art. 203. {#art-203}
+###### Art. 203.
 
 Para fins de intimação, considera-se domicílio tributário do sujeito passivo (Decreto nº 70.235, de 1972, art. 23, § 4º) :
 
@@ -6652,13 +6652,13 @@ Parágrafo único. O endereço eletrônico somente será implementado com consen
 #### TÍTULO IV - DA INSCRIÇÃO NO CADASTRO NACIONAL DA PESSOA JURÍDICA
 
 
-###### Art. 204. {#art-204}
+###### Art. 204.
 
 A obrigatoriedade de inscrição no CNPJ e a forma, o prazo e as condições da inscrição serão estabelecidas por ato da Secretaria da Receita Federal do Brasil do Ministério da Fazenda ( Lei nº 9.250, de 1995, art. 37, caput, inciso II ; e Lei nº 9.779, de 1999, art. 16 ).
 Baixa de ofício da inscrição
 
 
-###### Art. 205. {#art-205}
+###### Art. 205.
 
 Poderão ter sua inscrição no CNPJ baixada de ofício, nas condições e nos termos definidos pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, as pessoas jurídicas que ( Lei nº 9.430, de 1996, art. 80 , art. 80-A ao art. 80-C ):
 
@@ -6702,7 +6702,7 @@ Poderão ter sua inscrição no CNPJ baixada de ofício, nas condições e nos t
 * **Inscrição inapta**
 
 
-###### Art. 206. {#art-206}
+###### Art. 206.
 
 Poderá ser declarada inapta, nas condições e nos termos definidos pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, a inscrição no CNPJ da pessoa jurídica que, estando obrigada, deixar de apresentar declarações e demonstrativos em dois exercícios consecutivos ( Lei nº 9.430, de 1996, art. 81, caput ).
 
@@ -6740,7 +6740,7 @@ Poderá ser declarada inapta, nas condições e nos termos definidos pela Secret
 * **Declaração de inidoneidade**
 
 
-###### Art. 207. {#art-207}
+###### Art. 207.
 
 Além das demais hipóteses de inidoneidade de documentos previstos na legislação, não produzirá efeitos tributários, em favor de terceiros interessados, o documento emitido por pessoa jurídica cuja inscrição no CNPJ tenha sido considerada ou declarada inapta ( Lei nº 9.430, de 1996, art. 82, caput ).
 Parágrafo único. O disposto neste artigo não se aplica às hipóteses em que o adquirente de bens, direitos e mercadorias ou o tomador de serviços comprovar a efetivação do pagamento do preço e o recebimento dos bens, dos direitos e das mercadorias ou a utilização dos serviços ( Lei nº 9.430, de 1996, art. 82, parágrafo único ).
@@ -6749,7 +6749,7 @@ Parágrafo único. O disposto neste artigo não se aplica às hipóteses em que 
 #### TÍTULO V - DA RECEITA BRUTA
 
 
-###### Art. 208. {#art-208}
+###### Art. 208.
 
 A receita bruta compreende ( Decreto-Lei nº 1.598, de 1977, art. 12, caput ):
 
@@ -6795,7 +6795,7 @@ A receita bruta compreende ( Decreto-Lei nº 1.598, de 1977, art. 12, caput ):
 #### TÍTULO VI - DA BASE DE CÁLCULO E DO PERÍODO DE APURAÇÃO
 
 
-###### Art. 209. {#art-209}
+###### Art. 209.
 
 O imposto sobre a renda das pessoas jurídicas, inclusive das equiparadas e das sociedades cooperativas em relação aos resultados obtidos nas operações ou nas atividades estranhas à sua finalidade, será devido à medida que os rendimentos, os ganhos e os lucros forem sendo auferidos (Lei nº 5.764, de 1971, art. 85 , art. 86 , art. 88 e art. 111 ; Lei nº 8.981, de 1995, art. 25 ; e Lei nº 9.430, de 1996, art. 55 ).
 
@@ -6803,7 +6803,7 @@ O imposto sobre a renda das pessoas jurídicas, inclusive das equiparadas e das 
 ##### CAPÍTULO I - DA BASE DE CÁLCULO
 
 
-###### Art. 210. {#art-210}
+###### Art. 210.
 
 A base de cálculo do imposto sobre a renda, determinada segundo a lei vigente à data de ocorrência do fato gerador, é o lucro real, presumido ou arbitrado, correspondente ao período de apuração ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 44 e art. 144 ; Lei nº 8.981, de 1995, art. 26; e Lei nº 9.430, de 1996, art. 1º ).
 
@@ -6820,12 +6820,12 @@ A base de cálculo do imposto sobre a renda, determinada segundo a lei vigente �
 ##### CAPÍTULO II - DOS MÉTODOS E dos CRITÉRIOS CONTÁBEIS INTRODUZIDOS PELA LEI Nº 11.638, DE 28 DE DEZEMBRO DE 2007, E PELA LEI Nº 11.941, DE 27 DE MAIO DE 2009
 
 
-###### Art. 1º {#art-1}
+###### Art. 1º
 
 , art. 2º e art. 4º ao art. 71 da Lei n º 12.973, de 13 de maio de 2014
 
 
-###### Art. 211. {#art-211}
+###### Art. 211.
 
 A partir de 1º de janeiro de 2015, os métodos e os critérios contábeis introduzidos pela Lei nº 11.638, de 28 de dezembro de 2007 , e pelos art. 37 e art. 38 da Lei nº 11.941, de 2009 , submetem-se ao tratamento tributário conferido pelos art. 1º, art. 2º e art. 4º ao art. 71 da Lei nº 12.973, de 2014 (Lei nº 12.973, de 2014, art. 1º, art. 2º e art. 4º ao art. 71) .
 
@@ -6847,7 +6847,7 @@ A partir de 1º de janeiro de 2015, os métodos e os critérios contábeis intro
 * **Adoção de novos métodos e critérios contábeis por meio de atos administrativos**
 
 
-###### Art. 212. {#art-212}
+###### Art. 212.
 
 A modificação ou a adoção de métodos e critérios contábeis, por meio de atos administrativos emitidos com base em competência atribuída em lei comercial, que sejam posteriores a 12 de novembro de 2013, data da publicação da Medida Provisória nº 627, de 11 de novembro de 2013 , não terá implicação na apuração do imposto sobre a renda até que lei tributária regule a matéria (Lei nº 12.973, de 2014, art. 58, caput) .
 Parágrafo único. Para fins do disposto no caput , compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda, no âmbito de suas atribuições, identificar os atos administrativos e dispor sobre os procedimentos para anular os efeitos desses atos sobre a apuração dos tributos federais (Lei nº 12.973, de 2014, art. 58, parágrafo único) .
@@ -6856,7 +6856,7 @@ Parágrafo único. Para fins do disposto no caput , compete à Secretaria da Rec
 * **Disposições transitórias quanto ao Regime Tributário de Transição**
 
 
-###### Art. 213. {#art-213}
+###### Art. 213.
 
 Até a data a que se refere o caput ou o § 1º do art. 211 , os ajustes tributários decorrentes dos métodos e dos critérios contábeis introduzidos pelas Lei nº 11.638, de 2007 , e Lei nº 11.941, de 2009 , são realizados nos termos do Regime Tributário de Transição - RTT (Lei nº 11.941, de 2009, art. 15, caput ).
 
@@ -6887,13 +6887,13 @@ Até a data a que se refere o caput ou o § 1º do art. 211 , os ajustes tribut�
 
 
 
-###### Art. 214. {#art-214}
+###### Art. 214.
 
 As alterações introduzidas pela Lei nº 11.638, de 2007 , e pela Lei nº 11.941, de 2009 , que modificam o critério de reconhecimento de receitas, custos e despesas computadas na apuração do lucro líquido do exercício definido no art. 191 da Lei nº 6.404, de 1976 , não tem efeitos para fins de apuração do lucro real da pessoa jurídica sujeita ao RTT, considerados, para fins tributários, os métodos e os critérios contábeis vigentes em 31 de dezembro de 2007 ( Lei nº 11.941, de 2009, art. 16, caput) .
 Parágrafo único. O disposto no caput aplica-se às normas expedidas pela CVM, com base na competência conferida pelo disposto no § 3º do art. 177 da Lei nº 6.404, de 1976 , e pelos demais órgãos reguladores que visam a alinhar a legislação específica com os padrões internacionais de contabilidade (Lei nº 11.941, de 2009, art. 16, parágrafo único) .
 
 
-###### Art. 215. {#art-215}
+###### Art. 215.
 
 Na ocorrência de disposições da lei tributária que conduzam ou incentivem a utilização de métodos ou critérios contábeis diferentes daqueles determinados pela Lei nº 6.404, de 1976 , com as alterações introduzidas pelas Lei nº 11.638, de 2007 , e Lei nº 11.941, de 2009, e pelas normas expedidas pela CVM, com base na competência conferida pelo § 3º do art. 177 da Lei nº 6.404, de 1976 , e pelos demais órgãos reguladores, a pessoa jurídica sujeita ao RTT deve realizar o seguinte procedimento (Lei nº 11.941, de 2009, art. 17) :
 
@@ -6913,7 +6913,7 @@ Na ocorrência de disposições da lei tributária que conduzam ou incentivem a 
 
 
 
-###### Art. 216. {#art-216}
+###### Art. 216.
 
 Na hipótese de apuração do imposto sobre a renda com base no lucro presumido, a competência para definição dos controles dos ajustes extracontábeis decorrentes da opção pelo RTT é da Secretaria da Receita Federal do Brasil do Ministério da Fazenda (Lei nº 11.941, de 2009, art. 24) .
 
@@ -6924,7 +6924,7 @@ Na hipótese de apuração do imposto sobre a renda com base no lucro presumido,
 ###### Seção I - Da apuração trimestral do imposto sobre a renda
 
 
-###### Art. 217. {#art-217}
+###### Art. 217.
 
 O imposto sobre a renda das pessoas jurídicas será determinado com base no lucro real, presumido ou arbitrado, por períodos de apuração trimestrais, encerrados nos dias 31 de março, 30 de junho, 30 de setembro e 31 de dezembro de cada ano-calendário ( Lei nº 9.430, de 1996, art. 1º, caput ).
 
@@ -6941,7 +6941,7 @@ O imposto sobre a renda das pessoas jurídicas será determinado com base no luc
 ###### Seção II - Da apuração anual do imposto sobre a renda
 
 
-###### Art. 218. {#art-218}
+###### Art. 218.
 
 A pessoa jurídica que optar pelo pagamento do imposto sobre a renda na forma estabelecida nesta Seção deverá apurar o lucro real em 31 de dezembro de cada ano ( Lei nº 9.430, de 1996, art. 2º, § 3º ).
 Parágrafo único. Nas hipóteses de que tratam os § 1º e § 2º do art. 217 , o lucro real deverá ser apurado na data daquele evento ( Lei nº 9.430, de 1996, art. 1º, § 1º e § 2º ).
@@ -6950,7 +6950,7 @@ Parágrafo único. Nas hipóteses de que tratam os § 1º e § 2º do art. 217 ,
 * **Subseção I - Do pagamento por estimativa**
 
 
-###### Art. 219. {#art-219}
+###### Art. 219.
 
 A pessoa jurídica sujeita à tributação com base no lucro real poderá optar pelo pagamento do imposto sobre a renda e do adicional, em cada mês, determinados sobre a base de cálculo estimada ( Lei nº 9.430, de 1996, art. 2º ).
 Parágrafo único. A opção será manifestada com o pagamento do imposto sobre a renda correspondente ao mês de janeiro ou de início de atividade, observado o disposto no art. 229 (Lei nº 9.430, de 1996, art. 3º, parágrafo único ).
@@ -6959,7 +6959,7 @@ Parágrafo único. A opção será manifestada com o pagamento do imposto sobre 
 * **Subseção II - Da base de cálculo estimada**
 
 
-###### Art. 220. {#art-220}
+###### Art. 220.
 
 A base de cálculo estimada do imposto sobre a renda, em cada mês, será determinada por meio da aplicação do percentual de oito por cento sobre a receita bruta definida pelo art. 208 auferida mensalmente, deduzida das devoluções, das vendas canceladas e dos descontos incondicionais concedidos, observadas as disposições desta Subseção ( Lei nº 9.249, de 1995, art. 15, caput ; e Lei nº 9.430, de 1996, art. 2º ).
 
@@ -7034,7 +7034,7 @@ A base de cálculo estimada do imposto sobre a renda, em cada mês, será determ
 
 
 
-###### Art. 221. {#art-221}
+###### Art. 221.
 
 As pessoas jurídicas que tenham como objeto social, declarado em seus atos constitutivos, a compra e venda de veículos automotores poderão equiparar, para efeitos tributários, como operação de consignação, as operações de venda de veículos usados, adquiridos para revenda, e dos recebidos como parte do preço de venda de veículos novos ou usados (Lei nº 9.716, de 26 de novembro de 1998, art. 5º, caput ) .
 Parágrafo único. Os veículos usados a que se refere o caput serão objeto de nota fiscal de entrada e, quando da venda, de nota fiscal de saída, e ficam sujeitos ao regime fiscal aplicável às operações de consignação (Lei nº 9.716, de 1998, art. 5º, parágrafo único) .
@@ -7043,7 +7043,7 @@ Parágrafo único. Os veículos usados a que se refere o caput serão objeto de 
 * **Ganhos de capital e outras receitas**
 
 
-###### Art. 222. {#art-222}
+###### Art. 222.
 
 Os ganhos de capital, as demais receitas e os resultados positivos decorrentes de receitas não abrangidas pelo art. 208 serão acrescidos à base de cálculo de que trata esta Subseção, para efeito de incidência do imposto sobre a renda (Lei nº 8.981, de 1995, art. 32, caput ; e Lei nº 9.430, de 1996, art. 2º ).
 
@@ -7106,7 +7106,7 @@ Os ganhos de capital, as demais receitas e os resultados positivos decorrentes d
 * **Deduções da receita bruta**
 
 
-###### Art. 223. {#art-223}
+###### Art. 223.
 
 As pessoas jurídicas de que trata a alínea “b” do inciso II do § 1º do art. 220 poderão deduzir da receita bruta (Lei nº 8.981, de 1995, art. 29, § 1º ; e Lei nº 9.430, de 1996, art. 2º ):
 
@@ -7160,7 +7160,7 @@ Parágrafo único. É vedada a dedução de qualquer despesa administrativa (Lei
 * **Atividades imobiliárias**
 
 
-###### Art. 224. {#art-224}
+###### Art. 224.
 
 As pessoas jurídicas que explorem atividades imobiliárias relativas a loteamento de terrenos, incorporação imobiliária, construção de prédios destinados a venda, a venda de imóveis construídos ou adquiridos para revenda deverão considerar como receita bruta o montante recebido relativo às unidades imobiliárias vendidas (Lei nº 8.981, de 1995, art. 30, caput ; e Lei nº 9.430, de 1996, art. 2º ).
 
@@ -7193,7 +7193,7 @@ As pessoas jurídicas que explorem atividades imobiliárias relativas a loteamen
 * **Subseção III - Da alíquota do imposto sobre a renda e do adicional**
 
 
-###### Art. 225. {#art-225}
+###### Art. 225.
 
 O imposto sobre a renda a ser pago mensalmente na forma estabelecida nesta Subseção será determinado por meio da aplicação, sobre a base de cálculo, da alíquota de quinze por cento ( Lei nº 9.430, de 1996, art. 2º, § 1º ).
 Parágrafo único. A parcela da base de cálculo, apurada mensalmente, que exceder a R$ 20.000,00 (vinte mil reais) ficará sujeita à incidência de adicional do imposto sobre a renda à alíquota de dez por cento ( Lei nº 9.430, de 1996, art. 2º, § 2º ).
@@ -7202,7 +7202,7 @@ Parágrafo único. A parcela da base de cálculo, apurada mensalmente, que exced
 * **Subseção IV - Das deduções do imposto sobre a renda mensal**
 
 
-###### Art. 226. {#art-226}
+###### Art. 226.
 
 Para fins de pagamento, a pessoa jurídica poderá deduzir do imposto sobre a renda apurado no mês, o imposto pago ou retido na fonte sobre as receitas que integraram a base de cálculo e os incentivos de dedução do imposto relativos (Lei nº 6.321, de 14 de abril de 1976, art. 1º, § 1º ; Lei nº 8.981, de 1995, art. 34 ; Lei nº 9.430, de 1996, art. 2º ; Medida Provisória nº 2.228-1, de 2001, art. 44 e art. 45 ; Lei nº 11.438, de 2006, art. 1º ; Lei nº 11.770, de 2008, art. 5º ; e Lei nº 12.213, de 20 janeiro de 2010, art. 3º) :
 
@@ -7232,7 +7232,7 @@ Parágrafo único. Na hipótese em que o imposto sobre a renda retido na fonte s
 * **Subseção V - Da suspensão, da redução e da dispensa do imposto sobre a renda mensal**
 
 
-###### Art. 227. {#art-227}
+###### Art. 227.
 
 A pessoa jurídica poderá suspender ou reduzir o pagamento do imposto sobre a renda devido em cada mês, desde que demonstre, por meio de balanços ou balancetes mensais, que o valor acumulado já pago excede o valor do imposto, inclusive adicional, calculado com base no lucro real do período em curso (Lei nº 8.981, de 1995, art. 35, caput ; e Lei nº 9.430, de 1996, art. 2º ).
 
@@ -7265,7 +7265,7 @@ A pessoa jurídica poderá suspender ou reduzir o pagamento do imposto sobre a r
 * **Subseção VI - Das deduções do imposto sobre a renda anual**
 
 
-###### Art. 228. {#art-228}
+###### Art. 228.
 
 Para efeito de determinação do saldo de imposto a pagar ou a ser compensado, a pessoa jurídica poderá deduzir do imposto sobre a renda devido o valor ( Lei nº 9.430, de 1996, art. 2º, § 4º ):
 
@@ -7294,7 +7294,7 @@ Para efeito de determinação do saldo de imposto a pagar ou a ser compensado, a
 ###### Seção III - Da opção da forma de pagamento
 
 
-###### Art. 229. {#art-229}
+###### Art. 229.
 
 A adoção da forma de pagamento do imposto sobre a renda prevista no art. 217 , pelas pessoas jurídicas sujeitas ao lucro real, ou aquela referida no art. 218 , será irretratável para todo o ano-calendário ( Lei nº 9.430, de 1996, art. 3º ).
 
@@ -7302,7 +7302,7 @@ A adoção da forma de pagamento do imposto sobre a renda prevista no art. 217 ,
 ###### Seção IV - Do início de atividade
 
 
-###### Art. 230. {#art-230}
+###### Art. 230.
 
 O período de apuração da primeira incidência do imposto sobre a renda após a constituição da pessoa jurídica compreenderá o prazo desde o início da atividade até o último dia do trimestre ( Lei nº 9.430, de 1996, art. 1º e art. 3º, parágrafo único ).
 Parágrafo único. A pessoa jurídica sujeita à tributação com base no lucro real poderá optar pelo pagamento do imposto sobre a renda, em cada mês, desde o início da atividade, determinado sobre base de cálculo estimada, e apurar o lucro real em 31 de dezembro ( Lei nº 9.430, de 1996, art. 2º e art. 3º, parágrafo único ).
@@ -7311,7 +7311,7 @@ Parágrafo único. A pessoa jurídica sujeita à tributação com base no lucro 
 ###### Seção V - Da transformação e da continuação
 
 
-###### Art. 231. {#art-231}
+###### Art. 231.
 
 Na hipótese de transformação de pessoa jurídica ou de continuação da atividade explorada pela pessoa jurídica por qualquer sócio remanescente ou pelo espólio, sob a mesma ou nova denominação social ou firma, o imposto sobre a renda continuará a ser pago como se não houvesse alteração na pessoa jurídica ( Decreto-Lei nº 5.844, de 1943, art. 54, alíneas “b” e “c” ).
 
@@ -7319,7 +7319,7 @@ Na hipótese de transformação de pessoa jurídica ou de continuação da ativi
 ###### Seção VI - Da incorporação, da fusão e da cisão
 
 
-###### Art. 232. {#art-232}
+###### Art. 232.
 
 A pessoa jurídica que tiver parte ou todo o seu patrimônio absorvido em decorrência de incorporação, fusão ou cisão deverá levantar balanço específico para esse fim, observada a legislação comercial ( Lei nº 9.249, de 1995, art. 21 ).
 
@@ -7351,7 +7351,7 @@ A pessoa jurídica que tiver parte ou todo o seu patrimônio absorvido em decorr
 * **Sucessão por incorporação**
 
 
-###### Art. 233. {#art-233}
+###### Art. 233.
 
 Os incentivos e os benefícios fiscais concedidos por prazo certo e em função de determinadas condições a pessoa jurídica que vier a ser incorporada poderão ser transferidos, por sucessão, à pessoa jurídica incorporadora, mediante requerimento desta, desde que observados os limites e as condições fixados na legislação que institui o incentivo ou o benefício, em especial quanto aos aspectos vinculados (Lei nº 11.434, de 28 de dezembro de 2006, art. 8º, caput ) :
 
@@ -7385,12 +7385,12 @@ Os incentivos e os benefícios fiscais concedidos por prazo certo e em função 
 ###### Seção VII - Da liquidação e da extinção
 
 
-###### Art. 234. {#art-234}
+###### Art. 234.
 
 A pessoa jurídica será tributada de acordo com o disposto neste Regulamento até findar-se a sua liquidação ( Decreto-Lei nº 5.844, de 1943, art. 51 ).
 
 
-###### Art. 235. {#art-235}
+###### Art. 235.
 
 Na extinção da pessoa jurídica, pelo encerramento da liquidação, a apuração da base de cálculo e do imposto sobre a renda devido será efetuada na data desse evento ( Lei nº 9.430, de 1996, art. 1º, § 2º ).
 Parágrafo único. Na hipótese de encerramento de atividades, além da declaração correspondente aos resultados do ano-calendário anterior, deverá ser apresentada declaração relativa aos resultados do ano-calendário em curso até a data da extinção, na forma, no prazo e nas condições estabelecidos pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda ( Decreto-Lei nº 5.844, de 1943, art. 52 ; e Lei nº 9.779, de 1999, art. 16) .
@@ -7399,7 +7399,7 @@ Parágrafo único. Na hipótese de encerramento de atividades, além da declara�
 ###### Seção VIII - Da devolução de capital em bens e direitos
 
 
-###### Art. 236. {#art-236}
+###### Art. 236.
 
 Os bens e os direitos do ativo da pessoa jurídica que forem entregues ao titular ou ao sócio ou ao acionista, a título de devolução de sua participação no capital social, poderão ser avaliados pelo valor contábil ou pelo valor de mercado ( Lei nº 9.249, de 1995, art. 22, caput ).
 
@@ -7416,7 +7416,7 @@ Os bens e os direitos do ativo da pessoa jurídica que forem entregues ao titula
 ###### Seção IX - Da devolução de patrimônio de entidade isenta
 
 
-###### Art. 237. {#art-237}
+###### Art. 237.
 
 A diferença entre o valor em dinheiro ou o valor dos bens e dos direitos recebidos de instituição isenta, a título de devolução de patrimônio, e o valor em dinheiro ou o valor dos bens e dos direitos que houver entregado para a formação do referido patrimônio, será computada na determinação do lucro real ou adicionada ao lucro presumido ou arbitrado, conforme a forma de tributação a que a pessoa jurídica destinatária estiver sujeita ( Lei nº 9.532, de 1997, art. 17, § 3º ).
 
@@ -7427,7 +7427,7 @@ A diferença entre o valor em dinheiro ou o valor dos bens e dos direitos recebi
 ##### CAPÍTULO I - DAS RECEITAS ORIUNDAS DE EXPORTAÇÃO PARA O EXTERIOR
 
 
-###### Art. 238. {#art-238}
+###### Art. 238.
 
 As receitas auferidas nas operações efetuadas com pessoa vinculada, a que se refere o art. 453 , ficam sujeitas a arbitramento quando o preço médio de venda dos bens, dos serviços ou dos direitos, nas exportações efetuadas durante o período de apuração da base de cálculo do imposto sobre a renda, for inferior a noventa por cento do preço médio praticado na venda dos mesmos bens, serviços ou direitos, no mercado brasileiro, durante o mesmo período, em condições de pagamento semelhantes ( Lei nº 9.430, de 1996, art. 19, caput ).
 
@@ -7499,7 +7499,7 @@ As receitas auferidas nas operações efetuadas com pessoa vinculada, a que se r
 
 
 
-###### Art. 239. {#art-239}
+###### Art. 239.
 
 O método PECEX é definido como os valores médios diários da cotação de bens ou direitos sujeitos a preços públicos em bolsas de mercadorias e futuros internacionalmente reconhecidas ( Lei nº 9.430, de 1996, art. 19-A, caput )
 
@@ -7548,13 +7548,13 @@ O método PECEX é definido como os valores médios diários da cotação de ben
 
 
 
-###### Art. 240. {#art-240}
+###### Art. 240.
 
 Fica o Ministro de Estado da Fazenda autorizado a instituir, por prazo certo, mecanismo de ajuste para fins de determinação de preços de transferência, relativamente ao disposto no caput do art. 238 e aos métodos de cálculo que especificar, aplicáveis à exportação, de forma a reduzir impactos relativos à apreciação da moeda nacional em relação a outras moedas (Lei nº 11.196, de 2005, art. 36, caput ) .
 Parágrafo único. O Secretário da Receita Federal do Brasil do Ministério da Fazenda poderá determinar a aplicação do mecanismo de ajuste de que trata o caput às hipóteses a que se refere o art. 241 (Lei nº 11.196, de 2005, art. 36, parágrafo único) .
 
 
-###### Art. 241. {#art-241}
+###### Art. 241.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda poderá estabelecer normas, tendo em vista as condições especiais de rentabilidade e representatividade de operações da pessoa jurídica, para disciplinar a forma de simplificação da apuração dos métodos de preço de transferência de que trata o art. 231 (Lei nº 10.833, de 2003, art. 45, caput ) .
 
@@ -7571,7 +7571,7 @@ A Secretaria da Receita Federal do Brasil do Ministério da Fazenda poderá esta
 ##### CAPÍTULO II - DOS BENS, dos SERVIÇOS E dos DIREITOS ADQUIRIDOS NO EXTERIOR
 
 
-###### Art. 242. {#art-242}
+###### Art. 242.
 
 Os custos, as despesas e os encargos relativos a bens, serviços e direitos, constantes dos documentos de importação ou de aquisição, nas operações efetuadas com pessoa vinculada, somente serão dedutíveis na determinação do lucro real até o valor que não exceda ao preço determinado por um dos seguintes métodos ( Lei nº 9.430, de 1996, art. 18, caput ):
 
@@ -7745,7 +7745,7 @@ Os custos, as despesas e os encargos relativos a bens, serviços e direitos, con
 
 
 
-###### Art. 243. {#art-243}
+###### Art. 243.
 
 O método PCI é definido como os valores médios diários da cotação de bens ou direitos sujeitos a preços públicos em bolsas de mercadorias e futuros internacionalmente reconhecidas ( Lei nº 9.430, de 1996, art. 18-A, caput ).
 
@@ -7783,7 +7783,7 @@ O método PCI é definido como os valores médios diários da cotação de bens 
 
 
 
-###### Art. 244. {#art-244}
+###### Art. 244.
 
 Nas hipóteses de apuração de excesso de custo de aquisição de bens, direitos e serviços, importados de empresas vinculadas e que sejam considerados indedutíveis na determinação do lucro real, apurados na forma estabelecida no art. 242 , a pessoa jurídica deverá ajustar o excesso de custo, determinado por um dos métodos, no encerramento do período de apuração, contabilmente, por meio de lançamento a débito de conta de resultados acumulados e a crédito de (Lei nº 10.637, de 2002, art. 45, caput ) :
 
@@ -7811,7 +7811,7 @@ Nas hipóteses de apuração de excesso de custo de aquisição de bens, direito
 ##### CAPÍTULO III - DA OPÇÃO PELOS MÉTODOS
 
 
-###### Art. 245. {#art-245}
+###### Art. 245.
 
 A partir do ano-calendário de 2012, a opção por um dos métodos previstos nos art. 238 e art. 242 será efetuada para o ano-calendário e não poderá ser alterada pelo contribuinte uma vez iniciado o procedimento fiscal, exceto quando, em seu curso, o método ou algum de seus critérios de cálculo venha a ser desqualificado pela fiscalização, situação em que o sujeito passivo deverá ser intimado para, no prazo de trinta dias, apresentar novo cálculo de acordo com qualquer outro método previsto na legislação ( Lei nº 9.430, de 1996, art. 20-A, caput, ).
 
@@ -7839,12 +7839,12 @@ A partir do ano-calendário de 2012, a opção por um dos métodos previstos nos
 
 
 
-###### Art. 246. {#art-246}
+###### Art. 246.
 
 A utilização do método de cálculo de preço parâmetro, de que tratam os art. 238 e art. 242 , deve ser consistente por bem, serviço ou direito, para todo o ano-calendário. ( Lei nº 9.430, de 1996, art. 20-B ).
 
 
-###### Art. 247. {#art-247}
+###### Art. 247.
 
 A pessoa jurídica poderá optar pela aplicação das disposições estabelecidas nos art. 238 , art. 239 , art. 242 e art. 243 , para fins de aplicação das regras de preços de transferência para o ano-calendário de 2012 (Lei nº 12.715, de 2012, art. 52) .
 
@@ -7852,7 +7852,7 @@ A pessoa jurídica poderá optar pela aplicação das disposições estabelecida
 ##### CAPÍTULO IV - DA APURAÇÃO DOS PREÇOS MÉDIOS
 
 
-###### Art. 248. {#art-248}
+###### Art. 248.
 
 Os custos e os preços médios a que se referem os art. 238 e art. 242 deverão ser apurados com base em ( Lei nº 9.430, de 1996, art. 21, caput ):
 
@@ -7880,7 +7880,7 @@ Os custos e os preços médios a que se referem os art. 238 e art. 242 deverão 
 ##### CAPÍTULO V - DOS JUROS A PESSOAS VINCULADAS
 
 
-###### Art. 249. {#art-249}
+###### Art. 249.
 
 Os juros pagos ou creditados a pessoa vinculada, de que trata o art. 253 , somente serão dedutíveis para fins de determinação do lucro real até o montante que não exceda o valor calculado com base em taxa determinada conforme o disposto neste artigo acrescida de margem percentual a título de spread , a ser definida em ato do Ministro de Estado da Fazenda com base na média de mercado, proporcionalizados em função do período a que se referirem os juros ( Lei nº 9.430, de 1996, art. 22, caput ).
 
@@ -7946,7 +7946,7 @@ Os juros pagos ou creditados a pessoa vinculada, de que trata o art. 253 , somen
 ##### CAPÍTULO VI - DA SUBCAPITALIZAÇÃO E DAS OPERAÇÕES COM VINCULADAS
 
 
-###### Art. 250. {#art-250}
+###### Art. 250.
 
 Sem prejuízo do disposto no art. 249 , os juros pagos ou creditados por fonte situada no País a pessoa física ou jurídica, vinculada nos termos estabelecidos no art. 253 , residente ou domiciliada no exterior, não constituída em país ou dependência com tributação favorecida ou sob regime fiscal privilegiado, somente serão dedutíveis, para fins de determinação do lucro real, quando se verifique constituírem despesa necessária à atividade, observado o disposto no art. 306 , no período de apuração, atendidos os seguintes requisitos (Lei nº 12.249, de 2010, art. 24, caput ) :
 
@@ -7997,7 +7997,7 @@ Sem prejuízo do disposto no art. 249 , os juros pagos ou creditados por fonte s
 ##### CAPÍTULO VII - DA SUBCAPITALIZAÇÃO E DAS OPERAÇÕES COM PAÍSES DE TRIBUTAÇÃO FAVORECIDA
 
 
-###### Art. 251. {#art-251}
+###### Art. 251.
 
 Sem prejuízo do disposto nos art. 249 e art. 252 , os juros pagos ou creditados por fonte situada no País a pessoa física ou jurídica residente, domiciliada ou constituída no exterior, em país ou dependência com tributação favorecida ou sob regime fiscal privilegiado, nos termos estabelecidos nos art. 254 e art. 255 , somente serão dedutíveis, para fins de determinação do lucro real, quando se verifique constituírem despesa necessária à atividade, observado o disposto no art. 311 , no período de apuração, e atendido o requisito de que o valor total do somatório dos endividamentos com todas as entidades situadas em país ou dependência com tributação favorecida ou sob regime fiscal privilegiado não seja superior a trinta por cento do valor do patrimônio líquido da pessoa jurídica residente no País (Lei nº 12.249, de 2010, art. 25, caput) .
 
@@ -8026,7 +8026,7 @@ Sem prejuízo do disposto nos art. 249 e art. 252 , os juros pagos ou creditados
 
 
 
-###### Art. 252. {#art-252}
+###### Art. 252.
 
 Sem prejuízo do disposto no art. 311 , não são dedutíveis, na determinação do lucro real, as importâncias pagas, creditadas, entregues, empregadas ou remetidas a qualquer título, direta ou indiretamente, a pessoas físicas ou jurídicas residentes ou constituídas no exterior e submetidas a um tratamento de país ou dependência com tributação favorecida ou sob regime fiscal privilegiado, na forma estabelecida nos art. 254 e art. 255 , exceto se houver, cumulativamente (Lei nº 12.249, de 2010, art. 26, caput) :
 
@@ -8064,7 +8064,7 @@ Sem prejuízo do disposto no art. 311 , não são dedutíveis, na determinação
 ##### CAPÍTULO VIII - DO CONCEITO DE PESSOA VINCULADA
 
 
-###### Art. 253. {#art-253}
+###### Art. 253.
 
 Para fins do disposto no art. 238 ao art. 250 , será considerada vinculada à pessoa jurídica domiciliada no País ( Lei nº 9.430, de 1996, art. 23 ):
 
@@ -8102,7 +8102,7 @@ Para fins do disposto no art. 238 ao art. 250 , será considerada vinculada à p
 ##### CAPÍTULO IX - DOS PAÍSES COM TRIBUTAÇÃO FAVORECIDA
 
 
-###### Art. 254. {#art-254}
+###### Art. 254.
 
 As disposições relativas a preços, custos e taxas de juros, constantes do art. 238 ao art. 249 , aplicam-se, também, às operações efetuadas por pessoa física ou jurídica, residente ou domiciliada no País, com qualquer pessoa física ou jurídica, ainda que não vinculada, residente ou domiciliada em país que não tribute a renda ou que a tribute à alíquota máxima inferior a vinte por cento ( Lei nº 9.430, de 1996, art. 24, caput ).
 
@@ -8138,7 +8138,7 @@ As disposições relativas a preços, custos e taxas de juros, constantes do art
 
 
 
-###### Art. 255. {#art-255}
+###### Art. 255.
 
 Aplicam-se às operações realizadas em regime fiscal privilegiado as disposições relativas a preços, custos e taxas de juros constantes do art. 238 ao art. 250 nas transações entre pessoas físicas ou jurídicas residentes e domiciliadas no País com qualquer pessoa física ou jurídica, ainda que não vinculada, residente ou domiciliada no exterior ( Lei nº 9.430, de 1996, art. 24-A, caput ).
 Parágrafo único. Para fins do disposto neste artigo, considera-se regime fiscal privilegiado aquele que apresentar uma ou mais das seguintes características ( Lei nº 9.430, de 1996, art. 24-A, parágrafo único ):
@@ -8162,7 +8162,7 @@ Parágrafo único. Para fins do disposto neste artigo, considera-se regime fisca
 
 
 
-###### Art. 256. {#art-256}
+###### Art. 256.
 
 O Poder Executivo federal poderá reduzir ou restabelecer os percentuais de que tratam o caput do art. 254 e os incisos I e III do parágrafo único do art. 255 ( Lei nº 9.430, de 1996, art. 24-B, caput ).
 Parágrafo único. O uso da faculdade prevista no caput poderá também ser aplicado, de forma excepcional e restrita, a países que componham blocos econômicos dos quais a República Federativa do Brasil participe ( Lei nº 9.430, de 1996, art. 24-B, parágrafo único ).
@@ -8180,7 +8180,7 @@ Parágrafo único. O uso da faculdade prevista no caput poderá também ser apli
 * **Pessoas jurídicas obrigadas à apuração do lucro real**
 
 
-###### Art. 257. {#art-257}
+###### Art. 257.
 
 Ficam obrigadas à apuração do lucro real as pessoas jurídicas (Lei nº 9.718, de 1998, art. 14, caput ) :
 
@@ -8224,7 +8224,7 @@ Ficam obrigadas à apuração do lucro real as pessoas jurídicas (Lei nº 9.718
 ###### Seção II - Do conceito de lucro real
 
 
-###### Art. 258. {#art-258}
+###### Art. 258.
 
 O lucro real é o lucro líquido do período de apuração ajustado pelas adições, exclusões ou compensações prescritas ou autorizadas por este Regulamento ( Decreto-Lei nº 1.598, de 1977, art. 6º, caput ).
 
@@ -8241,7 +8241,7 @@ O lucro real é o lucro líquido do período de apuração ajustado pelas adiç�
 ###### Seção III - Do conceito de lucro líquido
 
 
-###### Art. 259. {#art-259}
+###### Art. 259.
 
 O lucro líquido do período de apuração é a soma algébrica do lucro operacional, das demais receitas e despesas, e das participações, e deverá ser determinado em observância aos preceitos da lei comercial ( Decreto-Lei nº 1.598, de 1977, art. 6º, § 1º , e art. 67, caput, inciso XI ; Lei nº 7.450, de 1985, art. 18 ; e Lei nº 9.249, de 1995, art. 4º ).
 
@@ -8252,7 +8252,7 @@ O lucro líquido do período de apuração é a soma algébrica do lucro operaci
 * **Adições**
 
 
-###### Art. 260. {#art-260}
+###### Art. 260.
 
 Na determinação do lucro real, serão adicionados ao lucro líquido do período de apuração ( Decreto-Lei nº 1.598, de 1977, art. 6º, § 2º ):
 
@@ -8312,7 +8312,7 @@ Parágrafo único. Incluem-se nas adições de que trata este artigo:
 * **Exclusões e compensações**
 
 
-###### Art. 261. {#art-261}
+###### Art. 261.
 
 Na determinação do lucro real, poderão ser excluídos do lucro líquido do período de apuração ( Decreto-Lei nº 1.598, de 1977, art. 6º, § 3º ):
 
@@ -8366,7 +8366,7 @@ Parágrafo único. Também poderão ser excluídos:
 ###### Seção I - Dos princípios, dos métodos e dos critérios
 
 
-###### Art. 262. {#art-262}
+###### Art. 262.
 
 A escrituração comercial será feita em língua portuguesa, em moeda corrente nacional e em forma contábil, por ordem cronológica de dia, mês e ano, sem intervalos em branco, nem entrelinhas, borrões, rasuras, emendas ou transportes para as margens (Lei nº 10.406, de 2002 - Código Civil, art. 1.183, caput ) .
 
@@ -8380,7 +8380,7 @@ A escrituração comercial será feita em língua portuguesa, em moeda corrente 
 
 
 
-###### Art. 263. {#art-263}
+###### Art. 263.
 
 Para fins da escrituração comercial, inclusive quanto à aplicação do disposto no § 2º do art. 177 da Lei nº 6.404, de 1976 , os registros contábeis que forem necessários para a observância às disposições tributárias relativos à determinação da base de cálculo do imposto sobre a renda, quando não devam, por sua natureza fiscal, constar da escrituração comercial, ou forem diferentes dos lançamentos dessa escrituração, serão efetuados exclusivamente em ( Decreto-Lei nº 1.598, de 1977, art. 8º, § 2º ):
 
@@ -8395,7 +8395,7 @@ Parágrafo único. O disposto no caput será disciplinado em ato normativo da Se
 ###### Seção II - Dos responsáveis pela escrituração
 
 
-###### Art. 264. {#art-264}
+###### Art. 264.
 
 A escrituração comercial ficará sob a responsabilidade de contabilista legalmente habilitado, exceto se houver nenhum na localidade, quando, então, ficará a cargo do contribuinte ou de pessoa por ele designada ( Decreto-Lei nº 486, de 1969, art. 3º ; Decreto nº 64.567, de 22 de maio de 1969, art. 3º ; e Lei nº 10.406, de 2002 - Código Civil, art. 1.182 ).
 
@@ -8412,7 +8412,7 @@ A escrituração comercial ficará sob a responsabilidade de contabilista legalm
 ###### Seção III - Do dever de escriturar
 
 
-###### Art. 265. {#art-265}
+###### Art. 265.
 
 A pessoa jurídica sujeita à tributação com base no lucro real deverá manter escrituração em observância às leis comerciais e fiscais ( Decreto-Lei nº 1.598, de 1977, art. 7º, caput ).
 
@@ -8429,7 +8429,7 @@ A pessoa jurídica sujeita à tributação com base no lucro real deverá manter
 * **Contabilidade não centralizada**
 
 
-###### Art. 266. {#art-266}
+###### Art. 266.
 
 Fica facultado às pessoas jurídicas que possuírem filiais, sucursais ou agências manter contabilidade não centralizada, hipótese que deverão incorporar, ao final de cada mês, na escrituração da matriz, os resultados de cada uma delas.
 
@@ -8437,12 +8437,12 @@ Fica facultado às pessoas jurídicas que possuírem filiais, sucursais ou agên
 * **Pessoas jurídicas com sede no exterior**
 
 
-###### Art. 267. {#art-267}
+###### Art. 267.
 
 As disposições desta Seção aplicam-se também às filiais, às sucursais, às agências ou às representações, no País, das pessoas jurídicas com sede no exterior.
 
 
-###### Art. 268. {#art-268}
+###### Art. 268.
 
 O agente ou o representante do comitente com domicílio fora do País deverá escriturar os seus livros comerciais de modo a demonstrar, além dos próprios rendimentos, os resultados apurados nas operações de conta alheia, em cada período de apuração, observado o disposto no art. 469 (Lei nº 3.470, de 1958, art. 76, § 1º) .
 
@@ -8450,7 +8450,7 @@ O agente ou o representante do comitente com domicílio fora do País deverá es
 * **Sociedades em conta de participação**
 
 
-###### Art. 269. {#art-269}
+###### Art. 269.
 
 A escrituração das operações de sociedade em conta de participação deverá ser efetuada em livros próprios.
 
@@ -8458,7 +8458,7 @@ A escrituração das operações de sociedade em conta de participação deverá
 * **Instituições financeiras e demais autorizadas a funcionar pelo Banco Central do Brasil**
 
 
-###### Art. 270. {#art-270}
+###### Art. 270.
 
 A escrituração de que trata o art. 177 da Lei nº 6.404, de 1976 , quando realizada por instituições financeiras e demais autorizadas a funcionar pelo Banco Central do Brasil, deverá observar o disposto na Lei nº 4.595, de 31 de dezembro de 1964 , e os atos normativos dela decorrentes (Lei nº 12.973, de 2014, art. 71, caput ; e Lei nº 11.941, de 2009, art. 61) .
 
@@ -8475,7 +8475,7 @@ A escrituração de que trata o art. 177 da Lei nº 6.404, de 1976 , quando real
 * **Falsificação da escrituração**
 
 
-###### Art. 271. {#art-271}
+###### Art. 271.
 
 A falsificação, material ou ideológica, da escrituração e dos seus comprovantes, ou da demonstração financeira, que tenha por objeto eliminar ou reduzir o montante de imposto sobre a renda devido, ou diferir o seu pagamento, submeterá o sujeito passivo a multa, independentemente da ação penal que couber ( Decreto-Lei nº 1.598, de 1977, art. 7º, § 1º ).
 
@@ -8483,7 +8483,7 @@ A falsificação, material ou ideológica, da escrituração e dos seus comprova
 ###### Seção IV - Dos livros comerciais
 
 
-###### Art. 272. {#art-272}
+###### Art. 272.
 
 A pessoa jurídica é obrigada a seguir sistema de contabilidade com base na escrituração uniforme de seus livros, em correspondência com a sua documentação, e utilizar os livros e os papéis adequados, cujo número e espécie ficam a seu critério ( Decreto-Lei nº 486, de 1969, art. 1º ; Lei nº 10.406, de 2002 - Código Civil, art. 1.179, caput e § 1º ; e Decreto-Lei nº 1.598, de 1977, art. 7º, § 6º ).
 
@@ -8491,7 +8491,7 @@ A pessoa jurídica é obrigada a seguir sistema de contabilidade com base na esc
 * **Livro diário**
 
 
-###### Art. 273. {#art-273}
+###### Art. 273.
 
 Além dos demais livros exigidos por lei, é indispensável o livro diário, que deverá ser entregue em meio digital ao SPED ( Decreto-Lei nº 486, de 1969, art. 5º e art. 14 ; Lei nº 10.406, de 2002 - Código Civil, art. 1.180 ; e Decreto-Lei nº 1.598, de 1977, art. 7º, § 6º ).
 
@@ -8523,7 +8523,7 @@ Além dos demais livros exigidos por lei, é indispensável o livro diário, que
 * **Livro-razão**
 
 
-###### Art. 274. {#art-274}
+###### Art. 274.
 
 A pessoa jurídica tributada com base no lucro real deverá manter, em boa ordem e de acordo com as normas contábeis recomendadas, livro-razão para resumir e totalizar, por conta ou subconta, os lançamentos efetuados no livro diário, mantidas as demais exigências e condições previstas na legislação (Lei nº 8.218, de 1991, art. 14, caput ) .
 
@@ -8545,7 +8545,7 @@ A pessoa jurídica tributada com base no lucro real deverá manter, em boa ordem
 ###### Seção V - Dos livros fiscais
 
 
-###### Art. 275. {#art-275}
+###### Art. 275.
 
 A pessoa jurídica, além dos livros de contabilidade previstos em leis e regulamentos, deverá possuir os seguintes livros (Lei nº 154, de 1947, art. 2º ; e Decreto-Lei nº 1.598, de 1977, art. 8º e art. 27 ):
 
@@ -8579,7 +8579,7 @@ A pessoa jurídica, além dos livros de contabilidade previstos em leis e regula
 
 
 
-###### Art. 276. {#art-276}
+###### Art. 276.
 
 No livro de inventário deverão ser arrolados, com especificações que facilitem a sua identificação, as mercadorias, os produtos manufaturados, as matérias-primas, os produtos em fabricação e os bens em almoxarifado existentes na data do balanço patrimonial levantado ao fim de cada período de apuração (Lei nº 154, de 1947, art. 2º, § 2º ).
 Parágrafo único. Os bens mencionados no caput serão avaliados em observância ao disposto no art. 304 ao art. 310 .
@@ -8588,7 +8588,7 @@ Parágrafo único. Os bens mencionados no caput serão avaliados em observância
 * **Livro de Apuração do Lucro Real**
 
 
-###### Art. 277. {#art-277}
+###### Art. 277.
 
 No Lalur, o qual será entregue em meio digital, a pessoa jurídica deverá ( Decreto-Lei nº 1.598, de 1977, art. 8º, caput , inciso I ):
 
@@ -8627,7 +8627,7 @@ No Lalur, o qual será entregue em meio digital, a pessoa jurídica deverá ( De
 ###### Seção VI - Da conservação de livros e comprovantes
 
 
-###### Art. 278. {#art-278}
+###### Art. 278.
 
 A pessoa jurídica fica obrigada a conservar, em boa guarda, a escrituração, a correspondência e os demais papéis concernentes à sua atividade, enquanto não ocorrer prescrição ou decadência no tocante aos atos neles consignados ( Decreto-Lei nº 486, de 1969, art. 4º ; e Lei nº 10.406, de 2002 - Código Civil, art. 1.194 ).
 
@@ -8649,7 +8649,7 @@ A pessoa jurídica fica obrigada a conservar, em boa guarda, a escrituração, a
 ###### Seção VII - Do Sistema Escritural Eletrônico
 
 
-###### Art. 279. {#art-279}
+###### Art. 279.
 
 As pessoas jurídicas que utilizarem sistemas de processamento eletrônico de dados para registrar negócios e atividades econômicas ou financeiras, escriturar livros ou elaborar documentos de natureza contábil ou fiscal ficam obrigadas a manter à disposição da Secretaria da Receita Federal do Brasil do Ministério da Fazenda os arquivos digitais e os sistemas, pelo prazo decadencial previsto no art. 946 (Lei nº 8.218, de 1991, art. 11, caput ) .
 
@@ -8668,7 +8668,7 @@ As pessoas jurídicas que utilizarem sistemas de processamento eletrônico de da
 
 
 
-###### Art. 280. {#art-280}
+###### Art. 280.
 
 A inobservância ao disposto no art. 279 acarretará a imposição das multas previstas no art. 1.024 (Lei nº 8.218, de 1991, art. 12) .
 
@@ -8676,7 +8676,7 @@ A inobservância ao disposto no art. 279 acarretará a imposição das multas pr
 * **Documentação técnica**
 
 
-###### Art. 281. {#art-281}
+###### Art. 281.
 
 O sujeito passivo usuário de sistema de processamento de dados deverá manter documentação técnica completa e atualizada do sistema, suficiente para possibilitar a sua auditoria, facultada a manutenção em meio magnético, sem prejuízo da sua emissão gráfica, quando solicitada ( Lei nº 9.430, de 1996, art. 38 ).
 
@@ -8684,7 +8684,7 @@ O sujeito passivo usuário de sistema de processamento de dados deverá manter d
 * **Equipamento emissor de cupom fiscal**
 
 
-###### Art. 282. {#art-282}
+###### Art. 282.
 
 As pessoas jurídicas que exercem a atividade de venda ou revenda de bens a varejo e as empresas prestadoras de serviços ficam obrigadas ao uso de equipamento Emissor de Cupom Fiscal - ECF ( Lei nº 9.532, de 1997, art. 61, caput ).
 
@@ -8707,7 +8707,7 @@ As pessoas jurídicas que exercem a atividade de venda ou revenda de bens a vare
 
 
 
-###### Art. 283. {#art-283}
+###### Art. 283.
 
 As pessoas jurídicas que aufiram receitas decorrentes da prestação de serviços públicos de concessionárias operadoras de rodovias ficam obrigadas a instalar equipamento emissor de cupom fiscal em seus estabelecimentos, ou outro sistema equivalente para controle de receitas, na forma disciplinada pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda (Lei nº 11.033, de 2004, art. 7º) .
 
@@ -8715,7 +8715,7 @@ As pessoas jurídicas que aufiram receitas decorrentes da prestação de serviç
 ###### Seção VIII - Da escrituração dos rendimentos auferidos com desconto de imposto sobre a renda retido pelas fontes pagadoras
 
 
-###### Art. 284. {#art-284}
+###### Art. 284.
 
 Na escrituração dos rendimentos auferidos com desconto do imposto sobre a renda retido pelas fontes pagadoras, serão observadas, nas empresas beneficiadas, as seguintes normas:
 
@@ -8735,7 +8735,7 @@ Na escrituração dos rendimentos auferidos com desconto do imposto sobre a rend
 ###### Seção IX - Da inobservância ao regime de competência
 
 
-###### Art. 285. {#art-285}
+###### Art. 285.
 
 A inexatidão quanto ao período de apuração de escrituração de receita, rendimento, custo ou dedução, ou de reconhecimento de lucro, somente constitui fundamento para lançamento de imposto, diferença de imposto ou multa, se dela resultar ( Decreto-Lei nº 1.598, de 1977, art. 6º, § 5º ):
 
@@ -8758,7 +8758,7 @@ A inexatidão quanto ao período de apuração de escrituração de receita, ren
 ###### Seção X - Das demonstrações financeiras
 
 
-###### Art. 286. {#art-286}
+###### Art. 286.
 
 Ao fim de cada período de apuração, o contribuinte deverá apurar o lucro líquido por meio da elaboração, em observância às disposições da lei comercial, do balanço patrimonial, da demonstração do resultado do período de apuração e da demonstração de lucros ou prejuízos acumulados ( Decreto-Lei nº 1.598, de 1977, art. 7º, § 4º ; e Lei nº 7.450, de 1985, art. 18 ).
 
@@ -8775,7 +8775,7 @@ Ao fim de cada período de apuração, o contribuinte deverá apurar o lucro lí
 ##### CAPÍTULO III - DA DEMONSTRAÇÃO DO LUCRO REAL
 
 
-###### Art. 287. {#art-287}
+###### Art. 287.
 
 O contribuinte deverá elaborar demonstração do lucro real, em que discriminará ( Decreto-Lei nº 1.598, de 1977, art. 8º, § 1º ; e Lei nº 9.430, de 1996, art. 1º e art. 2º ):
 
@@ -8801,7 +8801,7 @@ O contribuinte deverá elaborar demonstração do lucro real, em que discriminar
 ##### CAPÍTULO IV - DA VERIFICAÇÃO PELA AUTORIDADE TRIBUTÁRIA
 
 
-###### Art. 288. {#art-288}
+###### Art. 288.
 
 A determinação do lucro real pelo contribuinte fica sujeita à verificação pela autoridade tributária, com base no exame de livros e documentos de sua escrituração, na escrituração de outros contribuintes, em informação ou esclarecimentos do contribuinte ou de terceiros, ou em qualquer outro elemento de prova, observado o disposto no art. 967 ao art. 969 ( Decreto-Lei nº 1.598, de 1977, art. 9º ).
 
@@ -8812,7 +8812,7 @@ A determinação do lucro real pelo contribuinte fica sujeita à verificação p
 ###### Seção I - Disposições gerais
 
 
-###### Art. 289. {#art-289}
+###### Art. 289.
 
 Será classificado como lucro operacional o resultado das atividades, principais ou acessórias, que constituam objeto da pessoa jurídica ( Decreto-Lei nº 1.598, de 1977, art. 11, caput ).
 Parágrafo único. A escrituração do contribuinte, cujas atividades compreendam a venda de bens ou serviços, deverá discriminar o lucro bruto, as despesas operacionais e os demais resultados operacionais ( Decreto-Lei nº 1.598, de 1977, art. 11, § 1º) .
@@ -8821,7 +8821,7 @@ Parágrafo único. A escrituração do contribuinte, cujas atividades compreenda
 ###### Seção II - Do lucro bruto
 
 
-###### Art. 290. {#art-290}
+###### Art. 290.
 
 Será classificado como lucro bruto o resultado da atividade de venda de bens ou serviços que constitua objeto da pessoa jurídica ( Decreto-Lei nº 1.598, de 1977, art. 11, § 2º ).
 Parágrafo único. O lucro bruto corresponde à diferença entre a receita líquida, de que trata o § 1º do art. 208 , e o custo dos bens e dos serviços vendidos, de que trata a Subseção III desta Seção (Lei nº 6.404, de 1976, art. 187, caput, inciso II).
@@ -8833,7 +8833,7 @@ Parágrafo único. O lucro bruto corresponde à diferença entre a receita líqu
 * **Vendas de veículos usados**
 
 
-###### Art. 291. {#art-291}
+###### Art. 291.
 
 As pessoas jurídicas que tenham como objeto social, declarado em seus atos constitutivos, a compra e a venda de veículos automotores poderão equiparar, para fins tributários, como operação de consignação, as operações de venda de veículos usados, adquiridos para revenda, e daqueles recebidos como parte do preço da venda de veículos novos ou usados (Lei nº 9.716, de 1998, art. 5º, caput ) .
 Parágrafo único. Os veículos usados a que se refere o caput serão objeto de nota fiscal de entrada e, quando da venda, de nota fiscal de saída, e ficarão sujeitos ao regime fiscal aplicável às operações de consignação (Lei nº 9.716, de 1998, art. 5º, parágrafo único).
@@ -8842,7 +8842,7 @@ Parágrafo único. Os veículos usados a que se refere o caput serão objeto de 
 * **Vale-pedágio**
 
 
-###### Art. 292. {#art-292}
+###### Art. 292.
 
 O valor do vale-pedágio, instituído pela Lei nº 10.209, de 2001 , não integra o valor do frete e não será considerado receita operacional ou rendimento tributável (Lei nº 10.209, de 2001, art. 2º).
 
@@ -8853,7 +8853,7 @@ O valor do vale-pedágio, instituído pela Lei nº 10.209, de 2001 , não integr
 * **Saldo credor de caixa, falta de escrituração de pagamento, manutenção no passivo de obrigações pagas e falta de comprovação do passivo**
 
 
-###### Art. 293. {#art-293}
+###### Art. 293.
 
 Caracteriza-se como omissão no registro de receita, ressalvada ao contribuinte a prova da improcedência da presunção, a ocorrência das seguintes hipóteses ( Decreto-Lei nº 1.598, de 1977, art. 12, § 2º ; e Lei nº 9.430, de 1996, art. 40 ):
 
@@ -8870,7 +8870,7 @@ Caracteriza-se como omissão no registro de receita, ressalvada ao contribuinte 
 * **Suprimentos de caixa**
 
 
-###### Art. 294. {#art-294}
+###### Art. 294.
 
 Provada a omissão de receita, por indícios na escrituração do contribuinte ou por outro elemento de prova, a autoridade tributária poderá arbitrá-la com base no valor dos recursos de caixa fornecidos à empresa por administradores, sócios da sociedade não anônima, titular da empresa individual, ou por acionista controlador da companhia, se a efetividade da entrega e a origem dos recursos não forem comprovadamente demonstradas ( Decreto-Lei nº 1.598, de 1977, art. 12, § 3º ).
 
@@ -8878,7 +8878,7 @@ Provada a omissão de receita, por indícios na escrituração do contribuinte o
 * **Falta de emissão de nota fiscal**
 
 
-###### Art. 295. {#art-295}
+###### Art. 295.
 
 Caracteriza omissão de receita ou de rendimentos, incluídos os ganhos de capital, a falta de emissão de nota fiscal, recibo ou documento equivalente, no momento da efetivação das operações de venda de mercadorias, prestação de serviços, operações de alienação de bens móveis, locação de bens móveis e imóveis ou outras transações realizadas com bens ou serviços, e a sua emissão com valor inferior ao da operação ( Lei nº 8.846, de 1994, art. 1º e art. 2º ).
 
@@ -8886,7 +8886,7 @@ Caracteriza omissão de receita ou de rendimentos, incluídos os ganhos de capit
 * **Arbitramento da receita por indícios de omissão**
 
 
-###### Art. 296. {#art-296}
+###### Art. 296.
 
 Verificada a omissão de receita por meio de indícios, a autoridade tributária poderá, para fins de determinação da base de cálculo sujeita à incidência do imposto sobre a renda, arbitrar a receita do contribuinte, tomando por base as receitas, apuradas em procedimento fiscal, correspondentes ao movimento diário das vendas, da prestação de serviços e de outras operações ( Lei nº 8.846, de 1994, art. 6º, caput ).
 
@@ -8925,7 +8925,7 @@ Verificada a omissão de receita por meio de indícios, a autoridade tributária
 
 
 
-###### Art. 297. {#art-297}
+###### Art. 297.
 
 Fica facultado à autoridade tributária utilizar, para efeito de arbitramento a que se refere o art. 296 , outros métodos de determinação da receita quando constatado qualquer artifício utilizado pelo contribuinte com vistas a frustrar a apuração da receita efetiva do seu estabelecimento ( Lei nº 8.846, de 1994, art. 8º ).
 
@@ -8933,7 +8933,7 @@ Fica facultado à autoridade tributária utilizar, para efeito de arbitramento a
 * **Levantamento quantitativo por espécie**
 
 
-###### Art. 298. {#art-298}
+###### Art. 298.
 
 A omissão de receita poderá, também, ser determinada a partir de levantamento por espécie de quantidade de matérias-primas e produtos intermediários utilizados no processo produtivo da pessoa jurídica ( Lei nº 9.430, de 1996, art. 41, caput ).
 
@@ -8955,7 +8955,7 @@ A omissão de receita poderá, também, ser determinada a partir de levantamento
 * **Depósitos bancários**
 
 
-###### Art. 299. {#art-299}
+###### Art. 299.
 
 Caracterizam-se também como omissão de receita os valores creditados em conta de depósito ou de investimento mantida junto a instituição financeira, em relação aos quais o titular, pessoa jurídica, regularmente intimado, não comprove, por meio de documentação hábil e idônea, a origem dos recursos utilizados nessas operações ( Lei nº 9.430, de 1996, art. 42, caput).
 
@@ -8982,7 +8982,7 @@ Caracterizam-se também como omissão de receita os valores creditados em conta 
 * **Tratamento tributário**
 
 
-###### Art. 300. {#art-300}
+###### Art. 300.
 
 Verificada a omissão de receita, a autoridade tributária determinará o valor do imposto sobre a renda e o valor do adicional a serem lançados de acordo com o regime de tributação a que estiver submetida a pessoa jurídica no período de apuração a que corresponder a omissão ( Lei nº 9.249, de 1995, art. 24 ).
 
@@ -8993,7 +8993,7 @@ Verificada a omissão de receita, a autoridade tributária determinará o valor 
 * **Custo de aquisição**
 
 
-###### Art. 301. {#art-301}
+###### Art. 301.
 
 O custo das mercadorias revendidas e das matérias-primas utilizadas será determinado com base em registro permanente de estoques ou no valor dos estoques existentes, de acordo com o livro de inventário, no fim do período de apuração ( Decreto-Lei nº 1.598, de 1977, art. 14 ).
 
@@ -9015,7 +9015,7 @@ O custo das mercadorias revendidas e das matérias-primas utilizadas será deter
 * **Custo de produção**
 
 
-###### Art. 302. {#art-302}
+###### Art. 302.
 
 O custo de produção dos bens ou dos serviços vendidos compreenderá, obrigatoriamente ( Decreto-Lei nº 1.598, de 1977, art. 13, § 1º ):
 
@@ -9057,7 +9057,7 @@ O custo de produção dos bens ou dos serviços vendidos compreenderá, obrigato
 * **Quebras e perdas**
 
 
-###### Art. 303. {#art-303}
+###### Art. 303.
 
 O custo será integrado pelo valor ( Lei nº 4.506, de 1964, art. 46, caput, incisos V e VI ):
 
@@ -9080,17 +9080,17 @@ O custo será integrado pelo valor ( Lei nº 4.506, de 1964, art. 46, caput, inc
 * **Subseção IV - Dos critérios para avaliação de estoques**
 
 
-###### Art. 304. {#art-304}
+###### Art. 304.
 
 Ao final de cada período de apuração do imposto sobre a renda, a pessoa jurídica deverá promover o levantamento e a avaliação dos seus estoques.
 
 
-###### Art. 305. {#art-305}
+###### Art. 305.
 
 As mercadorias, as matérias-primas e os bens em almoxarifado serão avaliados pelo custo de aquisição (Lei nº 154, de 1947, art. 2º, § 3º e § 4º , e Lei nº 6.404, de 1976, art. 183, caput, inciso II) .
 
 
-###### Art. 306. {#art-306}
+###### Art. 306.
 
 Os produtos em fabricação e os produtos acabados serão avaliados pelo custo de produção (Lei nº 154, de 1947, art. 2º, § 4º; e Lei nº 6.404, de 1976, art. 183, caput, inciso II) .
 
@@ -9117,12 +9117,12 @@ Os produtos em fabricação e os produtos acabados serão avaliados pelo custo d
 
 
 
-###### Art. 307. {#art-307}
+###### Art. 307.
 
 O valor dos bens existentes no encerramento do período de apuração poderá ser o custo médio ou o custo dos bens adquiridos ou produzidos mais recentemente, admitida, ainda, a avaliação com base no preço de venda, subtraída a margem de lucro ( Decreto-Lei nº 1.598, de 1977, art. 14, § 2º ).
 
 
-###### Art. 308. {#art-308}
+###### Art. 308.
 
 Se a escrituração do contribuinte não satisfizer às condições previstas nos § 1º e § 2º do art. 306 , os estoques deverão ser avaliados ( Decreto-Lei nº 1.598, de 1977, art. 14, § 3º ):
 
@@ -9145,7 +9145,7 @@ Se a escrituração do contribuinte não satisfizer às condições previstas no
 * **Produtos rurais**
 
 
-###### Art. 309. {#art-309}
+###### Art. 309.
 
 Os estoques de produtos agrícolas, animais e extrativos poderão ser avaliados aos preços correntes de mercado, conforme as práticas usuais em cada tipo de atividade ( Decreto-Lei nº 1.598, de 1977, art. 14, § 4º ).
 
@@ -9153,7 +9153,7 @@ Os estoques de produtos agrícolas, animais e extrativos poderão ser avaliados 
 * **Vedações**
 
 
-###### Art. 310. {#art-310}
+###### Art. 310.
 
 Não serão permitidas (Lei nº 154, de 1947, art. 2º, § 5º; Decreto-Lei nº 1.598, de 1977, art. 14, § 5º ; e Lei nº 9.249, de 1995, art. 13, caput, inciso I ):
 
@@ -9179,7 +9179,7 @@ Não serão permitidas (Lei nº 154, de 1947, art. 2º, § 5º; Decreto-Lei nº 
 * **Despesas necessárias**
 
 
-###### Art. 311. {#art-311}
+###### Art. 311.
 
 São operacionais as despesas não computadas nos custos, necessárias à atividade da empresa e à manutenção da fonte produtora ( Lei nº 4.506, de 1964, art. 47, caput ).
 
@@ -9198,7 +9198,7 @@ São operacionais as despesas não computadas nos custos, necessárias à ativid
 
 
 
-###### Art. 312. {#art-312}
+###### Art. 312.
 
 As disposições sobre dedutibilidade de rendimentos pagos a terceiros aplicam-se aos custos e às despesas operacionais ( Lei nº 4.506, de 1964, art. 45, § 2º) .
 
@@ -9206,7 +9206,7 @@ As disposições sobre dedutibilidade de rendimentos pagos a terceiros aplicam-s
 * **Aplicações de capital**
 
 
-###### Art. 313. {#art-313}
+###### Art. 313.
 
 O custo de aquisição de bens do ativo não circulante imobilizado e intangível não poderá ser deduzido como despesa operacional ( Decreto-Lei nº 1.598, de 1977, art. 15, caput ).
 
@@ -9234,7 +9234,7 @@ O custo de aquisição de bens do ativo não circulante imobilizado e intangíve
 * **Pagamento a pessoa física vinculada**
 
 
-###### Art. 314. {#art-314}
+###### Art. 314.
 
 Os pagamentos, de qualquer natureza, a titular, sócio ou dirigente da pessoa jurídica, ou a quaisquer de seus parentes, poderão ser impugnados pela autoridade lançadora, se o contribuinte não provar ( Lei nº 4.506, de 1964, art. 47, § 5º ):
 
@@ -9254,7 +9254,7 @@ Os pagamentos, de qualquer natureza, a titular, sócio ou dirigente da pessoa ju
 
 
 
-###### Art. 315. {#art-315}
+###### Art. 315.
 
 Não serão dedutíveis como custos ou despesas operacionais as gratificações ou as participações no resultado, atribuídas aos dirigentes ou aos administradores da pessoa jurídica ( Lei nº 4.506, de 1964, art. 45, § 3º ; e Decreto-Lei nº 1.598, de 1977, art. 58, parágrafo único ).
 
@@ -9262,7 +9262,7 @@ Não serão dedutíveis como custos ou despesas operacionais as gratificações 
 * **Pagamentos sem causa ou a beneficiário não identificado**
 
 
-###### Art. 316. {#art-316}
+###### Art. 316.
 
 Não são dedutíveis as importâncias declaradas como pagas ou creditadas a título de comissões, bonificações, gratificações ou semelhantes (Lei nº 3.470, de 1958, art. 2º) :
 
@@ -9279,7 +9279,7 @@ Não são dedutíveis as importâncias declaradas como pagas ou creditadas a tí
 * **Dedutibilidade**
 
 
-###### Art. 317. {#art-317}
+###### Art. 317.
 
 Poderá ser computada, como custo ou encargo, em cada período de apuração, a importância correspondente à diminuição do valor dos bens do ativo resultante do desgaste pelo uso, da ação da natureza e da obsolescência normal ( Lei nº 4.506, de 1964, art. 57, caput ).
 
@@ -9321,7 +9321,7 @@ Poderá ser computada, como custo ou encargo, em cada período de apuração, a 
 * **Bens depreciáveis**
 
 
-###### Art. 318. {#art-318}
+###### Art. 318.
 
 Podem ser objeto de depreciação todos os bens sujeitos a desgaste por uso, causas naturais ou obsolescência normal, inclusive:
 
@@ -9354,7 +9354,7 @@ Parágrafo único. Não será admitida quota de depreciação referente a ( Lei 
 * **Quota de depreciação**
 
 
-###### Art. 319. {#art-319}
+###### Art. 319.
 
 A quota de depreciação dedutível na apuração do imposto sobre a renda será determinada por meio da aplicação da taxa anual de depreciação sobre o custo de aquisição do ativo ( Lei nº 4.506, de 1964, art. 57, § 1º ).
 
@@ -9376,7 +9376,7 @@ A quota de depreciação dedutível na apuração do imposto sobre a renda será
 * **Taxa anual de depreciação**
 
 
-###### Art. 320. {#art-320}
+###### Art. 320.
 
 A taxa anual de depreciação será fixada em função do prazo durante o qual se possa esperar utilização econômica do bem pelo contribuinte na produção de seus rendimentos ( Lei nº 4.506, de 1964, art. 57, § 2º) .
 
@@ -9398,7 +9398,7 @@ A taxa anual de depreciação será fixada em função do prazo durante o qual s
 * **Exclusão no Livro de Apuração do Lucro Real**
 
 
-###### Art. 321. {#art-321}
+###### Art. 321.
 
 Caso a quota de depreciação registrada na contabilidade do contribuinte seja menor do que aquela calculada com base no § 1º do art. 320 , a diferença poderá ser excluída do lucro líquido na apuração do lucro real, observado o disposto no § 3º do art. 317 ( Lei nº 4.506, de 1964, art. 57, § 15 ).
 Parágrafo único. Para fins do disposto no caput , a partir do período de apuração em que o montante acumulado das quotas de depreciação computado na determinação do lucro real atingir o limite previsto no § 3º do art. 317 , o valor da depreciação, registrado na escrituração comercial, deverá ser adicionado ao lucro líquido para efeito de determinação do lucro real ( Lei nº 4.506, de 1964, art. 57, § 16 ).
@@ -9407,7 +9407,7 @@ Parágrafo único. Para fins do disposto no caput , a partir do período de apur
 * **Depreciação de bens usados**
 
 
-###### Art. 322. {#art-322}
+###### Art. 322.
 
 A taxa anual de depreciação de bens adquiridos usados será fixada tendo em vista o maior dos seguintes prazos:
 
@@ -9421,7 +9421,7 @@ A taxa anual de depreciação de bens adquiridos usados será fixada tendo em vi
 * **Depreciação acelerada**
 
 
-###### Art. 323. {#art-323}
+###### Art. 323.
 
 Em relação aos bens móveis, poderão ser adotados, em função do número de horas diárias de operação, os seguintes coeficientes de depreciação acelerada (Lei nº 3.470, de 1958, art. 69) :
 
@@ -9441,7 +9441,7 @@ Em relação aos bens móveis, poderão ser adotados, em função do número de 
 * **Disposições gerais**
 
 
-###### Art. 324. {#art-324}
+###### Art. 324.
 
 Com a finalidade de incentivar a implantação, a renovação ou a modernização de instalações e equipamentos, poderão ser adotados coeficientes de depreciação acelerada, que vigorarão durante prazo certo para determinadas indústrias ou atividades ( Lei nº 4.506, de 1964, art. 57, § 5º ).
 
@@ -9473,7 +9473,7 @@ Com a finalidade de incentivar a implantação, a renovação ou a modernizaçã
 * **Atividade rural**
 
 
-###### Art. 325. {#art-325}
+###### Art. 325.
 
 Os bens do ativo não circulante imobilizado, exceto a terra nua, adquiridos por pessoa jurídica que explore a atividade rural, de que trata o art. 51 , para uso nessa atividade, poderão ser depreciados integralmente no próprio ano de aquisição ( Medida Provisória nº 2.159-70, de 2001, art. 6º ).
 
@@ -9481,7 +9481,7 @@ Os bens do ativo não circulante imobilizado, exceto a terra nua, adquiridos por
 * **Máquinas, equipamentos, aparelhos e instrumentos destinados à pesquisa tecnológica e ao desenvolvimento de inovação tecnológica**
 
 
-###### Art. 326. {#art-326}
+###### Art. 326.
 
 A pessoa jurídica poderá usufruir de depreciação integral, no próprio ano da aquisição, de máquinas, equipamentos, aparelhos e instrumentos, novos, destinados à utilização nas atividades de pesquisa tecnológica e desenvolvimento de inovação tecnológica (Lei nº 11.196, de 2005, art. 17, caput, inciso III) .
 
@@ -9500,7 +9500,7 @@ A pessoa jurídica poderá usufruir de depreciação integral, no próprio ano d
 
 
 
-###### Art. 327. {#art-327}
+###### Art. 327.
 
 Os valores relativos aos dispêndios incorridos em instalações fixas e na aquisição de aparelhos, máquinas e equipamentos, destinados à utilização em projetos de pesquisa e desenvolvimento tecnológico, metrologia, normalização técnica e avaliação da conformidade, aplicáveis a produtos, processos, sistemas e pessoal, procedimentos de autorização de registros, licenças, homologações e suas formas correlatas, além daqueles relativos a procedimentos de proteção de propriedade intelectual, poderão ser depreciados ou amortizados na forma estabelecida na legislação vigente, hipótese em que o saldo não depreciado ou não amortizado poderá ser excluído na determinação do lucro real, no período de apuração em que for concluída sua utilização (Lei nº 11.196, de 2005, art. 20, caput) .
 
@@ -9517,7 +9517,7 @@ Os valores relativos aos dispêndios incorridos em instalações fixas e na aqui
 * **Veículos automóveis, vagões, locomotivas e tênderes destinados ao ativo imobilizado**
 
 
-###### Art. 328. {#art-328}
+###### Art. 328.
 
 A pessoa jurídica terá direito à depreciação acelerada, calculada pela aplicação da taxa de depreciação usualmente admitida multiplicada por três, sem prejuízo da depreciação contábil (Lei nº 12.788, de 14 de janeiro de 2013, art. 1º) :
 
@@ -9592,7 +9592,7 @@ A pessoa jurídica terá direito à depreciação acelerada, calculada pela apli
 * **Microrregiões nas áreas de atuação da Superintendência do Desenvolvimento do Nordeste e da Superintendência de Desenvolvimento da Amazônia**
 
 
-###### Art. 329. {#art-329}
+###### Art. 329.
 
 Sem prejuízo das demais normas em vigor aplicáveis à matéria, para bens adquiridos a partir do ano-calendário de 2006 e até 31 de dezembro de 2018, as pessoas jurídicas que tenham projeto aprovado para instalação, ampliação, modernização ou diversificação enquadrado em setores da economia considerados prioritários para o desenvolvimento regional, em microrregiões menos desenvolvidas localizadas nas áreas de atuação da Superintendência do Desenvolvimento do Nordeste - Sudene e da Superintendência de Desenvolvimento da Amazônia - Sudam, terão direito à depreciação acelerada incentivada (Lei nº 11.196, de 2005, art. 31, caput ; Lei Complementar nº 124, de 3 de janeiro de 2007 ; e Lei Complementar nº 125, de 3 de janeiro de 2007 ).
 
@@ -9637,7 +9637,7 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, para bens adqu
 * **Dedutibilidade**
 
 
-###### Art. 330. {#art-330}
+###### Art. 330.
 
 Poderá ser computada como custo ou encargo, em cada período de apuração, a importância correspondente à recuperação do capital aplicado na aquisição de direitos cuja existência ou cujo exercício tenha duração limitada, ou de bens cuja utilização pelo contribuinte tenha o prazo legal ou contratualmente limitado ( Lei nº 4.506, de 1964, art. 58, caput ).
 
@@ -9674,7 +9674,7 @@ Poderá ser computada como custo ou encargo, em cada período de apuração, a i
 * **Capital amortizável**
 
 
-###### Art. 331. {#art-331}
+###### Art. 331.
 
 Poderão ser amortizados os capitais aplicados na aquisição de direitos cuja existência ou exercício tenha duração limitada ou de bens cuja utilização pelo contribuinte tenha o prazo legal ou contratualmente limitado, tais como ( Lei nº 4.506, de 1964, art. 58 ; e Decreto-Lei nº 1.483, de 1976, art. 5º ):
 
@@ -9698,7 +9698,7 @@ Parágrafo único. Não será admitida amortização de bens, custos ou despesas
 * **Quota de amortização**
 
 
-###### Art. 332. {#art-332}
+###### Art. 332.
 
 A quota de amortização dedutível em cada período de apuração será determinada pela aplicação da taxa anual de amortização sobre o valor original do capital aplicado ( Lei nº 4.506, de 1964, art. 58, § 1º ).
 
@@ -9715,7 +9715,7 @@ A quota de amortização dedutível em cada período de apuração será determi
 * **Taxa anual de amortização**
 
 
-###### Art. 333. {#art-333}
+###### Art. 333.
 
 A taxa anual de amortização será estabelecida tendo em vista o número de anos restantes de existência do direito ( Lei nº 4.506, de 1964, art. 58, § 1º ).
 
@@ -9723,7 +9723,7 @@ A taxa anual de amortização será estabelecida tendo em vista o número de ano
 * **Direitos de exploração de florestas**
 
 
-###### Art. 334. {#art-334}
+###### Art. 334.
 
 A quota anual de amortização do valor dos direitos contratuais de exploração de florestas terá como base de cálculo o valor do contrato e será calculada em função do prazo de sua duração ( Decreto-Lei nº 1.483, de 1976, art. 5º, § 1º ).
 
@@ -9745,7 +9745,7 @@ A quota anual de amortização do valor dos direitos contratuais de exploração
 * **Amortização acelerada de bens intangíveis vinculados à pesquisa e à inovação tecnológica**
 
 
-###### Art. 335. {#art-335}
+###### Art. 335.
 
 A pessoa jurídica poderá usufruir do incentivo fiscal de amortização acelerada, por meio de dedução como custo ou despesa operacional, no período de apuração em que forem efetuados, dos dispêndios relativos à aquisição de bens intangíveis, vinculados exclusivamente às atividades de pesquisa tecnológica e desenvolvimento de inovação tecnológica, classificáveis no ativo não circulante do beneficiário (Lei nº 11.196, de 2005, art. 17, caput, inciso IV) .
 
@@ -9775,7 +9775,7 @@ A pessoa jurídica poderá usufruir do incentivo fiscal de amortização acelera
 * **Dedutibilidade**
 
 
-###### Art. 336. {#art-336}
+###### Art. 336.
 
 Poderá ser computada como custo ou encargo, em cada período de apuração, a importância correspondente à diminuição do valor de recursos minerais, resultante da sua exploração ( Lei nº 4.506, de 1964, art. 59, caput ).
 
@@ -9807,7 +9807,7 @@ Poderá ser computada como custo ou encargo, em cada período de apuração, a i
 * **Subseção VI - Da exaustão de recursos florestais**
 
 
-###### Art. 337. {#art-337}
+###### Art. 337.
 
 Poderá ser computada como custo ou encargo, em cada período de apuração, a importância correspondente à diminuição do valor de recursos florestais, resultante de sua exploração ( Lei nº 4.506, de 1964, art. 59 ; e Decreto-Lei nº 1.483, de 1976, art. 4º, caput ).
 
@@ -9845,7 +9845,7 @@ Poderá ser computada como custo ou encargo, em cada período de apuração, a i
 * **Subseção VII - Das despesas pré-operacionais ou pré-industriais**
 
 
-###### Art. 338. {#art-338}
+###### Art. 338.
 
 Para fins de determinação do lucro real, não serão computadas, no período de apuração em que incorridas, as despesas (Lei nº 12.973, de 2014, art. 11, caput) :
 
@@ -9869,7 +9869,7 @@ Parágrafo único. As despesas a que se refere o caput poderão ser excluídas p
 * **Dedutibilidade**
 
 
-###### Art. 339. {#art-339}
+###### Art. 339.
 
 Na determinação do lucro real, somente serão dedutíveis as provisões expressamente autorizadas neste Regulamento ( Decreto-Lei nº 1.730, de 17 de dezembro de 1979, art. 3º ; e Lei nº 9.249, de 1995, art. 13, caput, inciso I ).
 Parágrafo único. Para fins do disposto neste Regulamento, as referências a provisões alcançam as perdas estimadas no valor de ativos, inclusive aquelas decorrentes de redução ao valor recuperável (Lei nº 12.973, de 2014, art. 59) .
@@ -9878,7 +9878,7 @@ Parágrafo único. Para fins do disposto neste Regulamento, as referências a pr
 * **Provisões técnicas compulsórias**
 
 
-###### Art. 340. {#art-340}
+###### Art. 340.
 
 São dedutíveis as provisões técnicas das companhias de seguro e de capitalização, das entidades de previdência privada e das operadoras de planos de assistência à saúde, cuja constituição é exigida pela legislação especial a elas aplicável ( Lei nº 9.249, de 1995, art. 13, caput, inciso I ; e Medida Provisória nº 2.158-35, de 2001, art. 83 ).
 
@@ -9886,7 +9886,7 @@ São dedutíveis as provisões técnicas das companhias de seguro e de capitaliz
 * **Provisão para perda de estoques de livros**
 
 
-###### Art. 341. {#art-341}
+###### Art. 341.
 
 As pessoas jurídicas que exerçam as atividades de editor, distribuidor ou livreiro poderão constituir provisão para perda de estoques, calculada no último dia de cada período de apuração, correspondente a um terço do valor do estoque existente naquela data (Lei nº 10.753, de 30 de outubro de 2003, art. 8º) .
 
@@ -9912,7 +9912,7 @@ As pessoas jurídicas que exerçam as atividades de editor, distribuidor ou livr
 * **Remuneração de férias**
 
 
-###### Art. 342. {#art-342}
+###### Art. 342.
 
 O contribuinte poderá deduzir como custo ou despesa operacional, em cada período de apuração, importância destinada a constituir provisão para pagamento de remuneração correspondente a férias de seus empregados ( Decreto-Lei nº 1.730, de 1979, art. 4º, caput ; e Lei nº 9.249, de 1995, art. 13, caput, inciso I ).
 
@@ -9934,7 +9934,7 @@ O contribuinte poderá deduzir como custo ou despesa operacional, em cada perío
 * **Décimo terceiro salário**
 
 
-###### Art. 343. {#art-343}
+###### Art. 343.
 
 O contribuinte poderá deduzir como custo ou despesa operacional, em cada período de apuração, importância destinada a constituir provisão para pagamento de remuneração correspondente ao décimo terceiro salário de seus empregados ( Lei nº 9.249, de 1995, art. 13, caput, inciso I ).
 Parágrafo único. O valor provisionado corresponderá ao valor resultante da multiplicação de um doze avos da remuneração, acrescido dos encargos sociais, cujo ônus cabe à pessoa jurídica, pelo número de meses relativos ao período de apuração.
@@ -9943,7 +9943,7 @@ Parágrafo único. O valor provisionado corresponderá ao valor resultante da mu
 * **Provisão para imposto de renda**
 
 
-###### Art. 344. {#art-344}
+###### Art. 344.
 
 É obrigatória, em cada período de apuração, a constituição de provisão para imposto sobre a renda, relativa ao imposto devido sobre o lucro real e sobre os lucros cuja tributação tenha sido diferida, referentes ao mesmo período de apuração (Lei nº 6.404, de 1976, art. 189) .
 Parágrafo único. A provisão a que se refere este artigo não é dedutível para fins de apuração do lucro real (Lei nº 8.981, de 1995, art. 41, § 2º) .
@@ -9952,7 +9952,7 @@ Parágrafo único. A provisão a que se refere este artigo não é dedutível pa
 * **Subseção IX - Do teste de recuperabilidade**
 
 
-###### Art. 345. {#art-345}
+###### Art. 345.
 
 O contribuinte poderá reconhecer, na apuração do lucro real, somente os valores contabilizados como redução ao valor recuperável de ativos que não tenham sido objeto de reversão, quando ocorrer a alienação ou a baixa do bem correspondente (Lei nº 12.973, de 2014, art. 32, caput ) .
 Parágrafo único. Na hipótese de alienação ou baixa de ativo que compõe uma unidade geradora de caixa, o valor a ser reconhecido na apuração do lucro real deve ser proporcional à relação entre o valor contábil desse ativo e o total da unidade geradora de caixa à data em que foi realizado o teste de recuperabilidade (Lei nº 12.973, de 2014, art. 32, parágrafo único) .
@@ -9961,7 +9961,7 @@ Parágrafo único. Na hipótese de alienação ou baixa de ativo que compõe uma
 * **Subseção X - Dos gastos estimados de desmontagens**
 
 
-###### Art. 346. {#art-346}
+###### Art. 346.
 
 Os gastos de desmontagem e retirada de item de ativo imobilizado ou a restauração do local em que está situado somente serão dedutíveis quando efetivamente incorridos (Lei nº 12.973, de 2014, art. 45, caput) .
 
@@ -9981,7 +9981,7 @@ Os gastos de desmontagem e retirada de item de ativo imobilizado ou a restauraç
 * **Dedutibilidade**
 
 
-###### Art. 347. {#art-347}
+###### Art. 347.
 
 As perdas no recebimento de créditos decorrentes das atividades da pessoa jurídica poderão ser deduzidas como despesas, para fins de determinação do lucro real, observado o disposto neste artigo ( Lei nº 9.430, de 1996, art. 9º, caput ).
 
@@ -10080,7 +10080,7 @@ As perdas no recebimento de créditos decorrentes das atividades da pessoa jurí
 * **Registro contábil das perdas**
 
 
-###### Art. 348. {#art-348}
+###### Art. 348.
 
 Os registros contábeis das perdas admitidas nesta Subseção serão efetuados a débito de conta de resultado e a crédito ( Lei nº 9.430, de 1996, art. 10, caput ):
 
@@ -10113,7 +10113,7 @@ Os registros contábeis das perdas admitidas nesta Subseção serão efetuados a
 * **Encargos financeiros de créditos vencidos**
 
 
-###### Art. 349. {#art-349}
+###### Art. 349.
 
 Decorrido o prazo de dois meses após o vencimento do crédito, sem que tenha havido o seu recebimento, a pessoa jurídica credora poderá excluir do lucro líquido, para determinação do lucro real, o valor dos encargos financeiros incidentes sobre o crédito, contabilizado como receita, auferido a partir do prazo definido neste artigo ( Lei nº 9.430, de 1996, art. 11, caput) .
 
@@ -10140,7 +10140,7 @@ Decorrido o prazo de dois meses após o vencimento do crédito, sem que tenha ha
 * **Créditos recuperados**
 
 
-###### Art. 350. {#art-350}
+###### Art. 350.
 
 Deverá ser computado, para fins de determinação do lucro real, o montante dos créditos deduzidos que tenham sido recuperados, em qualquer época ou a qualquer título, inclusive nas hipóteses de novação da dívida ou do arresto dos bens recebidos em garantia real ( Lei nº 9.430, de 1996, art. 12, caput ) .
 
@@ -10154,7 +10154,7 @@ Deverá ser computado, para fins de determinação do lucro real, o montante dos
 
 
 
-###### Art. 351. {#art-351}
+###### Art. 351.
 
 Na hipótese de novação ou repactuação de débitos de responsabilidade de pessoas jurídicas optantes pelo Refis ou pelo parcelamento a ele alternativo, a recuperação de créditos anteriormente deduzidos como perda, até 31 de dezembro de 1999, será computada, para fins de determinação do lucro real, pelas pessoas jurídicas de que trata o inciso II do caput do art. 257 , na medida do efetivo recebimento, na forma estabelecida pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda (Lei nº 9.964, de 2000, art. 16, caput ) .
 Parágrafo único. O disposto neste artigo aplica-se aos débitos vinculados ao Programa de Revitalização de Cooperativas de Produção Agropecuária - Recoop, instituído pela Medida Provisória nº 2.168-40, de 24 de agosto de 2001 , ainda que a pessoa jurídica devedora não seja optante por qualquer das formas de parcelamento a que se refere o caput (Lei nº 9.964, de 2000, art. 16, parágrafo único) .
@@ -10163,7 +10163,7 @@ Parágrafo único. O disposto neste artigo aplica-se aos débitos vinculados ao 
 * **Subseção XII - Dos tributos e das multas por infrações fiscais**
 
 
-###### Art. 352. {#art-352}
+###### Art. 352.
 
 Os impostos e as contribuições são dedutíveis, para fins de determinação do lucro real, segundo o regime de competência (Lei nº 8.981, de 1995, art. 41, caput ) .
 
@@ -10205,7 +10205,7 @@ Os impostos e as contribuições são dedutíveis, para fins de determinação d
 * **Subseção XIII - Do Fundo de Garantia do Tempo de Serviço**
 
 
-###### Art. 353. {#art-353}
+###### Art. 353.
 
 Os depósitos em conta vinculada efetuados nos termos estabelecidos na Lei nº 8.036, de 1990 , serão considerados como despesa operacional, observado o disposto no inciso III do caput do art. 441 (Lei nº 8.036, de 1990, art. 29).
 Parágrafo único. A dedutibilidade prevista neste artigo abrange os depósitos efetuados pela pessoa jurídica, para garantia do tempo de serviço de seus diretores não empregados, na forma estabelecida na Lei nº 6.919, de 2 de junho de 1981.
@@ -10214,7 +10214,7 @@ Parágrafo único. A dedutibilidade prevista neste artigo abrange os depósitos 
 * **Subseção XIV - Das despesas de conservação de bens e instalações**
 
 
-###### Art. 354. {#art-354}
+###### Art. 354.
 
 Serão admitidas como custo ou despesa operacional as despesas com reparos e conservação de bens e instalações destinadas a mantê-los em condições eficientes de operação (Lei nº 4.506, de 1964, art. 48, caput ).
 
@@ -10251,7 +10251,7 @@ Serão admitidas como custo ou despesa operacional as despesas com reparos e con
 * **Juros sobre o capital próprio**
 
 
-###### Art. 355. {#art-355}
+###### Art. 355.
 
 A pessoa jurídica poderá deduzir, para fins de apuração do lucro real, os juros pagos ou creditados de forma individualizada a titular, sócios ou acionistas, a título de remuneração do capital próprio, calculados sobre as contas do patrimônio líquido e limitados à variação, pro rata die , da Taxa de Juros de Longo Prazo - TJLP ( Lei nº 9.249, de 1995, art. 9º, caput ).
 
@@ -10314,7 +10314,7 @@ A pessoa jurídica poderá deduzir, para fins de apuração do lucro real, os ju
 * **Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição**
 
 
-###### Art. 356. {#art-356}
+###### Art. 356.
 
 Para os anos-calendário de 2008 a 2014, para fins do cálculo do limite previsto no art. 355, a pessoa jurídica pode utilizar as contas do patrimônio líquido mensurado de acordo com as disposições da Lei nº 6.404, de 1976 (Lei nº 12.973, de 2014, art. 73, caput ) .
 
@@ -10331,7 +10331,7 @@ Para os anos-calendário de 2008 a 2014, para fins do cálculo do limite previst
 * **Outros juros sobre capital**
 
 
-###### Art. 357. {#art-357}
+###### Art. 357.
 
 São dedutíveis os juros pagos pelas cooperativas a seus associados, de até doze por cento ao ano sobre o capital integralizado ( Lei nº 4.506, de 1964, art. 49, parágrafo único ; e Lei nº 5.764, de 1971, art. 24, § 3º ).
 
@@ -10339,7 +10339,7 @@ São dedutíveis os juros pagos pelas cooperativas a seus associados, de até do
 * **Subseção XVI - Das despesas com prospecção e cubagem de jazidas e depósitos**
 
 
-###### Art. 358. {#art-358}
+###### Art. 358.
 
 Serão admitidas como operacionais as despesas com prospecção e cubagem de jazidas ou depósitos, realizadas por concessionários de pesquisa ou lavra de minérios, sob a orientação técnica de engenheiro de minas ( Lei nº 4.506, de 1964, art. 53, § 1º ).
 
@@ -10347,7 +10347,7 @@ Serão admitidas como operacionais as despesas com prospecção e cubagem de jaz
 * **Subseção XVII - Dos dispêndios com pesquisa e desenvolvimento de inovação tecnológica**
 
 
-###### Art. 359. {#art-359}
+###### Art. 359.
 
 A pessoa jurídica poderá deduzir, para fins de apuração do lucro líquido, o valor correspondente à soma dos dispêndios realizados no período de apuração com pesquisa tecnológica e desenvolvimento de inovação tecnológica classificáveis como despesas operacionais pela legislação do imposto ou como pagamento na forma prevista no § 1º (Lei nº 11.196, de 2005, art. 17, caput, inciso I) .
 
@@ -10369,7 +10369,7 @@ A pessoa jurídica poderá deduzir, para fins de apuração do lucro líquido, o
 * **Dos recursos naturais**
 
 
-###### Art. 360. {#art-360}
+###### Art. 360.
 
 Poderão ser deduzidas como operacionais as despesas que as pessoas jurídicas efetuarem direta ou indiretamente na pesquisa de recursos naturais, inclusive prospecção de minerais, desde que realizadas na área de atuação da Sudam, em projetos por ela aprovados ( Decreto-Lei nº 756, de 11 de agosto de 1969, art. 32, caput, alínea “a” ).
 
@@ -10380,7 +10380,7 @@ Poderão ser deduzidas como operacionais as despesas que as pessoas jurídicas e
 * **Aluguéis**
 
 
-###### Art. 361. {#art-361}
+###### Art. 361.
 
 A dedução de despesas com aluguéis será admitida ( Lei nº 4.506, de 1964, art. 71, caput ):
 
@@ -10409,12 +10409,12 @@ A dedução de despesas com aluguéis será admitida ( Lei nº 4.506, de 1964, a
 * **Royalties**
 
 
-###### Art. 362. {#art-362}
+###### Art. 362.
 
 A dedução de despesas com royalties será admitida quando necessárias para que o contribuinte mantenha a posse, o uso ou a fruição do bem ou do direito que produz o rendimento ( Lei nº 4.506, de 1964, art. 71, caput, alínea “a”) .
 
 
-###### Art. 363. {#art-363}
+###### Art. 363.
 
 Não são dedutíveis ( Lei nº 4.506, de 1964, art. 71, parágrafo único, alíneas “c” ao “g” ):
 
@@ -10456,7 +10456,7 @@ Parágrafo único. O disposto na alínea “b” do inciso III do caput não se 
 * **Assistência técnica, científica ou administrativa**
 
 
-###### Art. 364. {#art-364}
+###### Art. 364.
 
 As importâncias pagas a pessoas jurídicas ou físicas domiciliadas no exterior a título de assistência técnica, científica, administrativa ou semelhante, quer fixas, quer como percentagem da receita ou do lucro, somente poderão ser deduzidas como despesas operacionais quando satisfizerem aos seguintes requisitos ( Lei nº 4.506, de 1964, art. 52, caput ):
 
@@ -10493,7 +10493,7 @@ As importâncias pagas a pessoas jurídicas ou físicas domiciliadas no exterior
 * **Limite e condições de dedutibilidade**
 
 
-###### Art. 365. {#art-365}
+###### Art. 365.
 
 As somas das quantias devidas a título de royalties pela exploração de patentes de invenção ou pelo uso de marcas de indústria ou de comércio, e por assistência técnica, científica, administrativa ou semelhante, poderão ser deduzidas como despesas operacionais até o limite máximo de cinco por cento da receita líquida (Lei nº 3.470, de 1958, art. 74 ; Lei nº 4.131, de 1962, art. 12, caput ; e Decreto-Lei nº 1.730, de 1979, art. 6º ).
 
@@ -10515,7 +10515,7 @@ As somas das quantias devidas a título de royalties pela exploração de patent
 * **Subseção XIX - Das contraprestações de arrendamento mercantil**
 
 
-###### Art. 366. {#art-366}
+###### Art. 366.
 
 Poderão ser computadas para fins de determinação do lucro real da pessoa jurídica arrendatária as contraprestações pagas ou creditadas por força de contrato de arrendamento mercantil, referentes a bens móveis ou imóveis intrinsecamente relacionados com a produção ou com a comercialização dos bens e dos serviços, inclusive as despesas financeiras nelas consideradas (Lei nº 12.973, de 2014, art. 47) .
 
@@ -10549,7 +10549,7 @@ Poderão ser computadas para fins de determinação do lucro real da pessoa jur�
 
 
 
-###### Art. 367. {#art-367}
+###### Art. 367.
 
 A aquisição, pelo arrendatário, de bens arrendados em desacordo com o disposto na Lei nº 6.099, de 12 de setembro de 1974, nas operações em que seja obrigatória a sua observância, será considerada operação de compra e venda a prestação (Lei nº 6.099, de 1974, art. 11, § 1º).
 
@@ -10571,7 +10571,7 @@ A aquisição, pelo arrendatário, de bens arrendados em desacordo com o dispost
 * **Subseção XX - Da remuneração dos sócios, dos diretores ou dos administradores e dos titulares de empresas individuais e dos conselheiros fiscais e consultivos**
 
 
-###### Art. 368. {#art-368}
+###### Art. 368.
 
 Serão dedutíveis, para fins de determinação do lucro real, as remunerações de sócios, diretores ou administradores, titulares de empresa individual e conselheiros fiscais e consultivos ( Lei nº 4.506, de 1964, art. 47, caput e § 5º ).
 Parágrafo único. Não serão dedutíveis, para fins de determinação do lucro real ( Decreto-Lei nº 5.844, de 1943, art. 43, § 1º, alíneas “b” e “d” ):
@@ -10586,7 +10586,7 @@ Parágrafo único. Não serão dedutíveis, para fins de determinação do lucro
 * **Remuneração indireta a administradores e terceiros**
 
 
-###### Art. 369. {#art-369}
+###### Art. 369.
 
 Integrarão a remuneração dos beneficiários ( Lei nº 8.383, de 1991, art. 74, caput, incisos I e II ):
 
@@ -10639,7 +10639,7 @@ Integrarão a remuneração dos beneficiários ( Lei nº 8.383, de 1991, art. 74
 * **Subseção XXI - Do pagamento baseado em ações**
 
 
-###### Art. 370. {#art-370}
+###### Art. 370.
 
 O valor da remuneração dos serviços prestados por empregados ou similares, efetuada por meio de acordo com pagamento baseado em ações, deverá ser adicionado ao lucro líquido, para fins de apuração do lucro real, no período de apuração em que o custo ou a despesa forem apropriados (Lei nº 12.973, de 2014, art. 33, caput ) .
 
@@ -10663,7 +10663,7 @@ O valor da remuneração dos serviços prestados por empregados ou similares, ef
 * **Subseção XXII - Da participação dos trabalhadores nos lucros ou nos resultados da empresa**
 
 
-###### Art. 371. {#art-371}
+###### Art. 371.
 
 Para fins de apuração do lucro real, a pessoa jurídica poderá deduzir como despesa operacional as participações atribuídas aos empregados nos lucros ou nos resultados, observado o disposto na Lei nº 10.101, de 19 de dezembro de 2000 , no próprio exercício de sua constituição (Lei nº 10.101, de 2000, art. 3º, § 1º) .
 Parágrafo único. É vedado o pagamento de qualquer antecipação ou distribuição de valores a título de participação nos lucros ou nos resultados da empresa em mais de duas vezes no mesmo ano civil e em periodicidade inferior a um trimestre civil (Lei nº 10.101, de 2000, art. 3º, § 2º) .
@@ -10675,7 +10675,7 @@ Parágrafo único. É vedado o pagamento de qualquer antecipação ou distribui�
 * **Serviços assistenciais**
 
 
-###### Art. 372. {#art-372}
+###### Art. 372.
 
 Consideram-se despesas operacionais os gastos realizados pelas empresas com seguros e planos de saúde, destinados indistintamente a todos os seus empregados e dirigentes ( Lei nº 9.249, de 1995, art. 13, caput, inciso V ).
 
@@ -10692,7 +10692,7 @@ Consideram-se despesas operacionais os gastos realizados pelas empresas com segu
 * **Benefícios previdenciários**
 
 
-###### Art. 373. {#art-373}
+###### Art. 373.
 
 São dedutíveis as contribuições não compulsórias destinadas a custear planos de benefícios complementares assemelhados aos da previdência social, instituídos em favor dos empregados e dos dirigentes da pessoa jurídica ( Lei nº 9.249, de 1995, art. 13, caput, inciso V ).
 
@@ -10721,7 +10721,7 @@ São dedutíveis as contribuições não compulsórias destinadas a custear plan
 * **Subseção XXIV - Dos Planos de Poupança e Investimento**
 
 
-###### Art. 374. {#art-374}
+###### Art. 374.
 
 Poderão ser deduzidas como despesa operacional as contribuições pagas pela pessoa jurídica aos Planos de Poupança e Investimento - PAIT por ela instituído, na forma estabelecida no Decreto-Lei nº 2.292, de 1986 , desde que obedeçam a critérios gerais e beneficiem, no mínimo, cinquenta por cento de seus empregados ( Decreto-Lei nº 2.292, de 1986, art. 5º, § 2º ).
 
@@ -10729,7 +10729,7 @@ Poderão ser deduzidas como despesa operacional as contribuições pagas pela pe
 * **Subseção XXV - Do Fundo de Aposentadoria Programada Individual**
 
 
-###### Art. 375. {#art-375}
+###### Art. 375.
 
 A pessoa jurídica poderá deduzir como despesa operacional o valor das quotas adquiridas, em favor de seus empregados ou administradores, do FAPI, instituído pela Lei nº 9.477, de 1997 , desde que o plano atinja, no mínimo, cinquenta por cento dos seus empregados, observado o disposto nos § 1º e § 2º do art. 373 ( Lei nº 9.477, de 1997, art. 7º ; e Lei nº 9.532, de 1997, art. 11, § 2º ao § 4º ).
 
@@ -10737,7 +10737,7 @@ A pessoa jurídica poderá deduzir como despesa operacional o valor das quotas a
 * **Subseção XXVI - Dos prejuízos por desfalque, apropriação indébita e furto**
 
 
-###### Art. 376. {#art-376}
+###### Art. 376.
 
 Somente serão dedutíveis como despesas os prejuízos por desfalque, apropriação indébita e furto, por empregados ou terceiros, quando houver inquérito instaurado nos termos da legislação trabalhista ou quando apresentada queixa perante a autoridade policial ( Lei nº 4.506, de 1964, art. 47, § 3º ).
 
@@ -10745,7 +10745,7 @@ Somente serão dedutíveis como despesas os prejuízos por desfalque, apropriaç
 * **Subseção XXVII - Das contribuições e das doações**
 
 
-###### Art. 377. {#art-377}
+###### Art. 377.
 
 São vedadas as deduções decorrentes de doações e contribuições, exceto as relacionadas a seguir ( Lei nº 9.249, de 1995, art. 13, caput, inciso VI, e § 2º, incisos II e III ):
 
@@ -10765,13 +10765,13 @@ São vedadas as deduções decorrentes de doações e contribuições, exceto as
 
 
 
-###### Art. 378. {#art-378}
+###### Art. 378.
 
 Poderão, também, ser beneficiárias de doações, nos termos e nas condições estabelecidos no inciso II do caput do art. 377 , as Organizações da Sociedade Civil de Interesse Público - Oscip qualificadas de acordo com as normas estabelecidas na Lei nº 9.790, de 1999 ( Medida Provisória nº 2.158-35, de 2001, art. 59, caput ).
 Parágrafo único. Às entidades a que se refere este artigo não se aplica a exigência estabelecida na alínea “c” do inciso II do caput do art. 377 ( Medida Provisória nº 2.158-35, de 2001, art. 59, § 2º) .
 
 
-###### Art. 379. {#art-379}
+###### Art. 379.
 
 A dedutibilidade das doações a que se referem o inciso II do caput do art. 377 e o art. 378 fica condicionada a que a entidade beneficiária tenha a sua condição de utilidade pública ou de Oscip renovada anualmente pelo órgão competente da União, por meio de ato formal ( Medida Provisória nº 2.158-35, de 2001, art. 60, caput ).
 
@@ -10794,7 +10794,7 @@ A dedutibilidade das doações a que se referem o inciso II do caput do art. 377
 * **Subseção XXVIII - Das despesas de propaganda**
 
 
-###### Art. 380. {#art-380}
+###### Art. 380.
 
 São admitidos como despesas de propaganda, desde que diretamente relacionados com a atividade explorada pela empresa e respeitado o regime de competência, observado, ainda, o disposto no inciso VII do parágrafo único do art. 260 ( Lei nº 4.506, de 1964, art. 54, caput ; e Lei nº 7.450, de 1985, art. 54 ):
 
@@ -10837,7 +10837,7 @@ São admitidos como despesas de propaganda, desde que diretamente relacionados c
 
 
 
-###### Art. 381. {#art-381}
+###### Art. 381.
 
 É permitido às empresas fabricantes e exportadoras de produtos manufaturados, inclusive cooperativas, consórcios de exportadores, consórcios de produtores ou entidades semelhantes, imputar ao custo, destacadamente, para apuração do lucro líquido, os gastos que, no exterior, efetuarem com promoção e propaganda de seus produtos, com a participação em feiras, exposições e certames semelhantes, na forma, no limite e nas condições determinados em regulamento ( Decreto-Lei nº 491, de 5 de março de 1969, art. 1º e art. 7º, caput e parágrafo único ).
 
@@ -10845,7 +10845,7 @@ São admitidos como despesas de propaganda, desde que diretamente relacionados c
 * **Subseção XXIX - Da formação profissional**
 
 
-###### Art. 382. {#art-382}
+###### Art. 382.
 
 Poderão ser deduzidos como despesa operacional os gastos realizados com a formação profissional de empregados.
 
@@ -10853,7 +10853,7 @@ Poderão ser deduzidos como despesa operacional os gastos realizados com a forma
 * **Subseção XXX - Da alimentação do trabalhador**
 
 
-###### Art. 383. {#art-383}
+###### Art. 383.
 
 Será admitida a dedução de despesa de alimentação fornecida pela pessoa jurídica, indistintamente, a todos os seus empregados, observado o disposto no inciso IV do parágrafo único do art. 260 ( Lei nº 9.249, de 1995, art. 13, § 1º ).
 Parágrafo único. Quando a pessoa jurídica tiver programa aprovado pelo Ministério do Trabalho, além da dedução como despesa de que trata este artigo, fará também jus ao benefício previsto no art. 641 .
@@ -10862,7 +10862,7 @@ Parágrafo único. Quando a pessoa jurídica tiver programa aprovado pelo Minist
 * **Subseção XXXI - Do vale-transporte**
 
 
-###### Art. 384. {#art-384}
+###### Art. 384.
 
 Poderão ser deduzidos como despesa operacional os gastos comprovadamente realizados, no período de apuração, na concessão do vale-transporte a que se refere a Lei nº 7.418, de 16 de dezembro de 1985 (Lei nº 7.418, de 1985, art. 4º ; e Medida Provisória nº 2.189-49, de 2001, art. 10, parágrafo único ).
 
@@ -10870,7 +10870,7 @@ Poderão ser deduzidos como despesa operacional os gastos comprovadamente realiz
 * **Subseção XXXII - Das operações de caráter cultural e artístico**
 
 
-###### Art. 385. {#art-385}
+###### Art. 385.
 
 Sem prejuízo da dedução do imposto sobre a renda devido e observado o disposto no art. 539, a pessoa jurídica tributada com base no lucro real poderá deduzir integralmente como despesa operacional os valores efetivamente contribuídos em favor de projetos culturais ou artísticos, na forma estabelecida pelo Pronac (Lei nº 8.313, de 1991, art. 26, § 1º ; e Lei nº 9.249, de 1995, art. 13, § 2º, inciso I ).
 Parágrafo único. O disposto neste artigo não se aplica aos dispêndios com doações e patrocínios na produção cultural dos segmentos de que trata o art. 475 (Lei nº 8.313, de 1991, art. 18, § 2º) .
@@ -10879,7 +10879,7 @@ Parágrafo único. O disposto neste artigo não se aplica aos dispêndios com do
 * **Subseção XXXIII - Da atividade audiovisual**
 
 
-###### Art. 386. {#art-386}
+###### Art. 386.
 
 Sem prejuízo da dedução do imposto sobre a renda devido, a pessoa jurídica tributada com base no lucro real poderá, também, abater o total dos investimentos efetuados nos termos estabelecidos no art. 546 como despesa operacional (Lei nº 8.685, de 1993, art. 1º, § 4º) .
 Parágrafo único. O abatimento de que trata este artigo será efetuado por meio de ajuste ao lucro líquido para fins de determinação do lucro real.
@@ -10888,7 +10888,7 @@ Parágrafo único. O abatimento de que trata este artigo será efetuado por meio
 * **Subseção XXXIV - Do Programa de Cultura do Trabalhador**
 
 
-###### Art. 387. {#art-387}
+###### Art. 387.
 
 Até o exercício de 2017, ano-calendário de 2016, sem prejuízo da dedução do imposto sobre a renda devido, a pessoa jurídica inscrita no Programa de Cultura do Trabalhador como beneficiária, observado o disposto na Lei nº 12.761, de 27 de dezembro de 2012 , poderá deduzir como despesa operacional o valor despendido a título de aquisição do vale-cultura, desde que tributada com base no lucro real (Lei nº 12.761, de 2012, art. 10, § 2º) .
 Parágrafo único. A dedução de que trata o caput somente se aplica em relação ao valor do vale-cultura distribuído ao trabalhador com vínculo empregatício com a pessoa jurídica (Lei nº 12.761, de 2012, art. 5º, caput, inciso III , e art. 10, § 4º).
@@ -10903,7 +10903,7 @@ Parágrafo único. A dedução de que trata o caput somente se aplica em relaç�
 * **Ganho**
 
 
-###### Art. 388. {#art-388}
+###### Art. 388.
 
 O ganho decorrente de avaliação de ativo ou passivo com base no valor justo não será computado para fins de determinação do lucro real desde que o aumento no valor do ativo ou a redução no valor do passivo seja evidenciado contabilmente em subconta vinculada ao ativo ou ao passivo (Lei nº 12.973, de 2014, art. 13, caput ).
 
@@ -10940,7 +10940,7 @@ O ganho decorrente de avaliação de ativo ou passivo com base no valor justo n�
 * **Perda**
 
 
-###### Art. 389. {#art-389}
+###### Art. 389.
 
 A perda decorrente de avaliação de ativo ou passivo com base no valor justo somente poderá ser computada para fins de determinação do lucro real à medida que o ativo for realizado, inclusive por meio de depreciação, amortização, exaustão, alienação ou baixa, ou quando o passivo for liquidado ou baixado, e desde que a redução no valor do ativo ou o aumento no valor do passivo seja evidenciada contabilmente em subconta vinculada ao ativo ou ao passivo (Lei nº 12.973, de 2014, art. 14, caput) .
 
@@ -10954,7 +10954,7 @@ A perda decorrente de avaliação de ativo ou passivo com base no valor justo so
 
 
 
-###### Art. 390. {#art-390}
+###### Art. 390.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda disciplinará sobre o controle em subcontas previsto nos art. 388 e art. 389 (Lei nº 12.973, de 2014, art. 15) .
 
@@ -10962,7 +10962,7 @@ A Secretaria da Receita Federal do Brasil do Ministério da Fazenda disciplinar�
 * **Instrumentos financeiros: operações realizadas em mercados de liquidação futura sujeitos a ajustes de posições**
 
 
-###### Art. 391. {#art-391}
+###### Art. 391.
 
 Para fins de avaliação a valor justo de instrumentos financeiros, na hipótese de operações realizadas em mercados de liquidação futura sujeitos a ajustes de posições, não se considera como hipótese de liquidação ou baixa o pagamento ou o recebimento de tais ajustes durante a vigência do contrato, e são aplicáveis a tais operações (Lei nº 12.973, de 2014, art. 63) :
 
@@ -10976,7 +10976,7 @@ Para fins de avaliação a valor justo de instrumentos financeiros, na hipótese
 * **Subseção II - Da avaliação a valor justo: incorporação, fusão ou cisão**
 
 
-###### Art. 392. {#art-392}
+###### Art. 392.
 
 Nas hipóteses de incorporação, fusão ou cisão, os ganhos decorrentes de avaliação com base no valor justo na sucedida não poderão ser considerados na sucessora como integrante do custo do bem ou do direito que lhe deu causa para fins de determinação de ganho ou perda de capital e do cômputo da depreciação, da amortização ou da exaustão (Lei nº 12.973, de 2014, art. 26, caput) .
 Parágrafo único. Os ganhos e as perdas evidenciados nas subcontas de que tratam os art. 388 e art. 389 transferidos em decorrência de incorporação, fusão ou cisão terão, na sucessora, o mesmo tratamento tributário que teriam na sucedida ( Lei nº 12.973, de 2014, art. 26, parágrafo único ).
@@ -10988,7 +10988,7 @@ Parágrafo único. Os ganhos e as perdas evidenciados nas subcontas de que trata
 * **Ganho**
 
 
-###### Art. 393. {#art-393}
+###### Art. 393.
 
 O ganho decorrente de avaliação com base no valor justo de bem do ativo incorporado ao patrimônio de outra pessoa jurídica, na subscrição em bens de capital social, ou de valores mobiliários emitidos por companhia, não será computado para fins de determinação do lucro real, desde que o aumento no valor do bem do ativo seja evidenciado contabilmente em subconta vinculada à participação societária ou aos valores mobiliários, com discriminação do bem objeto de avaliação com base no valor justo, em condições de permitir a determinação da parcela realizada em cada período (Lei nº 12.973, de 2014, art. 17, caput).
 
@@ -11029,7 +11029,7 @@ O ganho decorrente de avaliação com base no valor justo de bem do ativo incorp
 * **Perda**
 
 
-###### Art. 394. {#art-394}
+###### Art. 394.
 
 A perda decorrente de avaliação com base no valor justo de bem do ativo incorporado ao patrimônio de outra pessoa jurídica, na subscrição em bens de capital social, ou de valores mobiliários emitidos por companhia, somente poderá ser computada para fins de determinação do lucro real caso a redução no valor do bem do ativo seja evidenciada contabilmente em subconta vinculada à participação societária ou aos valores mobiliários, com discriminação do bem objeto de avaliação com base no valor justo, em condições de permitir a determinação da parcela realizada em cada período, e (Lei nº 12.973, de 2014, art. 18, caput) :
 
@@ -11057,7 +11057,7 @@ A perda decorrente de avaliação com base no valor justo de bem do ativo incorp
 
 
 
-###### Art. 395. {#art-395}
+###### Art. 395.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda disciplinará sobre o controle em subcontas de que tratam os art. 393 e art. 394 (Lei nº 12.973, de 2014, art. 19) .
 
@@ -11065,7 +11065,7 @@ A Secretaria da Receita Federal do Brasil do Ministério da Fazenda disciplinar�
 * **Subseção IV - Da avaliação a valor justo: lucro presumido para lucro real**
 
 
-###### Art. 396. {#art-396}
+###### Art. 396.
 
 A pessoa jurídica tributada pelo lucro presumido que, em período de apuração imediatamente posterior, passar a ser tributada pelo lucro real deverá incluir, na base de cálculo do imposto sobre a renda apurado pelo lucro presumido, os ganhos decorrentes de avaliação com base no valor justo, que façam parte do valor contábil, e na proporção deste, relativos aos ativos constantes em seu patrimônio (Lei nº 12.973, de 2014, art. 16,caput) .
 
@@ -11093,7 +11093,7 @@ A pessoa jurídica tributada pelo lucro presumido que, em período de apuração
 * **Receitas**
 
 
-###### Art. 397. {#art-397}
+###### Art. 397.
 
 Os juros, o desconto, o lucro na operação de reporte e os rendimentos ou os lucros de aplicações financeiras de renda fixa ou variável, que tenham sido ganhos pelo contribuinte, serão incluídos no lucro operacional e, quando derivados de operações ou títulos de renda fixa com vencimento posterior ao encerramento do período de apuração, poderão ser rateados pelos períodos a que competirem ( Decreto-Lei nº 1.598, de 1977, art. 17, caput ; Lei nº 8.981, de 1995, art. 76, § 2º ; e Lei nº 9.249, de 1995, art. 11, § 3º ).
 
@@ -11101,22 +11101,22 @@ Os juros, o desconto, o lucro na operação de reporte e os rendimentos ou os lu
 * **Despesas**
 
 
-###### Art. 398. {#art-398}
+###### Art. 398.
 
 Sem prejuízo do disposto no art. 13 da Lei nº 9.249, de 1995 , os juros pagos ou incorridos pelo contribuinte são dedutíveis como custo ou despesa operacional, observado o disposto nesta Subseção (Decreto-Lei nº 1.598, de 1977, art. 17, § 1º) .
 
 
-###### Art. 399. {#art-399}
+###### Art. 399.
 
 Os juros pagos antecipadamente, os descontos de títulos de crédito, a correção monetária prefixada e o deságio concedido na colocação de debêntures ou títulos de crédito deverão ser apropriados, pro rata tempore , nos exercícios sociais a que competirem ( Decreto-Lei nº 1.598, de 1977, art. 17, § 1º, alínea “a” ).
 
 
-###### Art. 400. {#art-400}
+###### Art. 400.
 
 Não serão dedutíveis, para fins de determinação do lucro real, os juros relativos a empréstimos, pagos ou creditados a empresa controlada ou coligada, independentemente do local de seu domicílio, incidentes sobre o valor equivalente aos lucros não disponibilizados por empresas controladas, domiciliadas no exterior ( Lei nº 9.532, de 1997, art. 1º, § 3º ).
 
 
-###### Art. 401. {#art-401}
+###### Art. 401.
 
 São indedutíveis, para fins de determinação do lucro real, as despesas financeiras incorridas pela arrendatária em contratos de arrendamento mercantil, nos termos estabelecidos no art. 366 (Lei nº 12.973, de 2014, art. 48) .
 
@@ -11124,7 +11124,7 @@ São indedutíveis, para fins de determinação do lucro real, as despesas finan
 * **Custos de empréstimos**
 
 
-###### Art. 402. {#art-402}
+###### Art. 402.
 
 Os juros e outros encargos, associados a empréstimos contraídos, especificamente ou não, para financiar a aquisição, a construção ou a produção de bens classificados como estoques de longa maturação, propriedade para investimentos, ativo imobilizado ou ativo intangível, podem ser registrados como custo do ativo, desde que incorridos até o momento em que os referidos bens estejam prontos para uso ou venda ( Decreto-Lei nº 1.598, de 1977, art. 17, § 1º, alínea “b” ).
 
@@ -11141,7 +11141,7 @@ Os juros e outros encargos, associados a empréstimos contraídos, especificamen
 * **Dividendos pagos ou creditados classificados como despesa financeira**
 
 
-###### Art. 403. {#art-403}
+###### Art. 403.
 
 Não são dedutíveis, para fins de determinação do lucro real, os lucros ou os dividendos pagos ou creditados a beneficiários de qualquer espécie de ação prevista no art. 15 da Lei nº 6.404, de 1976 , ainda que classificados como despesa financeira na escrituração comercial ( Lei nº 9.249, de 1995, art. 10, § 3º ).
 
@@ -11152,7 +11152,7 @@ Não são dedutíveis, para fins de determinação do lucro real, os lucros ou o
 * **Disposição geral**
 
 
-###### Art. 404. {#art-404}
+###### Art. 404.
 
 As variações monetárias de que trata esta Subseção serão consideradas, para fins da legislação do imposto sobre a renda, como receitas ou despesas financeiras, conforme o caso (Lei nº 9.718, de 1998, art. 9º) .
 
@@ -11160,7 +11160,7 @@ As variações monetárias de que trata esta Subseção serão consideradas, par
 * **Variações ativas em função de índices ou coeficientes**
 
 
-###### Art. 405. {#art-405}
+###### Art. 405.
 
 Na determinação do lucro operacional, deverão ser incluídas, de acordo com o regime de competência, as contrapartidas das variações monetárias, em função de índices ou coeficientes aplicáveis, por disposição legal ou contratual, dos direitos de crédito do contribuinte, assim como os ganhos monetários realizados no pagamento de obrigações ( Decreto-Lei nº 1.598, de 1977, art. 18, caput; e Lei nº 9.718, de 1998, art. 9º) .
 
@@ -11168,7 +11168,7 @@ Na determinação do lucro operacional, deverão ser incluídas, de acordo com o
 * **Variações passivas em função de índices ou coeficientes**
 
 
-###### Art. 406. {#art-406}
+###### Art. 406.
 
 Na determinação do lucro operacional, poderão ser deduzidas as contrapartidas de variações monetárias de obrigações e perdas monetárias na realização de créditos ( Decreto-Lei nº 1.598, de 1977, art. 18, parágrafo único ; e Lei nº 9.718, de 1998, art. 9º) .
 
@@ -11176,7 +11176,7 @@ Na determinação do lucro operacional, poderão ser deduzidas as contrapartidas
 * **Variações ativas e passivas em função da taxa de câmbio**
 
 
-###### Art. 407. {#art-407}
+###### Art. 407.
 
 As variações monetárias dos direitos de crédito e das obrigações do contribuinte, em função da taxa de câmbio, serão consideradas, para efeito de determinação da base de cálculo do imposto sobre a renda e da determinação do lucro da exploração, quando da liquidação da correspondente operação ( Medida Provisória nº 2.158-35, de 2001, art. 30, caput ).
 
@@ -11223,7 +11223,7 @@ As variações monetárias dos direitos de crédito e das obrigações do contri
 
 
 
-###### Art. 408. {#art-408}
+###### Art. 408.
 
 As variações monetárias em razão da taxa de câmbio referentes aos saldos de valores a apropriar decorrentes de ajuste a valor presente de que tratam os art. 412 e art. 413 não serão computadas para fins de determinação do lucro real (Lei nº 12.973, de 2014, art. 12) .
 
@@ -11231,7 +11231,7 @@ As variações monetárias em razão da taxa de câmbio referentes aos saldos de
 * **Variações cambiais ativas e passivas**
 
 
-###### Art. 409. {#art-409}
+###### Art. 409.
 
 Compreendem-se nas disposições do art. 407 as variações monetárias apuradas mediante:
 
@@ -11248,7 +11248,7 @@ Compreendem-se nas disposições do art. 407 as variações monetárias apuradas
 * **Subseção III - Prêmio na emissão de debêntures**
 
 
-###### Art. 410. {#art-410}
+###### Art. 410.
 
 O prêmio na emissão de debêntures não será computado na determinação do lucro real, desde que (Lei nº 12.973, de 2014, art. 31, caput ) :
 
@@ -11296,7 +11296,7 @@ O prêmio na emissão de debêntures não será computado na determinação do l
 * **Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição: prêmio na emissão de debêntures**
 
 
-###### Art. 411. {#art-411}
+###### Art. 411.
 
 Até a data a que se referem o caput ou o § 1º do art. 211 , não será computado, para fins de determinação do lucro real, o valor do prêmio na emissão de debêntures, quando a pessoa jurídica sujeita ao RTT, nos termos estabelecidos no art. 213, observar os procedimentos previstos no art. 19 da Lei nº 11.941, de 2009 (Lei nº 11.941, de 2009, art. 19) .
 
@@ -11304,12 +11304,12 @@ Até a data a que se referem o caput ou o § 1º do art. 211 , não será comput
 * **Subseção IV - Do ajuste a valor presente**
 
 
-###### Art. 412. {#art-412}
+###### Art. 412.
 
 Os valores decorrentes do ajuste a valor presente de que trata o inciso VIII do caput do art. 183 da Lei nº 6.404, de 1976 , relativos a cada operação, somente serão considerados para fins de determinação do lucro real no mesmo período de apuração em que a receita ou o resultado da operação deva ser oferecido à tributação (Lei nº 12.973, de 2014, art. 4º) .
 
 
-###### Art. 413. {#art-413}
+###### Art. 413.
 
 Os valores decorrentes do ajuste a valor presente de que trata o inciso III do caput do art. 184 da Lei nº 6.404, de 1976 , relativos a cada operação, somente serão considerados para fins de determinação do lucro real no período de apuração em que (Lei nº 12.973, de 2014, art. 5º, caput):
 
@@ -11348,7 +11348,7 @@ Os valores decorrentes do ajuste a valor presente de que trata o inciso III do c
 
 
 
-###### Art. 414. {#art-414}
+###### Art. 414.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda disciplinará sobre o controle em subcontas previsto no art. 413 (Lei nº 12.973, de 2014, art. 15) .
 
@@ -11356,7 +11356,7 @@ A Secretaria da Receita Federal do Brasil do Ministério da Fazenda disciplinar�
 * **Subseção V - Dos rendimentos de participações societárias**
 
 
-###### Art. 415. {#art-415}
+###### Art. 415.
 
 Ressalvado o disposto no art. 416 e no § 1º do art. 425 , os lucros e os dividendos recebidos de outra pessoa jurídica integrarão o lucro operacional ( Decreto-Lei nº 1.598, de 1977, art. 11, caput ).
 
@@ -11370,12 +11370,12 @@ Ressalvado o disposto no art. 416 e no § 1º do art. 425 , os lucros e os divid
 
 
 
-###### Art. 416. {#art-416}
+###### Art. 416.
 
 Os lucros ou os dividendos recebidos pela pessoa jurídica, em decorrência de participação societária avaliada pelo custo de aquisição, adquirida até seis meses antes da data da sua percepção, serão registrados pelo contribuinte como diminuição do valor do custo e não influenciarão as contas de resultado ( Decreto-Lei nº 2.072, de 20 de dezembro de 1983, art. 2º ).
 
 
-###### Art. 417. {#art-417}
+###### Art. 417.
 
 As ações ou as quotas bonificadas recebidas sem custo pela pessoa jurídica não importarão modificação no valor pelo qual a participação societária estiver registrada no ativo, nem serão computadas para fins de determinação do lucro real ( Decreto-Lei nº 1.598, de 1977, art. 11, § 3º ).
 
@@ -11383,7 +11383,7 @@ As ações ou as quotas bonificadas recebidas sem custo pela pessoa jurídica n�
 * **Lucros ou dividendos recebidos**
 
 
-###### Art. 418. {#art-418}
+###### Art. 418.
 
 Os lucros ou os dividendos calculados com base nos resultados apurados a partir do mês de janeiro de 1996, pagos ou creditados por pessoas jurídicas tributadas pelo regime do lucro real, presumido ou arbitrado não integrarão a base de cálculo do imposto sobre a renda da pessoa jurídica beneficiária ( Lei nº 9.249, de 1995, art. 10, caput ).
 
@@ -11400,7 +11400,7 @@ Os lucros ou os dividendos calculados com base nos resultados apurados a partir 
 * **Disposição transitória quanto ao Regime Tributário de Transição**
 
 
-###### Art. 419. {#art-419}
+###### Art. 419.
 
 Os lucros ou os dividendos calculados com base nos resultados apurados entre 1º de janeiro de 2008 e 31 de dezembro de 2013 por pessoas jurídicas tributadas pelo regime do lucro real em valores superiores aos apurados, em observância aos métodos e aos critérios contábeis, vigentes em 31 de dezembro de 2007, não integram a base de cálculo do imposto sobre a renda da pessoa jurídica beneficiária (Lei nº 12.973, de 2014, art. 72) .
 
@@ -11411,7 +11411,7 @@ Os lucros ou os dividendos calculados com base nos resultados apurados entre 1º
 * **Dever de avaliar pelo valor de patrimônio líquido**
 
 
-###### Art. 420. {#art-420}
+###### Art. 420.
 
 Serão avaliados pelo valor de patrimônio líquido os investimentos da pessoa jurídica (Lei nº 6.404, de 1976, art. 248, caput ) :
 
@@ -11447,7 +11447,7 @@ Serão avaliados pelo valor de patrimônio líquido os investimentos da pessoa j
 * **Desdobramento do custo de aquisição**
 
 
-###### Art. 421. {#art-421}
+###### Art. 421.
 
 O contribuinte que avaliar investimento pelo valor de patrimônio líquido deverá, por ocasião da aquisição da participação, desdobrar o custo de aquisição em ( Decreto-Lei nº 1.598, de 1977, art. 20, caput, incisos I ao III):
 
@@ -11494,7 +11494,7 @@ O contribuinte que avaliar investimento pelo valor de patrimônio líquido dever
 * **Redução da mais ou menos-valia e do goodwill**
 
 
-###### Art. 422. {#art-422}
+###### Art. 422.
 
 A contrapartida da redução dos valores de que tratam os incisos II e III do caput do art. 421 não será computada para fins de determinação do lucro real, ressalvado o disposto no art. 507 ( Decreto-Lei nº 1.598, de 1977, art. 25 ).
 Parágrafo único. Concomitantemente à redução, na escrituração comercial, dos valores de que tratam os incisos II e III do caput do art. 421 , será mantido controle no Lalur, para fins de determinação do ganho ou da perda de capital na alienação ou na liquidação do investimento, observado o disposto no art. 507 .
@@ -11503,7 +11503,7 @@ Parágrafo único. Concomitantemente à redução, na escrituração comercial, 
 * **Avaliação do investimento**
 
 
-###### Art. 423. {#art-423}
+###### Art. 423.
 
 Em cada balanço, o contribuinte deverá avaliar o investimento pelo valor de patrimônio líquido da investida, observado o disposto no art. 420 e nas seguintes normas ( Decreto-Lei nº 1.598, de 1977, art. 21 ):
 
@@ -11530,7 +11530,7 @@ Parágrafo único. Na hipótese prevista no inciso VI do caput , o patrimônio s
 * **Disposição transitória quanto à avaliação do investimento no Regime Tributário de Transição**
 
 
-###### Art. 424. {#art-424}
+###### Art. 424.
 
 Para os anos-calendário de 2008 a 2014, o contribuinte poderá avaliar o investimento pelo valor de patrimônio líquido da coligada ou da controlada de acordo com o disposto na Lei nº 6.404, de 1976 (Lei nº 12.973, de 2014, art. 74, caput ) .
 Parágrafo único. No ano-calendário de 2014, a opção de que trata o caput fica restrita às pessoas jurídicas sujeitas ao RTT (Lei nº 12.973, de 2014, art. 74, parágrafo único) .
@@ -11539,7 +11539,7 @@ Parágrafo único. No ano-calendário de 2014, a opção de que trata o caput fi
 * **Ajuste do valor contábil do investimento**
 
 
-###### Art. 425. {#art-425}
+###### Art. 425.
 
 O valor do investimento na data do balanço de que trata o inciso I do caput do art. 421 deverá ser ajustado ao valor de patrimônio líquido de acordo com o disposto no art. 423 , por meio do lançamento da diferença a débito ou a crédito da conta de investimento ( Decreto-Lei nº 1.598, de 1977, art. 22, caput ).
 
@@ -11561,7 +11561,7 @@ O valor do investimento na data do balanço de que trata o inciso I do caput do 
 * **Contrapartida do ajuste do valor do patrimônio líquido**
 
 
-###### Art. 426. {#art-426}
+###### Art. 426.
 
 A contrapartida do ajuste de que trata o art. 425 , por aumento ou redução no valor de patrimônio líquido do investimento, não será computada para fins de determinação do lucro real, observado o disposto no art. 446 ( Decreto-Lei nº 1.598, de 1977, art. 23, caput ).
 
@@ -11578,7 +11578,7 @@ A contrapartida do ajuste de que trata o art. 425 , por aumento ou redução no 
 * **Aquisição de participação societária em estágios**
 
 
-###### Art. 427. {#art-427}
+###### Art. 427.
 
 Na hipótese de aquisição de controle de outra empresa na qual se detinha participação societária anterior, o contribuinte observará as seguintes disposições (Lei nº 12.973, de 2014, art. 37, caput) :
 
@@ -11620,7 +11620,7 @@ Na hipótese de aquisição de controle de outra empresa na qual se detinha part
 * **Avaliação a valor justo de ativo ou passivo da investida**
 
 
-###### Art. 428. {#art-428}
+###### Art. 428.
 
 A contrapartida do ajuste positivo na participação societária, mensurada pelo patrimônio líquido, decorrente da avaliação pelo valor justo de ativo ou passivo da investida, deverá ser compensada pela baixa do saldo da mais-valia de que trata o i nciso II do caput do art. 421 ( Decreto-Lei nº 1.598, de 1977, art. 24-A, caput ).
 
@@ -11644,7 +11644,7 @@ A contrapartida do ajuste positivo na participação societária, mensurada pelo
 
 
 
-###### Art. 429. {#art-429}
+###### Art. 429.
 
 A contrapartida do ajuste negativo na participação societária, mensurada pelo patrimônio líquido, decorrente da avaliação pelo valor justo de ativo ou passivo da investida, deverá ser compensada pela baixa do respectivo saldo da menos-valia de que trata o inciso II do caput do art. 421 ( Decreto-Lei nº 1.598, de 1977, art. 24-B, caput ).
 
@@ -11676,7 +11676,7 @@ A contrapartida do ajuste negativo na participação societária, mensurada pelo
 * **Disposição transitória quanto à reavaliação de bens na investida**
 
 
-###### Art. 430. {#art-430}
+###### Art. 430.
 
 O valor da reserva de reavaliação constituída nos termos estabelecidos no § 1º do art. 24 do Decreto-Lei nº 1.598, de 1977 , deverá ser computado para fins de determinação do lucro real do período de apuração em que o contribuinte alienar ou liquidar o investimento ou em que utilizar a reserva de reavaliação para aumento do seu capital social ( Decreto-Lei nº 1.598, de 1977, art. 24, § 2º ).
 
@@ -11706,7 +11706,7 @@ O valor da reserva de reavaliação constituída nos termos estabelecidos no § 
 * **Incorporação, fusão ou cisão referente à mais-valia**
 
 
-###### Art. 431. {#art-431}
+###### Art. 431.
 
 Nas hipóteses de incorporação, fusão ou cisão, o saldo existente na contabilidade, na data da aquisição da participação societária, referente à mais-valia de que trata o inciso II do caput do art. 421 , decorrente da aquisição de participação societária entre partes não dependentes, poderá ser considerado como integrante do custo do bem ou do direito que lhe deu causa, para fins de determinação de ganho ou perda de capital e do cômputo da depreciação, da amortização ou da exaustão (Lei nº 12.973, de 2014, art. 20, caput).
 
@@ -11755,7 +11755,7 @@ Nas hipóteses de incorporação, fusão ou cisão, o saldo existente na contabi
 * **Incorporação, fusão ou cisão referente à menos-valia**
 
 
-###### Art. 432. {#art-432}
+###### Art. 432.
 
 Nas hipóteses de incorporação, fusão ou cisão, o saldo existente na contabilidade, na data da aquisição da participação societária, referente à menos-valia de que trata o inciso II do caput do art. 421 deverá ser considerado como integrante do custo do bem ou do direito que lhe deu causa para fins de determinação de ganho ou perda de capital e do cômputo da depreciação, da amortização ou da exaustão (Lei nº 12.973, de 2014, art. 21, caput) .
 
@@ -11804,7 +11804,7 @@ Nas hipóteses de incorporação, fusão ou cisão, o saldo existente na contabi
 * **Incorporação, fusão ou cisão referente ao goodwill**
 
 
-###### Art. 433. {#art-433}
+###### Art. 433.
 
 A pessoa jurídica que absorver patrimônio de outra em decorrência de incorporação, fusão ou cisão, na qual detinha participação societária adquirida com ágio por rentabilidade futura ( goodwill ) decorrente da aquisição de participação societária entre partes não dependentes, apurado de acordo com o disposto no inciso III do caput do art. 421 , poderá excluir, para fins de apuração do lucro real dos períodos de apuração subsequentes, o saldo do referido ágio existente na contabilidade na data da aquisição da participação societária à razão de um sessenta avos, no máximo, para cada mês do período de apuração (Lei nº 12.973, de 2014, art. 22, caput ).
 
@@ -11843,7 +11843,7 @@ A pessoa jurídica que absorver patrimônio de outra em decorrência de incorpor
 * **Incorporação, fusão ou cisão referente ao ganho por compra vantajosa**
 
 
-###### Art. 434. {#art-434}
+###### Art. 434.
 
 A pessoa jurídica que absorver patrimônio de outra em decorrência de incorporação, fusão ou cisão, na qual detinha participação societária adquirida com ganho proveniente de compra vantajosa de acordo com o § 4º do art. 421 , deverá computar o referido ganho para fins de determinação do lucro real dos períodos de apuração subsequentes à data do evento à razão de um sessenta avos, no mínimo, para cada mês do período de apuração (Lei nº 12.973, de 2014, art. 23, caput) .
 Parágrafo único. O disposto neste artigo aplica-se inclusive quando a empresa incorporada, fusionada ou cindida for aquela que detinha a propriedade da participação societária (Lei nº 12.973, de 2014, art. 24) .
@@ -11852,7 +11852,7 @@ Parágrafo único. O disposto neste artigo aplica-se inclusive quando a empresa 
 * **Incorporação, fusão ou cisão referente às partes dependentes**
 
 
-###### Art. 435. {#art-435}
+###### Art. 435.
 
 Para fins do disposto nos art. 431 e art. 433 , consideram-se partes dependentes quando (Lei nº 12.973, de 2014, art. 25, caput) :
 
@@ -11876,7 +11876,7 @@ Parágrafo único. Na hipótese de participação societária adquirida em está
 * **Incorporação, fusão ou cisão referente à participação societária adquirida em estágios**
 
 
-###### Art. 436. {#art-436}
+###### Art. 436.
 
 Na hipótese prevista no art. 427 , caso ocorra incorporação, fusão ou cisão (Lei nº 12.973, de 2014, art. 38, caput) :
 
@@ -11900,7 +11900,7 @@ Parágrafo único. Excetuadas as hipóteses previstas nos incisos II e III do ca
 * **Incorporação, fusão ou cisão referente a estágios**
 
 
-###### Art. 437. {#art-437}
+###### Art. 437.
 
 Nas incorporações, nas fusões ou nas cisões de empresa não controlada na qual se detinha participação societária anterior que não se enquadrem nas hipóteses previstas nos art. 427 e art. 436 , não terá efeito na apuração do lucro real (Lei nº 12.973, de 2014, art. 39, caput) :
 
@@ -11945,7 +11945,7 @@ Nas incorporações, nas fusões ou nas cisões de empresa não controlada na qu
 * **Incorporação, fusão ou cisão ocorrida até 31 de dezembro de 2017**
 
 
-###### Art. 438. {#art-438}
+###### Art. 438.
 
 O disposto nos art. 7º e art. 8º da Lei nº 9.532, de 1997 , e nos art. 35 e art. 37 do Decreto-Lei nº 1.598, de 1977 , continua a ser aplicado somente às operações de incorporação, fusão e cisão ocorridas até 31 de dezembro de 2017, cuja participação societária tenha sido adquirida até 31 de dezembro de 2014 (Lei nº 12.973, de 2014, art. 65, caput ) .
 
@@ -11962,13 +11962,13 @@ O disposto nos art. 7º e art. 8º da Lei nº 9.532, de 1997 , e nos art. 35 e a
 * **Subseção VII - Disposições complementares relativas à combinação de negócios**
 
 
-###### Art. 439. {#art-439}
+###### Art. 439.
 
 A contrapartida da redução do ágio por rentabilidade futura ( goodwill ), inclusive por meio de redução ao valor recuperável, não será computada para fins de determinação do lucro real (Lei nº 12.973, de 2014, art. 28, caput) .
 Parágrafo único. A redução do ágio de que trata o inciso III do caput do art. 421 , observará o disposto no art. 422 (Lei nº 12.973, de 2014, art. 28, parágrafo único) .
 
 
-###### Art. 440. {#art-440}
+###### Art. 440.
 
 O ganho decorrente do excesso do valor líquido dos ativos identificáveis adquiridos e dos passivos assumidos, mensurados pelos respectivos valores justos, em relação à contraprestação transferida, será computado para fins de determinação do lucro real no período de apuração relativo à data do evento e posteriores, à razão de um sessenta avos, no mínimo, para cada mês do período de apuração (Lei nº 12.973, de 2014, art. 27, caput ) .
 Parágrafo único. Quando o ganho proveniente de compra vantajosa se referir ao valor de que trata o inciso II do § 3º do art. 421 deverá ser observado, conforme o caso, o disposto no § 4º do mesmo artigo ou o disposto no art. 434 (Lei nº 12.973, de 2014, art. 27, parágrafo único) .
@@ -11977,7 +11977,7 @@ Parágrafo único. Quando o ganho proveniente de compra vantajosa se referir ao 
 * **Subseção VIII - Das subvenções e das recuperações de custo**
 
 
-###### Art. 441. {#art-441}
+###### Art. 441.
 
 Serão computadas para fins de determinação do lucro operacional ( Lei nº 4.506, de 1964, art. 44, caput, incisos III e IV; e Lei nº 8.036, de 1990, art. 29) :
 
@@ -11994,7 +11994,7 @@ Serão computadas para fins de determinação do lucro operacional ( Lei nº 4.5
 * **Subseção IX - Das subvenções para estímulo à inovação**
 
 
-###### Art. 442. {#art-442}
+###### Art. 442.
 
 As subvenções governamentais de que tratam o art. 19 da Lei nº 10.973, de 2004 , e o art. 21 da Lei nº 11.196, de 2005 , não serão computadas para fins de determinação da base de cálculo do imposto sobre a renda, desde que atendidos os requisitos estabelecidos na legislação específica e realizadas as contrapartidas assumidas pela empresa beneficiária (Lei nº 12.350, de 20 de dezembro de 2010, art. 30, caput ) .
 
@@ -12011,7 +12011,7 @@ As subvenções governamentais de que tratam o art. 19 da Lei nº 10.973, de 200
 * **Subseção X - Do prejuízo na alienação de ações, títulos ou quotas de capital**
 
 
-###### Art. 443. {#art-443}
+###### Art. 443.
 
 Não são dedutíveis os prejuízos havidos em decorrência de alienação de ações, títulos ou quotas de capital, com deságio superior a dez por cento dos valores de aquisição, exceto se a venda houver sido realizada em bolsa de valores, ou, onde esta não existir, houver sido efetuada por meio de leilão público, com divulgação do edital, na forma da lei, durante três dias no período de um mês (Lei nº 3.470, de 1958, art. 84, caput ) .
 Parágrafo único. O disposto neste artigo não se aplica às sociedades de investimentos fiscalizadas pelo Banco Central do Brasil, nem às participações permanentes (Lei nº 3.470, de 1958, art. 84, parágrafo único) .
@@ -12020,7 +12020,7 @@ Parágrafo único. O disposto neste artigo não se aplica às sociedades de inve
 * **Subseção XI - Da avaliação de títulos, valores mobiliários e outros ativos financeiros a preço de mercado**
 
 
-###### Art. 444. {#art-444}
+###### Art. 444.
 
 A receita decorrente da avaliação de títulos e valores mobiliários, instrumentos financeiros derivativos e itens objeto de hedge , registrada pelas instituições financeiras e pelas demais entidades autorizadas a funcionar pelo Banco Central do Brasil, instituições autorizadas a operar pela Superintendência de Seguros Privados - Susep e sociedades autorizadas a operar em seguros ou resseguros em decorrência da valoração a preço de mercado no que exceder ao rendimento produzido até a referida data, somente será computada para fins de determinação da base de cálculo do imposto sobre a renda quando da alienação dos ativos (Lei nº 10.637, de 2002, art. 35, caput ) .
 
@@ -12042,7 +12042,7 @@ A receita decorrente da avaliação de títulos e valores mobiliários, instrume
 * **Subseção XII - Das operações realizadas em mercados de liquidação futura**
 
 
-###### Art. 445. {#art-445}
+###### Art. 445.
 
 Para fins de determinação da base de cálculo do imposto sobre a renda, os resultados positivos ou negativos incorridos nas operações realizadas em mercados de liquidação futura, inclusive aqueles sujeitos a ajustes de posições, serão reconhecidos por ocasião da liquidação do contrato, da cessão ou do encerramento da posição (Lei nº 11.051, de 29 de dezembro de 2004, art. 32, caput ) .
 
@@ -12074,7 +12074,7 @@ Para fins de determinação da base de cálculo do imposto sobre a renda, os res
 * **Lucros, rendimentos e ganhos de capital**
 
 
-###### Art. 446. {#art-446}
+###### Art. 446.
 
 Os lucros, os rendimentos e os ganhos de capital auferidos no exterior serão computados para fins de determinação do lucro real das pessoas jurídicas correspondentes ao balanço levantado em 31 de dezembro de cada ano ( Lei nº 9.249, de 1995, art. 25, caput ).
 
@@ -12177,7 +12177,7 @@ Os lucros, os rendimentos e os ganhos de capital auferidos no exterior serão co
 * **Subcontas**
 
 
-###### Art. 447. {#art-447}
+###### Art. 447.
 
 A pessoa jurídica controladora domiciliada no País ou a ela equiparada, observado o disposto no art. 454 , deverá registrar em subcontas da conta de investimentos em controlada direta no exterior, de forma individualizada, o resultado contábil na variação do valor do investimento equivalente aos lucros ou aos prejuízos auferidos pela própria controlada direta e por suas controladas, direta ou indiretamente, no País ou no exterior, relativo ao ano-calendário em que foram apurados em balanço, observada a proporção de sua participação em cada controlada, direta ou indireta (Lei nº 12.973, de 2014, art. 76, caput ) .
 
@@ -12199,7 +12199,7 @@ A pessoa jurídica controladora domiciliada no País ou a ela equiparada, observ
 * **Subseção II - Das controladoras**
 
 
-###### Art. 448. {#art-448}
+###### Art. 448.
 
 A parcela do ajuste do valor do investimento em controlada, direta ou indireta, domiciliada no exterior, equivalente aos lucros por ela auferidos antes do imposto sobre a renda, excetuada a variação cambial, deverá ser computada para fins de determinação do lucro real da pessoa jurídica controladora domiciliada no País, observado o disposto no art. 447 (Lei nº 12.973, de 2014, art. 77, caput ) .
 
@@ -12237,7 +12237,7 @@ A parcela do ajuste do valor do investimento em controlada, direta ou indireta, 
 * **Consolidação de resultados**
 
 
-###### Art. 449. {#art-449}
+###### Art. 449.
 
 Até o ano-calendário de 2022, as parcelas de que trata o art. 448 poderão ser consideradas de forma consolidada para fins de determinação do lucro real da controladora no País, excepcionadas as parcelas referentes às pessoas jurídicas investidas que se encontrem em, no mínimo, uma das seguintes situações (Lei nº 12.973, de 2014, art. 78, caput) :
 
@@ -12288,7 +12288,7 @@ Até o ano-calendário de 2022, as parcelas de que trata o art. 448 poderão ser
 
 
 
-###### Art. 450. {#art-450}
+###### Art. 450.
 
 Quando não houver consolidação, observado o disposto no art. 449 , a parcela do ajuste do valor do investimento em controlada, direta ou indireta, domiciliada no exterior equivalente aos lucros ou aos prejuízos por ela auferidos deverá ser considerada de forma individualizada para fins de determinação do lucro real da pessoa jurídica controladora domiciliada no País, nas seguintes formas (Lei nº 12.973, de 2014, art. 79 ):
 
@@ -12299,7 +12299,7 @@ Quando não houver consolidação, observado o disposto no art. 449 , a parcela 
 
 
 
-###### Art. 451. {#art-451}
+###### Art. 451.
 
 O disposto nesta Subseção aplica-se à coligada equiparada à controladora nos termos estabelecidos no art. 454 (Lei nº 12.973, de 2014, art. 80) .
 
@@ -12310,7 +12310,7 @@ O disposto nesta Subseção aplica-se à coligada equiparada à controladora nos
 * **Regime de caixa**
 
 
-###### Art. 452. {#art-452}
+###### Art. 452.
 
 Os lucros auferidos por intermédio de coligada domiciliada no exterior serão computados para fins de determinação do lucro real no balanço levantado no dia 31 de dezembro do ano-calendário em que tiverem sido disponibilizados para a pessoa jurídica domiciliada no País, desde que cumpridos os seguintes requisitos, cumulativamente, relativas à investida (Lei nº 12.973, de 2014, art. 81, caput ) :
 
@@ -12378,7 +12378,7 @@ Os lucros auferidos por intermédio de coligada domiciliada no exterior serão c
 * **Regime de competência**
 
 
-###### Art. 453. {#art-453}
+###### Art. 453.
 
 Na hipótese em que se verifique o descumprimento de, no mínimo, um dos requisitos previstos no caput do art. 452 , o resultado na coligada domiciliada no exterior equivalente aos lucros ou aos prejuízos por ela apurados deverá ser computado para fins de determinação do lucro real da pessoa jurídica investidora domiciliada no País, nas seguintes formas (Lei nº 12.973, de 2014, art. 82, caput) :
 
@@ -12416,7 +12416,7 @@ Na hipótese em que se verifique o descumprimento de, no mínimo, um dos requisi
 * **Subseção IV - Da equiparação à controladora**
 
 
-###### Art. 454. {#art-454}
+###### Art. 454.
 
 Para fins do disposto neste Decreto, equipara-se à condição de controladora a pessoa jurídica domiciliada no País que detenha participação em coligada no exterior e que, em conjunto com pessoas físicas ou jurídicas residentes ou domiciliadas no País ou no exterior, consideradas a ela vinculadas, possua mais de cinquenta por cento do capital votante da coligada no exterior (Lei nº 12.973, de 2014, art. 83, caput ) .
 Parágrafo único. Para fins do disposto no caput , será considerada vinculada à pessoa jurídica domiciliada no País (Lei nº 12.973, de 2014, art. 83, parágrafo único) :
@@ -12443,7 +12443,7 @@ Parágrafo único. Para fins do disposto no caput , será considerada vinculada 
 * **Subseção V - Das definições**
 
 
-###### Art. 455. {#art-455}
+###### Art. 455.
 
 Para fins do disposto neste Regulamento, considera-se (Lei nº 12.973, de 2014, art. 84, caput) :
 
@@ -12498,12 +12498,12 @@ Para fins do disposto neste Regulamento, considera-se (Lei nº 12.973, de 2014, 
 * **Subseção VI - Das deduções**
 
 
-###### Art. 456. {#art-456}
+###### Art. 456.
 
 Para fins de apuração do imposto sobre a renda devido pela controladora no País, poderá ser deduzida da parcela do lucro da pessoa jurídica controlada, direta ou indireta, domiciliada no exterior, a parcela do lucro oriunda de participações destas em pessoas jurídicas controladas ou coligadas domiciliadas no País (Lei nº 12.973, de 2014, art. 85).
 
 
-###### Art. 457. {#art-457}
+###### Art. 457.
 
 Poderão ser deduzidos do lucro real os valores referentes às adições espontaneamente efetuadas, decorrentes da aplicação das regras previstas no art. 238 ao art. 252 , desde que os lucros auferidos no exterior tenham sido considerados na respectiva base de cálculo do imposto sobre a renda da pessoa jurídica controladora domiciliada no País ou a ela equiparada, nos termos estabelecidos no art. 454 e cujo imposto sobre a renda correspondentes, em qualquer hipótese, tenham sido recolhidos (Lei nº 12.973, de 2014, art. 86, caput ) .
 
@@ -12529,7 +12529,7 @@ Poderão ser deduzidos do lucro real os valores referentes às adições esponta
 
 
 
-###### Art. 458. {#art-458}
+###### Art. 458.
 
 A pessoa jurídica poderá deduzir, na proporção de sua participação, o imposto sobre a renda pago no exterior pela controlada, direta ou indireta, incidente sobre as parcelas positivas computadas na determinação do lucro real da controladora no País, até o limite imposto sobre a renda incidente no País sobre as referidas parcelas ( Lei nº 12.973, de 2014, art. 87, caput ) :
 
@@ -12583,13 +12583,13 @@ A pessoa jurídica poderá deduzir, na proporção de sua participação, o impo
 
 
 
-###### Art. 459. {#art-459}
+###### Art. 459.
 
 A pessoa jurídica coligada domiciliada no País poderá deduzir do imposto sobre a renda devido o imposto sobre a renda retido na fonte no exterior incidente sobre os dividendos que tenham sido computados para fins de determinação do lucro real, desde que a sua coligada no exterior se enquadre nas condições previstas no art. 452 , observados os limites previstos nos § 4º e § 8º do art. 458 (Lei nº 12.973, de 2014, art. 88, caput ) .
 Parágrafo único. Na hipótese de a retenção do imposto sobre a renda no exterior vir a ocorrer em momento posterior àquele em que tiverem sido considerados no resultado da coligada domiciliada no País, a dedução de que trata este artigo somente poderá ser efetuada no balanço correspondente ao ano-calendário em que ocorrer a retenção e deverá respeitar os limites previstos no caput (Lei nº 12.973, de 2014, art. 88, parágrafo único) .
 
 
-###### Art. 460. {#art-460}
+###### Art. 460.
 
 A matriz e a pessoa jurídica controladora ou a ela equiparada, nos termos estabelecidos no art. 454 , domiciliadas no País, poderão considerar como imposto pago, para fins de dedução de que trata o art. 458 , o imposto sobre a renda retido na fonte no País e no exterior, na proporção de sua participação, decorrente de rendimentos recebidos por filial, sucursal ou controlada domiciliada no exterior (Lei nº 12.973, de 2014, art. 89, caput ) .
 
@@ -12603,7 +12603,7 @@ A matriz e a pessoa jurídica controladora ou a ela equiparada, nos termos estab
 
 
 
-###### Art. 461. {#art-461}
+###### Art. 461.
 
 O disposto no art. 448 ao art. 451 e no art. 456 ao art. 459 aplica-se ao resultado obtido por filial ou sucursal no exterior (Lei nº 12.973, de 2014, art. 92) .
 
@@ -12611,7 +12611,7 @@ O disposto no art. 448 ao art. 451 e no art. 456 ao art. 459 aplica-se ao result
 * **Subseção VII - Do pagamento**
 
 
-###### Art. 462. {#art-462}
+###### Art. 462.
 
 À opção da pessoa jurídica, o imposto sobre a renda devido decorrente do resultado considerado na apuração da pessoa jurídica domiciliada no País, observado o disposto no art. 448 ao art. 451 e no art. 453 , poderá ser pago na proporção dos lucros distribuídos nos anos subsequentes ao encerramento do período de apuração conforme disposto no art. 925 ao art. 927 (Lei nº 12.973, de 2014, art. 90) .
 
@@ -12619,7 +12619,7 @@ O disposto no art. 448 ao art. 451 e no art. 456 ao art. 459 aplica-se ao result
 * **Subseção VIII - Da operação de mútuo ou do adiantamento de recursos a coligada ou controlada**
 
 
-###### Art. 463. {#art-463}
+###### Art. 463.
 
 Para fins do disposto nesta Seção, serão também considerados como lucro disponibilizado para empresa no País ( Lei nº 9.532, de 1997, art. 1º, § 1º, alíneas “c” e “d” ):
 
@@ -12630,7 +12630,7 @@ Para fins do disposto nesta Seção, serão também considerados como lucro disp
 
 
 
-###### Art. 464. {#art-464}
+###### Art. 464.
 
 Nas hipóteses previstas no art. 463 , o valor considerado disponibilizado será o mutuado ou o adiantado, limitado ao montante dos lucros e das reservas de lucros passíveis de distribuição, proporcional à participação societária da empresa no país na data da disponibilização ( Lei nº 9.532, de 1997, art. 1º, § 6º ).
 Parágrafo único. O lucro será considerado disponibilizado ( Lei nº 9.532, de 1997, art. 1º, § 7º ):
@@ -12651,7 +12651,7 @@ Parágrafo único. O lucro será considerado disponibilizado ( Lei nº 9.532, de
 * **Subseção IX - Da compensação do imposto sobre a renda pago no exterior**
 
 
-###### Art. 465. {#art-465}
+###### Art. 465.
 
 A pessoa jurídica poderá compensar o imposto sobre a renda incidente, no exterior, sobre os lucros, os rendimentos, os ganhos de capital e as receitas decorrentes da prestação de serviços efetuada diretamente, computados no lucro real, até o limite do imposto sobre a renda incidente, no País, sobre os referidos rendimentos, ganhos de capital e receitas de prestação de serviços ( Lei nº 9.249, de 1995, art. 26, caput ; e Lei nº 9.430, de 1996, art. 15 ).
 
@@ -12693,7 +12693,7 @@ A pessoa jurídica poderá compensar o imposto sobre a renda incidente, no exter
 * **Subseção X - Das operações de cobertura em bolsa no exterior**
 
 
-###### Art. 466. {#art-466}
+###### Art. 466.
 
 Serão computados, para fins de determinação do lucro real, os resultados líquidos, positivos ou negativos, obtidos em operações de cobertura ( hedge ) realizadas em mercados de liquidação futura, diretamente pela empresa brasileira, em bolsas no exterior ( Lei nº 9.430, de 1996, art. 17, caput ).
 
@@ -12713,7 +12713,7 @@ Serão computados, para fins de determinação do lucro real, os resultados líq
 * **Autorizadas a funcionar no País**
 
 
-###### Art. 467. {#art-467}
+###### Art. 467.
 
 As pessoas jurídicas domiciliadas no exterior e autorizadas a funcionar no País somente poderão deduzir como custos ou despesas aqueles realizados por suas dependências no território nacional, bem como ( Lei nº 4.506, de 1964, art. 64, caput ) :
 
@@ -12736,7 +12736,7 @@ As pessoas jurídicas domiciliadas no exterior e autorizadas a funcionar no Paí
 * **Comitentes domiciliados no exterior**
 
 
-###### Art. 468. {#art-468}
+###### Art. 468.
 
 As normas estabelecidas neste Regulamento sobre a determinação e a tributação dos lucros apurados no País pelas filiais, pelas sucursais, pelas agências ou pelas representações das sociedades estrangeiras autorizadas a funcionar no território nacional alcançam, igualmente, os rendimentos auferidos por comitentes domiciliados no exterior, nas operações realizadas por seus mandatários ou comissários no País (Lei nº 3.470, de 1958, art. 76, caput ) .
 Parágrafo único. O disposto neste artigo aplica-se aos rendimentos auferidos por comitentes residentes ou domiciliados no exterior em decorrência de remessa para o País de mercadorias consignadas a comissários, mandatários, agentes ou representantes, para que estes as vendam no País por ordem e conta dos comitentes, obedecidas as seguintes regras (Lei nº 3.470, de 1958, art. 76, § 1º e § 2º ; e Decreto-Lei nº 1.598, de 1977, art. 12 ):
@@ -12760,7 +12760,7 @@ Parágrafo único. O disposto neste artigo aplica-se aos rendimentos auferidos p
 * **Venda direta por meio de mandatário**
 
 
-###### Art. 469. {#art-469}
+###### Art. 469.
 
 Na hipótese de serem efetuadas vendas no País, por intermédio de agentes ou representantes de pessoas estabelecidas no exterior, o rendimento tributável será arbitrado de acordo com o disposto nos art. 605 e art. 612 (Lei nº 3.470, de 1958, art. 76, § 3º ; e Lei nº 9.249, de 1995, art. 16 ).
 
@@ -12768,7 +12768,7 @@ Na hipótese de serem efetuadas vendas no País, por intermédio de agentes ou r
 ###### Seção III - Das empresas em Zona de Processamento de Exportação
 
 
-###### Art. 470. {#art-470}
+###### Art. 470.
 
 A empresa instalada em Zona de Processamento de Exportação poderá usufruir dos seguintes incentivos ou benefícios incidentes sobre o imposto (Lei nº 11.508, de 20 de julho de 2007, art. 18) :
 
@@ -12785,7 +12785,7 @@ A empresa instalada em Zona de Processamento de Exportação poderá usufruir do
 ###### Seção IV - Da exploração de películas cinematográficas estrangeiras
 
 
-###### Art. 471. {#art-471}
+###### Art. 471.
 
 Na determinação do lucro operacional da distribuição no território nacional de películas cinematográficas importadas, inclusive a preço fixo, serão observadas as seguintes normas ( Decreto-Lei nº 1.089, de 2 de março de 1970, art. 12, caput , e § 1º e § 2º ; e Decreto-Lei nº 1.429, de 2 de dezembro de 1975, art. 1º, caput, inciso I ):
 
@@ -12811,7 +12811,7 @@ Na determinação do lucro operacional da distribuição no território nacional
 ###### Seção V - Das empresas de navegação marítima e das companhias aéreas
 
 
-###### Art. 472. {#art-472}
+###### Art. 472.
 
 As importâncias destinadas aos armadores e às empresas nacionais de navegação, correspondentes ao Adicional ao Frete para Renovação da Marinha Mercante - AFRMM, de acordo com o disposto no Decreto-Lei nº 1.801, de 18 de agosto de 1980 , não integrarão a receita bruta das vendas e dos serviços ( Lei nº 4.506, de 1964, art. 68, caput ).
 
@@ -12830,7 +12830,7 @@ As importâncias destinadas aos armadores e às empresas nacionais de navegaçã
 
 
 
-###### Art. 473. {#art-473}
+###### Art. 473.
 
 Não serão computadas para fins de determinação do lucro real das empresas que explorarem linhas aéreas regulares as importâncias por elas recebidas por força do disposto na Lei nº 4.200, de 5 de fevereiro de 1963 ( Lei nº 4.506, de 1964, art. 69 ).
 
@@ -12838,7 +12838,7 @@ Não serão computadas para fins de determinação do lucro real das empresas qu
 ###### Seção VI - Das companhias de seguros, capitalização e entidades de previdência privada
 
 
-###### Art. 474. {#art-474}
+###### Art. 474.
 
 As companhias de seguros e capitalização e as entidades de previdência privada poderão computar, como encargo de cada período de apuração, as importâncias destinadas a completar as provisões técnicas para garantia de suas operações, cuja constituição é exigida pela legislação especial a elas aplicável ( Lei nº 4.506, de 1964, art. 67 ; e Lei nº 9.249, de 1995, art. 13, caput, inciso I ).
 
@@ -12846,12 +12846,12 @@ As companhias de seguros e capitalização e as entidades de previdência privad
 ###### Seção VII - Das instituições autorizadas a funcionar pelo Banco Central do Brasil
 
 
-###### Art. 475. {#art-475}
+###### Art. 475.
 
 Desde que autorizados pelo Conselho Monetário Nacional, os custos, as despesas e os outros encargos com a reestruturação, a reorganização ou a modernização de instituições autorizadas a funcionar pelo Banco Central do Brasil, cujo efeito nos resultados operacionais ultrapasse o período de apuração em que ocorrerem, poderão ser amortizados em mais de um período de apuração ( Decreto-Lei nº 2.075, de 20 de dezembro de 1983, art. 1º e art. 5º ).
 
 
-###### Art. 476. {#art-476}
+###### Art. 476.
 
 Para fins de determinação da base de cálculo do imposto sobre a renda das pessoas jurídicas, as instituições financeiras e as demais instituições autorizadas a funcionar pelo Banco Central do Brasil devem computar como receitas ou despesas incorridas nas operações realizadas em mercados de liquidação futura (Lei nº 11.196, de 2005, art. 110, caput ) :
 
@@ -12905,7 +12905,7 @@ Para fins de determinação da base de cálculo do imposto sobre a renda das pes
 ###### Seção VIII - Da atividade rural
 
 
-###### Art. 477. {#art-477}
+###### Art. 477.
 
 A pessoa jurídica que tenha por objeto a exploração da atividade rural pagará o imposto sobre a renda e o adicional de acordo com as normas aplicáveis às demais pessoas jurídicas ( Lei nº 9.249, de 1995, art. 2º e art. 3º ).
 
@@ -12916,7 +12916,7 @@ A pessoa jurídica que tenha por objeto a exploração da atividade rural pagar�
 * **Produção em longo prazo**
 
 
-###### Art. 478. {#art-478}
+###### Art. 478.
 
 Na apuração do resultado de contratos com prazo de execução superior a um ano, de construção por empreitada ou de fornecimento, a preço pré-determinado, de bens ou serviços a serem produzidos, serão computados em cada período de apuração ( Decreto-Lei nº 1.598, de 1977, art. 10, caput, incisos I e II ):
 
@@ -12945,7 +12945,7 @@ Na apuração do resultado de contratos com prazo de execução superior a um an
 * **Produção em curto prazo**
 
 
-###### Art. 479. {#art-479}
+###### Art. 479.
 
 O disposto no art. 478 não se aplica às construções ou aos fornecimentos contratados com base em preço unitário de quantidades de bens ou serviços produzidos em prazo inferior a um ano, cujo resultado deverá ser reconhecido à medida da execução ( Decreto-Lei nº 1.598, de 1977, art. 10, § 2º ).
 
@@ -12953,7 +12953,7 @@ O disposto no art. 478 não se aplica às construções ou aos fornecimentos con
 * **Contratos com entidades governamentais**
 
 
-###### Art. 480. {#art-480}
+###### Art. 480.
 
 Na hipótese de empreitada ou fornecimento contratado, nas condições estabelecidas no art. 478 ou no art. 479 , com pessoa jurídica de direito público, ou empresa sob seu controle, empresa pública, sociedade de economia mista ou sua subsidiária, o contribuinte poderá diferir a tributação do lucro até sua realização, observadas as seguintes normas ( Decreto-Lei nº 1.598, de 1977, art. 10, § 3º ):
 
@@ -12984,7 +12984,7 @@ Na hipótese de empreitada ou fornecimento contratado, nas condições estabelec
 * **Determinação do custo**
 
 
-###### Art. 481. {#art-481}
+###### Art. 481.
 
 O contribuinte que comprar imóvel para venda ou promover empreendimento de desmembramento ou loteamento de terrenos, incorporação imobiliária ou construção de prédio destinado à venda, deverá, para fins de determinação do lucro real, manter, em observância às seguintes normas, registro permanente de estoques para determinar o custo dos imóveis vendidos ( Decreto-Lei nº 1.598, de 1977, art. 27, caput, incisos I e II ):
 
@@ -13004,7 +13004,7 @@ O contribuinte que comprar imóvel para venda ou promover empreendimento de desm
 * **Apuração do lucro bruto**
 
 
-###### Art. 482. {#art-482}
+###### Art. 482.
 
 O lucro bruto na venda de cada unidade será apurado e reconhecido quando contratada a venda, ainda que por meio de instrumento de promessa, ou quando implementada a condição suspensiva a que estiver sujeita a venda ( Decreto-Lei nº 1.598, de 1977, art. 27, § 1º ).
 
@@ -13012,7 +13012,7 @@ O lucro bruto na venda de cada unidade será apurado e reconhecido quando contra
 * **Venda anterior ao término do empreendimento**
 
 
-###### Art. 483. {#art-483}
+###### Art. 483.
 
 Se a venda for contratada antes de completado o empreendimento, o contribuinte poderá computar no custo do imóvel vendido, além dos custos pagos, incorridos ou contratados, os orçados para a conclusão das obras ou dos melhoramentos a que estiver contratualmente obrigado a realizar ( Decreto-Lei nº 1.598, de 1977, art. 28, caput ).
 
@@ -13034,7 +13034,7 @@ Se a venda for contratada antes de completado o empreendimento, o contribuinte p
 * **Venda a prazo ou em prestações**
 
 
-###### Art. 484. {#art-484}
+###### Art. 484.
 
 Na venda a prazo, ou em prestações, com pagamento após o término do período de apuração da venda, o lucro bruto de que trata o art. 482 poderá, para fins de determinação do lucro real, ser reconhecido proporcionalmente à receita de venda recebida, observadas as seguintes normas ( Decreto-Lei nº 1.598, de 1977, art. 29, caput ):
 
@@ -13063,7 +13063,7 @@ Na venda a prazo, ou em prestações, com pagamento após o término do período
 * **Permuta que envolva unidades imobiliárias**
 
 
-###### Art. 485. {#art-485}
+###### Art. 485.
 
 Na hipótese de operações de permuta que envolvam unidades imobiliárias, a parcela do lucro bruto decorrente da avaliação a valor justo das unidades permutadas será computada para fins de determinação do lucro real pelas pessoas jurídicas permutantes quando o imóvel recebido em permuta for alienado, inclusive como parte integrante do custo de outras unidades imobiliárias ou realizado a qualquer título, ou quando, a qualquer tempo, for classificada no ativo não circulante investimentos ou imobilizado ( Decreto-Lei nº 1.598, de 1977, art. 27, § 3º ).
 Parágrafo único. O disposto no caput será disciplinado pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda ( Decreto-Lei nº 1.598, de 1977, art. 27, § 4º ).
@@ -13072,12 +13072,12 @@ Parágrafo único. O disposto no caput será disciplinado pela Secretaria da Rec
 * **Regime especial de tributação aplicável às incorporações imobiliárias**
 
 
-###### Art. 486. {#art-486}
+###### Art. 486.
 
 O regime especial de tributação é aplicável às incorporações imobiliárias, em caráter opcional e irretratável, enquanto perdurarem direitos de crédito ou obrigações do incorporador junto aos adquirentes dos imóveis que compõem a incorporação (Lei nº 10.931, de 2004, art. 1º) .
 
 
-###### Art. 487. {#art-487}
+###### Art. 487.
 
 A opção pelo regime especial de tributação de que trata o art. 486 será efetivada quando cumpridos os seguintes requisitos (Lei nº 10.931, de 2004, art. 2º) :
 
@@ -13088,13 +13088,13 @@ A opção pelo regime especial de tributação de que trata o art. 486 será efe
 
 
 
-###### Art. 488. {#art-488}
+###### Art. 488.
 
 O terreno e as acessões objeto da incorporação imobiliária sujeitas ao regime especial de tributação, e os demais bens e direitos a ela vinculados, não responderão por dívidas tributárias da incorporadora relativas ao imposto sobre a renda das pessoas jurídicas, à CSLL, à Cofins e à Contribuição para o PIS/Pasep, exceto aquelas calculadas na forma estabelecida no art. 489 sobre as receitas auferidas no âmbito da incorporação (Lei nº 10.931, de 2004, art. 3º, caput).
 Parágrafo único. O patrimônio da incorporadora responderá pelas dívidas tributárias da incorporação afetada (Lei nº 10.931, de 2004, art. 3º, parágrafo único) .
 
 
-###### Art. 489. {#art-489}
+###### Art. 489.
 
 Para cada incorporação submetida ao regime especial de tributação, a incorporadora ficará sujeita ao pagamento equivalente a quatro por cento da receita mensal recebida, o qual corresponderá ao pagamento mensal unificado dos seguintes imposto e contribuições (Lei nº 10.931, de 2004, art. 4º, caput) :
 
@@ -13155,7 +13155,7 @@ Para cada incorporação submetida ao regime especial de tributação, a incorpo
 
 
 
-###### Art. 490. {#art-490}
+###### Art. 490.
 
 O incorporador fica obrigado a manter escrituração contábil segregada para cada incorporação submetida ao regime especial de tributação (Lei nº 10.931, de 2004, art. 7º) .
 
@@ -13163,7 +13163,7 @@ O incorporador fica obrigado a manter escrituração contábil segregada para ca
 * **Regime especial de tributação aplicável à construção ou à reforma de estabelecimentos de educação infantil**
 
 
-###### Art. 491. {#art-491}
+###### Art. 491.
 
 É aplicável à construção ou à reforma de estabelecimentos de educação infantil o regime especial de tributação de que tratam os art. 24 ao art. 27 da Lei nº 12.715, de 2012 (Lei nº 12.715, de 2012, art. 24, caput) .
 
@@ -13203,7 +13203,7 @@ O incorporador fica obrigado a manter escrituração contábil segregada para ca
 
 
 
-###### Art. 492. {#art-492}
+###### Art. 492.
 
 Para cada obra submetida ao regime especial de tributação, a construtora ficará sujeita ao pagamento equivalente a um por cento da receita mensal recebida, que corresponderá ao pagamento mensal unificado dos seguintes imposto e contribuições (Lei nº 12.715, de 2012, art. 25, caput) :
 
@@ -13234,7 +13234,7 @@ Para cada obra submetida ao regime especial de tributação, a construtora ficar
 
 
 
-###### Art. 493. {#art-493}
+###### Art. 493.
 
 A opção pelo regime especial de tributação previsto no art. 491 obriga o contribuinte a fazer o recolhimento dos tributos a partir do mês da opção ( Lei nº 12.715, de 2012, art. 26, caput) .
 
@@ -13248,7 +13248,7 @@ A opção pelo regime especial de tributação previsto no art. 491 obriga o con
 
 
 
-###### Art. 494. {#art-494}
+###### Art. 494.
 
 A construtora fica obrigada a manter escrituração contábil segregada para cada obra submetida ao regime especial de tributação (Lei nº 12.715, de 2012, art. 27) .
 
@@ -13256,7 +13256,7 @@ A construtora fica obrigada a manter escrituração contábil segregada para cad
 * **Pagamento unificado de tributos aplicável às construções no âmbito do Programa Minha Casa, Minha Vida**
 
 
-###### Art. 495. {#art-495}
+###### Art. 495.
 
 Até 31 de dezembro de 2018, a empresa construtora contratada para construir unidades habitacionais de valor de até R$ 100.000,00 (cem mil reais) no âmbito do PMCMV, de que trata Lei nº 11.977, de 2009 , fica autorizada, em caráter opcional, a efetuar o pagamento unificado equivalente a um por cento da receita mensal auferida pelo contrato de construção ( Lei nº 12.024, de 2009, art. 2 º, caput ).
 
@@ -13305,12 +13305,12 @@ Até 31 de dezembro de 2018, a empresa construtora contratada para construir uni
 ###### Seção XI - Do arrendamento mercantil
 
 
-###### Art. 496. {#art-496}
+###### Art. 496.
 
 O tratamento tributário das operações de arrendamento mercantil será regido pelo disposto na Lei nº 6.099, de 1974 , nas operações em que seja obrigatória a sua observância.
 
 
-###### Art. 497. {#art-497}
+###### Art. 497.
 
 Na hipótese de operações de arrendamento mercantil que não estejam sujeitas ao tratamento tributário previsto pela Lei nº 6.099, de 1974 , as pessoas jurídicas arrendadoras deverão reconhecer, para fins de apuração do lucro real, o resultado relativo à operação de arrendamento mercantil proporcionalmente ao valor de cada contraprestação durante o período de vigência do contrato (Lei nº 12.973, de 2014, art. 46, caput ) .
 
@@ -13337,13 +13337,13 @@ Na hipótese de operações de arrendamento mercantil que não estejam sujeitas 
 ###### Seção XII - Dos contratos de concessão de serviços públicos
 
 
-###### Art. 498. {#art-498}
+###### Art. 498.
 
 Na hipótese de contrato de concessão de serviços públicos em que a concessionária reconheça como receita o direito de exploração recebido do poder concedente, o resultado decorrente desse reconhecimento deverá ser computado no lucro real à medida que ocorrer a realização do ativo intangível, inclusive por meio de amortização, alienação ou baixa (Lei nº 12.973, de 2014, art. 35, caput) .
 Parágrafo único. Para fins dos pagamentos mensais a que se refere o art. 219 , a receita de que trata o caput não integrará a base de cálculo, exceto na hipótese prevista no art. 227 (Lei nº 12.973, de 2014, art. 35, parágrafo único) .
 
 
-###### Art. 499. {#art-499}
+###### Art. 499.
 
 Na hipótese de contrato de concessão de serviços públicos, o lucro decorrente da receita reconhecida pela construção, pela recuperação, pela reforma, pela ampliação ou pelo melhoramento da infraestrutura, cuja contrapartida seja ativo financeiro representativo de direito contratual incondicional de receber caixa ou outro ativo financeiro, poderá ser tributado à medida do efetivo recebimento (Lei nº 12.973, de 2014, art. 36, caput ).
 Parágrafo único. Para fins dos pagamentos mensais determinados sobre a base de cálculo estimada a que se refere o art. 213 , a concessionária poderá considerar como receita o montante efetivamente recebido ( Lei nº 12.973, de 2014, art. 36, parágrafo único) .
@@ -13352,7 +13352,7 @@ Parágrafo único. Para fins dos pagamentos mensais determinados sobre a base de
 * **Aportes de recursos nas parcerias público-privadas**
 
 
-###### Art. 500. {#art-500}
+###### Art. 500.
 
 No caso dos contratos de parceria público-privada de que trata a Lei nº 11.079, de 2004 , o valor dos aportes de recursos realizados nos termos do disposto no § 2º do art. 6º da referida Lei poderá ser excluído do lucro líquido, para fins de determinação do lucro real (Lei nº 11.079, de 2004, art. 6º, § 3º, inciso I) .
 
@@ -13390,7 +13390,7 @@ No caso dos contratos de parceria público-privada de que trata a Lei nº 11.079
 * **Subseção I - Disposições gerais**
 
 
-###### Art. 501. {#art-501}
+###### Art. 501.
 
 Serão classificados como ganhos ou perdas de capital e computados, para fins de determinação do lucro real, os resultados na alienação, na desapropriação, na baixa por perecimento, na extinção, no desgaste, na obsolescência ou na exaustão, ou na liquidação de bens do ativo não circulante, classificados como investimentos, imobilizado ou intangível ( Decreto-Lei nº 1.598, de 1977, art. 31, caput ).
 
@@ -13407,7 +13407,7 @@ Serão classificados como ganhos ou perdas de capital e computados, para fins de
 * **Devolução de capital em bens ou direitos**
 
 
-###### Art. 502. {#art-502}
+###### Art. 502.
 
 Os bens e os direitos do ativo da pessoa jurídica, que forem entregues ao titular, ao sócio ou ao acionista, a título de devolução de sua participação no capital social, poderão ser avaliados pelo valor contábil ou pelo valor de mercado ( Lei nº 9.249, de 1995, art. 22, caput ).
 Parágrafo único. Na hipótese de a devolução realizar-se pelo valor de mercado, a diferença entre este valor e o valor contábil dos bens ou dos direitos entregues será considerada ganho de capital, que será computado nos resultados da pessoa jurídica tributada com base no lucro real ( Lei nº 9.249, de 1995, art. 22, § 1º ).
@@ -13416,7 +13416,7 @@ Parágrafo único. Na hipótese de a devolução realizar-se pelo valor de merca
 * **Subseção II - Das vendas a longo prazo**
 
 
-###### Art. 503. {#art-503}
+###### Art. 503.
 
 Nas vendas de bens do ativo não circulante classificados como investimentos, imobilizado ou intangível, para recebimento do preço, no todo ou em parte, após o término do ano-calendário seguinte ao da contratação, o contribuinte poderá, para fins de determinar o lucro real, reconhecer o lucro na proporção da parcela do preço recebida em cada período de apuração ( Decreto-Lei nº 1.598, de 1977, art. 31, § 2º ).
 Parágrafo único. Caso o contribuinte tenha reconhecido o lucro na escrituração comercial no período de apuração em que ocorreu a venda, os ajustes e o controle decorrentes da aplicação do disposto neste artigo serão efetuados no Lalur ( Decreto-Lei nº 1.598, de 1977, art. 6º, §2º e §3º , e art. 8º, caput, inciso I ).
@@ -13428,7 +13428,7 @@ Parágrafo único. Caso o contribuinte tenha reconhecido o lucro na escrituraç�
 * **Diferimento da tributação**
 
 
-###### Art. 504. {#art-504}
+###### Art. 504.
 
 O contribuinte poderá diferir a tributação do ganho de capital obtido na desapropriação de bens, desde que ( Decreto-Lei nº 1.598, de 1977, art. 31, § 4º, alíneas “a” ao “c” ; e Lei nº 6.404, de 1976, art. 178, § 1º) :
 
@@ -13454,7 +13454,7 @@ O contribuinte poderá diferir a tributação do ganho de capital obtido na desa
 * **Desapropriação para fins de reforma agrária**
 
 
-###### Art. 505. {#art-505}
+###### Art. 505.
 
 Fica isento do imposto sobre a renda o ganho obtido nas operações de transferência de imóveis desapropriados para fins de reforma agrária ( Constituição, art. 184, § 5º ).
 
@@ -13462,7 +13462,7 @@ Fica isento do imposto sobre a renda o ganho obtido nas operações de transfer�
 * **Subseção IV - Das perdas na alienação de bens tomados em arrendamento mercantil pelo vendedor**
 
 
-###### Art. 506. {#art-506}
+###### Art. 506.
 
 Não será dedutível, para fins de determinação do lucro real, a perda apurada na alienação de bem que vier a ser tomado em arrendamento mercantil pela própria vendedora ou pela pessoa jurídica a ela vinculada (Lei nº 6.099, de 1974, art. 9º, parágrafo único).
 
@@ -13470,7 +13470,7 @@ Não será dedutível, para fins de determinação do lucro real, a perda apurad
 * **Subseção V - Do resultado na alienação de investimento avaliado pelo valor de patrimônio líquido**
 
 
-###### Art. 507. {#art-507}
+###### Art. 507.
 
 O valor contábil, para fins de determinar o ganho ou a perda de capital na alienação ou na liquidação do investimento avaliado pelo valor de patrimônio líquido de acordo com o disposto no art. 420 , será a soma algébrica dos seguintes valores ( Decreto-Lei nº 1.598, de 1977, art. 33, caput, incisos I e II ):
 
@@ -13481,12 +13481,12 @@ O valor contábil, para fins de determinar o ganho ou a perda de capital na alie
 
 
 
-###### Art. 508. {#art-508}
+###### Art. 508.
 
 A baixa do investimento de que trata o art. 507 deverá ser precedida de avaliação pelo valor de patrimônio líquido, com base em balanço patrimonial ou balancete de verificação da investida levantado na data da alienação ou da liquidação ou em até trinta dias, no máximo, antes dessa data (Lei nº 7.799, de 10 de julho de 1989, art. 27 ; e Lei nº 9.249, de 1995, art. 4º ).
 
 
-###### Art. 509. {#art-509}
+###### Art. 509.
 
 Não será computado, para fins de determinação do lucro real, o acréscimo ou a diminuição do valor de patrimônio líquido de investimento decorrente de ganho ou perda por variação na percentagem de participação do contribuinte no capital social da investida ( Decreto-Lei nº 1.598, de 1977, art. 33, § 2º ).
 
@@ -13494,7 +13494,7 @@ Não será computado, para fins de determinação do lucro real, o acréscimo ou
 * **Subseção VI - Das perdas na alienação de bens e valores oriundos de incentivos fiscais**
 
 
-###### Art. 510. {#art-510}
+###### Art. 510.
 
 Não será dedutível, para fins de determinação do lucro real, a perda apurada na alienação ou na baixa de investimento adquirido por meio de dedução do imposto sobre a renda devido pela pessoa jurídica ( Decreto-Lei nº 1.648, de 18 de dezembro de 1978, art. 6º ).
 
@@ -13502,7 +13502,7 @@ Não será dedutível, para fins de determinação do lucro real, a perda apurad
 * **Subseção VII - Do Programa Nacional de Desestatização**
 
 
-###### Art. 511. {#art-511}
+###### Art. 511.
 
 Terá o tratamento de permuta a entrega, pelo licitante vencedor, de títulos da dívida pública federal ou de outros créditos contra a União, como contrapartida à aquisição das ações ou das quotas leiloadas no âmbito do PND ( Lei nº 8.383, de 1991, art. 65, caput ).
 
@@ -13526,13 +13526,13 @@ Terá o tratamento de permuta a entrega, pelo licitante vencedor, de títulos da
 
 
 
-###### Art. 512. {#art-512}
+###### Art. 512.
 
 Os ganhos de capital na alienação de participações acionárias de propriedade de sociedades criadas pelos Estados, pelos Municípios ou pelo Distrito Federal, com a finalidade de contribuir para o saneamento das finanças dos controladores, no âmbito de programas de privatização, ficam isentos do imposto sobre a renda ( Lei nº 9.532, de 1997, art. 79, caput ).
 Parágrafo único. A isenção de que trata este artigo fica condicionada à aplicação exclusiva do produto da alienação das participações acionárias no pagamento de dívidas dos Estados, do Distrito Federal ou dos Municípios ( Lei nº 9.532, de 1997, art. 79, parágrafo único ).
 
 
-###### Art. 513. {#art-513}
+###### Art. 513.
 
 Não incidirá o imposto sobre a renda na utilização dos créditos correspondentes às dívidas novadas pelas instituições do Sistema Financeiro da Habitação - SFH, junto ao Fundo de Compensações de Variações Salariais - FCVS, como contrapartida da aquisição de bens e direitos no âmbito do PND, observado o disposto nos § 1º e § 2º do art. 511 (Lei nº 10.150, de 21 de dezembro de 2000, art. 6º e art. 9º) .
 Parágrafo único. O disposto neste artigo não se aplica ao ganho de capital auferido nas operações de alienação a terceiros dos créditos advindos das dívidas novadas de que trata o caput ou dos bens e dos direitos adquiridos no âmbito do PND (Lei nº 10.150, de 2000, art. 6º e art. 9º) .
@@ -13541,7 +13541,7 @@ Parágrafo único. O disposto neste artigo não se aplica ao ganho de capital au
 * **Subseção VIII - Das perdas em operações financeiras**
 
 
-###### Art. 514. {#art-514}
+###### Art. 514.
 
 Não serão dedutíveis, para fins de apuração do lucro real, as perdas apuradas nas operações:
 
@@ -13570,7 +13570,7 @@ Não serão dedutíveis, para fins de apuração do lucro real, as perdas apurad
 ###### Seção II - Das reservas de reavaliação remanescentes
 
 
-###### Art. 515. {#art-515}
+###### Art. 515.
 
 As disposições contidas nesta Seção aplicam-se somente aos saldos da reserva de reavaliação remanescentes na escrituração comercial de 31 de dezembro de 2013, ou 31 de dezembro de 2014, conforme o disposto no art. 211 , e até a realização completa desses saldos (Lei nº 12.973, de 2014, art. 60) .
 
@@ -13581,7 +13581,7 @@ As disposições contidas nesta Seção aplicam-se somente aos saldos da reserva
 * **Tributação na realização**
 
 
-###### Art. 516. {#art-516}
+###### Art. 516.
 
 A contrapartida da reavaliação de bens da pessoa jurídica somente poderá ser computada em conta de resultado ou para fins de determinação do lucro real quando ocorrer a efetiva realização do bem reavaliado (Lei nº 9.959, de 2000, art. 4º) .
 Parágrafo único. Para os fins do disposto neste artigo, a efetiva realização do bem reavaliado é considerada como ocorrida quando o bem for ( Decreto-Lei nº 1598, de 1977, art. 35, § 1º, alínea “b” ):
@@ -13599,7 +13599,7 @@ Parágrafo único. Para os fins do disposto neste artigo, a efetiva realização
 * **Subseção II - Da reserva de reavaliação na subscrição de capital ou valores mobiliários**
 
 
-###### Art. 517. {#art-517}
+###### Art. 517.
 
 A contrapartida do aumento do valor de bens do ativo incorporados ao patrimônio de outra pessoa jurídica, na subscrição em bens de capital social ou de valores mobiliários emitidos por companhia, não será computada para fins de determinação do lucro real enquanto mantida em conta de reserva de reavaliação ( Decreto-Lei nº 1.598, de 1977, art. 36, caput ).
 Parágrafo único. O valor da reserva deverá ser computado para fins de determinação do lucro real ( Decreto-Lei nº 1.598, de 1977, art. 36, parágrafo único ):
@@ -13617,13 +13617,13 @@ Parágrafo único. O valor da reserva deverá ser computado para fins de determi
 * **Subseção III - Da reserva de reavaliação na fusão, na incorporação ou na cisão**
 
 
-###### Art. 518. {#art-518}
+###### Art. 518.
 
 A contrapartida do aumento do valor de bens do ativo em decorrência de reavaliação na fusão, na incorporação ou na cisão não será computada para determinar o lucro real enquanto mantida em reserva de reavaliação na sociedade resultante da fusão ou da incorporação, na sociedade cindida ou em uma ou mais das sociedades resultantes da cisão ( Decreto-Lei nº 1.598, de 1977, art. 37, caput ).
 Parágrafo único. O valor da reserva deverá ser computado para fins de determinação do lucro real de acordo com o disposto no art. 516 ( Decreto-Lei nº 1.598, de 1977, art. 37, parágrafo único ).
 
 
-###### Art. 519. {#art-519}
+###### Art. 519.
 
 As reservas de reavaliação transferidas por ocasião da incorporação, da fusão ou da cisão terão, na sucessora, o mesmo tratamento tributário que teriam na sucedida.
 
@@ -13631,7 +13631,7 @@ As reservas de reavaliação transferidas por ocasião da incorporação, da fus
 ###### Seção III - Das contribuições de subscritores de valores mobiliários
 
 
-###### Art. 520. {#art-520}
+###### Art. 520.
 
 Não serão computadas, para fins de determinação do lucro real, as importâncias creditadas a reservas de capital que o contribuinte, com a forma de companhia, receber dos subscritores de valores mobiliários de sua emissão a título de ( Decreto-Lei nº 1.598, de 1977, art. 38, caput ):
 
@@ -13649,7 +13649,7 @@ Parágrafo único. O prejuízo na venda de ações em tesouraria não será dedu
 * **Encargos com emissão de ações ou bônus de subscrição**
 
 
-###### Art. 521. {#art-521}
+###### Art. 521.
 
 Os custos associados às transações destinadas à obtenção de recursos próprios, por meio da distribuição primária de ações ou bônus de subscrição contabilizados no patrimônio líquido, poderão ser excluídos, para fins de determinação do lucro real, quando incorridos ( Decreto-Lei nº 1.598, de 1977, art. 38-A ).
 
@@ -13657,7 +13657,7 @@ Os custos associados às transações destinadas à obtenção de recursos próp
 * **Encargos referentes a instrumentos de capital ou de dívida subordinada**
 
 
-###### Art. 522. {#art-522}
+###### Art. 522.
 
 A remuneração, os encargos, as despesas e os demais custos, ainda que contabilizados no patrimônio líquido, referentes a instrumentos de capital ou de dívida subordinada, emitidos pela pessoa jurídica, exceto na forma de ações, poderão ser excluídos para fins de determinação do lucro real quando incorridos ( Decreto-Lei nº 1.598, de 1977, art. 38-B, caput ).
 
@@ -13674,7 +13674,7 @@ A remuneração, os encargos, as despesas e os demais custos, ainda que contabil
 ###### Seção IV - Das subvenções para investimento e doações públicas
 
 
-###### Art. 523. {#art-523}
+###### Art. 523.
 
 As subvenções para investimento, inclusive por meio de isenção ou de redução de impostos, concedidas como estímulo à implantação ou à expansão de empreendimentos econômicos e as doações feitas pelo poder público não serão computadas para fins de determinação do lucro real, desde que sejam registradas na reserva de lucros a que se refere o art. 195-A da Lei nº 6.404, de 1976 , que somente poderá ser utilizada para (Lei nº 12.973, de 2014, art. 30, caput ) :
 
@@ -13711,7 +13711,7 @@ As subvenções para investimento, inclusive por meio de isenção ou de reduç�
 * **Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição**
 
 
-###### Art. 524. {#art-524}
+###### Art. 524.
 
 Até 31 de dezembro de 2013, ou 31 de dezembro de 2014, conforme disposto no art. 211 , o valor das subvenções para investimento concedidas pelo Poder Público, como estímulo à implantação ou à expansão de empreendimentos econômicos por meio de doações, isenções ou reduções de impostos não deve ser computado para fins de determinação do lucro real se a pessoa jurídica sujeita ao RTT, nos termos estabelecidos no art. 213 , observou os procedimentos exigidos à época da concessão (Lei nº 11.941, de 2009, art. 18) .
 
@@ -13719,7 +13719,7 @@ Até 31 de dezembro de 2013, ou 31 de dezembro de 2014, conforme disposto no art
 ###### Seção V - Do capital de seguro por morte de sócio
 
 
-###### Art. 525. {#art-525}
+###### Art. 525.
 
 O capital das apólices de seguros ou pecúlio em favor da pessoa jurídica, pago por morte do sócio segurado, não será computado para fins de determinação do lucro real ( Decreto-Lei nº 5.844, de 1943, art. 43, § 2º, alínea “f” ).
 
@@ -13733,7 +13733,7 @@ O capital das apólices de seguros ou pecúlio em favor da pessoa jurídica, pag
 * **Subseção I - Das participações dedutíveis**
 
 
-###### Art. 526. {#art-526}
+###### Art. 526.
 
 Podem ser deduzidas do lucro líquido do período de apuração as participações nos lucros da pessoa jurídica ( Decreto-Lei nº 1.598, de 1977, art. 58, caput ):
 
@@ -13747,7 +13747,7 @@ Podem ser deduzidas do lucro líquido do período de apuração as participaçõ
 * **Subseção II - Das participações não dedutíveis**
 
 
-###### Art. 527. {#art-527}
+###### Art. 527.
 
 Serão adicionadas ao lucro líquido do período de apuração, para fins de determinação do lucro real, as participações nos lucros da pessoa jurídica atribuídas a partes beneficiárias de sua emissão e a seus administradores ( Decreto-Lei nº 1.598, de 1977, art. 58, parágrafo único ).
 Parágrafo único. Não são dedutíveis as participações no lucro atribuídas a técnicos estrangeiros, domiciliados ou residentes no exterior, para execução de serviços especializados, em caráter provisório ( Decreto-Lei nº 691, de 18 de julho de 1969, art. 2º, parágrafo único ).
@@ -13756,7 +13756,7 @@ Parágrafo único. Não são dedutíveis as participações no lucro atribuídas
 ###### Seção II - Dos lucros distribuídos disfarçadamente
 
 
-###### Art. 528. {#art-528}
+###### Art. 528.
 
 Presume-se distribuição disfarçada de lucros no negócio pelo qual a pessoa jurídica ( Decreto-Lei nº 1.598, de 1977, art. 60, caput, incisos I ao IV, VI e VII ):
 
@@ -13796,7 +13796,7 @@ Presume-se distribuição disfarçada de lucros no negócio pelo qual a pessoa j
 * **Pessoas ligadas e valor de mercado**
 
 
-###### Art. 529. {#art-529}
+###### Art. 529.
 
 Considera-se pessoa ligada à pessoa jurídica ( Decreto-Lei nº 1.598, de 1977, art. 60, § 3º ):
 
@@ -13832,7 +13832,7 @@ Considera-se pessoa ligada à pessoa jurídica ( Decreto-Lei nº 1.598, de 1977,
 * **Distribuição a sócio ou acionista controlador por intermédio de terceiros**
 
 
-###### Art. 530. {#art-530}
+###### Art. 530.
 
 Se a pessoa ligada for sócio ou acionista controlador da pessoa jurídica, será presumida a distribuição disfarçada de lucros, ainda que os negócios de que tratam o inciso I ao inciso VI do caput do art. 528 sejam realizados com a pessoa ligada por intermédio de outrem, ou com sociedade na qual a pessoa ligada tenha, direta ou indiretamente, interesse ( Decreto-Lei nº 1.598, de 1977, art. 61, caput ).
 Parágrafo único. Para fins do disposto neste artigo, sócio ou acionista controlador é a pessoa física ou jurídica que, diretamente ou por meio de sociedade ou sociedades sob seu controle, seja titular de direitos de sócio ou acionista que lhe assegurem, de modo permanente, a maioria de votos nas deliberações da sociedade ( Decreto-Lei nº 1.598, de 1977, art. 61, parágrafo único ).
@@ -13841,7 +13841,7 @@ Parágrafo único. Para fins do disposto neste artigo, sócio ou acionista contr
 * **Subseção única - Do cômputo na determinação do lucro real**
 
 
-###### Art. 531. {#art-531}
+###### Art. 531.
 
 Para fins de determinação do lucro real da pessoa jurídica, na hipótese prevista ( Decreto-Lei nº 1.598, de 1977, art. 62, caput, incisos I ao III, V e VI ):
 
@@ -13861,7 +13861,7 @@ Para fins de determinação do lucro real da pessoa jurídica, na hipótese prev
 
 
 
-###### Art. 532. {#art-532}
+###### Art. 532.
 
 O disposto no art. 531 aplica-se aos lucros disfarçadamente distribuídos e não prejudica as normas de indedutibilidade estabelecidas neste Regulamento.
 
@@ -13872,7 +13872,7 @@ O disposto no art. 531 aplica-se aos lucros disfarçadamente distribuídos e nã
 * **Doação**
 
 
-###### Art. 533. {#art-533}
+###### Art. 533.
 
 Para fins do disposto neste Capítulo, considera-se doação a transferência gratuita, em caráter definitivo, à pessoa física ou jurídica de natureza cultural, sem fins lucrativos, de numerário ou bens para a realização de projetos culturais, vedado o uso de publicidade paga para divulgação deste ato.
 Parágrafo único. Equiparam-se a doações, nos termos do regulamento do Pronac (Lei nº 8.313, de 1991, art. 24) :
@@ -13896,7 +13896,7 @@ Parágrafo único. Equiparam-se a doações, nos termos do regulamento do Pronac
 * **Patrocínio**
 
 
-###### Art. 534. {#art-534}
+###### Art. 534.
 
 Considera-se patrocínio (Lei nº 8.313, de 1991, art. 23, caput, inciso II) :
 
@@ -13911,7 +13911,7 @@ Parágrafo único. O recebimento, pelo patrocinador, de qualquer vantagem financ
 * **Vedações**
 
 
-###### Art. 535. {#art-535}
+###### Art. 535.
 
 A doação ou o patrocínio não poderão ser efetuados a pessoa ou a instituição vinculada ao agente (Lei nº 8.313, de 1991, art. 27, caput) .
 
@@ -13934,7 +13934,7 @@ A doação ou o patrocínio não poderão ser efetuados a pessoa ou a instituiç
 
 
 
-###### Art. 536. {#art-536}
+###### Art. 536.
 
 Os incentivos de que trata este Capítulo somente serão concedidos a projetos culturais cuja exibição, utilização e circulação dos bens culturais deles resultantes sejam abertas, sem distinção a qualquer pessoa, se gratuitas, e ao público pagante, se cobrado ingresso, vedada a concessão de incentivo a obras, produtos, eventos ou outros decorrentes, destinados ou circunscritos a coleções particulares ou circuitos privados que estabeleçam limitações de acesso (Lei nº 8.313, de 1991, art. 2º, § 1º e § 2º) .
 
@@ -13968,7 +13968,7 @@ Os incentivos de que trata este Capítulo somente serão concedidos a projetos c
 
 
 
-###### Art. 537. {#art-537}
+###### Art. 537.
 
 A pessoa jurídica tributada com base no lucro real poderá deduzir do imposto sobre a renda devido as contribuições, a título de doações e patrocínios, efetivamente realizadas no período de apuração em favor de projetos culturais devidamente aprovados, observado o disposto no regulamento do Pronac e nos art. 538 e art. 539 (Lei nº 8.313, de 1991, art. 1º, art. 2º , art. 25 e art. 26 ).
 
@@ -13990,7 +13990,7 @@ A pessoa jurídica tributada com base no lucro real poderá deduzir do imposto s
 * **Doação e patrocínio a projetos culturais de segmentos específicos**
 
 
-###### Art. 538. {#art-538}
+###### Art. 538.
 
 Na forma e nas condições previstas no caput do art. 537 , a pessoa jurídica tributada com base no lucro real poderá deduzir do imposto sobre a renda devido as quantias efetivamente despendidas, a título de doações e patrocínios, com base no art. 18 da Lei nº 8.313, de 1991 , na produção cultural dos seguintes segmentos (Lei nº 8.313, de 1991, art. 18, caput e § 1º e § 3º) :
 
@@ -14031,7 +14031,7 @@ Na forma e nas condições previstas no caput do art. 537 , a pessoa jurídica t
 * **Doação e patrocínio aos demais projetos culturais**
 
 
-###### Art. 539. {#art-539}
+###### Art. 539.
 
 As doações ou os patrocínios efetuados pela pessoa jurídica tributada com base no lucro real, em favor de projetos culturais amparados pelo art. 26 da Lei nº 8.313, de 1991 , na forma e nas condições previstas no caput do art. 537, poderão ser deduzidos do imposto sobre a renda devido, a cada período de apuração, nos percentuais máximos de (Lei nº 8.313, de 1991, art. 26, caput, inciso II) :
 
@@ -14052,7 +14052,7 @@ As doações ou os patrocínios efetuados pela pessoa jurídica tributada com ba
 * **Doação e patrocínio a projetos culturais decorrentes do exterior**
 
 
-###### Art. 540. {#art-540}
+###### Art. 540.
 
 Os projetos produzidos com os recursos da opção por aplicar o valor correspondente a três por cento do valor do pagamento, do crédito, do emprego, da remessa ou da entrega aos produtores, aos distribuidores ou aos intermediários no exterior, de que trata o inciso X do caput do art. 39 da Medida Provisória nº 2.228-1, de 2001 , poderão utilizar os incentivos na forma prevista nos art. 538 e art. 539 ( Medida Provisória nº 2.228-1, de 2001, art. 39, caput, inciso X, e § 6º ).
 
@@ -14060,7 +14060,7 @@ Os projetos produzidos com os recursos da opção por aplicar o valor correspond
 * **Patrimônio artístico, cultural e histórico da Rede Ferroviária Federal S.A.**
 
 
-###### Art. 541. {#art-541}
+###### Art. 541.
 
 A preservação e a difusão da memória ferroviária, constituída pelo patrimônio artístico, cultural e histórico do setor ferroviário, da extinta Rede Ferroviária Federal S.A. - RFFSA, poderá ser financiada, dentre outras formas, por meio de recursos captados e canalizados pelo Pronac, na forma estabelecia nos art. 537 e art. 540 (Lei nº 11.483, de 31 de maio de 2007, art. 9º, § 3º) .
 Parágrafo único. O disposto no caput será promovido por meio de (Lei nº 11.483, de 2007, art. 9º, § 2º):
@@ -14075,7 +14075,7 @@ Parágrafo único. O disposto no caput será promovido por meio de (Lei nº 11.4
 * **Possibilidade de utilização concomitante de incentivos**
 
 
-###### Art. 542. {#art-542}
+###### Art. 542.
 
 Os projetos que receberem os incentivos previstos no Capítulo X deste Título poderão usufruir os benefícios previstos neste Capítulo, desde que enquadrados em seus objetivos, limitado o total desses incentivos a noventa e cinco por cento do total do orçamento aprovado pela Ancine (Lei nº 8.685, de 1993, art. 4º, § 5º) .
 
@@ -14083,7 +14083,7 @@ Os projetos que receberem os incentivos previstos no Capítulo X deste Título p
 * **Intermediação**
 
 
-###### Art. 543. {#art-543}
+###### Art. 543.
 
 Nenhuma aplicação dos recursos previstos neste Capítulo poderá ser feita por meio de qualquer tipo de intermediação (Lei nº 8.313, de 1991, art. 28, caput ) .
 Parágrafo único. A contratação de serviços necessários à elaboração de projetos para obtenção de doação, patrocínio ou investimento e a captação de recursos ou a sua execução por pessoa jurídica de natureza cultural não configura intermediação referida neste artigo (Lei nº 8.313, de 1991, art. 28, parágrafo único) .
@@ -14092,7 +14092,7 @@ Parágrafo único. A contratação de serviços necessários à elaboração de 
 * **Fiscalização**
 
 
-###### Art. 544. {#art-544}
+###### Art. 544.
 
 Compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda a fiscalização da aplicação dos incentivos fiscais previstos neste Capítulo (Lei nº 8.313, de 1991, art. 36) .
 Parágrafo único. As entidades incentivadoras e captadoras dos recursos previstos neste Capítulo deverão comunicar, na forma estabelecida pelos Ministros de Estado da Fazenda e da Cultura, os aportes financeiros realizados e recebidos, e as entidades captadoras deverão efetuar a comprovação de sua aplicação (Lei nº 8.313, de 1991, art. 21) .
@@ -14101,7 +14101,7 @@ Parágrafo único. As entidades incentivadoras e captadoras dos recursos previst
 * **Infrações**
 
 
-###### Art. 545. {#art-545}
+###### Art. 545.
 
 As infrações ao disposto neste Capítulo, sem prejuízo das sanções penais cabíveis, sujeitarão o doador ou o patrocinador ao pagamento do valor do imposto sobre a renda devido em relação a cada período de apuração, além das penalidades e dos demais acréscimos legais (Lei nº 8.313, de 1991, art. 30, caput) .
 
@@ -14124,7 +14124,7 @@ As infrações ao disposto neste Capítulo, sem prejuízo das sanções penais c
 * **Investimentos**
 
 
-###### Art. 546. {#art-546}
+###### Art. 546.
 
 Até o exercício financeiro de 2017, inclusive, as pessoas jurídicas poderão deduzir do imposto sobre a renda devido as quantias referentes a investimentos feitos na produção de obras audiovisuais cinematográficas brasileiras de produção independente, por meio da aquisição de quotas representativas de direitos de comercialização sobre as referidas obras, desde que esses investimentos sejam realizados no mercado de capitais, em ativos previstos em lei e autorizados pela CVM, e os projetos de produção tenham sido previamente aprovados pela Ancine, na forma de regulamento específico (Lei nº 8.685, de 1993, art. 1º, caput ) .
 
@@ -14156,7 +14156,7 @@ Até o exercício financeiro de 2017, inclusive, as pessoas jurídicas poderão 
 * **Patrocínio**
 
 
-###### Art. 547. {#art-547}
+###### Art. 547.
 
 Até o ano-calendário de 2017, inclusive, as pessoas jurídicas tributadas com base no lucro real poderão deduzir do imposto sobre a renda devido as quantias referentes ao patrocínio à produção de obras cinematográficas brasileiras de produção independente cujos projetos tenham sido previamente aprovados pela Ancine (Lei nº 8.685, de 1993, art. 1º-A, caput) .
 
@@ -14188,7 +14188,7 @@ Até o ano-calendário de 2017, inclusive, as pessoas jurídicas tributadas com 
 * **Abatimento**
 
 
-###### Art. 548. {#art-548}
+###### Art. 548.
 
 Os contribuintes do imposto sobre a renda incidente na fonte de que tratam o § 1º do art. 764 e o § 1º do art. 766 poderão se beneficiar de abatimento de setenta por cento desse imposto, desde que, respectivamente (Lei nº 8.685, de 1993, art. 3º e art. 3º-A ; e Medida Provisória nº 2.228-1, de 2001, art. 49 ):
 
@@ -14202,7 +14202,7 @@ Os contribuintes do imposto sobre a renda incidente na fonte de que tratam o § 
 * **Doação e patrocínio a projetos audiovisuais decorrentes do exterior**
 
 
-###### Art. 549. {#art-549}
+###### Art. 549.
 
 Os projetos produzidos com os recursos da opção por aplicar o valor correspondente a três por cento do valor do pagamento, do crédito, do emprego, da remessa ou da entrega aos produtores, aos distribuidores ou aos intermediários no exterior, de que trata o inciso X do caput do art. 39 da Medida Provisória nº 2.228-1, de 2001 , poderão utilizar a dedução do imposto sobre a renda devido, relativamente aos investimentos e aos patrocínios, observado o disposto nos art. 546 e art. 547 ( Medida Provisória nº 2.228-1, de 2001, art. 39, caput, inciso X, e § 6º ).
 
@@ -14210,7 +14210,7 @@ Os projetos produzidos com os recursos da opção por aplicar o valor correspond
 * **Depósito em conta especial**
 
 
-###### Art. 550. {#art-550}
+###### Art. 550.
 
 O contribuinte que optar pelo uso dos incentivos previstos no art. 546 ao art. 549 , depositará, no prazo legal estabelecido para o recolhimento do imposto sobre a renda, o valor correspondente à dedução ou ao abatimento em conta de aplicação financeira especial, em instituição financeira pública, cuja movimentação esteja sujeita à comprovação prévia pela Ancine de que se destina a investimentos ou patrocínios em projetos de produção de obras audiovisuais cinematográficas e videofonográficas brasileiras de produção independente (Lei nº 8.685, de 1993, art. 4º, caput) .
 
@@ -14236,13 +14236,13 @@ O contribuinte que optar pelo uso dos incentivos previstos no art. 546 ao art. 5
 * **Não aplicação de depósitos**
 
 
-###### Art. 551. {#art-551}
+###### Art. 551.
 
 Os valores depositados nas contas de que trata o inciso I do § 1º do art. 550 e não aplicados no prazo de quarenta e oito meses, contado da data do primeiro depósito, e os valores depositados nas contas de que trata o inciso II do § 1º do art. 550 e não aplicados no prazo de cento e oitenta dias, prorrogável por igual período, serão destinados ao FNC e alocados no Fundo Setorial do Audiovisual (Lei nº 8.685, de 1993, art. 5º) .
 Descumprimento do projeto
 
 
-###### Art. 552. {#art-552}
+###### Art. 552.
 
 O não cumprimento do projeto a que se referem o art. 546 ao art. 549 e o art. 551 e a não efetivação do investimento ou a sua realização em desacordo com o estabelecido implicam a devolução dos benefícios concedidos, acrescido de juros e multa, conforme disposto nos art. 997 e art. 1.015 , respectivamente (Lei nº 8.685, de 1993, art. 6º, caput e § 1º).
 Parágrafo único. Na hipótese de cumprimento de mais de setenta por cento sobre o valor orçado do projeto, a devolução dos benefícios concedidos será proporcional à parte não cumprida (Lei nº 8.685, de 1993, art. 6º, § 2º) .
@@ -14251,7 +14251,7 @@ Parágrafo único. Na hipótese de cumprimento de mais de setenta por cento sobr
 ###### Seção II - Dos Fundos de Financiamento da Indústria Cinematográfica Nacional
 
 
-###### Art. 553. {#art-553}
+###### Art. 553.
 
 Até o período de apuração relativo ao ano-calendário de 2017, inclusive, as pessoas jurídicas sujeitas à tributação com base no lucro real poderão deduzir do imposto sobre a renda devido, em cada período de apuração, trimestral ou anual, as quantias aplicadas na aquisição de quotas dos Funcines ( Medida Provisória nº 2.228-1, de 2001, art. 44, caput ).
 
@@ -14280,7 +14280,7 @@ Até o período de apuração relativo ao ano-calendário de 2017, inclusive, as
 
 
 
-###### Art. 554. {#art-554}
+###### Art. 554.
 
 O descumprimento dos projetos executados com os recursos recebidos do FNC alocados na categoria de programação específica denominada Fundo Setorial do Audiovisual e dos Funcines, a não efetivação do investimento ou a sua realização em desacordo com o estatuído implicam a devolução dos recursos acrescidos de ( Medida Provisória nº 2.228-1, de 2001, art. 61 ):
 
@@ -14294,12 +14294,12 @@ O descumprimento dos projetos executados com os recursos recebidos do FNC alocad
 * **Possibilidade de utilização concomitante de incentivos**
 
 
-###### Art. 555. {#art-555}
+###### Art. 555.
 
 Os projetos que receberem os incentivos previstos no Capítulo IX deste Título poderão usufruir os benefícios previstos neste Capítulo, desde que enquadrados em seus objetivos e o total desses incentivos esteja limitado a noventa e cinco por cento do total do orçamento aprovado pela Ancine (Lei nº 8.685, de 1993, art. 4º, § 5º) .
 
 
-###### Art. 556. {#art-556}
+###### Art. 556.
 
 A soma das deduções previstas nos art. 537 , art. 546 , art. 547 e art. 553 não poderá reduzir o imposto sobre a renda devido pela pessoa jurídica em mais de quatro por cento, observado o disposto no art. 625 (Lei nº 8.849, de 28 de janeiro de 1994, art. 6º ; Lei nº 9.323, de 1996, art. 1º ; e Lei nº 9.532, de 1997, art. 6º, caput, inciso II ).
 
@@ -14307,7 +14307,7 @@ A soma das deduções previstas nos art. 537 , art. 546 , art. 547 e art. 553 n�
 ##### CAPÍTULO XI - DOS INCENTIVOS à ATIVIDADE DESPORTIVA
 
 
-###### Art. 557. {#art-557}
+###### Art. 557.
 
 A partir do ano-calendário de 2007 e até o ano-calendário de 2022, inclusive, poderão ser deduzidos do imposto sobre a renda devido, em cada período de apuração, trimestral ou anual, pela pessoa jurídica tributada com base no lucro real os valores despendidos a título de patrocínio ou doação, no apoio direto a projetos desportivos e paradesportivos previamente aprovados pelo Ministério do Esporte (Lei nº 11.438, de 2006, art. 1º, caput ) .
 
@@ -14341,12 +14341,12 @@ A partir do ano-calendário de 2007 e até o ano-calendário de 2022, inclusive,
 
 
 
-###### Art. 558. {#art-558}
+###### Art. 558.
 
 É vedada a utilização dos recursos oriundos dos incentivos previstos neste Capítulo para o pagamento de remuneração de atletas profissionais, nos termos estabelecidos na Lei nº 9.615, de 24 de março de 1998, em qualquer modalidade desportiva (Lei nº 11.438, de 2006, art. 2º, § 2º) .
 
 
-###### Art. 559. {#art-559}
+###### Art. 559.
 
 Para fins do disposto neste Capítulo, considera-se (Lei nº 11.438, de 2006, art. 3º, caput) :
 
@@ -14378,7 +14378,7 @@ Para fins do disposto neste Capítulo, considera-se (Lei nº 11.438, de 2006, ar
 
 
 
-###### Art. 560. {#art-560}
+###### Art. 560.
 
 Constituem infração ao disposto neste Capítulo (Lei nº 11.438, de 2006, art. 10) :
 
@@ -14398,7 +14398,7 @@ Constituem infração ao disposto neste Capítulo (Lei nº 11.438, de 2006, art.
 
 
 
-###### Art. 561. {#art-561}
+###### Art. 561.
 
 As infrações ao disposto neste Capítulo, sem prejuízo das demais sanções cabíveis, sujeitarão (Lei nº 11.438, de 2006, art. 11, caput) :
 
@@ -14410,13 +14410,13 @@ As infrações ao disposto neste Capítulo, sem prejuízo das demais sanções c
 Parágrafo único. O proponente será solidariamente responsável por inadimplência ou irregularidade verificada quanto ao disposto no inciso I do caput ( Lei nº 11.438, de 2006, art. 11, parágrafo único) .
 
 
-###### Art. 562. {#art-562}
+###### Art. 562.
 
 Os recursos provenientes de doações ou patrocínios efetuados nos termos estabelecidos no art. 557 serão depositados e movimentados em conta bancária específica no Banco do Brasil S.A. ou na Caixa Econômica Federal, que tenha como titular o proponente do projeto aprovado pelo Ministério do Esporte (Lei nº 11.438, de 2006, art. 12, caput) .
 Parágrafo único. Não são dedutíveis, nos termos estabelecidos neste Capítulo, os valores em relação aos quais não se observe o disposto neste artigo (Lei nº 11.438, de 2006, art. 12, parágrafo único).
 
 
-###### Art. 563. {#art-563}
+###### Art. 563.
 
 Os recursos utilizados no apoio direto a projetos desportivos e paradesportivos previstos neste Capítulo deverão ser divulgados em sítio eletrônico, observado o disposto na Lei nº 9.755, de 16 de dezembro de 1998 (Lei nº 11.438, de 2006, art. 13, caput).
 Parágrafo único. Os recursos a que se refere o caput ainda deverão ser disponibilizados, mensalmente, no sítio eletrônico do Ministério do Esporte, do qual constarão as informações quanto à sua origem e à sua destinação (Lei nº 11.438, de 2006, art. 13, parágrafo único) .
@@ -14428,7 +14428,7 @@ Parágrafo único. Os recursos a que se refere o caput ainda deverão ser dispon
 ###### Seção I - Dos incentivos à inovação tecnológica e ao desenvolvimento da inovação tecnológica
 
 
-###### Art. 564. {#art-564}
+###### Art. 564.
 
 A pessoa jurídica poderá usufruir dos seguintes incentivos fiscais, desde que observadas as condições estabelecidas em regulamento (Lei nº 11.196, de 2005, art. 17, caput , incisos I, III, IV e VI) :
 
@@ -14492,7 +14492,7 @@ A pessoa jurídica poderá usufruir dos seguintes incentivos fiscais, desde que 
 * **Transferências a microempresas e empresas de pequeno porte**
 
 
-###### Art. 565. {#art-565}
+###### Art. 565.
 
 Poderão ser deduzidas como despesas operacionais, na forma estabelecida no inciso I do caput do art. 564 , as importâncias transferidas a microempresas e empresas de pequeno porte de que trata a Lei Complementar nº 123, de 2006 , destinadas à execução de pesquisa tecnológica e de desenvolvimento de inovação tecnológica de interesse e por conta e ordem da pessoa jurídica que promoveu a transferência, ainda que a pessoa jurídica recebedora dessas importâncias venha a ter participação no resultado econômico do produto resultante (Lei nº 11.196, de 2005, art. 18, caput) .
 
@@ -14514,7 +14514,7 @@ Poderão ser deduzidas como despesas operacionais, na forma estabelecida no inci
 * **Exclusões do lucro líquido**
 
 
-###### Art. 566. {#art-566}
+###### Art. 566.
 
 Sem prejuízo do disposto no art. 564 , a pessoa jurídica poderá excluir do lucro líquido, para fins de determinação do lucro real, o valor correspondente a até sessenta por cento da soma dos dispêndios realizados no período de apuração com pesquisa tecnológica e desenvolvimento de inovação tecnológica, classificáveis como despesa pela legislação do imposto sobre a renda, de acordo com o disposto no inciso I do caput do art. 564 (Lei nº 11.196, de 2005, art. 19, caput) .
 
@@ -14550,7 +14550,7 @@ Sem prejuízo do disposto no art. 564 , a pessoa jurídica poderá excluir do lu
 Exclusões do lucro líquido por projeto executado por Instituição Científica, Tecnológica e de Inovação ou por entidades científicas e tecnológicas privadas
 
 
-###### Art. 567. {#art-567}
+###### Art. 567.
 
 A pessoa jurídica poderá excluir do lucro líquido, para fins de apuração do lucro real, os dispêndios efetivados em projeto de pesquisa científica e tecnológica e de inovação tecnológica a ser executado por Instituição Científica, Tecnológica e de Inovação a que se refere o inciso V do caput do art. 2º da Lei nº 10.973, de 2004 , ou por entidades científicas e tecnológicas privadas, sem fins lucrativos, conforme regulamento específico (Lei nº 11.196, de 2005, art. 19-A, caput) .
 
@@ -14611,7 +14611,7 @@ A pessoa jurídica poderá excluir do lucro líquido, para fins de apuração do
 * **Exclusão do saldo não depreciado ou não amortizado**
 
 
-###### Art. 568. {#art-568}
+###### Art. 568.
 
 Para fins do disposto nesta Seção, os valores relativos aos dispêndios incorridos em instalações fixas e na aquisição de aparelhos, máquinas e equipamentos, destinados à utilização em projetos de pesquisa e desenvolvimento tecnológico, metrologia, normalização técnica e avaliação da conformidade, aplicáveis a produtos, processos, sistemas e pessoal, procedimentos de autorização de registros, licenças, homologações e suas formas correlatas, e relativos a procedimentos de proteção de propriedade intelectual, poderão ser depreciados ou amortizados na forma prevista na legislação vigente, hipótese em que o saldo não depreciado ou não amortizado poderá ser excluído para fins de determinação do lucro real, no período de apuração em que for concluída sua utilização, conforme disposto em regulamento (Lei nº 11.196, de 2005, art. 20, caput)
 
@@ -14628,7 +14628,7 @@ Para fins do disposto nesta Seção, os valores relativos aos dispêndios incorr
 * **Controle contábil em contas específicas**
 
 
-###### Art. 569. {#art-569}
+###### Art. 569.
 
 Os dispêndios e os pagamentos de que tratam o art. 564 ao art. 568 (Lei nº 11.196, de 2005, art. 22) :
 
@@ -14639,7 +14639,7 @@ Os dispêndios e os pagamentos de que tratam o art. 564 ao art. 568 (Lei nº 11.
 
 
 
-###### Art. 570. {#art-570}
+###### Art. 570.
 
 O gozo dos benefícios fiscais de que tratam o art. 564 ao art. 568 fica condicionado à comprovação da regularidade fiscal da pessoa jurídica (Lei nº 11.196, de 2005, art. 23) .
 
@@ -14647,7 +14647,7 @@ O gozo dos benefícios fiscais de que tratam o art. 564 ao art. 568 fica condici
 * **Descumprimento das obrigações**
 
 
-###### Art. 571. {#art-571}
+###### Art. 571.
 
 O descumprimento de obrigação assumida para obtenção dos incentivos de que tratam o art. 564 ao art. 569 e a utilização indevida dos incentivos fiscais neles referidos implicam perda do direito aos incentivos ainda não utilizados e o recolhimento do valor correspondente aos tributos não pagos em decorrência dos incentivos já utilizados, acrescidos de juros e multa, de mora ou de ofício, previstos na legislação tributária, sem prejuízo das sanções penais cabíveis (Lei nº 11.196, de 2005, art. 24) .
 
@@ -14655,7 +14655,7 @@ O descumprimento de obrigação assumida para obtenção dos incentivos de que t
 * **Atividades de informática e automação**
 
 
-###### Art. 572. {#art-572}
+###### Art. 572.
 
 O disposto nesta Seção não se aplica às pessoas jurídicas que utilizarem os benefícios de que tratam a Lei nº 8.248, de 23 de outubro de 1991 , a Lei nº 8.387, de 30 de dezembro de 1991 , e a Lei nº 10.176, de 11 de janeiro de 2001 (Lei nº 11.196, de 2005, art. 26, caput) .
 
@@ -14682,13 +14682,13 @@ O disposto nesta Seção não se aplica às pessoas jurídicas que utilizarem os
 * **Pessoas jurídicas instaladas em Zona de Processamento de Exportação**
 
 
-###### Art. 573. {#art-573}
+###### Art. 573.
 
 Os incentivos de que trata esta Seção também se aplicam às pessoas jurídicas instaladas em Zona de Processamento de Exportação (Lei nº 11.508, de 2007, art. 18, § 4º, inciso V) .
 Exclusão de gastos com inovação tecnológica registrados no ativo não circulante intangível
 
 
-###### Art. 574. {#art-574}
+###### Art. 574.
 
 Poderão ser excluídos, para fins de apuração do lucro real, os gastos com desenvolvimento de inovação tecnológica referidos no inciso I do caput e no § 2º do art. 564 , quando registrados no ativo não circulante intangível, no período de apuração em que forem incorridos, observado o disposto no art. 569 ao art. 571 (Lei nº 12.973, de 2014, art. 42, caput ) .
 Parágrafo único. O contribuinte que utilizar o benefício a que se refere o caput deverá adicionar ao lucro líquido, para fins de apuração do lucro real, o valor da realização do ativo intangível, inclusive por meio de amortização, alienação ou baixa. (Lei nº 12.973, de 2014, art. 42, parágrafo único)
@@ -14700,7 +14700,7 @@ Parágrafo único. O contribuinte que utilizar o benefício a que se refere o ca
 * **Empresas dos setores de tecnologia da informação e de tecnologia da informação e da comunicação**
 
 
-###### Art. 575. {#art-575}
+###### Art. 575.
 
 As empresas dos setores de tecnologia da informação e de tecnologia da informação e da comunicação poderão excluir do lucro líquido os custos e as despesas com capacitação de pessoal que atua no desenvolvimento de programas de computador ( software ), para fins de apuração do lucro real, sem prejuízo da dedução normal (Lei nº 11.774, de 17 de setembro de 2008, art. 13-A, caput ) .
 
@@ -14711,7 +14711,7 @@ As empresas dos setores de tecnologia da informação e de tecnologia da informa
 * **Pessoa jurídica beneficiária do Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores**
 
 
-###### Art. 576. {#art-576}
+###### Art. 576.
 
 A pessoa jurídica beneficiária do Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores - Padis, nos termos e nas condições estabelecidos na Lei nº 11.484, de 31 de maio de 2007 , terá as alíquotas do imposto sobre a renda e do adicional reduzidas em cem por cento nas vendas de (Lei nº 11.484, de 2007, art. 2º e art. 4º, caput, inciso III, e § 3º) :
 
@@ -14820,7 +14820,7 @@ A pessoa jurídica beneficiária do Programa de Apoio ao Desenvolvimento Tecnol�
 
 
 
-###### Art. 577. {#art-577}
+###### Art. 577.
 
 A redução das alíquotas do imposto sobre a renda e do adicional de que trata o caput do art. 576 somente poderá ser utilizada pela pessoa jurídica que investir anualmente, em atividades de pesquisa e desenvolvimento a serem realizadas no País, no mínimo cinco por cento do faturamento bruto que obtiver no mercado interno, deduzidos (Lei nº 11.484, de 2007, art. 6º, caput):
 
@@ -14843,7 +14843,7 @@ A redução das alíquotas do imposto sobre a renda e do adicional de que trata 
 ##### CAPÍTULO XIII - DOS INCENTIVOS DO Programa Nacional de Apoio à Atenção Oncológica e do Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência
 
 
-###### Art. 578. {#art-578}
+###### Art. 578.
 
 A partir do ano-calendário de 2013 e até o ano-calendário de 2021, inclusive, poderão ser deduzidos do imposto sobre a renda devido, em cada período de apuração, trimestral ou anual, pela pessoa jurídica tributada com base no lucro real, na qualidade de incentivadora, os valores correspondentes às doações e aos patrocínios diretamente efetuados em favor de ações e serviços desenvolvidos no âmbito do Pronon e do Pronas/PCD, previamente aprovados pelo Ministério da Saúde e desenvolvidos pelas instituições destinatárias a que se referem os art. 2º e art. 3º da Lei nº 12.715, de 2012 . (Lei nº 12.715, de 2012, art. 4º, caput e § 4º) .
 
@@ -14904,7 +14904,7 @@ A partir do ano-calendário de 2013 e até o ano-calendário de 2021, inclusive,
 * **Disposições gerais**
 
 
-###### Art. 579. {#art-579}
+###### Art. 579.
 
 O prejuízo compensável é o apurado na demonstração do lucro real e registrado no Lalur ( Decreto-Lei nº 1.598, de 1977, art. 64, § 1º ; e Lei nº 9.249, de 1995, art. 6º, caput e parágrafo único ).
 
@@ -14921,7 +14921,7 @@ O prejuízo compensável é o apurado na demonstração do lucro real e registra
 * **Prejuízos fiscais acumulados**
 
 
-###### Art. 580. {#art-580}
+###### Art. 580.
 
 O prejuízo fiscal poderá ser compensado com o lucro líquido ajustado pelas adições e pelas exclusões previstas neste Regulamento, observado o limite máximo, para compensação, de trinta por cento do referido lucro líquido ajustado (Lei nº 9.065, de 1995, art. 15, caput ) .
 Parágrafo único. O disposto neste artigo somente se aplica às pessoas jurídicas que mantiverem os livros e os documentos exigidos pela legislação fiscal comprobatórios do montante do prejuízo fiscal utilizado para compensação (Lei nº 9.065, de 1995, art. 15, parágrafo único) .
@@ -14930,7 +14930,7 @@ Parágrafo único. O disposto neste artigo somente se aplica às pessoas jurídi
 * **Prejuízos não operacionais**
 
 
-###### Art. 581. {#art-581}
+###### Art. 581.
 
 Os prejuízos decorrentes da alienação de bens e direitos do ativo imobilizado, investimento e intangível, ainda que reclassificados para o ativo circulante com intenção de venda, poderão ser compensados, nos períodos de apuração subsequentes ao de sua apuração, somente com lucros de mesma natureza, observado o limite estabelecido no art. 580 (Lei nº 12.973, de 2014, art. 43, caput ) .
 Parágrafo único. O disposto no caput não se aplica em relação às perdas provenientes de baixa de bens ou direitos em decorrência de terem se tornado imprestáveis ou obsoletos ou terem caído em desuso, ainda que posteriormente venham a ser alienados como sucata (Lei nº 12.973, de 2014, art. 43, parágrafo único) .
@@ -14939,7 +14939,7 @@ Parágrafo único. O disposto no caput não se aplica em relação às perdas pr
 * **Disposição transitória quanto aos prejuízos não operacionais**
 
 
-###### Art. 582. {#art-582}
+###### Art. 582.
 
 O saldo de prejuízos não operacionais formado durante a vigência do art. 31 da Lei nº 9.249, de 1995 , e não utilizado até a data a que se refere o caput ou o § 1º do art. 211 somente poderá ser compensado com os lucros a que se refere o art. 581 , observado o limite previsto no art. 580 (Lei nº 12.973, de 2014, art. 70) .
 
@@ -14947,7 +14947,7 @@ O saldo de prejuízos não operacionais formado durante a vigência do art. 31 d
 * **Atividade rural**
 
 
-###### Art. 583. {#art-583}
+###### Art. 583.
 
 O prejuízo apurado pela pessoa jurídica na exploração de atividade rural poderá ser compensado com o resultado positivo obtido na mesma atividade em períodos de apuração posteriores, desconsiderado o limite previsto no caput do art. 580 ( Lei nº 8.023, de 1990, art. 14 ).
 
@@ -14955,7 +14955,7 @@ O prejuízo apurado pela pessoa jurídica na exploração de atividade rural pod
 * **Mudança de controle societário e de ramo de atividade**
 
 
-###### Art. 584. {#art-584}
+###### Art. 584.
 
 A pessoa jurídica não poderá compensar os seus próprios prejuízos fiscais se, entre a data da apuração e da compensação, houver ocorrido, cumulativamente, modificação do seu controle societário e do ramo de atividade ( Decreto-Lei nº 2.341, de 29 de junho de 1987, art. 32 ).
 
@@ -14963,7 +14963,7 @@ A pessoa jurídica não poderá compensar os seus próprios prejuízos fiscais s
 * **Incorporação, fusão ou cisão**
 
 
-###### Art. 585. {#art-585}
+###### Art. 585.
 
 A pessoa jurídica sucessora por incorporação, fusão ou cisão não poderá compensar prejuízos fiscais da sucedida ( Decreto-Lei nº 2.341, de 1987, art. 33, caput ).
 Parágrafo único. Na hipótese de cisão parcial, a pessoa jurídica cindida poderá compensar os seus próprios prejuízos, proporcionalmente à parcela remanescente do patrimônio líquido ( Decreto-Lei nº 2.341, de 1987, art. 33, parágrafo único ).
@@ -14972,7 +14972,7 @@ Parágrafo único. Na hipótese de cisão parcial, a pessoa jurídica cindida po
 * **Sociedade em conta de participação**
 
 
-###### Art. 586. {#art-586}
+###### Art. 586.
 
 O prejuízo fiscal apurado por sociedade em conta de participação somente poderá ser compensado com o lucro real decorrente da mesma sociedade ( Decreto-Lei nº 2.303, de 21 de novembro de 1986, art. 7º ; e Decreto-Lei nº 2.308, de 19 de dezembro de 1968, art. 3º ).
 Parágrafo único. É vedada a compensação de prejuízos fiscais e lucros entre duas ou mais sociedades em conta de participação ou entre estas e o sócio ostensivo.
@@ -14987,7 +14987,7 @@ Parágrafo único. É vedada a compensação de prejuízos fiscais e lucros entr
 * **Pessoas jurídicas autorizadas a optar**
 
 
-###### Art. 587. {#art-587}
+###### Art. 587.
 
 A pessoa jurídica cuja receita bruta total no ano-calendário anterior tenha sido igual ou inferior a R$ 78.000.000,00 (setenta e oito milhões de reais) ou a R$ 6.500.000,00 (seis milhões e quinhentos mil reais) multiplicado pelo número de meses de atividade do ano-calendário anterior, quando inferior a doze meses, poderá optar pelo regime de tributação com base no lucro presumido (Lei nº 9.718, de 1998, art. 13, caput ) .
 
@@ -15011,12 +15011,12 @@ A pessoa jurídica cuja receita bruta total no ano-calendário anterior tenha si
 
 
 
-###### Art. 588. {#art-588}
+###### Art. 588.
 
 O imposto sobre a renda com base no lucro presumido será determinado por períodos de apuração trimestrais, encerrados nos dias 31 de março, 30 de junho, 30 de setembro e 31 de dezembro de cada ano-calendário, observado o disposto neste Título e no Título XI ( Lei nº 9.430, de 1996, art. 1º e art. 25 ).
 
 
-###### Art. 589. {#art-589}
+###### Art. 589.
 
 As pessoas jurídicas de que tratam os incisos I, III, IV e V do caput do art. 257 poderão optar, durante o período em que submetidas ao Refis, pelo regime de tributação com base no lucro presumido (Lei nº 9.964, de 2000, art. 4º, caput ) .
 Parágrafo único. Na hipótese prevista no caput , as pessoas jurídicas a que se refere o inciso III do caput do art. 257 deverão adicionar os lucros, os rendimentos e os ganhos de capital oriundos do exterior ao lucro presumido (Lei nº 9.964, de 2000, art. 4º, parágrafo único) .
@@ -15025,7 +15025,7 @@ Parágrafo único. Na hipótese prevista no caput , as pessoas jurídicas a que 
 * **Início de atividade**
 
 
-###### Art. 590. {#art-590}
+###### Art. 590.
 
 A pessoa jurídica que houver iniciado atividade a partir do segundo trimestre manifestará a opção com o pagamento da primeira ou da quota única do imposto sobre a renda devido relativa ao período de apuração correspondente ao início de atividade ( Lei nº 9.430, de 1996, art. 26, § 2º ).
 
@@ -15033,7 +15033,7 @@ A pessoa jurídica que houver iniciado atividade a partir do segundo trimestre m
 * **Base de cálculo**
 
 
-###### Art. 591. {#art-591}
+###### Art. 591.
 
 A base de cálculo do imposto sobre a renda e do adicional, em cada trimestre, será determinada por meio da aplicação do percentual de oito por cento sobre a receita bruta definida pelo art. 208, auferida no período de apuração, deduzida das devoluções e das vendas canceladas e dos descontos incondicionais concedidos, e observado o disposto no § 7º do art. 238 e nas demais disposições deste Título e do Título XI ( Lei nº 9.249, de 1995, art. 15 ; e Lei nº 9.430, de 1996, art. 1º e art. 25, caput, inciso I) .
 
@@ -15072,7 +15072,7 @@ A base de cálculo do imposto sobre a renda e do adicional, em cada trimestre, s
 
 
 
-###### Art. 592. {#art-592}
+###### Art. 592.
 
 Nas seguintes atividades, o percentual de que trata o caput do art. 591 será de ( Lei nº 9.249, de 1995, art. 15, § 1º ):
 
@@ -15150,7 +15150,7 @@ Nas seguintes atividades, o percentual de que trata o caput do art. 591 será de
 * **Mudança do lucro real para o lucro presumido**
 
 
-###### Art. 593. {#art-593}
+###### Art. 593.
 
 A pessoa jurídica que, até o ano-calendário anterior, houver sido tributada com base no lucro real deverá adicionar à base de cálculo do imposto sobre a renda, correspondente ao primeiro período de apuração no qual houver optado pela tributação com base no lucro presumido, os saldos dos valores cuja tributação havia diferido, independentemente da necessidade de controle na parte “B” do Lalur ( Lei nº 9.430, de 1996, art. 54 ).
 
@@ -15158,7 +15158,7 @@ A pessoa jurídica que, até o ano-calendário anterior, houver sido tributada c
 * **Mudança do lucro presumido para o lucro real**
 
 
-###### Art. 594. {#art-594}
+###### Art. 594.
 
 A pessoa jurídica tributada pelo lucro presumido que, em período de apuração imediatamente posterior, passar a ser tributada pelo lucro real deverá observar o disposto no art. 396 (Lei nº 12.973, de 2014, art. 16) .
 
@@ -15166,7 +15166,7 @@ A pessoa jurídica tributada pelo lucro presumido que, em período de apuração
 ##### CAPÍTULO II - DOS GANHOS DE CAPITAL E DAS DEMAIS RECEITAS
 
 
-###### Art. 595. {#art-595}
+###### Art. 595.
 
 Os ganhos de capital, os rendimentos e os ganhos líquidos auferidos em aplicações financeiras, as demais receitas, os resultados positivos decorrentes de receitas não abrangidas pelo disposto nos art. 591 e art. 592 , os valores decorrentes do ajuste a valor presente de que trata o inciso VIII do caput do art. 183 da Lei nº 6.404, de 1976 , e os demais valores determinados neste Regulamento serão acrescidos à base de cálculo de que trata este Título , para fins de incidência do imposto sobre a renda e do adicional, observado o disposto nos art. 238, art. 239 e no § 3º do art. 249 , quando for o caso ( Lei nº 9.430, de 1996, art. 25, caput, inciso II ).
 
@@ -15253,7 +15253,7 @@ Os ganhos de capital, os rendimentos e os ganhos líquidos auferidos em aplicaç
 * **Custo do bem na alienação de imóvel rural**
 
 
-###### Art. 596. {#art-596}
+###### Art. 596.
 
 Para fins de apuração de ganho de capital, considera-se custo de aquisição e valor da venda do imóvel rural o valor da terra nua constante do Documento de Informação e Apuração do ITR, observado o disposto no art. 14 da Lei nº 9.393, de 1996 , nos anos da ocorrência de sua aquisição e de sua alienação, respectivamente (Lei nº 9.393, de 1996, art. 19, caput ) .
 Parágrafo único. Na apuração de ganho de capital correspondente a imóvel rural adquirido anteriormente a 1º de janeiro de 1997, será considerado como custo de aquisição o valor constante da escritura pública, observado o disposto no parágrafo único do art. 146 (Lei nº 9.393, de 1996, art. 19, parágrafo único) .
@@ -15262,7 +15262,7 @@ Parágrafo único. Na apuração de ganho de capital correspondente a imóvel ru
 * **Custo de aquisição na hipótese de recebimento de quotas ou ações**
 
 
-###### Art. 597. {#art-597}
+###### Art. 597.
 
 Na hipótese de quotas ou ações distribuídas em decorrência de aumento de capital por incorporação de lucros apurados a partir do mês de janeiro de 1996, ou de reservas constituídas com esses lucros, o custo de aquisição será igual à parcela do lucro ou da reserva capitalizados, que corresponder ao sócio ou ao acionista ( Lei nº 9.249, de 1995, art. 10, § 1º ).
 
@@ -15270,7 +15270,7 @@ Na hipótese de quotas ou ações distribuídas em decorrência de aumento de ca
 * **Programa Nacional de Desestatização**
 
 
-###### Art. 598. {#art-598}
+###### Art. 598.
 
 O custo de aquisição de ações ou quotas leiloadas no âmbito do PND corresponderá ao custo de aquisição dos direitos contra a União, observado o disposto no art. 449 ( Lei nº 8.383, de 1991, art. 65, § 1º e § 2º ; e Lei nº 9.249, de 1995, art. 17 ).
 
@@ -15278,7 +15278,7 @@ O custo de aquisição de ações ou quotas leiloadas no âmbito do PND correspo
 ##### CAPÍTULO III - DAS DEDUÇÕES DO IMPOSTO SOBRE A RENDA
 
 
-###### Art. 599. {#art-599}
+###### Art. 599.
 
 Para fins de pagamento, a pessoa jurídica poderá deduzir do imposto sobre a renda devido no período de apuração, o imposto pago ou retido na fonte sobre as receitas que integraram a base de cálculo, vedada qualquer dedução a título de incentivo fiscal (Lei nº 8.981, de 1995, art. 34 ; Lei nº 9.430, de 1996, art. 51, parágrafo único ; e Lei nº 9.532, de 1997, art. 10 ).
 Parágrafo único. Na hipótese em que o imposto sobre a renda retido na fonte ou pago seja superior ao devido, a diferença poderá ser utilizada na compensação de débitos próprios, nos termos estabelecidos no art. 940 ( Lei nº 9.430, de 1996, art. 74 ).
@@ -15287,7 +15287,7 @@ Parágrafo único. Na hipótese em que o imposto sobre a renda retido na fonte o
 ##### CAPÍTULO IV - DAS OBRIGAÇÕES ACESSÓRIAS
 
 
-###### Art. 600. {#art-600}
+###### Art. 600.
 
 A pessoa jurídica habilitada à opção pelo regime de tributação com base no lucro presumido deverá manter (Lei nº 8.981, de 1995, art. 45, caput) :
 
@@ -15305,7 +15305,7 @@ Parágrafo único. O disposto no inciso I do caput não se aplica à pessoa jur�
 ##### CAPÍTULO V - DA OMISSÃO DE RECEITA
 
 
-###### Art. 601. {#art-601}
+###### Art. 601.
 
 Verificada omissão de receita, o montante omitido será computado para fins de determinação da base de cálculo do imposto sobre a renda devido e do adicional, se for o caso, no período de apuração correspondente, observado o disposto no art. 590 ao art. 592 ( Lei nº 9.249, de 1995, art. 24, caput ).
 Parágrafo único. Na hipótese de pessoa jurídica com atividades diversificadas tributadas com base no lucro presumido, em que não seja possível a identificação da atividade a que se refere a receita omitida, esta será adicionada àquela que corresponder o percentual mais elevado ( Lei nº 9.249, de 1995, art. 24, § 1º ).
@@ -15317,12 +15317,12 @@ Parágrafo único. Na hipótese de pessoa jurídica com atividades diversificada
 ##### CAPÍTULO I - DAS HIPÓTESES DE ARBITRAMENTO
 
 
-###### Art. 602. {#art-602}
+###### Art. 602.
 
 A tributação com base no lucro arbitrado obedecerá às disposições previstas neste Título e no Título XI deste Livro.
 
 
-###### Art. 603. {#art-603}
+###### Art. 603.
 
 O imposto sobre a renda, devido trimestralmente, no decorrer do ano-calendário, será determinado com base nos critérios do lucro arbitrado, quando (Lei nº 8.981, de 1995, art. 47 ; e Lei nº 9.430, de 1996, art. 1º ):
 
@@ -15360,7 +15360,7 @@ O imposto sobre a renda, devido trimestralmente, no decorrer do ano-calendário,
 * **Arbitramento pelo contribuinte**
 
 
-###### Art. 604. {#art-604}
+###### Art. 604.
 
 Quando conhecida a receita bruta, de que trata o art. 208 , e desde que ocorridas as hipóteses previstas no art. 603 , o contribuinte poderá efetuar o pagamento do imposto sobre a renda correspondente com base no lucro arbitrado, observadas as seguintes regras (Lei nº 8.981, de 1995, art. 47, § 1º e § 2º ; e Lei nº 9.430, de 1996, art. 1º ):
 
@@ -15374,7 +15374,7 @@ Quando conhecida a receita bruta, de que trata o art. 208 , e desde que ocorrida
 * **Base de cálculo quando conhecida a receita bruta**
 
 
-###### Art. 605. {#art-605}
+###### Art. 605.
 
 O lucro arbitrado das pessoas jurídicas, quando conhecida a receita bruta, será determinado por meio da aplicação dos percentuais estabelecidos nos art. 591 e art. 592 , acrescidos de vinte por cento, observado o disposto no § 7º do art. 238 ( Lei nº 9.249, de 1995, art. 16 ; e Lei nº 9.430, de 1996, art. 27, caput, inciso I ).
 
@@ -15431,7 +15431,7 @@ O lucro arbitrado das pessoas jurídicas, quando conhecida a receita bruta, ser�
 * **Instituições financeiras**
 
 
-###### Art. 606. {#art-606}
+###### Art. 606.
 
 Nas atividades desenvolvidas por bancos comerciais, bancos de investimentos, bancos de desenvolvimento, caixas econômicas, sociedades de crédito, financiamento e investimento, sociedades de crédito imobiliário, sociedades corretoras de títulos, valores mobiliários e câmbio, distribuidoras de títulos e valores mobiliários, empresas de arrendamento mercantil, cooperativas de crédito, empresas de seguros privados e de capitalização e entidades de previdência privada aberta, o percentual para fins de determinação do lucro arbitrado será de quarenta e cinco por cento (Lei nº 9.718, de 1998, art. 14, caput , inciso II ; Lei nº 9.249, de 1995, art. 16, parágrafo único ; e Lei nº 9.430, de 1996, art. 27, caput, inciso I ).
 
@@ -15439,7 +15439,7 @@ Nas atividades desenvolvidas por bancos comerciais, bancos de investimentos, ban
 * **Empresas imobiliárias**
 
 
-###### Art. 607. {#art-607}
+###### Art. 607.
 
 As pessoas jurídicas que se dedicarem à venda de imóveis construídos ou adquiridos para revenda, ao loteamento de terrenos e à incorporação de prédios em condomínio terão seus lucros arbitrados, deduzido da receita bruta trimestral o custo do imóvel devidamente comprovado (Lei nº 8.981, de 1995, art. 49, caput ; e Lei nº 9.430, de 1996, art. 1º ).
 
@@ -15456,7 +15456,7 @@ As pessoas jurídicas que se dedicarem à venda de imóveis construídos ou adqu
 * **Base de cálculo quando não conhecida a receita bruta**
 
 
-###### Art. 608. {#art-608}
+###### Art. 608.
 
 O lucro arbitrado, quando não conhecida a receita bruta, será determinado por meio de procedimento de ofício, com a utilização de uma das seguintes alternativas de cálculo (Lei nº 8.981, de 1995, art. 51 ; e Lei nº 6.404, de 1976, art. 178, § 1º) :
 
@@ -15512,7 +15512,7 @@ O lucro arbitrado, quando não conhecida a receita bruta, será determinado por 
 ##### CAPÍTULO III - DOS GANHOS DE CAPITAL E DAS DEMAIS RECEITAS
 
 
-###### Art. 609. {#art-609}
+###### Art. 609.
 
 Serão acrescidos à base de cálculo os ganhos de capital, os rendimentos e os ganhos líquidos auferidos em aplicações financeiras, as demais receitas, os resultados positivos decorrentes de receitas não abrangidas pelo disposto no art. 604 , com os valores decorrentes do ajuste a valor presente de que trata o inciso VIII do caput do art. 183 da Lei nº 6.404, de 1976 , e os demais valores determinados neste Regulamento, auferidos no período de apuração, observado o disposto nos art. 237, art. 238 , art. 249 , § 3º, art. 606 e art. 607 ( Lei nº 9.430, de 1996, art. 27, caput, inciso II ).
 
@@ -15624,7 +15624,7 @@ Serão acrescidos à base de cálculo os ganhos de capital, os rendimentos e os 
 ##### CAPÍTULO IV - DA OMISSÃO DE RECEITAS
 
 
-###### Art. 610. {#art-610}
+###### Art. 610.
 
 Verificada omissão de receita, o montante omitido será computado para fins de determinação da base de cálculo do imposto sobre a renda devido e do adicional, se for o caso, no período de apuração correspondente, observado o disposto no art. 605 ( Lei nº 9.249, de 1995, art. 24, caput ).
 Parágrafo único. Na hipótese de pessoa jurídica com atividades diversificadas, em que não seja possível a identificação da atividade a que se refere a receita omitida, esta será adicionada àquela que corresponder o percentual mais elevado ( Lei nº 9.249, de 1995, art. 24, § 1º ).
@@ -15636,7 +15636,7 @@ Parágrafo único. Na hipótese de pessoa jurídica com atividades diversificada
 * **Penalidades**
 
 
-###### Art. 611. {#art-611}
+###### Art. 611.
 
 O arbitramento do lucro não exclui a aplicação das penalidades cabíveis.
 
@@ -15644,7 +15644,7 @@ O arbitramento do lucro não exclui a aplicação das penalidades cabíveis.
 * **Vendas diretas do exterior**
 
 
-###### Art. 612. {#art-612}
+###### Art. 612.
 
 Na hipótese de serem efetuadas vendas no País por intermédio de agentes ou representantes de pessoas estabelecidas no exterior, para fins do disposto neste artigo, quando faturadas diretamente ao comprador, o rendimento tributável será arbitrado de acordo com o disposto no art. 605 .
 Parágrafo único. Considera-se efetuada a venda no País quando esta for concluída, em conformidade com as disposições da legislação comercial, entre o comprador e o agente ou o representante do vendedor, no País, observadas as seguintes normas:
@@ -15665,7 +15665,7 @@ Parágrafo único. Considera-se efetuada a venda no País quando esta for conclu
 ##### CAPÍTULO VI - DAS DEDUÇÕES DO IMPOSTO SOBRE A RENDA
 
 
-###### Art. 613. {#art-613}
+###### Art. 613.
 
 Poderá ser deduzido do imposto sobre a renda apurado na forma estabelecida neste Título o imposto pago ou retido na fonte sobre as receitas que integraram a base de cálculo, vedada qualquer dedução a título de incentivo fiscal (Lei nº 8.981, de 1995, art. 34 ; Lei nº 9.430, de 1996, art. 51, parágrafo único ; e Lei nº 9.532, de 1997, art. 10 ).
 Parágrafo único. Na hipótese em que o imposto sobre a renda retido na fonte ou pago seja superior ao devido, a diferença poderá ser utilizada na compensação de débitos próprios, nos termos estabelecidos no art. 940 ( Lei nº 9.430, de 1996, art. 74 ).
@@ -15680,7 +15680,7 @@ Parágrafo único. Na hipótese em que o imposto sobre a renda retido na fonte o
 ##### Capítulo I - Dos Resultados Não Realizados Nas Operações Intercompanhias
 
 
-###### Art. 614. {#art-614}
+###### Art. 614.
 
 A falta de registro na escrituração comercial das receitas e das despesas relativas aos resultados não realizados a que se referem o inciso I do caput do art. 248 e o inciso III do caput do art. 250 da Lei nº 6.404, de 1976 , não elide a tributação de acordo com a legislação de regência (Lei nº 12.973, de 2014, art. 61) .
 
@@ -15688,7 +15688,7 @@ A falta de registro na escrituração comercial das receitas e das despesas rela
 ##### Capítulo II - Da Avaliação a Valor Justo: Incorporação, Fusão ou Cisão
 
 
-###### Art. 615. {#art-615}
+###### Art. 615.
 
 Nas hipóteses de incorporação, fusão ou cisão, os ganhos decorrentes de avaliação com base no valor justo na sucedida não poderão ser considerados na sucessora como integrante do custo do bem ou do direito que lhe deu causa para fins de determinação de ganho ou perda de capital e do cômputo da depreciação, da amortização ou da exaustão (Lei nº 12.973, de 2014, art. 26 ).
 
@@ -15696,7 +15696,7 @@ Nas hipóteses de incorporação, fusão ou cisão, os ganhos decorrentes de ava
 ##### Capítulo III - Das Perdas Estimadas no Valor de Ativos
 
 
-###### Art. 616. {#art-616}
+###### Art. 616.
 
 Para fins da legislação tributária federal, as referências a provisões aplicam-se às perdas estimadas no valor de ativos, inclusive aquelas decorrentes de redução ao valor recuperável (Lei nº 12.973, de 2014, art. 59, caput ).
 Parágrafo único. A Secretaria da Receita Federal do Brasil do Ministério da Fazenda, no âmbito de suas competências, disciplinará o disposto neste artigo (Lei nº 12.973, de 2014, art. 59, parágrafo único) .
@@ -15705,7 +15705,7 @@ Parágrafo único. A Secretaria da Receita Federal do Brasil do Ministério da F
 ##### Capítulo IV - Da Moeda Funcional Diferente da Nacional
 
 
-###### Art. 617. {#art-617}
+###### Art. 617.
 
 O contribuinte deverá, para fins tributários, reconhecer e mensurar os ativos, os passivos, as receitas, os custos, as despesas, os ganhos, as perdas e os rendimentos com base na moeda corrente nacional (Lei nº 12.973, de 2014, art. 62, caput ) .
 
@@ -15738,7 +15738,7 @@ O contribuinte deverá, para fins tributários, reconhecer e mensurar os ativos,
 * **Adoção inicial ao disposto no art. 1º, no art. 2º e no art. 4º ao art. 71 da Lei nº 12.973, de 2014**
 
 
-###### Art. 618. {#art-618}
+###### Art. 618.
 
 Para as operações ocorridas até a data a que se refere o caput ou o § 1º do art. 211 permanece a neutralidade tributária estabelecida nos art. 213 e art. 214 e a pessoa jurídica deverá proceder, nos períodos de apuração a partir dessa data aos ajustes na base de cálculo do imposto sobre a renda, observado o disposto nos art. 619 e art. 620 (Lei nº 12.973, de 2014, art. 64, caput ) .
 Parágrafo único. As participações societárias de caráter permanente serão avaliadas de acordo com disposto na Lei nº 6.404, de 1976 (Lei nº 12.973, de 2014, art. 64, parágrafo único) .
@@ -15748,19 +15748,19 @@ Subseção I
 * **Ajustes quanto ao lucro real**
 
 
-###### Art. 619. {#art-619}
+###### Art. 619.
 
 Para fins do disposto no art. 618 , a diferença positiva, verificada na data a que se refere o caput ou o § 1º do art. 211 entre o valor de ativo mensurado de acordo com as disposições da Lei nº 6.404, de 1976 , e o valor mensurado pelos métodos e pelos critérios vigentes em 31 de dezembro de 2007 deve ser adicionada para fins de determinação do lucro real nessa data, exceto se o contribuinte evidenciar contabilmente essa diferença em subconta vinculada ao ativo, para ser adicionada à medida de sua realização, inclusive por meio de depreciação, amortização, exaustão, alienação ou baixa (Lei nº 12.973, de 2014, art. 66, caput ) .
 Parágrafo único. O disposto no caput aplica-se à diferença negativa do valor de passivo e deve ser adicionada para fins de determinação do lucro real na data a que se refere o caput ou o § 1º do art. 211 , exceto se o contribuinte evidenciar contabilmente essa diferença em subconta vinculada ao passivo para ser adicionada à medida da baixa ou da liquidação (Lei nº 12.973, de 2014, art. 66, parágrafo único).
 
 
-###### Art. 620. {#art-620}
+###### Art. 620.
 
 Para fins do disposto no art. 618 , a diferença negativa, verificada na data a que se refere o caput ou o § 1º do art. 211 entre o valor de ativo mensurado de acordo com as disposições da Lei nº 6.404, de 1976 , e o valor mensurado pelos métodos e pelos critérios vigentes em 31 de dezembro de 2007 não poderá ser excluída na determinação do lucro real, exceto se o contribuinte evidenciar contabilmente essa diferença em subconta vinculada ao ativo para ser excluída à medida de sua realização, inclusive por meio de depreciação, amortização, exaustão, alienação ou baixa (Lei nº 12.973, de 2014, art. 67, caput ) .
 Parágrafo único. O disposto no caput aplica-se à diferença positiva no valor do passivo e não pode ser excluída na determinação do lucro real, exceto se o contribuinte evidenciar contabilmente essa diferença em subconta vinculada ao passivo para ser excluída à medida da baixa ou da liquidação (Lei nº 12.973, de 2014, art. 67, parágrafo único) .
 
 
-###### Art. 621. {#art-621}
+###### Art. 621.
 
 O disposto no art. 618 ao art. 620 será disciplinado pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, que poderá instituir controles fiscais alternativos à evidenciação contábil de que tratam os art. 619 e art. 620 e instituir controles fiscais adicionais (Lei nº 12.973, de 2014, art. 68) .
 
@@ -15768,7 +15768,7 @@ O disposto no art. 618 ao art. 620 será disciplinado pela Secretaria da Receita
 * **Subseção II - Adoção inicial do art. 1º, do art. 2º e do art. 4º ao art. 71 da Lei nº 12.973, de 13 de maio de 2014 : contrato de concessão**
 
 
-###### Art. 622. {#art-622}
+###### Art. 622.
 
 Na hipótese de contrato de concessão de serviços públicos, o contribuinte deverá (Lei nº 12.973, de 2014, art. 69, caput ) :
 
@@ -15789,13 +15789,13 @@ Parágrafo único. A partir da data a que se refere o caput ou o § 1º do art. 
 #### TÍTULO XII - DAS ALÍQUOTAS E DO ADICIONAL
 
 
-###### Art. 623. {#art-623}
+###### Art. 623.
 
 A pessoa jurídica pagará o imposto sobre a renda à alíquota de quinze por cento sobre o lucro real, presumido ou arbitrado, apurado de conformidade com o disposto neste Regulamento ( Lei nº 9.249, de 1995, art. 3º ).
 Parágrafo único. O disposto neste artigo aplica-se, inclusive, à pessoa jurídica que explorar atividade rural de que trata a Lei nº 8.023, de 1990 ( Lei nº 9.249, de 1995, art. 3º, § 3º).
 
 
-###### Art. 624. {#art-624}
+###### Art. 624.
 
 A parcela do lucro real, presumido ou arbitrado que exceder o valor resultante da multiplicação de vinte mil reais pelo número de meses do período de apuração fica sujeita à incidência de adicional de imposto sobre a renda à alíquota de dez por cento ( Lei nº 9.249, de 1995, art. 3º, § 1º ).
 
@@ -15817,7 +15817,7 @@ A parcela do lucro real, presumido ou arbitrado que exceder o valor resultante d
 * **Irredutibilidade**
 
 
-###### Art. 625. {#art-625}
+###### Art. 625.
 
 O valor do adicional de que trata este Título será recolhido integralmente como receita da União, hipótese em que não serão permitidas deduções ( Lei nº 9.249, de 1995, art. 3º, § 4º ).
 
@@ -15825,7 +15825,7 @@ O valor do adicional de que trata este Título será recolhido integralmente com
 #### TÍTULO XIII - DO LUCRO DA EXPLORAÇÃO
 
 
-###### Art. 626. {#art-626}
+###### Art. 626.
 
 Considera-se lucro da exploração o lucro líquido do período de apuração, observado o disposto no art. 259 , antes de deduzida a provisão para o imposto sobre a renda, ajustado pela exclusão dos seguintes valores ( Decreto-Lei nº 1.598, de 1977, art. 19, caput ):
 
@@ -15870,7 +15870,7 @@ Considera-se lucro da exploração o lucro líquido do período de apuração, o
 * **Área de atuação da Superintendência do Desenvolvimento do Nordeste**
 
 
-###### Art. 627. {#art-627}
+###### Art. 627.
 
 A área de atuação da Sudene abrange ( Lei Complementar nº 125, de 2007, art. 2º, caput ):
 
@@ -15897,7 +15897,7 @@ Parágrafo único. Os Municípios criados, ou que venham a sê-lo, por desmembra
 * **Instalação de empreendimentos prioritários protocolizados e aprovados a partir de 25 de agosto de 2000**
 
 
-###### Art. 628. {#art-628}
+###### Art. 628.
 
 Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do ano-calendário de 2000, as pessoas jurídicas que tenham projeto protocolizado e aprovado a partir de 25 de agosto de 2000 e até 31 de dezembro de 2018, para instalação de empreendimento enquadrado em setores da economia considerados, em ato do Poder Executivo federal, prioritários para o desenvolvimento regional nas áreas de atuação da Sudene terão direito à redução de setenta e cinco por cento do imposto sobre a renda e do adicional, calculados com base no lucro da exploração ( Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 1º, caput ).
 
@@ -15934,7 +15934,7 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do an
 * **Projetos de modernização, ampliação ou diversificação prioritários protocolizados e aprovados a partir de 25 de agosto de 2000**
 
 
-###### Art. 629. {#art-629}
+###### Art. 629.
 
 Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do ano-calendário de 2000, as pessoas jurídicas que tenham projeto protocolizado e aprovado a partir de 25 de agosto de 2000 e até 31 de dezembro de 2018, para modernização, ampliação ou diversificação de empreendimento enquadrado em setores da economia considerados, em ato do Poder Executivo federal, prioritários para o desenvolvimento regional nas áreas de atuação da Sudene terão direito à redução de setenta e cinco por cento do imposto sobre a renda e do adicional, calculados com base no lucro da exploração ( Medida Provisória nº 2.199-14, de 2001, art. 1º, caput ).
 
@@ -15983,13 +15983,13 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do an
 * **Demonstração do lucro do empreendimento**
 
 
-###### Art. 630. {#art-630}
+###### Art. 630.
 
 Quando se verificar pluralidade de estabelecimentos, será reconhecido o direito à isenção e à redução de que trata esta Seção em relação aos rendimentos dos estabelecimentos instalados na área de atuação da Sudene (Lei nº 4.239, de 27 de junho de 1963, art. 16, § 1º) .
 Parágrafo único. Para fins do disposto neste artigo, as pessoas jurídicas interessadas deverão demonstrar em sua contabilidade, com clareza e exatidão, os elementos de que se compõem as operações e os resultados do período de apuração de cada um dos estabelecimentos que operem na área de atuação da Sudene (Lei nº 4.239, de 1963, art. 16, § 2º) .
 
 
-###### Art. 631. {#art-631}
+###### Art. 631.
 
 Se a pessoa jurídica mantiver atividades não consideradas como prioritárias para o desenvolvimento regional, deverá efetuar, em relação às atividades beneficiadas, registros contábeis específicos, para destacar e demonstrar os elementos de que se compõem os seus custos, as suas receitas e os seus resultados (Lei nº 4.239, de 1963, art. 16, § 2º) .
 Parágrafo único. Na hipótese de o sistema de contabilidade adotado pela pessoa jurídica não oferecer condições para apuração do lucro por atividade, este poderá ser estabelecido com base na relação entre as receitas líquidas das atividades incentivadas e a receita líquida total, observado o disposto no art. 554 .
@@ -15998,7 +15998,7 @@ Parágrafo único. Na hipótese de o sistema de contabilidade adotado pela pesso
 * **Pedido de redução**
 
 
-###### Art. 632. {#art-632}
+###### Art. 632.
 
 O pedido de redução ou isenção do imposto de que tratam o art. 628, caput e § 2º , e o art. 629, caput e § 2º , será apresentado na unidade da Secretaria da Receita Federal do Brasil do Ministério da Fazenda competente e será instruído com o laudo expedido pela Sudene (Lei nº 4.239, de 1963, art. 16 ; e Medida Provisória nº 2.199-14, de 2001, art. 2º ).
 CAPÍTULO II
@@ -16010,7 +16010,7 @@ CAPÍTULO II
 * **Área de atuação da Superintendência do Desenvolvimento da Amazônia**
 
 
-###### Art. 633. {#art-633}
+###### Art. 633.
 
 A área de atuação da Sudam abrange os Estados do Acre, do Amapá, do Amazonas, de Mato Grosso, de Rondônia, de Roraima, de Tocantins, do Pará e do Maranhão na sua porção a oeste do Meridiano 44º ( Lei Complementar nº 124, de 2007, art. 2º, caput ).
 Parágrafo único. Os Estados e os Municípios criados por desmembramento dos Estados e dos entes municipais situados na área a que se refere o caput serão automaticamente considerados como integrantes da área de atuação da Sudam ( Lei Complementar nº 124, de 2007, art. 2º, parágrafo único ).
@@ -16023,7 +16023,7 @@ Seção única
 * **Instalação de empreendimentos prioritários protocolizados e aprovados a partir de 25 de agosto de 2000**
 
 
-###### Art. 634. {#art-634}
+###### Art. 634.
 
 Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do ano-calendário de 2000, as pessoas jurídicas que tenham projeto protocolizado e aprovado a partir de 25 de agosto de 2000 e até 31 de dezembro de 2018, para instalação de empreendimento enquadrado em setores da economia considerados, em ato do Poder Executivo federal, prioritários para o desenvolvimento regional nas áreas de atuação da Sudam terão direito à redução de setenta e cinco por cento do imposto sobre a renda e do adicional, calculados com base no lucro da exploração ( Medida Provisória nº 2.199-14, de 2001, art. 1º, caput ).
 
@@ -16060,7 +16060,7 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do an
 * **Projetos de modernização, ampliação ou diversificação prioritários protocolizados e aprovados a partir de 25 de agosto de 2000**
 
 
-###### Art. 635. {#art-635}
+###### Art. 635.
 
 Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do ano-calendário de 2000, as pessoas jurídicas que tenham projeto protocolizado e aprovado a partir de 25 de agosto de 2000 e até 31 de dezembro de 2018, para modernização, ampliação ou diversificação de empreendimento enquadrado em setores da economia considerados, em ato do Poder Executivo federal, prioritários para o desenvolvimento regional nas áreas de atuação da Sudam terão direito à redução de setenta e cinco por cento do imposto sobre a renda e do adicional, calculados com base no lucro da exploração ( Medida Provisória nº 2.199-14, de 2001, caput ).
 
@@ -16109,7 +16109,7 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do an
 * **Demonstração do lucro do empreendimento**
 
 
-###### Art. 636. {#art-636}
+###### Art. 636.
 
 A pessoa jurídica titular de empreendimento beneficiado na Amazônia, na forma prevista nos art. 634 e art. 635 , que mantiver, também, atividades fora da área de atuação da Sudam, fará destacar, em sua contabilidade, com clareza e exatidão, os elementos de que se compõem as operações e os resultados não alcançados pela redução ou pela isenção do imposto sobre a renda ( Decreto-Lei nº 756, de 1969, art. 24, § 2º ).
 
@@ -16131,7 +16131,7 @@ A pessoa jurídica titular de empreendimento beneficiado na Amazônia, na forma 
 * **Pedido de redução**
 
 
-###### Art. 637. {#art-637}
+###### Art. 637.
 
 O pedido de redução ou isenção do imposto de que tratam o art. 634, caput e § 2º , e o art. 635, caput e § 2º , será apresentado na unidade da Secretaria da Receita Federal do Brasil do Ministério da Fazenda competente e será instruído com o laudo expedido pela Sudam (Lei nº 4.239, de 1963, art. 16 ; e Medida Provisória nº 2.199-14, de 2001, art. 2º ).
 
@@ -16139,12 +16139,12 @@ O pedido de redução ou isenção do imposto de que tratam o art. 634, caput e 
 ###### CAPÍTULO III - DISPOSIÇÕES GERAIS
 
 
-###### Art. 638. {#art-638}
+###### Art. 638.
 
 Para fins do benefício de que trata este Capítulo, não se considera como modernização, ampliação ou diversificação a simples alteração da razão ou da denominação social, a transformação, a incorporação ou a fusão de empresas existentes.
 
 
-###### Art. 639. {#art-639}
+###### Art. 639.
 
 As isenções e as reduções de que trata este Capítulo não impedem a aplicação em incentivos fiscais do Fundo de Investimentos da Amazônia - Finam, do Fundo de Investimento do Nordeste - Finor e do Fundo de Recuperação Econômica do Estado do Espírito Santo - Funres, nas condições previstas neste Regulamento, em relação ao montante de imposto sobre a renda a pagar.
 Parágrafo único. A partir de 29 de novembro de 2013, data de publicação da Medida Provisória nº 628, de 28 de novembro de 2013 , é vedada a possibilidade de aplicação das deduções de que trata o caput no Funres.
@@ -16153,7 +16153,7 @@ Parágrafo único. A partir de 29 de novembro de 2013, data de publicação da M
 * **Pessoas jurídicas instaladas em Zona de Processamento de Exportação**
 
 
-###### Art. 640. {#art-640}
+###### Art. 640.
 
 Os incentivos de que trata este Capítulo também se aplicam às pessoas jurídicas instaladas em Zona de Processamento de Exportação (Lei nº 11.508, de 2007, art. 18, § 4º, inciso II) .
 
@@ -16170,18 +16170,18 @@ Os incentivos de que trata este Capítulo também se aplicam às pessoas jurídi
 * **Subseção I - Da dedução do imposto sobre a renda devido**
 
 
-###### Art. 641. {#art-641}
+###### Art. 641.
 
 A pessoa jurídica poderá deduzir do imposto sobre a renda devido o valor equivalente à aplicação da alíquota do imposto sobre a soma das despesas de custeio realizadas no período de apuração, no PAT, instituído pela Lei nº 6.321, de 14 de abril de 1976 , nos termos estabelecidos nesta Seção (Lei nº 6.321, de 1976, art. 1º) .
 Parágrafo único. As despesas de custeio admitidas na base de cálculo do incentivo são aquelas que vierem a constituir o custo direto e exclusivo do serviço de alimentação, e poderão ser considerados, além da matéria-prima, da mão de obra, dos encargos decorrentes de salários, do asseio e dos gastos de energia diretamente relacionados ao preparo e à distribuição das refeições.
 
 
-###### Art. 642. {#art-642}
+###### Art. 642.
 
 A dedução de que trata o art. 641 fica limitada a quatro por cento do imposto sobre a renda devido em cada período de apuração e o excesso poderá ser transferido para dedução nos dois anos-calendário subsequentes (Lei nº 6.321, de 1976, art. 1º, § 1º e § 2º ; e Lei nº 9.532, de 1997, art. 5º ).
 
 
-###### Art. 643. {#art-643}
+###### Art. 643.
 
 Para a execução dos PAT, a pessoa jurídica beneficiária poderá manter serviço próprio de refeições, distribuir alimentos e firmar convênio com entidades fornecedoras de alimentação coletiva, sociedades civis, sociedades comerciais e sociedades cooperativas.
 
@@ -16200,13 +16200,13 @@ Subseção II
 * **Das despesas abrangidas pelo incentivo**
 
 
-###### Art. 644. {#art-644}
+###### Art. 644.
 
 A dedução de que trata esta Seção somente se aplica às despesas com PAT, aprovados previamente pelo Ministério do Trabalho (Lei nº 6.321, de 1976, art. 1º) .
 Parágrafo único. Para fins do disposto neste artigo, entende-se como aprovação prévia pelo Ministério do Trabalho a apresentação de documento hábil definido em ato conjunto dos Ministros de Estado do Trabalho, da Saúde e da Fazenda . Revogado pelo Decreto nº 10.854, de 2021 Vigência
 
 
-###### Art. 645. {#art-645}
+###### Art. 645.
 
 Os programas de que trata esta Seção deverão conferir prioridade ao atendimento dos trabalhadores de baixa renda e ficarão limitados àqueles contratados pela pessoa jurídica beneficiária (Lei nº 6.321, de 1976, art. 2º) .
 
@@ -16249,7 +16249,7 @@ Os programas de que trata esta Seção deverão conferir prioridade ao atendimen
 * **Subseção III - Da contabilização**
 
 
-###### Art. 646. {#art-646}
+###### Art. 646.
 
 A pessoa jurídica deverá destacar contabilmente, com subtítulos por natureza de gastos, as despesas constantes do PAT.
 Subseção IV
@@ -16258,7 +16258,7 @@ Subseção IV
 * **Do descumprimento ao Programa de Alimentação do Trabalhador**
 
 
-###### Art. 647. {#art-647}
+###### Art. 647.
 
 A execução inadequada do PAT ou o desvio ou o desvirtuamento de suas finalidades acarretará a perda do incentivo fiscal e a aplicação das penalidades previstas neste Regulamento.
 Seção II
@@ -16267,7 +16267,7 @@ Seção II
 ###### Do Programa Empresa Cidadã
 
 
-###### Art. 648. {#art-648}
+###### Art. 648.
 
 A pessoa jurídica tributada com base no lucro real poderá deduzir do imposto sobre a renda devido, em cada período de apuração, o total da remuneração integral da empregada e do empregado pago nos dias de prorrogação de sua licença-maternidade e de sua licença-paternidade, vedada a dedução como despesa operacional (Lei nº 11.770, de 9 de setembro de 2008, art. 5º) .
 Seção III
@@ -16276,7 +16276,7 @@ Seção III
 ###### Dos Fundos dos Direitos da Criança e do Adolescente e do Idoso
 
 
-###### Art. 649. {#art-649}
+###### Art. 649.
 
 A pessoa jurídica poderá deduzir do imposto sobre a renda devido o total das doações efetuadas aos Fundos dos Direitos da Criança e do Adolescente nacional, distrital, estaduais e municipais, devidamente comprovadas, vedada a dedução como despesa operacional (Lei nº 8.069, de 1990, art. 260, caput ) .
 
@@ -16306,12 +16306,12 @@ A pessoa jurídica poderá deduzir do imposto sobre a renda devido o total das d
 
 
 
-###### Art. 650. {#art-650}
+###### Art. 650.
 
 Para fins da dedução de que trata o art. 597 , aplica-se o disposto nos art. 100 e art. 101 .
 
 
-###### Art. 651. {#art-651}
+###### Art. 651.
 
 A partir de 1º de janeiro de 2011, a pessoa jurídica poderá deduzir do imposto sobre a renda devido, em cada período de apuração, o total das doações feitas aos Fundos do Idoso nacional, distrital, estaduais e municipais, devidamente comprovadas, vedada a dedução como despesa operacional (Lei nº 12.213, de 2010, art. 3º, caput ) .
 Parágrafo único. A dedução de que trata o caput não poderá ultrapassar um por cento do imposto sobre a renda devido (Lei nº 12.213, de 2010, art. 3º, parágrafo único) .
@@ -16320,7 +16320,7 @@ Parágrafo único. A dedução de que trata o caput não poderá ultrapassar um 
 ###### Seção IV - Do Programa de Cultura do Trabalhador
 
 
-###### Art. 652. {#art-652}
+###### Art. 652.
 
 Até o exercício de 2017, ano-calendário de 2016, a pessoa jurídica beneficiária tributada com base no lucro real poderá deduzir do imposto sobre a renda devido, em cada período de apuração, o valor despendido a título de aquisição do vale-cultura de que trata a Lei nº 12.761, de 2012 (Lei nº 12.761, de 2012, art. 10, caput) .
 
@@ -16343,7 +16343,7 @@ Até o exercício de 2017, ano-calendário de 2016, a pessoa jurídica benefici�
 * **Subseção I - Da opção**
 
 
-###### Art. 653. {#art-653}
+###### Art. 653.
 
 A pessoa jurídica tributada com base no lucro real que tiver projetos aprovados e em implantação nos termos estabelecidos no art. 9º da Lei nº 8.167, de 16 de janeiro de 1991 , poderá optar pela aplicação de parcelas do imposto sobre a renda devido nos fundos de investimentos regionais, observado o disposto neste Capítulo ( Decreto-Lei nº 1.376, de 12 de dezembro de 1974, art. 1º ; Medida Provisória nº 2.156-5, de 24 de agosto de 2001, art. 32, caput, inciso XVIII, parte final ; e Medida Provisória nº 2.157-5, de 24 de agosto de 2001, art. 32, caput , inciso IV, parte final ).
 
@@ -16363,7 +16363,7 @@ A pessoa jurídica tributada com base no lucro real que tiver projetos aprovados
 * **Disposições gerais**
 
 
-###### Art. 654. {#art-654}
+###### Art. 654.
 
 As deduções do imposto sobre a renda feitas em conformidade com o disposto neste Capítulo serão aplicadas, conforme o caso, no Finor, no Finam e no Funres ( Decreto-Lei nº 1.376, de 1974, art. 2º ).
 Parágrafo único. A partir de 29 de novembro de 2013, data de publicação da Medida Provisória nº 628, de 2013 , é vedada a possibilidade de aplicação das deduções de que trata este artigo no Funres.
@@ -16372,19 +16372,19 @@ Parágrafo único. A partir de 29 de novembro de 2013, data de publicação da M
 * **Fundo de Investimentos do Nordeste**
 
 
-###### Art. 655. {#art-655}
+###### Art. 655.
 
 O Finor será administrado e operado pelo Banco do Nordeste do Brasil S.A., sob a supervisão da Sudene ( Decreto-Lei nº 1.376, de 1974, art. 2º e art. 5º ; e Lei Complementar nº 125, de 2007, art. 1º ).
 Fundo de Investimentos da Amazônia
 
 
-###### Art. 656. {#art-656}
+###### Art. 656.
 
 O Finam será administrado e operado pelo Banco da Amazônia S.A., sob a supervisão da Sudam ( Decreto-Lei nº 1.376, de 1974, art. 2º e art. 6º ; e Lei Complementar nº 124, de 2007, art. 1º ).
 Fundo de Recuperação Econômica do Estado do Espírito Santo
 
 
-###### Art. 657. {#art-657}
+###### Art. 657.
 
 O Funres será administrado e disciplinado pelo Grupo-Executivo para Recuperação Econômica do Estado do Espírito Santo ( Medida Provisória nº 2.199-14, de 2001, art. 12 ).
 Parágrafo único. A partir de 29 de novembro de 2013, data de publicação da Medida Provisória nº 628, de 2013 , ficaram extintos o Funres e o Grupo-Executivo para Recuperação Econômica do Estado do Espírito Santo (Lei nº 12.979, de 2014, art. 4º e art. 8º) .
@@ -16394,7 +16394,7 @@ Subseção III
 * **Dos limites das aplicações**
 
 
-###### Art. 658. {#art-658}
+###### Art. 658.
 
 Sem prejuízo do limite específico para cada incentivo, o conjunto das aplicações de que trata este Capítulo não poderá exceder, em cada período de apuração encerrados a partir de 1º de janeiro de 2009 e até 31 de dezembro de 2017, a dez por cento do imposto sobre a renda devido pela pessoa jurídica ( Decreto-Lei nº 1.376, de 1974, art. 11, § 3º ; Lei nº 9.532, de 1997, art. 2º ; Lei nº 12.995, de 18 de junho de 2014, art. 2º ; e Medida Provisória nº 2.199-14, de 2001, art. 12 e art. 18 ).
 
@@ -16446,7 +16446,7 @@ Sem prejuízo do limite específico para cada incentivo, o conjunto das aplicaç
 
 
 
-###### Art. 659. {#art-659}
+###### Art. 659.
 
 O direito à aplicação em incentivos fiscais previstos neste Regulamento será sempre assegurado às pessoas jurídicas de que trata o art. 653 , qualquer que tenha sido a importância descontada na fonte a título de antecipação do imposto sobre a renda devido no período ( Decreto-Lei nº 1.089, de 1970, art. 8º ).
 Subseção IV
@@ -16458,7 +16458,7 @@ Subseção IV
 * **Opção e recolhimento do incentivo**
 
 
-###### Art. 660. {#art-660}
+###### Art. 660.
 
 Sem prejuízo do limite conjunto para as aplicações de que trata o art. 658 , a opção pela aplicação do imposto nos fundos de investimentos regionais, no curso do ano-calendário, será manifestada mediante o recolhimento, por meio de DARF específico, de parcela do imposto de valor equivalente a até seis por cento para o Finor e para o Finam, em cada período de apuração encerrado a partir de 1º de janeiro de 2009 até 31 de dezembro de 2017, e a até nove por cento para o Funres, em cada período de apuração encerrado a partir de 1º de janeiro de 2009 até 29 de novembro de 2013 ( Medida Provisória nº 2.156-5, de 2001, art. 32, caput, inciso XVIII ; Medida Provisória nº 2.157-5, de 2001, art. 32, caput, inciso IV ; e Lei nº 12.995, de 2014, art. 2º) .
 
@@ -16505,7 +16505,7 @@ Sem prejuízo do limite conjunto para as aplicações de que trata o art. 658 , 
 * **Destinação de parte da aplicação ao Programa de Integração Nacional e ao Programa de Redistribuição de Terras e de Estímulo à Agroindústria do Norte e do Nordeste**
 
 
-###### Art. 661. {#art-661}
+###### Art. 661.
 
 Até 31 de dezembro de 2017, das quantias correspondentes às opções para aplicação no Finor e no Finam, nos termos estabelecidos neste Capítulo, serão deduzidos proporcionalmente às diversas destinações dos incentivos fiscais na declaração de rendimentos (Lei nº 8.167, de 1991, art. 2º) :
 
@@ -16519,7 +16519,7 @@ Até 31 de dezembro de 2017, das quantias correspondentes às opções para apli
 * **Certificados de investimentos**
 
 
-###### Art. 662. {#art-662}
+###### Art. 662.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda, com base nas opções exercidas pelos contribuintes e no controle dos recolhimentos, encaminhará, para cada ano-calendário, aos fundos a que se refere o art. 654, registros de processamento eletrônico de dados que constituirão ordens de emissão de certificados de investimentos, em favor das pessoas jurídicas optantes (Decreto-Lei nº 1.376, de 1974, art. 15, caput ).
 
@@ -16548,7 +16548,7 @@ A Secretaria da Receita Federal do Brasil do Ministério da Fazenda, com base na
 
 
 
-###### Art. 663. {#art-663}
+###### Art. 663.
 
 Não serão consideradas, para fins de cálculo das ordens de emissão de certificados de investimentos, as opções inferiores a R$ 8,28 (oito reais e vinte e oito centavos) ( Decreto-Lei nº 1.752, de 1979, art. 2º ; e Lei nº 9.249, de 1995, art. 30 ).
 
@@ -16556,7 +16556,7 @@ Não serão consideradas, para fins de cálculo das ordens de emissão de certif
 * **Conversão em títulos**
 
 
-###### Art. 664. {#art-664}
+###### Art. 664.
 
 Os certificados de investimentos poderão ser convertidos, por meio de leilões especiais realizados nas bolsas de valores, em títulos pertencentes às carteiras dos fundos de investimento, de acordo com as suas cotações (Lei nº 8.167, de 1991, art. 8º, caput ) .
 Parágrafo único. Os certificados de investimentos de que trata este artigo poderão ser escriturais, mantidos em conta de depósito junto aos bancos operadores (Lei nº 8.167, de 1991, art. 8º, § 3º).
@@ -16565,7 +16565,7 @@ Parágrafo único. Os certificados de investimentos de que trata este artigo pod
 * **Destinação a projeto próprio**
 
 
-###### Art. 665. {#art-665}
+###### Art. 665.
 
 As agências de desenvolvimento regional e os bancos operadores assegurarão às pessoas jurídicas ou aos grupos de empresas coligadas que, isolada ou conjuntamente, detenham, no mínimo, cinquenta e um por cento do capital votante de sociedade titular de empreendimento de setor da economia considerado, pelo Poder Executivo federal, prioritário para o desenvolvimento regional, a aplicação, nesse empreendimento, de recursos equivalentes a setenta por cento do valor das opções de que tratam o art. 606 e o § 1º do art. 658 (Lei nº 8.167, de 1991, art. 9º, caput).
 
@@ -16649,7 +16649,7 @@ As agências de desenvolvimento regional e os bancos operadores assegurarão às
 * **Intransferibilidade de investimento**
 
 
-###### Art. 666. {#art-666}
+###### Art. 666.
 
 As ações adquiridas na forma estabelecida no caput e no § 2º do art. 665 serão nominativas e intransferíveis até a data de emissão do certificado de implantação do projeto pela agência de desenvolvimento competente (Decreto-Lei nº 1.376, de 1974, art. 19, caput ).
 
@@ -16665,7 +16665,7 @@ As ações adquiridas na forma estabelecida no caput e no § 2º do art. 665 ser
 Intransferibilidade de rendimentos para o exterior
 
 
-###### Art. 667. {#art-667}
+###### Art. 667.
 
 Os lucros ou os rendimentos derivados de investimentos feitos com as parcelas do imposto sobre a renda devido, nos termos estabelecidos neste Capítulo , não poderão ser transferidos para o exterior, direta ou indiretamente, a qualquer título, sob pena de revogação dos aludidos incentivos e de exigibilidade das parcelas não efetivamente pagas do imposto, acrescidas de multa de dez por cento ao ano, sem prejuízo das demais sanções específicas para o não recolhimento do imposto (Decreto-Lei nº 1.376, de 1974, art. 11, § 5º) .
 
@@ -16684,7 +16684,7 @@ Seção II
 ###### Dos depósitos para reinvestimento
 
 
-###### Art. 668. {#art-668}
+###### Art. 668.
 
 Até 31 de dezembro de 2018, as empresas que tenham empreendimentos em setores da economia considerados, em ato do Poder Executivo federal, prioritários para o desenvolvimento regional, em operação nas áreas de atuação da Sudene e da Sudam, poderão depositar no Banco do Nordeste do Brasil S.A. e no Banco da Amazônia S.A., respectivamente, para reinvestimento, trinta por cento do imposto sobre a renda devido pelos referidos empreendimentos, calculados sobre o lucro da exploração de que trata o art. 626 , acrescidos de cinquenta por cento de recursos próprios, hipótese em que a liberação desses recursos ficará condicionada à aprovação, pelas Agências do Desenvolvimento Regional, dos respectivos projetos técnicos econômicos de modernização ou complementação de equipamento (Lei nº 8.167, de 1991, art. 1º, caput, inciso II , art. 19 e art. 23 ; Lei nº 8.191, de 11 de junho de 1991, art. 4º ; Lei nº 9.532, de 1997, art. 2º ; e Medida Provisória nº 2.199-14, de 2001, art. 3º ).
 
@@ -16723,7 +16723,7 @@ Seção III
 ###### Das pessoas jurídicas excluídas do gozo dos incentivos
 
 
-###### Art. 669. {#art-669}
+###### Art. 669.
 
 Não podem se beneficiar da dedução dos incentivos de que trata este Capítulo:
 
@@ -16776,7 +16776,7 @@ Não podem se beneficiar da dedução dos incentivos de que trata este Capítulo
 ##### CAPÍTULO I - DA SUCESSÃO POR INCORPORAÇÃO
 
 
-###### Art. 670. {#art-670}
+###### Art. 670.
 
 Os incentivos e os benefícios fiscais concedidos por prazo certo e em função de determinadas condições a pessoa jurídica que vier a ser incorporada poderão ser transferidos, por sucessão, à pessoa jurídica incorporadora, por meio de requerimento desta, desde que observados os limites e as condições estabelecidos na legislação que institui o incentivo ou o benefício, em especial quanto aos aspectos vinculados (Lei nº 11.434, de 2006, art. 8º, caput ) :
 
@@ -16815,7 +16815,7 @@ CAPÍTULO II
 ###### Seção I - Da mora contumaz no pagamento de salários
 
 
-###### Art. 671. {#art-671}
+###### Art. 671.
 
 A empresa em mora contumaz relativamente a salários não poderá ser favorecida com qualquer benefício de natureza fiscal, tributária ou financeira, por parte de órgãos da União, dos Estados, do Distrito Federal e dos Municípios, ou de que estes participem (Decreto-Lei nº 368, de 19 de dezembro de 1968, art. 2º, caput ) .
 
@@ -16834,7 +16834,7 @@ Seção II
 ###### Dos danos à qualidade ambiental
 
 
-###### Art. 672. {#art-672}
+###### Art. 672.
 
 Sem prejuízo das penalidades definidas pela legislação federal, estadual e municipal, o não cumprimento das medidas necessárias à preservação ou à correção dos inconvenientes e dos danos causados pela degradação da qualidade ambiental sujeitará os transgressores à perda ou à restrição de benefícios e incentivos fiscais (Lei nº 6.938, de 31 de agosto de 1981, art. 14, caput, inciso II) .
 Parágrafo único. O ato declaratório da perda ou da restrição é atribuição da autoridade administrativa que concedeu os benefícios ou os incentivos, em cumprimento a resolução do Conselho Nacional do Meio Ambiente - Conama (Lei nº 6.938, de 1981, art. 14, § 3º) .
@@ -16843,7 +16843,7 @@ Parágrafo único. O ato declaratório da perda ou da restrição é atribuiçã
 ###### Seção III - Da seguridade social
 
 
-###### Art. 673. {#art-673}
+###### Art. 673.
 
 A empresa que transgredir as normas estabelecidas na Lei nº 8.212, de 1991 , além de outras sanções previstas, ficará sujeita à revisão de incentivos fiscais de tratamento tributário especial, observado o disposto em regulamento (Lei nº 8.212, de 1991, art. 95, § 2º, alínea “b”) .
 
@@ -16851,7 +16851,7 @@ A empresa que transgredir as normas estabelecidas na Lei nº 8.212, de 1991 , al
 ###### Seção IV - Da perda dos benefícios fiscais
 
 
-###### Art. 674. {#art-674}
+###### Art. 674.
 
 A prática de atos que configurem crimes contra a ordem tributária, observado o disposto na Lei nº 8.137, de 27 de dezembro de 1990 , e a falta de emissão de notas fiscais, nos termos estabelecidos na Lei nº 8.846, de 1994 , acarretarão à pessoa jurídica infratora a perda, no ano-calendário correspondente, dos incentivos e dos benefícios de redução ou isenção previstos na legislação tributária (Lei nº 9.069, de 1995, art. 59) .
 
@@ -16859,7 +16859,7 @@ A prática de atos que configurem crimes contra a ordem tributária, observado o
 ###### Seção V - Das entidades desportivas
 
 
-###### Art. 675. {#art-675}
+###### Art. 675.
 
 Serão beneficiadas com isenções fiscais e repasses de recursos públicos federais da administração pública direta e indireta, nos termos estabelecidos no inciso II do caput do art. 217 da Constituição , somente as entidades do Sistema Nacional do Desporto que (Lei nº 9.615, de 1998, art. 18, caput ) :
 
@@ -16888,7 +16888,7 @@ Serão beneficiadas com isenções fiscais e repasses de recursos públicos fede
 ##### CAPÍTULO III - DA INDICAÇÃO DA ISENÇÃO OU DA REDUÇÃO NA DECLARAÇÃO DE RENDIMENTOS
 
 
-###### Art. 676. {#art-676}
+###### Art. 676.
 
 A pessoa jurídica beneficiária do incentivo de isenção ou de redução de que tratam os art. 628, art. 629 , art. 634 e art. 635 destacará, em cada período de apuração, na sua declaração de rendimentos o valor da isenção ou da redução.
 
@@ -16908,7 +16908,7 @@ Da incidência
 Disposições gerais
 
 
-###### Art. 677. {#art-677}
+###### Art. 677.
 
 Os rendimentos de que trata este Capítulo ficam sujeitos à incidência do imposto sobre a renda na fonte calculado em reais, de acordo com as seguintes tabelas progressivas mensais (Lei nº 11.482, de 2007, art. 1º caput , incisos IV a VIII) :
 
@@ -16945,7 +16945,7 @@ V I - para os meses de abril a dezembro do ano-calendário de 2015:
 Adiantamentos de rendimentos
 
 
-###### Art. 678. {#art-678}
+###### Art. 678.
 
 O adiantamento de rendimentos correspondentes a determinado mês não ficará sujeito à retenção, desde que os rendimentos sejam integralmente pagos no mês a que se referirem, momento em que serão efetuados o cálculo e a retenção do imposto sobre o total dos rendimentos pagos no mês.
 
@@ -16961,7 +16961,7 @@ O adiantamento de rendimentos correspondentes a determinado mês não ficará su
 Remuneração indireta
 
 
-###### Art. 679. {#art-679}
+###### Art. 679.
 
 Integrarão a remuneração dos beneficiários ( Lei nº 8.383, de 1991, art. 74, caput ):
 
@@ -17001,7 +17001,7 @@ Integrarão a remuneração dos beneficiários ( Lei nº 8.383, de 1991, art. 74
 Rendimentos isentos
 
 
-###### Art. 680. {#art-680}
+###### Art. 680.
 
 Não ficam sujeitos à incidência do imposto sobre a renda na fonte os rendimentos a que se refere o art. 35 .
 Seção II
@@ -17016,13 +17016,13 @@ Dos rendimentos do trabalho
 Pagos por pessoa física ou jurídica
 
 
-###### Art. 681. {#art-681}
+###### Art. 681.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado na forma prevista no art. 677 , os rendimentos do trabalho assalariado pagos ou creditados por pessoas físicas ou jurídicas ( Lei nº 7.713, de 1988, art. 7º, caput, inciso I ; e Lei Complementar nº 150, de 1º de junho de 2015, art. 34 ).
 Férias de empregados
 
 
-###### Art. 682. {#art-682}
+###### Art. 682.
 
 O cálculo do imposto sobre a renda na fonte relativo a férias de empregados será efetuado separadamente dos demais rendimentos pagos ao beneficiário, no mês, com base nas tabelas progressivas constantes do art. 677 .
 
@@ -17038,7 +17038,7 @@ O cálculo do imposto sobre a renda na fonte relativo a férias de empregados se
 Participação dos trabalhadores nos lucros das empresas
 
 
-###### Art. 683. {#art-683}
+###### Art. 683.
 
 As importâncias recebidas pelos trabalhadores a título de participação nos lucros ou nos resultados das empresas serão tributadas exclusivamente na fonte, separadamente dos demais rendimentos recebidos, no ano do recebimento ou do crédito, com base nas seguintes tabelas progressivas e não integrarão a base de cálculo do imposto sobre a renda devido pelo beneficiário na declaração de ajuste anual (Lei nº 10.101, de 2000, art. 2º, caput ; e art. 3º, § 5º e § 11) :
 
@@ -17083,7 +17083,7 @@ As importâncias recebidas pelos trabalhadores a título de participação nos l
 Ausentes no exterior a serviço do País
 
 
-###### Art. 684. {#art-684}
+###### Art. 684.
 
 As pessoas físicas residentes no País que recebam rendimentos de trabalho assalariado, em moeda estrangeira, de autarquias ou de repartições do Governo brasileiro, situadas no exterior, ficam sujeitas ao imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 ( Lei nº 9.250, de 1995, art. 5º, caput ).
 
@@ -17111,14 +17111,14 @@ Do trabalho não assalariado
 Pagos por pessoa jurídica
 
 
-###### Art. 685. {#art-685}
+###### Art. 685.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 , os rendimentos do trabalho não assalariado, pagos por pessoas jurídicas, inclusive por cooperativas e pessoas jurídicas de direito público, a pessoas físicas ( Lei nº 7.713, de 1988, art. 7º, caput, inciso II ).
 Parágrafo único. O disposto neste artigo aplica-se ao órgão gestor de mão de obra do trabalho portuário que pagar rendimentos aos trabalhadores portuários avulsos, inclusive aos pertencentes à categoria de arrumadores ( Medida Provisória nº 2.158-35, de 2001, art. 65, caput e § 1º ).
 Serviços de transporte, de trator e assemelhados, pagos por pessoa jurídica
 
 
-###### Art. 686. {#art-686}
+###### Art. 686.
 
 Na hipótese de rendimentos pagos por pessoas jurídicas a pessoas físicas pela prestação de serviços de transporte, em veículo próprio, locado ou adquirido com reserva de domínio ou alienação fiduciária, o imposto sobre a renda na fonte de que trata o art. 677 incidirá sobre ( Lei nº 7.713, de 1988, art. 9º, caput ):
 
@@ -17131,7 +17131,7 @@ Parágrafo único. O percentual a que se refere o inciso I do caput aplica-se ta
 Garimpeiros
 
 
-###### Art. 687. {#art-687}
+###### Art. 687.
 
 Ficam sujeitos à tributação na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 , dez por cento do rendimento total percebido por garimpeiros na venda, a empresas legalmente habilitadas, de metais preciosos, pedras preciosas e semipreciosas, por eles extraídos ( Lei nº 7.713, de 1988, art. 7º, caput, inciso II , e art. 10 ).
 Seção III
@@ -17139,13 +17139,13 @@ Dos rendimentos de aluguéis e dos royalties
 Pagos por pessoa jurídica
 
 
-###### Art. 688. {#art-688}
+###### Art. 688.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 , os rendimentos decorrentes de aluguéis ou royalties pagos por pessoas jurídicas a pessoas físicas ( Lei nº 7.713, de 1988, art. 7º, caput, inciso II ).
 Aluguel de imóveis
 
 
-###### Art. 689. {#art-689}
+###### Art. 689.
 
 Não integrarão a base de cálculo para incidência do imposto sobre a renda, na hipótese de aluguéis de imóveis ( Lei nº 7.739, de 1989, art. 14 ):
 
@@ -17166,12 +17166,12 @@ Subseção I
 Dos rendimentos pagos por entidades de previdência privada e dos planos de benefícios de caráter previdenciário
 
 
-###### Art. 690. {#art-690}
+###### Art. 690.
 
 Os benefícios pagos a pessoas físicas pelas entidades de previdência privada, inclusive as importâncias correspondentes ao resgate de contribuições, ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 , ressalvado o disposto nas alíneas “i” e “l” do inciso II do caput do art. 35 ( Lei nº 9.250, de 1995, art. 33 ).
 
 
-###### Art. 691. {#art-691}
+###### Art. 691.
 
 Fica facultada aos participantes que ingressarem, a partir de 1º de janeiro de 2005, em planos de benefícios de caráter previdenciário, estruturados nas modalidades de contribuição definida ou contribuição variável, das entidades de previdência complementar e das sociedades seguradoras, a opção por regime de tributação no qual os valores pagos aos participantes ou aos assistidos, a título de benefícios ou de resgates de valores acumulados, sujeitam-se à incidência de imposto sobre a renda na fonte às seguintes alíquotas (Lei nº 11.053, de 2004, art. 1º, caput ) :
 
@@ -17234,7 +17234,7 @@ Fica facultada aos participantes que ingressarem, a partir de 1º de janeiro de 
 
 
 
-###### Art. 692. {#art-692}
+###### Art. 692.
 
 Fica facultada aos participantes que ingressaram, até 1º de janeiro de 2005, em planos de benefícios de caráter previdenciário estruturados nas modalidades de contribuição definida ou de contribuição variável, a opção pelo regime de tributação de que trata o art. 691 (Lei nº 11.053, de 2004, art. 2º, caput).
 
@@ -17275,7 +17275,7 @@ Fica facultada aos participantes que ingressaram, até 1º de janeiro de 2005, e
 
 
 
-###### Art. 693. {#art-693}
+###### Art. 693.
 
 A partir de 1º de janeiro de 2005, os resgates, parciais ou totais, de recursos acumulados relativos a participantes dos planos de que trata o art. 691 que não tenham efetuado a opção nele mencionada ficam sujeitos à incidência de imposto sobre a renda na fonte à alíquota de quinze por cento, como antecipação do imposto sobre a renda devido na declaração de ajuste anual, calculado sobre (Lei nº 11.053, de 2004, art. 3º, caput):
 
@@ -17289,17 +17289,17 @@ Subseção II
 Dos valores recebidos por sobrevivência de seguros de vida
 
 
-###### Art. 694. {#art-694}
+###### Art. 694.
 
 Os valores recebidos em decorrência de cobertura por sobrevivência em apólices de seguros de vida ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 ( Medida Provisória nº 2.158-35, de 2001, art. 63, caput ).
 
 
-###### Art. 695. {#art-695}
+###### Art. 695.
 
 A partir de 1º de janeiro de 2002, os rendimentos auferidos no resgate de valores acumulados em provisões técnicas referentes a coberturas por sobrevivência de seguros de vida serão tributados de acordo com as alíquotas previstas nas tabelas progressivas constantes do art. 677 ( Medida Provisória nº 2.158-35, de 2001, art. 63, § 1º ).
 
 
-###### Art. 696. {#art-696}
+###### Art. 696.
 
 A base de cálculo do imposto sobre a renda referente aos rendimentos de que tratam os art. 694 e art. 695 será a diferença positiva entre os valores recebidos e o somatório dos prêmios pagos ( Medida Provisória nº 2.158-35, de 2001, art. 63, caput e § 2º ).
 Parágrafo único. Na hipótese de recebimento parcelado, sob a forma de renda ou de resgate parcial, a dedução do prêmio será proporcional ao valor recebido ( Medida Provisória nº 2.158-35, de 2001, art. 63, caput e § 3º ).
@@ -17308,28 +17308,28 @@ Dos rendimentos de partes beneficiárias
 Atribuídos a pessoas físicas
 
 
-###### Art. 697. {#art-697}
+###### Art. 697.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 , os interesses e os demais rendimentos de partes beneficiárias pagos a pessoas físicas ( Lei nº 7.713, de 1988, art. 7º, caput, inciso II ).
 Subseção IV
 Do sócio ou do titular de microempresa e empresa de pequeno porte optante pelo Simples Nacional
 
 
-###### Art. 698. {#art-698}
+###### Art. 698.
 
 Os rendimentos efetivamente pagos aos sócios ou ao titular da microempresa ou da empresa de pequeno porte optantes pelo Simples Nacional, correspondentes a pro labore , aluguéis ou serviços prestados, ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 ( Lei Complementar nº 123, de 2006, art. 14 ).
 Subseção V
 Das remunerações, das gratificações e das participações dos administradores
 
 
-###### Art. 699. {#art-699}
+###### Art. 699.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 , os rendimentos pagos aos titulares, aos sócios, aos dirigentes, aos administradores e aos conselheiros de pessoas jurídicas, a título de remuneração mensal por prestação de serviços, de gratificação ou de participação no resultado ( Lei nº 7.713, de 1988, art. 7º, caput, inciso II ).
 Subseção VI
 Do décimo terceiro salário
 
 
-###### Art. 700. {#art-700}
+###### Art. 700.
 
 Os rendimentos pagos a título de décimo terceiro salário de que trata o art. 7º, caput, inciso VIII, da Constituição , ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 , observadas as seguintes normas ( Lei nº 7.713, de 1988, art. 26 ; e Lei nº 8.134, de 1990, art. 16 ):
 
@@ -17348,7 +17348,7 @@ Subseção VII
 Dos outros rendimentos
 
 
-###### Art. 701. {#art-701}
+###### Art. 701.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 , os demais rendimentos pagos por pessoa jurídica a pessoa física, para os quais não haja incidência específica e não estejam incluídos entre aqueles tributados exclusivamente na fonte ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43 ; e Lei nº 7.713, de 1988, art. 3º, § 4º , e art. 7º, caput, inciso II ).
 Parágrafo único. O disposto neste artigo aplica-se inclusive à ajuda compensatória mensal, sem natureza salarial, concedida pelo empregador ao empregado, durante o período de suspensão do seu contrato de trabalho, nos termos do art. 476-A do Anexo ao Decreto nº 5.452, de 1943 - Consolidação das Leis do Trabalho ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43 ; e Lei nº 7.713, de 1988, art. 3º, § 4º , e art. 7º, caput, inciso II ).
@@ -17356,7 +17356,7 @@ Seção V
 Dos rendimentos recebidos acumuladamente
 
 
-###### Art. 702. {#art-702}
+###### Art. 702.
 
 A partir de 11 de março de 2015, os rendimentos recebidos acumuladamente e submetidos à incidência do imposto sobre a renda com base na tabela progressiva, quando correspondentes a anos-calendário anteriores ao do recebimento, serão tributados exclusivamente na fonte, no mês do recebimento ou do crédito, separadamente dos demais rendimentos recebidos no mês ( Lei nº 7.713, de 1988, art. 12-A, caput ).
 
@@ -17382,23 +17382,23 @@ A partir de 11 de março de 2015, os rendimentos recebidos acumuladamente e subm
 
 
 
-###### Art. 703. {#art-703}
+###### Art. 703.
 
 O disposto no art. 702 não se aplica ao cumprimento de decisão da Justiça Federal, por meio de precatório ou de requisição de pequeno valor, exceto quanto às disposições do art. 27, § 1º e § 3º, da Lei nº 10.833, de 2003 ( Lei nº 7.713, de 1988, art. 12-A, § 4º ).
 
 
-###### Art. 704. {#art-704}
+###### Art. 704.
 
 O total dos rendimentos de que trata o art. 702 , observado o disposto em seu § 2º, poderá integrar a base de cálculo do imposto sobre a renda, na declaração de ajuste anual do ano-calendário do recebimento, à opção irretratável do contribuinte ( Lei nº 7.713, de 1988, art. 12-A, § 5º ).
 Parágrafo único. Na hipótese prevista no caput, o imposto sobre a renda retido na fonte será considerado antecipação do imposto sobre a renda devido apurado na declaração de ajuste anual ( Lei nº 7.713, de 1988, art. 12-A, § 6º ).
 
 
-###### Art. 705. {#art-705}
+###### Art. 705.
 
 Os rendimentos de que trata o art. 702 recebidos entre 1º de janeiro de 2010 e 26 de julho de 2010 poderão ser tributados na forma prevista naquele artigo, hipótese em que deverão ser informados na declaração de ajuste anual referente ao ano-calendário de 2010 ( Lei nº 7.713, de 1988, art. 12-A, § 7º ).
 
 
-###### Art. 706. {#art-706}
+###### Art. 706.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda disciplinará o disposto nesta Seção ( Lei nº 7.713, de 1988, art. 12-A, § 9 º ).
 Seção VI
@@ -17407,14 +17407,14 @@ Subseção I
 Disposições gerais
 
 
-###### Art. 707. {#art-707}
+###### Art. 707.
 
 Para fins de determinação da base de cálculo sujeita à incidência mensal do imposto sobre a renda na fonte, observado o disposto no art. 677 , serão permitidas as deduções previstas nesta Seção ( Lei nº 9.250, de 1995, art. 4º, caput, incisos II a VI ).
 Subseção II
 Dos dependentes
 
 
-###### Art. 708. {#art-708}
+###### Art. 708.
 
 Na determinação da base de cálculo sujeita à incidência mensal do imposto sobre a renda, poderá ser deduzida a quantia, por dependente, observado o disposto no art. 71 , de ( Lei nº 9.250, de 1995, art. 4º, caput, inciso III, alíneas “d” a “h” ):
 
@@ -17459,7 +17459,7 @@ Subseção III
 Das pensões alimentícias
 
 
-###### Art. 709. {#art-709}
+###### Art. 709.
 
 Na determinação da base de cálculo sujeita à incidência mensal do imposto sobre a renda, poderá ser deduzida a importância paga a título de pensão alimentícia em decorrência das normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente ou de escritura pública a que se refere o art. 733 da Lei nº 13.105, de 2015 - Código de Processo Civil ( Lei nº 9.250, de 1995, art. 4º, caput, inciso II ).
 
@@ -17482,7 +17482,7 @@ Das contribuições previdenciárias
 Trabalho assalariado
 
 
-###### Art. 710. {#art-710}
+###### Art. 710.
 
 Na determinação da base de cálculo sujeita à incidência mensal do imposto sobre a renda, poderão ser deduzidas ( Lei nº 9.250, de 1995, art. 4º, caput, incisos IV, V e VII ; Lei Complementar nº 109, de 2001, art. 69, caput ; e Medida Provisória nº 2.158-35, de 2001, art. 61 ):
 
@@ -17505,7 +17505,7 @@ Subseção V
 Dos proventos de aposentadoria e pensões de maiores de sessenta e cinco anos
 
 
-###### Art. 711. {#art-711}
+###### Art. 711.
 
 Na determinação da base de cálculo sujeita à incidência mensal do imposto sobre a renda, poderá ser deduzida a quantia correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, de transferência para a reserva remunerada ou de reforma, pagos pela previdência social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno ou por entidade de previdência privada, a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, de ( Lei nº 9.250, de 1995, art. 4º, caput e inciso VI ):
 
@@ -17530,7 +17530,7 @@ Seção VII
 Da base de cálculo do imposto sobre a renda
 
 
-###### Art. 712. {#art-712}
+###### Art. 712.
 
 A base de cálculo do imposto sobre a renda na fonte, para aplicação das tabelas progressivas constantes do art. 677 , será a diferença entre ( Lei nº 9.250, de 1995, art. 3º e art. 4º ):
 
@@ -17541,7 +17541,7 @@ A base de cálculo do imposto sobre a renda na fonte, para aplicação das tabel
 
 
 
-###### Art. 713. {#art-713}
+###### Art. 713.
 
 A base de cálculo do imposto sobre a renda na fonte devido pelos trabalhadores portuários avulsos, inclusive aqueles pertencentes à categoria de arrumadores, será o total do valor pago ao trabalhador pelo órgão gestor de mão de obra do trabalho portuário, independentemente da quantidade de empresas às quais o beneficiário tenha prestado serviço ( Medida Provisória nº 2.158-35, de 2001, art. 65, caput e § 1º ).
 CAPÍTULO II
@@ -17551,7 +17551,7 @@ Dos serviços profissionais prestados por pessoas jurídicas
 Pessoas jurídicas não ligadas
 
 
-###### Art. 714. {#art-714}
+###### Art. 714.
 
 Ficam sujeitas à incidência do imposto sobre a renda na fonte, à alíquota de um e meio por cento, as importâncias pagas ou creditadas por pessoas jurídicas a outras pessoas jurídicas, civis ou mercantis, pela prestação de serviços caracterizadamente de natureza profissional (Decreto-Lei nº 2.030, de 9 de junho de 1983, art. 2º ; Decreto-Lei nº 2.065, de 1983, art. 1º, caput, inciso III ; Lei nº 7.450, de 1985, art. 52 ; e Lei nº 9.064, de 20 de junho de 1995, art. 6º) .
 
@@ -17685,7 +17685,7 @@ XL - veterinária.
 Pessoas jurídicas ligadas
 
 
-###### Art. 715. {#art-715}
+###### Art. 715.
 
 As tabelas progressivas constantes do art. 677 serão aplicadas aos rendimentos brutos a que se refere o art. 714 quando a beneficiária for sociedade civil prestadora de serviços relativos a profissão legalmente regulamentada, controlada, direta ou indiretamente (Decreto-Lei nº 2.067, de 9 de novembro de 1983, art. 3º) :
 
@@ -17697,20 +17697,20 @@ As tabelas progressivas constantes do art. 677 serão aplicadas aos rendimentos 
 Serviços de limpeza, conservação, segurança, vigilância e locação de mão de obra
 
 
-###### Art. 716. {#art-716}
+###### Art. 716.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte à alíquota de um por cento as importâncias pagas ou creditadas por pessoas jurídicas a outras pessoas jurídicas pela prestação de serviços de limpeza, conservação, segurança, vigilância e pela locação de mão de obra (Decreto-Lei nº 2.462, de 30 de agosto de 1988, art. 3º ; e Lei nº 7.713, de 1988, art. 55 ).
 Tratamento do imposto sobre a renda
 
 
-###### Art. 717. {#art-717}
+###### Art. 717.
 
 O imposto sobre a renda descontado na forma prevista nesta Seção será considerado antecipação do imposto sobre a renda devido pela beneficiária (Decreto-Lei nº 2.030, de 1983, art. 2º, § 1º) .
 Seção II
 Da representação comercial ou da mediação de negócios, propaganda e publicidade
 
 
-###### Art. 718. {#art-718}
+###### Art. 718.
 
 Ficam sujeitas à incidência do imposto sobre a renda na fonte à alíquota de um e meio por cento, as importâncias pagas ou creditadas por pessoas jurídicas a outras pessoas jurídicas (Lei nº 7.450, de 1985, art. 53, caput , incisos I e II ; e Lei nº 9.064, de 1995, art. 6º) :
 
@@ -17733,7 +17733,7 @@ Seção III
 Dos pagamentos a cooperativas de trabalho e associações profissionais ou assemelhadas
 
 
-###### Art. 719. {#art-719}
+###### Art. 719.
 
 Ficam sujeitas à incidência do imposto sobre a renda na fonte à alíquota de um e meio por cento as importâncias pagas ou creditadas por pessoas jurídicas a cooperativas de trabalho, associações de profissionais ou assemelhadas, relativas a serviços pessoais que lhes forem prestados por seus associados ou colocados à disposição (Lei nº 8.541, de 1992, art. 45, caput ) .
 
@@ -17750,7 +17750,7 @@ Seção IV
 Dos pagamentos efetuados por órgãos e entidades da administração pública federal
 
 
-###### Art. 720. {#art-720}
+###### Art. 720.
 
 Os pagamentos efetuados por órgãos, autarquias e fundações da administração pública federal a pessoas jurídicas, pelo fornecimento de bens ou pela prestação de serviços, ficam sujeitos à incidência do imposto sobre a renda na fonte, na forma prevista neste artigo ( Lei nº 9.430, de 1996, art. 64, caput ) .
 
@@ -17784,7 +17784,7 @@ Os pagamentos efetuados por órgãos, autarquias e fundações da administraçã
 
 
 
-###### Art. 721. {#art-721}
+###### Art. 721.
 
 Ficam obrigadas a efetuar as retenções do imposto sobre a renda na fonte, na forma prevista no art. 720 , as seguintes entidades da administração pública federal (Lei nº 10.833, de 2003, art. 34, caput ) :
 
@@ -17818,19 +17818,19 @@ Ficam obrigadas a efetuar as retenções do imposto sobre a renda na fonte, na f
 
 
 
-###### Art. 722. {#art-722}
+###### Art. 722.
 
 Os valores retidos no mês, na forma prevista no art. 721 , deverão ser recolhidos ao Tesouro Nacional pela entidade que efetuar a retenção ou, de forma centralizada, pelo estabelecimento matriz da pessoa jurídica, até o último dia útil do segundo decêndio do mês subsequente àquele mês em que tiver ocorrido o pagamento à pessoa jurídica fornecedora dos bens ou à prestadora do serviço (Lei nº 10.833, de 2003, art. 35) .
 Seção V
 Da prestação de serviços de assessoria creditícia, mercadológica, gestão de crédito, seleção e riscos, administração de contas a pagar e a receber
 
 
-###### Art. 723. {#art-723}
+###### Art. 723.
 
 Ficam sujeitos ao desconto do imposto sobre a renda, à alíquota de um e meio por cento, deduzido do apurado no encerramento do período de apuração, as importâncias pagas ou creditadas por pessoas jurídicas a título de prestação de serviços a outras pessoas jurídicas que explorem as atividades de prestação de serviços de assessoria creditícia, mercadológica, gestão de crédito, seleção e riscos, administração de contas a pagar e a receber (Lei nº 10.833, de 2003, art. 29) .
 
 
-###### Art. 724. {#art-724}
+###### Art. 724.
 
 Os valores retidos na forma prevista no art. 723 deverão ser recolhidos até o último dia útil do segundo decêndio do mês subsequente ao mês de ocorrência do fato gerador (Lei nº 11.196, de 2005, art. 70, caput, inciso I, alínea “e”) .
 CAPÍTULO III
@@ -17839,7 +17839,7 @@ Seção I
 Do lucro real, presumido e arbitrado
 
 
-###### Art. 725. {#art-725}
+###### Art. 725.
 
 Os lucros ou dividendos calculados com base nos resultados apurados a partir do mês de janeiro de 1996, pagos ou creditados pelas pessoas jurídicas tributadas com base no lucro real, presumido e arbitrado, não ficam sujeitos à incidência do imposto sobre a renda na fonte, nem integram a base de cálculo do imposto sobre a renda do beneficiário, pessoa física ou jurídica, residente ou domiciliado no País ou no exterior ( Lei nº 9.249, de 1995, art. 10, caput ).
 
@@ -17861,7 +17861,7 @@ Seção II
 Dos juros sobre o capital próprio
 
 
-###### Art. 726. {#art-726}
+###### Art. 726.
 
 Ficam sujeitos ao imposto sobre a renda na fonte, à alíquota de quinze por cento, na data do pagamento ou do crédito, os juros sobre o capital próprio calculados sobre as contas do patrimônio líquido, na forma prevista no art. 355 ( Lei nº 9.249, de 1995, art. 9º, § 2º ).
 
@@ -17890,13 +17890,13 @@ Dos rendimentos de partes beneficiárias ou de fundador
 Atribuídos a pessoas físicas
 
 
-###### Art. 727. {#art-727}
+###### Art. 727.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, calculado de acordo com as tabelas progressivas constantes do art. 677 , os interesses e os demais rendimentos de partes beneficiárias ou de fundador pagos a pessoas físicas ( Lei nº 7.713, de 1988, art. 7º, caput, inciso II ).
 Atribuídos a pessoas jurídicas
 
 
-###### Art. 728. {#art-728}
+###### Art. 728.
 
 Os rendimentos de partes beneficiárias ou de fundador pagos ou creditados a pessoas jurídicas ficam sujeitos à incidência do imposto sobre a renda na fonte à alíquota de quinze por cento (Decreto-Lei nº 1.979, de 22 de dezembro de 1982, art. 3º, caput ) .
 
@@ -17924,7 +17924,7 @@ Os rendimentos de partes beneficiárias ou de fundador pagos ou creditados a pes
 Tratamento do imposto sobre a renda
 
 
-###### Art. 729. {#art-729}
+###### Art. 729.
 
 O imposto sobre a renda retido na forma prevista nesta Seção será considerado ( Lei nº 9.250, de 1995, art. 12, caput, inciso V ; e Lei nº 9.430, de 1996, art. 2º, § 4º, inciso III ):
 
@@ -17939,7 +17939,7 @@ Seção I
 Do pagamento a beneficiário não identificado
 
 
-###### Art. 730. {#art-730}
+###### Art. 730.
 
 Fica sujeito à incidência do imposto sobre a renda exclusivamente na fonte, à alíquota de trinta e cinco por cento, todo pagamento efetuado pelas pessoas jurídicas a beneficiário não identificado, ressalvado o disposto em normas especiais (Lei nº 8.981, de 1995, art. 61, caput ) .
 
@@ -17961,7 +17961,7 @@ Seção II
 Da remuneração indireta paga a beneficiário não identificado
 
 
-###### Art. 731. {#art-731}
+###### Art. 731.
 
 A falta de identificação do beneficiário das despesas e das vantagens a que se refere o art. 679 e a sua não incorporação ao salário dos beneficiários implicarão a tributação exclusiva na fonte dos valores, à alíquota de trinta e cinco por cento ( Lei nº 8.383, de 1991, art. 74, § 2º ; e Lei nº 8.981, de 1995, art. 61, caput e § 1º) .
 
@@ -17979,7 +17979,7 @@ Dos prêmios e dos sorteios em geral
 Prêmios em dinheiro
 
 
-###### Art. 732. {#art-732}
+###### Art. 732.
 
 Ficam sujeitos à incidência do imposto sobre a renda exclusivamente na fonte, à alíquota de trinta por cento:
 
@@ -18001,7 +18001,7 @@ Ficam sujeitos à incidência do imposto sobre a renda exclusivamente na fonte, 
 Prêmios em bens e serviços
 
 
-###### Art. 733. {#art-733}
+###### Art. 733.
 
 Os prêmios distribuídos sob a forma de bens e serviços, por meio de concursos e sorteios de qualquer espécie, ficam sujeitos à incidência do imposto sobre a renda exclusivamente na fonte, à alíquota de vinte por cento (Lei nº 8.981, de 1995, art. 63, caput) .
 
@@ -18024,13 +18024,13 @@ Dos programas de concessão de crédito e do estímulo à solicitação de docum
 Recebidos por pessoa jurídica
 
 
-###### Art. 734. {#art-734}
+###### Art. 734.
 
 Não ficam sujeitos à incidência do imposto sobre a renda na fonte os valores em espécie pagos ou creditados a pessoas jurídicas pelos Estados, pelo Distrito Federal e pelos Municípios, relativos ao ICMS e ao ISS, no âmbito de programas de concessão de crédito voltados ao estímulo à solicitação de documento fiscal na aquisição de mercadorias e serviços (Lei nº 11.945, de 2009, art. 4º) .
 Recebidos por pessoa física
 
 
-###### Art. 735. {#art-735}
+###### Art. 735.
 
 Não ficam sujeitos à incidência do imposto sobre a renda na fonte os rendimentos pagos em espécie a pessoas físicas pelos Estados, pelo Distrito Federal e pelos Municípios, relativos ao ICMS e ao ISS, no âmbito de programas de concessão de crédito voltados ao estímulo à solicitação de documento fiscal na aquisição de mercadorias e serviços ( Lei nº 7.713, de 1988, art. 6º ).
 Parágrafo único. O disposto neste artigo não se aplica aos prêmios recebidos por meio de sorteios, em espécie, bens ou serviços, no âmbito dos programas referidos no caput .
@@ -18038,7 +18038,7 @@ Seção V
 Dos títulos de capitalização
 
 
-###### Art. 736. {#art-736}
+###### Art. 736.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte:
 
@@ -18064,7 +18064,7 @@ Seção VI
 Dos proprietários e dos criadores de cavalos de corrida
 
 
-###### Art. 737. {#art-737}
+###### Art. 737.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, à alíquota de quinze por cento, os prêmios pagos aos proprietários e aos criadores de cavalos de corrida ( Lei nº 7.713, de 1988, art. 32, § 1º ).
 Parágrafo único. O imposto sobre a renda será retido na data do pagamento ou do crédito e será considerado ( Lei nº 7.713, de 1988, art. 32, § 2º ; e Lei nº 9.430, de 1996, art. 2º, § 4º, inciso III ):
@@ -18079,14 +18079,14 @@ Dos rendimentos pagos em cumprimento a decisão judicial
 Juros e indenizações por lucros cessantes
 
 
-###### Art. 738. {#art-738}
+###### Art. 738.
 
 Ficam sujeitas ao desconto do imposto sobre a renda na fonte, à alíquota de cinco por cento, as importâncias pagas às pessoas jurídicas a título de juros e de indenizações por lucros cessantes, decorrentes de sentença judicial (Lei nº 8.981, de 1995, art. 60, caput, inciso I) .
 Parágrafo único. O imposto sobre a renda descontado na forma prevista neste artigo será deduzido do imposto sobre a renda devido no encerramento do período de apuração (Lei nº 8.981, de 1995, art. 60, parágrafo único) .
 Rendimentos decorrentes de decisão da Justiça Federal
 
 
-###### Art. 739. {#art-739}
+###### Art. 739.
 
 O imposto sobre a renda sobre os rendimentos pagos, em cumprimento a decisão da Justiça Federal, por meio de precatório ou de requisição de pequeno valor, será retido na fonte pela instituição financeira responsável pelo pagamento e incidirá à alíquota de três por cento sobre o montante pago, sem deduções, no momento do pagamento ao beneficiário ou ao seu representante legal (Lei nº 10.833, de 2003, art. 27, caput ) .
 
@@ -18134,7 +18134,7 @@ Seção VIII
 Das multas por rescisão de contratos
 
 
-###### Art. 740. {#art-740}
+###### Art. 740.
 
 Ficam sujeitas ao imposto sobre a renda na fonte, à alíquota de quinze por cento, as multas ou as demais vantagens pagas ou creditadas por pessoa jurídica, ainda que a título de indenização, a pessoa física ou jurídica beneficiária, inclusive isenta, em decorrência de rescisão de contrato ( Lei nº 9.430, de 1996, art. 70, caput ).
 
@@ -18177,7 +18177,7 @@ Seção I
 Dos contribuintes
 
 
-###### Art. 741. {#art-741}
+###### Art. 741.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, observado o disposto neste Capítulo, a renda e os proventos de qualquer natureza provenientes de fontes situadas no País, quando percebidos:
 
@@ -18195,12 +18195,12 @@ Ficam sujeitos à incidência do imposto sobre a renda na fonte, observado o dis
 Parágrafo único. O imposto sobre a renda incidirá no momento do pagamento, do crédito, da entrega, do emprego ou da remessa dos rendimentos, o que ocorrer primeiro ( Decreto-Lei nº 5.844, de 1943, art. 100, caput ).
 
 
-###### Art. 742. {#art-742}
+###### Art. 742.
 
 Na hipótese de falecimento de residente no exterior, o imposto sobre a renda será recolhido em nome do espólio até a homologação da partilha, da sobrepartilha ou da adjudicação dos bens.
 
 
-###### Art. 743. {#art-743}
+###### Art. 743.
 
 Os residentes ou os domiciliados no exterior que realizarem operações financeiras nos mercados de renda fixa ou de renda variável no País ficam sujeitos às normas de tributação previstas no art. 788 ao art. 889 . (Lei nº 8.981, de 1995, art. 78) .
 Seção II
@@ -18209,7 +18209,7 @@ Subseção I
 Da incidência
 
 
-###### Art. 744. {#art-744}
+###### Art. 744.
 
 Os rendimentos, os ganhos de capital e os demais proventos pagos, creditados, entregues, empregados ou remetidos, por fonte situada no País, a pessoa física ou jurídica residente no exterior, ficam sujeitos à incidência na fonte, à alíquota de quinze por cento, quando não tiverem tributação específica prevista neste Capítulo, inclusive nas seguintes hipóteses ( Decreto-Lei nº 5.844, de 1943, art. 100 ; Lei nº 3.470, de 1958, art. 77 ; e Lei nº 9.249, de 1995, art. 28 ):
 
@@ -18244,7 +18244,7 @@ Os rendimentos, os ganhos de capital e os demais proventos pagos, creditados, en
 
 
 
-###### Art. 745. {#art-745}
+###### Art. 745.
 
 O ganho de capital auferido por residente ou domiciliado no exterior será apurado e tributado de acordo com as regras aplicáveis aos residentes no País, e ficará sujeito à incidência do imposto sobre a renda com a aplicação das alíquotas previstas no art. 153 (Lei nº 8.981, de 1995, art. 21 ; Lei nº 9.249, de 1995, art. 18 ; e Lei nº 13.259, de 2016, art. 2º) .
 
@@ -18268,12 +18268,12 @@ O ganho de capital auferido por residente ou domiciliado no exterior será apura
 
 
 
-###### Art. 746. {#art-746}
+###### Art. 746.
 
 Os rendimentos do trabalho, com ou sem vínculo empregatício, de aposentadoria, de pensão e os rendimentos da prestação de serviços, pagos, creditados, entregues, empregados ou remetidos a residentes ou domiciliados no exterior, ficam sujeitos à incidência do imposto sobre a renda na fonte, à alíquota de vinte e cinco por cento, excepcionado, no que se refere a serviços, o disposto no art. 765 (Lei nº 9.779, de 1999, art. 7º ).
 
 
-###### Art. 747. {#art-747}
+###### Art. 747.
 
 Os valores pagos, creditados, entregues, empregados ou remetidos por contratante pessoa jurídica domiciliada no País, autorizada a operar transporte rodoviário internacional de carga, a beneficiário transportador autônomo pessoa física, residente na República do Paraguai, considerado como sociedade unipessoal nesse País, quando decorrentes da prestação de serviços de transporte rodoviário internacional de carga, ficam sujeitos à incidência do imposto sobre a renda na fonte, apurado sobre a base de cálculo de que trata o inciso I do caput do art. 39 (Lei nº 11.773, de 17 de setembro de 2008, art. 1º, caput ) .
 
@@ -18292,7 +18292,7 @@ Os valores pagos, creditados, entregues, empregados ou remetidos por contratante
 
 
 
-###### Art. 748. {#art-748}
+###### Art. 748.
 
 Os rendimentos de residentes ou domiciliados em país ou dependência enquadrado, observado o disposto no art. 254 , como de tributação favorecida, ficam sujeitos à incidência do imposto sobre a renda retido na fonte à alíquota de vinte e cinco por cento (Lei nº 9.779, de 1999, art. 8º) .
 Parágrafo único. O disposto no caput não se aplica nas hipóteses previstas nos:
@@ -18305,7 +18305,7 @@ Parágrafo único. O disposto no caput não se aplica nas hipóteses previstas n
 Serviços prestados em Zona de Processamento de Exportação
 
 
-###### Art. 749. {#art-749}
+###### Art. 749.
 
 Os serviços prestados em Zona de Processamento de Exportação por residente ou domiciliado no exterior para empresas ali instaladas serão considerados, para fins fiscais, como serviços prestados no exterior (Lei nº 11.508, de 2007, art. 21, caput, inciso II) .
 Subseção II
@@ -18313,26 +18313,26 @@ Das isenções e das reduções
 Serviços prestados a órgãos governamentais no exterior
 
 
-###### Art. 750. {#art-750}
+###### Art. 750.
 
 Ficam isentos do imposto de que trata o art. 741 os rendimentos pagos a pessoa física residente ou domiciliada no exterior por autarquias ou por repartições do Governo brasileiro situadas fora do território nacional e que correspondam a serviços prestados a esses órgãos ( Lei nº 9.250, de 1995, art. 29 ).
 Rendimentos de governos estrangeiros
 
 
-###### Art. 751. {#art-751}
+###### Art. 751.
 
 Ficam isentos do imposto sobre a renda os rendimentos auferidos no País por governos estrangeiros, desde que haja reciprocidade de tratamento em relação aos rendimentos auferidos em seus países pelo Governo brasileiro (Lei nº 154, de 1947, art. 5º).
 Serviços de telecomunicações
 
 
-###### Art. 752. {#art-752}
+###### Art. 752.
 
 O imposto sobre a renda na fonte não incide sobre os rendimentos pagos ou creditados a empresa domiciliada no exterior pela contraprestação de serviços de telecomunicações por empresa de telecomunicação que centralize, no País, a prestação de serviços de rede corporativa de pessoas jurídicas ( Medida Provisória nº 2.159-70, de 2001, art. 5º, caput ).
 Parágrafo único. Para fins do disposto neste artigo, considera-se rede corporativa a rede de telecomunicações privativa de empresa ou de entidade, a qual interliga os seus vários pontos de operações no País e no exterior ( Medida Provisória nº 2.159-70, de 2001, art. 5º, parágrafo único ).
 Viagens de turismo, negócios, serviço, treinamento ou missões oficiais
 
 
-###### Art. 753. {#art-753}
+###### Art. 753.
 
 Até 31 de dezembro de 2019, fica reduzida a seis por cento a alíquota do imposto sobre a renda retido na fonte incidente sobre os valores pagos, creditados, entregues, empregados ou remetidos para pessoa física ou jurídica residente ou domiciliada no exterior, destinados à cobertura de gastos pessoais, no exterior, de pessoas físicas residentes no País, em viagens de turismo, negócios, serviço, treinamento ou missões oficiais, até o limite global de R$ 20.000,00 (vinte mil reais) ao mês, nos termos, nos limites e nas condições estabelecidos em ato do Poder Executivo federal (Lei nº 12.249, de 2010, art. 60, caput ) .
 
@@ -18358,7 +18358,7 @@ Até 31 de dezembro de 2019, fica reduzida a seis por cento a alíquota do impos
 Dispensa de retenção
 
 
-###### Art. 754. {#art-754}
+###### Art. 754.
 
 Não ficam sujeitas à retenção de que trata o art. 741 as seguintes remessas destinadas ao exterior (Lei nº 13.315, de 2016, art. 2º, caput , incisos I e II):
 
@@ -18391,7 +18391,7 @@ Não ficam sujeitas à retenção de que trata o art. 741 as seguintes remessas 
 Alíquota zero
 
 
-###### Art. 755. {#art-755}
+###### Art. 755.
 
 A alíquota do imposto sobre a renda incidente na fonte sobre os rendimentos auferidos no País, por residentes ou domiciliados no exterior, fica reduzida a zero nas seguintes hipóteses (Lei nº 9.481, de 1997, art. 1º, caput ; e Lei nº 9.959, de 2000, art. 1º) :
 
@@ -18503,7 +18503,7 @@ Subseção III
 Dos lucros ou dos dividendos
 
 
-###### Art. 756. {#art-756}
+###### Art. 756.
 
 Os lucros ou os dividendos pagos ou creditados pelas pessoas jurídicas tributadas com base no lucro real, presumido ou arbitrado a pessoa física ou jurídica, domiciliada no exterior, não ficam sujeitos à incidência do imposto sobre a renda na fonte ( Lei nº 9.249, de 1995, art. 10, caput ).
 Parágrafo único. A não incidência prevista no caput inclui os lucros ou os dividendos pagos ou creditados a beneficiários de todas as espécies de ações previstas no art. 15 da Lei nº 6.404, de 1976 , ainda que a ação seja classificada em conta de passivo ou que a remuneração seja classificada como despesa financeira na escrituração comercial ( Lei nº 9.249, de 1995, art. 10, § 2º ).
@@ -18511,7 +18511,7 @@ Subseção IV
 Dos lucros de pessoas jurídicas estrangeiras
 
 
-###### Art. 757. {#art-757}
+###### Art. 757.
 
 Os lucros das filiais, das sucursais, das agências ou das representações no País, de pessoas jurídicas com sede no exterior, considerados automaticamente percebidos pela matriz na data do encerramento do período de apuração, não ficam sujeitos à incidência do imposto sobre a renda na fonte ( Lei nº 9.249, de 1995, art. 10, caput ).
 
@@ -18531,7 +18531,7 @@ Seção III
 Das operações financeiras
 
 
-###### Art. 759. {#art-759}
+###### Art. 759.
 
 Na tributação das operações financeiras de residentes ou domiciliados no exterior, nos mercados de renda fixa e de renda variável, será observado o disposto no art. 788 ao art. 889 .
 Seção IV
@@ -18540,12 +18540,12 @@ Subseção I
 Da incidência
 
 
-###### Art. 760. {#art-760}
+###### Art. 760.
 
 Ficam sujeitas à incidência do imposto sobre a renda na fonte, à alíquota de quinze por cento, as importâncias pagas, creditadas, entregues, empregadas ou remetidas a beneficiários residentes ou domiciliados no exterior, por fonte situada no País, a título de juros, comissões, descontos, despesas financeiras e assemelhadas ( Decreto-Lei nº 5.844, de 1943, art. 100 ; e Lei nº 9.249, de 1995, art. 28 ).
 
 
-###### Art. 761. {#art-761}
+###### Art. 761.
 
 Fica sujeito à incidência do imposto de que trata o art. 760 o valor dos juros remetidos para o exterior, devidos em razão da compra de bens a prazo, ainda quando o beneficiário do rendimento for o próprio vendedor (Decreto-Lei nº 401, de 1968, art. 11, caput ) .
 
@@ -18563,7 +18563,7 @@ Das isenções e das reduções
 Juros diversos
 
 
-###### Art. 762. {#art-762}
+###### Art. 762.
 
 Ficam excluídos da tributação prevista nesta Seção:
 
@@ -18581,7 +18581,7 @@ Subseção I
 Dos rendimentos de imóveis
 
 
-###### Art. 763. {#art-763}
+###### Art. 763.
 
 Ficam sujeitas à incidência do imposto sobre a renda na fonte, à alíquota de quinze por cento, as importâncias pagas, remetidas, creditadas, empregadas ou entregues a residente ou domiciliado no exterior, provenientes de rendimentos produzidos por bens imóveis situados no País ( Decreto-Lei nº 5.844, de 1943, art. 100 ; e Lei nº 9.249, de 1995, art. 28 ).
 Parágrafo único. Para fins de determinação da base de cálculo, será permitido deduzir, por meio de comprovação, as despesas a que se refere o art. 42 ( Decreto-Lei nº 5.844, de 1943, art. 97, § 3º ).
@@ -18589,7 +18589,7 @@ Subseção II
 Das películas cinematográficas
 
 
-###### Art. 764. {#art-764}
+###### Art. 764.
 
 Ficam sujeitas à incidência do imposto sobre a renda na fonte, à alíquota de quinze por cento, as importâncias pagas, creditadas, empregadas, remetidas ou entregues aos produtores, aos distribuidores ou aos intermediários no exterior, como rendimento decorrente da exploração de obras audiovisuais estrangeiras no território nacional ou por sua aquisição ou importação a preço fixo (Decreto-Lei nº 1.089, de 1970, art. 13 ; Lei nº 9.249, de 1995, art. 28 ; Lei nº 3.470, de 1958, art. 77 ; e Decreto-Lei nº 5.844, de 1943, art. 100 ).
 
@@ -18624,7 +18624,7 @@ Dos serviços técnicos e da assistência técnica e administrativa
 Incidência
 
 
-###### Art. 765. {#art-765}
+###### Art. 765.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, à alíquota de quinze por cento, os rendimentos de serviços técnicos e de assistência técnica, administrativa e semelhantes derivados do País e recebidos por pessoa física ou jurídica residente ou domiciliada no exterior, independentemente da forma de pagamento e do local e da data em que a operação tenha sido contratada, os serviços executados ou a assistência prestada (Decreto-Lei nº 1.418, de 3 de setembro de 1975, art. 6º ; Lei nº 9.249, de 1995, art. 28 ; Lei nº 9.779, de 1999, art. 7º ; Lei nº 10.168, de 29 de dezembro de 2000, art. 2º-A ; e Medida Provisória nº 2.159-70, de 2001, art. 3º ).
 Parágrafo único. A retenção do imposto sobre a renda será obrigatória na data do pagamento, do crédito, da entrega, do emprego ou da remessa dos rendimentos ( Decreto-Lei nº 5.844, de 1943, art. 100, caput ).
@@ -18632,7 +18632,7 @@ Subseção II
 Da remuneração de direitos, inclusive quanto à transmissão por meio de rádio ou televisão
 
 
-###### Art. 766. {#art-766}
+###### Art. 766.
 
 Ficam sujeitas à incidência do imposto sobre a renda na fonte, à alíquota de quinze por cento, as importâncias pagas, creditadas, entregues, empregadas ou remetidas para o exterior pela aquisição ou pela remuneração, a qualquer título, de qualquer forma de direito, inclusive a transmissão, por meio de rádio ou televisão ou por qualquer outro meio, de filmes ou eventos, mesmo os de competições desportivas das quais faça parte representação brasileira ( Lei nº 9.430, de 1996, art. 72 ).
 
@@ -18659,14 +18659,14 @@ Subseção III
 Dos royalties
 
 
-###### Art. 767. {#art-767}
+###### Art. 767.
 
 Ficam sujeitas à incidência do imposto sobre a renda na fonte, à alíquota de quinze por cento, as importâncias pagas, creditadas, entregues, empregadas ou remetidas para o exterior a título de royalties , a qualquer título ( Medida Provisória nº 2.159-70, de 2001, art. 3º ).
 Subseção IV
 Dos fretes internacionais
 
 
-###### Art. 768. {#art-768}
+###### Art. 768.
 
 Ficam sujeitos ao imposto sobre a renda na fonte, à alíquota de quinze por cento, os rendimentos recebidos por companhias de navegação aérea e marítima, domiciliadas no exterior, de pessoas físicas ou jurídicas, residentes ou domiciliadas no País ( Lei nº 9.430, de 1996, art. 85, caput ).
 Parágrafo único. O imposto sobre a renda de que trata este artigo não será exigido das companhias aéreas e marítimas domiciliadas em países que não tributam, em decorrência da legislação interna ou de acordos internacionais, os rendimentos auferidos por empresas brasileiras que exerçam o mesmo tipo de atividade ( Lei nº 9.430, de 1996, art. 85, parágrafo único ).
@@ -18675,35 +18675,35 @@ Disposições diversas
 Base de cálculo
 
 
-###### Art. 769. {#art-769}
+###### Art. 769.
 
 As alíquotas do imposto sobre a renda de que trata este Capítulo incidirão sobre os rendimentos brutos, ressalvado o disposto no parágrafo único do art. 763 ( Decreto-Lei nº 5.844, de 1943, art. 97, § 3º ).
 
 
-###### Art. 770. {#art-770}
+###### Art. 770.
 
 A base de cálculo do imposto sobre a renda incidente na fonte sobre prêmios de resseguro cedidos ao exterior será de oito por cento do valor pago, creditado, entregue, empregado ou remetido ( Medida Provisória nº 2.158-35, de 2001, art. 26 ).
 
 
-###### Art. 771. {#art-771}
+###### Art. 771.
 
 Os pagamentos, os créditos, as entregas ou os empregos que venham a ser efetuados por fontes brasileiras em benefício de não residentes, com recursos mantidos no exterior, em decorrência de operações de exportação de mercadorias ou de serviços, previamente empreendidas, ficam sujeitos, conforme as hipóteses que os tiverem justificado e observados os limites para manutenção no exterior fixados pelo Conselho Monetário Nacional, às alíquotas de retenção do imposto sobre a renda previstas neste Capítulo ( Decreto-Lei nº 5.844, de 1943, art. 100 ; e Lei nº 11.371, de 2006, art. 1º) .
 Dever de informar
 
 
-###### Art. 772. {#art-772}
+###### Art. 772.
 
 Aqueles que pagarem rendimentos a residente ou domiciliado no exterior deverão prestar às repartições ou aos Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda os esclarecimentos que lhes forem exigidos ( Decreto-Lei nº 5.844, de 1943, art. 137 ).
 Arrendamento mercantil do tipo financeiro
 
 
-###### Art. 773. {#art-773}
+###### Art. 773.
 
 Nas hipóteses de pagamento de contraprestação de arrendamento mercantil do tipo financeiro a pessoa jurídica beneficiária domiciliada no exterior, a Secretaria da Receita Federal do Brasil do Ministério da Fazenda expedirá normas para excluir da base de cálculo do imposto sobre a renda incidente na fonte a parcela remetida que corresponder ao valor do bem arrendado ( Lei nº 9.430, de 1996, art. 86 ).
 Condições para remessa
 
 
-###### Art. 774. {#art-774}
+###### Art. 774.
 
 As pessoas físicas e jurídicas que desejarem fazer transferência para o exterior a título de lucros, dividendos, juros e amortizações, royalties , assistência técnica, científica, administrativa e semelhantes deverão submeter aos órgãos competentes do Banco Central do Brasil e da Secretaria da Receita Federal do Brasil do Ministério da Fazenda os contratos e os documentos que forem considerados necessários para justificar a remessa (Lei nº 4.131, de 1962, art. 9º, caput ) .
 Parágrafo único. As remessas para o exterior dependem, sem prejuízo do disposto no art. 952 , do registro da pessoa jurídica no Banco Central do Brasil e de prova do pagamento do imposto sobre a renda devido, se for o caso (Lei nº 4.131, de 1962, art. 9º, § 1º) .
@@ -18714,13 +18714,13 @@ Da retenção do imposto sobre a renda
 Responsabilidade da fonte
 
 
-###### Art. 775. {#art-775}
+###### Art. 775.
 
 Compete à fonte reter o imposto sobre a renda de que trata este Título ( Decreto-Lei nº 5.844, de 1943, art. 99 e art. 100 ; e Lei nº 7.713, de 1988, art. 7º, § 1º ).
 Responsabilidade na hipótese de decisão judicial
 
 
-###### Art. 776. {#art-776}
+###### Art. 776.
 
 O imposto sobre a renda incidente sobre os rendimentos pagos em cumprimento de decisão judicial será retido na fonte, quando for o caso, pela pessoa física ou jurídica obrigada ao pagamento, no momento em que, por qualquer forma, o rendimento se tornar disponível para o beneficiário (Lei nº 8.541, de 1992, art. 46, caput ) .
 
@@ -18750,13 +18750,13 @@ O imposto sobre a renda incidente sobre os rendimentos pagos em cumprimento de d
 Responsabilidade na hipótese de decisão da Justiça Federal
 
 
-###### Art. 777. {#art-777}
+###### Art. 777.
 
 O imposto sobre a renda sobre os rendimentos pagos, em cumprimento de decisão da Justiça Federal, de que trata o art. 739 , por meio de precatório ou de requisição de pequeno valor, será retido na fonte pela instituição financeira responsável pelo pagamento, no momento do pagamento ao beneficiário ou ao seu representante legal (Lei nº 10.833, de 2003, art. 27, caput ) .
 Responsabilidade na hipótese de decisão da Justiça do Trabalho
 
 
-###### Art. 778. {#art-778}
+###### Art. 778.
 
 Para os rendimentos pagos em cumprimento de decisões da Justiça do Trabalho, caberá à fonte pagadora, no prazo de quinze dias, contado da data da retenção de que trata o art. 776 , comprovar, nos autos, o recolhimento do imposto sobre a renda na fonte (Lei nº 10.833, de 2003, art. 28, caput) .
 
@@ -18772,19 +18772,19 @@ Para os rendimentos pagos em cumprimento de decisões da Justiça do Trabalho, c
 Responsabilidade de entidades de classe e outros
 
 
-###### Art. 779. {#art-779}
+###### Art. 779.
 
 Os honorários profissionais dos despachantes aduaneiros autônomos relativos à execução dos serviços de desembaraço e despacho de mercadorias importadas e exportadas e em qualquer outra operação do comércio exterior, realizada por qualquer via, inclusive no desembaraço de bagagem de passageiros, serão recolhidos, ressalvado o direito de livre sindicalização, por intermédio da entidade de classe com jurisdição em sua região de trabalho, a qual efetuará a retenção correspondente e o recolhimento do imposto sobre a renda na fonte (Decreto-Lei nº 2.472, de 1º de setembro de 1988, art. 5º, § 2º) .
 Parágrafo único. Na hipótese de despachante aduaneiro que não seja sindicalizado, compete à pessoa jurídica que efetuar o pagamento dos honorários, a retenção e o recolhimento do imposto sobre a renda devido.
 
 
-###### Art. 780. {#art-780}
+###### Art. 780.
 
 As caixas, as associações e as organizações sindicais que interfiram no pagamento de remuneração aos trabalhadores de que trata a alínea “d” do inciso XIII do caput do art. 36 são responsáveis pelo desconto do imposto sobre a renda previsto no art. 677 e ficam obrigadas a prestar às autoridades fiscais todos os esclarecimentos ou as informações, como representantes das fontes pagadoras dos rendimentos (Lei nº 4.357, de 16 de julho de 1964, art. 16, parágrafo único) .
 Responsabilidade do procurador de residente ou domiciliado no exterior
 
 
-###### Art. 781. {#art-781}
+###### Art. 781.
 
 Compete ao procurador a retenção ( Decreto-Lei nº 5.844, de 1943, art. 100, parágrafo único ):
 
@@ -18799,28 +18799,28 @@ Compete ao procurador a retenção ( Decreto-Lei nº 5.844, de 1943, art. 100, p
 Responsabilidade da fonte na hipótese de não retenção
 
 
-###### Art. 782. {#art-782}
+###### Art. 782.
 
 A fonte pagadora fica obrigada ao recolhimento do imposto sobre a renda, ainda que não o tenha retido ( Decreto-Lei nº 5.844, de 1943, art. 103 ).
 Parágrafo único. Na hipótese prevista neste artigo, quando se tratar de imposto sobre a renda devido como antecipação e a fonte pagadora comprovar que o beneficiário já incluiu o rendimento em sua declaração, será aplicada a penalidade prevista no art. 1.019 , além dos juros de mora pelo atraso, calculados sobre o valor do imposto sobre a renda que deveria ter sido retido, sem obrigatoriedade do recolhimento deste (Lei nº 10.426, de 24 de abril de 2002, art. 9º).
 Responsabilidade de terceiros
 
 
-###### Art. 783. {#art-783}
+###### Art. 783.
 
 São solidariamente responsáveis com o sujeito passivo os acionistas controladores, os diretores, os gerentes ou os representantes de pessoas jurídicas de direito privado pelos créditos decorrentes do não recolhimento do imposto sobre a renda descontado na fonte (Decreto-Lei nº 1.736, de 20 de dezembro de 1979, art. 8º, caput) .
 Parágrafo único. A responsabilidade das pessoas a que se refere o caput restringe-se ao período da administração, da gestão ou da representação (Decreto-Lei nº 1.736, de 1979, art. 8º, parágrafo único) .
 Responsabilidade dos consórcios e das empresas consorciadas
 
 
-###### Art. 784. {#art-784}
+###### Art. 784.
 
 O consórcio constituído nos termos estabelecidos nos art. 278 e art. 279 da Lei nº 6.404, de 1976 , que realizar a contratação, em nome próprio, de pessoas jurídicas e físicas, com ou sem vínculo empregatício, poderá efetuar a retenção do imposto sobre a renda incidente sobre os rendimentos pagos em decorrência dessa contratação, hipótese em que ficarão as empresas consorciadas solidariamente responsáveis (Lei nº 12.402, de 2 de maio de 2011, art. 1º, § 1º) .
 Parágrafo único. Se a retenção do imposto sobre a renda for realizada por sua empresa líder, aplica-se, também, a solidariedade de que trata o caput (Lei nº 12.402, de 2011, art. 1º, § 2º) .
 Dispensa de retenção
 
 
-###### Art. 785. {#art-785}
+###### Art. 785.
 
 Fica dispensada a retenção de imposto sobre a renda, de valor igual ou inferior a dez reais, incidente na fonte sobre rendimentos que devam integrar ( Lei nº 9.430, de 1996, art. 67 ):
 
@@ -18832,14 +18832,14 @@ Fica dispensada a retenção de imposto sobre a renda, de valor igual ou inferio
 Reajuste do rendimento
 
 
-###### Art. 786. {#art-786}
+###### Art. 786.
 
 Quando a fonte pagadora assumir o ônus do imposto sobre a renda devido pelo beneficiário, a importância paga, creditada, empregada, remetida ou entregue será considerada líquida e caberá o reajustamento do rendimento bruto, sobre o qual recairá o imposto, ressalvadas as hipóteses a que se referem o art. 733 e o § 1º do art. 761 (Lei nº 4.154, de 1962, art. 5º ; e Lei nº 8.981, de 1995, art. 63, § 2º) .
 Seção II
 Dos prazos de recolhimento
 
 
-###### Art. 787. {#art-787}
+###### Art. 787.
 
 Ressalvados os prazos específicos previstos neste Regulamento, o imposto sobre a renda retido na fonte deverá ser recolhido nos prazos a que se refere o art. 930 .
 
@@ -18852,14 +18852,14 @@ DISPOSIÇÕES GERAIS
 Normas gerais de incidência
 
 
-###### Art. 788. {#art-788}
+###### Art. 788.
 
 São compreendidos na incidência do imposto sobre a renda todos os ganhos e rendimentos de capital, independentemente da natureza, da espécie ou da existência de título ou do contrato escrito, bastando que decorram de ato ou de negócio que, pela sua finalidade, tenha os mesmos efeitos do previsto em norma específica de incidência do imposto sobre a renda (Lei nº 7.450, de 1985, art. 51) .
 Parágrafo único. A incidência do imposto sobre a renda independerá da denominação da receita ou do rendimento, da localização, da condição jurídica ou da nacionalidade da fonte, da origem e da forma de percepção ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43, § 1º ).
 Comprovante de operações com títulos de renda fixa
 
 
-###### Art. 789. {#art-789}
+###### Art. 789.
 
 A pessoa jurídica que colocar no mercado ou alienar títulos de renda fixa fornecerá ao adquirente nota de negociação, conforme modelo aprovado pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, ou documento relativo à aplicação, de forma identificar as partes intervenientes na operação (Lei nº 7.450, de 1985, art. 48 ; Lei nº 7.751, de 14 de abril de 1989, art. 3 º; e Lei nº 8.383, de 1991, art. 35 ).
 
@@ -18886,7 +18886,7 @@ CAPÍTULO II
 DA INCIDÊNCIA
 
 
-###### Art. 790. {#art-790}
+###### Art. 790.
 
 O rendimento produzido por aplicação ou por operação financeira de renda fixa ou de renda variável, auferido por qualquer beneficiário, inclusive pessoa jurídica isenta fica sujeito ao imposto sobre a renda na fonte às seguintes alíquotas (Lei nº 8.981, de 1995, art. 65 ; Lei nº 9.532, de 1997, art. 35 ; Lei nº 9.779, de 1999, art. 5º, caput ; e Lei nº 11.033, de 2004, art. 1º) :
 
@@ -18917,7 +18917,7 @@ O rendimento produzido por aplicação ou por operação financeira de renda fix
 
 
 
-###### Art. 791. {#art-791}
+###### Art. 791.
 
 O disposto no art. 790 aplica-se também (Lei nº 8.981, de 1995, art. 65, § 4º, alíneas “a” a “c” ; Lei nº 9.069, de 1995, art. 54 ; e Lei nº 13.043, de 2014, art. 6º ):
 
@@ -18935,7 +18935,7 @@ O disposto no art. 790 aplica-se também (Lei nº 8.981, de 1995, art. 65, § 4�
 Parágrafo único. O Ministro de Estado da Fazenda fica autorizado a editar normas complementares, com vistas a definir as características das operações de que tratam os incisos I e II do caput (Lei nº 8.981, de 1995, art. 65, § 6º) .
 
 
-###### Art. 792. {#art-792}
+###### Art. 792.
 
 Na hipótese de debêntures emitidas por sociedade de propósito específico, constituída sob a forma de sociedade por ações, dos certificados de recebíveis imobiliários e de quotas de emissão de fundo de investimento em direitos creditórios, constituídos sob a forma de condomínio fechado, relacionados à captação de recursos com vistas a implementar projetos de investimento na área de infraestrutura, ou de produção econômica intensiva em pesquisa, desenvolvimento e inovação, considerados como prioritários na forma regulamentada pelo Poder Executivo federal, os rendimentos auferidos por pessoas físicas ou jurídicas residentes ou domiciliadas no País ficam sujeitos à incidência do imposto sobre a renda exclusivamente na fonte, às seguintes alíquotas (Lei nº 12.431, de 2011, art. 2º, caput , incisos I e II) :
 
@@ -19013,7 +19013,7 @@ Seção I
 Da base de cálculo
 
 
-###### Art. 793. {#art-793}
+###### Art. 793.
 
 A base de cálculo do imposto sobre a renda será constituída pela diferença positiva entre o valor da alienação, líquido do Imposto sobre Operações de Crédito, Câmbio e Seguro ou relativas a Títulos ou Valores Mobiliários - IOF, e o valor da aplicação financeira (Lei nº 8.981, de 1995, art. 65, § 1º) .
 
@@ -19045,7 +19045,7 @@ A base de cálculo do imposto sobre a renda será constituída pela diferença p
 
 
 
-###### Art. 794. {#art-794}
+###### Art. 794.
 
 O imposto sobre a renda incidente sobre os rendimentos periódicos a que se refere o § 3º do art. 790 incidirá, pro rata tempore , sobre a parcela do rendimento produzido entre a data de aquisição, ou a data do pagamento periódico anterior, e a data de sua percepção, e a parcela dos rendimentos correspondente ao período entre a data do pagamento do rendimento periódico anterior e a data de aquisição do título poderá ser deduzida da base de cálculo (Lei nº 12.431, de 2011, art. 5º, caput ) .
 
@@ -19062,7 +19062,7 @@ Seção II
 Da retenção do imposto sobre a renda
 
 
-###### Art. 795. {#art-795}
+###### Art. 795.
 
 O imposto de que tratam os art. 790 ao art. 792 será retido (Lei nº 8.981, de 1995, art. 65, § 7º) :
 
@@ -19075,7 +19075,7 @@ Seção III
 Do responsável
 
 
-###### Art. 796. {#art-796}
+###### Art. 796.
 
 Fica responsável pela retenção do imposto sobre a renda (Decreto-Lei nº 2.394, de 21 de dezembro de 1987, art. 6º ; e Lei nº 8.981, de 1995, art. 65, § 8º) :
 
@@ -19092,7 +19092,7 @@ Seção IV
 Do mútuo e da operação vinculada com ouro como ativo financeiro
 
 
-###### Art. 797. {#art-797}
+###### Art. 797.
 
 As operações de mútuo e de compra vinculada à revenda, no mercado secundário, que tenham por objeto ouro, ativo financeiro, continuam equiparadas às operações de renda fixa para fins de incidência do imposto sobre a renda na fonte (Lei nº 8.981, de 1995, art. 70, caput) .
 
@@ -19147,7 +19147,7 @@ Seção I
 Das normas gerais
 
 
-###### Art. 798. {#art-798}
+###### Art. 798.
 
 Os fundos de investimento, os clubes de investimento, as carteiras administradas e as demais formas de investimento associativo ou coletivo ficam sujeitas às normas de tributação previstas neste Capítulo ( Lei nº 9.532, de 1997, art. 28, caput , e art. 33 ).
 
@@ -19170,7 +19170,7 @@ Seção II
 Da incidência, da base de cálculo e das alíquotas
 
 
-###### Art. 799. {#art-799}
+###### Art. 799.
 
 A incidência do imposto sobre a renda na fonte sobre os rendimentos nas aplicações em fundos de investimento, auferidos por qualquer beneficiário, inclusive por pessoa jurídica isenta, ocorrerá ( Medida Provisória nº 2.189-49, de 2001, art. 6º ; Lei nº 10.892, de 13 de julho de 2004, art. 3º ; e Lei nº 11.033, de 2004, art. 1º, caput e § 2º) :
 
@@ -19215,7 +19215,7 @@ A incidência do imposto sobre a renda na fonte sobre os rendimentos nas aplica�
 
 
 
-###### Art. 800. {#art-800}
+###### Art. 800.
 
 Os fundos de investimento cuja carteira de títulos tenha prazo médio igual ou inferior a trezentos e sessenta e cinco dias ficam sujeitos à incidência do imposto sobre a renda na fonte, por ocasião do resgate, na forma prevista neste artigo (Lei nº 11.053, de 2004, art. 6º, caput ) .
 
@@ -19268,7 +19268,7 @@ Seção III
 Da retenção e do recolhimento do imposto sobre a renda
 
 
-###### Art. 801. {#art-801}
+###### Art. 801.
 
 O imposto sobre a renda de que trata este Capítulo será retido pelo administrador do fundo de investimento na data da ocorrência do fato gerador e recolhido até o terceiro dia útil subsequente ao decêndio de ocorrência dos fatos geradores ( Lei nº 9.532, de 1997, art. 32 ; e Lei nº 11.196, de 2005, art. 70, caput, inciso I, alínea “b”, item 1) .
 
@@ -19287,7 +19287,7 @@ O imposto sobre a renda de que trata este Capítulo será retido pelo administra
 
 
 
-###### Art. 802. {#art-802}
+###### Art. 802.
 
 Na integralização de quotas de fundos ou clubes de investimento por meio da entrega de ativos financeiros, o administrador que receber os ativos a serem integralizados deverá observar o disposto no art. 815 (Lei nº 13.043, de 2014, art. 1º) .
 Seção IV
@@ -19295,7 +19295,7 @@ Das isenções e da dispensa de retenção
 Isenção
 
 
-###### Art. 803. {#art-803}
+###### Art. 803.
 
 Ficam isentos do imposto sobre a renda de que trata este Capítulo ( Lei nº 9.532, de 1997, art. 28, § 10 ):
 
@@ -19307,7 +19307,7 @@ Ficam isentos do imposto sobre a renda de que trata este Capítulo ( Lei nº 9.5
 Dos fundos de índice de renda fixa
 
 
-###### Art. 804. {#art-804}
+###### Art. 804.
 
 Os rendimentos e os ganhos de capital auferidos por cotistas de fundos de investimento cujas quotas sejam admitidas à negociação no mercado secundário administrado por bolsa de valores ou por entidade do mercado de balcão organizado, cujas carteiras sejam compostas por ativos financeiros que busquem refletir as variações e a rentabilidade de índices de renda fixa, denominados fundos de índice de renda fixa, e cujos regulamentos determinem que as suas carteiras sejam compostas, no mínimo, por setenta e cinco por cento de ativos financeiros que integrem o índice de renda fixa de referência, ficam sujeitos ao imposto sobre a renda às seguintes alíquotas (Lei 13.043, de 2014, art. 2º, caput , incisos I a III) :
 
@@ -19345,7 +19345,7 @@ Os rendimentos e os ganhos de capital auferidos por cotistas de fundos de invest
 
 
 
-###### Art. 805. {#art-805}
+###### Art. 805.
 
 A base de cálculo do imposto sobre a renda incidente sobre os rendimentos e os ganhos auferidos por cotistas de fundo de índice de renda fixa será (Lei nº 13.043, de 2014, art. 3º, caput, incisos I a III) :
 
@@ -19359,7 +19359,7 @@ A base de cálculo do imposto sobre a renda incidente sobre os rendimentos e os 
 
 
 
-###### Art. 806. {#art-806}
+###### Art. 806.
 
 São responsáveis pelo recolhimento do imposto sobre a renda devido (Lei 13.043, de 2014, art. 4º, caput, incisos I e II) :
 
@@ -19408,7 +19408,7 @@ Seção I
 Das normas gerais
 
 
-###### Art. 807. {#art-807}
+###### Art. 807.
 
 Os fundos de investimento, os clubes de investimento, as carteiras administradas e as demais formas de investimento associativo ou coletivo ficam sujeitos às normas de tributação previstas neste Capítulo ( Lei nº 9.532, de 1997, art. 33 ).
 
@@ -19436,7 +19436,7 @@ Seção II
 Da incidência e da base de cálculo
 
 
-###### Art. 808. {#art-808}
+###### Art. 808.
 
 Os fundos de investimento cujas carteiras sejam constituídas, no mínimo, por sessenta e sete por cento de ações negociadas no mercado à vista de bolsa de valores ou entidade assemelhada calcularão o imposto sobre a renda no resgate de quotas, de forma a abranger os rendimentos e os ganhos totais do patrimônio do fundo ( Lei nº 9.532, de 1997, art. 28, § 6º ; e Medida Provisória nº 2.189-49, de 2001, art. 1º e art. 2º ).
 
@@ -19470,12 +19470,12 @@ Os fundos de investimento cujas carteiras sejam constituídas, no mínimo, por s
 
 
 
-###### Art. 809. {#art-809}
+###### Art. 809.
 
 As aplicações existentes em 31 de dezembro de 2001 nos fundos de que trata o art. 808 terão os rendimentos apropriados pro rata tempore até aquela data (Lei nº 10.426, de 2002, art. 3º, caput ).
 
 
-###### Art. 810. {#art-810}
+###### Art. 810.
 
 No resgate de quotas referentes às aplicações de que trata o art. 809 , serão observados os seguintes procedimentos ( Lei nº 10.426, de 2002, art. 3º, § 1º) :
 
@@ -19486,24 +19486,24 @@ No resgate de quotas referentes às aplicações de que trata o art. 809 , serã
 
 
 
-###### Art. 811. {#art-811}
+###### Art. 811.
 
 O disposto nos art. 809 e art. 810 aplica-se, também, aos clubes de investimento que mantenham em suas carteiras percentual mínimo de sessenta e sete por cento de ações negociadas no mercado à vista de bolsa de valores ou em mercado de balcão organizado, assim considerado pela CVM (Lei nº 10.426, de 2002, art. 3º, § 2º) .
 
 
-###### Art. 812. {#art-812}
+###### Art. 812.
 
 Na hipótese de aplicações em fundos mútuos de privatização constituídos com recursos do FGTS, o imposto sobre a renda incidirá exclusivamente sobre os ganhos que excederem a remuneração das contas vinculadas (Lei nº 8.036, de 1990, art. 20, § 14) .
 
 
-###### Art. 813. {#art-813}
+###### Art. 813.
 
 Ficam isentos do imposto sobre a renda os rendimentos auferidos por pessoa física no resgate de quotas de fundos de investimento em ações constituídos sob a forma de condomínio aberto e que atendam aos requisitos estabelecidos no art. 18 da Lei nº 13.043, de 2014 ( Lei nº 13.043, de 2014, art. 18 ).
 Seção III
 Da retenção e do recolhimento do imposto sobre a renda
 
 
-###### Art. 814. {#art-814}
+###### Art. 814.
 
 O imposto sobre a renda de que trata este Capítulo será retido pelo administrador do fundo de investimento na data da ocorrência do fato gerador e recolhido até o terceiro dia útil subsequente ao decêndio de ocorrência dos fatos geradores (Lei nº 11.196, de 2005, art. 70, caput, inciso I, alínea “b”, item 1) .
 
@@ -19522,7 +19522,7 @@ O imposto sobre a renda de que trata este Capítulo será retido pelo administra
 
 
 
-###### Art. 815. {#art-815}
+###### Art. 815.
 
 Na integralização de quotas de fundos ou clubes de investimento por meio da entrega de ativos financeiros, o administrador que receber os ativos a serem integralizados fica responsável pela cobrança e pelo recolhimento do imposto sobre a renda devido sobre o ganho de capital até o terceiro dia útil subsequente ao decêndio de ocorrência dos fatos geradores. (Lei nº 11.196, de 2005, art. 70, caput, inciso I, alínea “b”, item 1 ; e Lei nº 13.043, de 2014, art. 1º, caput) .
 
@@ -19570,7 +19570,7 @@ Das isenções e da dispensa de retenção
 Isenção
 
 
-###### Art. 816. {#art-816}
+###### Art. 816.
 
 Ficam isentos do imposto sobre a renda de que trata este Capítulo ( Lei nº 9.532, de 1997, art. 28, § 10 ):
 
@@ -19585,14 +19585,14 @@ Seção I
 Dos rendimentos distribuídos
 
 
-###### Art. 817. {#art-817}
+###### Art. 817.
 
 Ficam sujeitos à incidência do imposto sobre a renda na fonte, à alíquota de dez por cento, os rendimentos e os ganhos de capital distribuídos, sob qualquer forma e qualquer que seja o beneficiário, pelos Fundos de Investimento Cultural e Artístico - Ficart, observado o disposto no parágrafo único do art. 796 (Lei nº 8.981, de 1995, art. 76 ; e Lei nº 9.065, de 1995, art. 14) .
 Seção II
 Da alienação e do resgate de quotas
 
 
-###### Art. 818. {#art-818}
+###### Art. 818.
 
 O disposto nos art. 839 e art. 842 aplica-se aos ganhos auferidos na alienação de quotas de Ficart, constituído sob a forma de condomínio fechado (Lei nº 8.313, de 1991, art. 16) .
 
@@ -19614,14 +19614,14 @@ Seção III
 Das operações da carteira
 
 
-###### Art. 819. {#art-819}
+###### Art. 819.
 
 Os rendimentos e os ganhos de capital auferidos pela carteira do Ficart ficam isentos do imposto sobre a renda, desde que atendidos os requisitos previstos na Lei nº 8.313, de 1991 , e nas normas editadas pela CVM (Lei nº 8.313, de 1991, art. 14 e art. 17 ; e Lei nº 8.894, de 21 de junho de 1994, art. 10) .
 Seção IV
 Da retenção do imposto sobre a renda
 
 
-###### Art. 820. {#art-820}
+###### Art. 820.
 
 O imposto sobre a renda será retido pelo administrador do fundo (Lei nº 8.981, de 1995, art. 73, § 3º) :
 
@@ -19634,7 +19634,7 @@ CAPÍTULO III
 DOS Fundos de Financiamento da Indústria Cinematográfica Nacional
 
 
-###### Art. 821. {#art-821}
+###### Art. 821.
 
 Os Funcines serão constituídos sob a forma de condomínio fechado, sem personalidade jurídica, e administrados por instituição financeira autorizada a funcionar pelo Banco Central do Brasil ou por agências e bancos de desenvolvimento ( Medida Provisória nº 2.228-1, de 2001, art. 41, caput ).
 
@@ -19648,22 +19648,22 @@ Os Funcines serão constituídos sob a forma de condomínio fechado, sem persona
 
 
 
-###### Art. 822. {#art-822}
+###### Art. 822.
 
 Os rendimentos, os ganhos de capital e os ganhos líquidos decorrentes de aplicação em Funcines ficam sujeitos às normas tributárias aplicáveis aos demais valores mobiliários no mercado de capitais ( Medida Provisória nº 2.228-1, de 2001, art. 46, § 1º ).
 
 
-###### Art. 823. {#art-823}
+###### Art. 823.
 
 Os rendimentos, os ganhos de capital e os ganhos líquidos auferidos pela carteira de Funcines ficam isentos do imposto sobre a renda ( Medida Provisória nº 2.228-1, de 2001, art. 46, caput) .
 
 
-###### Art. 824. {#art-824}
+###### Art. 824.
 
 Na hipótese de resgate de quotas de Funcines em decorrência do término do prazo de duração ou da liquidação do fundo, sobre o rendimento do cotista, constituído pela diferença positiva entre o valor de resgate e o custo de aquisição das quotas, incidirá imposto sobre a renda na fonte, à alíquota de vinte por cento, que será retido e recolhido pelo administrador do fundo (Lei nº 8.981, de 1995, art. 73, § 3º; e Medida Provisória nº 2.228-1, de 2001, art. 41, § 2º , e art. 46, § 2º ).
 
 
-###### Art. 825. {#art-825}
+###### Art. 825.
 
 A pessoa jurídica que alienar quotas do Funcines somente poderá considerar como custo de aquisição, para fins de determinação do ganho de capital, os valores deduzidos na forma prevista no § 2º do art. 553 , na hipótese em que a alienação ocorrer após decorrido o prazo de cinco anos, contado da data de sua aquisição ( Medida Provisória nº 2.228-1, de 2001, art. 45, § 4º ).
 Parágrafo único. Em qualquer hipótese, não será dedutível a perda apurada na alienação das quotas dos Funcines ( Medida Provisória nº 2.228-1, de 2001, art. 45, § 5º ).
@@ -19674,7 +19674,7 @@ Dos rendimentos e dos ganhos líquidos auferidos e distribuídos
 Auferidos
 
 
-###### Art. 826. {#art-826}
+###### Art. 826.
 
 Os rendimentos e os ganhos líquidos auferidos pelos fundos de que trata este Capítulo, em aplicações financeiras de renda fixa ou de renda variável, ficam sujeitos à incidência do imposto sobre a renda na fonte, observadas as normas aplicáveis às pessoas jurídicas submetidas a essa forma de tributação (Lei nº 8.668, de 25 de junho de 1993, art. 16-A, caput ) .
 
@@ -19700,7 +19700,7 @@ Os rendimentos e os ganhos líquidos auferidos pelos fundos de que trata este Ca
 Distribuídos
 
 
-###### Art. 827. {#art-827}
+###### Art. 827.
 
 Os rendimentos e os ganhos de capital auferidos, apurados de acordo com o regime de caixa, quando distribuídos pelos fundos de que trata este Capítulo, a qualquer beneficiário, inclusive pessoa jurídica isenta, ficam sujeitos à incidência do imposto sobre a renda na fonte, à alíquota de vinte por cento (Lei nº 8.668, de 1993, art. 17, caput).
 
@@ -19726,7 +19726,7 @@ Os rendimentos e os ganhos de capital auferidos, apurados de acordo com o regime
 
 
 
-###### Art. 828. {#art-828}
+###### Art. 828.
 
 Ficam isentos do imposto sobre a renda na fonte e na declaração de ajuste anual das pessoas físicas os rendimentos distribuídos pelos fundos de investimento imobiliários cujas quotas sejam admitidas à negociação exclusivamente em bolsas de valores ou no mercado de balcão organizado (Lei nº 11.033, de 2004, art. 3º, caput, inciso III) .
 Parágrafo único. A isenção de que trata o caput :
@@ -19740,7 +19740,7 @@ Seção II
 Da alienação ou do resgate de quotas
 
 
-###### Art. 829. {#art-829}
+###### Art. 829.
 
 Os ganhos de capital e os rendimentos auferidos na alienação ou no resgate de quotas dos fundos de investimento imobiliário, por qualquer beneficiário, inclusive por pessoa jurídica isenta, sujeitam-se à incidência do imposto sobre a renda à alíquota de vinte por cento ( Lei nº 8.668, de 1993, art. 18, caput, incisos I e II) :
 
@@ -19760,13 +19760,13 @@ Seção III
 Da retenção do imposto sobre a renda e das obrigações da administradora do fundo
 
 
-###### Art. 830. {#art-830}
+###### Art. 830.
 
 Ressalvada a responsabilidade da fonte pagadora pela retenção do imposto sobre a renda incidente sobre os rendimentos de que trata o art. 826 , a instituição administradora do fundo de investimento imobiliário será responsável pelo cumprimento das demais obrigações tributárias, inclusive obrigações acessórias, do fundo (Lei nº 9.779, de 1999, art. 4º) .
 Equiparação a pessoa jurídica
 
 
-###### Art. 831. {#art-831}
+###### Art. 831.
 
 Fica sujeito à tributação aplicável às pessoas jurídicas o fundo de investimento imobiliário que aplicar recursos em empreendimento imobiliário que tenha como incorporador, construtor ou sócio, cotista que possua, isoladamente ou em conjunto com pessoa a ele ligada, mais de vinte e cinco por cento das quotas do fundo (Lei nº 9.779, de 1999, art. 2º, caput) .
 Parágrafo único. Para fins do disposto no caput , considera-se pessoa ligada ao cotista (Lei nº 9.779, de 1999, art. 2º, parágrafo único) :
@@ -19786,7 +19786,7 @@ CAPÍTULO V
 DOS FUNDOS DE INVESTIMENTO EM PARTICIPAÇÕES, DOS FUNDOS DE INVESTIMENTO EM QUOTAS DE FUNDOS DE INVESTIMENTO EM PARTICIPAÇÕES E DOS FUNDOS DE INVESTIMENTO EM EMPRESAS EMERGENTES
 
 
-###### Art. 832. {#art-832}
+###### Art. 832.
 
 Os rendimentos auferidos no resgate de quotas dos fundos de investimento em participações, dos fundos de investimento em quotas de fundos de investimento em participações e dos fundos de investimento em empresas emergentes, inclusive quando decorrentes da liquidação do fundo, ficam sujeitos ao imposto sobre a renda na fonte, à alíquota de quinze por cento, incidente sobre a diferença positiva entre o valor de resgate e o custo de aquisição das quotas (Lei nº 11.312, de 27 de junho de 2006, art. 2º, caput ) .
 
@@ -19824,7 +19824,7 @@ CAPÍTULO VI
 DOS FUNDOS DE INVESTIMENTO EM PARTICIPAÇÕES EM INFRAESTRUTURA E DOS FUNDOS DE INVESTIMENTO EM PARTICIPAÇÃO NA PRODUÇÃO ECONÔMICA INTENSIVA EM PESQUISA, DESENVOLVIMENTO E INOVAÇÃO
 
 
-###### Art. 833. {#art-833}
+###### Art. 833.
 
 Os rendimentos auferidos no resgate de quotas do FIP-IE e do FIP-PD&I, inclusive quando decorrentes da liquidação do fundo, ficam sujeitos à incidência do imposto sobre a renda na fonte, à alíquota de quinze por cento, sobre a diferença positiva entre o valor de resgate e o custo de aquisição das quotas (Lei nº 11.478, de 2007, art. 2º, caput ) .
 
@@ -19859,19 +19859,19 @@ Os rendimentos auferidos no resgate de quotas do FIP-IE e do FIP-PD&I, inclusive
 
 
 
-###### Art. 834. {#art-834}
+###### Art. 834.
 
 As perdas apuradas nas operações de que trata o art. 833 , quando realizadas por pessoa jurídica tributada com base no lucro real, não serão dedutíveis na apuração do lucro real (Lei nº 11.478, de 2007, art. 3º).
 
 
-###### Art. 835. {#art-835}
+###### Art. 835.
 
 A CVM e a Secretaria da Receita Federal do Brasil do Ministério da Fazenda regulamentarão, no âmbito de suas competências, o disposto nos art. 833 e art. 834 ( Lei nº 11.478, de 2007, art. 4º) .
 CAPÍTULO VII
 DOS FUNDOS DE INVESTIMENTO COM CARTEIRA EM DEBÊNTURES
 
 
-###### Art. 836. {#art-836}
+###### Art. 836.
 
 As instituições autorizadas pela CVM ao exercício da administração de carteira de títulos e valores mobiliários poderão constituir fundo de investimento, desde que disponha, em seu regulamento, que a aplicação de seus recursos nos ativos de que trata o art. 792 não poderá ser inferior a oitenta e cinco por cento do valor do patrimônio líquido do fundo (Lei nº 12.431, de 2011, art. 3º, caput ).
 
@@ -19960,7 +19960,7 @@ CAPÍTULO VIII
 DAS OPERAÇÕES DE SWAP
 
 
-###### Art. 837. {#art-837}
+###### Art. 837.
 
 Ficam sujeitos à incidência do imposto sobre a renda, às alíquotas previstas no art. 790, os rendimentos auferidos em operações de swap (Lei nº 8.981, de 1995, art. 74 ; Lei nº 9.532, de 1997, art. 36, caput ; Lei nº 9.779, de 1999, art. 5º ; e Lei nº 11.033, de 2004, art. 1º) .
 
@@ -20008,7 +20008,7 @@ CAPÍTULO IX
 DA COMPENSAÇÃO DE PERDAS
 
 
-###### Art. 838. {#art-838}
+###### Art. 838.
 
 Ressalvado o disposto no § 6º do art. 837 , o Ministro de Estado da Fazenda fica autorizado a permitir a compensação dos resultados apurados nas operações de que tratam o § 2º do art. 807 e o art. 837 , e a definir as condições para a sua realização (Lei nº 8.981, de 1995, art. 75) .
 CAPÍTULO X
@@ -20017,7 +20017,7 @@ Seção I
 Da incidência
 
 
-###### Art. 839. {#art-839}
+###### Art. 839.
 
 Os ganhos líquidos auferidos por qualquer beneficiário, inclusive pessoa jurídica isenta, em operações realizadas nas bolsas de valores, de mercadorias, de futuros e assemelhadas, serão tributados à alíquota de quinze por cento (Lei nº 8.981, de 1995, art. 72 ; e Lei nº 11.033, de 2004, art. 2º, caput, inciso II) .
 
@@ -20062,13 +20062,13 @@ Os ganhos líquidos auferidos por qualquer beneficiário, inclusive pessoa jurí
 Ouro como ativo financeiro
 
 
-###### Art. 840. {#art-840}
+###### Art. 840.
 
 O ouro, em qualquer estado de pureza, bruto ou refinado, quando destinado ao mercado financeiro ou à execução da política cambial do País, em operações realizadas com a interveniência de instituições integrantes do Sistema Financeiro Nacional, na forma e nas condições autorizadas pelo Banco Central do Brasil, será, desde a extração, inclusive, considerado ativo financeiro ou instrumento cambial ( Lei nº 7.766, de 1989, art. 1º ).
 Conceito de ganho líquido
 
 
-###### Art. 841. {#art-841}
+###### Art. 841.
 
 Considera-se ganho líquido o resultado positivo auferido nas operações realizadas em cada mês, admitida a dedução dos custos e das despesas incorridos, necessários à realização das operações, e a compensação de perdas apuradas nas operações de que tratam os art. 842 e art. 846 ao art. 848 , ressalvado o disposto no art. 851 ( Lei nº 7.713, de 1988, art. 40, § 1º ; e Lei nº 7.799, de 1989, art. 55, § 1º e § 7º) .
 
@@ -20085,13 +20085,13 @@ Seção II
 Dos mercados à vista
 
 
-###### Art. 842. {#art-842}
+###### Art. 842.
 
 Nos mercados à vista, o ganho líquido será constituído pela diferença positiva entre o valor de alienação do ativo e o seu custo de aquisição (Lei nº 7.799, de 1989, art. 55, § 2º, alínea “a” ; e Lei nº 8.541, de 1992, art. 29, § 2º, alínea “a”) .
 Custo de aquisição
 
 
-###### Art. 843. {#art-843}
+###### Art. 843.
 
 Os custos de aquisição dos ativos objeto das operações de que trata o art. 842 serão considerados pela média ponderada dos custos unitários (Lei nº 8.981, de 1995, art. 72, § 2º) .
 
@@ -20133,7 +20133,7 @@ Os custos de aquisição dos ativos objeto das operações de que trata o art. 8
 Permuta no âmbito do Programa Nacional de Desestatização
 
 
-###### Art. 844. {#art-844}
+###### Art. 844.
 
 Terá o tratamento de permuta a entrega, pelo licitante vencedor, de títulos da dívida pública federal ou de outros créditos contra a União, como contrapartida à aquisição das ações ou das quotas leiloadas no âmbito do PND ( Lei nº 8.383, de 1991, art. 65, caput ).
 
@@ -20159,14 +20159,14 @@ Terá o tratamento de permuta a entrega, pelo licitante vencedor, de títulos da
 Da isenção de imposto sobre a renda sobre alienação em bolsa de valores de ações de pequenas e médias empresas
 
 
-###### Art. 845. {#art-845}
+###### Art. 845.
 
 Fica isento de imposto sobre a renda o ganho de capital auferido por pessoa física, até 31 de dezembro de 2023, na alienação, realizada no mercado à vista de bolsas de valores, de ações que tenham sido emitidas nos termos estabelecidos nos art. 16 e art. 17 da Lei nº 13.043, de 2014 ( Lei nº 13.043, de 2014, art. 16 e art. 17 ).
 Seção III
 Dos mercados de opções
 
 
-###### Art. 846. {#art-846}
+###### Art. 846.
 
 Nos mercados de opções, o ganho líquido será constituído (Lei nº 7.799, de 1989, art. 55, § 2º, alínea “b” ; e Lei nº 8.541, de 1992, art. 29, § 2º, alínea “b”) :
 
@@ -20206,14 +20206,14 @@ Seção IV
 Dos mercados futuros
 
 
-###### Art. 847. {#art-847}
+###### Art. 847.
 
 Nos mercados futuros, o ganho líquido será o resultado positivo da soma algébrica dos ajustes diários ocorridos por ocasião da liquidação do contrato, da cessão ou do encerramento da posição (Lei nº 11.051, de 2004, art. 32) .
 Seção V
 Dos mercados a termo
 
 
-###### Art. 848. {#art-848}
+###### Art. 848.
 
 Nos mercados a termo, o ganho líquido será constituído (Lei nº 7.799, de 1989, art. 55, § 2º, alínea “c” ; e Lei nº 8.541, de 1992, art. 29, § 2º, alínea “c”) :
 
@@ -20236,7 +20236,7 @@ Seção VI
 Do imposto sobre a renda retido na fonte
 
 
-###### Art. 849. {#art-849}
+###### Art. 849.
 
 As operações a que se referem o art. 842 e o art. 846 ao art. 848 ficam sujeitas à incidência do imposto sobre a renda na fonte, à alíquota de cinco milésimos por cento, sobre os seguintes valores (Lei nº 11.033, de 2004, art. 2º, § 1º) :
 
@@ -20314,7 +20314,7 @@ Seção VII
 Da transferência de titularidade de ações negociadas fora de bolsa
 
 
-###### Art. 850. {#art-850}
+###### Art. 850.
 
 Na transferência de titularidade de ações negociadas fora de bolsa, sem intermediação, a entidade encarregada de seu registro deverá exigir o DARF que comprove o pagamento do imposto sobre a renda sobre o ganho de capital incidente na alienação ou na declaração do alienante sobre a inexistência de imposto sobre a renda devido, observadas as normas estabelecidas pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda (Lei nº 11.033, de 2004, art. 5º, caput) .
 
@@ -20331,7 +20331,7 @@ Seção VIII
 Das operações de day-trade
 
 
-###### Art. 851. {#art-851}
+###### Art. 851.
 
 Os rendimentos auferidos em operações de day-trade realizadas em bolsas de valores, de mercadorias, de futuros e assemelhadas, por qualquer beneficiário, inclusive pessoa jurídica isenta, ficam sujeitos à incidência do imposto sobre a renda na fonte à alíquota de um por cento ( Lei nº 9.959, de 2000, art. 8º, caput ).
 
@@ -20408,7 +20408,7 @@ CAPÍTULO XI
 DOS CERTIFICADOS DE INVESTIMENTO EM ATIVIDADE AUDIOVISUAL
 
 
-###### Art. 852. {#art-852}
+###### Art. 852.
 
 Aplica-se aos ganhos auferidos na alienação de certificados de investimentos de que trata o art. 546 , emitidos e registrados segundo as normas expedidas pela CVM, o disposto nos art. 128 , art. 222 , art. 595 ou art. 609 , quando esses certificados tiverem sido objeto de registro simplificado ou, em caso contrário, o disposto no art. 839 (Lei nº 8.981, de 1995, art. 21 e art. 72 ; e Lei nº 7.713, de 1988, art. 2º e art. 3º ).
 
@@ -20420,7 +20420,7 @@ CAPÍTULO I
 DA IDENTIFICAÇÃO DO BENEFICIÁRIO
 
 
-###### Art. 853. {#art-853}
+###### Art. 853.
 
 É vedado o pagamento ou o resgate de qualquer título ou aplicação, e seus rendimentos ou seus ganhos, a beneficiário não identificado (Lei nº 8.021, de 1990, art. 1º) .
 Parágrafo único. É dado obrigatório da identificação o número de inscrição no CNPJ ou no CPF.
@@ -20430,7 +20430,7 @@ Seção I
 Dos rendimentos e dos ganhos líquidos
 
 
-###### Art. 854. {#art-854}
+###### Art. 854.
 
 Os rendimentos auferidos em qualquer aplicação ou em operação financeira de renda fixa ou de renda variável ficam sujeitos à incidência do imposto sobre a renda na fonte, mesmo na hipótese das operações de cobertura hedge , realizadas por meio de operações de swap e outras, nos mercados de derivativos (Lei nº 9.779, de 1999, art. 5º, caput ) .
 
@@ -20467,7 +20467,7 @@ Seção II
 Da indedutibilidade de perdas
 
 
-###### Art. 855. {#art-855}
+###### Art. 855.
 
 As perdas incorridas em operações iniciadas e encerradas no mesmo dia ( day - trade ), realizadas em mercados de renda fixa ou de renda variável, não serão dedutíveis na apuração do lucro real (Lei nº 8.981, de 1995, art. 76, § 3º) .
 
@@ -20481,7 +20481,7 @@ As perdas incorridas em operações iniciadas e encerradas no mesmo dia ( day - 
 
 
 
-###### Art. 856. {#art-856}
+###### Art. 856.
 
 São também indedutíveis, na apuração do lucro real, as perdas apuradas nas operações:
 
@@ -20497,7 +20497,7 @@ Seção III
 Da limitação na compensação de perdas
 
 
-###### Art. 857. {#art-857}
+###### Art. 857.
 
 Ressalvado o disposto no art. 855 , as perdas apuradas nas operações de que tratam o art. 842 e o art. 846 ao art. 848 somente serão dedutíveis para fins de determinação do lucro real até o limite dos ganhos auferidos em operações previstas nos referidos artigos (Lei nº 8.981, de 1995, art. 76, § 4º).
 
@@ -20514,7 +20514,7 @@ CAPÍTULO III
 DO TRATAMENTO DO IMPOSTO SOBRE A RENDA
 
 
-###### Art. 858. {#art-858}
+###### Art. 858.
 
 O imposto sobre a renda retido na fonte sobre os rendimentos de aplicações financeiras de renda fixa e de renda variável ou pago sobre os ganhos líquidos mensais será (Lei nº 8.981, de 1995, art. 76, caput, incisos I e II ; Lei nº 9.430, de 1996, art. 51 ; e Lei Complementar nº 123, de 2006, art. 13, § 1º, inciso V, e § 2º ):
 
@@ -20534,7 +20534,7 @@ CAPÍTULO IV
 DA DISPENSA DE RETENÇÃO NA FONTE E DE PAGAMENTO DO IMPOSTO SOBRE GANHOS LíQUIDOS
 
 
-###### Art. 859. {#art-859}
+###### Art. 859.
 
 O regime de tributação previsto no Título II ao Título V deste Livro não se aplica aos rendimentos ou aos ganhos líquidos (Lei nº 9.779, de 1999, art. 5º) :
 
@@ -20552,7 +20552,7 @@ O regime de tributação previsto no Título II ao Título V deste Livro não se
 Parágrafo único. O disposto no inciso IV do caput aplica-se aos fundos administrativos constituídos pelas entidades fechadas de previdência complementar e às provisões, às reservas técnicas e aos fundos dos planos assistenciais de que trata o art. 76 da Lei Complementar nº 109, de 2001 (Lei nº 11.053, de 2004, art. 5º, parágrafo único) .
 
 
-###### Art. 860. {#art-860}
+###### Art. 860.
 
 Os rendimentos e os ganhos líquidos de que trata o art. 859 compõem o lucro real e, quando for o caso, deverão (Lei nº 8.981, de 1995, art. 32 e art. 77, § 3º) :
 
@@ -20566,7 +20566,7 @@ CAPÍTULO V
 DAS ASSOCIAÇÕES DE POUPANÇA E EMPRÉSTIMO
 
 
-###### Art. 861. {#art-861}
+###### Art. 861.
 
 As associações de poupança e empréstimo pagarão o imposto sobre a renda correspondente aos rendimentos e aos ganhos líquidos, auferidos em aplicações financeiras, à alíquota de quinze por cento, calculado sobre vinte e oito por cento do valor dos referidos rendimentos e ganhos líquidos ( Lei nº 9.430, de 1996, art. 57, caput ).
 Parágrafo único. O imposto sobre a renda incidente na forma prevista neste artigo será considerado tributação definitiva ( Lei nº 9.430, de 1996, art. 57, parágrafo único ).
@@ -20574,7 +20574,7 @@ CAPÍTULO VI
 DAS ISENÇÕES E das NÃO INCIDÊNCIAS
 
 
-###### Art. 862. {#art-862}
+###### Art. 862.
 
 Não ficam sujeitos ao imposto sobre a renda de que tratam o Título II ao Título V deste Livro :
 
@@ -20635,7 +20635,7 @@ CAPÍTULO VII
 DA TRIBUTAÇÃO NAS OPERAÇÕES DE EMPRÉSTIMO DE AÇÕES E DE OUTROS TÍTULOS E VALORES MOBILIÁRIOS
 
 
-###### Art. 863. {#art-863}
+###### Art. 863.
 
 A remuneração auferida pelo emprestador nas operações de empréstimo de ações de emissão de companhias abertas realizadas em entidades autorizadas a prestar serviços de compensação e liquidação de operações com valores mobiliários será tributada pelo imposto sobre a renda de acordo com as regras estabelecidas para aplicação de renda fixa às alíquotas previstas no art. 790 (Lei nº 13.043, de 2014, art. 6º, caput ) .
 
@@ -20654,7 +20654,7 @@ A remuneração auferida pelo emprestador nas operações de empréstimo de aç�
 
 
 
-###### Art. 864. {#art-864}
+###### Art. 864.
 
 O valor, integral ou parcial, reembolsado ao emprestador pelo tomador, decorrente dos proventos distribuídos pela companhia emissora das ações durante o decurso do contrato de empréstimo, fica isento do imposto sobre a renda retido na fonte para o emprestador, pessoa física ou jurídica, domiciliado no País ou no exterior. (Lei nº 13.043, de 2014, art. 7º, caput) .
 
@@ -20695,7 +20695,7 @@ O valor, integral ou parcial, reembolsado ao emprestador pelo tomador, decorrent
 
 
 
-###### Art. 865. {#art-865}
+###### Art. 865.
 
 Será devido pelo tomador o imposto sobre a renda, à alíquota de quinze por cento, incidente sobre o valor correspondente aos juros sobre o capital próprio distribuídos pela companhia emissora do papel objeto do empréstimo em ambientes de que trata o art. 863 , na hipótese de operação de empréstimo de ações que tenha como parte emprestadora pessoa física ou jurídica sujeita ao imposto sobre a renda, e como parte tomadora (Lei nº 13.043, de 2014, art. 8º, caput) :
 
@@ -20741,13 +20741,13 @@ Será devido pelo tomador o imposto sobre a renda, à alíquota de quinze por ce
 
 
 
-###### Art. 866. {#art-866}
+###### Art. 866.
 
 Na hipótese do tomador de ações por empréstimo, a diferença positiva ou negativa entre o valor da alienação e o custo médio de aquisição desses valores será considerada ganho líquido ou perda do mercado de renda variável, e esse resultado será apurado por ocasião da recompra das ações. (Lei nº 13.043, de 2014, art. 9º, caput) .
 Parágrafo único. Na apuração do imposto de que trata o caput , poderão ser computados como custo da operação as corretagens e os demais emolumentos pagos efetivamente pelo tomador (Lei nº 13.043, de 2014, art. 9º, parágrafo único) .
 
 
-###### Art. 867. {#art-867}
+###### Art. 867.
 
 O disposto no art. 863 aplica-se, no que couber, aos empréstimos de títulos e de outros valores mobiliários (Lei nº 13.043, de 2014, art. 10, caput ).
 
@@ -20767,7 +20767,7 @@ O disposto no art. 863 aplica-se, no que couber, aos empréstimos de títulos e 
 
 
 
-###### Art. 868. {#art-868}
+###### Art. 868.
 
 O valor reembolsado ao emprestador pelo tomador decorrente dos rendimentos distribuídos durante o decurso do contrato de empréstimo de títulos e de outros valores mobiliários fica isento do imposto sobre a renda retido na fonte para o emprestador, pessoa física ou jurídica, domiciliado no País ou no exterior. (Lei nº 13.043, de 2014, art. 11, caput) .
 Parágrafo único. O valor do reembolso de que trata este artigo será deduzido (Lei nº 13.043, de 2014, art. 11, parágrafo único) :
@@ -20779,7 +20779,7 @@ Parágrafo único. O valor do reembolso de que trata este artigo será deduzido 
 
 
 
-###### Art. 869. {#art-869}
+###### Art. 869.
 
 O imposto sobre a renda de que trata o art. 865 também incidirá sobre os rendimentos pagos durante o decurso do contrato de empréstimo de títulos e valores mobiliários sujeitos à tributação pelo imposto sobre a renda de acordo com o disposto no art. 790 , quando tenham como parte emprestadora pessoa física ou jurídica sujeita ao imposto sobre a renda e como parte tomadora (Lei nº 13.043, de 2014, art. 12, caput) :
 
@@ -20808,19 +20808,19 @@ O imposto sobre a renda de que trata o art. 865 também incidirá sobre os rendi
 
 
 
-###### Art. 870. {#art-870}
+###### Art. 870.
 
 Na hipótese do tomador de títulos ou valores mobiliários sujeitos à tributação pelo imposto sobre a renda de acordo com o disposto no art. 790 , a diferença positiva entre o valor da alienação, líquido do IOF, eventualmente incidente, e o valor da aplicação financeira será considerada rendimento, apurada por ocasião da recompra dos referidos títulos e valores mobiliários (Lei nº 13.043, de 2014, art. 13, caput).
 Parágrafo único. O pagamento do imposto sobre a renda de que trata o caput caberá ao tomador (Lei nº 13.043, de 2014, art. 13, parágrafo único) .
 
 
-###### Art. 871. {#art-871}
+###### Art. 871.
 
 Na hipótese do emprestador de títulos, ações e outros valores mobiliários, não constitui fato gerador do imposto sobre a renda a liquidação do empréstimo efetivada pela devolução do mesmo título, ação ou valor mobiliário de mesma classe, espécie e emissor (Lei nº 13.043, de 2014, art. 14, caput).
 Parágrafo único. Quando a operação for liquidada por meio de entrega de numerário, o ganho líquido ou o rendimento será representado pela diferença positiva entre o valor da liquidação financeira do empréstimo e o custo médio de aquisição dos títulos, das ações e de outros valores mobiliários (Lei nº 13.043, de 2014, art. 14, parágrafo único) .
 
 
-###### Art. 872. {#art-872}
+###### Art. 872.
 
 São responsáveis pela retenção do imposto sobre a renda (Lei nº 13.043, de 2014, art. 15, caput):
 
@@ -20854,7 +20854,7 @@ CAPÍTULO I
 DAS NORMAS GERAIS
 
 
-###### Art. 873. {#art-873}
+###### Art. 873.
 
 Os residentes ou os domiciliados no exterior ficam sujeitos às mesmas normas de tributação pelo imposto sobre a renda previstas para os residentes ou os domiciliados no País, em relação aos (Lei nº 8.981, de 1995, art. 78, caput , incisos I a III) :
 
@@ -20880,20 +20880,20 @@ Seção única
 Do representante legal
 
 
-###### Art. 874. {#art-874}
+###### Art. 874.
 
 O investimento estrangeiro nos mercados financeiros e de valores mobiliários somente poderá ser realizado no País por intermédio de representante legal, previamente designado entre as instituições autorizadas pelo Poder Executivo federal a prestar tal serviço e que será responsável, observado o disposto no art. 128 da Lei nº 5.172, de 1966 - Código Tributário Nacional , pelo cumprimento das obrigações tributárias decorrentes das operações que realizar por conta e ordem do representado (Lei nº 8.981, de 1995, art. 79, caput) .
 Parágrafo único. O representante legal não será responsável pela retenção e pelo recolhimento do imposto sobre a renda na fonte sobre aplicações financeiras quando, nos termos da legislação pertinente, tal responsabilidade for atribuída a terceiro (Lei nº 8.981, de 1995, art. 79, § 1º ).
 
 
-###### Art. 875. {#art-875}
+###### Art. 875.
 
 O Ministro de Estado da Fazenda poderá excluir determinadas categorias de investidores da obrigatoriedade prevista nesta Seção (Lei nº 8.981, de 1995, art. 79, § 2º) .
 CAPÍTULO II
 DOS INVESTIMENTOS SUJEITOS A REGIME ESPECIAL
 
 
-###### Art. 876. {#art-876}
+###### Art. 876.
 
 Ficam sujeitos ao imposto sobre a renda na fonte os rendimentos auferidos (Lei nº 8.981, de 1995, art. 81, caput, incisos I ao III ; e Lei nº 9.532, de 1997, art. 34 ):
 
@@ -20954,12 +20954,12 @@ Ficam sujeitos ao imposto sobre a renda na fonte os rendimentos auferidos (Lei n
 
 
 
-###### Art. 877. {#art-877}
+###### Art. 877.
 
 O imposto sobre a renda na fonte sobre os rendimentos auferidos pelas entidades de que trata o art. 876 será devido por ocasião da cessão, do resgate, da repactuação ou da liquidação de cada operação de renda fixa, ou do recebimento ou do crédito, o que primeiro ocorrer, de outros rendimentos (Lei nº 8.981, de 1995, art. 82) .
 
 
-###### Art. 878. {#art-878}
+###### Art. 878.
 
 O regime de tributação previsto no art. 876 aplica-se a investidor residente ou domiciliado no exterior, individual ou coletivo, que realizar operações financeiras nos mercados de renda fixa ou de renda variável no País, de acordo com as normas e as condições estabelecidas pelo Conselho Monetário Nacional ( Lei nº 9.532, de 1997, art. 34 ; e Medida Provisória nº 2.189-49, de 2001, art. 16, caput ).
 
@@ -20978,13 +20978,13 @@ O regime de tributação previsto no art. 876 aplica-se a investidor residente o
 
 
 
-###### Art. 879. {#art-879}
+###### Art. 879.
 
 O regime tributário de que trata o art. 876 aplica-se aos investidores estrangeiros, pessoas físicas ou jurídicas, residentes ou domiciliadas no exterior, que realizam operações em mercados de liquidação futura referenciados em produtos agropecuários, nas bolsas de futuros e de mercadorias ( Medida Provisória nº 2.158-35, de 2001, art. 29, caput ).
 Parágrafo único. O disposto neste artigo não se aplica a investimento estrangeiro oriundo de país que não tribute a renda ou a tribute à alíquota inferior a vinte por cento, o qual ficará sujeito á às mesmas regras estabelecidas para os residentes ou os domiciliados no País ( Medida Provisória nº 2.158-35, de 2001, art. 29, § 1º ).
 
 
-###### Art. 880. {#art-880}
+###### Art. 880.
 
 Fica reduzida a zero a alíquota do imposto sobre a renda incidente sobre os rendimentos definidos nos termos estabelecidos na alínea “a” do § 2º do art. 81 da Lei nº 8.981, de 1995 , produzidos por títulos públicos adquiridos a partir de 16 de fevereiro de 2006, quando pagos, creditados, entregues ou remetidos a beneficiário residente ou domiciliado no exterior, exceto em país que não tribute a renda ou que a tribute à alíquota máxima inferior a vinte por cento (Lei nº 11.312, de 2006, art. 1º, caput ) .
 
@@ -21017,7 +21017,7 @@ Fica reduzida a zero a alíquota do imposto sobre a renda incidente sobre os ren
 
 
 
-###### Art. 881. {#art-881}
+###### Art. 881.
 
 Fica reduzida a zero a alíquota do imposto sobre a renda incidente sobre os rendimentos definidos nos termos estabelecidos na alínea "a" do § 2º do art. 81 da Lei nº 8.981, de de 1995 , quando pagos, creditados, entregues ou remetidos a beneficiário residente ou domiciliado no exterior, exceto em país que não tribute a renda ou que a tribute à alíquota máxima inferior a vinte por cento, produzidos por ( Lei nº 12.431, de 2011, art. 1º, caput ) :
 
@@ -21213,7 +21213,7 @@ Fica reduzida a zero a alíquota do imposto sobre a renda incidente sobre os ren
 
 
 
-###### Art. 882. {#art-882}
+###### Art. 882.
 
 Fica reduzida a zero a alíquota do imposto sobre a renda incidente sobre os rendimentos auferidos nas aplicações em fundos de investimento em participações, fundos de investimento em quotas de fundos de investimento em participações e fundos de investimento em empresas emergentes, de que trata o art. 832 , quando pagos, creditados, entregues ou remetidos a beneficiário residente ou domiciliado no exterior, individual ou coletivo, que realizar operações financeiras no País de acordo com as normas e as condições estabelecidas pelo Conselho Monetário Nacional (Lei nº 11.312, de 2006, art. 3º, caput ) .
 
@@ -21252,22 +21252,22 @@ Fica reduzida a zero a alíquota do imposto sobre a renda incidente sobre os ren
 
 
 
-###### Art. 883. {#art-883}
+###### Art. 883.
 
 Para os fundos de investimento e os fundos em quotas de fundo de investimentos de que trata o art. 836 , a alíquota fica reduzida a zero na hipótese de rendimentos pagos, creditados, entregues ou remetidos a beneficiário residente ou domiciliado no exterior, exceto em país que não tribute a renda ou que a tribute à alíquota máxima inferior a vinte por cento (Lei nº 12.431, de 2011, art. 3º, §1º, inciso I, alínea “a”) .
 
 
-###### Art. 884. {#art-884}
+###### Art. 884.
 
 Os ganhos auferidos na alienação de quotas do FIP-IE e do FIP-PD&I, de que trata o art. 833 , serão tributados à alíquota zero, quando pagos, creditados, entregues ou remetidos a beneficiário residente ou domiciliado no exterior, individual ou coletivo, que realizar operações financeiras no País de acordo com as normas e as condições estabelecidas pelo Conselho Monetário Nacional, exceto na hipótese de residente ou domiciliado em país com tributação favorecida, observado o disposto no art. 254 . (Lei nº 11.478, de 2007, art. 2º, § 1º, inciso IV) .
 
 
-###### Art. 885. {#art-885}
+###### Art. 885.
 
 Ficam isentos do imposto sobre a renda os rendimentos, inclusive os ganhos de capital, pagos, creditados, entregues ou remetidos a beneficiário residente ou domiciliado no exterior, exceto em país com tributação favorecida, observado o disposto no art. 254 , produzidos por quotas de fundo de índice de renda fixa, de que trata o art. 804 , cujo regulamento determine que a sua carteira de ativos financeiros apresente prazo de repactuação superior a setecentos e vinte dias (Lei nº 13.043, de 2014, art. 2º, § 6º) .
 
 
-###### Art. 886. {#art-886}
+###### Art. 886.
 
 Ficam isentos do imposto sobre a renda os rendimentos, inclusive os ganhos de capital, pagos, creditados, entregues ou remetidos a beneficiário residente ou domiciliado no exterior, exceto em país com tributação favorecida, observado o disposto no art. 254 , produzidos por fundos de investimentos cujos cotistas sejam exclusivamente investidores estrangeiros (Lei nº 12.973, de 2014, art. 97, caput )
 
@@ -21286,7 +21286,7 @@ Ficam isentos do imposto sobre a renda os rendimentos, inclusive os ganhos de ca
 
 
 
-###### Art. 887. {#art-887}
+###### Art. 887.
 
 Ficam isentos do imposto sobre a renda os rendimentos e os ganhos de capital produzidos pela LIG emitida nos termos estabelecidos no art. 90 da Lei nº 13.097, de 2015 , quando o beneficiário for residente ou domiciliado no exterior, exceto em país com tributação favorecida a que se refere o art. 254 , que realizar operações financeiras no País de acordo com as normas e as condições estabelecidas pelo Conselho Monetário Nacional (Lei nº 13.097, de 2015, art. 90, caput, inciso II, e parágrafo único)
 Parágrafo único. Na hipótese de residente ou domiciliado em país com tributação favorecida a que se refere o art. 254 , será aplicada a alíquota de quinze por cento.
@@ -21294,7 +21294,7 @@ CAPÍTULO III
 DOS RESPONSÁVEIS PELA RETENÇÃO E PELO PAGAMENTO DO IMPOSTO sobre a renda
 
 
-###### Art. 888. {#art-888}
+###### Art. 888.
 
 Fica responsável pela retenção e pelo recolhimento do imposto sobre a renda na fonte, incidente sobre os rendimentos de operações financeiras auferidos por qualquer investidor estrangeiro, a pessoa jurídica que efetuar o pagamento, no País, dos referidos rendimentos ( Medida Provisória nº 2.189-49, de 2001, art. 16, § 1º ).
 
@@ -21321,7 +21321,7 @@ Fica responsável pela retenção e pelo recolhimento do imposto sobre a renda n
 Não incidência na remessa
 
 
-###### Art. 889. {#art-889}
+###### Art. 889.
 
 Os rendimentos e os ganhos líquidos submetidos à sistemática de tributação prevista neste Título não ficam sujeitos a nova incidência do imposto sobre a renda quando distribuídos ao beneficiário no exterior (Lei nº 8.981, de 1995, art. 78 e art. 82, § 3º) .
 
@@ -21340,7 +21340,7 @@ Seção I
 Das normas gerais
 
 
-###### Art. 890. {#art-890}
+###### Art. 890.
 
 Compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda dispor sobre as declarações relativas ao imposto sobre a renda e proventos de qualquer natureza e estabelecer, inclusive, a forma, o prazo e as condições para o seu cumprimento e o seu responsável (Lei nº 9.779, de 1999, art. 16) .
 Seção II
@@ -21348,12 +21348,12 @@ Disposições comuns
 Entrega fora do prazo
 
 
-###### Art. 891. {#art-891}
+###### Art. 891.
 
 Vencidos os prazos marcados para a entrega, a declaração somente será recebida se o contribuinte ainda não tiver sido notificado do início do processo de lançamento de ofício (Lei nº 4.154, de 1962, art. 14) .
 
 
-###### Art. 892. {#art-892}
+###### Art. 892.
 
 As unidades da Secretaria da Receita Federal do Brasil do Ministério da Fazenda orientarão o contribuinte quanto ao cumprimento de suas obrigações (Lei nº 154, de 1947, art. 26) .
 Parágrafo único. Deverá ser dispensado atendimento prioritário, por meio de serviços individualizados que assegurem tratamento diferenciado e atendimento imediato (Lei nº 10.048, de 8 de novembro de 2000, art. 1º e art. 2º) :
@@ -21375,7 +21375,7 @@ Parágrafo único. Deverá ser dispensado atendimento prioritário, por meio de 
 Consórcio de empresas
 
 
-###### Art. 893. {#art-893}
+###### Art. 893.
 
 O consórcio constituído nos termos estabelecidos nos art. 278 e art. 279 da Lei nº 6.404, de 1976 , que realizar a contratação, em nome próprio, de pessoas jurídicas e físicas, com ou sem vínculo empregatício, poderá cumprir as obrigações acessórias, hipótese em que as empresas consorciadas ficarão solidariamente responsáveis (Lei nº 12.402, de 2011, art. 1º, § 1º).
 Parágrafo único. Se o cumprimento das obrigações acessórias relativas ao consórcio for efetuado por sua empresa líder, aplica-se, também, a solidariedade de que trata o caput (Lei nº 12.402, de 2011, art. 1º, § 2º) .
@@ -21384,14 +21384,14 @@ DA RETIFICAÇÃO DA DECLARAÇÃO do imposto sobre a renda
 Anteriormente ao início da ação fiscal
 
 
-###### Art. 894. {#art-894}
+###### Art. 894.
 
 A retificação de declaração do imposto sobre a renda, nas hipóteses em que for admitida, terá a mesma natureza da declaração originariamente apresentada, independentemente de autorização pela autoridade administrativa ( Medida Provisória nº 2.189-49, de 2001, art. 18, caput ).
 Parágrafo único. A Secretaria da Receita Federal do Brasil do Ministério da Fazenda estabelecerá as hipóteses de admissibilidade e os procedimentos aplicáveis à retificação de declaração ( Medida Provisória nº 2.189-49, de 2001, art. 18, parágrafo único ).
 Posteriormente ao início da ação fiscal
 
 
-###### Art. 895. {#art-895}
+###### Art. 895.
 
 A declaração retificadora não produzirá efeitos quando apresentada após o início do procedimento fiscal (Decreto nº 70.235, de 1972, art. 7º, caput , inciso I, e § 1º) .
 Parágrafo único. O disposto neste artigo não se aplica à hipótese em que o contribuinte:
@@ -21403,7 +21403,7 @@ Parágrafo único. O disposto neste artigo não se aplica à hipótese em que o 
 
 
 
-###### Art. 896. {#art-896}
+###### Art. 896.
 
 A apresentação de declaração retificadora após o início da ação fiscal não eximirá a pessoa física ou jurídica das penalidades previstas na legislação tributária ( Decreto-Lei nº 5.844, de 1943, art. 63, § 5º ; e Decreto nº 70.235, de 1972, art. 7º, § 1º) .
 Parágrafo único. Independentemente de intimação, o início da ação fiscal exclui a espontaneidade dos demais envolvidos nas infrações verificadas, inclusive aquelas relacionadas com o regime de arrecadação de fontes ( Decreto-Lei nº 5.844, de 1943, art. 63, § 5º ; e Decreto nº 70.235, de 1972, art. 7º; § 1º) .
@@ -21411,7 +21411,7 @@ CAPÍTULO III
 DA REVISÃO DA DECLARAÇÃO
 
 
-###### Art. 897. {#art-897}
+###### Art. 897.
 
 As declarações das pessoas físicas e jurídicas ficarão sujeitas à revisão pelas autoridades administrativas, as quais exigirão os comprovantes necessários à revisão ( Decreto-Lei nº 5.844, de 1943, art. 74, caput ).
 
@@ -21440,13 +21440,13 @@ Seção I
 Disposições gerais
 
 
-###### Art. 898. {#art-898}
+###### Art. 898.
 
 Compete privativamente ao Auditor-Fiscal da Secretaria da Receita Federal do Brasil do Ministério da Fazenda constituir o crédito tributário pelo lançamento, assim entendido o procedimento administrativo tendente a verificar a ocorrência do fato gerador da obrigação correspondente, determinar a matéria tributável, calcular o montante do tributo devido, identificar o sujeito passivo e, se for o caso, propor a aplicação da penalidade cabível ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 142, caput ; e Lei nº 10.593, de 6 de dezembro de 2002, art. 6º, caput ) .
 Parágrafo único. A atividade administrativa de lançamento será vinculada e obrigatória, sob pena de responsabilidade funcional ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 142, parágrafo único ).
 
 
-###### Art. 899. {#art-899}
+###### Art. 899.
 
 No cálculo do imposto sobre a renda devido, para fins de compensação, restituição ou cobrança de diferença do tributo, será abatida do total apurado a importância que houver sido descontada nas fontes, correspondente a imposto retido, como antecipação, sobre rendimentos incluídos na declaração do imposto sobre a renda (Decreto-Lei nº 94, de 30 de dezembro de 1966, art. 9º ; Lei nº 9.250, de 1995, art. 12, caput, inciso V ; e Lei nº 9.430, de 1996, art. 2º, § 4º, inciso III ).
 Seção II
@@ -21454,13 +21454,13 @@ Do lançamento de ofício
 Pessoas físicas
 
 
-###### Art. 900. {#art-900}
+###### Art. 900.
 
 As pessoas físicas serão lançadas, individualmente ou em conjunto, pelos rendimentos que perceberem de seu capital, de seu trabalho, da combinação de ambos ou de proventos de qualquer natureza, e pelos acréscimos patrimoniais ( Decreto-Lei nº 5.844, de 1943, art. 80 ; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 43 e art. 124 ).
 Pessoas jurídicas
 
 
-###### Art. 901. {#art-901}
+###### Art. 901.
 
 As pessoas jurídicas serão lançadas em nome da matriz, tanto por seu movimento próprio como pelo de suas filiais, sucursais, agências ou representações ( Decreto-Lei nº 5.844, de 1943, art. 81, caput ).
 
@@ -21481,7 +21481,7 @@ As pessoas jurídicas serão lançadas em nome da matriz, tanto por seu moviment
 Disposições comuns
 
 
-###### Art. 902. {#art-902}
+###### Art. 902.
 
 O lançamento será efetuado, de ofício, quando o sujeito passivo ( Decreto-Lei nº 5.844, de 1943, art. 77 ; Lei nº 2.862, de 4 de setembro de 1956, art. 28 ; Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 149 ; Lei nº 8.541, de 1992, art. 40 ; Lei nº 9.249, de 1995, art. 24 ; e Lei nº 9.430, de 1996, art. 74, § 12 ):
 
@@ -21508,12 +21508,12 @@ O lançamento será efetuado, de ofício, quando o sujeito passivo ( Decreto-Lei
 Parágrafo único. O lançamento de ofício, além das hipóteses previstas neste artigo, será aplicado àqueles em que o sujeito passivo, beneficiado com isenções ou reduções do imposto sobre a renda, deixar de cumprir os requisitos a que se subordinar o favor fiscal.
 
 
-###### Art. 903. {#art-903}
+###### Art. 903.
 
 A baixa referente a empresários e pessoas jurídicas nos registros dos órgãos públicos federais, estaduais e municipais, não impede que, posteriormente, sejam lançados ou cobrados os impostos, as contribuições e as penalidades correspondentes, decorrentes da falta do cumprimento de obrigações ou da prática comprovada e apurada em processo administrativo ou judicial de outras irregularidades praticadas pelos empresários, pelas pessoas jurídicas ou por seus titulares, sócios ou administradores. ( Lei Complementar nº 123, de 2006, art. 9º, § 4º ).
 
 
-###### Art. 904. {#art-904}
+###### Art. 904.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda não constituirá os créditos tributários relativos às matérias (Lei nº 10.522, de 2002, art. 19, § 4º e § 5º ; e Lei nº 13.105, de 2015 - Código de Processo Civil ):
 
@@ -21543,19 +21543,19 @@ A Secretaria da Receita Federal do Brasil do Ministério da Fazenda não constit
 Lançamento ao decorrer do ano-calendário
 
 
-###### Art. 905. {#art-905}
+###### Art. 905.
 
 Na hipótese de lançamento de ofício, no decorrer do ano-calendário, será observada a forma de apuração da base de cálculo do imposto sobre a renda adotada pela pessoa jurídica (Lei nº 8.981, de 1995, art. 97, parágrafo único) .
 Procedimento para exigência do imposto sobre a renda na fonte
 
 
-###### Art. 906. {#art-906}
+###### Art. 906.
 
 Quando houver falta ou inexatidão de recolhimento do imposto sobre a renda devido na fonte, será iniciada a ação fiscal, para exigência do imposto, pela repartição competente, que intimará a fonte ou o procurador a efetuar o recolhimento do imposto sobre a renda devido, com o acréscimo da multa cabível, ou a prestar, no prazo de vinte dias, os esclarecimentos necessários, observado o disposto no parágrafo único do art. 782 (Lei nº 2.862, de 1956, art. 28 ; e Lei nº 3.470, de 1958, art. 19) .
 Auto de infração sem tributo
 
 
-###### Art. 907. {#art-907}
+###### Art. 907.
 
 Poderá ser formalizada exigência de crédito tributário correspondente exclusivamente a multa ou a juros de mora, isolada ou conjuntamente ( Lei nº 9.430, de 1996, art. 43, caput ).
 Parágrafo único. Sobre o crédito constituído na forma prevista neste artigo, não pago no vencimento, incidirão juros de mora, calculados à taxa a que se refere o § 3º do art. 919 , a partir do primeiro dia do mês subsequente ao vencimento do prazo até o mês anterior ao do pagamento e de um por cento no mês de pagamento ( Lei nº 9.430, de 1996, art. 43, parágrafo único ).
@@ -21563,7 +21563,7 @@ Subseção I
 Dos procedimentos para o lançamento
 
 
-###### Art. 908. {#art-908}
+###### Art. 908.
 
 O processo de lançamento de ofício será iniciado pela intimação ao sujeito passivo para, no prazo de vinte dias, apresentar as informações e os documentos necessários ao procedimento fiscal ou efetuar o recolhimento do crédito tributário constituído (Lei nº 3.470, de 1958, art. 19, caput ) .
 
@@ -21580,7 +21580,7 @@ Subseção II
 Das bases do lançamento
 
 
-###### Art. 909. {#art-909}
+###### Art. 909.
 
 Será feito o lançamento de ofício, inclusive ( Decreto-Lei nº 5.844, de 1943, art. 79, caput e alíneas “a” ao “c” ):
 
@@ -21606,7 +21606,7 @@ Subseção III
 Dos sinais exteriores de riqueza
 
 
-###### Art. 910. {#art-910}
+###### Art. 910.
 
 O lançamento de ofício, além das hipóteses previstas neste Capítulo, será feito arbitrando-se os rendimentos com base na renda presumida, por meio da utilização dos sinais exteriores de riqueza (Lei nº 8.021, de 1990, art. 6º, caput ) .
 
@@ -21632,7 +21632,7 @@ O lançamento de ofício, além das hipóteses previstas neste Capítulo, será 
 Posse ou propriedade de bens como indício de sinal exterior de riqueza
 
 
-###### Art. 911. {#art-911}
+###### Art. 911.
 
 O contribuinte que detiver a posse ou a propriedade de bens que, por sua natureza, revelem sinais exteriores de riqueza, deverá comprovar, por meio de documentação hábil e idônea, os gastos realizados a título de despesas com tributos, guarda, manutenção, conservação e demais gastos indispensáveis à utilização desses bens ( Lei nº 8.846, de 1994, art. 9º, caput ).
 
@@ -21692,7 +21692,7 @@ Subseção IV
 Da falta de emissão de documentos fiscais
 
 
-###### Art. 912. {#art-912}
+###### Art. 912.
 
 O lançamento de ofício será feito na hipótese de omissão de receita, de rendimento ou de ganho de capital, caracterizada pela falta de emissão dos documentos de que tratam o § 3º do art. 38 , o art. 43 e o art. 295 , no momento da efetivação das operações, e a sua emissão com valor inferior ao efetivamente pago ( Lei nº 8.846, de 1994, art. 2º ).
 
@@ -21700,7 +21700,7 @@ O lançamento de ofício será feito na hipótese de omissão de receita, de ren
 * **Subseção V - Dos depósitos bancários**
 
 
-###### Art. 913. {#art-913}
+###### Art. 913.
 
 Caracterizam-se também como omissão de receita ou de rendimento, sujeito a lançamento de ofício, os valores creditados em conta de depósito ou de investimento mantida junto a instituição financeira, em relação aos quais o titular, pessoa física ou jurídica, regularmente intimado, não comprove, por meio de documentação hábil e idônea, a origem dos recursos utilizados nessas operações ( Lei nº 9.430, de 1996, art. 42, caput ).
 
@@ -21749,7 +21749,7 @@ Subseção VI
 Dos juros dissimulados
 
 
-###### Art. 914. {#art-914}
+###### Art. 914.
 
 O lançamento de ofício também será efetuado, na hipótese de pessoa física, em relação a juros, quando dissimulados no contrato que serão estabelecidos pela autoridade lançadora, observadas a taxa usual e a natureza do título ou do contrato ( Decreto-Lei nº 5.844, de 1943, art. 4º, § 1º ).
 Parágrafo único. O disposto neste artigo será aplicado sempre que, intimado a informar os juros de dívidas ou de empréstimos, o credor deixar de fazê-lo ou declarar juros menores do que aqueles percebidos ( Decreto-Lei nº 5.844, de 1943, art. 4º, § 2º ).
@@ -21765,19 +21765,19 @@ Das pessoas físicas
 Recolhimento mensal, ganho de capital e ganhos nos mercados de renda variável
 
 
-###### Art. 915. {#art-915}
+###### Art. 915.
 
 O imposto sobre a renda apurado na forma prevista nos art. 122 , art. 153 e art. 839 deverá ser pago até o último dia útil do mês subsequente àquele em que os rendimentos ou os ganhos forem percebidos ( Lei nº 8.383, de 1991, art. 6º, caput, inciso II , e art. 52, § 1º e § 2º ; e Lei nº 8.981, de 1995, art. 21, § 1º) .
 Residente no exterior
 
 
-###### Art. 916. {#art-916}
+###### Art. 916.
 
 Na hipótese de o beneficiário do rendimento ou do ganho de capital ser residente no exterior, o pagamento do imposto sobre a renda deverá ser efetuado na data da remessa, se esta ocorrer anteriormente ao prazo de vencimento do imposto sobre a renda, na forma prevista no art. 931 ( Lei nº 7.713, de 1988, art. 33, parágrafo único ).
 Declaração de rendimentos
 
 
-###### Art. 917. {#art-917}
+###### Art. 917.
 
 À opção do contribuinte, o saldo do imposto sobre a renda a pagar, de que trata o art. 81 , poderá ser parcelado em até oito quotas iguais, mensais e sucessivas, observado o seguinte ( Lei nº 9.250, de 1995, art. 14 ; e Lei nº 9.430, de 1996, art. 62, caput ):
 
@@ -21795,7 +21795,7 @@ Declaração de rendimentos
 Saída definitiva do País e espólio
 
 
-###### Art. 918. {#art-918}
+###### Art. 918.
 
 O pagamento do imposto sobre a renda nas hipóteses de saída definitiva do País e de encerramento de espólio deverá ser efetuado na data prevista para a entrega da respectiva declaração de rendimentos (Lei nº 8.218, de 1991, art. 29).
 Parágrafo único. São considerados vencidos, na data a que se refere o caput , os prazos para pagamento dos débitos existentes.
@@ -21806,7 +21806,7 @@ Dos prazos de pagamento
 Imposto sobre a renda correspondente a período trimestral
 
 
-###### Art. 919. {#art-919}
+###### Art. 919.
 
 O imposto sobre a renda devido, apurado na forma prevista no art. 217 , será pago em quota única, até o último dia útil do mês subsequente ao do encerramento do período de apuração ( Lei nº 9.430, de 1996, art. 5º, caput ).
 
@@ -21827,20 +21827,20 @@ O imposto sobre a renda devido, apurado na forma prevista no art. 217 , será pa
 Recolhimento do incentivo fiscal
 
 
-###### Art. 920. {#art-920}
+###### Art. 920.
 
 A pessoa jurídica que optar pelas deduções de que tratam os art. 658 e art. 660 recolherá o valor correspondente a cada parcela ou ao total do desconto, às agências bancárias arrecadadoras, por meio do documento de arrecadação a que se refere o art. 938 , com código específico e indicação dos fundos de investimentos beneficiários (Lei nº 8.167, de 1991, art. 3º, caput ).
 Parágrafo único. O recolhimento das parcelas correspondentes ao incentivo ficará condicionado ao pagamento da parcela do imposto sobre a renda, exceto nas hipóteses em que o imposto sobre a renda já tenha sido recolhido antecipadamente (Lei nº 8.167, de 1991, art. 3º, § 4º) .
 Pagamento por estimativa mensal
 
 
-###### Art. 921. {#art-921}
+###### Art. 921.
 
 O imposto sobre a renda devido, apurado na forma prevista no art. 219 , deverá ser pago até o último dia útil do mês subsequente àquele a que se referir ( Lei nº 9.430, de 1996, art. 6º, caput ).
 Saldo do imposto sobre a renda anual
 
 
-###### Art. 922. {#art-922}
+###### Art. 922.
 
 O saldo do imposto sobre a renda apurado em 31 de dezembro será ( Lei nº 9.430, de 1996, art. 6º, § 1º, incisos I e II ):
 
@@ -21862,19 +21862,19 @@ O saldo do imposto sobre a renda apurado em 31 de dezembro será ( Lei nº 9.430
 Imposto sobre os ganhos nos mercados de renda variável
 
 
-###### Art. 923. {#art-923}
+###### Art. 923.
 
 O imposto sobre a renda apurado mensalmente sobre os ganhos líquidos de que trata o art. 839 será pago até o último dia útil do mês subsequente àquele em que os ganhos houverem sido percebidos ( Lei nº 8.383, de 1991, art. 52, § 2º ).
 Incorporação, fusão, cisão e encerramento de atividades
 
 
-###### Art. 924. {#art-924}
+###### Art. 924.
 
 O pagamento do imposto sobre a renda correspondente a período de apuração encerrado em decorrência de incorporação, fusão ou cisão e de extinção da pessoa jurídica pelo encerramento da liquidação deverá ser efetuado até o último dia útil do mês subsequente ao da ocorrência do evento, hipótese em que não é facultado exercer a opção prevista no § 1º do art. 919 ( Lei nº 9.430, de 1996, art. 5º, § 4º ).
 Investimento em controlada, filial ou sucursal domiciliada no exterior
 
 
-###### Art. 925. {#art-925}
+###### Art. 925.
 
 À opção da pessoa jurídica, o imposto sobre a renda devido decorrente do resultado considerado na apuração da pessoa jurídica domiciliada no País, na forma prevista no art. 448 ao art. 451 e no art. 453 , poderá ser pago na proporção dos lucros distribuídos nos anos subsequentes ao encerramento do período de apuração a que corresponder, observado o oitavo ano subsequente ao período de apuração para a distribuição do saldo remanescente dos lucros ainda não oferecidos à tributação, assim como a distribuição mínima de doze inteiros e cinquenta centésimos por cento no primeiro ano subsequente (Lei nº 12.973, de 2014, art. 90, caput ) .
 
@@ -21898,7 +21898,7 @@ Investimento em controlada, filial ou sucursal domiciliada no exterior
 
 
 
-###### Art. 926. {#art-926}
+###### Art. 926.
 
 A opção pelo pagamento do imposto sobre a renda, na forma prevista no art. 925 , poderá ser realizada somente em relação à parcela dos lucros decorrentes dos resultados considerados na apuração da pessoa jurídica domiciliada no País de controlada, direta ou indireta, no exterior ( Lei nº 12.973, de 2014, art. 91 ):
 
@@ -21915,7 +21915,7 @@ A opção pelo pagamento do imposto sobre a renda, na forma prevista no art. 925
 
 
 
-###### Art. 927. {#art-927}
+###### Art. 927.
 
 O disposto nos art. 925 e art. 926 aplica-se ao resultado obtido por filial ou sucursal no exterior ( Lei nº 12.973, de 2014, art. 92 ).
 Subseção II
@@ -21923,13 +21923,13 @@ Do vencimento antecipado
 Falência
 
 
-###### Art. 928. {#art-928}
+###### Art. 928.
 
 São considerados vencidos todos os prazos para pagamento, nas hipóteses de falência, para os quais é providenciada imediatamente a cobrança judicial da dívida, observado o disposto no art. 1.033 ( Decreto-Lei nº 5.844, de 1943, art. 94 ; e Lei nº 11.101, de 9 de fevereiro de 2005, art. 77) .
 Extinção da pessoa jurídica
 
 
-###### Art. 929. {#art-929}
+###### Art. 929.
 
 Na hipótese de extinção da pessoa jurídica sem sucessor serão considerados vencidos todos os prazos para pagamento.
 Seção III
@@ -21937,7 +21937,7 @@ Disposições especiais quanto ao imposto sobre a renda na fonte
 Prazos de recolhimento
 
 
-###### Art. 930. {#art-930}
+###### Art. 930.
 
 O recolhimento do imposto sobre a renda retido na fonte deverá ser efetuado (Lei nº 11.196, de 2005, art. 70, caput, inciso I) :
 
@@ -21973,7 +21973,7 @@ O recolhimento do imposto sobre a renda retido na fonte deverá ser efetuado (Le
 Débitos com exigibilidade suspensa por medida judicial
 
 
-###### Art. 931. {#art-931}
+###### Art. 931.
 
 Na hipótese em que o imposto sobre a renda incidente na fonte como antecipação do imposto devido na declaração de ajuste anual da pessoa física ou em relação ao período de apuração da pessoa jurídica não for retido e recolhido pelos responsáveis tributários por força de liminar em mandado de segurança ou em ação cautelar, de tutela antecipada em ação de outra natureza, ou de decisão de mérito, posteriormente revogadas, o beneficiário, pessoa física ou jurídica, ficará sujeita ao pagamento ( Medida Provisória nº 2.158-35, de 2001, art. 55 ):
 
@@ -22001,14 +22001,14 @@ Na hipótese em que o imposto sobre a renda incidente na fonte como antecipaçã
 Recolhimento centralizado
 
 
-###### Art. 932. {#art-932}
+###### Art. 932.
 
 Será efetuado, de forma centralizada, pelo estabelecimento matriz da pessoa jurídica, o recolhimento do imposto sobre a renda retido na fonte sobre quaisquer rendimentos (Lei nº 9.779, de 1999, art. 15, caput, inciso I) .
 Parágrafo único. Na hipótese de pessoa jurídica com sede no exterior, a centralização deverá ser efetuada no estabelecimento em nome do qual foi apresentada a Declaração de Informações Econômico-Fiscais da Pessoa Jurídica (Decreto nº 2.078, de 22 de novembro de 1996, art. 1º, § 2º) .
 Imposto sobre a renda retido pelos Estados, pelo Distrito Federal e pelos Municípios
 
 
-###### Art. 933. {#art-933}
+###### Art. 933.
 
 Pertence aos Estados, ao Distrito Federal e aos Municípios o produto da arrecadação do imposto sobre a renda incidente na fonte sobre os proventos dos seus servidores pagos, a qualquer título, por eles, pelas suas autarquias e pelas fundações que instituírem e mantiverem ( Constituição, art. 157, caput, inciso I , e art. 158, caput, inciso I ; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 85, caput, inciso II ).
 Seção IV
@@ -22018,33 +22018,33 @@ Dos meios de pagamento
 Pagamentos efetuados em dinheiro ou em cheque
 
 
-###### Art. 934. {#art-934}
+###### Art. 934.
 
 O pagamento ou o recolhimento do imposto sobre a renda será feito em dinheiro ou em cheque ( Decreto-Lei nº 5.844, de 1943, art. 87 ).
 Pagamentos efetuados com títulos federais
 
 
-###### Art. 935. {#art-935}
+###### Art. 935.
 
 A partir da data de seu vencimento, os títulos da dívida pública terão poder liberatório para pagamento de qualquer tributo federal, de responsabilidade de seus titulares ou de terceiros, pelo seu valor de resgate (Lei nº 4.357, de 1964, art. 1º, § 4º ; Decreto-Lei nº 2.284, de 10 de março de 1986, art. 6º ; Lei nº 7.777, de 19 de junho de 1989, art. 5º, § 4º ; e Lei nº 10.179, de 2001, art. 2º e art. 6º) .
 Pagamentos efetuados em débito em conta corrente bancária
 
 
-###### Art. 936. {#art-936}
+###### Art. 936.
 
 O Ministro de Estado da Fazenda poderá editar os atos necessários para disciplinar sobre o cumprimento das obrigações tributárias principais, por meio de débito em conta corrente bancária (Lei nº 8.541, de 1992, art. 54).
 Subseção II
 Do lugar de pagamento
 
 
-###### Art. 937. {#art-937}
+###### Art. 937.
 
 O pagamento ou o recolhimento do imposto sobre a renda poderá ser efetuado em qualquer estabelecimento bancário autorizado a receber receitas federais, independentemente do domicílio tributário do sujeito passivo (Lei nº 7.738, de 9 de março de 1989, art. 32) .
 Subseção III
 Do documento de arrecadação do imposto sobre a renda
 
 
-###### Art. 938. {#art-938}
+###### Art. 938.
 
 O documento de arrecadação obedecerá ao modelo aprovado pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda e a sua utilização pelo contribuinte, pelo procurador ou pela fonte pagadora será feita de acordo com instruções específicas (Lei nº 7.738, de 1989, art. 32) .
 
@@ -22081,7 +22081,7 @@ Subseção IV
 Da utilização de precatório federal para amortizar dívida consolidada
 
 
-###### Art. 939. {#art-939}
+###### Art. 939.
 
 O precatório federal de titularidade do devedor, inclusive aquele expedido anteriormente à Emenda Constitucional nº 62, de 9 de dezembro de 2009 , poderá ser utilizado, nos termos estabelecidos no art. 7º da Lei nº 11.941, de 2009 , para amortizar a dívida consolidada (Lei nº 12.431, de 2011, art. 43, caput ) .
 
@@ -22105,14 +22105,14 @@ Seção I
 Da compensação pelo contribuinte
 
 
-###### Art. 940. {#art-940}
+###### Art. 940.
 
 O sujeito passivo que apurar crédito, inclusive os judiciais com trânsito em julgado, relativo a tributo administrado pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, passível de restituição ou de ressarcimento, poderá utilizá-lo na compensação de débitos próprios relativos ao imposto sobre a renda, observado o disposto no art. 74 da Lei nº 9.430, de 1996 ( Lei nº 9.430, de 1996, art. 74, caput ).
 Seção II
 Da compensação pela autoridade administrativa
 
 
-###### Art. 941. {#art-941}
+###### Art. 941.
 
 A restituição e o ressarcimento do imposto sobre a renda serão efetuados depois de verificada a ausência de débitos em nome do sujeito passivo credor perante a Fazenda Nacional (Decreto-Lei nº 2.287, de 23 de julho de 1986, art. 7º ; e Lei nº 9.430, de 1996, art. 73 )
 
@@ -22155,7 +22155,7 @@ Seção III
 Da valoração de créditos
 
 
-###### Art. 942. {#art-942}
+###### Art. 942.
 
 O valor a ser utilizado na compensação ou na restituição será acrescido de juros obtidos pela aplicação da taxa Selic, para títulos federais, acumulada mensalmente, a partir do mês subsequente ao do pagamento indevido ou a maior até o mês anterior ao da compensação ou da restituição e de um por cento relativamente ao mês em que for efetuada ( Lei nº 9.250, de 1995, art. 39, § 4º ; e Lei nº 9.532, de 1997, art. 73 ).
 CAPÍTULO III
@@ -22164,7 +22164,7 @@ Seção I
 Do pedido de restituição
 
 
-###### Art. 943. {#art-943}
+###### Art. 943.
 
 Nas hipóteses de pagamento indevido ou a maior de imposto sobre a renda, o contribuinte poderá optar pelo pedido de restituição do valor pago indevidamente ou a maior, observado o disposto no art. 941 ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 165 ).
 
@@ -22201,7 +22201,7 @@ Seção II
 Do valor da restituição
 
 
-###### Art. 944. {#art-944}
+###### Art. 944.
 
 As restituições do imposto sobre a renda serão acrescidas de juros equivalentes à taxa Selic, para títulos federais, acumulada mensalmente, a partir do mês subsequente ao do pagamento indevido ou a maior até o mês anterior ao da compensação ou da restituição e de um por cento relativamente ao mês em que for efetuada ( Lei nº 8.383, de 1991, art. 66, § 3º ; Lei nº 9.250, de 1995, art. 39, § 4º ; e Lei nº 9.532, de 1997, art. 73 ):
 Parágrafo único. O valor da restituição do imposto sobre a renda da pessoa física, apurado em declaração de rendimentos, será acrescido de juros equivalentes à taxa Selic, para títulos federais, acumulada mensalmente, calculados a partir do primeiro dia do mês subsequente ao previsto para a entrega tempestiva da declaração de rendimentos até o mês anterior ao da liberação da restituição e de um por cento no mês em que o recurso for disponibilizado ao contribuinte no banco ( Lei nº 9.250, de 1995, art. 16 ; e Lei nº 9.430, de 1996, art. 62 ).
@@ -22209,7 +22209,7 @@ Seção III
 Do espólio
 
 
-###### Art. 945. {#art-945}
+###### Art. 945.
 
 Na inexistência de outros bens sujeitos a inventário ou arrolamento, os valores relativos ao imposto sobre a renda não recebidos em vida pelos titulares poderão ser restituídos ao cônjuge, ao filho e aos demais dependentes do contribuinte falecido, inexigível a apresentação de alvará judicial ( Lei nº 7.713, de 1988, art. 34, caput ).
 Parágrafo único. Se existirem outros bens sujeitos a inventário ou arrolamento, a restituição ao meeiro, aos herdeiros ou aos sucessores será feita na forma e nas condições do alvará expedido pela autoridade judicial para essa finalidade ( Lei nº 7.713, de 1988, art. 34, parágrafo único ).
@@ -22219,7 +22219,7 @@ Seção I
 Da decadência
 
 
-###### Art. 946. {#art-946}
+###### Art. 946.
 
 O direito de constituir o crédito tributário extingue-se após decorrido o prazo de cinco anos, contado ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 150, § 4º , e art. 173 ):
 
@@ -22236,7 +22236,7 @@ Seção II
 Da prescrição
 
 
-###### Art. 947. {#art-947}
+###### Art. 947.
 
 A ação para cobrança do crédito tributário prescreve no prazo de cinco anos, contado da data da sua constituição definitiva ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 174, caput ).
 Parágrafo único. A prescrição se interrompe ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 174, parágrafo único ):
@@ -22256,7 +22256,7 @@ Seção III
 Da não fluência de prazo
 
 
-###### Art. 948. {#art-948}
+###### Art. 948.
 
 Não correrão os prazos estabelecidos em lei para o lançamento ou a cobrança do imposto sobre a renda, a revisão da declaração e o exame da escrituração do contribuinte ou da fonte pagadora do rendimento até decisão na esfera judiciária, nas hipóteses em que a ação das repartições da Secretaria da Receita Federal do Brasil do Ministério da Fazenda for suspensa por medida judicial contra a Fazenda Nacional (Lei nº 3.470, de 1958, art. 23) .
 
@@ -22270,32 +22270,32 @@ Seção I
 Da competência
 
 
-###### Art. 949. {#art-949}
+###### Art. 949.
 
 Compete, em caráter privativo, aos ocupantes do cargo de Auditor-Fiscal da Secretaria da Receita Federal do Brasil do Ministério da Fazenda constituir, mediante lançamento, o crédito tributário relativamente ao imposto sobre a renda, executar procedimentos de fiscalização, com objetivo de verificar o cumprimento das obrigações tributárias pelo sujeito passivo, e praticar todos os atos definidos na legislação específica, inclusive os relativos à apreensão de livros, documentos e assemelhados ( Lei nº 10.593, de 2002, art. 6º, caput, inciso I, alíneas “a” e “c”) .
 Parágrafo único. A ação fiscal e todos os termos a ela inerentes são válidos, mesmo quando formalizados por Auditor-Fiscal da Secretaria da Receita Federal do Brasil do Ministério da Fazenda de jurisdição diversa da do domicílio tributário do sujeito passivo (Decreto nº 70.235, de 1972, art. 9º, § 2º) .
 
 
-###### Art. 950. {#art-950}
+###### Art. 950.
 
 Para fins do disposto na legislação tributária, não se aplicam as disposições legais excludentes ou limitativas do direito de examinar mercadorias, livros, arquivos, documentos, papéis e efeitos comerciais ou fiscais, dos comerciantes, das industriais ou dos produtores, ou da obrigação destes de exibi-los ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 195, caput ).
 Segundo exame de período fiscalizado
 
 
-###### Art. 951. {#art-951}
+###### Art. 951.
 
 Em relação ao mesmo exercício, somente é possível o segundo exame de período fiscalizado por meio de ordem escrita do Coordenador de Fiscalização, do Superintendente, do Delegado ou do Inspetor da Secretaria da Receita Federal do Brasil do Ministério da Fazenda (Lei nº 3.470, de 1958, art. 34) .
 Fiscalização no curso do período de apuração
 
 
-###### Art. 952. {#art-952}
+###### Art. 952.
 
 A autoridade tributária poderá proceder à fiscalização do contribuinte durante o curso do período-base ou antes do término da ocorrência do fato gerador do imposto sobre a renda (Decreto-Lei nº 1.598, de 1977, art. 7º, § 2º) .
 Seção II
 Da denúncia por terceiros
 
 
-###### Art. 953. {#art-953}
+###### Art. 953.
 
 O disposto neste Capítulo não exclui a admissibilidade de denúncia apresentada por terceiros (Lei nº 4.502, de 30 de novembro de 1964, art. 93, parágrafo único) .
 Parágrafo único. A denúncia será formulada por escrito e conterá, além da identificação do seu autor pelo nome, pelo endereço e pela profissão, a descrição minuciosa do fato e dos elementos identificadores do responsável por ele, de modo a determinar, com segurança, a infração e o infrator.
@@ -22303,7 +22303,7 @@ Seção III
 Da concessão de prazo para pagamento espontâneo
 
 
-###### Art. 954. {#art-954}
+###### Art. 954.
 
 A pessoa física ou jurídica submetida à ação fiscal poderá pagar, até o vigésimo dia subsequente à data do recebimento do termo de início da fiscalização, o imposto sobre a renda já declarado, de que for sujeito passivo como contribuinte ou responsável, com multa de mora e juros de mora ( Lei nº 9.430, de 1996, art. 47 ).
 Seção IV
@@ -22311,34 +22311,34 @@ Da ação fiscal
 Acesso ao estabelecimento
 
 
-###### Art. 955. {#art-955}
+###### Art. 955.
 
 A entrada dos Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda nos estabelecimentos e o acesso às suas dependências internas não estarão sujeitos a formalidades diversas da sua identificação, pela apresentação da identidade funcional.
 Exame de livros e documentos
 
 
-###### Art. 956. {#art-956}
+###### Art. 956.
 
 Os Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda procederão ao exame dos livros e dos documentos de contabilidade dos contribuintes e realizarão as diligências e as investigações necessárias para apurar a exatidão das declarações, dos balanços e dos documentos apresentados, das informações prestadas e verificar o cumprimento das obrigações fiscais, para os quais não se aplicam as restrições previstas nos art. 1.190 ao art. 1.192 da Lei nº 10.406, de 2002 - Código Civil , e observado o disposto no art. 1.193 do referido Código (Lei nº 10.593, de 2002, art. 6º, caput, inciso I, alínea “d”) .
 
 
-###### Art. 957. {#art-957}
+###### Art. 957.
 
 O disposto no art. 956 não exclui a competência dos Superintendentes, dos Delegados e dos Inspetores da Secretaria da Receita Federal do Brasil do Ministério da Fazenda para determinarem, em cada caso, a realização de exame de livros e de documentos de contabilidade ou outras diligências pelos Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda ( Decreto-Lei nº 5.844, de 1943, art. 140 ; e Lei nº 3.470, de 1958, art. 34) .
 
 
-###### Art. 958. {#art-958}
+###### Art. 958.
 
 São também passíveis de exame os documentos do sujeito passivo mantidos em arquivos magnéticos ou assemelhados, encontrados no local da verificação, que tenham relação direta ou indireta com a atividade por ele exercida ( Lei nº 9.430, de 1996, art. 34 ).
 
 
-###### Art. 959. {#art-959}
+###### Art. 959.
 
 Os Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda procederão às diligências necessárias à apuração da vacância de casas ou apartamentos e dos preços de locação, e poderão exigir, quer do locador, quer do locatário, a exibição dos contratos e dos recibos ( Decreto-Lei nº 5.844, de 1943, art. 139 ).
 Retenção de livros e documentos
 
 
-###### Art. 960. {#art-960}
+###### Art. 960.
 
 Os livros e os documentos poderão ser examinados fora do estabelecimento do sujeito passivo, desde que lavrado termo escrito de retenção pela autoridade fiscal, em que se especifiquem a quantidade, a espécie, a natureza e as condições dos livros e dos documentos retidos ( Lei nº 9.430, de 1996, art. 35, caput ).
 
@@ -22354,42 +22354,42 @@ Os livros e os documentos poderão ser examinados fora do estabelecimento do suj
 Lacração de móveis, depósitos e arquivos
 
 
-###### Art. 961. {#art-961}
+###### Art. 961.
 
 A autoridade fiscal encarregada de diligência ou de fiscalização poderá promover a lacração de móveis, caixas, cofres ou depósitos onde se encontram arquivos e documentos sempre que ficar caracterizada a resistência ou o embaraço à fiscalização, ou, ainda, quando as circunstâncias ou a quantidade de documentos não permitirem a sua identificação e a conferência no local ou no momento em que foram encontrados ( Lei nº 9.430, de 1996, art. 36, caput ).
 Parágrafo único. O sujeito passivo e os demais responsáveis serão previamente notificados para acompanharem o procedimento de rompimento do lacre e de identificação dos elementos de interesse da fiscalização ( Lei nº 9.430, de 1996, art. 36, parágrafo único ).
 Bolsa de valores e assemelhadas
 
 
-###### Art. 962. {#art-962}
+###### Art. 962.
 
 Sem prejuízo do disposto no art. 957 , os Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda poderão proceder ao exames de documentos, livros e registros das bolsas de valores, de mercadorias, de futuros e assemelhadas, e solicitar a prestação de esclarecimentos e de informações a respeito de operações por elas praticadas (Lei nº 8.021, de 1990, art. 7º) .
 Seção V
 Do embaraço e do desacato
 
 
-###### Art. 963. {#art-963}
+###### Art. 963.
 
 As pessoas que desacatarem, por qualquer maneira, os Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda no exercício de suas funções e aquelas que, por qualquer meio, impedirem a fiscalização serão punidas na forma prevista no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal , hipótese em que a autoridade ofendida lavrará o auto competente que, acompanhado do rol das testemunhas, será remetido ao Procurador da República pela repartição competente.
 Parágrafo único. Para fins do disposto neste artigo, considera-se como embaraço à fiscalização a recusa não justificada da exibição de livros auxiliares de escrituração, tais como o livro-razão, o livro-caixa, o Livro Registro de Inventário, o livro contas-correntes e outros registros específicos pertinentes ao ramo de negócio da empresa.
 Apoio à fiscalização
 
 
-###### Art. 964. {#art-964}
+###### Art. 964.
 
 Na hipótese de embaraço ou desacato, ou quando necessário à efetivação de medida prevista na legislação tributária, a autoridade administrativa poderá solicitar o auxílio das autoridades policiais federais, estaduais ou municipais, ainda que não se configure o fato definido em lei como crime ou contravenção ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 200 ).
 Seção VI
 Da suspensão da imunidade e da isenção
 
 
-###### Art. 965. {#art-965}
+###### Art. 965.
 
 Nas hipóteses de suspensão de imunidade e de isenção condicionada, será observado o disposto no art. 183 ( Lei nº 9.430, de 1996, art. 32 ).
 Seção VII
 Dos regimes especiais de fiscalização
 
 
-###### Art. 966. {#art-966}
+###### Art. 966.
 
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda poderá determinar regime especial para cumprimento de obrigações, pelo sujeito passivo, nas seguintes hipóteses ( Lei nº 9.430, de 1996, art. 33, caput ):
 
@@ -22462,26 +22462,26 @@ Seção VIII
 Da prova
 
 
-###### Art. 967. {#art-967}
+###### Art. 967.
 
 A escrituração mantida em observância às disposições legais faz prova a favor do contribuinte dos fatos nela registrados e comprovados por documentos hábeis, de acordo com a sua natureza, ou assim definidos em preceitos legais (Decreto-Lei nº 1.598, de 1977, art. 9º, § 1º) .
 Ônus da prova
 
 
-###### Art. 968. {#art-968}
+###### Art. 968.
 
 Cabe à autoridade administrativa a prova da inveracidade dos fatos registrados em observância ao disposto no art. 967 (Decreto-Lei nº 1.598, de 1977, art. 9º, § 2º) .
 Inversão do ônus da prova
 
 
-###### Art. 969. {#art-969}
+###### Art. 969.
 
 O disposto no art. 968 não se aplica às hipóteses em que a lei, por disposição especial, atribua ao contribuinte o ônus da prova de fatos registrados na sua escrituração (Decreto-Lei nº 1.598, de 1977, art. 9º, § 3º) .
 Seção IX
 Do lançamento de ofício
 
 
-###### Art. 970. {#art-970}
+###### Art. 970.
 
 A exigência do crédito tributário e a aplicação de penalidade isolada serão formalizados em autos de infração ou em notificações de lançamento, distintos para cada tributo ou penalidade, os quais deverão estar instruídos com os termos, os depoimentos, os laudos e os demais elementos de prova indispensáveis à comprovação do ilícito (Decreto nº 70.235, de 1972, art. 9º, caput ) .
 Parágrafo único. O disposto neste artigo aplica-se também às hipóteses em que, constatada infração à legislação tributária, dela não resulte exigência de crédito tributário (Decreto nº 70.235, de 1972, art. 9º, § 4º) .
@@ -22493,12 +22493,12 @@ Subseção I
 Disposições gerais
 
 
-###### Art. 971. {#art-971}
+###### Art. 971.
 
 As pessoas físicas ou jurídicas, contribuintes ou não, ficam obrigadas a prestar as informações e os esclarecimentos exigidos pelos Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda no exercício de suas funções, hipótese em que as declarações serão tomadas por termo e assinadas pelo declarante ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 197 ; e Decreto-Lei nº 1.718, de 27 de novembro de 1979, art. 2º) .
 
 
-###### Art. 972. {#art-972}
+###### Art. 972.
 
 Nenhuma pessoa física ou jurídica, contribuinte ou não, poderá eximir-se de fornecer, nos prazos marcados, as informações ou os esclarecimentos solicitados pelas unidades da Secretaria da Receita Federal do Brasil do Ministério da Fazenda ( Decreto-Lei nº 5.844, de 1943, art. 123 ; Decreto-Lei nº 1.718, de 1979, art. 2º ; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 197 ).
 
@@ -22532,45 +22532,45 @@ Nenhuma pessoa física ou jurídica, contribuinte ou não, poderá eximir-se de 
 
 
 
-###### Art. 973. {#art-973}
+###### Art. 973.
 
 Os Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda somente poderão examinar documentos, livros e registros de instituições financeiras, inclusive aqueles referentes a contas de depósitos e de aplicações financeiras, quando houver processo administrativo instaurado ou procedimento fiscal em curso e tais exames sejam considerados indispensáveis pela autoridade administrativa competente ( Lei Complementar nº 105, de 10 de janeiro de 2001, art. 1º, § 1º e § 2º , e art. 6º ).
 Parágrafo único. O disposto neste artigo se aplica às instituições equiparadas em conformidade com os § 1º e § 2º do art. 1º da Lei Complementar nº 105, de 2001 .
 Declaração de rendimentos pagos e imposto sobre a renda retido na fonte
 
 
-###### Art. 974. {#art-974}
+###### Art. 974.
 
 As pessoas físicas ou jurídicas são obrigadas a prestar, na forma, no prazo e nas condições estabelecidos pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, informações sobre os rendimentos que pagaram ou creditaram no ano-calendário anterior, por si ou como representantes de terceiros, com indicação da natureza das respectivas importâncias, do nome, do endereço e do número de inscrição no CPF ou no CNPJ, das pessoas que o receberam, e o imposto sobre a renda retido na fonte (Decreto-Lei nº 1.968, de 23 de novembro de 1982, art. 11 ; e Lei nº 9.779, de 1999, art.16) .
 Pagamentos efetuados a terceiros
 
 
-###### Art. 975. {#art-975}
+###### Art. 975.
 
 As pessoas físicas deverão informar à Secretaria da Receita Federal do Brasil do Ministério da Fazenda, juntamente à declaração do imposto sobre a renda, os rendimentos que pagaram no ano anterior, por si ou como representantes de terceiros, com indicação do nome, do endereço e do número de inscrição no CPF ou no CNPJ, das pessoas que os receberam ( Decreto-Lei nº 2.396, de 21 de dezembro de 1987, art. 13, caput )
 Parágrafo único. A falta de informação de pagamento efetuado sujeitará o infrator à multa de vinte por cento do valor não declarado ou de eventual insuficiência, aplicável pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda (Decreto-Lei nº 2.396, de 1987, art. 13, § 2º).
 Doações recebidas pelos Fundos dos Direitos da Criança e do Adolescente
 
 
-###### Art. 976. {#art-976}
+###### Art. 976.
 
 O Ministério dos Direitos Humanos encaminhará à Secretaria da Receita Federal do Brasil do Ministério da Fazenda, até 31 de outubro de cada ano, arquivo eletrônico com a relação atualizada dos Fundos dos Direitos da Criança e do Adolescente nacional, distrital, estaduais e municipais, com a indicação dos números de inscrição no CNPJ e das contas bancárias específicas mantidas em instituições financeiras públicas, destinadas exclusivamente para gerir os recursos dos referidos Fundos (Lei nº 8.069, de 1990, art. 260-K) .
 Informações cadastrais prestadas pelas instituições financeiras
 
 
-###### Art. 977. {#art-977}
+###### Art. 977.
 
 Sem prejuízo do disposto na legislação em vigor, as instituições financeiras, as sociedades corretoras e as distribuidoras de títulos e valores mobiliários, as sociedades de investimento e as sociedades de arrendamento mercantil, os agentes do SFH, as bolsas de valores, de mercadorias, de futuros e as instituições assemelhadas e os seus associados e as empresas administradoras de cartões de crédito fornecerão à Secretaria da Receita Federal do Brasil do Ministério da Fazenda, nos termos estabelecidos pelo Ministro de Estado da Fazenda, informações cadastrais sobre os usuários dos serviços, relativas ao nome, à filiação, ao endereço e ao número de inscrição do cliente no CPF ou no CNPJ ( Lei Complementar nº 70, de 30 de dezembro de 1991, art. 12, caput ).
 Parágrafo único. A não observância ao disposto neste artigo sujeitará o infrator, independentemente de outras penalidades administrativas, à multa prevista no art. 1.022 , por usuário omitido ( Lei Complementar nº 70, de 1991, art. 12, § 3º ).
 
 
-###### Art. 978. {#art-978}
+###### Art. 978.
 
 Na hipótese de dúvida sobre as informações prestadas ou de informações prestadas de maneira incompleta, a autoridade tributária poderá determinar a verificação da sua veracidade na escrita dos informantes ou exigir os esclarecimentos necessários ( Decreto-Lei nº 5.844, de 1943, art. 108, § 6º ).
 Instituição e efeitos de obrigações acessórias
 
 
-###### Art. 979. {#art-979}
+###### Art. 979.
 
 Compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda dispor sobre as obrigações acessórias relativas ao imposto sobre a renda, e estabelecer, inclusive, a forma, o prazo e as condições para o seu cumprimento e o seu responsável (Lei nº 9.779, de 1999, art. 16) .
 
@@ -22587,24 +22587,24 @@ Subseção II
 Dos beneficiários de contribuições
 
 
-###### Art. 980. {#art-980}
+###### Art. 980.
 
 As pessoas físicas e jurídicas beneficiadas com o recebimento de contribuições, doações, prêmios e bolsas, dedutíveis na apuração do imposto sobre a renda das pessoas físicas ou jurídicas, ficam obrigadas a provar às autoridades fiscais, quando exigido, a aplicação efetiva dos recursos nos fins a que se destinaram (Lei nº 4.154, de 1962, art. 25) .
 Subseção III
 Dos órgãos da administração pública
 
 
-###### Art. 981. {#art-981}
+###### Art. 981.
 
 Os órgãos da administração pública federal, estadual e municipal, e as entidades autárquicas, paraestatais e de economia mista ficam obrigados a auxiliar a fiscalização, além de prestar informações e esclarecimentos que lhes forem solicitados, de forma a cumprir ou fazer cumprir as disposições deste Regulamento e permitir aos Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda colher os elementos necessários à Secretaria da Receita Federal do Brasil do Ministério da Fazenda ( Decreto-Lei nº 5.844, de 1943, art. 125, caput ; e Decreto-Lei nº 1.718, de 1979, art. 2º ).
 
 
-###### Art. 982. {#art-982}
+###### Art. 982.
 
 As autoridades superiores dos Comandos do Exército, da Marinha, da Aeronáutica e das Polícias, e os diretores ou os chefes de repartições federais, estaduais e municipais e de departamentos ou de entidades autárquicas, de paraestatais ou de outros órgãos a estes assemelhados deverão prestar informações sobre os rendimentos pagos a seus subordinados e a terceiros ( Decreto-Lei nº 5.844, de 1943, art. 109 ).
 
 
-###### Art. 983. {#art-983}
+###### Art. 983.
 
 A Fazenda Pública da União e as Fazendas dos Estados, do Distrito Federal e dos Municípios prestarão assistência mútua para a fiscalização dos tributos e a permuta de informações, na forma estabelecida, em caráter geral ou específico, por lei ou por convênio ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 199, caput ).
 Parágrafo único. A Fazenda Pública da União, na forma estabelecida em tratados, acordos ou convênios, poderá permutar informações com Estados estrangeiros no interesse da arrecadação e da fiscalização do imposto sobre a renda ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 199, parágrafo único ).
@@ -22612,12 +22612,12 @@ Subseção IV
 Dos serventuários da Justiça
 
 
-###### Art. 984. {#art-984}
+###### Art. 984.
 
 Os tabeliães, os escrivães, os distribuidores, os oficiais de Registro de Imóveis, Títulos e Documentos, os contadores e os partidores facilitarão aos Auditores-Fiscais da Secretaria da Receita Federal do Brasil do Ministério da Fazenda o exame e a verificação das escrituras, dos autos e dos livros de registro em cartórios, auxiliarão, também, a fiscalização e, quando solicitados, prestarão as informações que possam, de qualquer forma, esclarecer situações e interesses da administração tributária ( Decreto-Lei nº 5.844, de 1943, art. 128 ; e Decreto-Lei nº 1.718, de 1979, art. 2º) .
 
 
-###### Art. 985. {#art-985}
+###### Art. 985.
 
 Os serventuários da Justiça deverão informar as operações imobiliárias anotadas, averbadas, lavradas, matriculadas ou registradas nos Cartórios de Notas ou de Registro de Imóveis, Títulos e Documentos sob a sua responsabilidade, por meio da apresentação de Declaração sobre Operações Imobiliárias - DOI, em meio magnético, nos termos estabelecidos pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda (Lei nº 10.426, de 2002, art. 8º, caput ).
 
@@ -22631,20 +22631,20 @@ Os serventuários da Justiça deverão informar as operações imobiliárias ano
 
 
 
-###### Art. 986. {#art-986}
+###### Art. 986.
 
 O oficial de registro civil comunicará o óbito à Secretaria da Receita Federal do Brasil do Ministério da Fazenda e à Secretaria de Segurança Pública da unidade federativa que tenha emitido a cédula de identidade, exceto se, em razão da idade do falecido, essa informação for manifestamente desnecessária ( Lei nº 6.015, de 1973, art. 80, parágrafo único ).
 Seção II
 Da prestação de informações ao beneficiário
 
 
-###### Art. 987. {#art-987}
+###### Art. 987.
 
 As pessoas físicas ou jurídicas que efetuarem pagamentos com retenção do imposto sobre a renda na fonte deverão fornecer a pessoa física ou jurídica beneficiária, na forma e nas condições estabelecidas pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, documento comprobatório, com indicação da natureza e do montante do pagamento, das deduções e do imposto sobre a renda retido no ano-calendário anterior, quando for o caso (Lei nº 8.981, de 1995, art. 86, caput ; e Lei nº 9.779, de 1999, art. 16) .
 Parágrafo único. O órgão gestor de mão de obra fica responsável por fornecer aos trabalhadores portuários avulsos, inclusive àqueles pertencentes à categoria dos arrumadores, o comprovante de rendimentos de que trata o caput ( Medida Provisória nº 2.158-35, de 2001, art. 65, caput e § 2º ).
 
 
-###### Art. 988. {#art-988}
+###### Art. 988.
 
 O imposto sobre a renda retido na fonte sobre quaisquer rendimentos ou ganhos de capital somente poderá ser compensado na declaração de pessoa física ou jurídica, quando for o caso, se o contribuinte possuir comprovante da retenção emitido em seu nome pela fonte pagadora, ressalvado o disposto nos § 1º e § 2º do art. 6º e no parágrafo único do art. 7º (Lei nº 7.450, de 1985, art. 55) .
 
@@ -22656,17 +22656,17 @@ CAPÍTULO I
 DISPOSIÇÕES GERAIS
 
 
-###### Art. 989. {#art-989}
+###### Art. 989.
 
 As multas e as penas disciplinares de que trata este Título serão aplicadas pelas autoridades competentes da Secretaria da Receita Federal do Brasil do Ministério da Fazenda aos infratores ao disposto neste Regulamento, sem prejuízo das sanções impostas pelas leis criminais violadas ( Decreto-Lei nº 5.844, de 1943, art. 142 e art. 151 ; e Lei nº 3.470, de 1958, art. 34) .
 
 
-###### Art. 990. {#art-990}
+###### Art. 990.
 
 Qualquer infração que não seja decorrente da simples mora no pagamento do imposto sobre a renda será punida na forma prevista nos dispositivos específicos deste Regulamento (Decreto-Lei nº 1.736, de 1979, art. 11).
 
 
-###### Art. 991. {#art-991}
+###### Art. 991.
 
 O crédito tributário prefere a qualquer outro, independentemente da sua natureza ou do tempo de sua constituição, ressalvados os créditos decorrentes da legislação do trabalho ou do acidente de trabalho ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 186, caput ).
 
@@ -22689,7 +22689,7 @@ O crédito tributário prefere a qualquer outro, independentemente da sua nature
 
 
 
-###### Art. 992. {#art-992}
+###### Art. 992.
 
 Ficam sujeitas à multa de R$ 80,79 (oitenta reais e setenta e nove centavos) a R$ 242,51 (duzentos e quarenta e dois reais e cinquenta e um centavos) as infrações ao disposto neste Regulamento que não tenham penalidade específica (Decreto-Lei nº 401, de 1968, art. 22 ; Lei nº 8.383, de 1991, art. 3º, caput, inciso I ; e Lei nº 9.249, de 1995, art. 30 ).
 CAPÍTULO II
@@ -22698,14 +22698,14 @@ Seção I
 Do cálculo dos juros e da multa de mora
 
 
-###### Art. 993. {#art-993}
+###### Art. 993.
 
 Os juros e a multa de mora serão calculados sobre o valor do imposto sobre a renda ou da quota em reais (Lei nº 8.981, de 1995, art. 5º, caput , e art. 6º ; Lei nº 9.249, de 1995, art. 1º ; e Lei nº 10.522, de 2002, art. 29 e art. 30) .
 Seção II
 Da multa de mora
 
 
-###### Art. 994. {#art-994}
+###### Art. 994.
 
 Os débitos não pagos nos prazos previstos na legislação específica serão acrescidos de multa de mora, calculada à taxa de trinta e três centésimos por cento por dia de atraso ( Lei nº 9.430, de 1996, art. 61, caput ).
 
@@ -22746,20 +22746,20 @@ Os débitos não pagos nos prazos previstos na legislação específica serão a
 Débitos com exigibilidade suspensa por medida judicial
 
 
-###### Art. 995. {#art-995}
+###### Art. 995.
 
 A interposição da ação judicial favorecida com a medida liminar em mandado de segurança, com a concessão de medida liminar ou de tutela antecipada, em outras espécies de ação judicial, interrompe a incidência da multa de mora, desde a concessão da medida judicial, até trinta dias após a data da publicação da decisão judicial que considerar devido o imposto sobre a renda ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 151, caput , incisos IV e V ; e Lei nº 9.430, de 1996, art. 63, § 2º ).
 Consulta formulada anteriormente ao vencimento do débito
 
 
-###### Art. 996. {#art-996}
+###### Art. 996.
 
 Na hipótese de consulta eficaz, formulada anteriormente ao vencimento do débito, não incidirão encargos moratórios desde o seu protocolo até o trigésimo dia subsequente à data da ciência de sua solução ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 161, § 2º ).
 Seção III
 Dos juros de mora
 
 
-###### Art. 997. {#art-997}
+###### Art. 997.
 
 Os créditos tributários da União não pagos até a data do vencimento serão acrescidos de juros de mora equivalentes à variação da taxa Selic, para títulos federais, acumulada mensalmente, a partir do primeiro dia do mês subsequente ao do vencimento do prazo até o mês anterior ao do pagamento (Lei nº 8.981, de 1995, art. 84, caput , inciso I, e § 1º ; Lei nº 9.065, de 1995, art. 13 ; e Lei nº 9.430, de 1996, art. 61, § 3º ).
 
@@ -22791,7 +22791,7 @@ CAPÍTULO III
 DAS MULTAS DE LANÇAMENTO DE OFÍCIO
 
 
-###### Art. 998. {#art-998}
+###### Art. 998.
 
 Nas hipóteses de lançamento de ofício, serão aplicadas as seguintes multas ( Lei nº 9.430, de 1996, art. 44, caput , incisos I e II ):
 
@@ -22831,14 +22831,14 @@ Nas hipóteses de lançamento de ofício, serão aplicadas as seguintes multas (
 
 
 
-###### Art. 999. {#art-999}
+###### Art. 999.
 
 O pagamento do tributo após o início da ação fiscal não eximirá a pessoa física ou jurídica das penalidades previstas na legislação tributária, observado o disposto no art. 954 (Decreto nº 70.235, de 1972, art. 7º, § 1º) .
 Seção I
 Do agravamento de penalidade
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 000. Os percentuais de multa a que se referem o inciso I do caput e o § 1º do art. 998 serão aumentados de metade, nas hipóteses de não atendimento pelo sujeito passivo, no prazo marcado, de intimação para ( Lei nº 9.430, de 1996, art. 44, § 2º ):
 
@@ -22854,7 +22854,7 @@ Parágrafo único. O disposto no caput aplica-se, inclusive, aos contribuintes q
 Débitos com exigibilidade suspensa por medida judicial
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 001. Na constituição de crédito tributário referente ao imposto sobre a renda destinada a prevenir a decadência, cuja exigibilidade houver sido suspensa na forma prevista nos incisos IV e V do caput do art. 151 da Lei nº 5.172, de 1966 - Código Tributário Nacional , não caberá lançamento de multa de ofício ( Lei nº 9.430, de 1996, art. 63, caput ).
 Parágrafo único. O disposto no caput aplica-se exclusivamente às hipóteses em que a suspensão da exigibilidade do débito tenha ocorrido anteriormente ao início de qualquer procedimento de ofício a ele relativo ( Lei nº 9.430, de 1996, art. 63, § 1º ).
@@ -22862,7 +22862,7 @@ Seção II
 Da redução da penalidade
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 002. Ao sujeito passivo que, notificado, efetuar o pagamento, a compensação ou o parcelamento do imposto sobre a renda, será concedida redução da multa de lançamento de ofício nos seguintes percentuais (Lei nº 8.218, de 1991, art. 6º, caput ; e Lei nº 9.430, de 1996, art. 44, § 3º ):
 
@@ -22903,7 +22903,7 @@ Seção I
 Disposições relativas à declaração de ajuste anual da pessoa física
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 003. Serão aplicadas as seguintes penalidades:
 
@@ -22958,7 +22958,7 @@ Seção II
 Disposições relativas às demais declarações e às obrigações acessórias
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 004. O sujeito passivo que deixar de apresentar a Declaração de Imposto sobre a Renda Retido na Fonte - DIRF ou que a apresentar com incorreções ou omissões, será intimado a apresentar a declaração na hipótese de não apresentação, ou a prestar esclarecimentos, nas demais hipóteses, no prazo estipulado pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, e ficará sujeito às seguintes multas (Lei nº 10.426, de 2002, art. 7º, caput, incisos I, II e IV) :
 
@@ -22969,12 +22969,12 @@ Disposições relativas às demais declarações e às obrigações acessórias
 
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 005. Para fins de aplicação das multas previstas no inciso I do caput do art. 1.004 , será considerado como termo inicial o dia seguinte ao término do prazo originalmente estabelecido para a entrega da declaração e como termo final a data da efetiva entrega ou, na hipótese de não apresentação, da lavratura do auto de infração (Lei nº 10.426, de 2002, art. 7º, § 1º) .
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 006. Observado o disposto no art. 1.007 , as multas serão reduzidas (Lei nº 10.426, de 2002, art. 7º, § 2º, incisos I e II):
 
@@ -22985,7 +22985,7 @@ Disposições relativas às demais declarações e às obrigações acessórias
 
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 007. A multa mínima a ser aplicada será de (Lei nº 10.426, de 2002, art. 7º, § 3º):
 
@@ -23005,13 +23005,13 @@ Disposições relativas às demais declarações e às obrigações acessórias
 
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 008. A declaração que não atender às especificações técnicas estabelecidas pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda será considerada não entregue (Lei nº 10.426, de 2002, art. 7º, § 4º) .
 Parágrafo único. Na hipótese prevista neste artigo, o sujeito passivo será intimado a apresentar nova declaração, no prazo de dez dias, contado da data da ciência da intimação, e ficará sujeito à multa prevista no inciso I do caput do art. 1.004, observado o disposto no art. 1.005 ao art. 1.007 (Lei nº 10.426, de 2002, art. 7º, § 5º) .
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 009. O sujeito passivo que deixar de cumprir as obrigações acessórias relativas ao imposto sobre a renda, exigidas nos termos estabelecidos no art. 16 da Lei nº 9.779, de 1999 , ou que as cumprir com incorreções ou omissões será intimado para cumpri-las ou para prestar esclarecimentos relativos a elas nos prazos estabelecidos pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda e ficará sujeito às seguintes multas ( Medida Provisória nº 2.158-35, de 2001, art. 57, caput ):
 
@@ -23054,7 +23054,7 @@ Parágrafo único. Na hipótese prevista neste artigo, o sujeito passivo será i
 
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 010. O sujeito passivo que deixar de apresentar o Livro de Apuração do Lucro Real, de que trata o inciso I do caput do art. 8º do Decreto-Lei no 1.598, de 1977 , nos prazos estabelecidos em ato normativo da Secretaria da Receita Federal do Brasil do Ministério da Fazenda, ou que o apresentar com inexatidões, incorreções ou omissões, ficará sujeito às seguintes multas (Decreto-Lei nº 1.598, de 1977, art. 8º-A) :
 
@@ -23116,17 +23116,17 @@ CAPÍTULO V
 DAS INFRAÇÕES ÀS NORMAS RELATIVAS À PRESTAÇÃO DE INFORMAÇÕES
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 011. As pessoas físicas ou jurídicas que deixarem de fornecer aos beneficiários, dentro do prazo, ou fornecerem, com inexatidão, o documento a que se refere o art. 987 , ficarão sujeitas ao pagamento de multa de R$ 41,43 (quarenta e um reais e quarenta e três centavos), por documento (Lei nº 8.981, de 1995, art. 86, § 2º ; e Lei nº 9.249, de 1995, art. 30 ).
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 012. A falta de informação de pagamentos efetuados na forma prevista no art. 975 sujeitará o infrator à multa de vinte por cento do valor não declarado ou de eventual insuficiência (Decreto-Lei nº 2.396, de 1987, art. 13, § 2º).
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 013. Às entidades, às pessoas e às empresas mencionadas nos art. 972 e art. 984 que deixarem de fornecer, nos prazos estabelecidos, as informações ou os esclarecimentos solicitados pelos órgãos da Secretaria da Receita Federal do Brasil do Ministério da Fazenda, será aplicada a multa de R$ 538,93 (quinhentos e trinta e oito reais e noventa e três centavos) a R$ 2.694,79 (dois mil, seiscentos e noventa e quatro reais e setenta e nove centavos), sem prejuízo de outras sanções legais cabíveis (Decreto-Lei nº 2.303, de 1986, art. 9º ; Lei nº 8.383, de 1991, art. 3º, caput, inciso I ; e Lei nº 9.249, de 1995, art. 30 ).
 CAPÍTULO VI
@@ -23135,28 +23135,28 @@ Seção I
 Dos incentivos à inovação tecnológica a partir de 1 º de janeiro de 2006
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 014. O descumprimento a qualquer obrigação assumida para obtenção dos incentivos de que tratam o art. 564 ao art. 572 e a utilização indevida dos incentivos fiscais neles referidos implicam perda do direito aos incentivos ainda não utilizados e o recolhimento do valor correspondente aos tributos não pagos em decorrência dos incentivos já utilizados, acrescidos de juros e multa, de mora ou de ofício, previstos na legislação tributária, sem prejuízo das sanções penais cabíveis (Lei nº 11.196, de 2005, art. 24) .
 Seção II
 Do incentivo à atividade audiovisual
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 015. Verificada a hipótese de que trata o art. 551 , a multa de cinquenta por cento sobre o débito será aplicada à empresa infratora (Lei nº 8.685, de 1993, art.6º, § 1º) .
 Seção III
 Do incentivo à atividade cultural ou artística
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 016. Na hipótese de dolo, fraude ou simulação, inclusive desvio de objeto, para as situações previstas nos art. 91, art. 92 e art. 545 , será aplicada, ao doador e ao beneficiário, a multa correspondente a duas vezes o valor da vantagem recebida indevidamente (Lei nº 8.313, de 1991, art. 38) .
 Seção IV
 Do Cadastro Nacional da Pessoa Jurídica
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 017. A ação ou a omissão contrária às normas reguladoras do CNPJ sujeitará o infrator a (Lei nº 5.614, de 1970, art. 3º) :
 
@@ -23175,7 +23175,7 @@ Seção V
 Da proibição de distribuir rendimentos de participações
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 018. As pessoas jurídicas que, enquanto estiverem em débito, não garantido, por falta de recolhimento de imposto sobre a renda no prazo legal não poderão:
 
@@ -23204,7 +23204,7 @@ Seção VI
 Dos serventuários da Justiça
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 019. A não apresentação da DOI nos termos estabelecidos no § 1º do art. 985 sujeita o responsável, na hipótese de falta de apresentação ou de apresentação da declaração após o prazo estabelecido, à multa de um décimo por cento ao mês-calendário ou fração, sobre o valor da operação, limitada a um por cento, observado o disposto no inciso III do § 1º (Lei nº 10.426, de 2002, art. 8º, § 1º).
 
@@ -23236,7 +23236,7 @@ Seção VII
 Das instituições financeiras e das bolsas de valores e assemelhadas
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 020. A falta de prestação das informações, por parte das instituições financeiras, sobre operações financeiras efetuadas pelos usuários de seus serviços ou a sua apresentação de forma inexata ou incompleta sujeita a pessoa jurídica às seguintes penalidades (Lei nº 10.637, de 2002, art. 30, caput , incisos I e II) :
 
@@ -23267,27 +23267,27 @@ Das instituições financeiras e das bolsas de valores e assemelhadas
 
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 021. A falta de apresentação dos elementos a que se refere o art. 973 ou a sua apresentação de forma inexata ou incompleta sujeita a pessoa jurídica à multa equivalente a dois por cento do valor das operações objeto da requisição, apurado por meio de procedimento fiscal junto à própria pessoa jurídica ou ao titular da conta de depósito ou da aplicação financeira, e a terceiros, por mês-calendário ou fração de atraso, limitado a dez por cento, observado o valor mínimo de R$ 50.000,00 (cinquenta mil reais) (Lei nº 10.637, de 2002, art. 31, caput ).
 Parágrafo único. O disposto nos § 2º e § 3º do art. 1.020 aplica-se à multa de que trata o caput .
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 022. A não observância ao disposto no art. 977 sujeitará o infrator à multa equivalente a R$ 29,00 (vinte e nove reais), por usuário omitido ( Lei Complementar nº 70, de 1991, art. 12, § 3º ; e Lei nº 9.249, de 1995, art. 30 ).
 Seção VIII
 Da falta imputável a servidor público
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 023. Na hipótese de descumprimento de disposições relativas ao recolhimento do imposto sobre a renda devido na fonte, se a falta for imputável a servidor público federal, estadual ou municipal, o fato será levado ao conhecimento da administração pública para fins da sanção disciplinar (Lei nº 2.354, de 1954, art. 33) .
 Seção IX
 Dos arquivos em meios magnéticos
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 024. A inobservância ao disposto no art. 279 , acarretará a imposição das seguintes penalidades (Lei nº 8.218, de 1991, art. 12, caput , incisos I ao III) :
 
@@ -23304,7 +23304,7 @@ Seção X
 Da falsificação na escrituração e nos documentos
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 025. Verificado pela autoridade fiscal, anteriormente ao encerramento do período de apuração, que o contribuinte omitiu registro contábil total ou parcial de receita, ou registrou custos ou despesas cuja realização não possa comprovar, ou que tenha praticado qualquer ato tendente a reduzir o imposto sobre a renda correspondente, inclusive na hipótese prevista no art. 271 , ficará sujeito à multa em valor igual à metade da receita omitida ou da dedução indevida, lançada e exigível ainda que não tenha terminado o período de apuração de incidência do imposto sobre a renda (Decreto-Lei nº 1.598, de 1977, art. 7º, § 3º).
 
@@ -23315,7 +23315,7 @@ DO CRIME DE FALSIDADE
 Gerente de instituição financeira
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 026. Responderão como coautores de crime de falsidade o gerente e o administrador de instituição financeira ou de assemelhadas que concorrerem para que seja aberta conta ou movimentados recursos sob nome ( Lei nº 8.383, de 1991, art. 64, caput ):
 
@@ -23335,7 +23335,7 @@ Parágrafo único. Fica facultado às instituições financeiras e às assemelha
 DA EXTINÇÃO DA PUNIBILIDADE
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 027. Extingue-se a punibilidade dos crimes definidos na Lei nº 8.137, de 1990 , e na Lei nº 4.729, de 14 de julho de 1965 , quando o agente promover o pagamento do tributo, inclusive acessório, antes do recebimento da denúncia ( Lei nº 9.249, de 1995, art. 34 ).
 
@@ -23345,7 +23345,7 @@ DA EXTINÇÃO DA PUNIBILIDADE
 DOS CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 028. O servidor que revelar informações que tiver obtido por meio de exames de documentos, livros e registros das bolsas de valores, de mercadorias, de futuros e assemelhadas, e de esclarecimentos e informações a respeito de operações por elas praticadas, ficará sujeito às penas previstas no art. 325 do Decreto-Lei nº 2.848, de 1940 - Código Penal (Lei nº 8.021, de 1990, art. 7º, caput e § 3º).
 Parágrafo único. Também ficará sujeito às penas previstas no art. 325 do Decreto-Lei nº 2.848, de 1940 - Código Penal o servidor que ( Decreto-Lei nº 2.848, de 1940 - Código Penal, art. 325 ):
@@ -23360,7 +23360,7 @@ Parágrafo único. Também ficará sujeito às penas previstas no art. 325 do De
 
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 029. Ficará sujeito às penas previstas na Lei nº 8.137, de 1990 , além de outras previstas no Decreto-Lei nº 2.848, de 1940 - Código Penal , o servidor que (Lei nº 8.137, de 1990, art. 3º) :
 
@@ -23381,7 +23381,7 @@ CAPÍTULO I
 DA COMPETÊNCIA DAS AUTORIDADES
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 030. A autoridade fiscal competente para aplicar as normas constantes deste Regulamento será a do domicílio tributário do contribuinte, ou de seu procurador ou de seu representante, observado o disposto no parágrafo único do art. 949 ( Decreto-Lei nº 5.844, de 1943, art. 175 ).
 
@@ -23395,20 +23395,20 @@ DA COMPETÊNCIA DAS AUTORIDADES
 
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 031. Qualquer autoridade fiscal competente poderá solicitar de outra autoridade as investigações necessárias ao lançamento do imposto sobre a renda ( Decreto-Lei nº 5.844, de 1943, art. 176, caput ).
 Parágrafo único. Quando a solicitação não for atendida, o fato será comunicado ao Secretário da Receita Federal do Brasil do Ministério da Fazenda ( Decreto-Lei nº 5.844, de 1943, art. 176, parágrafo único ).
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 032. Antes de feita a arrecadação do imposto sobre a renda, quando circunstâncias novas mudarem a competência da autoridade, aquela que iniciou o procedimento enviará os documentos à nova autoridade competente, para o lançamento e a cobrança devidos ( Decreto-Lei nº 5.844, de 1943, art. 177 ).
 CAPÍTULO II
 DO RECONHECIMENTO DE FIRMAS
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 033. Exceto em situações excepcionais ou naquelas em que a lei imponha explicitamente esta condição, não será exigido o reconhecimento de firmas em petições dirigidas à administração pública, facultado, todavia, à repartição requerida, quando tiver dúvida sobre a autenticidade da assinatura do requerente ou quando a providência servir ao resguardo do sigilo, exigir, anteriormente à decisão final, a apresentação de prova de identidade do requerente (Lei nº 4.862, de 1965, art. 31) .
 Parágrafo único. Verificada, a qualquer tempo, falsificação de assinatura em documento público ou particular, a repartição considerará não satisfeita a exigência documental e dará conhecimento do fato à autoridade competente, no prazo improrrogável de cinco dias, para instauração do processo criminal.
@@ -23416,13 +23416,13 @@ CAPÍTULO III
 DA REPRESENTAÇÃO DO CONTRIBUINTE
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 034. A capacidade do contribuinte, a representação e a procuração serão regulamentadas de acordo com as prescrições legais ( Decreto-Lei nº 5.844, de 1943, art. 193 ).
 Parágrafo único. Os menores serão representados por seus pais ou por representante legal ( Lei nº 4.506, de 1964, art. 4º, §2º ).
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 035. O disposto neste Regulamento é aplicável a todo aquele que responder solidariamente com o sujeito passivo ou pessoalmente em seu lugar ( Decreto-Lei nº 5.844, de 1943, art. 192, caput ).
 Parágrafo único. Os cônjuges, os procuradores bastantes, os tutores, os curadores, os diretores, os gerentes, os síndicos, os liquidatários e os demais representantes de pessoas físicas e jurídicas cumprirão as obrigações que incumbirem aos representados ( Decreto-Lei nº 5.844, de 1943, art. 192, parágrafo único ).
@@ -23430,7 +23430,7 @@ CAPÍTULO IV
 DO DIREITO DE PETIÇÃO DO CONTRIBUINTE
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 036. É assegurado ao sujeito passivo, independentemente do pagamento de taxas ( Constituição, art. 5º, caput, inciso XXXIV ):
 
@@ -23468,7 +23468,7 @@ CAPÍTULO V
 DAS INTIMAÇÕES OU DAS NOTIFICAÇÕES
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 037. As intimações ou as notificações de que trata este Regulamento serão, para todos os efeitos legais, consideradas feitas ( Decreto-Lei nº 5.844, de 1943, art. 200 ; e Decreto nº 70.235, de 1972, art. 23, § 2º) :
 
@@ -23496,7 +23496,7 @@ CAPÍTULO VI
 DA CONTAGEM DOS PRAZOS
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 038. Os prazos estabelecidos neste Regulamento serão contínuos, e será excluído, de sua contagem, o dia de início e será incluído o dia de vencimento ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 210, caput ).
 
@@ -23518,31 +23518,31 @@ CAPÍTULO VII
 DA EXPRESSÃO MONETÁRIA DOS RENDIMENTOS
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 039. Para fins do imposto sobre a renda, os rendimentos em espécie serão avaliados em dinheiro, pelo valor que tiverem na data da percepção ( Decreto-Lei nº 5.844, de 1943, art. 198 ).
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 040. Os rendimentos recebidos de fontes situadas no exterior, sujeitos à tributação no País, e o imposto sobre a renda pago no exterior, serão convertidos em reais, por meio da utilização do valor do dólar dos Estados Unidos da América informado para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do recebimento do rendimento ( Lei nº 9.250, de 1995, art. 5º, § 1º, e art. 6º ).
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 041. Os rendimentos recebidos e as deduções pagas sob a forma de extinção de obrigações serão avaliados pelo montante das obrigações extintas, inclusive juros vencidos, se houver ( Lei nº 4.506, de 1964, art. 25 ).
 CAPÍTULO VIII
 DOS TRATADOS E DAS CONVENÇÕES
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 042. Os tratados e as convenções internacionais revogam ou modificam a legislação tributária interna e serão observados pela legislação que lhes sobrevenha ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 98 ).
 CAPÍTULO IX
 DO SIGILO FISCAL
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 043. Sem prejuízo do disposto na legislação criminal, é vedada a divulgação, por parte da Fazenda Pública ou de seus servidores, de informação obtida em razão do ofício sobre a situação econômica ou financeira do sujeito passivo ou de terceiros e sobre a natureza e o estado de seus negócios ou atividades ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 198, caput ).
 
@@ -23591,24 +23591,24 @@ DO SIGILO FISCAL
 
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 044. Aquele que, em serviço da Secretaria da Receita Federal do Brasil do Ministério da Fazenda, revelar informações que houver obtido, no cumprimento do dever profissional ou no exercício de ofício ou emprego, será responsabilizado como violador de segredo, de acordo com a lei penal ( Decreto-Lei nº 5.844, de 1943, art. 202 ; e Lei Complementar nº 105, de 2001, art. 5º, § 5º , e art. 10 ).
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 045. O Banco Central do Brasil, a CVM, a Secretaria de Previdência Complementar, a Secretaria da Receita Federal do Brasil do Ministério da Fazenda e a Superintendência de Seguros Privados manterão sistema de intercâmbio de informações, relativas à fiscalização que exerçam, no âmbito de suas competências, no mercado de valores mobiliários (Lei nº 6.385, de 7 de dezembro de 1976, art. 28, caput ) .
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 046. A Secretaria da Receita Federal do Brasil do Ministério da Fazenda conservará os dados fiscais dos contribuintes pelo prazo mínimo de cinco anos, contado do início do exercício seguinte ao da declaração de renda ou ao do pagamento do tributo (Lei nº 9.613, de 1998, art. 17-E).
 CAPÍTULO X
 DO CONTROLE DE PROCESSOS E DECLARAÇÕES
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 047. Os processos fiscais relativos a tributos e a penalidades isoladas e as declarações não poderão sair dos órgãos da Secretaria da Receita Federal do Brasil do Ministério da Fazenda, exceto quando se tratar de ( Lei nº 9.250, de 1995, art. 38, caput, incisos I ao III ):
 
@@ -23644,7 +23644,7 @@ CAPÍTULO XI
 DA RESPONSABILIDADE DOS PROFISSIONAIS
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 048. O balanço patrimonial, as demonstrações do resultado do período de apuração, os extratos, as discriminações de contas ou lançamentos e demais documentos de contabilidade deverão ser assinados por bacharéis em ciências contábeis, atuários, peritos-contadores, contadores, guarda-livros ou técnicos em contabilidade legalmente registrados, com indicação do número dos registros ( Decreto-Lei nº5.844, de 1943, art. 39, caput ).
 
@@ -23658,13 +23658,13 @@ DA RESPONSABILIDADE DOS PROFISSIONAIS
 
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 049. Verificada a falsidade do balanço ou de qualquer outro documento de contabilidade, e da escrita dos contribuintes, o profissional que houver assinado tais documentos será, pelos Delegados e pelos Inspetores da Secretaria da Receita Federal do Brasil do Ministério da Fazenda, independentemente de ação criminal que na hipótese couber, declarado sem idoneidade para assinar quaisquer peças ou documentos contábeis sujeitos à apreciação dos órgãos da Secretaria da Receita Federal do Brasil do Ministério da Fazenda ( Decreto-Lei nº 5.844, de 1943, art. 39, § 2º ).
 Parágrafo único. Do ato do Delegado ou do Inspetor da Secretaria da Receita Federal do Brasil do Ministério da Fazenda, declaratório desta falta de idoneidade a que se refere o caput , caberá recurso, no prazo de vinte dias, para o Superintendente da referida Secretaria ( Decreto-Lei nº 5.844, de 1943, art. 39, § 3º ).
 
 
-###### Art. 1. {#art-1}
+###### Art. 1.
 
 050. Ficam dispensadas da exigência de que trata o art. 1.048 as pessoas jurídicas domiciliadas em localidades onde não houver profissional devidamente habilitado (Decreto-Lei nº 9.530, de 31 de julho de 1946, art. 1º) .
 
