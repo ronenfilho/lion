@@ -354,9 +354,9 @@ class HTMLExtractor(BaseExtractor):
                          not re.match(r"^ART\.", next_title_upper):
                         should_combine = True
                     
-                    # Subseção X + texto descritivo (ambas vazias, não artigo)
+                    # Subseção X/única + texto descritivo (ambas vazias, não artigo)
                     elif not next_sec.content.strip() and \
-                         re.match(r"SUBSE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
+                         re.match(r"SUBSE[ÇC][ÃA]O\s+(ÚNICA|[IVXLCDM0-9]+)$", current_title_upper, re.I) and \
                          not re.match(r"^ART\.", next_title_upper):
                         should_combine = True
                     

@@ -5,7 +5,7 @@
 
 - **Arquivo**: `D9580.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 14:12
+- **Processado em**: 02/03/2026 16:34
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -31,8 +31,7 @@
 ##### CAPÍTULO II - DISPOSIÇÕES ESPECIAIS
 ###### Seção I - Dos menores e de outros incapazes
 ####### Art. 3º
-####### Subseção única
-####### Dos alimentos e das pensões
+####### Subseção única - Dos alimentos e das pensões
 ####### Art. 4º
 ###### Seção II - Da sociedade conjugal ou da união estável
 ####### Art. 5º
@@ -162,8 +161,7 @@
 ###### Seção II - Das despesas escrituradas no livro-caixa
 ####### Art. 68.
 ####### Art. 69.
-####### Subseção única
-####### Da dedução de despesas com informatização pelos titulares de serviços de registros públicos
+####### Subseção única - Da dedução de despesas com informatização pelos titulares de serviços de registr…
 ####### Art. 70.
 ###### Seção III - Dos dependentes
 ####### Art. 71.
@@ -221,14 +219,12 @@
 ###### Seção III - Das contribuições aos Fundos dos Direitos da Criança e do Adolescente
 ####### Art. 98.
 ####### Art. 99.
-####### Subseção única
-####### Da prestação de informação
+####### Subseção única - Da prestação de informação
 ####### Art. 100.
 ####### Art. 101.
 ###### Seção IV - Das contribuições aos Fundos do Idoso
 ####### Art. 102.
-####### Subseção única
-####### Da prestação de informação
+####### Subseção única - Da prestação de informação
 ####### Art. 103.
 ###### Seção V - Do incentivo a projetos desportivos e paradesportivos
 ####### Art. 104.
@@ -244,8 +240,7 @@
 ###### Seção VI - Da contribuição patronal paga à previdência social pelo empregador doméstico
 ####### Art. 111.
 ####### Art. 112.
-####### Subseção única
-####### Da prestação de informação
+####### Subseção única - Da prestação de informação
 ####### Art. 113.
 ###### Seção VII
 ####### Art. 114.
@@ -279,8 +274,7 @@
 ###### Seção I - Da incidência
 ####### Art. 128.
 ####### Art. 129.
-####### Subseção única
-####### Da herança, do legado ou da doação em adiantamento da legítima e da dissolução da sociedade conjugal
+####### Subseção única - Da herança, do legado ou da doação em adiantamento da legítima e da dissolução d…
 ####### Art. 130.
 ###### Seção II - Da não incidência e da isenção
 ####### Art. 131.
@@ -288,8 +282,7 @@
 ####### Art. 133.
 ###### Seção III - Do valor de alienação
 ####### Art. 134.
-####### Subseção única
-####### Do arbitramento do valor ou do preço
+####### Subseção única - Do arbitramento do valor ou do preço
 ####### Art. 135.
 ###### Seção IV - Do custo de aquisição
 ####### Art. 136.
@@ -1048,8 +1041,7 @@
 ####### Art. 529.
 ####### Distribuição a sócio ou acionista controlador por intermédio de terceiros
 ####### Art. 530.
-####### Subseção única
-####### Do cômputo na determinação do lucro real
+####### Subseção única - Do cômputo na determinação do lucro real
 ####### Art. 531.
 ####### Art. 532.
 ##### CAPÍTULO IX - DOS INCENTIVOS A ATIVIDADES CULTURAIS OU ARTÍSTICAS
@@ -1839,10 +1831,7 @@ Os rendimentos e os ganhos de capital percebidos por menores e outros incapazes 
 
 
 
-####### Subseção única
-
-
-####### Dos alimentos e das pensões
+####### Subseção única - Dos alimentos e das pensões
 
 
 ###### Art. 4º {#art-4}
@@ -3648,10 +3637,7 @@ As deduções de que trata o art. 68 não poderão exceder à receita mensal da 
 
 
 
-####### Subseção única
-
-
-####### Da dedução de despesas com informatização pelos titulares de serviços de registros públicos
+####### Subseção única - Da dedução de despesas com informatização pelos titulares de serviços de registros públicos
 
 
 ###### Art. 70. {#art-70}
@@ -4464,10 +4450,7 @@ A partir do exercício de 2012, ano-calendário de 2011, a pessoa física pode o
 
 
 
-####### Subseção única
-
-
-####### Da prestação de informação
+####### Subseção única - Da prestação de informação
 
 
 ###### Art. 100. {#art-100}
@@ -4549,10 +4532,7 @@ A pessoa física, a partir do ano-calendário de 2011, poderá deduzir do impost
 
 
 
-####### Subseção única
-
-
-####### Da prestação de informação
+####### Subseção única - Da prestação de informação
 
 
 ###### Art. 103. {#art-103}
@@ -4707,10 +4687,7 @@ A dedução de que trata o art. 111 ( Lei nº 9.250, de 1995, art. 12, § 3º ):
 
 
 
-####### Subseção única
-
-
-####### Da prestação de informação
+####### Subseção única - Da prestação de informação
 
 
 ###### Art. 113. {#art-113}
@@ -5050,10 +5027,7 @@ Na hipótese prevista no art. 128 , aplicam-se:
 
 
 
-####### Subseção única
-
-
-####### Da herança, do legado ou da doação em adiantamento da legítima e da dissolução da sociedade conjugal
+####### Subseção única - Da herança, do legado ou da doação em adiantamento da legítima e da dissolução da sociedade conjugal
 
 
 ###### Art. 130. {#art-130}
@@ -5256,10 +5230,7 @@ Considera-se valor de alienação ( Lei nº 7.713, de 1988, art. 19, caput e par
 
 
 
-####### Subseção única
-
-
-####### Do arbitramento do valor ou do preço
+####### Subseção única - Do arbitramento do valor ou do preço
 
 
 ###### Art. 135. {#art-135}
@@ -13867,10 +13838,7 @@ Se a pessoa ligada for sócio ou acionista controlador da pessoa jurídica, ser�
 Parágrafo único. Para fins do disposto neste artigo, sócio ou acionista controlador é a pessoa física ou jurídica que, diretamente ou por meio de sociedade ou sociedades sob seu controle, seja titular de direitos de sócio ou acionista que lhe assegurem, de modo permanente, a maioria de votos nas deliberações da sociedade ( Decreto-Lei nº 1.598, de 1977, art. 61, parágrafo único ).
 
 
-####### Subseção única
-
-
-####### Do cômputo na determinação do lucro real
+####### Subseção única - Do cômputo na determinação do lucro real
 
 
 ###### Art. 531. {#art-531}
