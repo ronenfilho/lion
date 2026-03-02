@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L7713compilada.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 14:12
+- **Processado em**: 02/03/2026 18:35
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -26,55 +26,60 @@
 ### Art. 7º
 ### Art. 8º
 ### Art. 9º
-### Art. 10.
+### Art. 10
 ### Art. 11
-### Art. 12.
-### Art. 12-A.
-### Art. 12-B.
+### Art. 12
+### Art. 12-A
+### Art. 12-B
 ### Art. 13
 ### Art. 14
-### Art. 15.
-### Art. 16.
-### Art. 17.
-### Art. 18.
-### Art. 19.
-### Art. 20.
-### Art. 21.
-### Art. 22.
+### Art. 15
+### Art. 16
+### Art. 17
+### Art. 18
+### Art. 19
+### Art. 20
+##### Parágrafo único. (Vetado).
+### Art. 21
+### Art. 22
 ### Art. 23
 ### Art. 24
-### Art. 25.
-### Art. 26.
-### Art. 27.
-### Art. 30.
-### Art 31.
-### Art. 32.
-### Art. 33.
-### Art. 34.
-### Art. 35.
-### Art. 36.
-### Art. 37.
-### Art. 38.
-### Art. 39.
-### Art 40.
-### Art. 41.
+### Art. 25
+### Art. 26
+### Art. 27
+### Art. 30
+### Art 31
+### Art. 32
+### Art. 33
+### Art. 34
+### Art. 35
+### Art. 36
+##### Parágrafo único. Incide, entretanto, o imposto de renda na fonte;
+### Art. 37
+### Art. 38
+### Art. 39
+### Art 40
+### Art. 41
 ### Art. 42
-### Art. 43.
-### Art. 44.
+### Art. 43
+### Art. 44
 ### Art. 45
 ### Art. 46
-### Art. 47.
-### Art. 48.
-### Art. 49.
-### Art. 50.
-### Art. 51.
-### Art. 52.
-### Art. 53.
-### Art. 54.
-### Art. 55.
-### Art. 56.
-### Art. 57.
-### Art. 58.
+### Art. 47
+### Art. 48
+### Art. 49
+### Art. 50
+### Art. 51
+### Art. 52
+### Art. 53
+### Art. 54
+### Art. 55
+### Art. 56
+### Art. 57
+### Art. 58
+##### Brasília, 22 de dezembro de 1988; 167º da Independência e 100º da República.
+##### JOSÉ SARNEY Mailson Ferreira da Nóbrega
+##### Este texto não substitui o publicado no DOU de 23.12.1998
 
 </details>
 
@@ -86,17 +91,17 @@ LEI Nº 7.713, DE 22 DE DEZEMBRO DE 1988.
 O PRESIDENTE DA REPÚBLICA , faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 
 
-### Art. 1º {#art-1}
+### Art. 1º
 
 Os rendimentos e ganhos de capital percebidos a partir de 1º de janeiro de 1989, por pessoas físicas residentes ou domiciliados no Brasil, serão tributados pelo imposto de renda na forma da legislação vigente, com as modificações introduzidas por esta Lei.
 
 
-### Art. 2º {#art-2}
+### Art. 2º
 
 O imposto de renda das pessoas físicas será devido, mensalmente, à medida em que os rendimentos e ganhos de capital forem percebidos.
 
 
-### Art. 3º {#art-3}
+### Art. 3º
 
 O imposto incidirá sobre o rendimento bruto, sem qualquer dedução, ressalvado o disposto nos arts. 9º a 14 desta Lei. (Vide Lei 8.023, de 12.4.90) (Vide ADIN 5422)
 
@@ -130,17 +135,17 @@ O imposto incidirá sobre o rendimento bruto, sem qualquer dedução, ressalvado
 
 
 
-### Art. 4º {#art-4}
+### Art. 4º
 
 Fica suprimida a classificação por cédulas dos rendimentos e ganhos de capital percebidos pelas pessoas físicas.
 
 
-### Art. 5º {#art-5}
+### Art. 5º
 
 Salvo disposição em contrário, o imposto retido na fonte sobre rendimentos e ganhos de capital percebidos por pessoas físicas será considerado redução do apurado na forma dos arts. 23 e 24 desta Lei.
 
 
-### Art. 6º {#art-6}
+### Art. 6º
 
 Ficam isentos do imposto de renda os seguinte rendimentos percebidos por pessoas físicas:
 
@@ -251,7 +256,7 @@ Ficam isentos do imposto de renda os seguinte rendimentos percebidos por pessoas
 Parágrafo único. O disposto no inciso XXII do caput deste artigo não se aplica aos prêmios recebidos por meio de sorteios, em espécie, bens ou serviços, no âmbito dos referidos programas. (Incluído pela Lei nº 11.945, de 2009). (Produção de efeitos).
 
 
-### Art. 7º {#art-7}
+### Art. 7º
 
 Ficam sujeito à incidência do imposto de renda na fonte, calculado de acordo com o disposto no art. 25 desta Lei: (Vide: Lei nº 8.134, de 1990 , Lei nº 8.383, de 1991 , Lei nº 8.848, de 1994 , Lei nº 9.250, de 1995 )
 
@@ -276,7 +281,7 @@ Ficam sujeito à incidência do imposto de renda na fonte, calculado de acordo c
 
 
 
-### Art. 8º {#art-8}
+### Art. 8º
 
 Fica sujeito ao pagamento do imposto de renda, calculado de acordo com o disposto no art. 25 desta Lei, a pessoa física que receber de outra pessoa física, ou de fontes situadas no exterior, rendimentos e ganhos de capital que não tenham sido tributados na fonte, no País. (Vide: Lei nº 8.012, de 1990 , Lei nº 8.134, de 1990 , Lei nº 8.383, de 1991 , e Lei nº 8.848, de 1994 , Lei nº 9.250, de 1995 )
 
@@ -290,7 +295,7 @@ Fica sujeito ao pagamento do imposto de renda, calculado de acordo com o dispost
 
 
 
-### Art. 9º {#art-9}
+### Art. 9º
 
 Quando o contribuinte auferir rendimentos da prestação de serviços de transporte, em veículo próprio locado, ou adquirido com reservas de domínio ou alienação fiduciária, o imposto de renda incidirá sobre:
 
@@ -302,13 +307,13 @@ Quando o contribuinte auferir rendimentos da prestação de serviços de transpo
 Parágrafo único. O percentual referido no item I deste artigo aplica-se também sobre o rendimento bruto da prestação de serviços com trator, máquina de terraplenagem, colheitadeira e assemelhados.
 
 
-### Art. 10. {#art-10}
+### Art. 10.
 
 O imposto incidirá sobre dez por cento do rendimento bruto auferido pelos garimpeiros matriculados nos termos do art. 73 do Decreto-Lei nº 227, de 28 de fevereiro de 1967 , remunerado pelo art. 2º do Decreto-Lei nº. 318, de 14 de março de 1967 , na venda a empresas legalmente habilitadas de metais preciosos, pedras preciosas e semipreciosas por eles extraídos.
 Parágrafo único. A prova de origem dos rendimentos de que trata este artigo far-se-á com base na via da nota de aquisição destinada ao garimpeiro pela empresa compradora.
 
 
-### Art. 11 {#art-11}
+### Art. 11
 
 Os titulares dos serviços notariais e de registro a que se refere o art. 236 da Constituição da República , desde que mantenham escrituração das receitas e das despesas, poderão deduzir dos emolumentos recebidos, para efeito da incidência do imposto:
 
@@ -331,12 +336,12 @@ Os titulares dos serviços notariais e de registro a que se refere o art. 236 da
 
 
 
-### Art. 12. {#art-12}
+### Art. 12.
 
 (Revogado pela Lei nº 13.149, de 2015)
 
 
-### Art. 12-A. {#art-12-a}
+### Art. 12-A.
 
 Os rendimentos recebidos acumuladamente e submetidos à incidência do imposto sobre a renda com base na tabela progressiva, quando correspondentes a anos-calendário anteriores ao do recebimento, serão tributados exclusivamente na fonte, no mês do recebimento ou crédito, em separado dos demais rendimentos recebidos no mês. (Redação dada pela Lei nº 13.149, de 2015)
 
@@ -391,17 +396,17 @@ Os rendimentos recebidos acumuladamente e submetidos à incidência do imposto s
 
 
 
-### Art. 12-B. {#art-12-b}
+### Art. 12-B.
 
 Os rendimentos recebidos acumuladamente, quando correspondentes ao ano-calendário em curso, serão tributados, no mês do recebimento ou crédito, sobre o total dos rendimentos, diminuídos do valor das despesas com ação judicial necessárias ao seu recebimento, inclusive de advogados, se tiverem sido pagas pelo contribuinte, sem indenização. (Incluído pela Lei nº 13.149, de 2015)
 
 
-### Art. 13 {#art-13}
+### Art. 13
 
 (Revogado pela Lei nº 8.383, de 1991)
 
 
-### Art. 14 {#art-14}
+### Art. 14
 
 (Revogado pela Lei nº 8.383, de 1991)
 
@@ -413,12 +418,12 @@ Os rendimentos recebidos acumuladamente, quando correspondentes ao ano-calendár
 §§ 1º a 7º - (Revogados pela Lei nº 8.134, de 1990)
 
 
-### Art. 15. {#art-15}
+### Art. 15.
 
 (Revogado pela Lei nº 7.774, de 1989)
 
 
-### Art. 16. {#art-16}
+### Art. 16.
 
 O custo de aquisição dos bens e direitos será o preço ou valor pago, e, na ausência deste, conforme o caso:
 
@@ -457,7 +462,7 @@ O custo de aquisição dos bens e direitos será o preço ou valor pago, e, na a
 
 
 
-### Art. 17. {#art-17}
+### Art. 17.
 
 O valor de aquisição de cada bem ou direito, expresso em cruzados novos, apurado de acordo com o artigo anterior, deverá ser corrigido monetariamente, a partir da data do pagamento, da seguinte forma: (Redação dada pela Lei nº 7.959, de 1989)
 
@@ -490,30 +495,32 @@ O valor de aquisição de cada bem ou direito, expresso em cruzados novos, apura
 
 
 
-### Art. 18. {#art-18}
+### Art. 18.
 
 Para apuração do valor a ser tributado, no caso de alienação de bens imóveis, poderá ser aplicado um percentual de redução sobre o ganho de capital apurado, segundo o ano de aquisição ou incorporação do bem, de acordo com a seguinte tabela: (Vide Lei 8.023, de 1990)
 Parágrafo único. Não haverá redução, relativamente aos imóveis cuja aquisição venha ocorrer a partir de 1º de janeiro de 1989.
 
 
-### Art. 19. {#art-19}
+### Art. 19.
 
 Valor da transmissão é o preço efetivo de operação de venda ou da cessão de direitos, ressalvado o disposto no art. 20 desta Lei.
 Parágrafo único. Nas operações em que o valor não se expressar em dinheiro, o valor da transmissão será arbitrado segundo o valor de mercado.
 
 
-### Art. 20. {#art-20}
+### Art. 20.
 
 A autoridade lançadora, mediante processo regular, arbitrará o valor ou preço, sempre que não mereça fé, por notoriamente diferente do de mercado, o valor ou preço informado pelo contribuinte, ressalvada, em caso de contestação, avaliação contraditória, administrativa ou judicial.
-Parágrafo único. (Vetado).
 
 
-### Art. 21. {#art-21}
+##### Parágrafo único. (Vetado).
+
+
+### Art. 21.
 
 Nas alienações a prazo, o ganho de capital será tributado na proporção das parcelas recebidas em cada mês, considerando-se a respectiva atualização monetária, se houver.
 
 
-### Art. 22. {#art-22}
+### Art. 22.
 
 Na determinação do ganho de capital serão excluídos: (Vide Lei 8.023, de 1990)
 
@@ -531,17 +538,17 @@ Na determinação do ganho de capital serão excluídos: (Vide Lei 8.023, de 199
 Parágrafo único. Não se considera ganho de capital o valor decorrente de indenização por desapropriação para fins de reforma agrária, conforme o disposto no § 5º do art. 184 da Constituição Federal , e de liquidação de sinistro, furto ou roubo, relativo a objeto segurado.
 
 
-### Art. 23 {#art-23}
+### Art. 23
 
 (Revogado pela Lei nº 8.134, de 1990)
 
 
-### Art. 24 {#art-24}
+### Art. 24
 
 (Revogado pela Lei nº 8.134, de 1990)
 
 
-### Art. 25. {#art-25}
+### Art. 25.
 
 O imposto será calculado, observado o seguinte: (Redação dada pela Lei nº 8.269, de 1991)
 
@@ -573,23 +580,23 @@ O imposto será calculado, observado o seguinte: (Redação dada pela Lei nº 8.
 
 
 
-### Art. 26. {#art-26}
+### Art. 26.
 
 O valor da Gratificação de Natal (13º salário) a que se referem as Leis nº 4.090, de 13 de julho de 1962 , e de nº 4.281, de 8 de novembro de 1963 , e o art. 10 do Decreto-Lei nº 2.413, de 10 de fevereiro de 1988 , será tributado à mesma alíquota (art. 25) a que estiver sujeito o rendimento mensal do contribuinte, antes de sua inclusão. (Vide Lei nº 7.959, de 1989)
 
 
-### Art. 27. {#art-27}
+### Art. 27.
 
 (Revogado pela Lei nº 9.250, de 1995)
 Arts. 28 e 29 (Revogados pela Lei nº 8.134, de 1990)
 
 
-### Art. 30. {#art-30}
+### Art. 30.
 
 Permanecem em vigor as isenções de que tratam os arts. 3º a 7º do Decreto-Lei nº 1.380, de 23 de dezembro de 1974 , e o art. 5º da Lei nº 4.506, de 30 de novembro de 1964.
 
 
-### Art 31. {#art-31}
+### Art 31.
 
 Ficam sujeitos à incidência do imposto de renda na fonte, calculado de acordo com o disposto no art. 25 desta Lei, relativamente à parcela correspondente às contribuições cujo ônus não tenha sido do beneficiário ou quando os rendimentos e ganhos de capital produzidos pelo patrimônio da entidade de previdência não tenham sido tributados na fonte: (Redação dada pela Lei nº 7.751, de 1989)
 
@@ -609,7 +616,7 @@ Ficam sujeitos à incidência do imposto de renda na fonte, calculado de acordo 
 
 
 
-### Art. 32. {#art-32}
+### Art. 32.
 
 Ficam sujeitos à incidência do imposto de renda na fonte, à alíquota de vinte e cinco por cento:
 
@@ -640,19 +647,19 @@ Ficam sujeitos à incidência do imposto de renda na fonte, à alíquota de vint
 
 
 
-### Art. 33. {#art-33}
+### Art. 33.
 
 Ressalvado o disposto em normas especiais, no caso de ganho de capital auferido por residente ou domiciliado no exterior, o imposto será devido, à alíquota de vinte e cinco por cento, no momento da alienação do bem ou direito.
 Parágrafo único. O imposto deverá ser pago no prazo de quinze dias contados da realização da operação ou por ocasião da remessa, sempre que esta ocorrer antes desse prazo.
 
 
-### Art. 34. {#art-34}
+### Art. 34.
 
 Na inexistência de outros bens sujeitos a inventário ou arrolamento, os valores relativos ao imposto de renda e outros tributos administrados pela Secretaria da Receita Federal, bem como o resgate de quotas dos fundos fiscais criados pelos Decretos-Leis nºs 157, de 10 de fevereiro de 1967 , e 880, de 18 de setembro de 1969 , não recebidos em vida pelos respectivos titulares, poderão ser restituídos ao cônjuge, filho e demais dependentes do contribuinte falecido, inexigível a apresentação de alvará judicial.
 Parágrafo único. Existindo outros bens sujeitos a inventário ou arrolamento, a restituição ao meeiro, herdeiros ou sucessores, far-se-á na forma e condições do alvará expedido pela autoridade judicial para essa finalidade.
 
 
-### Art. 35. {#art-35}
+### Art. 35.
 
 O sócio quotista, o acionista ou titular da empresa individual ficará sujeito ao imposto de renda na fonte, à alíquota de oito por cento, calculado com base no lucro líquido apurado pelas pessoas jurídicas na data do encerramento do período-base. (Vide RSF nº 82, de 1996)
 
@@ -722,34 +729,37 @@ O sócio quotista, o acionista ou titular da empresa individual ficará sujeito 
 
 
 
-### Art. 36. {#art-36}
+### Art. 36.
 
 Os lucros que forem tributados na forma do artigo anterior, quando distribuídos, não estarão sujeitos à incidência do imposto de renda na fonte.
-Parágrafo único. Incide, entretanto, o imposto de renda na fonte;
-
-###### a) em relação aos lucros que não tenham sido tributados na forma do artigo anterior;
 
 
-###### b) no caso de pagamento, crédito, entrega, emprego ou remessa de lucros, quando o beneficiário for residente ou domiciliado no exterior.
+##### Parágrafo único. Incide, entretanto, o imposto de renda na fonte;
+
+
+  - a) em relação aos lucros que não tenham sido tributados na forma do artigo anterior;
+
+
+  - b) no caso de pagamento, crédito, entrega, emprego ou remessa de lucros, quando o beneficiário for residente ou domiciliado no exterior.
 
 
 
-### Art. 37. {#art-37}
+### Art. 37.
 
 O imposto a que se refere o art. 36 desta lei será convertido em número de OTN, pelo valor desta no mês de encerramento do período-base e deverá ser pago até o último dia útil do quarto mês subseqüente ao do encerramento do período-base.
 
 
-### Art. 38. {#art-38}
+### Art. 38.
 
 O disposto no art. 63 do Decreto-Lei nº 1.598, de 26 de dezembro de 1977 , somente se aplicará aos lucros e reservas relativos a resultados de períodos-base encerrados à data da vigência desta Lei.
 
 
-### Art. 39. {#art-39}
+### Art. 39.
 
 O disposto no art. 36 desta Lei não se aplicará às sociedades civis de que trata o art. 1º do Decreto-Lei nº 2.397, de 21 de dezembro de 1987.
 
 
-### Art 40. {#art-40}
+### Art 40.
 
 Fica sujeita ao pagamento do imposto de renda à alíquota de dez por cento, a pessoa física que auferir ganhos líquidos nas operações realizadas nas bolsas de valores, de mercadorias, de futuros e assemelhadas, ressalvado o disposto no inciso II do art. 22 desta Lei. (Redação dada pela Lei nº 7.751, de 1989) (Vide Lei nº 8.012, de 1990) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
 
@@ -797,17 +807,17 @@ Fica sujeita ao pagamento do imposto de renda à alíquota de dez por cento, a p
 
 
 
-### Art. 41. {#art-41}
+### Art. 41.
 
 As deduções de despesas, bem como a compensação de perdas previstas no artigo anterior, serão admitidas exclusivamente para as operações realizadas em mercados organizados, geridos ou sob a responsabilidade de instituição credenciada pelo Poder Executivo e com objetivos semelhantes aos das bolsas de valores, de mercadorias ou de futuros. (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
 
 
-### Art. 42 {#art-42}
+### Art. 42
 
 (Revogado pela Lei nº 8.134, de 1990)
 
 
-### Art. 43. {#art-43}
+### Art. 43.
 
 Fica sujeito à incidência do imposto de renda na fonte, à alíquota de sete inteiros e cinco décimos por cento, o rendimento bruto produzido por quaisquer aplicações financeiras. (Redação dada pela Lei nº 7.738, de 1989) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
 
@@ -874,7 +884,7 @@ Fica sujeito à incidência do imposto de renda na fonte, à alíquota de sete i
 
 
 
-### Art. 44. {#art-44}
+### Art. 44.
 
 O imposto de que trata o artigo anterior será considerado: (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
 
@@ -885,47 +895,47 @@ O imposto de que trata o artigo anterior será considerado: (Vide Medida Provis�
 
 
 
-### Art. 45 {#art-45}
+### Art. 45
 
 (Revogado pela Lei nº 8.134, de 1990)
 
 
-### Art. 46 {#art-46}
+### Art. 46
 
 (Revogado pela Lei 7.730, de 1989)
 
 
-### Art. 47. {#art-47}
+### Art. 47.
 
 Fica sujeito à incidência do imposto de renda exclusivamente na fonte, à alíquota de trinta por cento, todo rendimento real ou ganho de capital pago a beneficiário não identificado.
 
 
-### Art. 48. {#art-48}
+### Art. 48.
 
 A tributação de que tratam os arts. 7º, 8º e 23 não se aplica aos rendimentos e ganhos de capital tributados na forma dos arts. 41 e 47 desta Lei.
 
 
-### Art. 49. {#art-49}
+### Art. 49.
 
 O disposto nesta Lei não se aplica aos rendimentos da atividade agrícola e pastoril, que serão tributados na forma da legislação específica.
 
 
-### Art. 50. {#art-50}
+### Art. 50.
 
 (Vetado).
 
 
-### Art. 51. {#art-51}
+### Art. 51.
 
 A isenção do imposto de renda de que trata o art. 11, item I, da Lei nº 7.256, de 27 de novembro de 1984 , não se aplica à empresa que se encontre nas situações previstas no art. 3º, itens I a V, da referida Lei, nem às empresas que prestem serviços profissionais de corretor, despachante, ator, empresário e produtor de espetáculos públicos, cantor, músico, médico, dentista, enfermeiro, engenheiro, físico, químico, economista, contador, auditor, estatístico, administrador, programador, analista de sistema, advogado, psicólogo, professor, jornalista, publicitário, ou assemelhados, e qualquer outra profissão cujo exercício dependa de habilitação profissional legalmente exigida.
 
 
-### Art. 52. {#art-52}
+### Art. 52.
 
 A falta ou insuficiência de recolhimento do imposto ou de quota deste, nos prazos fixados nesta Lei, apresentada ou não a declaração, sujeitará o contribuinte às multas e acréscimos previstos na legislação do imposto de renda.
 
 
-### Art. 53. {#art-53}
+### Art. 53.
 
 Os juros e as multas serão calculados sobre o imposto ou quota, observado o seguinte: (Redação dada pela Lei nº 7.799, de 1989)
 
@@ -936,32 +946,38 @@ Os juros e as multas serão calculados sobre o imposto ou quota, observado o seg
 
 
 
-### Art. 54. {#art-54}
+### Art. 54.
 
 Fica o Poder Executivo autorizado a implantar medidas de estímulo à eficiência da atividade fiscal em programas especiais de fiscalização.
 
 
-### Art. 55. {#art-55}
+### Art. 55.
 
 Fica reduzida para um por cento a alíquota aplicável às importâncias pagas ou creditadas, a partir do mês de janeiro de 1989, a pessoas jurídicas, civis ou mercantis, pela prestação de serviços de limpeza, conservação, segurança, vigilância e por locação de mão-de-obra de que trata o art. 3º do Decreto-Lei nº 2.462, de 30 de agosto de 1988 . (Vide Medida Provisória nº 232, de 2004)
 
 
-### Art. 56. {#art-56}
+### Art. 56.
 
 (Revogado pela Lei nº 9.430, de 1996)
 
 
-### Art. 57. {#art-57}
+### Art. 57.
 
 Esta Lei entra em vigor em 1º de janeiro de 1989.
 
 
-### Art. 58. {#art-58}
+### Art. 58.
 
 Revogam-se o art. 50 da Lei nº 4.862, de 29 de novembro de 1965 , os arts. 1º a 9º do Decreto-Lei nº 1.510, de 27 de dezembro de 1976 , os arts. 65 e 66 do Decreto-Lei nº 1.598, de 26 de dezembro de 1977 , os arts. 1º a 4º do Decreto-Lei nº 1.641, de 7 de dezembro de 1978 , os arts. 12 e 13 do Decreto-Lei nº 1.950, de 14 de julho de 1982 , os arts. 15 e 100 da Lei nº 7.450, de 23 de dezembro de 1985 , o art. 18 do Decreto-Lei nº 2.287, de 23 de julho de 1986 , o item IV e o parágrafo único do art. 12 do Decreto-Lei nº 2.292, de 21 de novembro de 1986 , o item III do art. 2º do Decreto-Lei nº 2.301, de 21 de novembro de 1986 , o item III do art. 7º do Decreto-Lei nº 2.394, de 21 de dezembro de 1987 , e demais disposições em contrário.
-Brasília, 22 de dezembro de 1988; 167º da Independência e 100º da República.
-JOSÉ SARNEY Mailson Ferreira da Nóbrega
-Este texto não substitui o publicado no DOU de 23.12.1998
+
+
+##### Brasília, 22 de dezembro de 1988; 167º da Independência e 100º da República.
+
+
+##### JOSÉ SARNEY Mailson Ferreira da Nóbrega
+
+
+##### Este texto não substitui o publicado no DOU de 23.12.1998
 
 | Ano de Aquisição ou Incorporação | Percentual de Redução | Ano de Aquisição ou Incorporação | Percentual de Redução |
 | --- | --- | --- | --- |

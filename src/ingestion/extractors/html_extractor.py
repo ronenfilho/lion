@@ -243,17 +243,34 @@ class HTMLExtractor(BaseExtractor):
                 lvl = int(el.name[1])
                 mapping = (lvl, "#" * lvl + " ", "heading")
 
-            # Parágrafos sem classe CSS: aplicar heurística de artigo/parágrafo/inciso
-            if mapping is None:
+            # Parágrafos sem classe CSS ou com MsoNormal: aplicar heurística de artigo/parágrafo/inciso
+            if mapping is None or (mapping and mapping[0] == 0 and mapping[2] == "body"):
                 if _is_article_start(text):
                     mapping = (6, "###### ", "article")
                 elif re.match(r"^\s*§\s*(?:único|Único|\d+[º°]?)", text, re.I):
                     mapping = (0, "", "body")  # parágrafo → formato negrito via _format_legal_line
+                elif re.match(r"^\s*[IVX]+\s*[-–]", text):
+                    mapping = (0, "", "body")  # inciso
+                elif re.match(r"^\s*[a-z]\)", text):
+                    mapping = (0, "", "body")  # alínea
+                elif re.match(r"^\s*LIVRO\s+", text, re.I):
+                    mapping = (1, "# ", "heading")
+                elif re.match(r"^\s*T[ÍI]TULO\s+", text, re.I):
+                    mapping = (2, "## ", "heading")
                 elif re.match(r"^\s*CAP[IÍ]TULO\s+", text, re.I):
                     mapping = (3, "### ", "heading")
                 elif re.match(r"^\s*SE[ÇC][ÃA]O\s+", text, re.I):
                     mapping = (4, "#### ", "heading")
-                else:
+                elif re.match(r"^\s*SUBSE[ÇC][ÃA]O\s+", text, re.I):
+                    mapping = (5, "##### ", "heading")
+                # Textos curtos que começam com maiúscula (possíveis títulos descritivos/subtítulos)
+                # Não devem ter marcadores típicos de conteúdo de artigo OU estruturas principais
+                # Também não devem ser números romanos seguidos de hífen (incisos)
+                elif len(text) < 100 and text and text[0].isupper() and \
+                     not any(pattern in text.lower() for pattern in ['§', 'art.', 'lei nº', 'decreto', 'inciso', 'alínea']) and \
+                     not re.match(r"^\s*(LIVRO|TÍTULO|CAPÍTULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|[IVXLCDM]+\s*[-–])\s+", text, re.I):
+                    mapping = (5, "##### ", "heading")  # Nível 5 = TpicodeSeo (subtítulo)
+                elif mapping is None:
                     mapping = (0, "", "body")
 
             level, marker, tipo = mapping
@@ -315,68 +332,84 @@ class HTMLExtractor(BaseExtractor):
         while i < len(sections):
             current = sections[i]
             
-            # Se a seção atual tem título mas não tem conteúdo, verificar a próxima
-            if current.title and not current.content.strip() and (i + 1) < len(sections):
-                next_sec = sections[i + 1]
+            # Continuar combinando elementos consecutivos
+            combined_count = 0
+            while current.title and not current.content.strip() and (i + 1 + combined_count) < len(sections):
+                next_sec = sections[i + 1 + combined_count]
                 
                 # A próxima deve ter título
-                if next_sec.title:
-                    current_title_upper = current.title.upper().strip()
-                    next_title_upper = next_sec.title.upper().strip()
+                if not next_sec.title:
+                    break
                     
-                    should_combine = False
-                    
-                    # ANEXO + REGULAMENTO
-                    if current_title_upper == "ANEXO" and "REGULAMENTO" in next_title_upper:
-                        should_combine = True
-                    
-                    # LIVRO X + DA/DO/DAS... (ambas vazias)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"LIVRO\s+[IVXLCDM]+$", current_title_upper) and \
-                         re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
-                        should_combine = True
-                    
-                    # TÍTULO X + DA/DO/DAS... (ambas vazias)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"TÍTULO\s+[IVXLCDM]+$", current_title_upper) and \
-                         re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
-                        should_combine = True
-                    
-                    # CAPÍTULO X + texto descritivo (ambas vazias, não artigo)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"CAPÍTULO\s+[IVXLCDM0-9]+$", current_title_upper) and \
-                         not re.match(r"^ART\.", next_title_upper):
-                        should_combine = True
-                    
-                    # Seção X + texto descritivo (ambas vazias, não artigo)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"SE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
-                         not re.match(r"^ART\.", next_title_upper):
-                        should_combine = True
-                    
-                    # Subseção X + texto descritivo (ambas vazias, não artigo)
-                    elif not next_sec.content.strip() and \
-                         re.match(r"SUBSE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
-                         not re.match(r"^ART\.", next_title_upper):
-                        should_combine = True
-                    
-                    if should_combine:
-                        # Combinar os títulos
+                current_title_upper = current.title.upper().strip()
+                next_title_upper = next_sec.title.upper().strip()
+                
+                should_combine = False
+                
+                # ANEXO + REGULAMENTO
+                if current_title_upper == "ANEXO" and "REGULAMENTO" in next_title_upper:
+                    should_combine = True
+                
+                # LIVRO X + DA/DO/DAS... (ambas vazias)
+                elif not next_sec.content.strip() and \
+                     re.match(r"LIVRO\s+[IVXLCDM]+$", current_title_upper) and \
+                     re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
+                    should_combine = True
+                
+                # TÍTULO X + DA/DO/DAS... (ambas vazias)
+                elif not next_sec.content.strip() and \
+                     re.match(r"TÍTULO\s+[IVXLCDM]+$", current_title_upper) and \
+                     re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
+                    should_combine = True
+                
+                # CAPÍTULO X + texto descritivo (começando com DA/DO/DAS/DOS ou não artigo)
+                elif not next_sec.content.strip() and \
+                     re.match(r"CAPÍTULO\s+[IVXLCDM0-9]+$", current_title_upper) and \
+                     (re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper) or not re.match(r"^ART\.", next_title_upper)):
+                    should_combine = True
+                
+                # Seção X + texto descritivo (ambas vazias, não artigo)
+                elif not next_sec.content.strip() and \
+                     re.match(r"SE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
+                     not re.match(r"^ART\.", next_title_upper):
+                    should_combine = True
+                
+                # Subseção X/única + texto descritivo (ambas vazias, não artigo)
+                elif not next_sec.content.strip() and \
+                     re.match(r"SUBSE[ÇC][ÃA]O\s+(ÚNICA|[IVXLCDM0-9]+)$", current_title_upper, re.I) and \
+                     not re.match(r"^ART\.", next_title_upper):
+                    should_combine = True
+                
+                # Título já combinado + mais texto descritivo (só combinar se começar com DA/DO/DAS/DOS)
+                # Não combinar textos curtos que devem ser subtítulos separados
+                elif not next_sec.content.strip() and \
+                     (" - " in current.title or "\n" in current.title) and \
+                     not re.match(r"^(LIVRO|TÍTULO|CAPÍTULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|ART\.)", next_title_upper, re.I) and \
+                     re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
+                    should_combine = True
+                
+                if should_combine:
+                    # Combinar os títulos
+                    if " - " in current.title:
+                        # Já tem hífen, adicionar mais texto
+                        combined_title = f"{current.title}\n{next_sec.title}"
+                    else:
                         combined_title = f"{current.title} - {next_sec.title}"
-                        combined_section = HTMLSection(
-                            title=combined_title,
-                            content=next_sec.content,  # Pegar conteúdo da segunda (pode estar vazio ou não)
-                            level=min(current.level, next_sec.level),
-                            tag_name=current.tag_name,
-                            metadata=current.metadata,
-                        )
-                        combined_sections.append(combined_section)
-                        i += 2  # Pular ambas as seções
-                        continue
+                    
+                    current = HTMLSection(
+                        title=combined_title,
+                        content=next_sec.content,  # Pegar conteúdo da segunda (pode estar vazio ou não)
+                        level=current.level,  # Preservar nível da estrutura principal (não usar max)
+                        tag_name=current.tag_name,
+                        metadata=current.metadata,
+                    )
+                    combined_count += 1
+                else:
+                    break
             
-            # Caso contrário, adicionar a seção normalmente
+            # Adicionar a seção (combinada ou não)
             combined_sections.append(current)
-            i += 1
+            i += 1 + combined_count
 
         return combined_sections
 
@@ -534,7 +567,7 @@ class HTMLExtractor(BaseExtractor):
 
         for i, sec in enumerate(sections):
             # Detectar se há artigos antes da estrutura principal
-            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+", sec.title, re.I)):
+            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+(?:\.\d{3})*", sec.title, re.I)):
                 if first_structural_idx == -1:  # Ainda não encontrou estrutura principal
                     has_preamble = True
             # Encontrar onde começa a estrutura principal
@@ -566,17 +599,26 @@ class HTMLExtractor(BaseExtractor):
             clean_title = re.sub(r"\s*\{#[^}]+\}", "", title).strip()
             clean_title = re.sub(r"\s*\((?:Incluído|Redação|Revogado|Acrescido)[^)]*\)", "", clean_title, flags=re.I).strip()
             clean_title = re.sub(r"\s+Produção de efeitos.*$", "", clean_title).strip()
-            if len(clean_title) > 100:
+            
+            # ── Verificar se é artigo ANTES de truncar ────────
+            is_article = _is_article_start(clean_title)
+            
+            # ── Para artigos REAIS, manter apenas "Art. Xº" sem o conteúdo ────────
+            if is_article:
+                art_match = re.match(r"(Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?)\s*.*", clean_title, re.I)
+                if art_match:
+                    clean_title = art_match.group(1)
+            # Não truncar títulos estruturais importantes
+            elif len(clean_title) > 100 and not re.match(r"^(LIVRO|TÍTULO|CAPÍTULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O)\s+", clean_title, re.I):
                 clean_title = clean_title[:97] + "…"
 
             # ── Remapear níveis (mesma lógica do save_to_markdown) ──────────
             md_level = 0
-            is_article = bool(re.match(r"Art\.?\s*\d+", clean_title, re.I))
             is_anexo = bool(re.match(r"ANEXO.*REGULAMENTO|REGULAMENTO", clean_title, re.I))
 
             # Preâmbulo: artigos ANTES do first_structural_idx
             if first_structural_idx > 0 and idx < first_structural_idx and is_article:
-                md_level = 2
+                md_level = 7  # Artigos sempre nível 7 (lista indentada)
 
             # ANEXO
             elif is_anexo:
@@ -595,10 +637,15 @@ class HTMLExtractor(BaseExtractor):
                         md_level = 5  # Capítulos #####
                 elif raw_level == 4:  # Seção
                     md_level = 6
-                elif raw_level == 5:  # Subseção
+                elif raw_level == 5:  # Subseção / TpicodeSeo
+                    # TpicodeSeo sempre é nível 7 (subtítulo ou Subseção)
                     md_level = 7
                 elif raw_level == 6:  # Artigo
-                    md_level = 7
+                    # Apenas se for realmente um artigo (não uma referência legislativa)
+                    if is_article:
+                        md_level = 7
+                    else:
+                        md_level = 0  # Referência legislativa não entra no esquema
                 else:
                     md_level = raw_level
             else:
@@ -615,8 +662,30 @@ class HTMLExtractor(BaseExtractor):
         out += ["<details>", "<summary>📋 Esquema da Legislação</summary>", ""]
 
         for lvl, title in headings:
-            hashes = "#" * max(1, min(lvl, 10))  # Suporta até nível 10
-            out.append(f"{hashes} {title}")
+            # Detectar se é artigo REAL (não referência legislativa)
+            is_article_heading = _is_article_start(title)
+            is_subsecao = bool(re.match(r"^SUBSE[ÇC][ÃA]O\s+", title, re.I))
+            
+            if lvl <= 6:
+                hashes = "#" * lvl
+                out.append(f"{hashes} {title}")
+            elif lvl == 7:
+                # Artigos sempre com indentação
+                if is_article_heading:
+                    out.append(f"  * {title}")
+                # Subseções com negrito
+                elif is_subsecao:
+                    out.append(f"* **{title}**")
+                # Outros (subtítulos TpicodeSeo) sem negrito
+                else:
+                    out.append(f"* {title}")
+            elif lvl == 8:
+                out.append(f"  - {title}")
+            elif lvl == 9:
+                out.append(f"    - {title}")
+            else:  # lvl >= 10
+                indent = "  " * (lvl - 8)
+                out.append(f"{indent}- {title}")
 
         out += ["", "</details>", "", "---", ""]
         return out
@@ -682,7 +751,7 @@ class HTMLExtractor(BaseExtractor):
         first_structural_idx = -1
 
         for i, sec in enumerate(sections):
-            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+", sec.title, re.I)):
+            if sec.level == 0 or (sec.level == 3 and re.match(r"Art\.?\s*\d+(?:\.\d{3})*", sec.title, re.I)):
                 has_preamble = True
             if re.match(r"ANEXO|REGULAMENTO", sec.title, re.I):
                 has_anexo = True
@@ -693,10 +762,21 @@ class HTMLExtractor(BaseExtractor):
                 break
 
         # ── Processar seções com remapeamento dinâmico de níveis ────────────
+        
+        # Rastrear contexto de Subseção para indentar artigos
+        in_subsecao = False
+        
         for idx, section in enumerate(sections):
             raw_level = section.level
             title = section.title
             content = section.content
+
+            # ── Detectar se estamos em contexto de Subseção ─────────────────
+            is_subsecao = bool(re.match(r"Subse[çc][ãa]o", title, re.I))
+            if is_subsecao:
+                in_subsecao = True
+            elif raw_level <= 4:  # Nova Seção ou nível superior reseta contexto
+                in_subsecao = False
 
             # ── Determinar nível markdown ajustado ──────────────────────────
             # Estrutura esperada:
@@ -711,12 +791,12 @@ class HTMLExtractor(BaseExtractor):
             #   ######### → Alínea a), b), c)
 
             md_level = 0
-            is_article = bool(re.match(r"Art\.?\s*\d+", title, re.I))
+            is_article = _is_article_start(title)
             is_anexo = bool(re.match(r"ANEXO|REGULAMENTO", title, re.I))
 
             # Preâmbulo: artigos antes da estrutura principal
             if has_preamble and idx < first_structural_idx and is_article:
-                md_level = 2  # ## Art. 1º (preâmbulo)
+                md_level = 7  # Artigos sempre nível 7 (lista indentada)
 
             # ANEXO é nível 2
             elif is_anexo:
@@ -730,15 +810,21 @@ class HTMLExtractor(BaseExtractor):
                     md_level = 4
                 elif raw_level == 3:  # Capítulo / Artigo RIR
                     if is_article:
-                        md_level = 6  # Artigos no RIR ficam ######
+                        md_level = 7  # Artigos sempre nível 7 (lista com indentação)
                     else:
                         md_level = 5  # Capítulos #####
                 elif raw_level == 4:  # Seção
                     md_level = 6
-                elif raw_level == 5:  # Subseção
+                elif raw_level == 5:  # Subseção / TpicodeSeo
+                    # Se parece com artigo mas não é (referência), ainda renderiza como subtítulo
+                    # TpicodeSeo sempre md_level = 7 (subtítulo com *)
                     md_level = 7
                 elif raw_level == 6:  # Artigo
-                    md_level = 7
+                    # Apenas se for realmente um artigo (não uma referência legislativa)
+                    if is_article:
+                        md_level = 7
+                    else:
+                        md_level = 0  # Referência legislativa vira corpo de texto
                 else:
                     md_level = raw_level  # fallback
 
@@ -752,12 +838,25 @@ class HTMLExtractor(BaseExtractor):
 
             # ── Renderizar título da seção ──────────────────────────────────
             if title and md_level > 0:
-                art_m = re.match(r"Art\.?\s*(\d+[º°]?(?:-[A-Z])?)", title, re.I)
-                if art_m:
-                    art_id = re.sub(r"[º°]", "", art_m.group(1)).lower()
-                    lines += ["", f"{'#' * md_level} {title} {{#art-{art_id}}}", ""]
-                else:
+                if md_level <= 6:
                     lines += ["", f"{'#' * md_level} {title}", ""]
+                elif md_level == 7:
+                    # Se é Subseção, com negrito
+                    if is_subsecao:
+                        lines += ["", f"* **{title}**", ""]
+                    # Se é Artigo, SEMPRE com indentação de 2 espaços
+                    elif is_article:
+                        lines += ["", f"  * {title}", ""]
+                    # Outros níveis 7 (subtítulos TpicodeSeo), sem negrito
+                    else:
+                        lines += ["", f"* {title}", ""]
+                elif md_level == 8:
+                    lines += ["", f"  - **{title}**", ""]
+                elif md_level == 9:
+                    lines += ["", f"    - **{title}**", ""]
+                else:  # md_level >= 10
+                    indent = "  " * (md_level - 8)
+                    lines += ["", f"{indent}- **{title}**", ""]
             elif title and md_level == 0:
                 lines += ["", f"**{title}**", ""]
 
@@ -772,17 +871,38 @@ class HTMLExtractor(BaseExtractor):
                         lines.append("")
                         continue
 
-                    # Parágrafo: ####### ou ########
+                    # Parágrafo: * ou -
                     par_m = re.match(r"^(\*\*)?\s*(§\s*(?:único|Único|\d+[º°]?)\.?)\s*(.*?)(\*\*)?$", line_stripped)
                     if par_m:
                         par_marker = par_m.group(2)
                         par_text = par_m.group(3).strip()
                         # Nível 8 para § (um abaixo de artigo nível 7)
                         par_level = md_level + 1 if md_level > 0 else 7
-                        if par_text:
-                            lines += ["", f"{'#' * par_level} {par_marker} {par_text}", ""]
-                        else:
-                            lines += ["", f"{'#' * par_level} {par_marker}", ""]
+                        
+                        # Sempre adicionar indentação extra se estiver em artigo (nível 7)
+                        extra_indent = "  " if is_article else ""
+                        
+                        if par_level <= 6:
+                            if par_text:
+                                lines += ["", f"{'#' * par_level} {par_marker} {par_text}", ""]
+                            else:
+                                lines += ["", f"{'#' * par_level} {par_marker}", ""]
+                        elif par_level == 7:
+                            if par_text:
+                                lines += ["", f"{extra_indent}* **{par_marker}** {par_text}", ""]
+                            else:
+                                lines += ["", f"{extra_indent}* **{par_marker}**", ""]
+                        elif par_level == 8:
+                            if par_text:
+                                lines += ["", f"{extra_indent}  - **{par_marker}** {par_text}", ""]
+                            else:
+                                lines += ["", f"{extra_indent}  - **{par_marker}**", ""]
+                        else:  # par_level >= 9
+                            base_indent = "  " * (par_level - 8)
+                            if par_text:
+                                lines += ["", f"{extra_indent}{base_indent}- **{par_marker}** {par_text}", ""]
+                            else:
+                                lines += ["", f"{extra_indent}{base_indent}- **{par_marker}**", ""]
                         continue
 
                     # Inciso romano: I -, II -, III - ...
@@ -792,7 +912,21 @@ class HTMLExtractor(BaseExtractor):
                         inciso_text = inciso_m.group(2).strip()
                         # Nível 9 para incisos (dentro de §)
                         inciso_level = md_level + 2 if md_level > 0 else 8
-                        lines += ["", f"{'#' * inciso_level} {inciso_num} - {inciso_text}", ""]
+                        
+                        # Sempre adicionar indentação extra se estiver em artigo
+                        extra_indent = "  " if is_article else ""
+                        
+                        if inciso_level <= 6:
+                            lines += ["", f"{'#' * inciso_level} {inciso_num} - {inciso_text}", ""]
+                        elif inciso_level == 7:
+                            lines += ["", f"{extra_indent}* {inciso_num} - {inciso_text}", ""]
+                        elif inciso_level == 8:
+                            lines += ["", f"{extra_indent}  - {inciso_num} - {inciso_text}", ""]
+                        elif inciso_level == 9:
+                            lines += ["", f"{extra_indent}    - {inciso_num} - {inciso_text}", ""]
+                        else:  # inciso_level >= 10
+                            base_indent = "  " * (inciso_level - 8)
+                            lines += ["", f"{extra_indent}{base_indent}- {inciso_num} - {inciso_text}", ""]
                         continue
 
                     # Alínea: a), b), c) ...
@@ -802,7 +936,21 @@ class HTMLExtractor(BaseExtractor):
                         alinea_text = alinea_m.group(2).strip()
                         # Nível 10 para alíneas (dentro de inciso)
                         alinea_level = md_level + 3 if md_level > 0 else 9
-                        lines += ["", f"{'#' * alinea_level} {alinea_letra}) {alinea_text}", ""]
+                        
+                        # Sempre adicionar indentação extra se estiver em artigo
+                        extra_indent = "  " if is_article else ""
+                        
+                        if alinea_level <= 6:
+                            lines += ["", f"{'#' * alinea_level} {alinea_letra}) {alinea_text}", ""]
+                        elif alinea_level == 7:
+                            lines += ["", f"{extra_indent}* {alinea_letra}) {alinea_text}", ""]
+                        elif alinea_level == 8:
+                            lines += ["", f"{extra_indent}  - {alinea_letra}) {alinea_text}", ""]
+                        elif alinea_level == 9:
+                            lines += ["", f"{extra_indent}    - {alinea_letra}) {alinea_text}", ""]
+                        else:  # alinea_level >= 10
+                            base_indent = "  " * (alinea_level - 8)
+                            lines += ["", f"{extra_indent}{base_indent}- {alinea_letra}) {alinea_text}", ""]
                         continue
 
                     # Texto normal
@@ -846,11 +994,36 @@ def _get_element_text(el) -> str:
 
 
 def _is_article_start(text: str) -> bool:
-    return bool(re.match(r"^\s*Art\.?\s*\d+[º°]?", text, re.I))
+    """Verifica se o texto começa com Art. e é um artigo real, não uma referência."""
+    # Aceitar números com separador de milhar (ex: Art. 1.000)
+    if not re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?", text, re.I):
+        return False
+    
+    # Extrair o que vem depois de "Art. Xº"
+    m = re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?\.?\s*(.*)", text, re.DOTALL | re.I)
+    if not m:
+        return True  # Apenas "Art. X" sem nada, é artigo
+    
+    resto = m.group(1).strip()
+    
+    # Se está vazio ou começa com maiúscula/texto normal, é artigo
+    if not resto or (resto and resto[0].isupper() and not resto.startswith(',')):
+        return True
+    
+    # Se começa com vírgula, é uma referência legislativa, não um artigo
+    if resto.startswith(','):
+        return False
+    
+    # Se contém múltiplas referências a artigos antes de um ponto (e.g. "art. 2º e art. 4º ao art. 71"), 
+    # é lista de referências
+    if re.match(r'^[^.]*\bart\.\s*\d+', resto, re.I):
+        return False
+    
+    return True
 
 
 def _split_article_head(text: str) -> Tuple[str, str]:
-    m = re.match(r"^(Art\.?\s*\d+[º°]?(?:-[A-Z])?\.?)\s*(.*)", text, re.DOTALL)
+    m = re.match(r"^(Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?\.?)\s*(.*)", text, re.DOTALL)
     if m:
         return m.group(1).strip(), m.group(2).strip()
     return text, ""
@@ -873,7 +1046,7 @@ def _classify_rfb_segment(text: str) -> Optional[int]:
         return 4
     if re.match(r"^\s*SUBSE[ÇC][ÃA]O", text, re.I):
         return 5
-    if re.match(r"^\s*Art\.?\s*\d+[º°]?", text, re.I):
+    if re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?", text, re.I):
         return 6
     return None
 
