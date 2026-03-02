@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 1500_2014.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 17:37
+- **Processado em**: 02/03/2026 18:03
 - **viewport**: width=device-width, initial-scale=1
 - **GENERATOR**: LibreOffice 4.1.3.2 (Windows)
 - **CREATED**: 20140815;555387584
@@ -46,13 +46,13 @@
 ##### CAPÍTULO IV DOS RENDIMENTOS TRIBUTADOS EXCLUSIVAMENTE NA FONTE
   * Art. 12
 ###### Seção I Da Gratificação Natalina (13º salário)
-* Subseção I Da Regra Geral
+* **Subseção I Da Regra Geral**
   * Art. 13
-* Subseção II Do Maior de 65 anos
+* **Subseção II Do Maior de 65 anos**
   * Art. 14
-* Subseção III Da Previdência Complementar
+* **Subseção III Da Previdência Complementar**
   * Art. 15
-* Subseção IV Do Governo Estrangeiro
+* **Subseção IV Do Governo Estrangeiro**
   * Art. 16
 ###### Seção II Da Participação nos Lucros ou Resultados das Empresas
   * Art. 17
@@ -73,11 +73,11 @@
   * Art. 23-A
 ###### Seção II Da Tributação na Decisão Judicial
   * Art. 24
-* Subseção I Dos Rendimentos Decorrentes de Decisão da Justiça Federal
+* **Subseção I Dos Rendimentos Decorrentes de Decisão da Justiça Federal**
   * Art. 25
-* Subseção II Dos Rendimentos Decorrentes de Decisão da Justiça do Trabalho
+* **Subseção II Dos Rendimentos Decorrentes de Decisão da Justiça do Trabalho**
   * Art. 26
-* Subseção III Dos Rendimentos Decorrentes de Decisões da Justiça Estadual e do Distrito Federal
+* **Subseção III Dos Rendimentos Decorrentes de Decisões da Justiça Estadual e do Distrito Federal**
   * Art. 27
 ###### Seção III Dos Servidores no Exterior a Serviço do País
   * Art. 28
@@ -93,7 +93,7 @@
   * Art. 35
 ##### CAPÍTULO VII DOS RENDIMENTOS RECEBIDOS ACUMULADAMENTE
 ###### Seção I Dos RRA Relativos a Anos-Calendário Anteriores ao do Recebimento
-* Subseção I Dos RRA Submetidos à Incidência do Imposto sobre a Renda com Base na Tabela Progressiv…
+* **Subseção I Dos RRA Submetidos à Incidência do Imposto sobre a Renda com Base na Tabela Progressiva Correspondentes a Anos-calendário Anteriores ao do Recebimento**
   * Art. 36
   * Art. 37
   * Art. 38
@@ -101,7 +101,7 @@
   * Art. 40
   * Art. 41
   * Art. 42
-* Subseção II Dos Demais RRA
+* **Subseção II Dos Demais RRA**
   * Art. 43
 ###### Seção II Dos RRA Relativos ao Ano-Calendário do Recebimento
   * Art. 44
@@ -123,7 +123,7 @@
 ###### Seção II Da Base de Cálculo do Recolhimento Mensal
   * Art. 55
   * Art. 56
-* Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros…
+* **Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros Públicos**
   * Art. 57
 ##### CAPÍTULO X DAS NORMAS DE RETENÇÃO NA FONTE
   * Art. 58
@@ -168,7 +168,7 @@
   * Art. 77
 ###### Seção IX Dos Ganhos de Capital e Ganhos Líquidos
   * Art. 78
-###### Seção IX-A Dos ganhos em aplicações financeiras no exterior e de lucros e dividendos de entidades…
+###### Seção IX-A Dos ganhos em aplicações financeiras no exterior e de lucros e dividendos de entidades controladas no exterior
   * Art. 78-A
 ###### Seção X Da Apuração Anual do Imposto
   * Art. 79
@@ -216,17 +216,17 @@
 ###### Seção III Dos Códigos
   * Art. 107
 ##### CAPÍTULO XIX DAS DISPOSIÇÕES TRANSITÓRIAS
-###### Seção I Das Isenções Relativas à Realização, no Brasil, da Copa da Confederações Fifa 2013 e da C…
-* Subseção I Das Pessoas Físicas que Ingressarem no País com Visto Temporário
+###### Seção I Das Isenções Relativas à Realização, no Brasil, da Copa da Confederações Fifa 2013 e da Copa do Mundo Fifa 2014
+* **Subseção I Das Pessoas Físicas que Ingressarem no País com Visto Temporário**
   * Art. 108
-* Subseção II Do Reembolso de Despesas Recebido por Voluntário
+* **Subseção II Do Reembolso de Despesas Recebido por Voluntário**
   * Art. 109
-* Subseção III Das Disposições Gerais
+* **Subseção III Das Disposições Gerais**
   * Art. 110
   * Art. 111
 ###### Seção II
   * Art. 112
-###### Seção III Da isenção dos prêmios pagos pelo Comitê Olímpico Brasileiro e pelo Comitê Paralímpico …
+###### Seção III Da isenção dos prêmios pagos pelo Comitê Olímpico Brasileiro e pelo Comitê Paralímpico Brasileiro
   * Art. 112-A
 ##### CAPÍTULO XX DAS DISPOSIÇÕES FINAIS
   * Art. 113

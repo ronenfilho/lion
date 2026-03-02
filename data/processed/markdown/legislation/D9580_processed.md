@@ -5,7 +5,7 @@
 
 - **Arquivo**: `D9580.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 17:37
+- **Processado em**: 02/03/2026 18:03
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -31,36 +31,36 @@
 ##### CAPÍTULO II - DISPOSIÇÕES ESPECIAIS
 ###### Seção I - Dos menores e de outros incapazes
   * Art. 3º
-* Subseção única - Dos alimentos e das pensões
+* **Subseção única - Dos alimentos e das pensões**
   * Art. 4º
 ###### Seção II - Da sociedade conjugal ou da união estável
   * Art. 5º
-* Subseção I - Da tributação em separado
+* **Subseção I - Da tributação em separado**
   * Art. 6º
-* Subseção II - Da tributação em conjunto
+* **Subseção II - Da tributação em conjunto**
   * Art. 7º
-* Subseção III - Da dissolução da sociedade conjugal
+* **Subseção III - Da dissolução da sociedade conjugal**
   * Art. 8º
 ###### Seção III - Do espólio
   * Art. 9º
-* Subseção I - Da declaração de ajuste anual
+* **Subseção I - Da declaração de ajuste anual**
   * Art. 10
   * Art. 11
-* Subseção II - Do cálculo do imposto sobre a renda
+* **Subseção II - Do cálculo do imposto sobre a renda**
   * Art. 12
 ###### Seção IV - Dos bens em condomínio
   * Art. 13
 ###### Seção V - Da transferência de residência para o exterior
-* Subseção I - Da saída do País em caráter definitivo
+* **Subseção I - Da saída do País em caráter definitivo**
   * Art. 14
-* Subseção II - Dos ausentes no exterior a serviço do País
+* **Subseção II - Dos ausentes no exterior a serviço do País**
   * Art. 15
 ###### Seção VI - Da transferência de residência para o País
-* Subseção I - Dos portadores de visto permanente
+* **Subseção I - Dos portadores de visto permanente**
   * Art. 16
-* Subseção II - Dos portadores de visto temporário
+* **Subseção II - Dos portadores de visto temporário**
   * Art. 17
-* Subseção III - Da transferência e do retorno no mesmo ano-calendário
+* **Subseção III - Da transferência e do retorno no mesmo ano-calendário**
   * Art. 18
   * Art. 19
 ###### Seção VII - Dos servidores de representações estrangeiras e de organismos internacionais
@@ -94,27 +94,27 @@
   * Art. 35
 ##### CAPÍTULO III - DOS RENDIMENTOS TRIBUTÁVEIS
 ###### Seção I - Dos rendimentos do trabalho assalariado e assemelhados
-* Subseção I - Dos rendimentos do trabalho assalariado, de dirigentes e conselheiros de empresas, d…
+* **Subseção I - Dos rendimentos do trabalho assalariado, de dirigentes e conselheiros de empresas, de pensões, de proventos e de benefícios da previdência privada**
   * Art. 36
-* Subseção II - Dos ausentes no exterior a serviço do País
+* **Subseção II - Dos ausentes no exterior a serviço do País**
   * Art. 37
 ###### Seção II - Dos rendimentos do trabalho não assalariado e assemelhados
-* Subseção I - Dos rendimentos diversos
+* **Subseção I - Dos rendimentos diversos**
   * Art. 38
-* Subseção II - Da prestação de serviços com veículos
+* **Subseção II - Da prestação de serviços com veículos**
   * Art. 39
-* Subseção III - Dos garimpeiros
+* **Subseção III - Dos garimpeiros**
   * Art. 40
 ###### Seção III - Dos rendimentos de aluguel e dos royalties
-* Subseção I - Dos aluguéis ou do arrendamento
+* **Subseção I - Dos aluguéis ou do arrendamento**
   * Art. 41
-* Subseção II - Das exclusões na hipótese de aluguel de imóveis
+* **Subseção II - Das exclusões na hipótese de aluguel de imóveis**
   * Art. 42
-* Subseção III - Da emissão de recibo
+* **Subseção III - Da emissão de recibo**
   * Art. 43
-* Subseção IV - Dos royalties
+* **Subseção IV - Dos royalties**
   * Art. 44
-* Subseção V - Disposições comuns
+* **Subseção V - Disposições comuns**
   * Art. 45
 ###### Seção IV - Dos alimentos e da pensão
   * Art. 46
@@ -125,30 +125,30 @@
   * Art. 49
 ###### Seção VII - Dos rendimentos da atividade rural
   * Art. 50
-* Subseção I - Da definição
+* **Subseção I - Da definição**
   * Art. 51
-* Subseção II - Dos arrendatários, dos condôminos e dos parceiros
+* **Subseção II - Dos arrendatários, dos condôminos e dos parceiros**
   * Art. 52
-* Subseção III - Das formas de apuração
+* **Subseção III - Das formas de apuração**
   * Art. 53
-* Subseção IV - Da receita bruta
+* **Subseção IV - Da receita bruta**
   * Art. 54
-* Subseção V - Das despesas de custeio e investimentos
+* **Subseção V - Das despesas de custeio e investimentos**
   * Art. 55
-* Subseção VI - Do resultado da atividade rural
+* **Subseção VI - Do resultado da atividade rural**
   * Art. 56
   * Art. 57
-* Subseção VII - Da compensação de prejuízos
+* **Subseção VII - Da compensação de prejuízos**
   * Art. 58
   * Art. 59
-* Subseção VIII - Da apuração do resultado tributável
+* **Subseção VIII - Da apuração do resultado tributável**
   * Art. 60
   * Art. 61
-* Subseção IX - Da atividade rural exercida no exterior
+* **Subseção IX - Da atividade rural exercida no exterior**
   * Art. 62
-* Subseção X - Do resultado presumido
+* **Subseção X - Do resultado presumido**
   * Art. 63
-* Subseção XI - Do residente no exterior
+* **Subseção XI - Do residente no exterior**
   * Art. 64
 ###### Seção VIII - Da atualização monetária dos rendimentos
   * Art. 65
@@ -161,7 +161,7 @@
 ###### Seção II - Das despesas escrituradas no livro-caixa
   * Art. 68
   * Art. 69
-* Subseção única - Da dedução de despesas com informatização pelos titulares de serviços de registr…
+* **Subseção única - Da dedução de despesas com informatização pelos titulares de serviços de registros públicos**
   * Art. 70
 ###### Seção III - Dos dependentes
   * Art. 71
@@ -192,55 +192,55 @@
 ##### CAPÍTULO II - DAS DEDUÇÕES DO IMPOSTO SOBRE A RENDA APURADO
 ###### Seção I - Dos incentivos às atividades culturais ou artísticas
   * Art. 84
-* Subseção I - Dos projetos beneficiados com incentivos de fomento à atividade audiovisual
+* **Subseção I - Dos projetos beneficiados com incentivos de fomento à atividade audiovisual**
   * Art. 85
-* Subseção II - Da aprovação dos projetos
+* **Subseção II - Da aprovação dos projetos**
   * Art. 86
-* Subseção III - Das doações
+* **Subseção III - Das doações**
   * Art. 87
-* Subseção IV - Dos patrocínios
+* **Subseção IV - Dos patrocínios**
   * Art. 88
-* Subseção V - Das vedações
+* **Subseção V - Das vedações**
   * Art. 89
-* Subseção VI - Da fiscalização dos incentivos
+* **Subseção VI - Da fiscalização dos incentivos**
   * Art. 90
-* Subseção VII - Das infrações
+* **Subseção VII - Das infrações**
   * Art. 91
   * Art. 92
 ###### Seção II - Dos incentivos às atividades audiovisuais
   * Art. 93
-* Subseção I - Dos projetos específicos
+* **Subseção I - Dos projetos específicos**
   * Art. 94
-* Subseção II - Do depósito em conta bancária do valor da dedução
+* **Subseção II - Do depósito em conta bancária do valor da dedução**
   * Art. 95
-* Subseção III - Do descumprimento do projeto
+* **Subseção III - Do descumprimento do projeto**
   * Art. 96
   * Art. 97
 ###### Seção III - Das contribuições aos Fundos dos Direitos da Criança e do Adolescente
   * Art. 98
   * Art. 99
-* Subseção única - Da prestação de informação
+* **Subseção única - Da prestação de informação**
   * Art. 100
   * Art. 101
 ###### Seção IV - Das contribuições aos Fundos do Idoso
   * Art. 102
-* Subseção única - Da prestação de informação
+* **Subseção única - Da prestação de informação**
   * Art. 103
 ###### Seção V - Do incentivo a projetos desportivos e paradesportivos
   * Art. 104
   * Art. 105
   * Art. 106
   * Art. 107
-* Subseção I - Das vedações
+* **Subseção I - Das vedações**
   * Art. 108
-* Subseção II - Das infrações
+* **Subseção II - Das infrações**
   * Art. 109
-* Subseção III - Da prestação de informação
+* **Subseção III - Da prestação de informação**
   * Art. 110
 ###### Seção VI - Da contribuição patronal paga à previdência social pelo empregador doméstico
   * Art. 111
   * Art. 112
-* Subseção única - Da prestação de informação
+* **Subseção única - Da prestação de informação**
   * Art. 113
 ###### Seção VII
   * Art. 114
@@ -274,7 +274,7 @@
 ###### Seção I - Da incidência
   * Art. 128
   * Art. 129
-* Subseção única - Da herança, do legado ou da doação em adiantamento da legítima e da dissolução d…
+* **Subseção única - Da herança, do legado ou da doação em adiantamento da legítima e da dissolução da sociedade conjugal**
   * Art. 130
 ###### Seção II - Da não incidência e da isenção
   * Art. 131
@@ -282,7 +282,7 @@
   * Art. 133
 ###### Seção III - Do valor de alienação
   * Art. 134
-* Subseção única - Do arbitramento do valor ou do preço
+* **Subseção única - Do arbitramento do valor ou do preço**
   * Art. 135
 ###### Seção IV - Do custo de aquisição
   * Art. 136
@@ -291,28 +291,28 @@
   * Art. 139
   * Art. 140
   * Art. 141
-* Subseção I - Das participações societárias adquiridas em decorrência de integralização de capital…
+* **Subseção I - Das participações societárias adquiridas em decorrência de integralização de capital com bens ou direitos**
   * Art. 142
   * Art. 143
-* Subseção III - Dos bens adquiridos por meio de arrendamento mercantil
+* **Subseção III - Dos bens adquiridos por meio de arrendamento mercantil**
   * Art. 144
-* Subseção IV - Do custo de participações societárias adquiridas com incorporação de lucros e reservas
+* **Subseção IV - Do custo de participações societárias adquiridas com incorporação de lucros e reservas**
   * Art. 145
-* Subseção V - Do custo na alienação de imóvel rural
+* **Subseção V - Do custo na alienação de imóvel rural**
   * Art. 146
-* Subseção VI - Do Programa Nacional de Desestatização
+* **Subseção VI - Do Programa Nacional de Desestatização**
   * Art. 147
 ###### Seção V - Da apuração do ganho de capital
   * Art. 148
-* Subseção I - Da redução do ganho de capital apurado
+* **Subseção I - Da redução do ganho de capital apurado**
   * Art. 149
-* Subseção II - Da redução do ganho de capital nas alienações ocorridas a partir de 14 de outubro d…
+* **Subseção II - Da redução do ganho de capital nas alienações ocorridas a partir de 14 de outubro de 2005**
   * Art. 150
   * Art. 151
   * Art. 152
 ###### Seção VI - Do cálculo do imposto sobre a renda e do prazo de recolhimento
   * Art. 153
-##### CAPÍTULO II - DOS GANHOS DE CAPITAL NA ALIENAÇÃO DE BENS, DIREITOS E RESGATES DE APLICAÇÕES FINAN…
+##### CAPÍTULO II - DOS GANHOS DE CAPITAL NA ALIENAÇÃO DE BENS, DIREITOS E RESGATES DE APLICAÇÕES FINANCEIRAS EM MOEDA ESTRANGEIRA
   * Art. 154
 ##### CAPÍTULO III - DA DEVOLUÇÃO DE PATRIMÔNIO DE ENTIDADE ISENTA
   * Art. 155
@@ -333,7 +333,7 @@
 ###### Seção I - Da caracterização
   * Art. 162
 ###### Seção II - Das empresas individuais imobiliárias
-* Subseção I - Da caracterização
+* **Subseção I - Da caracterização**
 * Incorporação e loteamento
   * Art. 163
 * Incorporação ou loteamento sem registro
@@ -344,7 +344,7 @@
   * Art. 166
 * Condomínios
   * Art. 167
-* Subseção II - Do início da equiparação
+* **Subseção II - Do início da equiparação**
 * Momento de determinação
   * Art. 168
   * Art. 169
@@ -354,7 +354,7 @@
   * Art. 171
 * Obrigações acessórias
   * Art. 172
-* Subseção III - Da determinação do resultado
+* **Subseção III - Da determinação do resultado**
 * Resultados e rendimentos compreendidos
   * Art. 173
 * Rendimentos excluídos
@@ -363,7 +363,7 @@
   * Art. 175
 * Distribuição do lucro
   * Art. 176
-* Subseção IV - Do término da equiparação
+* **Subseção IV - Do término da equiparação**
   * Art. 177
 ##### CAPÍTULO III - DAS IMUNIDADES, DAS ISENÇÕES E DAS NÃO INCIDÊNCIAS
 ###### Seção I - Disposições gerais
@@ -379,22 +379,22 @@
 ###### Seção III - Da suspensão da imunidade
   * Art. 183
 ###### Seção IV - Das isenções
-* Subseção I - Das associações e das fundações
+* **Subseção I - Das associações e das fundações**
   * Art. 184
-* Subseção II - Do Programa Universidade para Todos
+* **Subseção II - Do Programa Universidade para Todos**
   * Art. 185
-* Subseção III - Das entidades de previdência complementar
+* **Subseção III - Das entidades de previdência complementar**
   * Art. 186
-* Subseção IV - Das empresas estrangeiras de transportes
+* **Subseção IV - Das empresas estrangeiras de transportes**
   * Art. 187
-* Subseção V - Das associações de poupança e empréstimo
+* **Subseção V - Das associações de poupança e empréstimo**
   * Art. 188
-* Subseção VI - Das sociedades de investimento com participação de capital estrangeiro
+* **Subseção VI - Das sociedades de investimento com participação de capital estrangeiro**
   * Art. 189
   * Art. 190
-* Subseção VII - Das isenções específicas
+* **Subseção VII - Das isenções específicas**
   * Art. 191
-* Subseção VIII - Do reconhecimento da isenção
+* **Subseção VIII - Do reconhecimento da isenção**
   * Art. 192
 ###### Seção V - Das sociedades cooperativas
 * Não incidência
@@ -428,8 +428,8 @@
   * Art. 209
 ##### CAPÍTULO I - DA BASE DE CÁLCULO
   * Art. 210
-##### CAPÍTULO II - DOS MÉTODOS E dos CRITÉRIOS CONTÁBEIS INTRODUZIDOS PELA LEI Nº 11.638, DE 28 DE DEZ…
-  * Art. 1º
+##### CAPÍTULO II - DOS MÉTODOS E dos CRITÉRIOS CONTÁBEIS INTRODUZIDOS PELA LEI Nº 11.638, DE 28 DE DEZEMBRO DE 2007, E PELA LEI Nº 11.941, DE 27 DE MAIO DE 2009
+* Art. 1º, art. 2º e art. 4º ao art. 71 da Lei n º 12.973, de 13 de maio de 2014
   * Art. 211
 * Adoção de novos métodos e critérios contábeis por meio de atos administrativos
   * Art. 212
@@ -443,9 +443,9 @@
   * Art. 217
 ###### Seção II - Da apuração anual do imposto sobre a renda
   * Art. 218
-* Subseção I - Do pagamento por estimativa
+* **Subseção I - Do pagamento por estimativa**
   * Art. 219
-* Subseção II - Da base de cálculo estimada
+* **Subseção II - Da base de cálculo estimada**
   * Art. 220
   * Art. 221
 * Ganhos de capital e outras receitas
@@ -454,13 +454,13 @@
   * Art. 223
 * Atividades imobiliárias
   * Art. 224
-* Subseção III - Da alíquota do imposto sobre a renda e do adicional
+* **Subseção III - Da alíquota do imposto sobre a renda e do adicional**
   * Art. 225
-* Subseção IV - Das deduções do imposto sobre a renda mensal
+* **Subseção IV - Das deduções do imposto sobre a renda mensal**
   * Art. 226
-* Subseção V - Da suspensão, da redução e da dispensa do imposto sobre a renda mensal
+* **Subseção V - Da suspensão, da redução e da dispensa do imposto sobre a renda mensal**
   * Art. 227
-* Subseção VI - Das deduções do imposto sobre a renda anual
+* **Subseção VI - Das deduções do imposto sobre a renda anual**
   * Art. 228
 ###### Seção III - Da opção da forma de pagamento
   * Art. 229
@@ -562,7 +562,7 @@
 * Equipamento emissor de cupom fiscal
   * Art. 282
   * Art. 283
-###### Seção VIII - Da escrituração dos rendimentos auferidos com desconto de imposto sobre a renda reti…
+###### Seção VIII - Da escrituração dos rendimentos auferidos com desconto de imposto sobre a renda retido pelas fontes pagadoras
   * Art. 284
 ###### Seção IX - Da inobservância ao regime de competência
   * Art. 285
@@ -577,12 +577,12 @@
   * Art. 289
 ###### Seção II - Do lucro bruto
   * Art. 290
-* Subseção I - Disposições complementares sobre receitas
+* **Subseção I - Disposições complementares sobre receitas**
 * Vendas de veículos usados
   * Art. 291
 * Vale-pedágio
   * Art. 292
-* Subseção II - Da omissão de receita
+* **Subseção II - Da omissão de receita**
 * Saldo credor de caixa, falta de escrituração de pagamento, manutenção no passivo de obrigações pa…
   * Art. 293
 * Suprimentos de caixa
@@ -598,14 +598,14 @@
   * Art. 299
 * Tratamento tributário
   * Art. 300
-* Subseção III - Do custo de bens ou serviços
+* **Subseção III - Do custo de bens ou serviços**
 * Custo de aquisição
   * Art. 301
 * Custo de produção
   * Art. 302
 * Quebras e perdas
   * Art. 303
-* Subseção IV - Dos critérios para avaliação de estoques
+* **Subseção IV - Dos critérios para avaliação de estoques**
   * Art. 304
   * Art. 305
   * Art. 306
@@ -616,7 +616,7 @@
 * Vedações
   * Art. 310
 ###### Seção III - Dos custos, das despesas operacionais e dos encargos
-* Subseção I - Disposições gerais
+* **Subseção I - Disposições gerais**
 * Despesas necessárias
   * Art. 311
   * Art. 312
@@ -627,7 +627,7 @@
   * Art. 315
 * Pagamentos sem causa ou a beneficiário não identificado
   * Art. 316
-* Subseção II - Da depreciação de bens do ativo imobilizado
+* **Subseção II - Da depreciação de bens do ativo imobilizado**
 * Dedutibilidade
   * Art. 317
 * Bens depreciáveis
@@ -642,7 +642,7 @@
   * Art. 322
 * Depreciação acelerada
   * Art. 323
-* Subseção III - Da depreciação acelerada incentivada
+* **Subseção III - Da depreciação acelerada incentivada**
 * Disposições gerais
   * Art. 324
 * Atividade rural
@@ -654,7 +654,7 @@
   * Art. 328
 * Microrregiões nas áreas de atuação da Superintendência do Desenvolvimento do Nordeste e da Superi…
   * Art. 329
-* Subseção IV - Da amortização
+* **Subseção IV - Da amortização**
 * Dedutibilidade
   * Art. 330
 * Capital amortizável
@@ -667,14 +667,14 @@
   * Art. 334
 * Amortização acelerada de bens intangíveis vinculados à pesquisa e à inovação tecnológica
   * Art. 335
-* Subseção V - Da exaustão de recursos minerais
+* **Subseção V - Da exaustão de recursos minerais**
 * Dedutibilidade
   * Art. 336
-* Subseção VI - Da exaustão de recursos florestais
+* **Subseção VI - Da exaustão de recursos florestais**
   * Art. 337
-* Subseção VII - Das despesas pré-operacionais ou pré-industriais
+* **Subseção VII - Das despesas pré-operacionais ou pré-industriais**
   * Art. 338
-* Subseção VIII - Das provisões
+* **Subseção VIII - Das provisões**
 * Dedutibilidade
   * Art. 339
 * Provisões técnicas compulsórias
@@ -687,11 +687,11 @@
   * Art. 343
 * Provisão para imposto de renda
   * Art. 344
-* Subseção IX - Do teste de recuperabilidade
+* **Subseção IX - Do teste de recuperabilidade**
   * Art. 345
-* Subseção X - Dos gastos estimados de desmontagens
+* **Subseção X - Dos gastos estimados de desmontagens**
   * Art. 346
-* Subseção XI - Das perdas no recebimento de créditos
+* **Subseção XI - Das perdas no recebimento de créditos**
 * Dedutibilidade
   * Art. 347
 * Registro contábil das perdas
@@ -701,26 +701,26 @@
 * Créditos recuperados
   * Art. 350
   * Art. 351
-* Subseção XII - Dos tributos e das multas por infrações fiscais
+* **Subseção XII - Dos tributos e das multas por infrações fiscais**
   * Art. 352
-* Subseção XIII - Do Fundo de Garantia do Tempo de Serviço
+* **Subseção XIII - Do Fundo de Garantia do Tempo de Serviço**
   * Art. 353
-* Subseção XIV - Das despesas de conservação de bens e instalações
+* **Subseção XIV - Das despesas de conservação de bens e instalações**
   * Art. 354
-* Subseção XV - Dos juros sobre o capital
+* **Subseção XV - Dos juros sobre o capital**
 * Juros sobre o capital próprio
   * Art. 355
 * Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição
   * Art. 356
 * Outros juros sobre capital
   * Art. 357
-* Subseção XVI - Das despesas com prospecção e cubagem de jazidas e depósitos
+* **Subseção XVI - Das despesas com prospecção e cubagem de jazidas e depósitos**
   * Art. 358
-* Subseção XVII - Dos dispêndios com pesquisa e desenvolvimento de inovação tecnológica
+* **Subseção XVII - Dos dispêndios com pesquisa e desenvolvimento de inovação tecnológica**
   * Art. 359
 * Dos recursos naturais
   * Art. 360
-* Subseção XVIII - Dos aluguéis, dos royalties e da assistência técnica, científica ou administrativa
+* **Subseção XVIII - Dos aluguéis, dos royalties e da assistência técnica, científica ou administrativa**
 * Aluguéis
   * Art. 361
 * Royalties
@@ -730,49 +730,49 @@
   * Art. 364
 * Limite e condições de dedutibilidade
   * Art. 365
-* Subseção XIX - Das contraprestações de arrendamento mercantil
+* **Subseção XIX - Das contraprestações de arrendamento mercantil**
   * Art. 366
   * Art. 367
-* Subseção XX - Da remuneração dos sócios, dos diretores ou dos administradores e dos titulares de …
+* **Subseção XX - Da remuneração dos sócios, dos diretores ou dos administradores e dos titulares de empresas individuais e dos conselheiros fiscais e consultivos**
   * Art. 368
 * Remuneração indireta a administradores e terceiros
   * Art. 369
-* Subseção XXI - Do pagamento baseado em ações
+* **Subseção XXI - Do pagamento baseado em ações**
   * Art. 370
-* Subseção XXII - Da participação dos trabalhadores nos lucros ou nos resultados da empresa
+* **Subseção XXII - Da participação dos trabalhadores nos lucros ou nos resultados da empresa**
   * Art. 371
-* Subseção XXIII - Dos serviços assistenciais e dos benefícios previdenciários a empregados e dirig…
+* **Subseção XXIII - Dos serviços assistenciais e dos benefícios previdenciários a empregados e dirigentes**
 * Serviços assistenciais
   * Art. 372
 * Benefícios previdenciários
   * Art. 373
-* Subseção XXIV - Dos Planos de Poupança e Investimento
+* **Subseção XXIV - Dos Planos de Poupança e Investimento**
   * Art. 374
-* Subseção XXV - Do Fundo de Aposentadoria Programada Individual
+* **Subseção XXV - Do Fundo de Aposentadoria Programada Individual**
   * Art. 375
-* Subseção XXVI - Dos prejuízos por desfalque, apropriação indébita e furto
+* **Subseção XXVI - Dos prejuízos por desfalque, apropriação indébita e furto**
   * Art. 376
-* Subseção XXVII - Das contribuições e das doações
+* **Subseção XXVII - Das contribuições e das doações**
   * Art. 377
   * Art. 378
   * Art. 379
-* Subseção XXVIII - Das despesas de propaganda
+* **Subseção XXVIII - Das despesas de propaganda**
   * Art. 380
   * Art. 381
-* Subseção XXIX - Da formação profissional
+* **Subseção XXIX - Da formação profissional**
   * Art. 382
-* Subseção XXX - Da alimentação do trabalhador
+* **Subseção XXX - Da alimentação do trabalhador**
   * Art. 383
-* Subseção XXXI - Do vale-transporte
+* **Subseção XXXI - Do vale-transporte**
   * Art. 384
-* Subseção XXXII - Das operações de caráter cultural e artístico
+* **Subseção XXXII - Das operações de caráter cultural e artístico**
   * Art. 385
-* Subseção XXXIII - Da atividade audiovisual
+* **Subseção XXXIII - Da atividade audiovisual**
   * Art. 386
-* Subseção XXXIV - Do Programa de Cultura do Trabalhador
+* **Subseção XXXIV - Do Programa de Cultura do Trabalhador**
   * Art. 387
 ###### Seção IV - Da avaliação a valor justo
-* Subseção I - Da avaliação a valor justo de ativo ou passivo da pessoa jurídica
+* **Subseção I - Da avaliação a valor justo de ativo ou passivo da pessoa jurídica**
 * Ganho
   * Art. 388
 * Perda
@@ -780,18 +780,18 @@
   * Art. 390
 * Instrumentos financeiros: operações realizadas em mercados de liquidação futura sujeitos a ajuste…
   * Art. 391
-* Subseção II - Da avaliação a valor justo: incorporação, fusão ou cisão
+* **Subseção II - Da avaliação a valor justo: incorporação, fusão ou cisão**
   * Art. 392
-* Subseção III - Da avaliação a valor justo na subscrição de capital social
+* **Subseção III - Da avaliação a valor justo na subscrição de capital social**
 * Ganho
   * Art. 393
 * Perda
   * Art. 394
   * Art. 395
-* Subseção IV - Da avaliação a valor justo: lucro presumido para lucro real
+* **Subseção IV - Da avaliação a valor justo: lucro presumido para lucro real**
   * Art. 396
 ###### Seção V - Dos outros resultados operacionais
-* Subseção I - Das receitas e das despesas financeiras
+* **Subseção I - Das receitas e das despesas financeiras**
 * Receitas
   * Art. 397
 * Despesas
@@ -803,7 +803,7 @@
   * Art. 402
 * Dividendos pagos ou creditados classificados como despesa financeira
   * Art. 403
-* Subseção II - Das variações monetárias
+* **Subseção II - Das variações monetárias**
 * Disposição geral
   * Art. 404
 * Variações ativas em função de índices ou coeficientes
@@ -815,15 +815,15 @@
   * Art. 408
 * Variações cambiais ativas e passivas
   * Art. 409
-* Subseção III - Prêmio na emissão de debêntures
+* **Subseção III - Prêmio na emissão de debêntures**
   * Art. 410
 * Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição: prêmio…
   * Art. 411
-* Subseção IV - Do ajuste a valor presente
+* **Subseção IV - Do ajuste a valor presente**
   * Art. 412
   * Art. 413
   * Art. 414
-* Subseção V - Dos rendimentos de participações societárias
+* **Subseção V - Dos rendimentos de participações societárias**
   * Art. 415
   * Art. 416
   * Art. 417
@@ -831,7 +831,7 @@
   * Art. 418
 * Disposição transitória quanto ao Regime Tributário de Transição
   * Art. 419
-* Subseção VI - Do investimento em sociedades avaliado pelo valor de patrimônio líquido
+* **Subseção VI - Do investimento em sociedades avaliado pelo valor de patrimônio líquido**
 * Dever de avaliar pelo valor de patrimônio líquido
   * Art. 420
 * Desdobramento do custo de aquisição
@@ -869,56 +869,56 @@
   * Art. 437
 * Incorporação, fusão ou cisão ocorrida até 31 de dezembro de 2017
   * Art. 438
-* Subseção VII - Disposições complementares relativas à combinação de negócios
+* **Subseção VII - Disposições complementares relativas à combinação de negócios**
   * Art. 439
   * Art. 440
-* Subseção VIII - Das subvenções e das recuperações de custo
+* **Subseção VIII - Das subvenções e das recuperações de custo**
   * Art. 441
-* Subseção IX - Das subvenções para estímulo à inovação
+* **Subseção IX - Das subvenções para estímulo à inovação**
   * Art. 442
-* Subseção X - Do prejuízo na alienação de ações, títulos ou quotas de capital
+* **Subseção X - Do prejuízo na alienação de ações, títulos ou quotas de capital**
   * Art. 443
-* Subseção XI - Da avaliação de títulos, valores mobiliários e outros ativos financeiros a preço de…
+* **Subseção XI - Da avaliação de títulos, valores mobiliários e outros ativos financeiros a preço de mercado**
   * Art. 444
-* Subseção XII - Das operações realizadas em mercados de liquidação futura
+* **Subseção XII - Das operações realizadas em mercados de liquidação futura**
   * Art. 445
 ##### CAPÍTULO VI - DISPOSIÇÕES ESPECIAIS SOBRE ATIVIDADES DAS PESSOAS JURÍDICAS
 ###### Seção I - Das atividades exercidas no exterior
-* Subseção I - Disposições gerais
+* **Subseção I - Disposições gerais**
 * Lucros, rendimentos e ganhos de capital
   * Art. 446
 * Subcontas
   * Art. 447
-* Subseção II - Das controladoras
+* **Subseção II - Das controladoras**
   * Art. 448
 * Consolidação de resultados
   * Art. 449
   * Art. 450
   * Art. 451
-* Subseção III - Das coligadas
+* **Subseção III - Das coligadas**
 * Regime de caixa
   * Art. 452
 * Regime de competência
   * Art. 453
-* Subseção IV - Da equiparação à controladora
+* **Subseção IV - Da equiparação à controladora**
   * Art. 454
-* Subseção V - Das definições
+* **Subseção V - Das definições**
   * Art. 455
-* Subseção VI - Das deduções
+* **Subseção VI - Das deduções**
   * Art. 456
   * Art. 457
   * Art. 458
   * Art. 459
   * Art. 460
   * Art. 461
-* Subseção VII - Do pagamento
+* **Subseção VII - Do pagamento**
   * Art. 462
-* Subseção VIII - Da operação de mútuo ou do adiantamento de recursos a coligada ou controlada
+* **Subseção VIII - Da operação de mútuo ou do adiantamento de recursos a coligada ou controlada**
   * Art. 463
   * Art. 464
-* Subseção IX - Da compensação do imposto sobre a renda pago no exterior
+* **Subseção IX - Da compensação do imposto sobre a renda pago no exterior**
   * Art. 465
-* Subseção X - Das operações de cobertura em bolsa no exterior
+* **Subseção X - Das operações de cobertura em bolsa no exterior**
   * Art. 466
 ###### Seção II - Das pessoas jurídicas estrangeiras
 * Autorizadas a funcionar no País
@@ -948,7 +948,7 @@
   * Art. 479
 * Contratos com entidades governamentais
   * Art. 480
-###### Seção X - Da compra e da venda, do loteamento, da incorporação, da construção e da reforma de imó…
+###### Seção X - Da compra e da venda, do loteamento, da incorporação, da construção e da reforma de imóveis
 * Determinação do custo
   * Art. 481
 * Apuração do lucro bruto
@@ -982,39 +982,39 @@
   * Art. 500
 ##### CAPÍTULO VII - DAS DEMAIS RECEITAS E DESPESAS
 ###### Seção I - Dos ganhos e das perdas de capital
-* Subseção I - Disposições gerais
+* **Subseção I - Disposições gerais**
   * Art. 501
 * Devolução de capital em bens ou direitos
   * Art. 502
-* Subseção II - Das vendas a longo prazo
+* **Subseção II - Das vendas a longo prazo**
   * Art. 503
-* Subseção III - Dos ganhos em desapropriação
+* **Subseção III - Dos ganhos em desapropriação**
 * Diferimento da tributação
   * Art. 504
 * Desapropriação para fins de reforma agrária
   * Art. 505
-* Subseção IV - Das perdas na alienação de bens tomados em arrendamento mercantil pelo vendedor
+* **Subseção IV - Das perdas na alienação de bens tomados em arrendamento mercantil pelo vendedor**
   * Art. 506
-* Subseção V - Do resultado na alienação de investimento avaliado pelo valor de patrimônio líquido
+* **Subseção V - Do resultado na alienação de investimento avaliado pelo valor de patrimônio líquido**
   * Art. 507
   * Art. 508
   * Art. 509
-* Subseção VI - Das perdas na alienação de bens e valores oriundos de incentivos fiscais
+* **Subseção VI - Das perdas na alienação de bens e valores oriundos de incentivos fiscais**
   * Art. 510
-* Subseção VII - Do Programa Nacional de Desestatização
+* **Subseção VII - Do Programa Nacional de Desestatização**
   * Art. 511
   * Art. 512
   * Art. 513
-* Subseção VIII - Das perdas em operações financeiras
+* **Subseção VIII - Das perdas em operações financeiras**
   * Art. 514
 ###### Seção II - Das reservas de reavaliação remanescentes
   * Art. 515
-* Subseção I - Da reserva de reavaliação de bens
+* **Subseção I - Da reserva de reavaliação de bens**
 * Tributação na realização
   * Art. 516
-* Subseção II - Da reserva de reavaliação na subscrição de capital ou valores mobiliários
+* **Subseção II - Da reserva de reavaliação na subscrição de capital ou valores mobiliários**
   * Art. 517
-* Subseção III - Da reserva de reavaliação na fusão, na incorporação ou na cisão
+* **Subseção III - Da reserva de reavaliação na fusão, na incorporação ou na cisão**
   * Art. 518
   * Art. 519
 ###### Seção III - Das contribuições de subscritores de valores mobiliários
@@ -1031,9 +1031,9 @@
   * Art. 525
 ##### CAPÍTULO VIII - DO LUCRO DISTRIBUÍDO E DO LUCRO CAPITALIZADO
 ###### Seção I - Das participações
-* Subseção I - Das participações dedutíveis
+* **Subseção I - Das participações dedutíveis**
   * Art. 526
-* Subseção II - Das participações não dedutíveis
+* **Subseção II - Das participações não dedutíveis**
   * Art. 527
 ###### Seção II - Dos lucros distribuídos disfarçadamente
   * Art. 528
@@ -1041,7 +1041,7 @@
   * Art. 529
 * Distribuição a sócio ou acionista controlador por intermédio de terceiros
   * Art. 530
-* Subseção única - Do cômputo na determinação do lucro real
+* **Subseção única - Do cômputo na determinação do lucro real**
   * Art. 531
   * Art. 532
 ##### CAPÍTULO IX - DOS INCENTIVOS A ATIVIDADES CULTURAIS OU ARTÍSTICAS
@@ -1119,14 +1119,14 @@
 * Pessoas jurídicas instaladas em Zona de Processamento de Exportação
   * Art. 573
   * Art. 574
-###### Seção II - Dos incentivos ao desenvolvimento de tecnologia da informação e da automação e da indú…
+###### Seção II - Dos incentivos ao desenvolvimento de tecnologia da informação e da automação e da indústria de semicondutores
 * Empresas dos setores de tecnologia da informação e de tecnologia da informação e da comunicação
   * Art. 575
 * Parágrafo único. A exclusão de que trata o caput fica limitada ao valor do lucro real antes da pr…
 * Pessoa jurídica beneficiária do Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de …
   * Art. 576
   * Art. 577
-##### CAPÍTULO XIII - DOS INCENTIVOS DO Programa Nacional de Apoio à Atenção Oncológica e do Programa N…
+##### CAPÍTULO XIII - DOS INCENTIVOS DO Programa Nacional de Apoio à Atenção Oncológica e do Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência
   * Art. 578
 ##### CAPÍTULO XIV - DA COMPENSAÇÃO DE PREJUÍZOS FISCAIS
 * Disposições gerais
@@ -1218,7 +1218,7 @@
   * Art. 619
   * Art. 620
   * Art. 621
-* Subseção II - Adoção inicial do art. 1º, do art. 2º e do art. 4º ao art. 71 da Lei nº 12.973, de …
+* **Subseção II - Adoção inicial do art. 1º, do art. 2º e do art. 4º ao art. 71 da Lei nº 12.973, de 13 de maio de 2014 : contrato de concessão**
   * Art. 622
 #### TÍTULO XII - DAS ALÍQUOTAS E DO ADICIONAL
   * Art. 623
@@ -1227,8 +1227,8 @@
   * Art. 625
 #### TÍTULO XIII - DO LUCRO DA EXPLORAÇÃO
   * Art. 626
-#### TÍTULO XIV - DA ISENÇÃO OU DA REDUÇÃO DO IMPOSTO SOBRE A RENDA COMO INCENTIVO AO DESENVOLVIMENTO …
-##### CAPÍTULO I - DOS INCENTIVOS FISCAIS ÀS EMPRESAS INSTALADAS NA ÁREA DE ATUAÇÃO DA SUPERINTENDÊNCIA…
+#### TÍTULO XIV - DA ISENÇÃO OU DA REDUÇÃO DO IMPOSTO SOBRE A RENDA COMO INCENTIVO AO DESENVOLVIMENTO REGIONAL
+##### CAPÍTULO I - DOS INCENTIVOS FISCAIS ÀS EMPRESAS INSTALADAS NA ÁREA DE ATUAÇÃO DA SUPERINTENDÊNCIA DO DESENVOLVIMENTO DO NORDESTE
 * Área de atuação da Superintendência do Desenvolvimento do Nordeste
   * Art. 627
 * Seção única
@@ -1262,14 +1262,14 @@
 #### TÍTULO XV - DAS DEDUÇÕES DO IMPOSTO SOBRE A RENDA
 ##### CAPÍTULO I - DOS INCENTIVOS À PARTICIPAÇÃO EM PROGRAMAS DESTINADOS AO TRABALHADOR
 ###### Seção I - Do Programa de Alimentação do Trabalhador
-* Subseção I - Da dedução do imposto sobre a renda devido
+* **Subseção I - Da dedução do imposto sobre a renda devido**
   * Art. 641
   * Art. 642
   * Art. 643
 * Das despesas abrangidas pelo incentivo
   * Art. 644
   * Art. 645
-* Subseção III - Da contabilização
+* **Subseção III - Da contabilização**
   * Art. 646
 * Do descumprimento ao Programa de Alimentação do Trabalhador
   * Art. 647
@@ -1283,9 +1283,9 @@
   * Art. 652
 ##### CAPÍTULO II - DA APLICAÇÃO DO IMPOSTO SOBRE A RENDA EM INVESTIMENTOS REGIONAIS
 ###### Seção I - Disposições gerais
-* Subseção I - Da opção
+* **Subseção I - Da opção**
   * Art. 653
-* Subseção II - Dos fundos de investimentos
+* **Subseção II - Dos fundos de investimentos**
 * Disposições gerais
   * Art. 654
 * Fundo de Investimentos do Nordeste
@@ -1337,7 +1337,7 @@
   * Art. 678
   * Art. 679
   * Art. 680
-* Subseção I
+* **Subseção I**
 * Do trabalho assalariado
   * Art. 681
   * Art. 682
@@ -1576,7 +1576,7 @@
   * Art. 910
   * Art. 911
   * Art. 912
-* Subseção V - Dos depósitos bancários
+* **Subseção V - Dos depósitos bancários**
   * Art. 913
   * Art. 914
 #### TÍTULO II
@@ -5806,7 +5806,7 @@ As empresas individuais são equiparadas às pessoas jurídicas (Decreto-Lei nº
 * **Subseção I - Da caracterização**
 
 
-* **Incorporação e loteamento**
+* Incorporação e loteamento
 
 
   * Art. 163.
@@ -5820,7 +5820,7 @@ Serão equiparadas às pessoas jurídicas, em relação às incorporações imob
 
 
 
-* **Incorporação ou loteamento sem registro**
+* Incorporação ou loteamento sem registro
 
 
   * Art. 164.
@@ -5837,7 +5837,7 @@ Equipara-se, também, à pessoa jurídica, o proprietário ou o titular de terre
 
 
 
-* **Desmembramento de imóvel rural**
+* Desmembramento de imóvel rural
 
 
   * Art. 165.
@@ -5846,7 +5846,7 @@ A subdivisão ou o desmembramento de imóvel rural havido após 30 de junho de 1
 Parágrafo único. O disposto neste artigo não se aplica às hipóteses em que a subdivisão se efetive por força de partilha amigável ou judicial em decorrência de herança, legado, doação como adiantamento da legítima ou extinção de condomínio ( Decreto-Lei nº 1.510, de 1976, art. 11, § 2º ).
 
 
-* **Aquisição e alienação**
+* Aquisição e alienação
 
 
   * Art. 166.
@@ -5880,7 +5880,7 @@ Caracterizam-se a aquisição e a alienação pelos atos de compra e venda, de p
 
 
 
-* **Condomínios**
+* Condomínios
 
 
   * Art. 167.
@@ -5892,7 +5892,7 @@ Parágrafo único. A cada condômino, pessoa física, serão aplicados os crité
 * **Subseção II - Do início da equiparação**
 
 
-* **Momento de determinação**
+* Momento de determinação
 
 
   * Art. 168.
@@ -5924,7 +5924,7 @@ A equiparação da pessoa física à pessoa jurídica será determinada de acord
 Parágrafo único. A alteração posterior das normas referidas neste artigo não atingirá as operações imobiliárias já realizadas, nem os empreendimentos cuja documentação já tenha sido arquivada no Registro Imobiliário ( Decreto-Lei nº 1.381, de 1974, art. 8º ).
 
 
-* **Início da aplicação do regime fiscal**
+* Início da aplicação do regime fiscal
 
 
   * Art. 170.
@@ -5932,7 +5932,7 @@ Parágrafo único. A alteração posterior das normas referidas neste artigo nã
 A aplicação do regime fiscal das pessoas jurídicas às pessoas físicas a elas equiparadas na forma estabelecida nos art. 163 e art. 164 terá início na data em que se completarem as condições determinantes para a equiparação ( Decreto-Lei nº 1.381, de 1974, art. 9º ).
 
 
-* **Não subsistência da equiparação**
+* Não subsistência da equiparação
 
 
   * Art. 171.
@@ -5940,7 +5940,7 @@ A aplicação do regime fiscal das pessoas jurídicas às pessoas físicas a ela
 Não subsistirá a equiparação de que trata o art. 163 se, na forma prevista no § 5º do art. 34 da Lei nº 4.591, de 1964 , ou no art. 23 da Lei nº 6.766, de 1979 , o interessado promover, no Registro Imobiliário, a averbação da desistência da incorporação ou o cancelamento da inscrição do loteamento ( Decreto-Lei nº 1.381, de 1974, art. 6º, § 4º ).
 
 
-* **Obrigações acessórias**
+* Obrigações acessórias
 
 
   * Art. 172.
@@ -5964,7 +5964,7 @@ Parágrafo único. Quando já estiver equiparada à empresa individual em decorr
 * **Subseção III - Da determinação do resultado**
 
 
-* **Resultados e rendimentos compreendidos**
+* Resultados e rendimentos compreendidos
 
 
   * Art. 173.
@@ -5990,7 +5990,7 @@ O lucro da empresa individual de que trata esta Subseção, determinado ao térm
 
 
 
-* **Rendimentos excluídos**
+* Rendimentos excluídos
 
 
   * Art. 174.
@@ -6004,7 +6004,7 @@ Não serão computados, para fins de apuração do lucro da empresa individual (
 
 
 
-* **Valor de incorporação de imóveis**
+* Valor de incorporação de imóveis
 
 
   * Art. 175.
@@ -6025,7 +6025,7 @@ Parágrafo único. Os imóveis objeto das operações referidas nesta Subseção
 
 
 
-* **Distribuição do lucro**
+* Distribuição do lucro
 
 
   * Art. 176.
@@ -6079,7 +6079,7 @@ Parágrafo único. A imunidade, a isenção ou a não incidência que beneficia 
 ###### Seção II - Das imunidades
 
 
-* **Templos de qualquer culto**
+* Templos de qualquer culto
 
 
   * Art. 179.
@@ -6087,7 +6087,7 @@ Parágrafo único. A imunidade, a isenção ou a não incidência que beneficia 
 Não ficam sujeitos ao imposto sobre a renda os templos de qualquer culto ( Constituição, art. 150, caput, inciso VI, alínea “b” ; e Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 9º, caput, inciso IV , alínea “b”).
 
 
-* **Partidos políticos e entidades sindicais dos trabalhadores**
+* Partidos políticos e entidades sindicais dos trabalhadores
 
 
   * Art. 180.
@@ -6105,7 +6105,7 @@ Não ficam sujeitos ao imposto sobre a renda os partidos políticos, incluídas 
 Parágrafo único. Na hipótese de não cumprimento ao disposto neste artigo ou no inciso II do caput do art. 182 , a autoridade competente poderá suspender o benefício na forma prevista no art. 183 ( Lei nº 5.172, de 1966 - Código Tributário Nacional, art. 14, § 1º ).
 
 
-* **Instituições de educação e de assistência social**
+* Instituições de educação e de assistência social
 
 
   * Art. 181.
@@ -6405,7 +6405,7 @@ Parágrafo único. Na hipótese prevista no art. 187 , a isenção será reconhe
 ###### Seção V - Das sociedades cooperativas
 
 
-* **Não incidência**
+* Não incidência
 
 
   * Art. 193.
@@ -6427,7 +6427,7 @@ As sociedades cooperativas que obedecerem ao disposto na legislação específic
 
 
 
-* **Incidência**
+* Incidência
 
 
   * Art. 194.
@@ -6444,7 +6444,7 @@ As sociedades cooperativas que obedecerem ao disposto em legislação específic
 
 
 
-* **Cooperativas de consumo**
+* Cooperativas de consumo
 
 
   * Art. 195.
@@ -6699,7 +6699,7 @@ Poderão ter sua inscrição no CNPJ baixada de ofício, nas condições e nos t
 
 
 
-* **Inscrição inapta**
+* Inscrição inapta
 
 
   * Art. 206.
@@ -6737,7 +6737,7 @@ Poderá ser declarada inapta, nas condições e nos termos definidos pela Secret
 
 
 
-* **Declaração de inidoneidade**
+* Declaração de inidoneidade
 
 
   * Art. 207.
@@ -6820,9 +6820,7 @@ A base de cálculo do imposto sobre a renda, determinada segundo a lei vigente �
 ##### CAPÍTULO II - DOS MÉTODOS E dos CRITÉRIOS CONTÁBEIS INTRODUZIDOS PELA LEI Nº 11.638, DE 28 DE DEZEMBRO DE 2007, E PELA LEI Nº 11.941, DE 27 DE MAIO DE 2009
 
 
-  * Art. 1º
-
-, art. 2º e art. 4º ao art. 71 da Lei n º 12.973, de 13 de maio de 2014
+* Art. 1º, art. 2º e art. 4º ao art. 71 da Lei n º 12.973, de 13 de maio de 2014
 
 
   * Art. 211.
@@ -6844,7 +6842,7 @@ A partir de 1º de janeiro de 2015, os métodos e os critérios contábeis intro
 
 
 
-* **Adoção de novos métodos e critérios contábeis por meio de atos administrativos**
+* Adoção de novos métodos e critérios contábeis por meio de atos administrativos
 
 
   * Art. 212.
@@ -6853,7 +6851,7 @@ A modificação ou a adoção de métodos e critérios contábeis, por meio de a
 Parágrafo único. Para fins do disposto no caput , compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda, no âmbito de suas atribuições, identificar os atos administrativos e dispor sobre os procedimentos para anular os efeitos desses atos sobre a apuração dos tributos federais (Lei nº 12.973, de 2014, art. 58, parágrafo único) .
 
 
-* **Disposições transitórias quanto ao Regime Tributário de Transição**
+* Disposições transitórias quanto ao Regime Tributário de Transição
 
 
   * Art. 213.
@@ -7040,7 +7038,7 @@ As pessoas jurídicas que tenham como objeto social, declarado em seus atos cons
 Parágrafo único. Os veículos usados a que se refere o caput serão objeto de nota fiscal de entrada e, quando da venda, de nota fiscal de saída, e ficam sujeitos ao regime fiscal aplicável às operações de consignação (Lei nº 9.716, de 1998, art. 5º, parágrafo único) .
 
 
-* **Ganhos de capital e outras receitas**
+* Ganhos de capital e outras receitas
 
 
   * Art. 222.
@@ -7103,7 +7101,7 @@ Os ganhos de capital, as demais receitas e os resultados positivos decorrentes d
 
 
 
-* **Deduções da receita bruta**
+* Deduções da receita bruta
 
 
   * Art. 223.
@@ -7157,7 +7155,7 @@ As pessoas jurídicas de que trata a alínea “b” do inciso II do § 1º do a
 Parágrafo único. É vedada a dedução de qualquer despesa administrativa (Lei nº 8.981, de 1995, art. 29, § 2º ; Lei nº 9.249, de 1995, art. 15, § 1º, inciso II, alínea “b” ; e Lei nº 9.430, de 1996, art. 2º ).
 
 
-* **Atividades imobiliárias**
+* Atividades imobiliárias
 
 
   * Art. 224.
@@ -7348,7 +7346,7 @@ A pessoa jurídica que tiver parte ou todo o seu patrimônio absorvido em decorr
 
 
 
-* **Sucessão por incorporação**
+* Sucessão por incorporação
 
 
   * Art. 233.
@@ -8177,7 +8175,7 @@ Parágrafo único. O uso da faculdade prevista no caput poderá também ser apli
 ###### Seção I - Disposições gerais
 
 
-* **Pessoas jurídicas obrigadas à apuração do lucro real**
+* Pessoas jurídicas obrigadas à apuração do lucro real
 
 
   * Art. 257.
@@ -8249,7 +8247,7 @@ O lucro líquido do período de apuração é a soma algébrica do lucro operaci
 ###### Seção IV - Dos ajustes do lucro líquido
 
 
-* **Adições**
+* Adições
 
 
   * Art. 260.
@@ -8309,7 +8307,7 @@ Parágrafo único. Incluem-se nas adições de que trata este artigo:
 
 
 
-* **Exclusões e compensações**
+* Exclusões e compensações
 
 
   * Art. 261.
@@ -8426,7 +8424,7 @@ A pessoa jurídica sujeita à tributação com base no lucro real deverá manter
 
 
 
-* **Contabilidade não centralizada**
+* Contabilidade não centralizada
 
 
   * Art. 266.
@@ -8434,7 +8432,7 @@ A pessoa jurídica sujeita à tributação com base no lucro real deverá manter
 Fica facultado às pessoas jurídicas que possuírem filiais, sucursais ou agências manter contabilidade não centralizada, hipótese que deverão incorporar, ao final de cada mês, na escrituração da matriz, os resultados de cada uma delas.
 
 
-* **Pessoas jurídicas com sede no exterior**
+* Pessoas jurídicas com sede no exterior
 
 
   * Art. 267.
@@ -8447,7 +8445,7 @@ As disposições desta Seção aplicam-se também às filiais, às sucursais, à
 O agente ou o representante do comitente com domicílio fora do País deverá escriturar os seus livros comerciais de modo a demonstrar, além dos próprios rendimentos, os resultados apurados nas operações de conta alheia, em cada período de apuração, observado o disposto no art. 469 (Lei nº 3.470, de 1958, art. 76, § 1º) .
 
 
-* **Sociedades em conta de participação**
+* Sociedades em conta de participação
 
 
   * Art. 269.
@@ -8455,7 +8453,7 @@ O agente ou o representante do comitente com domicílio fora do País deverá es
 A escrituração das operações de sociedade em conta de participação deverá ser efetuada em livros próprios.
 
 
-* **Instituições financeiras e demais autorizadas a funcionar pelo Banco Central do Brasil**
+* Instituições financeiras e demais autorizadas a funcionar pelo Banco Central do Brasil
 
 
   * Art. 270.
@@ -8472,7 +8470,7 @@ A escrituração de que trata o art. 177 da Lei nº 6.404, de 1976 , quando real
 
 
 
-* **Falsificação da escrituração**
+* Falsificação da escrituração
 
 
   * Art. 271.
@@ -8488,7 +8486,7 @@ A falsificação, material ou ideológica, da escrituração e dos seus comprova
 A pessoa jurídica é obrigada a seguir sistema de contabilidade com base na escrituração uniforme de seus livros, em correspondência com a sua documentação, e utilizar os livros e os papéis adequados, cujo número e espécie ficam a seu critério ( Decreto-Lei nº 486, de 1969, art. 1º ; Lei nº 10.406, de 2002 - Código Civil, art. 1.179, caput e § 1º ; e Decreto-Lei nº 1.598, de 1977, art. 7º, § 6º ).
 
 
-* **Livro diário**
+* Livro diário
 
 
   * Art. 273.
@@ -8520,7 +8518,7 @@ Além dos demais livros exigidos por lei, é indispensável o livro diário, que
 
 
 
-* **Livro-razão**
+* Livro-razão
 
 
   * Art. 274.
@@ -8585,7 +8583,7 @@ No livro de inventário deverão ser arrolados, com especificações que facilit
 Parágrafo único. Os bens mencionados no caput serão avaliados em observância ao disposto no art. 304 ao art. 310 .
 
 
-* **Livro de Apuração do Lucro Real**
+* Livro de Apuração do Lucro Real
 
 
   * Art. 277.
@@ -8673,7 +8671,7 @@ As pessoas jurídicas que utilizarem sistemas de processamento eletrônico de da
 A inobservância ao disposto no art. 279 acarretará a imposição das multas previstas no art. 1.024 (Lei nº 8.218, de 1991, art. 12) .
 
 
-* **Documentação técnica**
+* Documentação técnica
 
 
   * Art. 281.
@@ -8681,7 +8679,7 @@ A inobservância ao disposto no art. 279 acarretará a imposição das multas pr
 O sujeito passivo usuário de sistema de processamento de dados deverá manter documentação técnica completa e atualizada do sistema, suficiente para possibilitar a sua auditoria, facultada a manutenção em meio magnético, sem prejuízo da sua emissão gráfica, quando solicitada ( Lei nº 9.430, de 1996, art. 38 ).
 
 
-* **Equipamento emissor de cupom fiscal**
+* Equipamento emissor de cupom fiscal
 
 
   * Art. 282.
@@ -8830,7 +8828,7 @@ Parágrafo único. O lucro bruto corresponde à diferença entre a receita líqu
 * **Subseção I - Disposições complementares sobre receitas**
 
 
-* **Vendas de veículos usados**
+* Vendas de veículos usados
 
 
   * Art. 291.
@@ -8839,7 +8837,7 @@ As pessoas jurídicas que tenham como objeto social, declarado em seus atos cons
 Parágrafo único. Os veículos usados a que se refere o caput serão objeto de nota fiscal de entrada e, quando da venda, de nota fiscal de saída, e ficarão sujeitos ao regime fiscal aplicável às operações de consignação (Lei nº 9.716, de 1998, art. 5º, parágrafo único).
 
 
-* **Vale-pedágio**
+* Vale-pedágio
 
 
   * Art. 292.
@@ -8850,7 +8848,7 @@ O valor do vale-pedágio, instituído pela Lei nº 10.209, de 2001 , não integr
 * **Subseção II - Da omissão de receita**
 
 
-* **Saldo credor de caixa, falta de escrituração de pagamento, manutenção no passivo de obrigações pagas e falta de comprovação do passivo**
+* Saldo credor de caixa, falta de escrituração de pagamento, manutenção no passivo de obrigações pagas e falta de comprovação do passivo
 
 
   * Art. 293.
@@ -8867,7 +8865,7 @@ Caracteriza-se como omissão no registro de receita, ressalvada ao contribuinte 
 
 
 
-* **Suprimentos de caixa**
+* Suprimentos de caixa
 
 
   * Art. 294.
@@ -8875,7 +8873,7 @@ Caracteriza-se como omissão no registro de receita, ressalvada ao contribuinte 
 Provada a omissão de receita, por indícios na escrituração do contribuinte ou por outro elemento de prova, a autoridade tributária poderá arbitrá-la com base no valor dos recursos de caixa fornecidos à empresa por administradores, sócios da sociedade não anônima, titular da empresa individual, ou por acionista controlador da companhia, se a efetividade da entrega e a origem dos recursos não forem comprovadamente demonstradas ( Decreto-Lei nº 1.598, de 1977, art. 12, § 3º ).
 
 
-* **Falta de emissão de nota fiscal**
+* Falta de emissão de nota fiscal
 
 
   * Art. 295.
@@ -8883,7 +8881,7 @@ Provada a omissão de receita, por indícios na escrituração do contribuinte o
 Caracteriza omissão de receita ou de rendimentos, incluídos os ganhos de capital, a falta de emissão de nota fiscal, recibo ou documento equivalente, no momento da efetivação das operações de venda de mercadorias, prestação de serviços, operações de alienação de bens móveis, locação de bens móveis e imóveis ou outras transações realizadas com bens ou serviços, e a sua emissão com valor inferior ao da operação ( Lei nº 8.846, de 1994, art. 1º e art. 2º ).
 
 
-* **Arbitramento da receita por indícios de omissão**
+* Arbitramento da receita por indícios de omissão
 
 
   * Art. 296.
@@ -8930,7 +8928,7 @@ Verificada a omissão de receita por meio de indícios, a autoridade tributária
 Fica facultado à autoridade tributária utilizar, para efeito de arbitramento a que se refere o art. 296 , outros métodos de determinação da receita quando constatado qualquer artifício utilizado pelo contribuinte com vistas a frustrar a apuração da receita efetiva do seu estabelecimento ( Lei nº 8.846, de 1994, art. 8º ).
 
 
-* **Levantamento quantitativo por espécie**
+* Levantamento quantitativo por espécie
 
 
   * Art. 298.
@@ -8952,7 +8950,7 @@ A omissão de receita poderá, também, ser determinada a partir de levantamento
 
 
 
-* **Depósitos bancários**
+* Depósitos bancários
 
 
   * Art. 299.
@@ -8979,7 +8977,7 @@ Caracterizam-se também como omissão de receita os valores creditados em conta 
 
 
 
-* **Tratamento tributário**
+* Tratamento tributário
 
 
   * Art. 300.
@@ -8990,7 +8988,7 @@ Verificada a omissão de receita, a autoridade tributária determinará o valor 
 * **Subseção III - Do custo de bens ou serviços**
 
 
-* **Custo de aquisição**
+* Custo de aquisição
 
 
   * Art. 301.
@@ -9012,7 +9010,7 @@ O custo das mercadorias revendidas e das matérias-primas utilizadas será deter
 
 
 
-* **Custo de produção**
+* Custo de produção
 
 
   * Art. 302.
@@ -9054,7 +9052,7 @@ O custo de produção dos bens ou dos serviços vendidos compreenderá, obrigato
 
 
 
-* **Quebras e perdas**
+* Quebras e perdas
 
 
   * Art. 303.
@@ -9142,7 +9140,7 @@ Se a escrituração do contribuinte não satisfizer às condições previstas no
 
 
 
-* **Produtos rurais**
+* Produtos rurais
 
 
   * Art. 309.
@@ -9150,7 +9148,7 @@ Se a escrituração do contribuinte não satisfizer às condições previstas no
 Os estoques de produtos agrícolas, animais e extrativos poderão ser avaliados aos preços correntes de mercado, conforme as práticas usuais em cada tipo de atividade ( Decreto-Lei nº 1.598, de 1977, art. 14, § 4º ).
 
 
-* **Vedações**
+* Vedações
 
 
   * Art. 310.
@@ -9176,7 +9174,7 @@ Não serão permitidas (Lei nº 154, de 1947, art. 2º, § 5º; Decreto-Lei nº 
 * **Subseção I - Disposições gerais**
 
 
-* **Despesas necessárias**
+* Despesas necessárias
 
 
   * Art. 311.
@@ -9203,7 +9201,7 @@ São operacionais as despesas não computadas nos custos, necessárias à ativid
 As disposições sobre dedutibilidade de rendimentos pagos a terceiros aplicam-se aos custos e às despesas operacionais ( Lei nº 4.506, de 1964, art. 45, § 2º) .
 
 
-* **Aplicações de capital**
+* Aplicações de capital
 
 
   * Art. 313.
@@ -9231,7 +9229,7 @@ O custo de aquisição de bens do ativo não circulante imobilizado e intangíve
 
 
 
-* **Pagamento a pessoa física vinculada**
+* Pagamento a pessoa física vinculada
 
 
   * Art. 314.
@@ -9259,7 +9257,7 @@ Os pagamentos, de qualquer natureza, a titular, sócio ou dirigente da pessoa ju
 Não serão dedutíveis como custos ou despesas operacionais as gratificações ou as participações no resultado, atribuídas aos dirigentes ou aos administradores da pessoa jurídica ( Lei nº 4.506, de 1964, art. 45, § 3º ; e Decreto-Lei nº 1.598, de 1977, art. 58, parágrafo único ).
 
 
-* **Pagamentos sem causa ou a beneficiário não identificado**
+* Pagamentos sem causa ou a beneficiário não identificado
 
 
   * Art. 316.
@@ -9276,7 +9274,7 @@ Não são dedutíveis as importâncias declaradas como pagas ou creditadas a tí
 * **Subseção II - Da depreciação de bens do ativo imobilizado**
 
 
-* **Dedutibilidade**
+* Dedutibilidade
 
 
   * Art. 317.
@@ -9318,7 +9316,7 @@ Poderá ser computada, como custo ou encargo, em cada período de apuração, a 
 
 
 
-* **Bens depreciáveis**
+* Bens depreciáveis
 
 
   * Art. 318.
@@ -9351,7 +9349,7 @@ Parágrafo único. Não será admitida quota de depreciação referente a ( Lei 
 
 
 
-* **Quota de depreciação**
+* Quota de depreciação
 
 
   * Art. 319.
@@ -9373,7 +9371,7 @@ A quota de depreciação dedutível na apuração do imposto sobre a renda será
 
 
 
-* **Taxa anual de depreciação**
+* Taxa anual de depreciação
 
 
   * Art. 320.
@@ -9395,7 +9393,7 @@ A taxa anual de depreciação será fixada em função do prazo durante o qual s
 
 
 
-* **Exclusão no Livro de Apuração do Lucro Real**
+* Exclusão no Livro de Apuração do Lucro Real
 
 
   * Art. 321.
@@ -9404,7 +9402,7 @@ Caso a quota de depreciação registrada na contabilidade do contribuinte seja m
 Parágrafo único. Para fins do disposto no caput , a partir do período de apuração em que o montante acumulado das quotas de depreciação computado na determinação do lucro real atingir o limite previsto no § 3º do art. 317 , o valor da depreciação, registrado na escrituração comercial, deverá ser adicionado ao lucro líquido para efeito de determinação do lucro real ( Lei nº 4.506, de 1964, art. 57, § 16 ).
 
 
-* **Depreciação de bens usados**
+* Depreciação de bens usados
 
 
   * Art. 322.
@@ -9418,7 +9416,7 @@ A taxa anual de depreciação de bens adquiridos usados será fixada tendo em vi
 
 
 
-* **Depreciação acelerada**
+* Depreciação acelerada
 
 
   * Art. 323.
@@ -9438,7 +9436,7 @@ Em relação aos bens móveis, poderão ser adotados, em função do número de 
 * **Subseção III - Da depreciação acelerada incentivada**
 
 
-* **Disposições gerais**
+* Disposições gerais
 
 
   * Art. 324.
@@ -9470,7 +9468,7 @@ Com a finalidade de incentivar a implantação, a renovação ou a modernizaçã
 
 
 
-* **Atividade rural**
+* Atividade rural
 
 
   * Art. 325.
@@ -9478,7 +9476,7 @@ Com a finalidade de incentivar a implantação, a renovação ou a modernizaçã
 Os bens do ativo não circulante imobilizado, exceto a terra nua, adquiridos por pessoa jurídica que explore a atividade rural, de que trata o art. 51 , para uso nessa atividade, poderão ser depreciados integralmente no próprio ano de aquisição ( Medida Provisória nº 2.159-70, de 2001, art. 6º ).
 
 
-* **Máquinas, equipamentos, aparelhos e instrumentos destinados à pesquisa tecnológica e ao desenvolvimento de inovação tecnológica**
+* Máquinas, equipamentos, aparelhos e instrumentos destinados à pesquisa tecnológica e ao desenvolvimento de inovação tecnológica
 
 
   * Art. 326.
@@ -9514,7 +9512,7 @@ Os valores relativos aos dispêndios incorridos em instalações fixas e na aqui
 
 
 
-* **Veículos automóveis, vagões, locomotivas e tênderes destinados ao ativo imobilizado**
+* Veículos automóveis, vagões, locomotivas e tênderes destinados ao ativo imobilizado
 
 
   * Art. 328.
@@ -9589,7 +9587,7 @@ A pessoa jurídica terá direito à depreciação acelerada, calculada pela apli
 
 
 
-* **Microrregiões nas áreas de atuação da Superintendência do Desenvolvimento do Nordeste e da Superintendência de Desenvolvimento da Amazônia**
+* Microrregiões nas áreas de atuação da Superintendência do Desenvolvimento do Nordeste e da Superintendência de Desenvolvimento da Amazônia
 
 
   * Art. 329.
@@ -9634,7 +9632,7 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, para bens adqu
 * **Subseção IV - Da amortização**
 
 
-* **Dedutibilidade**
+* Dedutibilidade
 
 
   * Art. 330.
@@ -9671,7 +9669,7 @@ Poderá ser computada como custo ou encargo, em cada período de apuração, a i
 
 
 
-* **Capital amortizável**
+* Capital amortizável
 
 
   * Art. 331.
@@ -9695,7 +9693,7 @@ Poderão ser amortizados os capitais aplicados na aquisição de direitos cuja e
 Parágrafo único. Não será admitida amortização de bens, custos ou despesas para os quais seja registrada quota de exaustão ( Lei nº 4.506, de 1964, art. 58, § 6º ).
 
 
-* **Quota de amortização**
+* Quota de amortização
 
 
   * Art. 332.
@@ -9712,7 +9710,7 @@ A quota de amortização dedutível em cada período de apuração será determi
 
 
 
-* **Taxa anual de amortização**
+* Taxa anual de amortização
 
 
   * Art. 333.
@@ -9720,7 +9718,7 @@ A quota de amortização dedutível em cada período de apuração será determi
 A taxa anual de amortização será estabelecida tendo em vista o número de anos restantes de existência do direito ( Lei nº 4.506, de 1964, art. 58, § 1º ).
 
 
-* **Direitos de exploração de florestas**
+* Direitos de exploração de florestas
 
 
   * Art. 334.
@@ -9742,7 +9740,7 @@ A quota anual de amortização do valor dos direitos contratuais de exploração
 
 
 
-* **Amortização acelerada de bens intangíveis vinculados à pesquisa e à inovação tecnológica**
+* Amortização acelerada de bens intangíveis vinculados à pesquisa e à inovação tecnológica
 
 
   * Art. 335.
@@ -9772,7 +9770,7 @@ A pessoa jurídica poderá usufruir do incentivo fiscal de amortização acelera
 * **Subseção V - Da exaustão de recursos minerais**
 
 
-* **Dedutibilidade**
+* Dedutibilidade
 
 
   * Art. 336.
@@ -9866,7 +9864,7 @@ Parágrafo único. As despesas a que se refere o caput poderão ser excluídas p
 * **Subseção VIII - Das provisões**
 
 
-* **Dedutibilidade**
+* Dedutibilidade
 
 
   * Art. 339.
@@ -9875,7 +9873,7 @@ Na determinação do lucro real, somente serão dedutíveis as provisões expres
 Parágrafo único. Para fins do disposto neste Regulamento, as referências a provisões alcançam as perdas estimadas no valor de ativos, inclusive aquelas decorrentes de redução ao valor recuperável (Lei nº 12.973, de 2014, art. 59) .
 
 
-* **Provisões técnicas compulsórias**
+* Provisões técnicas compulsórias
 
 
   * Art. 340.
@@ -9883,7 +9881,7 @@ Parágrafo único. Para fins do disposto neste Regulamento, as referências a pr
 São dedutíveis as provisões técnicas das companhias de seguro e de capitalização, das entidades de previdência privada e das operadoras de planos de assistência à saúde, cuja constituição é exigida pela legislação especial a elas aplicável ( Lei nº 9.249, de 1995, art. 13, caput, inciso I ; e Medida Provisória nº 2.158-35, de 2001, art. 83 ).
 
 
-* **Provisão para perda de estoques de livros**
+* Provisão para perda de estoques de livros
 
 
   * Art. 341.
@@ -9909,7 +9907,7 @@ As pessoas jurídicas que exerçam as atividades de editor, distribuidor ou livr
 
 
 
-* **Remuneração de férias**
+* Remuneração de férias
 
 
   * Art. 342.
@@ -9931,7 +9929,7 @@ O contribuinte poderá deduzir como custo ou despesa operacional, em cada perío
 
 
 
-* **Décimo terceiro salário**
+* Décimo terceiro salário
 
 
   * Art. 343.
@@ -9940,7 +9938,7 @@ O contribuinte poderá deduzir como custo ou despesa operacional, em cada perío
 Parágrafo único. O valor provisionado corresponderá ao valor resultante da multiplicação de um doze avos da remuneração, acrescido dos encargos sociais, cujo ônus cabe à pessoa jurídica, pelo número de meses relativos ao período de apuração.
 
 
-* **Provisão para imposto de renda**
+* Provisão para imposto de renda
 
 
   * Art. 344.
@@ -9978,7 +9976,7 @@ Os gastos de desmontagem e retirada de item de ativo imobilizado ou a restauraç
 * **Subseção XI - Das perdas no recebimento de créditos**
 
 
-* **Dedutibilidade**
+* Dedutibilidade
 
 
   * Art. 347.
@@ -10077,7 +10075,7 @@ As perdas no recebimento de créditos decorrentes das atividades da pessoa jurí
 
 
 
-* **Registro contábil das perdas**
+* Registro contábil das perdas
 
 
   * Art. 348.
@@ -10110,7 +10108,7 @@ Os registros contábeis das perdas admitidas nesta Subseção serão efetuados a
 
 
 
-* **Encargos financeiros de créditos vencidos**
+* Encargos financeiros de créditos vencidos
 
 
   * Art. 349.
@@ -10137,7 +10135,7 @@ Decorrido o prazo de dois meses após o vencimento do crédito, sem que tenha ha
 
 
 
-* **Créditos recuperados**
+* Créditos recuperados
 
 
   * Art. 350.
@@ -10248,7 +10246,7 @@ Serão admitidas como custo ou despesa operacional as despesas com reparos e con
 * **Subseção XV - Dos juros sobre o capital**
 
 
-* **Juros sobre o capital próprio**
+* Juros sobre o capital próprio
 
 
   * Art. 355.
@@ -10311,7 +10309,7 @@ A pessoa jurídica poderá deduzir, para fins de apuração do lucro real, os ju
 
 
 
-* **Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição**
+* Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição
 
 
   * Art. 356.
@@ -10328,7 +10326,7 @@ Para os anos-calendário de 2008 a 2014, para fins do cálculo do limite previst
 
 
 
-* **Outros juros sobre capital**
+* Outros juros sobre capital
 
 
   * Art. 357.
@@ -10366,7 +10364,7 @@ A pessoa jurídica poderá deduzir, para fins de apuração do lucro líquido, o
 
 
 
-* **Dos recursos naturais**
+* Dos recursos naturais
 
 
   * Art. 360.
@@ -10377,7 +10375,7 @@ Poderão ser deduzidas como operacionais as despesas que as pessoas jurídicas e
 * **Subseção XVIII - Dos aluguéis, dos royalties e da assistência técnica, científica ou administrativa**
 
 
-* **Aluguéis**
+* Aluguéis
 
 
   * Art. 361.
@@ -10406,7 +10404,7 @@ A dedução de despesas com aluguéis será admitida ( Lei nº 4.506, de 1964, a
 
 
 
-* **Royalties**
+* Royalties
 
 
   * Art. 362.
@@ -10453,7 +10451,7 @@ Não são dedutíveis ( Lei nº 4.506, de 1964, art. 71, parágrafo único, alí
 Parágrafo único. O disposto na alínea “b” do inciso III do caput não se aplica às despesas decorrentes de contratos que, posteriormente a 31 de dezembro de 1991, sejam averbados no Instituto Nacional da Propriedade Industrial - INPI e registrados no Banco Central do Brasil, observados os limites e as condições estabelecidos pela legislação em vigor ( Lei nº 8.383, de 1991, art. 50 ).
 
 
-* **Assistência técnica, científica ou administrativa**
+* Assistência técnica, científica ou administrativa
 
 
   * Art. 364.
@@ -10490,7 +10488,7 @@ As importâncias pagas a pessoas jurídicas ou físicas domiciliadas no exterior
 
 
 
-* **Limite e condições de dedutibilidade**
+* Limite e condições de dedutibilidade
 
 
   * Art. 365.
@@ -10583,7 +10581,7 @@ Parágrafo único. Não serão dedutíveis, para fins de determinação do lucro
 
 
 
-* **Remuneração indireta a administradores e terceiros**
+* Remuneração indireta a administradores e terceiros
 
 
   * Art. 369.
@@ -10672,7 +10670,7 @@ Parágrafo único. É vedado o pagamento de qualquer antecipação ou distribui�
 * **Subseção XXIII - Dos serviços assistenciais e dos benefícios previdenciários a empregados e dirigentes**
 
 
-* **Serviços assistenciais**
+* Serviços assistenciais
 
 
   * Art. 372.
@@ -10689,7 +10687,7 @@ Consideram-se despesas operacionais os gastos realizados pelas empresas com segu
 
 
 
-* **Benefícios previdenciários**
+* Benefícios previdenciários
 
 
   * Art. 373.
@@ -10900,7 +10898,7 @@ Parágrafo único. A dedução de que trata o caput somente se aplica em relaç�
 * **Subseção I - Da avaliação a valor justo de ativo ou passivo da pessoa jurídica**
 
 
-* **Ganho**
+* Ganho
 
 
   * Art. 388.
@@ -10937,7 +10935,7 @@ O ganho decorrente de avaliação de ativo ou passivo com base no valor justo n�
 
 
 
-* **Perda**
+* Perda
 
 
   * Art. 389.
@@ -10959,7 +10957,7 @@ A perda decorrente de avaliação de ativo ou passivo com base no valor justo so
 A Secretaria da Receita Federal do Brasil do Ministério da Fazenda disciplinará sobre o controle em subcontas previsto nos art. 388 e art. 389 (Lei nº 12.973, de 2014, art. 15) .
 
 
-* **Instrumentos financeiros: operações realizadas em mercados de liquidação futura sujeitos a ajustes de posições**
+* Instrumentos financeiros: operações realizadas em mercados de liquidação futura sujeitos a ajustes de posições
 
 
   * Art. 391.
@@ -10985,7 +10983,7 @@ Parágrafo único. Os ganhos e as perdas evidenciados nas subcontas de que trata
 * **Subseção III - Da avaliação a valor justo na subscrição de capital social**
 
 
-* **Ganho**
+* Ganho
 
 
   * Art. 393.
@@ -11026,7 +11024,7 @@ O ganho decorrente de avaliação com base no valor justo de bem do ativo incorp
 
 
 
-* **Perda**
+* Perda
 
 
   * Art. 394.
@@ -11090,7 +11088,7 @@ A pessoa jurídica tributada pelo lucro presumido que, em período de apuração
 * **Subseção I - Das receitas e das despesas financeiras**
 
 
-* **Receitas**
+* Receitas
 
 
   * Art. 397.
@@ -11098,7 +11096,7 @@ A pessoa jurídica tributada pelo lucro presumido que, em período de apuração
 Os juros, o desconto, o lucro na operação de reporte e os rendimentos ou os lucros de aplicações financeiras de renda fixa ou variável, que tenham sido ganhos pelo contribuinte, serão incluídos no lucro operacional e, quando derivados de operações ou títulos de renda fixa com vencimento posterior ao encerramento do período de apuração, poderão ser rateados pelos períodos a que competirem ( Decreto-Lei nº 1.598, de 1977, art. 17, caput ; Lei nº 8.981, de 1995, art. 76, § 2º ; e Lei nº 9.249, de 1995, art. 11, § 3º ).
 
 
-* **Despesas**
+* Despesas
 
 
   * Art. 398.
@@ -11121,7 +11119,7 @@ Não serão dedutíveis, para fins de determinação do lucro real, os juros rel
 São indedutíveis, para fins de determinação do lucro real, as despesas financeiras incorridas pela arrendatária em contratos de arrendamento mercantil, nos termos estabelecidos no art. 366 (Lei nº 12.973, de 2014, art. 48) .
 
 
-* **Custos de empréstimos**
+* Custos de empréstimos
 
 
   * Art. 402.
@@ -11138,7 +11136,7 @@ Os juros e outros encargos, associados a empréstimos contraídos, especificamen
 
 
 
-* **Dividendos pagos ou creditados classificados como despesa financeira**
+* Dividendos pagos ou creditados classificados como despesa financeira
 
 
   * Art. 403.
@@ -11149,7 +11147,7 @@ Não são dedutíveis, para fins de determinação do lucro real, os lucros ou o
 * **Subseção II - Das variações monetárias**
 
 
-* **Disposição geral**
+* Disposição geral
 
 
   * Art. 404.
@@ -11157,7 +11155,7 @@ Não são dedutíveis, para fins de determinação do lucro real, os lucros ou o
 As variações monetárias de que trata esta Subseção serão consideradas, para fins da legislação do imposto sobre a renda, como receitas ou despesas financeiras, conforme o caso (Lei nº 9.718, de 1998, art. 9º) .
 
 
-* **Variações ativas em função de índices ou coeficientes**
+* Variações ativas em função de índices ou coeficientes
 
 
   * Art. 405.
@@ -11165,7 +11163,7 @@ As variações monetárias de que trata esta Subseção serão consideradas, par
 Na determinação do lucro operacional, deverão ser incluídas, de acordo com o regime de competência, as contrapartidas das variações monetárias, em função de índices ou coeficientes aplicáveis, por disposição legal ou contratual, dos direitos de crédito do contribuinte, assim como os ganhos monetários realizados no pagamento de obrigações ( Decreto-Lei nº 1.598, de 1977, art. 18, caput; e Lei nº 9.718, de 1998, art. 9º) .
 
 
-* **Variações passivas em função de índices ou coeficientes**
+* Variações passivas em função de índices ou coeficientes
 
 
   * Art. 406.
@@ -11173,7 +11171,7 @@ Na determinação do lucro operacional, deverão ser incluídas, de acordo com o
 Na determinação do lucro operacional, poderão ser deduzidas as contrapartidas de variações monetárias de obrigações e perdas monetárias na realização de créditos ( Decreto-Lei nº 1.598, de 1977, art. 18, parágrafo único ; e Lei nº 9.718, de 1998, art. 9º) .
 
 
-* **Variações ativas e passivas em função da taxa de câmbio**
+* Variações ativas e passivas em função da taxa de câmbio
 
 
   * Art. 407.
@@ -11228,7 +11226,7 @@ As variações monetárias dos direitos de crédito e das obrigações do contri
 As variações monetárias em razão da taxa de câmbio referentes aos saldos de valores a apropriar decorrentes de ajuste a valor presente de que tratam os art. 412 e art. 413 não serão computadas para fins de determinação do lucro real (Lei nº 12.973, de 2014, art. 12) .
 
 
-* **Variações cambiais ativas e passivas**
+* Variações cambiais ativas e passivas
 
 
   * Art. 409.
@@ -11293,7 +11291,7 @@ O prêmio na emissão de debêntures não será computado na determinação do l
 
 
 
-* **Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição: prêmio na emissão de debêntures**
+* Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição: prêmio na emissão de debêntures
 
 
   * Art. 411.
@@ -11380,7 +11378,7 @@ Os lucros ou os dividendos recebidos pela pessoa jurídica, em decorrência de p
 As ações ou as quotas bonificadas recebidas sem custo pela pessoa jurídica não importarão modificação no valor pelo qual a participação societária estiver registrada no ativo, nem serão computadas para fins de determinação do lucro real ( Decreto-Lei nº 1.598, de 1977, art. 11, § 3º ).
 
 
-* **Lucros ou dividendos recebidos**
+* Lucros ou dividendos recebidos
 
 
   * Art. 418.
@@ -11397,7 +11395,7 @@ Os lucros ou os dividendos calculados com base nos resultados apurados a partir 
 
 
 
-* **Disposição transitória quanto ao Regime Tributário de Transição**
+* Disposição transitória quanto ao Regime Tributário de Transição
 
 
   * Art. 419.
@@ -11408,7 +11406,7 @@ Os lucros ou os dividendos calculados com base nos resultados apurados entre 1º
 * **Subseção VI - Do investimento em sociedades avaliado pelo valor de patrimônio líquido**
 
 
-* **Dever de avaliar pelo valor de patrimônio líquido**
+* Dever de avaliar pelo valor de patrimônio líquido
 
 
   * Art. 420.
@@ -11444,7 +11442,7 @@ Serão avaliados pelo valor de patrimônio líquido os investimentos da pessoa j
 
 
 
-* **Desdobramento do custo de aquisição**
+* Desdobramento do custo de aquisição
 
 
   * Art. 421.
@@ -11491,7 +11489,7 @@ O contribuinte que avaliar investimento pelo valor de patrimônio líquido dever
 
 
 
-* **Redução da mais ou menos-valia e do goodwill**
+* Redução da mais ou menos-valia e do goodwill
 
 
   * Art. 422.
@@ -11500,7 +11498,7 @@ A contrapartida da redução dos valores de que tratam os incisos II e III do ca
 Parágrafo único. Concomitantemente à redução, na escrituração comercial, dos valores de que tratam os incisos II e III do caput do art. 421 , será mantido controle no Lalur, para fins de determinação do ganho ou da perda de capital na alienação ou na liquidação do investimento, observado o disposto no art. 507 .
 
 
-* **Avaliação do investimento**
+* Avaliação do investimento
 
 
   * Art. 423.
@@ -11527,7 +11525,7 @@ Em cada balanço, o contribuinte deverá avaliar o investimento pelo valor de pa
 Parágrafo único. Na hipótese prevista no inciso VI do caput , o patrimônio será apurado de acordo com a legislação correspondente do país de domicílio, ajustado de forma a eliminar as diferenças relevantes decorrentes da diversidade de critérios conforme disposto no inciso II do caput ( Decreto-Lei nº 1.598, de 1977, art. 21 ).
 
 
-* **Disposição transitória quanto à avaliação do investimento no Regime Tributário de Transição**
+* Disposição transitória quanto à avaliação do investimento no Regime Tributário de Transição
 
 
   * Art. 424.
@@ -11536,7 +11534,7 @@ Para os anos-calendário de 2008 a 2014, o contribuinte poderá avaliar o invest
 Parágrafo único. No ano-calendário de 2014, a opção de que trata o caput fica restrita às pessoas jurídicas sujeitas ao RTT (Lei nº 12.973, de 2014, art. 74, parágrafo único) .
 
 
-* **Ajuste do valor contábil do investimento**
+* Ajuste do valor contábil do investimento
 
 
   * Art. 425.
@@ -11558,7 +11556,7 @@ O valor do investimento na data do balanço de que trata o inciso I do caput do 
 
 
 
-* **Contrapartida do ajuste do valor do patrimônio líquido**
+* Contrapartida do ajuste do valor do patrimônio líquido
 
 
   * Art. 426.
@@ -11575,7 +11573,7 @@ A contrapartida do ajuste de que trata o art. 425 , por aumento ou redução no 
 
 
 
-* **Aquisição de participação societária em estágios**
+* Aquisição de participação societária em estágios
 
 
   * Art. 427.
@@ -11617,7 +11615,7 @@ Na hipótese de aquisição de controle de outra empresa na qual se detinha part
 
 
 
-* **Avaliação a valor justo de ativo ou passivo da investida**
+* Avaliação a valor justo de ativo ou passivo da investida
 
 
   * Art. 428.
@@ -11673,7 +11671,7 @@ A contrapartida do ajuste negativo na participação societária, mensurada pelo
 
 
 
-* **Disposição transitória quanto à reavaliação de bens na investida**
+* Disposição transitória quanto à reavaliação de bens na investida
 
 
   * Art. 430.
@@ -11703,7 +11701,7 @@ O valor da reserva de reavaliação constituída nos termos estabelecidos no § 
 
 
 
-* **Incorporação, fusão ou cisão referente à mais-valia**
+* Incorporação, fusão ou cisão referente à mais-valia
 
 
   * Art. 431.
@@ -11752,7 +11750,7 @@ Nas hipóteses de incorporação, fusão ou cisão, o saldo existente na contabi
 
 
 
-* **Incorporação, fusão ou cisão referente à menos-valia**
+* Incorporação, fusão ou cisão referente à menos-valia
 
 
   * Art. 432.
@@ -11801,7 +11799,7 @@ Nas hipóteses de incorporação, fusão ou cisão, o saldo existente na contabi
 
 
 
-* **Incorporação, fusão ou cisão referente ao goodwill**
+* Incorporação, fusão ou cisão referente ao goodwill
 
 
   * Art. 433.
@@ -11840,7 +11838,7 @@ A pessoa jurídica que absorver patrimônio de outra em decorrência de incorpor
 
 
 
-* **Incorporação, fusão ou cisão referente ao ganho por compra vantajosa**
+* Incorporação, fusão ou cisão referente ao ganho por compra vantajosa
 
 
   * Art. 434.
@@ -11849,7 +11847,7 @@ A pessoa jurídica que absorver patrimônio de outra em decorrência de incorpor
 Parágrafo único. O disposto neste artigo aplica-se inclusive quando a empresa incorporada, fusionada ou cindida for aquela que detinha a propriedade da participação societária (Lei nº 12.973, de 2014, art. 24) .
 
 
-* **Incorporação, fusão ou cisão referente às partes dependentes**
+* Incorporação, fusão ou cisão referente às partes dependentes
 
 
   * Art. 435.
@@ -11873,7 +11871,7 @@ Para fins do disposto nos art. 431 e art. 433 , consideram-se partes dependentes
 Parágrafo único. Na hipótese de participação societária adquirida em estágios, a relação de dependência entre o alienante e o adquirente de que trata este artigo deverá ser verificada no ato da primeira aquisição, desde que as condições do negócio estejam previstas no instrumento negocial (Lei nº 12.973, de 2014, art. 25, parágrafo único) .
 
 
-* **Incorporação, fusão ou cisão referente à participação societária adquirida em estágios**
+* Incorporação, fusão ou cisão referente à participação societária adquirida em estágios
 
 
   * Art. 436.
@@ -11897,7 +11895,7 @@ Na hipótese prevista no art. 427 , caso ocorra incorporação, fusão ou cisão
 Parágrafo único. Excetuadas as hipóteses previstas nos incisos II e III do caput , aplica-se ao saldo existente na contabilidade, na data da aquisição da participação societária, referente à mais ou menos-valia e ao ágio por rentabilidade futura ( goodwill ) de que tratam os incisos II e III do caput do art. 421 , o disposto nos art. 431 ao art. 433 (Lei nº 12.973, de 2014, art. 38, parágrafo único) .
 
 
-* **Incorporação, fusão ou cisão referente a estágios**
+* Incorporação, fusão ou cisão referente a estágios
 
 
   * Art. 437.
@@ -11942,7 +11940,7 @@ Nas incorporações, nas fusões ou nas cisões de empresa não controlada na qu
 
 
 
-* **Incorporação, fusão ou cisão ocorrida até 31 de dezembro de 2017**
+* Incorporação, fusão ou cisão ocorrida até 31 de dezembro de 2017
 
 
   * Art. 438.
@@ -12071,7 +12069,7 @@ Para fins de determinação da base de cálculo do imposto sobre a renda, os res
 * **Subseção I - Disposições gerais**
 
 
-* **Lucros, rendimentos e ganhos de capital**
+* Lucros, rendimentos e ganhos de capital
 
 
   * Art. 446.
@@ -12174,7 +12172,7 @@ Os lucros, os rendimentos e os ganhos de capital auferidos no exterior serão co
 
 
 
-* **Subcontas**
+* Subcontas
 
 
   * Art. 447.
@@ -12234,7 +12232,7 @@ A parcela do ajuste do valor do investimento em controlada, direta ou indireta, 
 
 
 
-* **Consolidação de resultados**
+* Consolidação de resultados
 
 
   * Art. 449.
@@ -12307,7 +12305,7 @@ O disposto nesta Subseção aplica-se à coligada equiparada à controladora nos
 * **Subseção III - Das coligadas**
 
 
-* **Regime de caixa**
+* Regime de caixa
 
 
   * Art. 452.
@@ -12375,7 +12373,7 @@ Os lucros auferidos por intermédio de coligada domiciliada no exterior serão c
 
 
 
-* **Regime de competência**
+* Regime de competência
 
 
   * Art. 453.
@@ -12710,7 +12708,7 @@ Serão computados, para fins de determinação do lucro real, os resultados líq
 ###### Seção II - Das pessoas jurídicas estrangeiras
 
 
-* **Autorizadas a funcionar no País**
+* Autorizadas a funcionar no País
 
 
   * Art. 467.
@@ -12733,7 +12731,7 @@ As pessoas jurídicas domiciliadas no exterior e autorizadas a funcionar no Paí
 
 
 
-* **Comitentes domiciliados no exterior**
+* Comitentes domiciliados no exterior
 
 
   * Art. 468.
@@ -12757,7 +12755,7 @@ Parágrafo único. O disposto neste artigo aplica-se aos rendimentos auferidos p
 
 
 
-* **Venda direta por meio de mandatário**
+* Venda direta por meio de mandatário
 
 
   * Art. 469.
@@ -12913,7 +12911,7 @@ A pessoa jurídica que tenha por objeto a exploração da atividade rural pagar�
 ###### Seção IX - Dos contratos a longo prazo
 
 
-* **Produção em longo prazo**
+* Produção em longo prazo
 
 
   * Art. 478.
@@ -12942,7 +12940,7 @@ Na apuração do resultado de contratos com prazo de execução superior a um an
 
 
 
-* **Produção em curto prazo**
+* Produção em curto prazo
 
 
   * Art. 479.
@@ -12950,7 +12948,7 @@ Na apuração do resultado de contratos com prazo de execução superior a um an
 O disposto no art. 478 não se aplica às construções ou aos fornecimentos contratados com base em preço unitário de quantidades de bens ou serviços produzidos em prazo inferior a um ano, cujo resultado deverá ser reconhecido à medida da execução ( Decreto-Lei nº 1.598, de 1977, art. 10, § 2º ).
 
 
-* **Contratos com entidades governamentais**
+* Contratos com entidades governamentais
 
 
   * Art. 480.
@@ -12981,7 +12979,7 @@ Na hipótese de empreitada ou fornecimento contratado, nas condições estabelec
 ###### Seção X - Da compra e da venda, do loteamento, da incorporação, da construção e da reforma de imóveis
 
 
-* **Determinação do custo**
+* Determinação do custo
 
 
   * Art. 481.
@@ -13001,7 +12999,7 @@ O contribuinte que comprar imóvel para venda ou promover empreendimento de desm
 
 
 
-* **Apuração do lucro bruto**
+* Apuração do lucro bruto
 
 
   * Art. 482.
@@ -13009,7 +13007,7 @@ O contribuinte que comprar imóvel para venda ou promover empreendimento de desm
 O lucro bruto na venda de cada unidade será apurado e reconhecido quando contratada a venda, ainda que por meio de instrumento de promessa, ou quando implementada a condição suspensiva a que estiver sujeita a venda ( Decreto-Lei nº 1.598, de 1977, art. 27, § 1º ).
 
 
-* **Venda anterior ao término do empreendimento**
+* Venda anterior ao término do empreendimento
 
 
   * Art. 483.
@@ -13031,7 +13029,7 @@ Se a venda for contratada antes de completado o empreendimento, o contribuinte p
 
 
 
-* **Venda a prazo ou em prestações**
+* Venda a prazo ou em prestações
 
 
   * Art. 484.
@@ -13060,7 +13058,7 @@ Na venda a prazo, ou em prestações, com pagamento após o término do período
 
 
 
-* **Permuta que envolva unidades imobiliárias**
+* Permuta que envolva unidades imobiliárias
 
 
   * Art. 485.
@@ -13069,7 +13067,7 @@ Na hipótese de operações de permuta que envolvam unidades imobiliárias, a pa
 Parágrafo único. O disposto no caput será disciplinado pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda ( Decreto-Lei nº 1.598, de 1977, art. 27, § 4º ).
 
 
-* **Regime especial de tributação aplicável às incorporações imobiliárias**
+* Regime especial de tributação aplicável às incorporações imobiliárias
 
 
   * Art. 486.
@@ -13160,7 +13158,7 @@ Para cada incorporação submetida ao regime especial de tributação, a incorpo
 O incorporador fica obrigado a manter escrituração contábil segregada para cada incorporação submetida ao regime especial de tributação (Lei nº 10.931, de 2004, art. 7º) .
 
 
-* **Regime especial de tributação aplicável à construção ou à reforma de estabelecimentos de educação infantil**
+* Regime especial de tributação aplicável à construção ou à reforma de estabelecimentos de educação infantil
 
 
   * Art. 491.
@@ -13253,7 +13251,7 @@ A opção pelo regime especial de tributação previsto no art. 491 obriga o con
 A construtora fica obrigada a manter escrituração contábil segregada para cada obra submetida ao regime especial de tributação (Lei nº 12.715, de 2012, art. 27) .
 
 
-* **Pagamento unificado de tributos aplicável às construções no âmbito do Programa Minha Casa, Minha Vida**
+* Pagamento unificado de tributos aplicável às construções no âmbito do Programa Minha Casa, Minha Vida
 
 
   * Art. 495.
@@ -13349,7 +13347,7 @@ Na hipótese de contrato de concessão de serviços públicos, o lucro decorrent
 Parágrafo único. Para fins dos pagamentos mensais determinados sobre a base de cálculo estimada a que se refere o art. 213 , a concessionária poderá considerar como receita o montante efetivamente recebido ( Lei nº 12.973, de 2014, art. 36, parágrafo único) .
 
 
-* **Aportes de recursos nas parcerias público-privadas**
+* Aportes de recursos nas parcerias público-privadas
 
 
   * Art. 500.
@@ -13404,7 +13402,7 @@ Serão classificados como ganhos ou perdas de capital e computados, para fins de
 
 
 
-* **Devolução de capital em bens ou direitos**
+* Devolução de capital em bens ou direitos
 
 
   * Art. 502.
@@ -13425,7 +13423,7 @@ Parágrafo único. Caso o contribuinte tenha reconhecido o lucro na escrituraç�
 * **Subseção III - Dos ganhos em desapropriação**
 
 
-* **Diferimento da tributação**
+* Diferimento da tributação
 
 
   * Art. 504.
@@ -13451,7 +13449,7 @@ O contribuinte poderá diferir a tributação do ganho de capital obtido na desa
 
 
 
-* **Desapropriação para fins de reforma agrária**
+* Desapropriação para fins de reforma agrária
 
 
   * Art. 505.
@@ -13578,7 +13576,7 @@ As disposições contidas nesta Seção aplicam-se somente aos saldos da reserva
 * **Subseção I - Da reserva de reavaliação de bens**
 
 
-* **Tributação na realização**
+* Tributação na realização
 
 
   * Art. 516.
@@ -13646,7 +13644,7 @@ Não serão computadas, para fins de determinação do lucro real, as importânc
 Parágrafo único. O prejuízo na venda de ações em tesouraria não será dedutível para fins de determinação do lucro real ( Decreto-Lei nº 1.598, de 1977, art. 38, § 1º ).
 
 
-* **Encargos com emissão de ações ou bônus de subscrição**
+* Encargos com emissão de ações ou bônus de subscrição
 
 
   * Art. 521.
@@ -13654,7 +13652,7 @@ Parágrafo único. O prejuízo na venda de ações em tesouraria não será dedu
 Os custos associados às transações destinadas à obtenção de recursos próprios, por meio da distribuição primária de ações ou bônus de subscrição contabilizados no patrimônio líquido, poderão ser excluídos, para fins de determinação do lucro real, quando incorridos ( Decreto-Lei nº 1.598, de 1977, art. 38-A ).
 
 
-* **Encargos referentes a instrumentos de capital ou de dívida subordinada**
+* Encargos referentes a instrumentos de capital ou de dívida subordinada
 
 
   * Art. 522.
@@ -13708,7 +13706,7 @@ As subvenções para investimento, inclusive por meio de isenção ou de reduç�
 
 
 
-* **Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição**
+* Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição
 
 
   * Art. 524.
@@ -13793,7 +13791,7 @@ Presume-se distribuição disfarçada de lucros no negócio pelo qual a pessoa j
 
 
 
-* **Pessoas ligadas e valor de mercado**
+* Pessoas ligadas e valor de mercado
 
 
   * Art. 529.
@@ -13829,7 +13827,7 @@ Considera-se pessoa ligada à pessoa jurídica ( Decreto-Lei nº 1.598, de 1977,
 
 
 
-* **Distribuição a sócio ou acionista controlador por intermédio de terceiros**
+* Distribuição a sócio ou acionista controlador por intermédio de terceiros
 
 
   * Art. 530.
@@ -13869,7 +13867,7 @@ O disposto no art. 531 aplica-se aos lucros disfarçadamente distribuídos e nã
 ##### CAPÍTULO IX - DOS INCENTIVOS A ATIVIDADES CULTURAIS OU ARTÍSTICAS
 
 
-* **Doação**
+* Doação
 
 
   * Art. 533.
@@ -13893,7 +13891,7 @@ Parágrafo único. Equiparam-se a doações, nos termos do regulamento do Pronac
 
 
 
-* **Patrocínio**
+* Patrocínio
 
 
   * Art. 534.
@@ -13908,7 +13906,7 @@ Considera-se patrocínio (Lei nº 8.313, de 1991, art. 23, caput, inciso II) :
 Parágrafo único. O recebimento, pelo patrocinador, de qualquer vantagem financeira ou material em decorrência do patrocínio que efetuar constitui infração sujeita às sanções previstas neste Regulamento (Lei nº 8.313, de 1991, art. 23, § 1º) .
 
 
-* **Vedações**
+* Vedações
 
 
   * Art. 535.
@@ -13987,7 +13985,7 @@ A pessoa jurídica tributada com base no lucro real poderá deduzir do imposto s
 
 
 
-* **Doação e patrocínio a projetos culturais de segmentos específicos**
+* Doação e patrocínio a projetos culturais de segmentos específicos
 
 
   * Art. 538.
@@ -14028,7 +14026,7 @@ Na forma e nas condições previstas no caput do art. 537 , a pessoa jurídica t
 
 
 
-* **Doação e patrocínio aos demais projetos culturais**
+* Doação e patrocínio aos demais projetos culturais
 
 
   * Art. 539.
@@ -14042,14 +14040,14 @@ As doações ou os patrocínios efetuados pela pessoa jurídica tributada com ba
 
 
 
-* **§ 1º A dedução não poderá exceder, em cada período de apuração, a quatro por cento do imposto sobre a renda devido, observado o disposto no art. 556 (Lei nº 8.313, de 1991, art. 26, caput; e Lei nº 9.532, de 1997, art. 5º ).**
+* § 1º A dedução não poderá exceder, em cada período de apuração, a quatro por cento do imposto sobre a renda devido, observado o disposto no art. 556 (Lei nº 8.313, de 1991, art. 26, caput; e Lei nº 9.532, de 1997, art. 5º ).
 
 
   - **§ 2º** Sem prejuízo da dedução do imposto sobre a renda devido nos limites de que tratam o caput e o § 1º, a pessoa jurídica tributada com base no lucro real poderá deduzir integralmente o valor das doações e dos patrocínios como despesa operacional (Lei nº 8.313, de 1991, art. 26, § 1º ; e Lei nº 9.249, de 1995, art. 13, § 2º, inciso I ).
 
 
 
-* **Doação e patrocínio a projetos culturais decorrentes do exterior**
+* Doação e patrocínio a projetos culturais decorrentes do exterior
 
 
   * Art. 540.
@@ -14057,7 +14055,7 @@ As doações ou os patrocínios efetuados pela pessoa jurídica tributada com ba
 Os projetos produzidos com os recursos da opção por aplicar o valor correspondente a três por cento do valor do pagamento, do crédito, do emprego, da remessa ou da entrega aos produtores, aos distribuidores ou aos intermediários no exterior, de que trata o inciso X do caput do art. 39 da Medida Provisória nº 2.228-1, de 2001 , poderão utilizar os incentivos na forma prevista nos art. 538 e art. 539 ( Medida Provisória nº 2.228-1, de 2001, art. 39, caput, inciso X, e § 6º ).
 
 
-* **Patrimônio artístico, cultural e histórico da Rede Ferroviária Federal S.A.**
+* Patrimônio artístico, cultural e histórico da Rede Ferroviária Federal S.A.
 
 
   * Art. 541.
@@ -14072,7 +14070,7 @@ Parágrafo único. O disposto no caput será promovido por meio de (Lei nº 11.4
 
 
 
-* **Possibilidade de utilização concomitante de incentivos**
+* Possibilidade de utilização concomitante de incentivos
 
 
   * Art. 542.
@@ -14080,7 +14078,7 @@ Parágrafo único. O disposto no caput será promovido por meio de (Lei nº 11.4
 Os projetos que receberem os incentivos previstos no Capítulo X deste Título poderão usufruir os benefícios previstos neste Capítulo, desde que enquadrados em seus objetivos, limitado o total desses incentivos a noventa e cinco por cento do total do orçamento aprovado pela Ancine (Lei nº 8.685, de 1993, art. 4º, § 5º) .
 
 
-* **Intermediação**
+* Intermediação
 
 
   * Art. 543.
@@ -14089,7 +14087,7 @@ Nenhuma aplicação dos recursos previstos neste Capítulo poderá ser feita por
 Parágrafo único. A contratação de serviços necessários à elaboração de projetos para obtenção de doação, patrocínio ou investimento e a captação de recursos ou a sua execução por pessoa jurídica de natureza cultural não configura intermediação referida neste artigo (Lei nº 8.313, de 1991, art. 28, parágrafo único) .
 
 
-* **Fiscalização**
+* Fiscalização
 
 
   * Art. 544.
@@ -14098,7 +14096,7 @@ Compete à Secretaria da Receita Federal do Brasil do Ministério da Fazenda a f
 Parágrafo único. As entidades incentivadoras e captadoras dos recursos previstos neste Capítulo deverão comunicar, na forma estabelecida pelos Ministros de Estado da Fazenda e da Cultura, os aportes financeiros realizados e recebidos, e as entidades captadoras deverão efetuar a comprovação de sua aplicação (Lei nº 8.313, de 1991, art. 21) .
 
 
-* **Infrações**
+* Infrações
 
 
   * Art. 545.
@@ -14121,7 +14119,7 @@ As infrações ao disposto neste Capítulo, sem prejuízo das sanções penais c
 ###### Seção I - Dos investimentos e dos patrocínios a projetos de obras audiovisuais
 
 
-* **Investimentos**
+* Investimentos
 
 
   * Art. 546.
@@ -14153,7 +14151,7 @@ Até o exercício financeiro de 2017, inclusive, as pessoas jurídicas poderão 
 
 
 
-* **Patrocínio**
+* Patrocínio
 
 
   * Art. 547.
@@ -14185,7 +14183,7 @@ Até o ano-calendário de 2017, inclusive, as pessoas jurídicas tributadas com 
 
 
 
-* **Abatimento**
+* Abatimento
 
 
   * Art. 548.
@@ -14199,7 +14197,7 @@ Os contribuintes do imposto sobre a renda incidente na fonte de que tratam o § 
 
 
 
-* **Doação e patrocínio a projetos audiovisuais decorrentes do exterior**
+* Doação e patrocínio a projetos audiovisuais decorrentes do exterior
 
 
   * Art. 549.
@@ -14207,7 +14205,7 @@ Os contribuintes do imposto sobre a renda incidente na fonte de que tratam o § 
 Os projetos produzidos com os recursos da opção por aplicar o valor correspondente a três por cento do valor do pagamento, do crédito, do emprego, da remessa ou da entrega aos produtores, aos distribuidores ou aos intermediários no exterior, de que trata o inciso X do caput do art. 39 da Medida Provisória nº 2.228-1, de 2001 , poderão utilizar a dedução do imposto sobre a renda devido, relativamente aos investimentos e aos patrocínios, observado o disposto nos art. 546 e art. 547 ( Medida Provisória nº 2.228-1, de 2001, art. 39, caput, inciso X, e § 6º ).
 
 
-* **Depósito em conta especial**
+* Depósito em conta especial
 
 
   * Art. 550.
@@ -14233,7 +14231,7 @@ O contribuinte que optar pelo uso dos incentivos previstos no art. 546 ao art. 5
 
 
 
-* **Não aplicação de depósitos**
+* Não aplicação de depósitos
 
 
   * Art. 551.
@@ -14291,7 +14289,7 @@ O descumprimento dos projetos executados com os recursos recebidos do FNC alocad
 
 
 
-* **Possibilidade de utilização concomitante de incentivos**
+* Possibilidade de utilização concomitante de incentivos
 
 
   * Art. 555.
@@ -14489,7 +14487,7 @@ A pessoa jurídica poderá usufruir dos seguintes incentivos fiscais, desde que 
 
 
 
-* **Transferências a microempresas e empresas de pequeno porte**
+* Transferências a microempresas e empresas de pequeno porte
 
 
   * Art. 565.
@@ -14511,7 +14509,7 @@ Poderão ser deduzidas como despesas operacionais, na forma estabelecida no inci
 
 
 
-* **Exclusões do lucro líquido**
+* Exclusões do lucro líquido
 
 
   * Art. 566.
@@ -14608,7 +14606,7 @@ A pessoa jurídica poderá excluir do lucro líquido, para fins de apuração do
 
 
 
-* **Exclusão do saldo não depreciado ou não amortizado**
+* Exclusão do saldo não depreciado ou não amortizado
 
 
   * Art. 568.
@@ -14625,7 +14623,7 @@ Para fins do disposto nesta Seção, os valores relativos aos dispêndios incorr
 
 
 
-* **Controle contábil em contas específicas**
+* Controle contábil em contas específicas
 
 
   * Art. 569.
@@ -14644,7 +14642,7 @@ Os dispêndios e os pagamentos de que tratam o art. 564 ao art. 568 (Lei nº 11.
 O gozo dos benefícios fiscais de que tratam o art. 564 ao art. 568 fica condicionado à comprovação da regularidade fiscal da pessoa jurídica (Lei nº 11.196, de 2005, art. 23) .
 
 
-* **Descumprimento das obrigações**
+* Descumprimento das obrigações
 
 
   * Art. 571.
@@ -14652,7 +14650,7 @@ O gozo dos benefícios fiscais de que tratam o art. 564 ao art. 568 fica condici
 O descumprimento de obrigação assumida para obtenção dos incentivos de que tratam o art. 564 ao art. 569 e a utilização indevida dos incentivos fiscais neles referidos implicam perda do direito aos incentivos ainda não utilizados e o recolhimento do valor correspondente aos tributos não pagos em decorrência dos incentivos já utilizados, acrescidos de juros e multa, de mora ou de ofício, previstos na legislação tributária, sem prejuízo das sanções penais cabíveis (Lei nº 11.196, de 2005, art. 24) .
 
 
-* **Atividades de informática e automação**
+* Atividades de informática e automação
 
 
   * Art. 572.
@@ -14679,7 +14677,7 @@ O disposto nesta Seção não se aplica às pessoas jurídicas que utilizarem os
 
 
 
-* **Pessoas jurídicas instaladas em Zona de Processamento de Exportação**
+* Pessoas jurídicas instaladas em Zona de Processamento de Exportação
 
 
   * Art. 573.
@@ -14697,7 +14695,7 @@ Parágrafo único. O contribuinte que utilizar o benefício a que se refere o ca
 ###### Seção II - Dos incentivos ao desenvolvimento de tecnologia da informação e da automação e da indústria de semicondutores
 
 
-* **Empresas dos setores de tecnologia da informação e de tecnologia da informação e da comunicação**
+* Empresas dos setores de tecnologia da informação e de tecnologia da informação e da comunicação
 
 
   * Art. 575.
@@ -14705,10 +14703,10 @@ Parágrafo único. O contribuinte que utilizar o benefício a que se refere o ca
 As empresas dos setores de tecnologia da informação e de tecnologia da informação e da comunicação poderão excluir do lucro líquido os custos e as despesas com capacitação de pessoal que atua no desenvolvimento de programas de computador ( software ), para fins de apuração do lucro real, sem prejuízo da dedução normal (Lei nº 11.774, de 17 de setembro de 2008, art. 13-A, caput ) .
 
 
-* **Parágrafo único. A exclusão de que trata o caput fica limitada ao valor do lucro real antes da própria exclusão, vedado o aproveitamento de eventual excesso em período de apuração posterior (Lei nº 11.774, de 2008, art. 13-A, parágrafo único) .**
+* Parágrafo único. A exclusão de que trata o caput fica limitada ao valor do lucro real antes da própria exclusão, vedado o aproveitamento de eventual excesso em período de apuração posterior (Lei nº 11.774, de 2008, art. 13-A, parágrafo único) .
 
 
-* **Pessoa jurídica beneficiária do Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores**
+* Pessoa jurídica beneficiária do Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores
 
 
   * Art. 576.
@@ -14901,7 +14899,7 @@ A partir do ano-calendário de 2013 e até o ano-calendário de 2021, inclusive,
 ##### CAPÍTULO XIV - DA COMPENSAÇÃO DE PREJUÍZOS FISCAIS
 
 
-* **Disposições gerais**
+* Disposições gerais
 
 
   * Art. 579.
@@ -14918,7 +14916,7 @@ O prejuízo compensável é o apurado na demonstração do lucro real e registra
 
 
 
-* **Prejuízos fiscais acumulados**
+* Prejuízos fiscais acumulados
 
 
   * Art. 580.
@@ -14927,7 +14925,7 @@ O prejuízo fiscal poderá ser compensado com o lucro líquido ajustado pelas ad
 Parágrafo único. O disposto neste artigo somente se aplica às pessoas jurídicas que mantiverem os livros e os documentos exigidos pela legislação fiscal comprobatórios do montante do prejuízo fiscal utilizado para compensação (Lei nº 9.065, de 1995, art. 15, parágrafo único) .
 
 
-* **Prejuízos não operacionais**
+* Prejuízos não operacionais
 
 
   * Art. 581.
@@ -14936,7 +14934,7 @@ Os prejuízos decorrentes da alienação de bens e direitos do ativo imobilizado
 Parágrafo único. O disposto no caput não se aplica em relação às perdas provenientes de baixa de bens ou direitos em decorrência de terem se tornado imprestáveis ou obsoletos ou terem caído em desuso, ainda que posteriormente venham a ser alienados como sucata (Lei nº 12.973, de 2014, art. 43, parágrafo único) .
 
 
-* **Disposição transitória quanto aos prejuízos não operacionais**
+* Disposição transitória quanto aos prejuízos não operacionais
 
 
   * Art. 582.
@@ -14944,7 +14942,7 @@ Parágrafo único. O disposto no caput não se aplica em relação às perdas pr
 O saldo de prejuízos não operacionais formado durante a vigência do art. 31 da Lei nº 9.249, de 1995 , e não utilizado até a data a que se refere o caput ou o § 1º do art. 211 somente poderá ser compensado com os lucros a que se refere o art. 581 , observado o limite previsto no art. 580 (Lei nº 12.973, de 2014, art. 70) .
 
 
-* **Atividade rural**
+* Atividade rural
 
 
   * Art. 583.
@@ -14952,7 +14950,7 @@ O saldo de prejuízos não operacionais formado durante a vigência do art. 31 d
 O prejuízo apurado pela pessoa jurídica na exploração de atividade rural poderá ser compensado com o resultado positivo obtido na mesma atividade em períodos de apuração posteriores, desconsiderado o limite previsto no caput do art. 580 ( Lei nº 8.023, de 1990, art. 14 ).
 
 
-* **Mudança de controle societário e de ramo de atividade**
+* Mudança de controle societário e de ramo de atividade
 
 
   * Art. 584.
@@ -14960,7 +14958,7 @@ O prejuízo apurado pela pessoa jurídica na exploração de atividade rural pod
 A pessoa jurídica não poderá compensar os seus próprios prejuízos fiscais se, entre a data da apuração e da compensação, houver ocorrido, cumulativamente, modificação do seu controle societário e do ramo de atividade ( Decreto-Lei nº 2.341, de 29 de junho de 1987, art. 32 ).
 
 
-* **Incorporação, fusão ou cisão**
+* Incorporação, fusão ou cisão
 
 
   * Art. 585.
@@ -14969,7 +14967,7 @@ A pessoa jurídica sucessora por incorporação, fusão ou cisão não poderá c
 Parágrafo único. Na hipótese de cisão parcial, a pessoa jurídica cindida poderá compensar os seus próprios prejuízos, proporcionalmente à parcela remanescente do patrimônio líquido ( Decreto-Lei nº 2.341, de 1987, art. 33, parágrafo único ).
 
 
-* **Sociedade em conta de participação**
+* Sociedade em conta de participação
 
 
   * Art. 586.
@@ -14984,7 +14982,7 @@ Parágrafo único. É vedada a compensação de prejuízos fiscais e lucros entr
 ##### CAPÍTULO I - DISPOSIÇÕES GERAIS
 
 
-* **Pessoas jurídicas autorizadas a optar**
+* Pessoas jurídicas autorizadas a optar
 
 
   * Art. 587.
@@ -15022,7 +15020,7 @@ As pessoas jurídicas de que tratam os incisos I, III, IV e V do caput do art. 2
 Parágrafo único. Na hipótese prevista no caput , as pessoas jurídicas a que se refere o inciso III do caput do art. 257 deverão adicionar os lucros, os rendimentos e os ganhos de capital oriundos do exterior ao lucro presumido (Lei nº 9.964, de 2000, art. 4º, parágrafo único) .
 
 
-* **Início de atividade**
+* Início de atividade
 
 
   * Art. 590.
@@ -15030,7 +15028,7 @@ Parágrafo único. Na hipótese prevista no caput , as pessoas jurídicas a que 
 A pessoa jurídica que houver iniciado atividade a partir do segundo trimestre manifestará a opção com o pagamento da primeira ou da quota única do imposto sobre a renda devido relativa ao período de apuração correspondente ao início de atividade ( Lei nº 9.430, de 1996, art. 26, § 2º ).
 
 
-* **Base de cálculo**
+* Base de cálculo
 
 
   * Art. 591.
@@ -15147,7 +15145,7 @@ Nas seguintes atividades, o percentual de que trata o caput do art. 591 será de
 
 
 
-* **Mudança do lucro real para o lucro presumido**
+* Mudança do lucro real para o lucro presumido
 
 
   * Art. 593.
@@ -15155,7 +15153,7 @@ Nas seguintes atividades, o percentual de que trata o caput do art. 591 será de
 A pessoa jurídica que, até o ano-calendário anterior, houver sido tributada com base no lucro real deverá adicionar à base de cálculo do imposto sobre a renda, correspondente ao primeiro período de apuração no qual houver optado pela tributação com base no lucro presumido, os saldos dos valores cuja tributação havia diferido, independentemente da necessidade de controle na parte “B” do Lalur ( Lei nº 9.430, de 1996, art. 54 ).
 
 
-* **Mudança do lucro presumido para o lucro real**
+* Mudança do lucro presumido para o lucro real
 
 
   * Art. 594.
@@ -15250,7 +15248,7 @@ Os ganhos de capital, os rendimentos e os ganhos líquidos auferidos em aplicaç
 
 
 
-* **Custo do bem na alienação de imóvel rural**
+* Custo do bem na alienação de imóvel rural
 
 
   * Art. 596.
@@ -15259,7 +15257,7 @@ Para fins de apuração de ganho de capital, considera-se custo de aquisição e
 Parágrafo único. Na apuração de ganho de capital correspondente a imóvel rural adquirido anteriormente a 1º de janeiro de 1997, será considerado como custo de aquisição o valor constante da escritura pública, observado o disposto no parágrafo único do art. 146 (Lei nº 9.393, de 1996, art. 19, parágrafo único) .
 
 
-* **Custo de aquisição na hipótese de recebimento de quotas ou ações**
+* Custo de aquisição na hipótese de recebimento de quotas ou ações
 
 
   * Art. 597.
@@ -15267,7 +15265,7 @@ Parágrafo único. Na apuração de ganho de capital correspondente a imóvel ru
 Na hipótese de quotas ou ações distribuídas em decorrência de aumento de capital por incorporação de lucros apurados a partir do mês de janeiro de 1996, ou de reservas constituídas com esses lucros, o custo de aquisição será igual à parcela do lucro ou da reserva capitalizados, que corresponder ao sócio ou ao acionista ( Lei nº 9.249, de 1995, art. 10, § 1º ).
 
 
-* **Programa Nacional de Desestatização**
+* Programa Nacional de Desestatização
 
 
   * Art. 598.
@@ -15357,7 +15355,7 @@ O imposto sobre a renda, devido trimestralmente, no decorrer do ano-calendário,
 ##### CAPÍTULO II - DA BASE DE CÁLCULO
 
 
-* **Arbitramento pelo contribuinte**
+* Arbitramento pelo contribuinte
 
 
   * Art. 604.
@@ -15371,7 +15369,7 @@ Quando conhecida a receita bruta, de que trata o art. 208 , e desde que ocorrida
 
 
 
-* **Base de cálculo quando conhecida a receita bruta**
+* Base de cálculo quando conhecida a receita bruta
 
 
   * Art. 605.
@@ -15428,7 +15426,7 @@ O lucro arbitrado das pessoas jurídicas, quando conhecida a receita bruta, ser�
 
 
 
-* **Instituições financeiras**
+* Instituições financeiras
 
 
   * Art. 606.
@@ -15436,7 +15434,7 @@ O lucro arbitrado das pessoas jurídicas, quando conhecida a receita bruta, ser�
 Nas atividades desenvolvidas por bancos comerciais, bancos de investimentos, bancos de desenvolvimento, caixas econômicas, sociedades de crédito, financiamento e investimento, sociedades de crédito imobiliário, sociedades corretoras de títulos, valores mobiliários e câmbio, distribuidoras de títulos e valores mobiliários, empresas de arrendamento mercantil, cooperativas de crédito, empresas de seguros privados e de capitalização e entidades de previdência privada aberta, o percentual para fins de determinação do lucro arbitrado será de quarenta e cinco por cento (Lei nº 9.718, de 1998, art. 14, caput , inciso II ; Lei nº 9.249, de 1995, art. 16, parágrafo único ; e Lei nº 9.430, de 1996, art. 27, caput, inciso I ).
 
 
-* **Empresas imobiliárias**
+* Empresas imobiliárias
 
 
   * Art. 607.
@@ -15453,7 +15451,7 @@ As pessoas jurídicas que se dedicarem à venda de imóveis construídos ou adqu
 
 
 
-* **Base de cálculo quando não conhecida a receita bruta**
+* Base de cálculo quando não conhecida a receita bruta
 
 
   * Art. 608.
@@ -15633,7 +15631,7 @@ Parágrafo único. Na hipótese de pessoa jurídica com atividades diversificada
 ##### CAPÍTULO V - DISPOSIÇÕES DIVERSAS
 
 
-* **Penalidades**
+* Penalidades
 
 
   * Art. 611.
@@ -15641,7 +15639,7 @@ Parágrafo único. Na hipótese de pessoa jurídica com atividades diversificada
 O arbitramento do lucro não exclui a aplicação das penalidades cabíveis.
 
 
-* **Vendas diretas do exterior**
+* Vendas diretas do exterior
 
 
   * Art. 612.
@@ -15732,10 +15730,10 @@ O contribuinte deverá, para fins tributários, reconhecer e mensurar os ativos,
 ##### Capítulo V - Disposições Transitórias
 
 
-* **Seção única**
+* Seção única
 
 
-* **Adoção inicial ao disposto no art. 1º, no art. 2º e no art. 4º ao art. 71 da Lei nº 12.973, de 2014**
+* Adoção inicial ao disposto no art. 1º, no art. 2º e no art. 4º ao art. 71 da Lei nº 12.973, de 2014
 
 
   * Art. 618.
@@ -15745,7 +15743,7 @@ Parágrafo único. As participações societárias de caráter permanente serão
 Subseção I
 
 
-* **Ajustes quanto ao lucro real**
+* Ajustes quanto ao lucro real
 
 
   * Art. 619.
@@ -15814,7 +15812,7 @@ A parcela do lucro real, presumido ou arbitrado que exceder o valor resultante d
 
 
 
-* **Irredutibilidade**
+* Irredutibilidade
 
 
   * Art. 625.
@@ -15867,7 +15865,7 @@ Considera-se lucro da exploração o lucro líquido do período de apuração, o
 ##### CAPÍTULO I - DOS INCENTIVOS FISCAIS ÀS EMPRESAS INSTALADAS NA ÁREA DE ATUAÇÃO DA SUPERINTENDÊNCIA DO DESENVOLVIMENTO DO NORDESTE
 
 
-* **Área de atuação da Superintendência do Desenvolvimento do Nordeste**
+* Área de atuação da Superintendência do Desenvolvimento do Nordeste
 
 
   * Art. 627.
@@ -15888,13 +15886,13 @@ A área de atuação da Sudene abrange ( Lei Complementar nº 125, de 2007, art.
 Parágrafo único. Os Municípios criados, ou que venham a sê-lo, por desmembramento dos entes municipais integrantes da área de atuação da Sudene de que trata o caput , serão igualmente considerados como integrantes de sua área de atuação ( Lei Complementar nº 125, de 2007, art. 2º, parágrafo único ).
 
 
-* **Seção única**
+* Seção única
 
 
-* **Da redução e da isenção do imposto sobre a renda dos projetos de instalação, modernização, ampliação ou diversificação de empreendimentos**
+* Da redução e da isenção do imposto sobre a renda dos projetos de instalação, modernização, ampliação ou diversificação de empreendimentos
 
 
-* **Instalação de empreendimentos prioritários protocolizados e aprovados a partir de 25 de agosto de 2000**
+* Instalação de empreendimentos prioritários protocolizados e aprovados a partir de 25 de agosto de 2000
 
 
   * Art. 628.
@@ -15931,7 +15929,7 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do an
 
 
 
-* **Projetos de modernização, ampliação ou diversificação prioritários protocolizados e aprovados a partir de 25 de agosto de 2000**
+* Projetos de modernização, ampliação ou diversificação prioritários protocolizados e aprovados a partir de 25 de agosto de 2000
 
 
   * Art. 629.
@@ -15980,7 +15978,7 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do an
 
 
 
-* **Demonstração do lucro do empreendimento**
+* Demonstração do lucro do empreendimento
 
 
   * Art. 630.
@@ -15995,7 +15993,7 @@ Se a pessoa jurídica mantiver atividades não consideradas como prioritárias p
 Parágrafo único. Na hipótese de o sistema de contabilidade adotado pela pessoa jurídica não oferecer condições para apuração do lucro por atividade, este poderá ser estabelecido com base na relação entre as receitas líquidas das atividades incentivadas e a receita líquida total, observado o disposto no art. 554 .
 
 
-* **Pedido de redução**
+* Pedido de redução
 
 
   * Art. 632.
@@ -16007,7 +16005,7 @@ CAPÍTULO II
 ###### DOS INCENTIVOS FISCAIS ÀS EMPRESAS INSTALADAS NA ÁREA DE ATUAÇÃO DA SUPERINTENDÊNCIA DO DESENVOLVIMENTO DA AMAZÔNIA
 
 
-* **Área de atuação da Superintendência do Desenvolvimento da Amazônia**
+* Área de atuação da Superintendência do Desenvolvimento da Amazônia
 
 
   * Art. 633.
@@ -16017,10 +16015,10 @@ Parágrafo único. Os Estados e os Municípios criados por desmembramento dos Es
 Seção única
 
 
-* **Da redução e da isenção do imposto sobre a renda dos projetos de instalação, modernização, ampliação ou diversificação de empreendimentos**
+* Da redução e da isenção do imposto sobre a renda dos projetos de instalação, modernização, ampliação ou diversificação de empreendimentos
 
 
-* **Instalação de empreendimentos prioritários protocolizados e aprovados a partir de 25 de agosto de 2000**
+* Instalação de empreendimentos prioritários protocolizados e aprovados a partir de 25 de agosto de 2000
 
 
   * Art. 634.
@@ -16057,7 +16055,7 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do an
 
 
 
-* **Projetos de modernização, ampliação ou diversificação prioritários protocolizados e aprovados a partir de 25 de agosto de 2000**
+* Projetos de modernização, ampliação ou diversificação prioritários protocolizados e aprovados a partir de 25 de agosto de 2000
 
 
   * Art. 635.
@@ -16106,7 +16104,7 @@ Sem prejuízo das demais normas em vigor aplicáveis à matéria, a partir do an
 
 
 
-* **Demonstração do lucro do empreendimento**
+* Demonstração do lucro do empreendimento
 
 
   * Art. 636.
@@ -16128,7 +16126,7 @@ A pessoa jurídica titular de empreendimento beneficiado na Amazônia, na forma 
 
 
 
-* **Pedido de redução**
+* Pedido de redução
 
 
   * Art. 637.
@@ -16150,7 +16148,7 @@ As isenções e as reduções de que trata este Capítulo não impedem a aplica�
 Parágrafo único. A partir de 29 de novembro de 2013, data de publicação da Medida Provisória nº 628, de 28 de novembro de 2013 , é vedada a possibilidade de aplicação das deduções de que trata o caput no Funres.
 
 
-* **Pessoas jurídicas instaladas em Zona de Processamento de Exportação**
+* Pessoas jurídicas instaladas em Zona de Processamento de Exportação
 
 
   * Art. 640.
@@ -16197,7 +16195,7 @@ Para a execução dos PAT, a pessoa jurídica beneficiária poderá manter servi
 Subseção II
 
 
-* **Das despesas abrangidas pelo incentivo**
+* Das despesas abrangidas pelo incentivo
 
 
   * Art. 644.
@@ -16255,7 +16253,7 @@ A pessoa jurídica deverá destacar contabilmente, com subtítulos por natureza 
 Subseção IV
 
 
-* **Do descumprimento ao Programa de Alimentação do Trabalhador**
+* Do descumprimento ao Programa de Alimentação do Trabalhador
 
 
   * Art. 647.
@@ -16360,7 +16358,7 @@ A pessoa jurídica tributada com base no lucro real que tiver projetos aprovados
 * **Subseção II - Dos fundos de investimentos**
 
 
-* **Disposições gerais**
+* Disposições gerais
 
 
   * Art. 654.
@@ -16369,7 +16367,7 @@ As deduções do imposto sobre a renda feitas em conformidade com o disposto nes
 Parágrafo único. A partir de 29 de novembro de 2013, data de publicação da Medida Provisória nº 628, de 2013 , é vedada a possibilidade de aplicação das deduções de que trata este artigo no Funres.
 
 
-* **Fundo de Investimentos do Nordeste**
+* Fundo de Investimentos do Nordeste
 
 
   * Art. 655.
@@ -16391,7 +16389,7 @@ Parágrafo único. A partir de 29 de novembro de 2013, data de publicação da M
 Subseção III
 
 
-* **Dos limites das aplicações**
+* Dos limites das aplicações
 
 
   * Art. 658.
@@ -16452,10 +16450,10 @@ O direito à aplicação em incentivos fiscais previstos neste Regulamento será
 Subseção IV
 
 
-* **Dos procedimentos de aplicação**
+* Dos procedimentos de aplicação
 
 
-* **Opção e recolhimento do incentivo**
+* Opção e recolhimento do incentivo
 
 
   * Art. 660.
@@ -16502,7 +16500,7 @@ Sem prejuízo do limite conjunto para as aplicações de que trata o art. 658 , 
 
 
 
-* **Destinação de parte da aplicação ao Programa de Integração Nacional e ao Programa de Redistribuição de Terras e de Estímulo à Agroindústria do Norte e do Nordeste**
+* Destinação de parte da aplicação ao Programa de Integração Nacional e ao Programa de Redistribuição de Terras e de Estímulo à Agroindústria do Norte e do Nordeste
 
 
   * Art. 661.
@@ -16516,7 +16514,7 @@ Até 31 de dezembro de 2017, das quantias correspondentes às opções para apli
 
 
 
-* **Certificados de investimentos**
+* Certificados de investimentos
 
 
   * Art. 662.
@@ -16553,7 +16551,7 @@ A Secretaria da Receita Federal do Brasil do Ministério da Fazenda, com base na
 Não serão consideradas, para fins de cálculo das ordens de emissão de certificados de investimentos, as opções inferiores a R$ 8,28 (oito reais e vinte e oito centavos) ( Decreto-Lei nº 1.752, de 1979, art. 2º ; e Lei nº 9.249, de 1995, art. 30 ).
 
 
-* **Conversão em títulos**
+* Conversão em títulos
 
 
   * Art. 664.
@@ -16562,7 +16560,7 @@ Os certificados de investimentos poderão ser convertidos, por meio de leilões 
 Parágrafo único. Os certificados de investimentos de que trata este artigo poderão ser escriturais, mantidos em conta de depósito junto aos bancos operadores (Lei nº 8.167, de 1991, art. 8º, § 3º).
 
 
-* **Destinação a projeto próprio**
+* Destinação a projeto próprio
 
 
   * Art. 665.
@@ -16646,7 +16644,7 @@ As agências de desenvolvimento regional e os bancos operadores assegurarão às
 
 
 
-* **Intransferibilidade de investimento**
+* Intransferibilidade de investimento
 
 
   * Art. 666.
@@ -17011,7 +17009,7 @@ Dos rendimentos do trabalho
 * **Subseção I**
 
 
-* **Do trabalho assalariado**
+* Do trabalho assalariado
 
 Pagos por pessoa física ou jurídica
 

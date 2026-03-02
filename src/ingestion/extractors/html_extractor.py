@@ -567,16 +567,20 @@ class HTMLExtractor(BaseExtractor):
             clean_title = re.sub(r"\s*\((?:Incluído|Redação|Revogado|Acrescido)[^)]*\)", "", clean_title, flags=re.I).strip()
             clean_title = re.sub(r"\s+Produção de efeitos.*$", "", clean_title).strip()
             
-            # ── Para artigos, manter apenas "Art. Xº" sem o conteúdo ────────
-            art_match = re.match(r"(Art\.?\s*\d+[º°]?(?:-[A-Z])?)\s*.*", clean_title, re.I)
-            if art_match:
-                clean_title = art_match.group(1)
-            elif len(clean_title) > 100:
+            # ── Verificar se é artigo ANTES de truncar ────────
+            is_article = _is_article_start(clean_title)
+            
+            # ── Para artigos REAIS, manter apenas "Art. Xº" sem o conteúdo ────────
+            if is_article:
+                art_match = re.match(r"(Art\.?\s*\d+[º°]?(?:-[A-Z])?)\s*.*", clean_title, re.I)
+                if art_match:
+                    clean_title = art_match.group(1)
+            # Não truncar títulos estruturais importantes
+            elif len(clean_title) > 100 and not re.match(r"^(LIVRO|TÍTULO|CAPÍTULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O)\s+", clean_title, re.I):
                 clean_title = clean_title[:97] + "…"
 
             # ── Remapear níveis (mesma lógica do save_to_markdown) ──────────
             md_level = 0
-            is_article = bool(re.match(r"Art\.?\s*\d+", clean_title, re.I))
             is_anexo = bool(re.match(r"ANEXO.*REGULAMENTO|REGULAMENTO", clean_title, re.I))
 
             # Preâmbulo: artigos ANTES do first_structural_idx
@@ -600,10 +604,15 @@ class HTMLExtractor(BaseExtractor):
                         md_level = 5  # Capítulos #####
                 elif raw_level == 4:  # Seção
                     md_level = 6
-                elif raw_level == 5:  # Subseção
+                elif raw_level == 5:  # Subseção / TpicodeSeo
+                    # TpicodeSeo sempre é nível 7 (subtítulo ou Subseção)
                     md_level = 7
                 elif raw_level == 6:  # Artigo
-                    md_level = 7
+                    # Apenas se for realmente um artigo (não uma referência legislativa)
+                    if is_article:
+                        md_level = 7
+                    else:
+                        md_level = 0  # Referência legislativa não entra no esquema
                 else:
                     md_level = raw_level
             else:
@@ -620,16 +629,21 @@ class HTMLExtractor(BaseExtractor):
         out += ["<details>", "<summary>📋 Esquema da Legislação</summary>", ""]
 
         for lvl, title in headings:
-            # Detectar se é artigo
-            is_article_heading = bool(re.match(r"Art\.?\s*\d+", title, re.I))
+            # Detectar se é artigo REAL (não referência legislativa)
+            is_article_heading = _is_article_start(title)
+            is_subsecao = bool(re.match(r"^SUBSE[ÇC][ÃA]O\s+", title, re.I))
             
             if lvl <= 6:
                 hashes = "#" * lvl
                 out.append(f"{hashes} {title}")
             elif lvl == 7:
-                # Artigos sempre com indentação, Subseções sem
+                # Artigos sempre com indentação
                 if is_article_heading:
                     out.append(f"  * {title}")
+                # Subseções com negrito
+                elif is_subsecao:
+                    out.append(f"* **{title}**")
+                # Outros (subtítulos TpicodeSeo) sem negrito
                 else:
                     out.append(f"* {title}")
             elif lvl == 8:
@@ -744,7 +758,7 @@ class HTMLExtractor(BaseExtractor):
             #   ######### → Alínea a), b), c)
 
             md_level = 0
-            is_article = bool(re.match(r"Art\.?\s*\d+", title, re.I))
+            is_article = _is_article_start(title)
             is_anexo = bool(re.match(r"ANEXO|REGULAMENTO", title, re.I))
 
             # Preâmbulo: artigos antes da estrutura principal
@@ -768,10 +782,16 @@ class HTMLExtractor(BaseExtractor):
                         md_level = 5  # Capítulos #####
                 elif raw_level == 4:  # Seção
                     md_level = 6
-                elif raw_level == 5:  # Subseção
+                elif raw_level == 5:  # Subseção / TpicodeSeo
+                    # Se parece com artigo mas não é (referência), ainda renderiza como subtítulo
+                    # TpicodeSeo sempre md_level = 7 (subtítulo com *)
                     md_level = 7
                 elif raw_level == 6:  # Artigo
-                    md_level = 7
+                    # Apenas se for realmente um artigo (não uma referência legislativa)
+                    if is_article:
+                        md_level = 7
+                    else:
+                        md_level = 0  # Referência legislativa vira corpo de texto
                 else:
                     md_level = raw_level  # fallback
 
@@ -788,15 +808,15 @@ class HTMLExtractor(BaseExtractor):
                 if md_level <= 6:
                     lines += ["", f"{'#' * md_level} {title}", ""]
                 elif md_level == 7:
-                    # Se é Subseção, sem indentação
+                    # Se é Subseção, com negrito
                     if is_subsecao:
                         lines += ["", f"* **{title}**", ""]
                     # Se é Artigo, SEMPRE com indentação de 2 espaços
                     elif is_article:
                         lines += ["", f"  * {title}", ""]
-                    # Outros níveis 7, sem indentação
+                    # Outros níveis 7 (subtítulos TpicodeSeo), sem negrito
                     else:
-                        lines += ["", f"* **{title}**", ""]
+                        lines += ["", f"* {title}", ""]
                 elif md_level == 8:
                     lines += ["", f"  - **{title}**", ""]
                 elif md_level == 9:
@@ -941,7 +961,31 @@ def _get_element_text(el) -> str:
 
 
 def _is_article_start(text: str) -> bool:
-    return bool(re.match(r"^\s*Art\.?\s*\d+[º°]?", text, re.I))
+    """Verifica se o texto começa com Art. e é um artigo real, não uma referência."""
+    if not re.match(r"^\s*Art\.?\s*\d+[º°]?", text, re.I):
+        return False
+    
+    # Extrair o que vem depois de "Art. Xº"
+    m = re.match(r"^\s*Art\.?\s*\d+[º°]?(?:-[A-Z])?\.?\s*(.*)", text, re.DOTALL | re.I)
+    if not m:
+        return True  # Apenas "Art. X" sem nada, é artigo
+    
+    resto = m.group(1).strip()
+    
+    # Se está vazio ou começa com maiúscula/texto normal, é artigo
+    if not resto or (resto and resto[0].isupper() and not resto.startswith(',')):
+        return True
+    
+    # Se começa com vírgula, é uma referência legislativa, não um artigo
+    if resto.startswith(','):
+        return False
+    
+    # Se contém múltiplas referências a artigos antes de um ponto (e.g. "art. 2º e art. 4º ao art. 71"), 
+    # é lista de referências
+    if re.match(r'^[^.]*\bart\.\s*\d+', resto, re.I):
+        return False
+    
+    return True
 
 
 def _split_article_head(text: str) -> Tuple[str, str]:
