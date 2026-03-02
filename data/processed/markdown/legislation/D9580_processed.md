@@ -5,7 +5,7 @@
 
 - **Arquivo**: `D9580.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 16:40
+- **Processado em**: 02/03/2026 16:48
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -44,1684 +44,1684 @@
 ###### Seção III - Do espólio
 * Art. 9º
 * Subseção I - Da declaração de ajuste anual
-* Art. 10.
-* Art. 11.
+* Art. 10
+* Art. 11
 * Subseção II - Do cálculo do imposto sobre a renda
-* Art. 12.
+* Art. 12
 ###### Seção IV - Dos bens em condomínio
-* Art. 13.
+* Art. 13
 ###### Seção V - Da transferência de residência para o exterior
 * Subseção I - Da saída do País em caráter definitivo
-* Art. 14.
+* Art. 14
 * Subseção II - Dos ausentes no exterior a serviço do País
-* Art. 15.
+* Art. 15
 ###### Seção VI - Da transferência de residência para o País
 * Subseção I - Dos portadores de visto permanente
-* Art. 16.
+* Art. 16
 * Subseção II - Dos portadores de visto temporário
-* Art. 17.
+* Art. 17
 * Subseção III - Da transferência e do retorno no mesmo ano-calendário
-* Art. 18.
-* Art. 19.
+* Art. 18
+* Art. 19
 ###### Seção VII - Dos servidores de representações estrangeiras e de organismos internacionais
-* Art. 20.
+* Art. 20
 ##### CAPÍTULO III - DOS RESPONSÁVEIS
 ###### Seção I - Da responsabilidade dos sucessores
-* Art. 21.
+* Art. 21
 ###### Seção II - Da responsabilidade de terceiros
-* Art. 22.
-* Art. 23.
-* Art. 24.
+* Art. 22
+* Art. 23
+* Art. 24
 ###### Seção III - Da responsabilidade de menores
-* Art. 25.
+* Art. 25
 #### TÍTULO II - DO DOMICÍLIO FISCAL
 ##### CAPÍTULO I - DO DOMICÍLIO DA PESSOA FÍSICA
-* Art. 26.
-* Art. 27.
+* Art. 26
+* Art. 27
 ##### CAPÍTULO II - DA TRANSFERÊNCIA DE DOMICÍLIO
-* Art. 28.
-* Art. 29.
-* Art. 30.
+* Art. 28
+* Art. 29
+* Art. 30
 ##### CAPÍTULO III - DOS RESIDENTES NO EXTERIOR
-* Art. 31.
+* Art. 31
 #### TÍTULO III - DA INSCRIÇÃO NO CADASTRO DE PESSOAS FÍSICAS
-* Art. 32.
+* Art. 32
 #### TÍTULO IV - DO RENDIMENTO BRUTO
 ##### CAPÍTULO I - DISPOSIÇÕES GERAIS
-* Art. 33.
-* Art. 34.
+* Art. 33
+* Art. 34
 ##### CAPÍTULO II - DOS RENDIMENTOS ISENTOS OU NÃO TRIBUTÁVEIS
-* Art. 35.
+* Art. 35
 ##### CAPÍTULO III - DOS RENDIMENTOS TRIBUTÁVEIS
 ###### Seção I - Dos rendimentos do trabalho assalariado e assemelhados
 * Subseção I - Dos rendimentos do trabalho assalariado, de dirigentes e conselheiros de empresas, d…
-* Art. 36.
+* Art. 36
 * Subseção II - Dos ausentes no exterior a serviço do País
-* Art. 37.
+* Art. 37
 ###### Seção II - Dos rendimentos do trabalho não assalariado e assemelhados
 * Subseção I - Dos rendimentos diversos
-* Art. 38.
+* Art. 38
 * Subseção II - Da prestação de serviços com veículos
-* Art. 39.
+* Art. 39
 * Subseção III - Dos garimpeiros
-* Art. 40.
+* Art. 40
 ###### Seção III - Dos rendimentos de aluguel e dos royalties
 * Subseção I - Dos aluguéis ou do arrendamento
-* Art. 41.
+* Art. 41
 * Subseção II - Das exclusões na hipótese de aluguel de imóveis
-* Art. 42.
+* Art. 42
 * Subseção III - Da emissão de recibo
-* Art. 43.
+* Art. 43
 * Subseção IV - Dos royalties
-* Art. 44.
+* Art. 44
 * Subseção V - Disposições comuns
-* Art. 45.
+* Art. 45
 ###### Seção IV - Dos alimentos e da pensão
-* Art. 46.
+* Art. 46
 ###### Seção V - Dos demais rendimentos
-* Art. 47.
+* Art. 47
 ###### Seção VI - Dos rendimentos recebidos acumuladamente
-* Art. 48.
-* Art. 49.
+* Art. 48
+* Art. 49
 ###### Seção VII - Dos rendimentos da atividade rural
-* Art. 50.
+* Art. 50
 * Subseção I - Da definição
-* Art. 51.
+* Art. 51
 * Subseção II - Dos arrendatários, dos condôminos e dos parceiros
-* Art. 52.
+* Art. 52
 * Subseção III - Das formas de apuração
-* Art. 53.
+* Art. 53
 * Subseção IV - Da receita bruta
-* Art. 54.
+* Art. 54
 * Subseção V - Das despesas de custeio e investimentos
-* Art. 55.
+* Art. 55
 * Subseção VI - Do resultado da atividade rural
-* Art. 56.
-* Art. 57.
+* Art. 56
+* Art. 57
 * Subseção VII - Da compensação de prejuízos
-* Art. 58.
-* Art. 59.
+* Art. 58
+* Art. 59
 * Subseção VIII - Da apuração do resultado tributável
-* Art. 60.
-* Art. 61.
+* Art. 60
+* Art. 61
 * Subseção IX - Da atividade rural exercida no exterior
-* Art. 62.
+* Art. 62
 * Subseção X - Do resultado presumido
-* Art. 63.
+* Art. 63
 * Subseção XI - Do residente no exterior
-* Art. 64.
+* Art. 64
 ###### Seção VIII - Da atualização monetária dos rendimentos
-* Art. 65.
+* Art. 65
 #### TÍTULO V - DAS DEDUÇÕES
 ##### CAPÍTULO I - DISPOSIÇÕES GERAIS
-* Art. 66.
+* Art. 66
 ##### CAPÍTULO II - DA DEDUÇÃO MENSAL DO RENDIMENTO TRIBUTÁVEL
 ###### Seção I - Das contribuições previdenciárias
-* Art. 67.
+* Art. 67
 ###### Seção II - Das despesas escrituradas no livro-caixa
-* Art. 68.
-* Art. 69.
+* Art. 68
+* Art. 69
 * Subseção única - Da dedução de despesas com informatização pelos titulares de serviços de registr…
-* Art. 70.
+* Art. 70
 ###### Seção III - Dos dependentes
-* Art. 71.
+* Art. 71
 ###### Seção IV - Da pensão alimentícia
-* Art. 72.
+* Art. 72
 ##### CAPÍTULO III - DA DEDUÇÃO NA DECLARAÇÃO DE AJUSTE ANUAL
 ###### Seção I - Das despesas médicas
-* Art. 73.
+* Art. 73
 ###### Seção II - Das despesas com instrução
-* Art. 74.
+* Art. 74
 ###### Das contribuições previdenciárias e aos Fundos de Aposentadoria Programada Individual
-* Art. 75.
+* Art. 75
 #### TÍTULO VI - DA BASE DE CÁLCULO DO IMPOSTO SOBRE A RENDA NA DECLARAÇÃO
-* Art. 76.
+* Art. 76
 ##### CAPÍTULO ÚNICO
 ##### DO DESCONTO SIMPLIFICADO
-* Art. 77.
+* Art. 77
 #### TÍTULO VII - DO CÁLCULO DO SALDO DO IMPOSTO SOBRE A RENDA
-* Art. 78.
+* Art. 78
 ##### CAPÍTULO I - DA APURAÇÃO ANUAL DO IMPOSTO SOBRE A RENDA
-* Art. 79.
-* Art. 80.
-* Art. 81.
-* Art. 82.
+* Art. 79
+* Art. 80
+* Art. 81
+* Art. 82
 ###### Seção única
 ###### Do espólio e da saída definitiva do País
-* Art. 83.
+* Art. 83
 ##### CAPÍTULO II - DAS DEDUÇÕES DO IMPOSTO SOBRE A RENDA APURADO
 ###### Seção I - Dos incentivos às atividades culturais ou artísticas
-* Art. 84.
+* Art. 84
 * Subseção I - Dos projetos beneficiados com incentivos de fomento à atividade audiovisual
-* Art. 85.
+* Art. 85
 * Subseção II - Da aprovação dos projetos
-* Art. 86.
+* Art. 86
 * Subseção III - Das doações
-* Art. 87.
+* Art. 87
 * Subseção IV - Dos patrocínios
-* Art. 88.
+* Art. 88
 * Subseção V - Das vedações
-* Art. 89.
+* Art. 89
 * Subseção VI - Da fiscalização dos incentivos
-* Art. 90.
+* Art. 90
 * Subseção VII - Das infrações
-* Art. 91.
-* Art. 92.
+* Art. 91
+* Art. 92
 ###### Seção II - Dos incentivos às atividades audiovisuais
-* Art. 93.
+* Art. 93
 * Subseção I - Dos projetos específicos
-* Art. 94.
+* Art. 94
 * Subseção II - Do depósito em conta bancária do valor da dedução
-* Art. 95.
+* Art. 95
 * Subseção III - Do descumprimento do projeto
-* Art. 96.
-* Art. 97.
+* Art. 96
+* Art. 97
 ###### Seção III - Das contribuições aos Fundos dos Direitos da Criança e do Adolescente
-* Art. 98.
-* Art. 99.
+* Art. 98
+* Art. 99
 * Subseção única - Da prestação de informação
-* Art. 100.
-* Art. 101.
+* Art. 100
+* Art. 101
 ###### Seção IV - Das contribuições aos Fundos do Idoso
-* Art. 102.
+* Art. 102
 * Subseção única - Da prestação de informação
-* Art. 103.
+* Art. 103
 ###### Seção V - Do incentivo a projetos desportivos e paradesportivos
-* Art. 104.
-* Art. 105.
-* Art. 106.
-* Art. 107.
+* Art. 104
+* Art. 105
+* Art. 106
+* Art. 107
 * Subseção I - Das vedações
-* Art. 108.
+* Art. 108
 * Subseção II - Das infrações
-* Art. 109.
+* Art. 109
 * Subseção III - Da prestação de informação
-* Art. 110.
+* Art. 110
 ###### Seção VI - Da contribuição patronal paga à previdência social pelo empregador doméstico
-* Art. 111.
-* Art. 112.
+* Art. 111
+* Art. 112
 * Subseção única - Da prestação de informação
-* Art. 113.
+* Art. 113
 ###### Seção VII
-* Art. 114.
+* Art. 114
 ##### CAPÍTULO III - DO IMPOSTO SOBRE A RENDA PAGO NO EXTERIOR
-* Art. 115.
+* Art. 115
 ##### CAPÍTULO IV - DO PRAZO DE RECOLHIMENTO
 ###### Seção I - Disposições gerais
-* Art. 116.
+* Art. 116
 ###### Seção II - Do espólio e da saída definitiva do País
-* Art. 117.
+* Art. 117
 #### TÍTULO VIII - DO RECOLHIMENTO MENSAL OBRIGATÓRIO
 ##### CAPÍTULO I - DA INCIDÊNCIA
-* Art. 118.
-* Art. 119.
-* Art. 120.
+* Art. 118
+* Art. 119
+* Art. 120
 ##### CAPÍTULO II - DA BASE DE CÁLCULO
-* Art. 121.
+* Art. 121
 ##### CAPÍTULO III - DA APURAÇÃO DO IMPOSTO SOBRE A RENDA
-* Art. 122.
+* Art. 122
 ##### CAPÍTULO IV - DO PRAZO PARA RECOLHIMENTO
-* Art. 123.
+* Art. 123
 #### TÍTULO IX - DO RECOLHIMENTO COMPLEMENTAR
-* Art. 124.
+* Art. 124
 ##### CAPÍTULO I - DA BASE DE CÁLCULO
-* Art. 125.
+* Art. 125
 ##### CAPÍTULO II - DA APURAÇÃO DA COMPLEMENTAÇÃO
-* Art. 126.
-* Art. 127.
+* Art. 126
+* Art. 127
 #### TÍTULO X - DA TRIBUTAÇÃO DEFINITIVA
 ##### CAPÍTULO I - DOS GANHOS DE CAPITAL NA ALIENAÇÃO DE BENS OU DIREITOS
 ###### Seção I - Da incidência
-* Art. 128.
-* Art. 129.
+* Art. 128
+* Art. 129
 * Subseção única - Da herança, do legado ou da doação em adiantamento da legítima e da dissolução d…
-* Art. 130.
+* Art. 130
 ###### Seção II - Da não incidência e da isenção
-* Art. 131.
-* Art. 132.
-* Art. 133.
+* Art. 131
+* Art. 132
+* Art. 133
 ###### Seção III - Do valor de alienação
-* Art. 134.
+* Art. 134
 * Subseção única - Do arbitramento do valor ou do preço
-* Art. 135.
+* Art. 135
 ###### Seção IV - Do custo de aquisição
-* Art. 136.
-* Art. 137.
-* Art. 138.
-* Art. 139.
-* Art. 140.
-* Art. 141.
+* Art. 136
+* Art. 137
+* Art. 138
+* Art. 139
+* Art. 140
+* Art. 141
 * Subseção I - Das participações societárias adquiridas em decorrência de integralização de capital…
-* Art. 142.
-* Art. 143.
+* Art. 142
+* Art. 143
 * Subseção III - Dos bens adquiridos por meio de arrendamento mercantil
-* Art. 144.
+* Art. 144
 * Subseção IV - Do custo de participações societárias adquiridas com incorporação de lucros e reservas
-* Art. 145.
+* Art. 145
 * Subseção V - Do custo na alienação de imóvel rural
-* Art. 146.
+* Art. 146
 * Subseção VI - Do Programa Nacional de Desestatização
-* Art. 147.
+* Art. 147
 ###### Seção V - Da apuração do ganho de capital
-* Art. 148.
+* Art. 148
 * Subseção I - Da redução do ganho de capital apurado
-* Art. 149.
+* Art. 149
 * Subseção II - Da redução do ganho de capital nas alienações ocorridas a partir de 14 de outubro d…
-* Art. 150.
-* Art. 151.
-* Art. 152.
+* Art. 150
+* Art. 151
+* Art. 152
 ###### Seção VI - Do cálculo do imposto sobre a renda e do prazo de recolhimento
-* Art. 153.
+* Art. 153
 ##### CAPÍTULO II - DOS GANHOS DE CAPITAL NA ALIENAÇÃO DE BENS, DIREITOS E RESGATES DE APLICAÇÕES FINAN…
-* Art. 154.
+* Art. 154
 ##### CAPÍTULO III - DA DEVOLUÇÃO DE PATRIMÔNIO DE ENTIDADE ISENTA
-* Art. 155.
+* Art. 155
 ##### CAPÍTULO IV - da incidência sobre o valor DOS BENS REPATRIADOS
-* Art. 156.
+* Art. 156
 ##### CAPÍTULO V - DAS OPERAÇÕES FINANCEIRAS NOS MERCADOS DE RENDA VARIÁVEL
-* Art. 157.
+* Art. 157
 ### LIVRO II - DA TRIBUTAÇÃO DAS PESSOAS JURÍDICAS
 #### TÍTULO I - DOS CONTRIBUINTES
-* Art. 158.
+* Art. 158
 ##### CAPÍTULO I - DAS PESSOAS JURÍDICAS
-* Art. 159.
+* Art. 159
 ###### Seção única
 ###### Da sociedade em conta de participação
-* Art. 160.
-* Art. 161.
+* Art. 160
+* Art. 161
 ##### CAPÍTULO II - DAS EMPRESAS INDIVIDUAIS
 ###### Seção I - Da caracterização
-* Art. 162.
+* Art. 162
 ###### Seção II - Das empresas individuais imobiliárias
 * Subseção I - Da caracterização
 * Incorporação e loteamento
-* Art. 163.
+* Art. 163
 * Incorporação ou loteamento sem registro
-* Art. 164.
+* Art. 164
 * Desmembramento de imóvel rural
-* Art. 165.
+* Art. 165
 * Aquisição e alienação
-* Art. 166.
+* Art. 166
 * Condomínios
-* Art. 167.
+* Art. 167
 * Subseção II - Do início da equiparação
 * Momento de determinação
-* Art. 168.
-* Art. 169.
+* Art. 168
+* Art. 169
 * Início da aplicação do regime fiscal
-* Art. 170.
+* Art. 170
 * Não subsistência da equiparação
-* Art. 171.
+* Art. 171
 * Obrigações acessórias
-* Art. 172.
+* Art. 172
 * Subseção III - Da determinação do resultado
 * Resultados e rendimentos compreendidos
-* Art. 173.
+* Art. 173
 * Rendimentos excluídos
-* Art. 174.
+* Art. 174
 * Valor de incorporação de imóveis
-* Art. 175.
+* Art. 175
 * Distribuição do lucro
-* Art. 176.
+* Art. 176
 * Subseção IV - Do término da equiparação
-* Art. 177.
+* Art. 177
 ##### CAPÍTULO III - DAS IMUNIDADES, DAS ISENÇÕES E DAS NÃO INCIDÊNCIAS
 ###### Seção I - Disposições gerais
-* Art. 178.
+* Art. 178
 ###### Seção II - Das imunidades
 * Templos de qualquer culto
-* Art. 179.
+* Art. 179
 * Partidos políticos e entidades sindicais dos trabalhadores
-* Art. 180.
+* Art. 180
 * Instituições de educação e de assistência social
-* Art. 181.
-* Art. 182.
+* Art. 181
+* Art. 182
 ###### Seção III - Da suspensão da imunidade
-* Art. 183.
+* Art. 183
 ###### Seção IV - Das isenções
 * Subseção I - Das associações e das fundações
-* Art. 184.
+* Art. 184
 * Subseção II - Do Programa Universidade para Todos
-* Art. 185.
+* Art. 185
 * Subseção III - Das entidades de previdência complementar
-* Art. 186.
+* Art. 186
 * Subseção IV - Das empresas estrangeiras de transportes
-* Art. 187.
+* Art. 187
 * Subseção V - Das associações de poupança e empréstimo
-* Art. 188.
+* Art. 188
 * Subseção VI - Das sociedades de investimento com participação de capital estrangeiro
-* Art. 189.
-* Art. 190.
+* Art. 189
+* Art. 190
 * Subseção VII - Das isenções específicas
-* Art. 191.
+* Art. 191
 * Subseção VIII - Do reconhecimento da isenção
-* Art. 192.
+* Art. 192
 ###### Seção V - Das sociedades cooperativas
 * Não incidência
-* Art. 193.
+* Art. 193
 * Incidência
-* Art. 194.
+* Art. 194
 * Cooperativas de consumo
-* Art. 195.
+* Art. 195
 #### TÍTULO II - DOS RESPONSÁVEIS
 ##### CAPÍTULO I - DA RESPONSABILIDADE DOS SUCESSORES
-* Art. 196.
-* Art. 197.
-* Art. 198.
-* Art. 199.
+* Art. 196
+* Art. 197
+* Art. 198
+* Art. 199
 ##### CAPÍTULO II - DA RESPONSABILIDADE DE TERCEIROS
-* Art. 200.
-* Art. 201.
+* Art. 200
+* Art. 201
 #### TÍTULO III - DO DOMICÍLIO FISCAL
-* Art. 202.
-* Art. 203.
+* Art. 202
+* Art. 203
 #### TÍTULO IV - DA INSCRIÇÃO NO CADASTRO NACIONAL DA PESSOA JURÍDICA
-* Art. 204.
-* Art. 205.
+* Art. 204
+* Art. 205
 * Inscrição inapta
-* Art. 206.
+* Art. 206
 * Declaração de inidoneidade
-* Art. 207.
+* Art. 207
 #### TÍTULO V - DA RECEITA BRUTA
-* Art. 208.
+* Art. 208
 #### TÍTULO VI - DA BASE DE CÁLCULO E DO PERÍODO DE APURAÇÃO
-* Art. 209.
+* Art. 209
 ##### CAPÍTULO I - DA BASE DE CÁLCULO
-* Art. 210.
+* Art. 210
 ##### CAPÍTULO II - DOS MÉTODOS E dos CRITÉRIOS CONTÁBEIS INTRODUZIDOS PELA LEI Nº 11.638, DE 28 DE DEZ…
 * Art. 1º
-* Art. 211.
+* Art. 211
 * Adoção de novos métodos e critérios contábeis por meio de atos administrativos
-* Art. 212.
+* Art. 212
 * Disposições transitórias quanto ao Regime Tributário de Transição
-* Art. 213.
-* Art. 214.
-* Art. 215.
-* Art. 216.
+* Art. 213
+* Art. 214
+* Art. 215
+* Art. 216
 ##### CAPÍTULO III - DO PERÍODO DE APURAÇÃO
 ###### Seção I - Da apuração trimestral do imposto sobre a renda
-* Art. 217.
+* Art. 217
 ###### Seção II - Da apuração anual do imposto sobre a renda
-* Art. 218.
+* Art. 218
 * Subseção I - Do pagamento por estimativa
-* Art. 219.
+* Art. 219
 * Subseção II - Da base de cálculo estimada
-* Art. 220.
-* Art. 221.
+* Art. 220
+* Art. 221
 * Ganhos de capital e outras receitas
-* Art. 222.
+* Art. 222
 * Deduções da receita bruta
-* Art. 223.
+* Art. 223
 * Atividades imobiliárias
-* Art. 224.
+* Art. 224
 * Subseção III - Da alíquota do imposto sobre a renda e do adicional
-* Art. 225.
+* Art. 225
 * Subseção IV - Das deduções do imposto sobre a renda mensal
-* Art. 226.
+* Art. 226
 * Subseção V - Da suspensão, da redução e da dispensa do imposto sobre a renda mensal
-* Art. 227.
+* Art. 227
 * Subseção VI - Das deduções do imposto sobre a renda anual
-* Art. 228.
+* Art. 228
 ###### Seção III - Da opção da forma de pagamento
-* Art. 229.
+* Art. 229
 ###### Seção IV - Do início de atividade
-* Art. 230.
+* Art. 230
 ###### Seção V - Da transformação e da continuação
-* Art. 231.
+* Art. 231
 ###### Seção VI - Da incorporação, da fusão e da cisão
-* Art. 232.
+* Art. 232
 * Sucessão por incorporação
-* Art. 233.
+* Art. 233
 ###### Seção VII - Da liquidação e da extinção
-* Art. 234.
-* Art. 235.
+* Art. 234
+* Art. 235
 ###### Seção VIII - Da devolução de capital em bens e direitos
-* Art. 236.
+* Art. 236
 ###### Seção IX - Da devolução de patrimônio de entidade isenta
-* Art. 237.
+* Art. 237
 #### TÍTULO VII - DOS PREÇOS DE TRANSFERÊNCIA E DA SUBCAPITALIZAÇÃO
 ##### CAPÍTULO I - DAS RECEITAS ORIUNDAS DE EXPORTAÇÃO PARA O EXTERIOR
-* Art. 238.
-* Art. 239.
-* Art. 240.
-* Art. 241.
+* Art. 238
+* Art. 239
+* Art. 240
+* Art. 241
 ##### CAPÍTULO II - DOS BENS, dos SERVIÇOS E dos DIREITOS ADQUIRIDOS NO EXTERIOR
-* Art. 242.
-* Art. 243.
-* Art. 244.
+* Art. 242
+* Art. 243
+* Art. 244
 ##### CAPÍTULO III - DA OPÇÃO PELOS MÉTODOS
-* Art. 245.
-* Art. 246.
-* Art. 247.
+* Art. 245
+* Art. 246
+* Art. 247
 ##### CAPÍTULO IV - DA APURAÇÃO DOS PREÇOS MÉDIOS
-* Art. 248.
+* Art. 248
 ##### CAPÍTULO V - DOS JUROS A PESSOAS VINCULADAS
-* Art. 249.
+* Art. 249
 ##### CAPÍTULO VI - DA SUBCAPITALIZAÇÃO E DAS OPERAÇÕES COM VINCULADAS
-* Art. 250.
+* Art. 250
 ##### CAPÍTULO VII - DA SUBCAPITALIZAÇÃO E DAS OPERAÇÕES COM PAÍSES DE TRIBUTAÇÃO FAVORECIDA
-* Art. 251.
-* Art. 252.
+* Art. 251
+* Art. 252
 ##### CAPÍTULO VIII - DO CONCEITO DE PESSOA VINCULADA
-* Art. 253.
+* Art. 253
 ##### CAPÍTULO IX - DOS PAÍSES COM TRIBUTAÇÃO FAVORECIDA
-* Art. 254.
-* Art. 255.
-* Art. 256.
+* Art. 254
+* Art. 255
+* Art. 256
 #### TÍTULO VIII - DO LUCRO REAL
 ##### CAPÍTULO I - DA DETERMINAÇÃO
 ###### Seção I - Disposições gerais
 * Pessoas jurídicas obrigadas à apuração do lucro real
-* Art. 257.
+* Art. 257
 ###### Seção II - Do conceito de lucro real
-* Art. 258.
+* Art. 258
 ###### Seção III - Do conceito de lucro líquido
-* Art. 259.
+* Art. 259
 ###### Seção IV - Dos ajustes do lucro líquido
 * Adições
-* Art. 260.
+* Art. 260
 * Exclusões e compensações
-* Art. 261.
+* Art. 261
 ##### CAPÍTULO II - DA ESCRITURAÇÃO DO CONTRIBUINTE
 ###### Seção I - Dos princípios, dos métodos e dos critérios
-* Art. 262.
-* Art. 263.
+* Art. 262
+* Art. 263
 ###### Seção II - Dos responsáveis pela escrituração
-* Art. 264.
+* Art. 264
 ###### Seção III - Do dever de escriturar
-* Art. 265.
+* Art. 265
 * Contabilidade não centralizada
-* Art. 266.
+* Art. 266
 * Pessoas jurídicas com sede no exterior
-* Art. 267.
-* Art. 268.
+* Art. 267
+* Art. 268
 * Sociedades em conta de participação
-* Art. 269.
+* Art. 269
 * Instituições financeiras e demais autorizadas a funcionar pelo Banco Central do Brasil
-* Art. 270.
+* Art. 270
 * Falsificação da escrituração
-* Art. 271.
+* Art. 271
 ###### Seção IV - Dos livros comerciais
-* Art. 272.
+* Art. 272
 * Livro diário
-* Art. 273.
+* Art. 273
 * Livro-razão
-* Art. 274.
+* Art. 274
 ###### Seção V - Dos livros fiscais
-* Art. 275.
-* Art. 276.
+* Art. 275
+* Art. 276
 * Livro de Apuração do Lucro Real
-* Art. 277.
+* Art. 277
 ###### Seção VI - Da conservação de livros e comprovantes
-* Art. 278.
+* Art. 278
 ###### Seção VII - Do Sistema Escritural Eletrônico
-* Art. 279.
-* Art. 280.
+* Art. 279
+* Art. 280
 * Documentação técnica
-* Art. 281.
+* Art. 281
 * Equipamento emissor de cupom fiscal
-* Art. 282.
-* Art. 283.
+* Art. 282
+* Art. 283
 ###### Seção VIII - Da escrituração dos rendimentos auferidos com desconto de imposto sobre a renda reti…
-* Art. 284.
+* Art. 284
 ###### Seção IX - Da inobservância ao regime de competência
-* Art. 285.
+* Art. 285
 ###### Seção X - Das demonstrações financeiras
-* Art. 286.
+* Art. 286
 ##### CAPÍTULO III - DA DEMONSTRAÇÃO DO LUCRO REAL
-* Art. 287.
+* Art. 287
 ##### CAPÍTULO IV - DA VERIFICAÇÃO PELA AUTORIDADE TRIBUTÁRIA
-* Art. 288.
+* Art. 288
 ##### CAPÍTULO V - DO LUCRO OPERACIONAL
 ###### Seção I - Disposições gerais
-* Art. 289.
+* Art. 289
 ###### Seção II - Do lucro bruto
-* Art. 290.
+* Art. 290
 * Subseção I - Disposições complementares sobre receitas
 * Vendas de veículos usados
-* Art. 291.
+* Art. 291
 * Vale-pedágio
-* Art. 292.
+* Art. 292
 * Subseção II - Da omissão de receita
 * Saldo credor de caixa, falta de escrituração de pagamento, manutenção no passivo de obrigações pa…
-* Art. 293.
+* Art. 293
 * Suprimentos de caixa
-* Art. 294.
+* Art. 294
 * Falta de emissão de nota fiscal
-* Art. 295.
+* Art. 295
 * Arbitramento da receita por indícios de omissão
-* Art. 296.
-* Art. 297.
+* Art. 296
+* Art. 297
 * Levantamento quantitativo por espécie
-* Art. 298.
+* Art. 298
 * Depósitos bancários
-* Art. 299.
+* Art. 299
 * Tratamento tributário
-* Art. 300.
+* Art. 300
 * Subseção III - Do custo de bens ou serviços
 * Custo de aquisição
-* Art. 301.
+* Art. 301
 * Custo de produção
-* Art. 302.
+* Art. 302
 * Quebras e perdas
-* Art. 303.
+* Art. 303
 * Subseção IV - Dos critérios para avaliação de estoques
-* Art. 304.
-* Art. 305.
-* Art. 306.
-* Art. 307.
-* Art. 308.
+* Art. 304
+* Art. 305
+* Art. 306
+* Art. 307
+* Art. 308
 * Produtos rurais
-* Art. 309.
+* Art. 309
 * Vedações
-* Art. 310.
+* Art. 310
 ###### Seção III - Dos custos, das despesas operacionais e dos encargos
 * Subseção I - Disposições gerais
 * Despesas necessárias
-* Art. 311.
-* Art. 312.
+* Art. 311
+* Art. 312
 * Aplicações de capital
-* Art. 313.
+* Art. 313
 * Pagamento a pessoa física vinculada
-* Art. 314.
-* Art. 315.
+* Art. 314
+* Art. 315
 * Pagamentos sem causa ou a beneficiário não identificado
-* Art. 316.
+* Art. 316
 * Subseção II - Da depreciação de bens do ativo imobilizado
 * Dedutibilidade
-* Art. 317.
+* Art. 317
 * Bens depreciáveis
-* Art. 318.
+* Art. 318
 * Quota de depreciação
-* Art. 319.
+* Art. 319
 * Taxa anual de depreciação
-* Art. 320.
+* Art. 320
 * Exclusão no Livro de Apuração do Lucro Real
-* Art. 321.
+* Art. 321
 * Depreciação de bens usados
-* Art. 322.
+* Art. 322
 * Depreciação acelerada
-* Art. 323.
+* Art. 323
 * Subseção III - Da depreciação acelerada incentivada
 * Disposições gerais
-* Art. 324.
+* Art. 324
 * Atividade rural
-* Art. 325.
+* Art. 325
 * Máquinas, equipamentos, aparelhos e instrumentos destinados à pesquisa tecnológica e ao desenvolv…
-* Art. 326.
-* Art. 327.
+* Art. 326
+* Art. 327
 * Veículos automóveis, vagões, locomotivas e tênderes destinados ao ativo imobilizado
-* Art. 328.
+* Art. 328
 * Microrregiões nas áreas de atuação da Superintendência do Desenvolvimento do Nordeste e da Superi…
-* Art. 329.
+* Art. 329
 * Subseção IV - Da amortização
 * Dedutibilidade
-* Art. 330.
+* Art. 330
 * Capital amortizável
-* Art. 331.
+* Art. 331
 * Quota de amortização
-* Art. 332.
+* Art. 332
 * Taxa anual de amortização
-* Art. 333.
+* Art. 333
 * Direitos de exploração de florestas
-* Art. 334.
+* Art. 334
 * Amortização acelerada de bens intangíveis vinculados à pesquisa e à inovação tecnológica
-* Art. 335.
+* Art. 335
 * Subseção V - Da exaustão de recursos minerais
 * Dedutibilidade
-* Art. 336.
+* Art. 336
 * Subseção VI - Da exaustão de recursos florestais
-* Art. 337.
+* Art. 337
 * Subseção VII - Das despesas pré-operacionais ou pré-industriais
-* Art. 338.
+* Art. 338
 * Subseção VIII - Das provisões
 * Dedutibilidade
-* Art. 339.
+* Art. 339
 * Provisões técnicas compulsórias
-* Art. 340.
+* Art. 340
 * Provisão para perda de estoques de livros
-* Art. 341.
+* Art. 341
 * Remuneração de férias
-* Art. 342.
+* Art. 342
 * Décimo terceiro salário
-* Art. 343.
+* Art. 343
 * Provisão para imposto de renda
-* Art. 344.
+* Art. 344
 * Subseção IX - Do teste de recuperabilidade
-* Art. 345.
+* Art. 345
 * Subseção X - Dos gastos estimados de desmontagens
-* Art. 346.
+* Art. 346
 * Subseção XI - Das perdas no recebimento de créditos
 * Dedutibilidade
-* Art. 347.
+* Art. 347
 * Registro contábil das perdas
-* Art. 348.
+* Art. 348
 * Encargos financeiros de créditos vencidos
-* Art. 349.
+* Art. 349
 * Créditos recuperados
-* Art. 350.
-* Art. 351.
+* Art. 350
+* Art. 351
 * Subseção XII - Dos tributos e das multas por infrações fiscais
-* Art. 352.
+* Art. 352
 * Subseção XIII - Do Fundo de Garantia do Tempo de Serviço
-* Art. 353.
+* Art. 353
 * Subseção XIV - Das despesas de conservação de bens e instalações
-* Art. 354.
+* Art. 354
 * Subseção XV - Dos juros sobre o capital
 * Juros sobre o capital próprio
-* Art. 355.
+* Art. 355
 * Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição
-* Art. 356.
+* Art. 356
 * Outros juros sobre capital
-* Art. 357.
+* Art. 357
 * Subseção XVI - Das despesas com prospecção e cubagem de jazidas e depósitos
-* Art. 358.
+* Art. 358
 * Subseção XVII - Dos dispêndios com pesquisa e desenvolvimento de inovação tecnológica
-* Art. 359.
+* Art. 359
 * Dos recursos naturais
-* Art. 360.
+* Art. 360
 * Subseção XVIII - Dos aluguéis, dos royalties e da assistência técnica, científica ou administrativa
 * Aluguéis
-* Art. 361.
+* Art. 361
 * Royalties
-* Art. 362.
-* Art. 363.
+* Art. 362
+* Art. 363
 * Assistência técnica, científica ou administrativa
-* Art. 364.
+* Art. 364
 * Limite e condições de dedutibilidade
-* Art. 365.
+* Art. 365
 * Subseção XIX - Das contraprestações de arrendamento mercantil
-* Art. 366.
-* Art. 367.
+* Art. 366
+* Art. 367
 * Subseção XX - Da remuneração dos sócios, dos diretores ou dos administradores e dos titulares de …
-* Art. 368.
+* Art. 368
 * Remuneração indireta a administradores e terceiros
-* Art. 369.
+* Art. 369
 * Subseção XXI - Do pagamento baseado em ações
-* Art. 370.
+* Art. 370
 * Subseção XXII - Da participação dos trabalhadores nos lucros ou nos resultados da empresa
-* Art. 371.
+* Art. 371
 * Subseção XXIII - Dos serviços assistenciais e dos benefícios previdenciários a empregados e dirig…
 * Serviços assistenciais
-* Art. 372.
+* Art. 372
 * Benefícios previdenciários
-* Art. 373.
+* Art. 373
 * Subseção XXIV - Dos Planos de Poupança e Investimento
-* Art. 374.
+* Art. 374
 * Subseção XXV - Do Fundo de Aposentadoria Programada Individual
-* Art. 375.
+* Art. 375
 * Subseção XXVI - Dos prejuízos por desfalque, apropriação indébita e furto
-* Art. 376.
+* Art. 376
 * Subseção XXVII - Das contribuições e das doações
-* Art. 377.
-* Art. 378.
-* Art. 379.
+* Art. 377
+* Art. 378
+* Art. 379
 * Subseção XXVIII - Das despesas de propaganda
-* Art. 380.
-* Art. 381.
+* Art. 380
+* Art. 381
 * Subseção XXIX - Da formação profissional
-* Art. 382.
+* Art. 382
 * Subseção XXX - Da alimentação do trabalhador
-* Art. 383.
+* Art. 383
 * Subseção XXXI - Do vale-transporte
-* Art. 384.
+* Art. 384
 * Subseção XXXII - Das operações de caráter cultural e artístico
-* Art. 385.
+* Art. 385
 * Subseção XXXIII - Da atividade audiovisual
-* Art. 386.
+* Art. 386
 * Subseção XXXIV - Do Programa de Cultura do Trabalhador
-* Art. 387.
+* Art. 387
 ###### Seção IV - Da avaliação a valor justo
 * Subseção I - Da avaliação a valor justo de ativo ou passivo da pessoa jurídica
 * Ganho
-* Art. 388.
+* Art. 388
 * Perda
-* Art. 389.
-* Art. 390.
+* Art. 389
+* Art. 390
 * Instrumentos financeiros: operações realizadas em mercados de liquidação futura sujeitos a ajuste…
-* Art. 391.
+* Art. 391
 * Subseção II - Da avaliação a valor justo: incorporação, fusão ou cisão
-* Art. 392.
+* Art. 392
 * Subseção III - Da avaliação a valor justo na subscrição de capital social
 * Ganho
-* Art. 393.
+* Art. 393
 * Perda
-* Art. 394.
-* Art. 395.
+* Art. 394
+* Art. 395
 * Subseção IV - Da avaliação a valor justo: lucro presumido para lucro real
-* Art. 396.
+* Art. 396
 ###### Seção V - Dos outros resultados operacionais
 * Subseção I - Das receitas e das despesas financeiras
 * Receitas
-* Art. 397.
+* Art. 397
 * Despesas
-* Art. 398.
-* Art. 399.
-* Art. 400.
-* Art. 401.
+* Art. 398
+* Art. 399
+* Art. 400
+* Art. 401
 * Custos de empréstimos
-* Art. 402.
+* Art. 402
 * Dividendos pagos ou creditados classificados como despesa financeira
-* Art. 403.
+* Art. 403
 * Subseção II - Das variações monetárias
 * Disposição geral
-* Art. 404.
+* Art. 404
 * Variações ativas em função de índices ou coeficientes
-* Art. 405.
+* Art. 405
 * Variações passivas em função de índices ou coeficientes
-* Art. 406.
+* Art. 406
 * Variações ativas e passivas em função da taxa de câmbio
-* Art. 407.
-* Art. 408.
+* Art. 407
+* Art. 408
 * Variações cambiais ativas e passivas
-* Art. 409.
+* Art. 409
 * Subseção III - Prêmio na emissão de debêntures
-* Art. 410.
+* Art. 410
 * Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição: prêmio…
-* Art. 411.
+* Art. 411
 * Subseção IV - Do ajuste a valor presente
-* Art. 412.
-* Art. 413.
-* Art. 414.
+* Art. 412
+* Art. 413
+* Art. 414
 * Subseção V - Dos rendimentos de participações societárias
-* Art. 415.
-* Art. 416.
-* Art. 417.
+* Art. 415
+* Art. 416
+* Art. 417
 * Lucros ou dividendos recebidos
-* Art. 418.
+* Art. 418
 * Disposição transitória quanto ao Regime Tributário de Transição
-* Art. 419.
+* Art. 419
 * Subseção VI - Do investimento em sociedades avaliado pelo valor de patrimônio líquido
 * Dever de avaliar pelo valor de patrimônio líquido
-* Art. 420.
+* Art. 420
 * Desdobramento do custo de aquisição
-* Art. 421.
+* Art. 421
 * Redução da mais ou menos-valia e do goodwill
-* Art. 422.
+* Art. 422
 * Avaliação do investimento
-* Art. 423.
+* Art. 423
 * Disposição transitória quanto à avaliação do investimento no Regime Tributário de Transição
-* Art. 424.
+* Art. 424
 * Ajuste do valor contábil do investimento
-* Art. 425.
+* Art. 425
 * Contrapartida do ajuste do valor do patrimônio líquido
-* Art. 426.
+* Art. 426
 * Aquisição de participação societária em estágios
-* Art. 427.
+* Art. 427
 * Avaliação a valor justo de ativo ou passivo da investida
-* Art. 428.
-* Art. 429.
+* Art. 428
+* Art. 429
 * Disposição transitória quanto à reavaliação de bens na investida
-* Art. 430.
+* Art. 430
 * Incorporação, fusão ou cisão referente à mais-valia
-* Art. 431.
+* Art. 431
 * Incorporação, fusão ou cisão referente à menos-valia
-* Art. 432.
+* Art. 432
 * Incorporação, fusão ou cisão referente ao goodwill
-* Art. 433.
+* Art. 433
 * Incorporação, fusão ou cisão referente ao ganho por compra vantajosa
-* Art. 434.
+* Art. 434
 * Incorporação, fusão ou cisão referente às partes dependentes
-* Art. 435.
+* Art. 435
 * Incorporação, fusão ou cisão referente à participação societária adquirida em estágios
-* Art. 436.
+* Art. 436
 * Incorporação, fusão ou cisão referente a estágios
-* Art. 437.
+* Art. 437
 * Incorporação, fusão ou cisão ocorrida até 31 de dezembro de 2017
-* Art. 438.
+* Art. 438
 * Subseção VII - Disposições complementares relativas à combinação de negócios
-* Art. 439.
-* Art. 440.
+* Art. 439
+* Art. 440
 * Subseção VIII - Das subvenções e das recuperações de custo
-* Art. 441.
+* Art. 441
 * Subseção IX - Das subvenções para estímulo à inovação
-* Art. 442.
+* Art. 442
 * Subseção X - Do prejuízo na alienação de ações, títulos ou quotas de capital
-* Art. 443.
+* Art. 443
 * Subseção XI - Da avaliação de títulos, valores mobiliários e outros ativos financeiros a preço de…
-* Art. 444.
+* Art. 444
 * Subseção XII - Das operações realizadas em mercados de liquidação futura
-* Art. 445.
+* Art. 445
 ##### CAPÍTULO VI - DISPOSIÇÕES ESPECIAIS SOBRE ATIVIDADES DAS PESSOAS JURÍDICAS
 ###### Seção I - Das atividades exercidas no exterior
 * Subseção I - Disposições gerais
 * Lucros, rendimentos e ganhos de capital
-* Art. 446.
+* Art. 446
 * Subcontas
-* Art. 447.
+* Art. 447
 * Subseção II - Das controladoras
-* Art. 448.
+* Art. 448
 * Consolidação de resultados
-* Art. 449.
-* Art. 450.
-* Art. 451.
+* Art. 449
+* Art. 450
+* Art. 451
 * Subseção III - Das coligadas
 * Regime de caixa
-* Art. 452.
+* Art. 452
 * Regime de competência
-* Art. 453.
+* Art. 453
 * Subseção IV - Da equiparação à controladora
-* Art. 454.
+* Art. 454
 * Subseção V - Das definições
-* Art. 455.
+* Art. 455
 * Subseção VI - Das deduções
-* Art. 456.
-* Art. 457.
-* Art. 458.
-* Art. 459.
-* Art. 460.
-* Art. 461.
+* Art. 456
+* Art. 457
+* Art. 458
+* Art. 459
+* Art. 460
+* Art. 461
 * Subseção VII - Do pagamento
-* Art. 462.
+* Art. 462
 * Subseção VIII - Da operação de mútuo ou do adiantamento de recursos a coligada ou controlada
-* Art. 463.
-* Art. 464.
+* Art. 463
+* Art. 464
 * Subseção IX - Da compensação do imposto sobre a renda pago no exterior
-* Art. 465.
+* Art. 465
 * Subseção X - Das operações de cobertura em bolsa no exterior
-* Art. 466.
+* Art. 466
 ###### Seção II - Das pessoas jurídicas estrangeiras
 * Autorizadas a funcionar no País
-* Art. 467.
+* Art. 467
 * Comitentes domiciliados no exterior
-* Art. 468.
+* Art. 468
 * Venda direta por meio de mandatário
-* Art. 469.
+* Art. 469
 ###### Seção III - Das empresas em Zona de Processamento de Exportação
-* Art. 470.
+* Art. 470
 ###### Seção IV - Da exploração de películas cinematográficas estrangeiras
-* Art. 471.
+* Art. 471
 ###### Seção V - Das empresas de navegação marítima e das companhias aéreas
-* Art. 472.
-* Art. 473.
+* Art. 472
+* Art. 473
 ###### Seção VI - Das companhias de seguros, capitalização e entidades de previdência privada
-* Art. 474.
+* Art. 474
 ###### Seção VII - Das instituições autorizadas a funcionar pelo Banco Central do Brasil
-* Art. 475.
-* Art. 476.
+* Art. 475
+* Art. 476
 ###### Seção VIII - Da atividade rural
-* Art. 477.
+* Art. 477
 ###### Seção IX - Dos contratos a longo prazo
 * Produção em longo prazo
-* Art. 478.
+* Art. 478
 * Produção em curto prazo
-* Art. 479.
+* Art. 479
 * Contratos com entidades governamentais
-* Art. 480.
+* Art. 480
 ###### Seção X - Da compra e da venda, do loteamento, da incorporação, da construção e da reforma de imó…
 * Determinação do custo
-* Art. 481.
+* Art. 481
 * Apuração do lucro bruto
-* Art. 482.
+* Art. 482
 * Venda anterior ao término do empreendimento
-* Art. 483.
+* Art. 483
 * Venda a prazo ou em prestações
-* Art. 484.
+* Art. 484
 * Permuta que envolva unidades imobiliárias
-* Art. 485.
+* Art. 485
 * Regime especial de tributação aplicável às incorporações imobiliárias
-* Art. 486.
-* Art. 487.
-* Art. 488.
-* Art. 489.
-* Art. 490.
+* Art. 486
+* Art. 487
+* Art. 488
+* Art. 489
+* Art. 490
 * Regime especial de tributação aplicável à construção ou à reforma de estabelecimentos de educação…
-* Art. 491.
-* Art. 492.
-* Art. 493.
-* Art. 494.
+* Art. 491
+* Art. 492
+* Art. 493
+* Art. 494
 * Pagamento unificado de tributos aplicável às construções no âmbito do Programa Minha Casa, Minha …
-* Art. 495.
+* Art. 495
 ###### Seção XI - Do arrendamento mercantil
-* Art. 496.
-* Art. 497.
+* Art. 496
+* Art. 497
 ###### Seção XII - Dos contratos de concessão de serviços públicos
-* Art. 498.
-* Art. 499.
+* Art. 498
+* Art. 499
 * Aportes de recursos nas parcerias público-privadas
-* Art. 500.
+* Art. 500
 ##### CAPÍTULO VII - DAS DEMAIS RECEITAS E DESPESAS
 ###### Seção I - Dos ganhos e das perdas de capital
 * Subseção I - Disposições gerais
-* Art. 501.
+* Art. 501
 * Devolução de capital em bens ou direitos
-* Art. 502.
+* Art. 502
 * Subseção II - Das vendas a longo prazo
-* Art. 503.
+* Art. 503
 * Subseção III - Dos ganhos em desapropriação
 * Diferimento da tributação
-* Art. 504.
+* Art. 504
 * Desapropriação para fins de reforma agrária
-* Art. 505.
+* Art. 505
 * Subseção IV - Das perdas na alienação de bens tomados em arrendamento mercantil pelo vendedor
-* Art. 506.
+* Art. 506
 * Subseção V - Do resultado na alienação de investimento avaliado pelo valor de patrimônio líquido
-* Art. 507.
-* Art. 508.
-* Art. 509.
+* Art. 507
+* Art. 508
+* Art. 509
 * Subseção VI - Das perdas na alienação de bens e valores oriundos de incentivos fiscais
-* Art. 510.
+* Art. 510
 * Subseção VII - Do Programa Nacional de Desestatização
-* Art. 511.
-* Art. 512.
-* Art. 513.
+* Art. 511
+* Art. 512
+* Art. 513
 * Subseção VIII - Das perdas em operações financeiras
-* Art. 514.
+* Art. 514
 ###### Seção II - Das reservas de reavaliação remanescentes
-* Art. 515.
+* Art. 515
 * Subseção I - Da reserva de reavaliação de bens
 * Tributação na realização
-* Art. 516.
+* Art. 516
 * Subseção II - Da reserva de reavaliação na subscrição de capital ou valores mobiliários
-* Art. 517.
+* Art. 517
 * Subseção III - Da reserva de reavaliação na fusão, na incorporação ou na cisão
-* Art. 518.
-* Art. 519.
+* Art. 518
+* Art. 519
 ###### Seção III - Das contribuições de subscritores de valores mobiliários
-* Art. 520.
+* Art. 520
 * Encargos com emissão de ações ou bônus de subscrição
-* Art. 521.
+* Art. 521
 * Encargos referentes a instrumentos de capital ou de dívida subordinada
-* Art. 522.
+* Art. 522
 ###### Seção IV - Das subvenções para investimento e doações públicas
-* Art. 523.
+* Art. 523
 * Disposição transitória quanto à pessoa jurídica sujeita ao Regime Tributário de Transição
-* Art. 524.
+* Art. 524
 ###### Seção V - Do capital de seguro por morte de sócio
-* Art. 525.
+* Art. 525
 ##### CAPÍTULO VIII - DO LUCRO DISTRIBUÍDO E DO LUCRO CAPITALIZADO
 ###### Seção I - Das participações
 * Subseção I - Das participações dedutíveis
-* Art. 526.
+* Art. 526
 * Subseção II - Das participações não dedutíveis
-* Art. 527.
+* Art. 527
 ###### Seção II - Dos lucros distribuídos disfarçadamente
-* Art. 528.
+* Art. 528
 * Pessoas ligadas e valor de mercado
-* Art. 529.
+* Art. 529
 * Distribuição a sócio ou acionista controlador por intermédio de terceiros
-* Art. 530.
+* Art. 530
 * Subseção única - Do cômputo na determinação do lucro real
-* Art. 531.
-* Art. 532.
+* Art. 531
+* Art. 532
 ##### CAPÍTULO IX - DOS INCENTIVOS A ATIVIDADES CULTURAIS OU ARTÍSTICAS
 * Doação
-* Art. 533.
+* Art. 533
 * Patrocínio
-* Art. 534.
+* Art. 534
 * Vedações
-* Art. 535.
-* Art. 536.
-* Art. 537.
+* Art. 535
+* Art. 536
+* Art. 537
 * Doação e patrocínio a projetos culturais de segmentos específicos
-* Art. 538.
+* Art. 538
 * Doação e patrocínio aos demais projetos culturais
-* Art. 539.
+* Art. 539
 * § 1º A dedução não poderá exceder, em cada período de apuração, a quatro por cento do imposto sob…
 * Doação e patrocínio a projetos culturais decorrentes do exterior
-* Art. 540.
+* Art. 540
 * Patrimônio artístico, cultural e histórico da Rede Ferroviária Federal S.A.
-* Art. 541.
+* Art. 541
 * Possibilidade de utilização concomitante de incentivos
-* Art. 542.
+* Art. 542
 * Intermediação
-* Art. 543.
+* Art. 543
 * Fiscalização
-* Art. 544.
+* Art. 544
 * Infrações
-* Art. 545.
+* Art. 545
 ##### CAPÍTULO X - DOS INCENTIVOS À ATIVIDADE AUDIOVISUAL
 ###### Seção I - Dos investimentos e dos patrocínios a projetos de obras audiovisuais
 * Investimentos
-* Art. 546.
+* Art. 546
 * Patrocínio
-* Art. 547.
+* Art. 547
 * Abatimento
-* Art. 548.
+* Art. 548
 * Doação e patrocínio a projetos audiovisuais decorrentes do exterior
-* Art. 549.
+* Art. 549
 * Depósito em conta especial
-* Art. 550.
+* Art. 550
 * Não aplicação de depósitos
-* Art. 551.
-* Art. 552.
+* Art. 551
+* Art. 552
 ###### Seção II - Dos Fundos de Financiamento da Indústria Cinematográfica Nacional
-* Art. 553.
-* Art. 554.
+* Art. 553
+* Art. 554
 * Possibilidade de utilização concomitante de incentivos
-* Art. 555.
-* Art. 556.
+* Art. 555
+* Art. 556
 ##### CAPÍTULO XI - DOS INCENTIVOS à ATIVIDADE DESPORTIVA
-* Art. 557.
-* Art. 558.
-* Art. 559.
-* Art. 560.
-* Art. 561.
-* Art. 562.
-* Art. 563.
+* Art. 557
+* Art. 558
+* Art. 559
+* Art. 560
+* Art. 561
+* Art. 562
+* Art. 563
 ##### CAPÍTULO XII - DOS INCENTIVOS ÀS Atividades tecnológicas
 ###### Seção I - Dos incentivos à inovação tecnológica e ao desenvolvimento da inovação tecnológica
-* Art. 564.
+* Art. 564
 * Transferências a microempresas e empresas de pequeno porte
-* Art. 565.
+* Art. 565
 * Exclusões do lucro líquido
-* Art. 566.
-* Art. 567.
+* Art. 566
+* Art. 567
 * Exclusão do saldo não depreciado ou não amortizado
-* Art. 568.
+* Art. 568
 * Controle contábil em contas específicas
-* Art. 569.
-* Art. 570.
+* Art. 569
+* Art. 570
 * Descumprimento das obrigações
-* Art. 571.
+* Art. 571
 * Atividades de informática e automação
-* Art. 572.
+* Art. 572
 * Pessoas jurídicas instaladas em Zona de Processamento de Exportação
-* Art. 573.
-* Art. 574.
+* Art. 573
+* Art. 574
 ###### Seção II - Dos incentivos ao desenvolvimento de tecnologia da informação e da automação e da indú…
 * Empresas dos setores de tecnologia da informação e de tecnologia da informação e da comunicação
-* Art. 575.
+* Art. 575
 * Parágrafo único. A exclusão de que trata o caput fica limitada ao valor do lucro real antes da pr…
 * Pessoa jurídica beneficiária do Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de …
-* Art. 576.
-* Art. 577.
+* Art. 576
+* Art. 577
 ##### CAPÍTULO XIII - DOS INCENTIVOS DO Programa Nacional de Apoio à Atenção Oncológica e do Programa N…
-* Art. 578.
+* Art. 578
 ##### CAPÍTULO XIV - DA COMPENSAÇÃO DE PREJUÍZOS FISCAIS
 * Disposições gerais
-* Art. 579.
+* Art. 579
 * Prejuízos fiscais acumulados
-* Art. 580.
+* Art. 580
 * Prejuízos não operacionais
-* Art. 581.
+* Art. 581
 * Disposição transitória quanto aos prejuízos não operacionais
-* Art. 582.
+* Art. 582
 * Atividade rural
-* Art. 583.
+* Art. 583
 * Mudança de controle societário e de ramo de atividade
-* Art. 584.
+* Art. 584
 * Incorporação, fusão ou cisão
-* Art. 585.
+* Art. 585
 * Sociedade em conta de participação
-* Art. 586.
+* Art. 586
 #### TÍTULO IX - DO LUCRO PRESUMIDO
 ##### CAPÍTULO I - DISPOSIÇÕES GERAIS
 * Pessoas jurídicas autorizadas a optar
-* Art. 587.
-* Art. 588.
-* Art. 589.
+* Art. 587
+* Art. 588
+* Art. 589
 * Início de atividade
-* Art. 590.
+* Art. 590
 * Base de cálculo
-* Art. 591.
-* Art. 592.
+* Art. 591
+* Art. 592
 * Mudança do lucro real para o lucro presumido
-* Art. 593.
+* Art. 593
 * Mudança do lucro presumido para o lucro real
-* Art. 594.
+* Art. 594
 ##### CAPÍTULO II - DOS GANHOS DE CAPITAL E DAS DEMAIS RECEITAS
-* Art. 595.
+* Art. 595
 * Custo do bem na alienação de imóvel rural
-* Art. 596.
+* Art. 596
 * Custo de aquisição na hipótese de recebimento de quotas ou ações
-* Art. 597.
+* Art. 597
 * Programa Nacional de Desestatização
-* Art. 598.
+* Art. 598
 ##### CAPÍTULO III - DAS DEDUÇÕES DO IMPOSTO SOBRE A RENDA
-* Art. 599.
+* Art. 599
 ##### CAPÍTULO IV - DAS OBRIGAÇÕES ACESSÓRIAS
-* Art. 600.
+* Art. 600
 ##### CAPÍTULO V - DA OMISSÃO DE RECEITA
-* Art. 601.
+* Art. 601
 #### TÍTULO X - DO LUCRO ARBITRADO
 ##### CAPÍTULO I - DAS HIPÓTESES DE ARBITRAMENTO
-* Art. 602.
-* Art. 603.
+* Art. 602
+* Art. 603
 ##### CAPÍTULO II - DA BASE DE CÁLCULO
 * Arbitramento pelo contribuinte
-* Art. 604.
+* Art. 604
 * Base de cálculo quando conhecida a receita bruta
-* Art. 605.
+* Art. 605
 * Instituições financeiras
-* Art. 606.
+* Art. 606
 * Empresas imobiliárias
-* Art. 607.
+* Art. 607
 * Base de cálculo quando não conhecida a receita bruta
-* Art. 608.
+* Art. 608
 ##### CAPÍTULO III - DOS GANHOS DE CAPITAL E DAS DEMAIS RECEITAS
-* Art. 609.
+* Art. 609
 ##### CAPÍTULO IV - DA OMISSÃO DE RECEITAS
-* Art. 610.
+* Art. 610
 ##### CAPÍTULO V - DISPOSIÇÕES DIVERSAS
 * Penalidades
-* Art. 611.
+* Art. 611
 * Vendas diretas do exterior
-* Art. 612.
+* Art. 612
 ##### CAPÍTULO VI - DAS DEDUÇÕES DO IMPOSTO SOBRE A RENDA
-* Art. 613.
+* Art. 613
 #### TÍTULO XI
 #### DISPOSIÇÕES COMUNS AO LUCRO REAL, PRESUMIDO E ARBITRADO
 ##### Capítulo I - Dos Resultados Não Realizados Nas Operações Intercompanhias
-* Art. 614.
+* Art. 614
 ##### Capítulo II - Da Avaliação a Valor Justo: Incorporação, Fusão ou Cisão
-* Art. 615.
+* Art. 615
 ##### Capítulo III - Das Perdas Estimadas no Valor de Ativos
-* Art. 616.
+* Art. 616
 ##### Capítulo IV - Da Moeda Funcional Diferente da Nacional
-* Art. 617.
+* Art. 617
 ##### Capítulo V - Disposições Transitórias
 * Seção única
 * Adoção inicial ao disposto no art. 1º, no art. 2º e no art. 4º ao art. 71 da Lei nº 12.973, de 2014
-* Art. 618.
+* Art. 618
 * Ajustes quanto ao lucro real
-* Art. 619.
-* Art. 620.
-* Art. 621.
+* Art. 619
+* Art. 620
+* Art. 621
 * Subseção II - Adoção inicial do art. 1º, do art. 2º e do art. 4º ao art. 71 da Lei nº 12.973, de …
-* Art. 622.
+* Art. 622
 #### TÍTULO XII - DAS ALÍQUOTAS E DO ADICIONAL
-* Art. 623.
-* Art. 624.
+* Art. 623
+* Art. 624
 * Irredutibilidade
-* Art. 625.
+* Art. 625
 #### TÍTULO XIII - DO LUCRO DA EXPLORAÇÃO
-* Art. 626.
+* Art. 626
 #### TÍTULO XIV - DA ISENÇÃO OU DA REDUÇÃO DO IMPOSTO SOBRE A RENDA COMO INCENTIVO AO DESENVOLVIMENTO …
 ##### CAPÍTULO I - DOS INCENTIVOS FISCAIS ÀS EMPRESAS INSTALADAS NA ÁREA DE ATUAÇÃO DA SUPERINTENDÊNCIA…
 * Área de atuação da Superintendência do Desenvolvimento do Nordeste
-* Art. 627.
+* Art. 627
 * Seção única
 * Da redução e da isenção do imposto sobre a renda dos projetos de instalação, modernização, amplia…
 * Instalação de empreendimentos prioritários protocolizados e aprovados a partir de 25 de agosto de…
-* Art. 628.
+* Art. 628
 * Projetos de modernização, ampliação ou diversificação prioritários protocolizados e aprovados a p…
-* Art. 629.
+* Art. 629
 * Demonstração do lucro do empreendimento
-* Art. 630.
-* Art. 631.
+* Art. 630
+* Art. 631
 * Pedido de redução
-* Art. 632.
+* Art. 632
 ###### DOS INCENTIVOS FISCAIS ÀS EMPRESAS INSTALADAS NA ÁREA DE ATUAÇÃO DA SUPERINTENDÊNCIA DO DESENVOLV…
 * Área de atuação da Superintendência do Desenvolvimento da Amazônia
-* Art. 633.
+* Art. 633
 * Da redução e da isenção do imposto sobre a renda dos projetos de instalação, modernização, amplia…
 * Instalação de empreendimentos prioritários protocolizados e aprovados a partir de 25 de agosto de…
-* Art. 634.
+* Art. 634
 * Projetos de modernização, ampliação ou diversificação prioritários protocolizados e aprovados a p…
-* Art. 635.
+* Art. 635
 * Demonstração do lucro do empreendimento
-* Art. 636.
+* Art. 636
 * Pedido de redução
-* Art. 637.
+* Art. 637
 ###### CAPÍTULO III - DISPOSIÇÕES GERAIS
-* Art. 638.
-* Art. 639.
+* Art. 638
+* Art. 639
 * Pessoas jurídicas instaladas em Zona de Processamento de Exportação
-* Art. 640.
+* Art. 640
 #### TÍTULO XV - DAS DEDUÇÕES DO IMPOSTO SOBRE A RENDA
 ##### CAPÍTULO I - DOS INCENTIVOS À PARTICIPAÇÃO EM PROGRAMAS DESTINADOS AO TRABALHADOR
 ###### Seção I - Do Programa de Alimentação do Trabalhador
 * Subseção I - Da dedução do imposto sobre a renda devido
-* Art. 641.
-* Art. 642.
-* Art. 643.
+* Art. 641
+* Art. 642
+* Art. 643
 * Das despesas abrangidas pelo incentivo
-* Art. 644.
-* Art. 645.
+* Art. 644
+* Art. 645
 * Subseção III - Da contabilização
-* Art. 646.
+* Art. 646
 * Do descumprimento ao Programa de Alimentação do Trabalhador
-* Art. 647.
+* Art. 647
 ###### Do Programa Empresa Cidadã
-* Art. 648.
+* Art. 648
 ###### Dos Fundos dos Direitos da Criança e do Adolescente e do Idoso
-* Art. 649.
-* Art. 650.
-* Art. 651.
+* Art. 649
+* Art. 650
+* Art. 651
 ###### Seção IV - Do Programa de Cultura do Trabalhador
-* Art. 652.
+* Art. 652
 ##### CAPÍTULO II - DA APLICAÇÃO DO IMPOSTO SOBRE A RENDA EM INVESTIMENTOS REGIONAIS
 ###### Seção I - Disposições gerais
 * Subseção I - Da opção
-* Art. 653.
+* Art. 653
 * Subseção II - Dos fundos de investimentos
 * Disposições gerais
-* Art. 654.
+* Art. 654
 * Fundo de Investimentos do Nordeste
-* Art. 655.
-* Art. 656.
-* Art. 657.
+* Art. 655
+* Art. 656
+* Art. 657
 * Dos limites das aplicações
-* Art. 658.
-* Art. 659.
+* Art. 658
+* Art. 659
 * Dos procedimentos de aplicação
 * Opção e recolhimento do incentivo
-* Art. 660.
+* Art. 660
 * Destinação de parte da aplicação ao Programa de Integração Nacional e ao Programa de Redistribuiç…
-* Art. 661.
+* Art. 661
 * Certificados de investimentos
-* Art. 662.
-* Art. 663.
+* Art. 662
+* Art. 663
 * Conversão em títulos
-* Art. 664.
+* Art. 664
 * Destinação a projeto próprio
-* Art. 665.
+* Art. 665
 * Intransferibilidade de investimento
-* Art. 666.
-* Art. 667.
+* Art. 666
+* Art. 667
 ###### Dos depósitos para reinvestimento
-* Art. 668.
+* Art. 668
 ###### Das pessoas jurídicas excluídas do gozo dos incentivos
-* Art. 669.
+* Art. 669
 #### TÍTULO XVI
 #### DISPOSIÇÕES DIVERSAS
 ##### CAPÍTULO I - DA SUCESSÃO POR INCORPORAÇÃO
-* Art. 670.
+* Art. 670
 ##### DA RESTRIÇÃO AO GOZO DOS INCENTIVOS
 ###### Seção I - Da mora contumaz no pagamento de salários
-* Art. 671.
+* Art. 671
 ###### Dos danos à qualidade ambiental
-* Art. 672.
+* Art. 672
 ###### Seção III - Da seguridade social
-* Art. 673.
+* Art. 673
 ###### Seção IV - Da perda dos benefícios fiscais
-* Art. 674.
+* Art. 674
 ###### Seção V - Das entidades desportivas
-* Art. 675.
+* Art. 675
 ##### CAPÍTULO III - DA INDICAÇÃO DA ISENÇÃO OU DA REDUÇÃO NA DECLARAÇÃO DE RENDIMENTOS
-* Art. 676.
+* Art. 676
 ### LIVRO III
 #### TÍTULO I
-* Art. 677.
-* Art. 678.
-* Art. 679.
-* Art. 680.
+* Art. 677
+* Art. 678
+* Art. 679
+* Art. 680
 * Subseção I
 * Do trabalho assalariado
-* Art. 681.
-* Art. 682.
-* Art. 683.
-* Art. 684.
-* Art. 685.
-* Art. 686.
-* Art. 687.
-* Art. 688.
-* Art. 689.
-* Art. 690.
-* Art. 691.
-* Art. 692.
-* Art. 693.
-* Art. 694.
-* Art. 695.
-* Art. 696.
-* Art. 697.
-* Art. 698.
-* Art. 699.
-* Art. 700.
-* Art. 701.
-* Art. 702.
-* Art. 703.
-* Art. 704.
-* Art. 705.
-* Art. 706.
-* Art. 707.
-* Art. 708.
-* Art. 709.
-* Art. 710.
-* Art. 711.
-* Art. 712.
-* Art. 713.
-* Art. 714.
-* Art. 715.
-* Art. 716.
-* Art. 717.
-* Art. 718.
-* Art. 719.
-* Art. 720.
-* Art. 721.
-* Art. 722.
-* Art. 723.
-* Art. 724.
-* Art. 725.
-* Art. 726.
-* Art. 727.
-* Art. 728.
-* Art. 729.
-* Art. 730.
-* Art. 731.
-* Art. 732.
-* Art. 733.
-* Art. 734.
-* Art. 735.
-* Art. 736.
-* Art. 737.
-* Art. 738.
-* Art. 739.
-* Art. 740.
-* Art. 741.
-* Art. 742.
-* Art. 743.
-* Art. 744.
-* Art. 745.
-* Art. 746.
-* Art. 747.
-* Art. 748.
-* Art. 749.
-* Art. 750.
-* Art. 751.
-* Art. 752.
-* Art. 753.
-* Art. 754.
-* Art. 755.
-* Art. 756.
-* Art. 757.
-* Art. 759.
-* Art. 760.
-* Art. 761.
-* Art. 762.
-* Art. 763.
-* Art. 764.
-* Art. 765.
-* Art. 766.
-* Art. 767.
-* Art. 768.
-* Art. 769.
-* Art. 770.
-* Art. 771.
-* Art. 772.
-* Art. 773.
-* Art. 774.
-* Art. 775.
-* Art. 776.
-* Art. 777.
-* Art. 778.
-* Art. 779.
-* Art. 780.
-* Art. 781.
-* Art. 782.
-* Art. 783.
-* Art. 784.
-* Art. 785.
-* Art. 786.
-* Art. 787.
+* Art. 681
+* Art. 682
+* Art. 683
+* Art. 684
+* Art. 685
+* Art. 686
+* Art. 687
+* Art. 688
+* Art. 689
+* Art. 690
+* Art. 691
+* Art. 692
+* Art. 693
+* Art. 694
+* Art. 695
+* Art. 696
+* Art. 697
+* Art. 698
+* Art. 699
+* Art. 700
+* Art. 701
+* Art. 702
+* Art. 703
+* Art. 704
+* Art. 705
+* Art. 706
+* Art. 707
+* Art. 708
+* Art. 709
+* Art. 710
+* Art. 711
+* Art. 712
+* Art. 713
+* Art. 714
+* Art. 715
+* Art. 716
+* Art. 717
+* Art. 718
+* Art. 719
+* Art. 720
+* Art. 721
+* Art. 722
+* Art. 723
+* Art. 724
+* Art. 725
+* Art. 726
+* Art. 727
+* Art. 728
+* Art. 729
+* Art. 730
+* Art. 731
+* Art. 732
+* Art. 733
+* Art. 734
+* Art. 735
+* Art. 736
+* Art. 737
+* Art. 738
+* Art. 739
+* Art. 740
+* Art. 741
+* Art. 742
+* Art. 743
+* Art. 744
+* Art. 745
+* Art. 746
+* Art. 747
+* Art. 748
+* Art. 749
+* Art. 750
+* Art. 751
+* Art. 752
+* Art. 753
+* Art. 754
+* Art. 755
+* Art. 756
+* Art. 757
+* Art. 759
+* Art. 760
+* Art. 761
+* Art. 762
+* Art. 763
+* Art. 764
+* Art. 765
+* Art. 766
+* Art. 767
+* Art. 768
+* Art. 769
+* Art. 770
+* Art. 771
+* Art. 772
+* Art. 773
+* Art. 774
+* Art. 775
+* Art. 776
+* Art. 777
+* Art. 778
+* Art. 779
+* Art. 780
+* Art. 781
+* Art. 782
+* Art. 783
+* Art. 784
+* Art. 785
+* Art. 786
+* Art. 787
 #### TÍTULO II
-* Art. 788.
-* Art. 789.
-* Art. 790.
-* Art. 791.
-* Art. 792.
-* Art. 793.
-* Art. 794.
-* Art. 795.
-* Art. 796.
-* Art. 797.
-* Art. 798.
-* Art. 799.
-* Art. 800.
-* Art. 801.
-* Art. 802.
-* Art. 803.
-* Art. 804.
-* Art. 805.
-* Art. 806.
+* Art. 788
+* Art. 789
+* Art. 790
+* Art. 791
+* Art. 792
+* Art. 793
+* Art. 794
+* Art. 795
+* Art. 796
+* Art. 797
+* Art. 798
+* Art. 799
+* Art. 800
+* Art. 801
+* Art. 802
+* Art. 803
+* Art. 804
+* Art. 805
+* Art. 806
 #### TÍTULO III
-* Art. 807.
-* Art. 808.
-* Art. 809.
-* Art. 810.
-* Art. 811.
-* Art. 812.
-* Art. 813.
-* Art. 814.
-* Art. 815.
-* Art. 816.
-* Art. 817.
-* Art. 818.
-* Art. 819.
-* Art. 820.
-* Art. 821.
-* Art. 822.
-* Art. 823.
-* Art. 824.
-* Art. 825.
-* Art. 826.
-* Art. 827.
-* Art. 828.
-* Art. 829.
-* Art. 830.
-* Art. 831.
-* Art. 832.
-* Art. 833.
-* Art. 834.
-* Art. 835.
-* Art. 836.
-* Art. 837.
-* Art. 838.
-* Art. 839.
-* Art. 840.
-* Art. 841.
-* Art. 842.
-* Art. 843.
-* Art. 844.
-* Art. 845.
-* Art. 846.
-* Art. 847.
-* Art. 848.
-* Art. 849.
-* Art. 850.
-* Art. 851.
-* Art. 852.
+* Art. 807
+* Art. 808
+* Art. 809
+* Art. 810
+* Art. 811
+* Art. 812
+* Art. 813
+* Art. 814
+* Art. 815
+* Art. 816
+* Art. 817
+* Art. 818
+* Art. 819
+* Art. 820
+* Art. 821
+* Art. 822
+* Art. 823
+* Art. 824
+* Art. 825
+* Art. 826
+* Art. 827
+* Art. 828
+* Art. 829
+* Art. 830
+* Art. 831
+* Art. 832
+* Art. 833
+* Art. 834
+* Art. 835
+* Art. 836
+* Art. 837
+* Art. 838
+* Art. 839
+* Art. 840
+* Art. 841
+* Art. 842
+* Art. 843
+* Art. 844
+* Art. 845
+* Art. 846
+* Art. 847
+* Art. 848
+* Art. 849
+* Art. 850
+* Art. 851
+* Art. 852
 #### TÍTULO IV
-* Art. 853.
-* Art. 854.
-* Art. 855.
-* Art. 856.
-* Art. 857.
-* Art. 858.
-* Art. 859.
-* Art. 860.
-* Art. 861.
-* Art. 862.
-* Art. 863.
-* Art. 864.
-* Art. 865.
-* Art. 866.
-* Art. 867.
-* Art. 868.
-* Art. 869.
-* Art. 870.
-* Art. 871.
-* Art. 872.
+* Art. 853
+* Art. 854
+* Art. 855
+* Art. 856
+* Art. 857
+* Art. 858
+* Art. 859
+* Art. 860
+* Art. 861
+* Art. 862
+* Art. 863
+* Art. 864
+* Art. 865
+* Art. 866
+* Art. 867
+* Art. 868
+* Art. 869
+* Art. 870
+* Art. 871
+* Art. 872
 #### TÍTULO V
-* Art. 873.
-* Art. 874.
-* Art. 875.
-* Art. 876.
-* Art. 877.
-* Art. 878.
-* Art. 879.
-* Art. 880.
-* Art. 881.
-* Art. 882.
-* Art. 883.
-* Art. 884.
-* Art. 885.
-* Art. 886.
-* Art. 887.
-* Art. 888.
-* Art. 889.
+* Art. 873
+* Art. 874
+* Art. 875
+* Art. 876
+* Art. 877
+* Art. 878
+* Art. 879
+* Art. 880
+* Art. 881
+* Art. 882
+* Art. 883
+* Art. 884
+* Art. 885
+* Art. 886
+* Art. 887
+* Art. 888
+* Art. 889
 ### LIVRO IV
 #### TÍTULO I
-* Art. 890.
-* Art. 891.
-* Art. 892.
-* Art. 893.
-* Art. 894.
-* Art. 895.
-* Art. 896.
-* Art. 897.
-* Art. 898.
-* Art. 899.
-* Art. 900.
-* Art. 901.
-* Art. 902.
-* Art. 903.
-* Art. 904.
-* Art. 905.
-* Art. 906.
-* Art. 907.
-* Art. 908.
-* Art. 909.
-* Art. 910.
-* Art. 911.
-* Art. 912.
+* Art. 890
+* Art. 891
+* Art. 892
+* Art. 893
+* Art. 894
+* Art. 895
+* Art. 896
+* Art. 897
+* Art. 898
+* Art. 899
+* Art. 900
+* Art. 901
+* Art. 902
+* Art. 903
+* Art. 904
+* Art. 905
+* Art. 906
+* Art. 907
+* Art. 908
+* Art. 909
+* Art. 910
+* Art. 911
+* Art. 912
 * Subseção V - Dos depósitos bancários
-* Art. 913.
-* Art. 914.
+* Art. 913
+* Art. 914
 #### TÍTULO II
-* Art. 915.
-* Art. 916.
-* Art. 917.
-* Art. 918.
-* Art. 919.
-* Art. 920.
-* Art. 921.
-* Art. 922.
-* Art. 923.
-* Art. 924.
-* Art. 925.
-* Art. 926.
-* Art. 927.
-* Art. 928.
-* Art. 929.
-* Art. 930.
-* Art. 931.
-* Art. 932.
-* Art. 933.
-* Art. 934.
-* Art. 935.
-* Art. 936.
-* Art. 937.
-* Art. 938.
-* Art. 939.
-* Art. 940.
-* Art. 941.
-* Art. 942.
-* Art. 943.
-* Art. 944.
-* Art. 945.
-* Art. 946.
-* Art. 947.
-* Art. 948.
+* Art. 915
+* Art. 916
+* Art. 917
+* Art. 918
+* Art. 919
+* Art. 920
+* Art. 921
+* Art. 922
+* Art. 923
+* Art. 924
+* Art. 925
+* Art. 926
+* Art. 927
+* Art. 928
+* Art. 929
+* Art. 930
+* Art. 931
+* Art. 932
+* Art. 933
+* Art. 934
+* Art. 935
+* Art. 936
+* Art. 937
+* Art. 938
+* Art. 939
+* Art. 940
+* Art. 941
+* Art. 942
+* Art. 943
+* Art. 944
+* Art. 945
+* Art. 946
+* Art. 947
+* Art. 948
 #### TÍTULO III
-* Art. 949.
-* Art. 950.
-* Art. 951.
-* Art. 952.
-* Art. 953.
-* Art. 954.
-* Art. 955.
-* Art. 956.
-* Art. 957.
-* Art. 958.
-* Art. 959.
-* Art. 960.
-* Art. 961.
-* Art. 962.
-* Art. 963.
-* Art. 964.
-* Art. 965.
-* Art. 966.
-* Art. 967.
-* Art. 968.
-* Art. 969.
-* Art. 970.
-* Art. 971.
-* Art. 972.
-* Art. 973.
-* Art. 974.
-* Art. 975.
-* Art. 976.
-* Art. 977.
-* Art. 978.
-* Art. 979.
-* Art. 980.
-* Art. 981.
-* Art. 982.
-* Art. 983.
-* Art. 984.
-* Art. 985.
-* Art. 986.
-* Art. 987.
-* Art. 988.
+* Art. 949
+* Art. 950
+* Art. 951
+* Art. 952
+* Art. 953
+* Art. 954
+* Art. 955
+* Art. 956
+* Art. 957
+* Art. 958
+* Art. 959
+* Art. 960
+* Art. 961
+* Art. 962
+* Art. 963
+* Art. 964
+* Art. 965
+* Art. 966
+* Art. 967
+* Art. 968
+* Art. 969
+* Art. 970
+* Art. 971
+* Art. 972
+* Art. 973
+* Art. 974
+* Art. 975
+* Art. 976
+* Art. 977
+* Art. 978
+* Art. 979
+* Art. 980
+* Art. 981
+* Art. 982
+* Art. 983
+* Art. 984
+* Art. 985
+* Art. 986
+* Art. 987
+* Art. 988
 #### TÍTULO IV
-* Art. 989.
-* Art. 990.
-* Art. 991.
-* Art. 992.
-* Art. 993.
-* Art. 994.
-* Art. 995.
-* Art. 996.
-* Art. 997.
-* Art. 998.
-* Art. 999.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
+* Art. 989
+* Art. 990
+* Art. 991
+* Art. 992
+* Art. 993
+* Art. 994
+* Art. 995
+* Art. 996
+* Art. 997
+* Art. 998
+* Art. 999
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
 #### TÍTULO V
-* Art. 1.
+* Art. 1
 #### TÍTULO VI
-* Art. 1.
+* Art. 1
 #### TÍTULO VII
-* Art. 1.
-* Art. 1.
+* Art. 1
+* Art. 1
 #### TÍTULO VIII
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
-* Art. 1.
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
+* Art. 1
 
 </details>
 

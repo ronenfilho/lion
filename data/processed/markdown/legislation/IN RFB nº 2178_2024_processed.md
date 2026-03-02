@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 2178_2024.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 16:40
+- **Processado em**: 02/03/2026 16:48
 - **viewport**: width=device-width, initial-scale=1
 - **encoding_detected**: utf-8
 
@@ -20,35 +20,35 @@
 ### Instrução Normativa RFB nº 2178 , de 5 de março de 2024
 #### Ementa
 ##### CAPÍTULO I DISPOSIÇÃO PRELIMINAR
-* Art. 1º Esta Instrução Normativa estabelece normas e procedimentos para a apresentação da Declara…
+* Art. 1º
 ##### CAPÍTULO II DA OBRIGATORIEDADE DE APRESENTAÇÃO
-* Art. 2º Está obrigada a apresentar a Declaração de Ajuste Anual referente ao exercício de 2024 a …
+* Art. 2º
 ##### CAPÍTULO III DA OPÇÃO PELO DESCONTO SIMPLIFICADO
-* Art. 3º A pessoa física pode optar pelo desconto simplificado, correspondente à dedução de 20% (v…
+* Art. 3º
 ##### CAPÍTULO IV DA FORMA DE ELABORAÇÃO
-* Art. 4º A Declaração de Ajuste Anual deve ser elaborada, exclusivamente:
+* Art. 4º
 ##### CAPÍTULO V DAS VEDAÇÕES à UTILIZAÇÃO DO "Meu Imposto de Renda"
-* Art. 5º Ficam vedados o preenchimento e a apresentação da Declaração de Ajuste Anual por meio do …
+* Art. 5º
 ##### CAPÍTULO VI DA DECLARAÇÃO DE AJUSTE ANUAL PRÉ-PREENCHIDA
-* Art. 6º O contribuinte poderá utilizar os dados da Declaração de Ajuste Anual Pré-Preenchida para…
+* Art. 6º
 ##### CAPÍTULO VII DO PRAZO E DOS MEIOS DISPONÍVEIS PARA A APRESENTAÇÃO
-* Art. 7º A Declaração de Ajuste Anual deve ser apresentada no período de 15 de março a 31 de maio …
-* Art. 8º A apresentação da Declaração de Ajuste Anual depois do prazo previsto no caput do art. 7º…
+* Art. 7º
+* Art. 8º
 ##### CAPÍTULO VIII DA RETIFICAÇÃO
-* Art. 9º A pessoa física que constatar a ocorrência de erros, omissões ou inexatidões em Declaraçã…
+* Art. 9º
 ##### CAPÍTULO IX DA MULTA POR ATRASO NA ENTREGA OU PELA NÃO APRESENTAÇÃO
-* Art. 10. A entrega da Declaração de Ajuste Anual depois do prazo previsto no caput do art. 7º ou …
+* Art. 10
 ##### CAPÍTULO X DA DECLARAÇÃO DE BENS E DIREITOS E DE DÍVIDAS E ÔNUS REAIS
-* Art. 11. A pessoa física sujeita à apresentação da Declaração de Ajuste Anual deve nela relaciona…
+* Art. 11
 ##### CAPÍTULO XI DO PAGAMENTO DO IMPOSTO
-* Art. 12. O saldo do imposto pode ser pago em até 8 (oito) quotas mensais e sucessivas, observado …
-* Art. 13. A pessoa física que recebe rendimentos do trabalho assalariado de autarquias ou repartiç…
+* Art. 12
+* Art. 13
 ##### CAPÍTULO XII DA AUTORIZAÇÃO DE ACESSO
-* Art. 14. O contribuinte pode autorizar outra pessoa física a elaborar e transmitir a sua Declaraç…
+* Art. 14
 ##### CAPÍTULO XIII DISPOSIÇÕES FINAIS
-* Art. 15. A Instrução Normativa SRF nº 81, de 11 de outubro de 2001, passa a vigorar com as seguin…
-* Art. 16. A Instrução Normativa SRF nº 208, de 27 de setembro de 2002, passa a vigorar com as segu…
-* Art. 17. Esta Instrução Normativa entrará em vigor na data de sua publicação no Diário Oficial da…
+* Art. 15
+* Art. 16
+* Art. 17
 
 </details>
 

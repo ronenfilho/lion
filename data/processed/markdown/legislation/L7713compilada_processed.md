@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L7713compilada.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 16:40
+- **Processado em**: 02/03/2026 16:48
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -26,55 +26,55 @@
 ### Art. 7º
 ### Art. 8º
 ### Art. 9º
-### Art. 10.
+### Art. 10
 ### Art. 11
-### Art. 12.
-### Art. 12-A.
-### Art. 12-B.
+### Art. 12
+### Art. 12-A
+### Art. 12-B
 ### Art. 13
 ### Art. 14
-### Art. 15.
-### Art. 16.
-### Art. 17.
-### Art. 18.
-### Art. 19.
-### Art. 20.
-### Art. 21.
-### Art. 22.
+### Art. 15
+### Art. 16
+### Art. 17
+### Art. 18
+### Art. 19
+### Art. 20
+### Art. 21
+### Art. 22
 ### Art. 23
 ### Art. 24
-### Art. 25.
-### Art. 26.
-### Art. 27.
-### Art. 30.
-### Art 31.
-### Art. 32.
-### Art. 33.
-### Art. 34.
-### Art. 35.
-### Art. 36.
-### Art. 37.
-### Art. 38.
-### Art. 39.
-### Art 40.
-### Art. 41.
+### Art. 25
+### Art. 26
+### Art. 27
+### Art. 30
+### Art 31
+### Art. 32
+### Art. 33
+### Art. 34
+### Art. 35
+### Art. 36
+### Art. 37
+### Art. 38
+### Art. 39
+### Art 40
+### Art. 41
 ### Art. 42
-### Art. 43.
-### Art. 44.
+### Art. 43
+### Art. 44
 ### Art. 45
 ### Art. 46
-### Art. 47.
-### Art. 48.
-### Art. 49.
-### Art. 50.
-### Art. 51.
-### Art. 52.
-### Art. 53.
-### Art. 54.
-### Art. 55.
-### Art. 56.
-### Art. 57.
-### Art. 58.
+### Art. 47
+### Art. 48
+### Art. 49
+### Art. 50
+### Art. 51
+### Art. 52
+### Art. 53
+### Art. 54
+### Art. 55
+### Art. 56
+### Art. 57
+### Art. 58
 
 </details>
 

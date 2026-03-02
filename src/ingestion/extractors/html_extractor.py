@@ -566,7 +566,12 @@ class HTMLExtractor(BaseExtractor):
             clean_title = re.sub(r"\s*\{#[^}]+\}", "", title).strip()
             clean_title = re.sub(r"\s*\((?:Incluído|Redação|Revogado|Acrescido)[^)]*\)", "", clean_title, flags=re.I).strip()
             clean_title = re.sub(r"\s+Produção de efeitos.*$", "", clean_title).strip()
-            if len(clean_title) > 100:
+            
+            # ── Para artigos, manter apenas "Art. Xº" sem o conteúdo ────────
+            art_match = re.match(r"(Art\.?\s*\d+[º°]?(?:-[A-Z])?)\s*.*", clean_title, re.I)
+            if art_match:
+                clean_title = art_match.group(1)
+            elif len(clean_title) > 100:
                 clean_title = clean_title[:97] + "…"
 
             # ── Remapear níveis (mesma lógica do save_to_markdown) ──────────

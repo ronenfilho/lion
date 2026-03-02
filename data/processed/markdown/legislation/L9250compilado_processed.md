@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L9250compilado.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 16:40
+- **Processado em**: 02/03/2026 16:48
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -22,60 +22,60 @@
 ### Art. 2º
 ### CAPÍTULO II
 ### Art. 3º
-### Art. 3º-A.
-### Art. 4º.
+### Art. 3º-A
+### Art. 4º
 ### Art. 5º
 ### Art. 6º
 ### CAPÍTULO II-A
 ### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS
-### Art. 6º-A.
+### Art. 6º-A
 ### CAPÍTULO III
 ### Art. 7º
 ### Art. 8º
 ### Art. 9º
-### Art. 10.
-### Art. 11.
-### Art. 11-A.
-### Art. 12.
-### Art. 13.
-### Art. 14.
-### Art. 15.
-### Art. 16.
+### Art. 10
+### Art. 11
+### Art. 11-A
+### Art. 12
+### Art. 13
+### Art. 14
+### Art. 15
+### Art. 16
 ### CAPÍTULO III-A
 ### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS
-### Art. 16-A.
-### Art. 16-B.
+### Art. 16-A
+### Art. 16-B
 ### CAPÍTULO IV
-### Art. 17.
-### Art. 18.
-### Art. 19.
-### Art. 20.
-### Art. 21.
+### Art. 17
+### Art. 18
+### Art. 19
+### Art. 20
+### Art. 21
 ### CAPÍTULO V
-### Art. 22.
-### Art. 23.
-### Art. 24.
+### Art. 22
+### Art. 23
+### Art. 24
 ### CAPÍTULO VI
-### Art. 25.
+### Art. 25
 ### CAPÍTULO VII
-### Art. 26.
-### Art. 27.
-### Art. 28.
-### Art. 29.
-### Art. 30.
-### Art. 31.
-### Art. 32.
-### Art. 33.
-### Art. 34.
-### Art. 35.
+### Art. 26
+### Art. 27
+### Art. 28
+### Art. 29
+### Art. 30
+### Art. 31
+### Art. 32
+### Art. 33
+### Art. 34
+### Art. 35
 ### CAPÍTULO VIII
-### Art. 36.
-### Art. 37.
-### Art. 38.
-### Art. 39.
-### Art. 40.
-### Art. 41.
-### Art. 42.
+### Art. 36
+### Art. 37
+### Art. 38
+### Art. 39
+### Art. 40
+### Art. 41
+### Art. 42
 
 </details>
 
