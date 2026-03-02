@@ -72,8 +72,17 @@ Texto do artigo...
 
 - **Níveis 1-6**: Usam headings markdown (`#` a `######`)
 - **Nível 7+**: Usam listas (`*` e `-` com indentação) para compatibilidade com renderizadores
-- **Artigos**: Sem links de âncora, apenas número (Ex: "Art. 453" não "Art. 453 {#art-453}")
 - **Combinação de títulos**: "LIVRO I" + "DA TRIBUTAÇÃO" → "LIVRO I - DA TRIBUTAÇÃO"
+
+### Exemplo Completo
+
+📄 **Veja o arquivo completo**: [D9580_processed.md](../data/processed/markdown/legislation/D9580_processed.md)
+
+Este documento de 199.146 palavras demonstra todos os 10 níveis hierárquicos do Decreto nº 9.580/2018 (Regulamento do Imposto de Renda), incluindo:
+- Estrutura completa com Livros, Títulos, Capítulos, Seções e Subseções
+- 1.500+ artigos organizados hierarquicamente
+- Esquema navegável com todos os elementos estruturais
+- Parágrafos, incisos e alíneas devidamente aninhados
 
 ## Componentes Core
 
