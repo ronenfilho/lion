@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 2178-2024.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 17:29
+- **Processado em**: 02/03/2026 17:37
 - **viewport**: width=device-width, initial-scale=1
 - **encoding_detected**: utf-8
 
@@ -20,35 +20,35 @@
 ### Instrução Normativa RFB nº 2178 , de 5 de março de 2024
 #### Ementa
 ##### CAPÍTULO I DISPOSIÇÃO PRELIMINAR
-* Art. 1º
+  * Art. 1º
 ##### CAPÍTULO II DA OBRIGATORIEDADE DE APRESENTAÇÃO
-* Art. 2º
+  * Art. 2º
 ##### CAPÍTULO III DA OPÇÃO PELO DESCONTO SIMPLIFICADO
-* Art. 3º
+  * Art. 3º
 ##### CAPÍTULO IV DA FORMA DE ELABORAÇÃO
-* Art. 4º
+  * Art. 4º
 ##### CAPÍTULO V DAS VEDAÇÕES à UTILIZAÇÃO DO "Meu Imposto de Renda"
-* Art. 5º
+  * Art. 5º
 ##### CAPÍTULO VI DA DECLARAÇÃO DE AJUSTE ANUAL PRÉ-PREENCHIDA
-* Art. 6º
+  * Art. 6º
 ##### CAPÍTULO VII DO PRAZO E DOS MEIOS DISPONÍVEIS PARA A APRESENTAÇÃO
-* Art. 7º
-* Art. 8º
+  * Art. 7º
+  * Art. 8º
 ##### CAPÍTULO VIII DA RETIFICAÇÃO
-* Art. 9º
+  * Art. 9º
 ##### CAPÍTULO IX DA MULTA POR ATRASO NA ENTREGA OU PELA NÃO APRESENTAÇÃO
-* Art. 10
+  * Art. 10
 ##### CAPÍTULO X DA DECLARAÇÃO DE BENS E DIREITOS E DE DÍVIDAS E ÔNUS REAIS
-* Art. 11
+  * Art. 11
 ##### CAPÍTULO XI DO PAGAMENTO DO IMPOSTO
-* Art. 12
-* Art. 13
+  * Art. 12
+  * Art. 13
 ##### CAPÍTULO XII DA AUTORIZAÇÃO DE ACESSO
-* Art. 14
+  * Art. 14
 ##### CAPÍTULO XIII DISPOSIÇÕES FINAIS
-* Art. 15
-* Art. 16
-* Art. 17
+  * Art. 15
+  * Art. 16
+  * Art. 17
 
 </details>
 

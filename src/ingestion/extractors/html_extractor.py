@@ -581,7 +581,7 @@ class HTMLExtractor(BaseExtractor):
 
             # Preâmbulo: artigos ANTES do first_structural_idx
             if first_structural_idx > 0 and idx < first_structural_idx and is_article:
-                md_level = 2
+                md_level = 7  # Artigos sempre nível 7 (lista indentada)
 
             # ANEXO
             elif is_anexo:
@@ -620,11 +620,18 @@ class HTMLExtractor(BaseExtractor):
         out += ["<details>", "<summary>📋 Esquema da Legislação</summary>", ""]
 
         for lvl, title in headings:
+            # Detectar se é artigo
+            is_article_heading = bool(re.match(r"Art\.?\s*\d+", title, re.I))
+            
             if lvl <= 6:
                 hashes = "#" * lvl
                 out.append(f"{hashes} {title}")
             elif lvl == 7:
-                out.append(f"* {title}")
+                # Artigos sempre com indentação, Subseções sem
+                if is_article_heading:
+                    out.append(f"  * {title}")
+                else:
+                    out.append(f"* {title}")
             elif lvl == 8:
                 out.append(f"  - {title}")
             elif lvl == 9:
@@ -742,7 +749,7 @@ class HTMLExtractor(BaseExtractor):
 
             # Preâmbulo: artigos antes da estrutura principal
             if has_preamble and idx < first_structural_idx and is_article:
-                md_level = 2  # ## Art. 1º (preâmbulo)
+                md_level = 7  # Artigos sempre nível 7 (lista indentada)
 
             # ANEXO é nível 2
             elif is_anexo:
@@ -756,7 +763,7 @@ class HTMLExtractor(BaseExtractor):
                     md_level = 4
                 elif raw_level == 3:  # Capítulo / Artigo RIR
                     if is_article:
-                        md_level = 6  # Artigos no RIR ficam ######
+                        md_level = 7  # Artigos sempre nível 7 (lista com indentação)
                     else:
                         md_level = 5  # Capítulos #####
                 elif raw_level == 4:  # Seção

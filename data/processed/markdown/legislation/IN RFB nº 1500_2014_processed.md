@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 1500_2014.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 17:29
+- **Processado em**: 02/03/2026 17:37
 - **viewport**: width=device-width, initial-scale=1
 - **GENERATOR**: LibreOffice 4.1.3.2 (Windows)
 - **CREATED**: 20140815;555387584
@@ -22,215 +22,215 @@
 # IN RFB nº 1500/2014
 ### Instrução Normativa RFB nº 1500 , de 29 de outubro de 2014
 #### Ementa
-* Art. 1º
+  * Art. 1º
 ##### CAPÍTULO I DOS CONTRIBUINTES
-* Art. 2º
+  * Art. 2º
 ##### CAPÍTULO II DOS RENDIMENTOS TRIBUTÁVEIS
-* Art. 3º
-* Art. 4º
+  * Art. 3º
+  * Art. 4º
 ##### CAPÍTULO III DOS RENDIMENTOS ISENTOS OU NÃO TRIBUTÁVEIS
 ###### Seção I Dos Rendimentos Originários do Trabalho e Assemelhados
-* Art. 5º
+  * Art. 5º
 ###### Seção II Dos Rendimentos Pagos por Previdências
-* Art. 6º
+  * Art. 6º
 ###### Seção III Dos Rendimentos Decorrentes de Indenizações e Assemelhados
-* Art. 7º
+  * Art. 7º
 ###### Seção IV Dos Rendimentos de Participações Societárias
-* Art. 8º
+  * Art. 8º
 ###### Seção V Dos Rendimentos Obtidos no Mercado Financeiro e Assemelhados
-* Art. 9º
+  * Art. 9º
 ###### Seção VI Dos Rendimentos Obtidos na Alienação de Bens e Direitos
-* Art. 10
+  * Art. 10
 ###### Seção VII Dos Demais Rendimentos
-* Art. 11
+  * Art. 11
 ##### CAPÍTULO IV DOS RENDIMENTOS TRIBUTADOS EXCLUSIVAMENTE NA FONTE
-* Art. 12
+  * Art. 12
 ###### Seção I Da Gratificação Natalina (13º salário)
 * Subseção I Da Regra Geral
-* Art. 13
+  * Art. 13
 * Subseção II Do Maior de 65 anos
-* Art. 14
+  * Art. 14
 * Subseção III Da Previdência Complementar
-* Art. 15
+  * Art. 15
 * Subseção IV Do Governo Estrangeiro
-* Art. 16
+  * Art. 16
 ###### Seção II Da Participação nos Lucros ou Resultados das Empresas
-* Art. 17
+  * Art. 17
 ###### Seção III Do Transportador Autônomo Pessoa Física Residente na República do Paraguai
-* Art. 18
+  * Art. 18
 ###### Seção IV Dos Demais Rendimentos
-* Art. 19
+  * Art. 19
 ##### CAPÍTULO V DOS RENDIMENTOS SUJEITOS À TRIBUTAÇÃO DEFINITIVA
-* Art. 20
-* Art. 21
-* Art. 21-A
-* Art. 21-B
+  * Art. 20
+  * Art. 21
+  * Art. 21-A
+  * Art. 21-B
 ##### CAPÍTULO VI DOS RENDIMENTOS TRIBUTADOS NA FONTE A TÍTULO DE ANTECIPAÇÃO
 ###### Seção I Da Tributação por Antecipação
-* Art. 22
-* Art. 22-A
-* Art. 23
-* Art. 23-A
+  * Art. 22
+  * Art. 22-A
+  * Art. 23
+  * Art. 23-A
 ###### Seção II Da Tributação na Decisão Judicial
-* Art. 24
+  * Art. 24
 * Subseção I Dos Rendimentos Decorrentes de Decisão da Justiça Federal
-* Art. 25
+  * Art. 25
 * Subseção II Dos Rendimentos Decorrentes de Decisão da Justiça do Trabalho
-* Art. 26
+  * Art. 26
 * Subseção III Dos Rendimentos Decorrentes de Decisões da Justiça Estadual e do Distrito Federal
-* Art. 27
+  * Art. 27
 ###### Seção III Dos Servidores no Exterior a Serviço do País
-* Art. 28
+  * Art. 28
 ###### Seção IV Das Férias
-* Art. 29
+  * Art. 29
 ###### Seção V Do Aluguel de Imóvel Pago por Pessoa Física
-* Art. 30
+  * Art. 30
 ###### Seção VI Do Aluguel de Imóvel Pago por Pessoa Jurídica
-* Art. 31
-* Art. 32
-* Art. 33
-* Art. 34
-* Art. 35
+  * Art. 31
+  * Art. 32
+  * Art. 33
+  * Art. 34
+  * Art. 35
 ##### CAPÍTULO VII DOS RENDIMENTOS RECEBIDOS ACUMULADAMENTE
 ###### Seção I Dos RRA Relativos a Anos-Calendário Anteriores ao do Recebimento
 * Subseção I Dos RRA Submetidos à Incidência do Imposto sobre a Renda com Base na Tabela Progressiv…
-* Art. 36
-* Art. 37
-* Art. 38
-* Art. 39
-* Art. 40
-* Art. 41
-* Art. 42
+  * Art. 36
+  * Art. 37
+  * Art. 38
+  * Art. 39
+  * Art. 40
+  * Art. 41
+  * Art. 42
 * Subseção II Dos Demais RRA
-* Art. 43
+  * Art. 43
 ###### Seção II Dos RRA Relativos ao Ano-Calendário do Recebimento
-* Art. 44
+  * Art. 44
 ###### Seção III Das Disposições Gerais Relativas aos RRA
-* Art. 45
-* Art. 46
-* Art. 47
-* Art. 48
-* Art. 49
-* Art. 49-A
-* Art. 50
-* Art. 51
+  * Art. 45
+  * Art. 46
+  * Art. 47
+  * Art. 48
+  * Art. 49
+  * Art. 49-A
+  * Art. 50
+  * Art. 51
 ##### CAPÍTULO VIII DA BASE DE CÁLCULO MENSAL
-* Art. 52
+  * Art. 52
 ##### CAPÍTULO IX DO RECOLHIMENTO MENSAL OBRIGATÓRIO (“CARNÊ-LEÃO”)
 ###### Seção I Da Sujeição ao Recolhimento Mensal Obrigatório
-* Art. 53
-* Art. 54
+  * Art. 53
+  * Art. 54
 ###### Seção II Da Base de Cálculo do Recolhimento Mensal
-* Art. 55
-* Art. 56
+  * Art. 55
+  * Art. 56
 * Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros…
-* Art. 57
+  * Art. 57
 ##### CAPÍTULO X DAS NORMAS DE RETENÇÃO NA FONTE
-* Art. 58
-* Art. 59
+  * Art. 58
+  * Art. 59
 ##### CAPÍTULO XI DA DISPENSA DA RETENÇÃO
-* Art. 60
-* Art. 61
-* Art. 62
+  * Art. 60
+  * Art. 61
+  * Art. 62
 ##### CAPÍTULO XII DOS ADIANTAMENTOS
-* Art. 63
+  * Art. 63
 ##### CAPÍTULO XIII DO REAJUSTAMENTO DA BASE DE CÁLCULO
-* Art. 64
+  * Art. 64
 ##### CAPÍTULO XIV DA TABELA PROGRESSIVA MENSAL
 ###### Seção I Do Cálculo do Imposto na Fonte e do Recolhimento Mensal
-* Art. 65
+  * Art. 65
 ###### Seção I-A Da redução mensal do imposto
-* Art. 65-A
+  * Art. 65-A
 ###### Seção II Do Prazo para o Recolhimento Mensal Obrigatório
-* Art. 66
+  * Art. 66
 ##### CAPÍTULO XV DO RECOLHIMENTO COMPLEMENTAR
-* Art. 67
+  * Art. 67
 ###### Seção I Da Base de Cálculo
-* Art. 68
+  * Art. 68
 ###### Seção II Da Complementação do Imposto
-* Art. 69
+  * Art. 69
 ##### CAPÍTULO XVI DA DECLARAÇÃO DE AJUSTE ANUAL
 ###### Seção I Da Regra Geral
-* Art. 70
+  * Art. 70
 ###### Seção II Do Desconto Simplificado
-* Art. 71
+  * Art. 71
 ###### Seção III Da Apuração da Base de Cálculo do Ajuste Anual
-* Art. 72
+  * Art. 72
 ###### Seção IV Da Atividade Rural
-* Art. 73
+  * Art. 73
 ###### Seção V Dos Bens e Direitos
-* Art. 74
+  * Art. 74
 ###### Seção VI Das Dívidas e Ônus Reais
-* Art. 75
+  * Art. 75
 ###### Seção VII Da Cessão Gratuita de Imóvel
-* Art. 76
+  * Art. 76
 ###### Seção VIII Do Acréscimo Patrimonial
-* Art. 77
+  * Art. 77
 ###### Seção IX Dos Ganhos de Capital e Ganhos Líquidos
-* Art. 78
+  * Art. 78
 ###### Seção IX-A Dos ganhos em aplicações financeiras no exterior e de lucros e dividendos de entidades…
-* Art. 78-A
+  * Art. 78-A
 ###### Seção X Da Apuração Anual do Imposto
-* Art. 79
+  * Art. 79
 ###### Seção XI Das Deduções do Imposto Apurado
-* Art. 80
+  * Art. 80
 ###### Seção XII Do Imposto Pago no Exterior
-* Art. 81
+  * Art. 81
 ###### Seção XIII Da Retificação da DAA
-* Art. 82
-* Art. 83
-* Art. 83-A
-* Art. 84
-* Art. 85
+  * Art. 82
+  * Art. 83
+  * Art. 83-A
+  * Art. 84
+  * Art. 85
 ##### CAPÍTULO XVII DAS NORMAS RELATIVAS ÀS DEDUÇÕES DA BASE DE CÁLCULO
 ###### Seção I Da Contribuição Previdenciária
-* Art. 86
-* Art. 87
-* Art. 88
-* Art. 89
+  * Art. 86
+  * Art. 87
+  * Art. 88
+  * Art. 89
 ###### Seção II Dos Dependentes
-* Art. 90
+  * Art. 90
 ###### Seção III Das Despesas com Instrução
-* Art. 91
-* Art. 92
-* Art. 93
+  * Art. 91
+  * Art. 92
+  * Art. 93
 ###### Seção IV Das Despesas Médicas
-* Art. 94
-* Art. 95
-* Art. 96
-* Art. 97
-* Art. 98
-* Art. 99
-* Art. 100
+  * Art. 94
+  * Art. 95
+  * Art. 96
+  * Art. 97
+  * Art. 98
+  * Art. 99
+  * Art. 100
 ###### Seção V Da Pensão Alimentícia
-* Art. 101
-* Art. 102
-* Art. 103
+  * Art. 101
+  * Art. 102
+  * Art. 103
 ###### Seção VI Das Despesas Escrituradas no Livro Caixa
-* Art. 104
+  * Art. 104
 ##### CAPÍTULO XVIII DO PAGAMENTO E RECOLHIMENTO DO IMPOSTO
 ###### Seção I Dos Prazos e Condições
-* Art. 105
+  * Art. 105
 ###### Seção II Dos Acréscimos Legais
-* Art. 106
+  * Art. 106
 ###### Seção III Dos Códigos
-* Art. 107
+  * Art. 107
 ##### CAPÍTULO XIX DAS DISPOSIÇÕES TRANSITÓRIAS
 ###### Seção I Das Isenções Relativas à Realização, no Brasil, da Copa da Confederações Fifa 2013 e da C…
 * Subseção I Das Pessoas Físicas que Ingressarem no País com Visto Temporário
-* Art. 108
+  * Art. 108
 * Subseção II Do Reembolso de Despesas Recebido por Voluntário
-* Art. 109
+  * Art. 109
 * Subseção III Das Disposições Gerais
-* Art. 110
-* Art. 111
+  * Art. 110
+  * Art. 111
 ###### Seção II
-* Art. 112
+  * Art. 112
 ###### Seção III Da isenção dos prêmios pagos pelo Comitê Olímpico Brasileiro e pelo Comitê Paralímpico …
-* Art. 112-A
+  * Art. 112-A
 ##### CAPÍTULO XX DAS DISPOSIÇÕES FINAIS
-* Art. 113
-* Art. 114
+  * Art. 113
+  * Art. 114
 
 </details>
 
