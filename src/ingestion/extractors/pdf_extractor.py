@@ -111,8 +111,8 @@ class PDFExtractor:
         import re
         from datetime import datetime
         
-        # Criar diretório data/processed se não existir
-        processed_dir = Path("data/processed")
+        # Criar diretório data/datasets/debug se não existir
+        processed_dir = Path("data/datasets/debug")
         processed_dir.mkdir(parents=True, exist_ok=True)
         
         # Nome do arquivo: source_name_processed.md

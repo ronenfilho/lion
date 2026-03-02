@@ -14,10 +14,10 @@ TODO: Melhorar métricas de metadata no futuro:
     - Mapear conceitos jurídicos específicos (ex: fato gerador, base de cálculo)
 
 Uso:
-    python scripts/create_test_dataset.py --pdf data/raw/Manual_Padrao_RFB_PeR_Tributacao_Cotin_V.19.12.2025.pdf
+    python scripts/1_create_test_dataset.py
     
     Opcional:
-    python scripts/create_test_dataset.py --pdf data/raw/Manual_Padrao_RFB_PeR_Tributacao_Cotin_V.19.12.2025.pdf --output data/processed/test_dataset.json
+    python scripts/1_create_test_dataset.py --pdf data/raw/qa_reference/Manual_Padrao_RFB_PeR_Tributacao_Cotin_V.19.12.2025.pdf --output data/datasets/test/manual_rfb_test.json
 """
 
 import sys
@@ -468,12 +468,12 @@ def main():
     )
     parser.add_argument(
         '--pdf',
-        default='data/raw/Manual_Padrao_RFB_PeR_Tributacao_Cotin_V.19.12.2025.pdf',
+        default='data/raw/qa_reference/Manual_Padrao_RFB_PeR_Tributacao_Cotin_V.19.12.2025.pdf',
         help='Caminho do PDF fonte'
     )
     parser.add_argument(
         '--output',
-        default='experiments/datasets/manual_rfb_test.json',
+        default='data/datasets/test/manual_rfb_test.json',
         help='Caminho do arquivo JSON de saída'
     )
     parser.add_argument(

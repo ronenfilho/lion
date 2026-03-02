@@ -108,7 +108,6 @@ print(result['answer'], result['chunks'])
 
 ## 📖 Documentação
 
-- [PROJETO_LION.md](docs/PROJETO_LION.md) - Fundamentação teórica
 - [ARQUITETURA.md](docs/ARQUITETURA.md) - Detalhes técnicos v2.0
 - [GUIA_IMPLEMENTACAO.md](docs/GUIA_IMPLEMENTACAO.md) - Passo a passo
 
