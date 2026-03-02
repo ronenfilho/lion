@@ -440,30 +440,8 @@ class HTMLExtractor(BaseExtractor):
                 lines.append(f"- **{key}**: {value}")
         lines += ["", "</details>", "", "---", ""]
 
-        # --- Índice de artigos: coletado dos títulos de seção (não do full_text)
-        # para garantir que cada entrada corresponda a uma âncora real no documento
-        art_sections = [
-            s for s in sections
-            if s.title and re.match(r"^\s*Art\.?\s*\d+", s.title, re.I)
-        ]
-        # Deduplicar por número normalizado (sem º/°)
-        seen_nums: set = set()
-        unique_arts: List[HTMLSection] = []
-        for s in art_sections:
-            m = re.search(r"(\d+)", s.title)
-            key = m.group(1) if m else s.title
-            if key not in seen_nums:
-                seen_nums.add(key)
-                unique_arts.append(s)
-
-        if unique_arts:
-            lines += ["## 📑 Índice de Artigos", ""]
-            for s in unique_arts:
-                m = re.search(r"(\d+[º°]?(?:-[A-Z])?)", s.title)
-                art_raw = m.group(1) if m else s.title
-                art_id = re.sub(r"[º°]", "", art_raw).lower()
-                lines.append(f"- [Art. {art_raw}](#art-{art_id})")
-            lines += ["", "---", ""]
+        # --- Esquema hierárquico da legislação ---
+        lines.extend(self._build_esquema(sections, full_text))
 
         lines += ["## 📖 Texto Normativo", ""]
 

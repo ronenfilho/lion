@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L15270.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 12:34
+- **Processado em**: 02/03/2026 12:58
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -13,17 +13,25 @@
 
 ---
 
-## 📑 Índice de Artigos
+<details>
+<summary>📋 Esquema da Legislação</summary>
 
-- [Art. 1º](#art-1)
-- [Art. 2º](#art-2)
-- [Art. 6º-A](#art-6-a)
-- [Art. 16-A](#art-16-a)
-- [Art. 3º](#art-3)
-- [Art. 4º](#art-4)
-- [Art. 5º](#art-5)
-- [Art. 7º](#art-7)
-- [Art. 8º](#art-8)
+###### Art. 1º
+###### Art. 2º
+### “CAPÍTULO II-A
+### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS
+###### Art. 6º-A
+### “CAPÍTULO III-A
+### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS
+###### Art. 16-A
+###### Art. 3º
+###### Art. 4º
+###### Art. 5º
+###### Art. 6º
+###### Art. 7º
+###### Art. 8º
+
+</details>
 
 ---
 

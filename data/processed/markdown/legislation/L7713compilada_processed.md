@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L7713compilada.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 12:34
+- **Processado em**: 02/03/2026 12:58
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -13,62 +13,67 @@
 
 ---
 
-## 📑 Índice de Artigos
+<details>
+<summary>📋 Esquema da Legislação</summary>
 
-- [Art. 1º](#art-1)
-- [Art. 2º](#art-2)
-- [Art. 3º](#art-3)
-- [Art. 4º](#art-4)
-- [Art. 5º](#art-5)
-- [Art. 6º](#art-6)
-- [Art. 7º](#art-7)
-- [Art. 8º](#art-8)
-- [Art. 9º](#art-9)
-- [Art. 10](#art-10)
-- [Art. 11](#art-11)
-- [Art. 12](#art-12)
-- [Art. 13](#art-13)
-- [Art. 14](#art-14)
-- [Art. 15](#art-15)
-- [Art. 16](#art-16)
-- [Art. 17](#art-17)
-- [Art. 18](#art-18)
-- [Art. 19](#art-19)
-- [Art. 20](#art-20)
-- [Art. 21](#art-21)
-- [Art. 22](#art-22)
-- [Art. 23](#art-23)
-- [Art. 24](#art-24)
-- [Art. 25](#art-25)
-- [Art. 26](#art-26)
-- [Art. 27](#art-27)
-- [Art. 30](#art-30)
-- [Art. 31](#art-31)
-- [Art. 32](#art-32)
-- [Art. 33](#art-33)
-- [Art. 34](#art-34)
-- [Art. 35](#art-35)
-- [Art. 36](#art-36)
-- [Art. 37](#art-37)
-- [Art. 38](#art-38)
-- [Art. 39](#art-39)
-- [Art. 40](#art-40)
-- [Art. 41](#art-41)
-- [Art. 42](#art-42)
-- [Art. 43](#art-43)
-- [Art. 44](#art-44)
-- [Art. 47](#art-47)
-- [Art. 48](#art-48)
-- [Art. 49](#art-49)
-- [Art. 50](#art-50)
-- [Art. 51](#art-51)
-- [Art. 52](#art-52)
-- [Art. 53](#art-53)
-- [Art. 54](#art-54)
-- [Art. 55](#art-55)
-- [Art. 56](#art-56)
-- [Art. 57](#art-57)
-- [Art. 58](#art-58)
+###### Art. 1º
+###### Art. 2º
+###### Art. 3º
+###### Art. 4º
+###### Art. 5º
+###### Art. 6º
+###### Art. 7º
+###### Art. 8º
+###### Art. 9º
+###### Art. 10.
+###### Art. 11
+###### Art. 12.
+###### Art. 12-A.
+###### Art. 12-B.
+###### Art. 13
+###### Art. 14
+###### Art. 15.
+###### Art. 16.
+###### Art. 17.
+###### Art. 18.
+###### Art. 19.
+###### Art. 20.
+###### Art. 21.
+###### Art. 22.
+###### Art. 23
+###### Art. 24
+###### Art. 25.
+###### Art. 26.
+###### Art. 27.
+###### Art. 30.
+###### Art 31.
+###### Art. 32.
+###### Art. 33.
+###### Art. 34.
+###### Art. 35.
+###### Art. 36.
+###### Art. 37.
+###### Art. 38.
+###### Art. 39.
+###### Art 40.
+###### Art. 41.
+###### Art. 42
+###### Art. 43.
+###### Art. 44.
+###### Art. 47.
+###### Art. 48.
+###### Art. 49.
+###### Art. 50.
+###### Art. 51.
+###### Art. 52.
+###### Art. 53.
+###### Art. 54.
+###### Art. 55.
+###### Art. 56.
+###### Art. 57.
+###### Art. 58.
+
+</details>
 
 ---
 

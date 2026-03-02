@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 1500_2014.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 12:34
+- **Processado em**: 02/03/2026 12:58
 - **viewport**: width=device-width, initial-scale=1
 - **GENERATOR**: LibreOffice 4.1.3.2 (Windows)
 - **CREATED**: 20140815;555387584
@@ -16,122 +16,99 @@
 
 ---
 
-## 📑 Índice de Artigos
+<details>
+<summary>📋 Esquema da Legislação — até Subseção (123 artigos não exibidos)</summary>
 
-- [Art. 1º](#art-1)
-- [Art. 2º](#art-2)
-- [Art. 3º](#art-3)
-- [Art. 4º](#art-4)
-- [Art. 5º](#art-5)
-- [Art. 6º](#art-6)
-- [Art. 7º](#art-7)
-- [Art. 8º](#art-8)
-- [Art. 9º](#art-9)
-- [Art. 10](#art-10)
-- [Art. 11](#art-11)
-- [Art. 12](#art-12)
-- [Art. 13](#art-13)
-- [Art. 14](#art-14)
-- [Art. 15](#art-15)
-- [Art. 16](#art-16)
-- [Art. 17](#art-17)
-- [Art. 18](#art-18)
-- [Art. 19](#art-19)
-- [Art. 20](#art-20)
-- [Art. 21](#art-21)
-- [Art. 22](#art-22)
-- [Art. 23](#art-23)
-- [Art. 24](#art-24)
-- [Art. 25](#art-25)
-- [Art. 26](#art-26)
-- [Art. 27](#art-27)
-- [Art. 28](#art-28)
-- [Art. 29](#art-29)
-- [Art. 30](#art-30)
-- [Art. 31](#art-31)
-- [Art. 32](#art-32)
-- [Art. 33](#art-33)
-- [Art. 34](#art-34)
-- [Art. 35](#art-35)
-- [Art. 36](#art-36)
-- [Art. 37](#art-37)
-- [Art. 38](#art-38)
-- [Art. 39](#art-39)
-- [Art. 40](#art-40)
-- [Art. 41](#art-41)
-- [Art. 42](#art-42)
-- [Art. 43](#art-43)
-- [Art. 44](#art-44)
-- [Art. 45](#art-45)
-- [Art. 46](#art-46)
-- [Art. 47](#art-47)
-- [Art. 48](#art-48)
-- [Art. 49](#art-49)
-- [Art. 50](#art-50)
-- [Art. 51](#art-51)
-- [Art. 52](#art-52)
-- [Art. 53](#art-53)
-- [Art. 54](#art-54)
-- [Art. 55](#art-55)
-- [Art. 56](#art-56)
-- [Art. 57](#art-57)
-- [Art. 58](#art-58)
-- [Art. 59](#art-59)
-- [Art. 60](#art-60)
-- [Art. 61](#art-61)
-- [Art. 62](#art-62)
-- [Art. 63](#art-63)
-- [Art. 64](#art-64)
-- [Art. 65](#art-65)
-- [Art. 66](#art-66)
-- [Art. 67](#art-67)
-- [Art. 68](#art-68)
-- [Art. 69](#art-69)
-- [Art. 70](#art-70)
-- [Art. 71](#art-71)
-- [Art. 72](#art-72)
-- [Art. 73](#art-73)
-- [Art. 74](#art-74)
-- [Art. 75](#art-75)
-- [Art. 76](#art-76)
-- [Art. 77](#art-77)
-- [Art. 78](#art-78)
-- [Art. 79](#art-79)
-- [Art. 80](#art-80)
-- [Art. 81](#art-81)
-- [Art. 82](#art-82)
-- [Art. 83](#art-83)
-- [Art. 84](#art-84)
-- [Art. 85](#art-85)
-- [Art. 86](#art-86)
-- [Art. 87](#art-87)
-- [Art. 88](#art-88)
-- [Art. 89](#art-89)
-- [Art. 90](#art-90)
-- [Art. 91](#art-91)
-- [Art. 92](#art-92)
-- [Art. 93](#art-93)
-- [Art. 94](#art-94)
-- [Art. 95](#art-95)
-- [Art. 96](#art-96)
-- [Art. 97](#art-97)
-- [Art. 98](#art-98)
-- [Art. 99](#art-99)
-- [Art. 100](#art-100)
-- [Art. 101](#art-101)
-- [Art. 102](#art-102)
-- [Art. 103](#art-103)
-- [Art. 104](#art-104)
-- [Art. 105](#art-105)
-- [Art. 106](#art-106)
-- [Art. 107](#art-107)
-- [Art. 108](#art-108)
-- [Art. 109](#art-109)
-- [Art. 110](#art-110)
-- [Art. 111](#art-111)
-- [Art. 112](#art-112)
-- [Art. 113](#art-113)
-- [Art. 114](#art-114)
+# Instrução Normativa RFB nº 1500 , de 29 de outubro de 2014
+## Ementa
+### CAPÍTULO I DOS CONTRIBUINTES
+### CAPÍTULO II DOS RENDIMENTOS TRIBUTÁVEIS
+### CAPÍTULO III DOS RENDIMENTOS ISENTOS OU NÃO TRIBUTÁVEIS
+#### Seção I Dos Rendimentos Originários do Trabalho e Assemelhados
+#### Seção II Dos Rendimentos Pagos por Previdências
+#### Seção III Dos Rendimentos Decorrentes de Indenizações e Assemelhados
+#### Seção IV Dos Rendimentos de Participações Societárias
+#### Seção V Dos Rendimentos Obtidos no Mercado Financeiro e Assemelhados
+#### Seção VI Dos Rendimentos Obtidos na Alienação de Bens e Direitos
+#### Seção VII Dos Demais Rendimentos
+### CAPÍTULO IV DOS RENDIMENTOS TRIBUTADOS EXCLUSIVAMENTE NA FONTE
+#### Seção I Da Gratificação Natalina (13º salário)
+##### Subseção I Da Regra Geral
+##### Subseção II Do Maior de 65 anos
+##### Subseção III Da Previdência Complementar
+##### Subseção IV Do Governo Estrangeiro
+#### Seção II Da Participação nos Lucros ou Resultados das Empresas
+#### Seção III Do Transportador Autônomo Pessoa Física Residente na República do Paraguai
+#### Seção IV Dos Demais Rendimentos
+### CAPÍTULO V DOS RENDIMENTOS SUJEITOS À TRIBUTAÇÃO DEFINITIVA
+### CAPÍTULO VI DOS RENDIMENTOS TRIBUTADOS NA FONTE A TÍTULO DE ANTECIPAÇÃO
+#### Seção I Da Tributação por Antecipação
+#### Seção II Da Tributação na Decisão Judicial
+##### Subseção I Dos Rendimentos Decorrentes de Decisão da Justiça Federal
+##### Subseção II Dos Rendimentos Decorrentes de Decisão da Justiça do Trabalho
+##### Subseção III Dos Rendimentos Decorrentes de Decisões da Justiça Estadual e do Distrito Federal
+#### Seção III Dos Servidores no Exterior a Serviço do País
+#### Seção IV Das Férias
+#### Seção V Do Aluguel de Imóvel Pago por Pessoa Física
+#### Seção VI Do Aluguel de Imóvel Pago por Pessoa Jurídica
+### CAPÍTULO VII DOS RENDIMENTOS RECEBIDOS ACUMULADAMENTE
+#### Seção I Dos RRA Relativos a Anos-Calendário Anteriores ao do Recebimento
+##### Subseção I Dos RRA Submetidos à Incidência do Imposto sobre a Renda com Base na Tabela Progressiva Correspondentes a …
+##### Subseção II Dos Demais RRA
+#### Seção II Dos RRA Relativos ao Ano-Calendário do Recebimento
+#### Seção III Das Disposições Gerais Relativas aos RRA
+### CAPÍTULO VIII DA BASE DE CÁLCULO MENSAL
+### CAPÍTULO IX DO RECOLHIMENTO MENSAL OBRIGATÓRIO (“CARNÊ-LEÃO”)
+#### Seção I Da Sujeição ao Recolhimento Mensal Obrigatório
+#### Seção II Da Base de Cálculo do Recolhimento Mensal
+##### Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros Públicos
+### CAPÍTULO X DAS NORMAS DE RETENÇÃO NA FONTE
+### CAPÍTULO XI DA DISPENSA DA RETENÇÃO
+### CAPÍTULO XII DOS ADIANTAMENTOS
+### CAPÍTULO XIII DO REAJUSTAMENTO DA BASE DE CÁLCULO
+### CAPÍTULO XIV DA TABELA PROGRESSIVA MENSAL
+#### Seção I Do Cálculo do Imposto na Fonte e do Recolhimento Mensal
+#### Seção I-A Da redução mensal do imposto
+#### Seção II Do Prazo para o Recolhimento Mensal Obrigatório
+### CAPÍTULO XV DO RECOLHIMENTO COMPLEMENTAR
+#### Seção I Da Base de Cálculo
+#### Seção II Da Complementação do Imposto
+### CAPÍTULO XVI DA DECLARAÇÃO DE AJUSTE ANUAL
+#### Seção I Da Regra Geral
+#### Seção II Do Desconto Simplificado
+#### Seção III Da Apuração da Base de Cálculo do Ajuste Anual
+#### Seção IV Da Atividade Rural
+#### Seção V Dos Bens e Direitos
+#### Seção VI Das Dívidas e Ônus Reais
+#### Seção VII Da Cessão Gratuita de Imóvel
+#### Seção VIII Do Acréscimo Patrimonial
+#### Seção IX Dos Ganhos de Capital e Ganhos Líquidos
+#### Seção IX-A Dos ganhos em aplicações financeiras no exterior e de lucros e dividendos de entidades controladas no exte…
+#### Seção X Da Apuração Anual do Imposto
+#### Seção XI Das Deduções do Imposto Apurado
+#### Seção XII Do Imposto Pago no Exterior
+#### Seção XIII Da Retificação da DAA
+### CAPÍTULO XVII DAS NORMAS RELATIVAS ÀS DEDUÇÕES DA BASE DE CÁLCULO
+#### Seção I Da Contribuição Previdenciária
+#### Seção II Dos Dependentes
+#### Seção III Das Despesas com Instrução
+#### Seção IV Das Despesas Médicas
+#### Seção V Da Pensão Alimentícia
+#### Seção VI Das Despesas Escrituradas no Livro Caixa
+### CAPÍTULO XVIII DO PAGAMENTO E RECOLHIMENTO DO IMPOSTO
+#### Seção I Dos Prazos e Condições
+#### Seção II Dos Acréscimos Legais
+#### Seção III Dos Códigos
+### CAPÍTULO XIX DAS DISPOSIÇÕES TRANSITÓRIAS
+#### Seção I Das Isenções Relativas à Realização, no Brasil, da Copa da Confederações Fifa 2013 e da Copa do Mundo Fifa 2014
+##### Subseção I Das Pessoas Físicas que Ingressarem no País com Visto Temporário
+##### Subseção II Do Reembolso de Despesas Recebido por Voluntário
+##### Subseção III Das Disposições Gerais
+#### Seção II
+#### Seção III Da isenção dos prêmios pagos pelo Comitê Olímpico Brasileiro e pelo Comitê Paralímpico Brasileiro
+### CAPÍTULO XX DAS DISPOSIÇÕES FINAIS
+
+</details>
 
 ---
 

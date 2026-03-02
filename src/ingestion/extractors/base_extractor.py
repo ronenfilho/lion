@@ -199,6 +199,144 @@ class BaseExtractor(ABC):
         return result
 
     # ------------------------------------------------------------------
+    # Esquema hierárquico da legislação
+    # ------------------------------------------------------------------
+
+    def _build_esquema(
+        self,
+        sections: List,
+        full_text: str,
+        max_entries: int = 100,
+    ) -> List[str]:
+        """
+        Constrói o Esquema hierárquico da legislação.
+
+        Substitui o antigo Índice de Artigos por uma representação visual
+        da estrutura jurídica completa, usando marcadores Markdown (#) cujo
+        número é proporcional ao nível na hierarquia da Lei Complementar 95/98:
+
+            #       → Livro / Parte          (nível 1)
+            ##      → Título / Subtítulo     (nível 2)
+            ###     → Capítulo               (nível 3)
+            ####    → Seção                  (nível 4)
+            #####   → Subseção               (nível 5)
+            ######  → Artigo                 (nível 6)
+
+        Para leis extensas (ex.: RIR com 676 artigos e 787 capítulos), a
+        profundidade exibida é reduzida automaticamente de forma que o esquema
+        não ultrapasse `max_entries` entradas, preservando sempre os níveis
+        mais altos da hierarquia.
+
+        Args:
+            sections:    Seções estruturadas retornadas por extract().
+            full_text:   Texto completo — usado como fallback de parsing
+                         quando sections estiver vazio.
+            max_entries: Número máximo de entradas a exibir no esquema.
+
+        Returns:
+            Lista de linhas Markdown prontas para inserção no documento.
+        """
+        # ── Nomes canônicos por nível ────────────────────────────────────────
+        LEVEL_NAMES = {
+            1: "Livro/Parte",
+            2: "Título",
+            3: "Capítulo",
+            4: "Seção",
+            5: "Subseção",
+            6: "Artigo",
+        }
+
+        headings: List[Tuple[int, str]] = []
+
+        # ── Fonte primária: seções estruturadas do extractor ────────────────
+        if sections:
+            for sec in sections:
+                lvl: int = getattr(sec, "level", 0)
+                title: str = (getattr(sec, "title", "") or "").strip()
+                if lvl > 0 and title:
+                    # Remover âncoras Markdown {#art-1}
+                    title = re.sub(r"\s*\{#[^}]+\}", "", title).strip()
+                    # Remover notas de vigência/alteração comuns em legislação
+                    title = re.sub(
+                        r"\s*\((?:Incluído|Redação|Revogado|Acrescido)[^)]*\)", "", title, flags=re.I
+                    ).strip()
+                    title = re.sub(r"\s+Produção de efeitos.*$", "", title).strip()
+                    # Truncar títulos excessivamente longos (corpo de artigo como título)
+                    if len(title) > 120:
+                        title = title[:117] + "…"
+                    if title:
+                        headings.append((lvl, title))
+
+        # ── Fallback: heurísticas sobre full_text ───────────────────────────
+        if not headings and full_text:
+            _SCHEME_PATTERNS: List[Tuple[re.Pattern, int]] = [
+                (re.compile(r"^\s*((?:LIVRO|PARTE)\s+[IVXLCDM\d]+[-\w]*\b.*)", re.I), 1),
+                (re.compile(r"^\s*(TÍTULO\s+[IVXLCDM\d]+[-\w]*\b.*)",             re.I), 2),
+                (re.compile(r"^\s*(CAPÍTULO\s+[IVXLCDM\d]+[-\w]*\b.*)",           re.I), 3),
+                (re.compile(r"^\s*(SEÇÃO\s+[IVXLCDM\d]+[-\w]*\b.*)",              re.I), 4),
+                (re.compile(r"^\s*(SUBSEÇÃO\s+[IVXLCDM\d]+[-\w]*\b.*)",           re.I), 5),
+                (re.compile(r"^\s*(Art\.\s*\d+[º°]?(?:-[A-Z])?\.?\s.*)"),          6),
+            ]
+            for line in full_text.splitlines():
+                for pat, lvl in _SCHEME_PATTERNS:
+                    m = pat.match(line)
+                    if m:
+                        headings.append((lvl, m.group(1).strip()))
+                        break
+
+        if not headings:
+            return []
+
+        # ── Determinar a profundidade máxima a exibir ────────────────────────
+        # Incrementa o nível enquanto o total acumulado não ultrapassa max_entries.
+        max_depth = 1
+        for depth in range(1, 7):
+            count = sum(1 for lvl, _ in headings if lvl <= depth)
+            if count <= max_entries:
+                max_depth = depth
+            else:
+                break
+
+        filtered = [(lvl, t) for lvl, t in headings if lvl <= max_depth]
+
+        # Truncar se ainda ultrapassar (edge case: nível único com muitas entradas)
+        truncated = len(filtered) > max_entries
+        if truncated:
+            filtered = filtered[:max_entries]
+
+        if not filtered:
+            return []
+
+        # ── Compor descrição do bloco colapsável ─────────────────────────────
+        art_total = sum(1 for lvl, _ in headings if lvl == 6)
+        depth_label = LEVEL_NAMES.get(max_depth, str(max_depth))
+
+        if max_depth < 6 and art_total > 0:
+            # Esquema estrutural sem artigos
+            summary = (
+                f"📋 Esquema da Legislação"
+                f" — até {depth_label}"
+                f" ({art_total} artigos não exibidos)"
+            )
+        else:
+            summary = "📋 Esquema da Legislação"
+
+        # ── Montar linhas Markdown ───────────────────────────────────────────
+        out: List[str] = []
+        out += ["<details>", f"<summary>{summary}</summary>", ""]
+
+        for lvl, title in filtered:
+            hashes = "#" * max(1, min(lvl, 6))
+            out.append(f"{hashes} {title}")
+
+        if truncated:
+            omitted = len(headings) - max_entries
+            out += ["", f"> *… {omitted:,} entrada(s) omitida(s)*"]
+
+        out += ["", "</details>", "", "---", ""]
+        return out
+
+    # ------------------------------------------------------------------
     # Persistência em Markdown
     # ------------------------------------------------------------------
 
@@ -253,18 +391,8 @@ class BaseExtractor(ABC):
                 lines.append(f"- **{key}**: {value}")
         lines += ["", "</details>", "", "---", ""]
 
-        # ---- Índice de artigos ----
-        articles = re.findall(r"Art\.?\s*(\d+[º°]?(?:-[A-Z])?)", full_text)
-        seen: List[str] = []
-        for a in articles:
-            if a not in seen:
-                seen.append(a)
-        if seen:
-            lines += ["## 📑 Índice de Artigos", ""]
-            for art in seen[:30]:
-                art_id = art.replace("º", "").replace("°", "").lower()
-                lines.append(f"- [Art. {art}](#art-{art_id})")
-            lines += ["", "---", ""]
+        # ---- Esquema hierárquico da legislação ----
+        lines.extend(self._build_esquema(sections, full_text))
 
         # ---- Conteúdo ----
         if sections:
