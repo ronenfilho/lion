@@ -648,6 +648,11 @@ class HTMLExtractor(BaseExtractor):
                         md_level = 0  # Referência legislativa não entra no esquema
                 else:
                     md_level = raw_level
+
+            # Artigos em documentos sem hierarquia estrutural → sempre lista (nível 7)
+            elif is_article:
+                md_level = 7
+
             else:
                 md_level = raw_level
 
@@ -670,7 +675,7 @@ class HTMLExtractor(BaseExtractor):
                 hashes = "#" * lvl
                 out.append(f"{hashes} {title}")
             elif lvl == 7:
-                # Artigos sempre com indentação
+                # Artigos: sempre com indentação de 2 espaços
                 if is_article_heading:
                     out.append(f"  * {title}")
                 # Subseções com negrito
@@ -832,6 +837,10 @@ class HTMLExtractor(BaseExtractor):
             elif raw_level == 0:
                 md_level = 0
 
+            # Artigos em documentos sem hierarquia estrutural → sempre lista (nível 7)
+            elif is_article:
+                md_level = 7
+
             # Fallback: manter nível original
             else:
                 md_level = raw_level
@@ -843,13 +852,13 @@ class HTMLExtractor(BaseExtractor):
                 elif md_level == 7:
                     # Se é Subseção, com negrito
                     if is_subsecao:
-                        lines += ["", f"* **{title}**", ""]
-                    # Se é Artigo, SEMPRE com indentação de 2 espaços
+                        lines += ["", f"  * **{title}**", ""]
+                    # Se é Artigo: sempre com indentação de 2 espaços
                     elif is_article:
                         lines += ["", f"  * {title}", ""]
                     # Outros níveis 7 (subtítulos TpicodeSeo), sem negrito
                     else:
-                        lines += ["", f"* {title}", ""]
+                        lines += ["", f"  * {title}", ""]
                 elif md_level == 8:
                     lines += ["", f"  - **{title}**", ""]
                 elif md_level == 9:

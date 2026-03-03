@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L9250compilado.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 18:35
+- **Processado em**: 03/03/2026 13:36
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -19,65 +19,65 @@
 # LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995.
 ##### O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 ### CAPÍTULO I - DISPOSIÇÕES PRELIMINARES
-### Art. 1º
-### Art. 2º
+  * Art. 1º
+  * Art. 2º
 ### CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO
-### Art. 3º
-### Art. 3º-A
-### Art. 4º
-### Art. 5º
-### Art. 6º
+  * Art. 3º
+  * Art. 3º-A
+  * Art. 4º
+  * Art. 5º
+  * Art. 6º
 ### CAPÍTULO II-A
 ### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS
-### Art. 6º-A
+  * Art. 6º-A
 ### CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS
-### Art. 7º
-### Art. 8º
-### Art. 9º
-### Art. 10
-### Art. 11
-### Art. 11-A
-### Art. 12
-### Art. 13
-### Art. 14
-### Art. 15
-### Art. 16
+  * Art. 7º
+  * Art. 8º
+  * Art. 9º
+  * Art. 10
+  * Art. 11
+  * Art. 11-A
+  * Art. 12
+  * Art. 13
+  * Art. 14
+  * Art. 15
+  * Art. 16
 ### CAPÍTULO III-A
 ### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS
-### Art. 16-A
-### Art. 16-B
+  * Art. 16-A
+  * Art. 16-B
 ### CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL
-### Art. 17
-### Art. 18
-### Art. 19
-### Art. 20
-### Art. 21
+  * Art. 17
+  * Art. 18
+  * Art. 19
+  * Art. 20
+  * Art. 21
 ### CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS
-### Art. 22
-### Art. 23
-### Art. 24
+  * Art. 22
+  * Art. 23
+  * Art. 24
 ### CAPÍTULO VI - DA DECLARAÇÃO DE BENS E DIREITOS
-### Art. 25
+  * Art. 25
 ### CAPÍTULO VII - DISPOSIÇÕES GERAIS
-### Art. 26
-### Art. 27
-### Art. 28
-### Art. 29
-### Art. 30
-### Art. 31
-### Art. 32
-### Art. 33
+  * Art. 26
+  * Art. 27
+  * Art. 28
+  * Art. 29
+  * Art. 30
+  * Art. 31
+  * Art. 32
+  * Art. 33
 ##### Parágrafo único. (VETADO)
-### Art. 34
-### Art. 35
+  * Art. 34
+  * Art. 35
 ### CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS
-### Art. 36
-### Art. 37
-### Art. 38
-### Art. 39
-### Art. 40
-### Art. 41
-### Art. 42
+  * Art. 36
+  * Art. 37
+  * Art. 38
+  * Art. 39
+  * Art. 40
+  * Art. 41
+  * Art. 42
 ##### Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.
 ##### FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente
 ##### Este texto não substitui o publicado no D.O.U. de 27.12.1995
@@ -1050,7 +1050,7 @@ O inciso VII do art. 6º da Lei 7.713, de 22 de dezembro de 1988 , passa a vigor
 Sujeitam-se à incidência do imposto de renda na fonte e na declaração de ajuste anual os benefícios recebidos de entidade de previdência privada, bem como as importâncias correspondentes ao resgate de contribuições.
 
 
-* Parágrafo único. (VETADO)
+  * Parágrafo único. (VETADO)
 
 
   * Art. 34.
@@ -1203,13 +1203,13 @@ Esta Lei entra em vigor na data de sua publicação.
 Revogam-se as disposições em contrário e, especialmente, o Decreto-Lei nº 1.380, de 23 de dezembro de 1974 , o art. 27 da Lei nº 7.713, de 22 de dezembro de 1988 , o art. 26 da Lei nº 8.218, de 29 de agosto de 1991 , e os arts. 8º a 20 e 23 da Lei nº 8.981, de 20 de janeiro de 1995 .
 
 
-* Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.
+  * Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.
 
 
-* FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente
+  * FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente
 
 
-* Este texto não substitui o publicado no D.O.U. de 27.12.1995
+  * Este texto não substitui o publicado no D.O.U. de 27.12.1995
 
 | BASE DE CÁLCULO EM R$ | ALÍQUOTA% | PARCELA A DEDUZIR DO IMPOSTO EM R$ |
 | --- | --- | --- |

@@ -1,0 +1,57 @@
+{
+  "document": "IN RFB nº 1500_2014_processed",
+  "total_chunks": 2,
+  "created_at": "2026-03-03T13:38:33.664678",
+  "chunks": [
+    {
+      "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_103",
+      "source_file": "IN RFB nº 1500_2014_processed.md",
+      "article_number": "103",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO XVII DAS NORMAS RELATIVAS ÀS DEDUÇÕES DA BASE DE CÁLCULO",
+        "secao": "Seção V Da Pensão Alimentícia",
+        "subsecao": "Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros Públicos"
+      },
+      "hierarchy_string": "CAPÍTULO XVII DAS NORMAS RELATIVAS ÀS DEDUÇÕES DA BASE DE CÁLCULO > Seção V Da Pensão Alimentícia > Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros Públicos",
+      "content": "* Art. 103.",
+      "metadata": {
+        "word_count": 3,
+        "char_count": 11,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-03T13:38:33.634434"
+    },
+    {
+      "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_112",
+      "source_file": "IN RFB nº 1500_2014_processed.md",
+      "article_number": "112",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO XIX DAS DISPOSIÇÕES TRANSITÓRIAS",
+        "secao": "Seção II",
+        "subsecao": "Subseção III Das Disposições Gerais"
+      },
+      "hierarchy_string": "CAPÍTULO XIX DAS DISPOSIÇÕES TRANSITÓRIAS > Seção II > Subseção III Das Disposições Gerais",
+      "content": "* Art. 112.\n\nParágrafo único.",
+      "metadata": {
+        "word_count": 5,
+        "char_count": 29,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-03T13:38:33.659121"
+    }
+  ]
+}

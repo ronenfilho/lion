@@ -1,0 +1,604 @@
+#!/usr/bin/env python3
+"""
+Script 1.2: Criação de Chunks baseados em Artigos
+
+Processa documentos markdown de legislação e gera chunks estruturados
+onde cada chunk corresponde a um artigo completo, incluindo sua hierarquia.
+
+Estrutura de entrada:  data/processed/markdown/legislation/*.md
+Estrutura de saída:    data/processed/json/legislation/*.json
+
+Cada chunk contém:
+- ID único do chunk
+- Número do artigo
+- Hierarquia completa (LIVRO > TÍTULO > CAPÍTULO > SEÇÃO > SUBSEÇÃO)
+- Conteúdo completo (artigo + parágrafos + incisos + alíneas)
+- Metadados (contagem de palavras, presença de elementos, referências)
+
+Autor: Ronen Rodrigues Silva Filho
+Data: 03/03/2026
+"""
+
+import json
+import re
+from pathlib import Path
+from typing import List, Dict, Optional, Any
+from dataclasses import dataclass, asdict
+from datetime import datetime
+import logging
+
+# Configuração de logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    datefmt='%H:%M:%S'
+)
+logger = logging.getLogger(__name__)
+
+
+@dataclass
+class HierarchyLevel:
+    """Representa um nível da hierarquia legislativa"""
+    livro: Optional[str] = None
+    titulo: Optional[str] = None
+    capitulo: Optional[str] = None
+    secao: Optional[str] = None
+    subsecao: Optional[str] = None
+    subtitulo: Optional[str] = None
+    
+    def to_dict(self) -> Dict[str, Optional[str]]:
+        """Converte para dicionário, incluindo apenas níveis não-nulos"""
+        return {k: v for k, v in asdict(self).items() if v is not None}
+    
+    def to_string(self, separator: str = " > ") -> str:
+        """Retorna hierarquia como string concatenada"""
+        levels = []
+        for key, value in asdict(self).items():
+            if value:
+                levels.append(value)
+        return separator.join(levels)
+
+
+@dataclass
+class ChunkMetadata:
+    """Metadados de um chunk de artigo"""
+    word_count: int
+    char_count: int
+    has_paragraphs: bool
+    has_incisos: bool
+    has_alineas: bool
+    num_paragraphs: int
+    num_incisos: int
+    num_alineas: int
+    referencias_legislativas: List[str]
+    
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class ArticleChunk:
+    """Representa um chunk de artigo completo"""
+    chunk_id: str
+    source_file: str
+    article_number: str
+    section: str  # "Preâmbulo" ou "Anexo"
+    hierarchy: HierarchyLevel
+    content: str
+    metadata: ChunkMetadata
+    created_at: str
+    
+    def to_dict(self) -> Dict[str, Any]:
+        """Converte para dicionário JSON-serializable"""
+        return {
+            'chunk_id': self.chunk_id,
+            'source_file': self.source_file,
+            'article_number': self.article_number,
+            'section': self.section,
+            'hierarchy': self.hierarchy.to_dict(),
+            'hierarchy_string': self.hierarchy.to_string(),
+            'content': self.content,
+            'metadata': self.metadata.to_dict(),
+            'created_at': self.created_at
+        }
+
+
+class ArticleChunker:
+    """
+    Processador de documentos markdown de legislação para criação de chunks
+    baseados em artigos com hierarquia completa.
+    
+    Cada chunk contém:
+    - Um artigo completo (incluindo parágrafos, incisos, alíneas)
+    - Hierarquia superior completa (LIVRO > TÍTULO > CAPÍTULO > SEÇÃO)
+    - Metadados estruturados
+    """
+    
+    # Padrões regex para detecção de elementos
+    # Captura artigos tanto no formato preâmbulo (## Art.) quanto no corpo (  * Art.)
+    # Suporta Art. 1º até Art. 9º (sem ponto final) e Art. 10. em diante (com ponto final opcional)
+    ARTICLE_PATTERN = re.compile(r'^(?:##\s*Art\.?\s*(\d+(?:\.\d{3})*)[º°]?(?:-[A-Z])?\.?\s*$|\s*\*\s*Art\.?\s*(\d+(?:\.\d{3})*)[º°]?(?:-[A-Z])?\.?\s*$)', re.MULTILINE)
+    PARAGRAPH_PATTERN = re.compile(r'^\s*-\s*\*\*§\s*(único|Único|\d+[º°]?)\*\*', re.MULTILINE)
+    INCISO_PATTERN = re.compile(r'^\s*-\s+([IVXLCDM]+)\s*[-–]', re.MULTILINE)
+    ALINEA_PATTERN = re.compile(r'^\s*-\s+([a-z])\)', re.MULTILINE)
+    
+    # Padrões para hierarquia (headings markdown)
+    LIVRO_PATTERN = re.compile(r'^###\s+(LIVRO\s+[IVXLCDM]+.*?)$', re.MULTILINE)
+    TITULO_PATTERN = re.compile(r'^####\s+(TÍTULO\s+[IVXLCDM]+.*?)$', re.MULTILINE)
+    CAPITULO_PATTERN = re.compile(r'^#####\s+(CAPÍTULO\s+[IVXLCDM0-9]+.*?)$', re.MULTILINE)
+    SECAO_PATTERN = re.compile(r'^######\s+(Se[çc][ãa]o\s+[IVXLCDM0-9]+.*?)$', re.MULTILINE | re.IGNORECASE)
+    SUBSECAO_PATTERN = re.compile(r'^\*\s+\*\*(Subse[çc][ãa]o\s+.*?)\*\*$', re.MULTILINE | re.IGNORECASE)
+    SUBTITULO_PATTERN = re.compile(r'^\*\s+([A-ZÀÁÂÃÇÉÊÍÓÔÕÚ][^*\n]{3,80})$', re.MULTILINE)
+    
+    # Padrões para referências legislativas
+    REF_LEI_PATTERN = re.compile(r'Lei n[ºº°]\s*[\d.,]+(?:/\d{2,4})?', re.IGNORECASE)
+    REF_DECRETO_PATTERN = re.compile(r'Decreto n[ºº°]\s*[\d.,]+(?:/\d{2,4})?', re.IGNORECASE)
+    REF_IN_PATTERN = re.compile(r'(?:Instrução Normativa|IN)\s+(?:RFB\s+)?n[ºº°]\s*[\d.,]+(?:/\d{2,4})?', re.IGNORECASE)
+    
+    def __init__(self, input_dir: Path, output_dir: Path):
+        self.input_dir = Path(input_dir)
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        
+    def process_all_documents(self, force: bool = False) -> Dict[str, Any]:
+        """
+        Processa todos os documentos markdown e gera arquivos JSON com chunks
+        
+        Args:
+            force: Se True, reprocessa mesmo se arquivo JSON já existir
+            
+        Returns:
+            Dicionário com estatísticas do processamento
+        """
+        md_files = list(self.input_dir.glob("*.md"))
+        
+        if not md_files:
+            logger.warning(f"Nenhum arquivo .md encontrado em {self.input_dir}")
+            return {'processed': 0, 'skipped': 0, 'errors': 0}
+        
+        stats = {
+            'processed': 0,
+            'skipped': 0,
+            'errors': 0,
+            'total_chunks': 0,
+            'documents': []
+        }
+        
+        logger.info("=" * 70)
+        logger.info("🦁 LION — Criação de Chunks baseados em Artigos")
+        logger.info("=" * 70)
+        logger.info(f"   Entrada  : {self.input_dir}")
+        logger.info(f"   Saída    : {self.output_dir}")
+        logger.info(f"   Arquivos : {len(md_files)}")
+        logger.info(f"   Forçar   : {'sim' if force else 'não'}")
+        logger.info("=" * 70)
+        
+        for md_file in sorted(md_files):
+            try:
+                output_file = self.output_dir / f"{md_file.stem}.json"
+                
+                # Verificar se já existe
+                if output_file.exists() and not force:
+                    logger.info(f"⏩ Já processado, pulando: {md_file.name}")
+                    stats['skipped'] += 1
+                    continue
+                
+                logger.info(f"📄 Processando: {md_file.name}")
+                
+                # Processar documento
+                chunks = self.process_document(md_file)
+                
+                # Salvar JSON
+                self._save_chunks(chunks, output_file)
+                
+                doc_stats = {
+                    'source': md_file.name,
+                    'output': output_file.name,
+                    'num_chunks': len(chunks),
+                    'total_words': sum(c.metadata.word_count for c in chunks)
+                }
+                stats['documents'].append(doc_stats)
+                stats['processed'] += 1
+                stats['total_chunks'] += len(chunks)
+                
+                logger.info(f"   ✅ {len(chunks)} chunks criados")
+                
+            except Exception as e:
+                logger.error(f"   ❌ Erro ao processar {md_file.name}: {e}")
+                stats['errors'] += 1
+                continue
+        
+        logger.info("=" * 70)
+        logger.info("✅ Processamento concluído!")
+        logger.info(f"   Processados  : {stats['processed']}")
+        logger.info(f"   Pulados      : {stats['skipped']}")
+        logger.info(f"   Erros        : {stats['errors']}")
+        logger.info(f"   Total chunks : {stats['total_chunks']}")
+        logger.info("=" * 70)
+        
+        return stats
+    
+    def process_document(self, md_file: Path) -> List[ArticleChunk]:
+        """
+        Processa um documento markdown e extrai chunks de artigos
+        
+        Estratégia:
+        1. Extrair esquema (estrutura confiável com todos os artigos)
+        2. Parsear esquema para obter lista ordenada de artigos
+        3. Para cada artigo, buscar conteúdo no corpo até próximo elemento estrutural
+        
+        Args:
+            md_file: Caminho para arquivo .md
+            
+        Returns:
+            Lista de ArticleChunk
+        """
+        logger.info(f"   📖 Lendo arquivo...")
+        content = md_file.read_text(encoding='utf-8')
+        
+        # Extrair esquema
+        logger.info(f"   🔍 Extraindo esquema...")
+        esquema = self._extract_esquema(content)
+        
+        if not esquema:
+            logger.warning(f"   ⚠️  Esquema não encontrado")
+            return []
+        
+        # Parsear lista de artigos do esquema
+        logger.info(f"   📊 Parseando artigos do esquema...")
+        article_list = self._parse_articles_from_esquema(esquema)
+        
+        if not article_list:
+            logger.warning(f"   ⚠️  Nenhum artigo encontrado")
+            return []
+        
+        # Count articles by section
+        preambulo_count = sum(1 for art in article_list if art['section'] == 'Preâmbulo')
+        anexo_count = sum(1 for art in article_list if art['section'] == 'Anexo')
+        logger.info(f"   ✓ {len(article_list)} artigos identificados (Preâmbulo: {preambulo_count}, Anexo: {anexo_count})")
+        
+        # Encontrar início do corpo do documento
+        body_start = content.find('## 📖 Texto Normativo')
+        if body_start == -1:
+            body_start = content.find('## ANEXO')
+            if body_start == -1:
+                body_start = 0
+        else:
+            body_start = content.find('\n', body_start) + 1
+        
+        body_content = content[body_start:]
+        
+        # Find ANEXO position in body to separate sections
+        anexo_body_match = re.search(r'^##\s+ANEXO\s+', body_content, re.MULTILINE)
+        anexo_body_position = anexo_body_match.start() if anexo_body_match else float('inf')
+        
+        # Processar cada artigo
+        chunks: List[ArticleChunk] = []
+        total = len(article_list)
+        
+        logger.info(f"   🔄 Extraindo chunks...")
+        for idx, article_info in enumerate(article_list, 1):
+            if idx % 100 == 0 or idx == total:
+                logger.info(f"      ➜ Progresso: {idx}/{total} ({idx*100//total}%)")
+            
+            chunk = self._extract_article_chunk(
+                article_info['number'],
+                article_info['section'],
+                body_content,
+                anexo_body_position,
+                md_file.name,
+                md_file.stem
+            )
+            
+            if chunk:
+                chunks.append(chunk)
+        
+        logger.info(f"   ✓ {len(chunks)} chunks extraídos")
+        
+        return chunks
+    
+    def _extract_esquema(self, content: str) -> Optional[str]:
+        """Extrai seção do esquema do documento"""
+        start_match = re.search(r'<details>\s*<summary>📋 Esquema da Legislação</summary>', content)
+        if not start_match:
+            return None
+        
+        start = start_match.end()
+        end = content.find('</details>', start)
+        
+        if end == -1:
+            return None
+        
+        return content[start:end]
+    
+    def _parse_articles_from_esquema(self, esquema: str) -> List[Dict[str, str]]:
+        """Extrai lista ordenada de artigos do esquema com suas seções
+        
+        Returns:
+            List[Dict] com 'number' e 'section' (Preâmbulo ou Anexo)
+        """
+        article_list = []
+        seen_articles = set()  # Track unique articles per section
+        
+        # Find ANEXO position to separate preamble from annex
+        anexo_match = re.search(r'^##\s+ANEXO\s+', esquema, re.MULTILINE)
+        anexo_position = anexo_match.start() if anexo_match else float('inf')
+        
+        # Buscar artigos no formato "  * Art. X" ou "## Art. X"
+        pattern = re.compile(r'^(?:##|\s*\*)\s*Art\.?\s*(\d+(?:\.\d{3})*)[º°]?(?:-[A-Z])?\s*$', re.MULTILINE)
+        
+        for match in pattern.finditer(esquema):
+            article_num = match.group(1)
+            match_position = match.start()
+            
+            # Determine section based on position relative to ANEXO
+            section = "Preâmbulo" if match_position < anexo_position else "Anexo"
+            
+            # Create unique key to avoid duplicates within same section
+            article_key = f"{section}_{article_num}"
+            if article_key not in seen_articles:
+                seen_articles.add(article_key)
+                article_list.append({
+                    'number': article_num,
+                    'section': section
+                })
+        
+        return article_list
+    
+    def _extract_article_chunk(
+        self, 
+        article_num: str,
+        section: str,
+        body_content: str,
+        anexo_position: float,
+        source_file: str,
+        file_stem: str
+    ) -> Optional[ArticleChunk]:
+        """Extrai chunk de um artigo específico do corpo do documento
+        
+        Args:
+            article_num: Número do artigo
+            section: 'Preâmbulo' ou 'Anexo'
+            body_content: Conteúdo completo do corpo
+            anexo_position: Posição do ANEXO no corpo
+            source_file: Nome do arquivo fonte
+            file_stem: Nome base do arquivo
+        """
+        # Determine search area based on section
+        if section == "Preâmbulo":
+            search_content = body_content[:int(anexo_position)] if anexo_position != float('inf') else body_content
+            search_offset = 0
+        else:
+            search_content = body_content[int(anexo_position):] if anexo_position != float('inf') else body_content
+            search_offset = int(anexo_position) if anexo_position != float('inf') else 0
+        
+        # Buscar artigo (preâmbulo ou corpo)
+        pattern = re.compile(
+            rf'^(?:##\s*Art\.?\s*{re.escape(article_num)}[º°]?(?:-[A-Z])?\.?\s*$|\s*\*\s*Art\.?\s*{re.escape(article_num)}[º°]?(?:-[A-Z])?\.?\s*$)',
+            re.MULTILINE
+        )
+        
+        match = pattern.search(search_content)
+        if not match:
+            # Debug: Log missing article
+            logger.debug(f"Art. {article_num} ({section}) não encontrado em search_content (len={len(search_content)})")
+            return None
+        
+        article_start = match.start()
+        
+        # Buscar próximo artigo em search_content
+        next_article_pattern = re.compile(
+            r'^(?:##\s*Art\.?\s*\d+|\s*\*\s*Art\.?\s*\d+)',
+            re.MULTILINE
+        )
+        next_article = next_article_pattern.search(search_content, match.end())
+        
+        # Buscar próximo heading estrutural (ANEXO, LIVRO, TÍTULO, CAPÍTULO, SEÇÃO)
+        next_heading_pattern = re.compile(
+            r'^#{1,6}\s+(?:ANEXO|LIVRO|TÍTULO|CAPÍTULO|Se[çc][ãa]o)\s+',
+            re.MULTILINE | re.IGNORECASE
+        )
+        next_heading = next_heading_pattern.search(search_content, match.end())
+        
+        # Buscar footer patterns
+        footer_pattern = re.compile(
+            r'^#{5}\s+(?:Este texto não substitui|\*?\s*Publicad[oa]|Texto compilado)',
+            re.MULTILINE
+        )
+        next_footer = footer_pattern.search(search_content, match.end())
+        
+        # Determinar fim do conteúdo do artigo (usa o que vier primeiro)
+        ends = []
+        if next_article:
+            ends.append(next_article.start())
+        if next_heading:
+            ends.append(next_heading.start())
+        if next_footer:
+            ends.append(next_footer.start())
+        
+        article_end = min(ends) if ends else len(search_content)
+        
+        # Extrair conteúdo de search_content
+        article_content = search_content[article_start:article_end].strip()
+        
+        # Extrair hierarquia (usar posição absoluta em body_content)
+        absolute_position = search_offset + article_start
+        hierarchy = self._extract_hierarchy(body_content[:absolute_position])
+        
+        # Calcular metadados
+        metadata = self._calculate_metadata(article_content)
+        
+        # Criar chunk com section no ID
+        section_prefix = "preambulo" if section == "Preâmbulo" else "anexo"
+        chunk_id = f"{file_stem}_{section_prefix}_art_{article_num}"
+        
+        chunk = ArticleChunk(
+            chunk_id=chunk_id,
+            source_file=source_file,
+            article_number=article_num,
+            section=section,
+            hierarchy=hierarchy,
+            content=article_content,
+            metadata=metadata,
+            created_at=datetime.now().isoformat()
+        )
+        
+        return chunk
+    
+    def _extract_hierarchy(self, text_before_article: str) -> HierarchyLevel:
+        """
+        Extrai hierarquia procurando para trás no texto
+        
+        Args:
+            text_before_article: Texto anterior ao artigo
+            
+        Returns:
+            HierarchyLevel com a hierarquia encontrada
+        """
+        hierarchy = HierarchyLevel()
+        
+        # Buscar última ocorrência de cada nível (mais próxima do artigo)
+        livro_match = None
+        for match in self.LIVRO_PATTERN.finditer(text_before_article):
+            livro_match = match
+        if livro_match:
+            hierarchy.livro = livro_match.group(1).strip()
+        
+        titulo_match = None
+        for match in self.TITULO_PATTERN.finditer(text_before_article):
+            titulo_match = match
+        if titulo_match:
+            hierarchy.titulo = titulo_match.group(1).strip()
+        
+        capitulo_match = None
+        for match in self.CAPITULO_PATTERN.finditer(text_before_article):
+            capitulo_match = match
+        if capitulo_match:
+            hierarchy.capitulo = capitulo_match.group(1).strip()
+        
+        secao_match = None
+        for match in self.SECAO_PATTERN.finditer(text_before_article):
+            secao_match = match
+        if secao_match:
+            hierarchy.secao = secao_match.group(1).strip()
+        
+        subsecao_match = None
+        for match in self.SUBSECAO_PATTERN.finditer(text_before_article):
+            subsecao_match = match
+        if subsecao_match:
+            hierarchy.subsecao = subsecao_match.group(1).strip()
+        
+        # Buscar subtítulo (última linha antes do artigo que não seja heading)
+        lines_before = text_before_article.split('\n')
+        for line in reversed(lines_before[-20:]):  # Últimas 20 linhas
+            line = line.strip()
+            if self.SUBTITULO_PATTERN.match(line):
+                # Remover asterisco inicial
+                hierarchy.subtitulo = line.lstrip('*').strip()
+                break
+            # Parar se encontrar um heading (começou outra seção)
+            if line.startswith('#') or line.startswith('*'):
+                if 'Art.' in line or '**' in line:
+                    break
+        
+        return hierarchy
+    
+    def _calculate_metadata(self, content: str) -> ChunkMetadata:
+        """
+        Calcula metadados do chunk
+        
+        Args:
+            content: Conteúdo do artigo
+            
+        Returns:
+            ChunkMetadata com estatísticas
+        """
+        # Contagens básicas
+        word_count = len(content.split())
+        char_count = len(content)
+        
+        # Detectar elementos estruturais
+        paragraphs = self.PARAGRAPH_PATTERN.findall(content)
+        incisos = self.INCISO_PATTERN.findall(content)
+        alineas = self.ALINEA_PATTERN.findall(content)
+        
+        # Extrair referências legislativas
+        referencias = []
+        referencias.extend(self.REF_LEI_PATTERN.findall(content))
+        referencias.extend(self.REF_DECRETO_PATTERN.findall(content))
+        referencias.extend(self.REF_IN_PATTERN.findall(content))
+        # Remover duplicatas e ordenar
+        referencias = sorted(list(set(referencias)))
+        
+        return ChunkMetadata(
+            word_count=word_count,
+            char_count=char_count,
+            has_paragraphs=len(paragraphs) > 0,
+            has_incisos=len(incisos) > 0,
+            has_alineas=len(alineas) > 0,
+            num_paragraphs=len(paragraphs),
+            num_incisos=len(incisos),
+            num_alineas=len(alineas),
+            referencias_legislativas=referencias
+        )
+    
+    def _save_chunks(self, chunks: List[ArticleChunk], output_file: Path) -> None:
+        """
+        Salva chunks em arquivo JSON
+        
+        Args:
+            chunks: Lista de chunks a salvar
+            output_file: Caminho do arquivo de saída
+        """
+        data = {
+            'document': output_file.stem,
+            'total_chunks': len(chunks),
+            'created_at': datetime.now().isoformat(),
+            'chunks': [chunk.to_dict() for chunk in chunks]
+        }
+        
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def main():
+    """Função principal"""
+    import argparse
+    
+    parser = argparse.ArgumentParser(
+        description='Cria chunks baseados em artigos a partir de documentos markdown de legislação'
+    )
+    parser.add_argument(
+        '--input-dir',
+        type=Path,
+        default=Path('data/processed/markdown/legislation'),
+        help='Diretório com arquivos .md de entrada'
+    )
+    parser.add_argument(
+        '--output-dir',
+        type=Path,
+        default=Path('data/processed/json/legislation'),
+        help='Diretório para arquivos .json de saída'
+    )
+    parser.add_argument(
+        '--force',
+        action='store_true',
+        help='Reprocessar arquivos mesmo se já existirem'
+    )
+    
+    args = parser.parse_args()
+    
+    # Criar chunker e processar
+    chunker = ArticleChunker(args.input_dir, args.output_dir)
+    stats = chunker.process_all_documents(force=args.force)
+    
+    # Salvar estatísticas
+    stats_file = args.output_dir / f"_stats_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    with open(stats_file, 'w', encoding='utf-8') as f:
+        json.dump(stats, f, ensure_ascii=False, indent=2)
+    
+    logger.info(f"📊 Estatísticas salvas em: {stats_file}")
+
+
+if __name__ == '__main__':
+    main()
