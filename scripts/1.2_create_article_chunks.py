@@ -374,7 +374,7 @@ class ArticleChunker:
         
         # Buscar artigo (preâmbulo ou corpo)
         pattern = re.compile(
-            rf'^(?:##\s*Art\.?\s*{re.escape(article_num)}[º°]?(?:-[A-Z])?\.?\s*$|\s*\*\s*Art\.?\s*{re.escape(article_num)}[º°]?(?:-[A-Z])?\.?\s*$)',
+            rf'^(?:##\s*Art\.?\s*{re.escape(article_num)}[º°]?(?:-[A-Z])?\.?|\s*\*\s*Art\.?\s*{re.escape(article_num)}[º°]?(?:-[A-Z])?\.?)',
             re.MULTILINE
         )
         

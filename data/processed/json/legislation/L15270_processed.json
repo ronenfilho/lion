@@ -1,6 +1,234 @@
 {
   "document": "L15270_processed",
-  "total_chunks": 0,
-  "created_at": "2026-03-03T13:38:33.671936",
-  "chunks": []
+  "total_chunks": 9,
+  "created_at": "2026-03-13T13:59:39.058112",
+  "chunks": [
+    {
+      "chunk_id": "L15270_processed_preambulo_art_1",
+      "source_file": "L15270_processed.md",
+      "article_number": "1",
+      "section": "Preâmbulo",
+      "hierarchy": {},
+      "hierarchy_string": "",
+      "content": "* Art. 1º\n\nEsta Lei altera a Lei nº 9.250, de 26 de dezembro de 1995 , e a Lei nº 9.249, de 26 de dezembro de 1995 , para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas.",
+      "metadata": {
+        "word_count": 58,
+        "char_count": 281,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 9.249,",
+          "Lei nº 9.250,"
+        ]
+      },
+      "created_at": "2026-03-13T13:59:39.048094"
+    },
+    {
+      "chunk_id": "L15270_processed_preambulo_art_2",
+      "source_file": "L15270_processed.md",
+      "article_number": "2",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "subtitulo": "Art. 1º"
+      },
+      "hierarchy_string": "Art. 1º",
+      "content": "* Art. 2º\n\nA Lei nº 9.250, de 26 de dezembro de 1995 , passa a vigorar com as seguintes alterações:\n“ Art. 3º-A . A partir do mês de janeiro do ano-calendário de 2026, será concedida redução do imposto sobre os rendimentos tributáveis sujeitos à incidência mensal do Imposto sobre a Renda das Pessoas Físicas, de acordo com a seguinte tabela:\nTabela de redução do imposto mensal\n\n| RENDIMENTOS TRIBUTÁVEIS SUJEITOS AO AJUSTE MENSAL | REDUÇÃO DO IMPOSTO DE RENDA |\n| --- | --- |\n| até R$ 5.000,00 | até R$ 312,89 (de modo que o imposto devido seja zero) |\n| de R$ 5.000,01 até R$ 7.350,00 | R$ 978,62 - (0,133145 x rendimentos tributáveis sujeitos à incidência mensal) (de modo que a redução do imposto seja decrescente linearmente até zerar para rendimentos a partir de R$ 7.350,00) |\n\n\n    - **§ 1º** O valor da redução de que trata o caput deste artigo fica limitado ao valor do imposto determinado de acordo com a tabela progressiva mensal e com o disposto no art. 4º desta Lei.\n\n\n\n\n    - **§ 2º** Os contribuintes que tiverem rendimentos tributáveis sujeitos à incidência mensal superior a R$ 7.350,00 (sete mil, trezentos e cinquenta reais) não terão redução no imposto devido.\n\n\n\n\n    - **§ 3º** A redução do imposto de que trata este artigo também será aplicada no cálculo do imposto cobrado exclusivamente na fonte no pagamento do décimo terceiro salário a que se refere o inciso VIII do caput do art. 7º da Constituição Federal. ”\n\n\n\n### “CAPÍTULO II-A\n\n\n### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS",
+      "metadata": {
+        "word_count": 264,
+        "char_count": 1504,
+        "has_paragraphs": true,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 3,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 9.250,"
+        ]
+      },
+      "created_at": "2026-03-13T13:59:39.048645"
+    },
+    {
+      "chunk_id": "L15270_processed_preambulo_art_6",
+      "source_file": "L15270_processed.md",
+      "article_number": "6",
+      "section": "Preâmbulo",
+      "hierarchy": {},
+      "hierarchy_string": "",
+      "content": "* Art. 6º-A\n\n. A partir do mês de janeiro do ano-calendário de 2026, o pagamento, o creditamento, o emprego ou a entrega de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil em montante superior a R$ 50.000,00 (cinquenta mil reais) em um mesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda das Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total do valor pago, creditado, empregado ou entregue.\n\n\n    - **§ 1º** São vedadas quaisquer deduções da base de cálculo.\n\n\n\n\n    - **§ 2º** Caso haja mais de 1 (um) pagamento, crédito, emprego ou entrega de lucros e dividendos no mesmo mês, realizado por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil, o valor retido na fonte referente ao Imposto sobre a Renda das Pessoas Físicas deve ser recalculado de modo a considerar o total dos valores pagos, creditados, empregados ou entregues no mês.\n\n\n\n\n    - **§ 3º** Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de que trata este artigo os lucros e dividendos:\n\n\n\n      - I - relativos a resultados apurados até o ano-calendário de 2025;\n\n\n      - II - cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e\n\n\n      - III - exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação.”\n\n“Art. 10. .....................................................................................................................................\n.............................................................................................................................................................\n\n      - IX - R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro reais e trinta e quatro centavos) a partir do ano-calendário de 2015 até o ano-calendário de 2025; e\n\n\n      - X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a partir do ano-calendário de 2026.\n\n..................................................................................................................................................... ” (NR)\n“ Art. 11-A . A partir do exercício de 2027, ano-calendário de 2026, será concedida redução do Imposto sobre a Renda das Pessoas Físicas anual, apurado sobre os rendimentos tributáveis sujeitos ao ajuste anual, de acordo com a seguinte tabela:\nTabela de redução do ajuste anual\n\n| RENDIMENTOS TRIBUTÁVEIS SUJEITOS AO AJUSTE ANUAL | REDUÇÃO DO IMPOSTO DE RENDA |\n| --- | --- |\n| até R$ 60.000,00 | até R$ 2.694,15 (de modo que o imposto devido seja zero) |\n| de R$ 60.000,01 até R$ 88.200,00 | R$ 8.429,73 - (0,095575 x rendimentos tributáveis sujeitos ao ajuste anual) (de modo que a redução do imposto seja decrescente linearmente até zerar para rendimentos a partir de R$ 88.200,00) |\n\n\n    - **§ 1º** O valor da redução de que trata o caput deste artigo fica limitado ao valor do imposto de renda anual calculado de acordo com a tabela progressiva anual vigente no ano-calendário.\n\n\n\n\n    - **§ 2º** Os contribuintes que tiverem rendimentos tributáveis sujeitos ao ajuste anual superiores a R$ 88.200,00 (oitenta e oito mil e duzentos reais) não terão redução no imposto devido.”\n\n\n“ Art. 12 . Do imposto apurado conforme a tabela progressiva anual, poderão ser deduzidos:\n“ Art. 13 . A soma dos montantes determinados na forma prevista nos arts. 12 e 16-A desta Lei constituirá, na declaração de ajuste anual, se positiva, saldo do imposto a pagar e, se negativa, valor a ser restituído.\n\n\n### “CAPÍTULO III-A\n\n\n### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS",
+      "metadata": {
+        "word_count": 543,
+        "char_count": 3615,
+        "has_paragraphs": true,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 5,
+        "num_incisos": 5,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T13:59:39.049397"
+    },
+    {
+      "chunk_id": "L15270_processed_preambulo_art_16",
+      "source_file": "L15270_processed.md",
+      "article_number": "16",
+      "section": "Preâmbulo",
+      "hierarchy": {},
+      "hierarchy_string": "",
+      "content": "* Art. 16-A\n\n. A partir do exercício de 2027, ano-calendário de 2026, a pessoa física cuja soma de todos os rendimentos recebidos no ano-calendário seja superior a R$ 600.000,00 (seiscentos mil reais) fica sujeita à tributação mínima do Imposto sobre a Renda das Pessoas Físicas, nos termos deste artigo.\n\n\n    - **§ 1º** Para fins do disposto no caput deste artigo, serão considerados, na definição da base de cálculo da tributação mínima, o resultado da atividade rural, apurado na forma dos arts. 4º , 5º e 14 da Lei nº 8.023, de 12 de abril de 1990 , e os rendimentos recebidos no ano-calendário, inclusive os tributados de forma exclusiva ou definitiva e os isentos ou sujeitos à alíquota zero ou reduzida, deduzindo-se, exclusivamente:\n\n\n\n      - I - os ganhos de capital, exceto os decorrentes de operações realizadas em bolsa ou no mercado de balcão organizado sujeitas à tributação com base no ganho líquido no Brasil;\n\n\n      - II - os rendimentos recebidos acumuladamente tributados exclusivamente na fonte, de que trata o art. 12-A da Lei nº 7.713, de 22 de dezembro de 1988 , desde que o contribuinte não tenha optado pelo ajuste anual de que trata o § 5º do referido artigo;\n\n\n      - III - os valores recebidos por doação em adiantamento da legítima ou da herança;\n\n\n      - IV - os rendimentos auferidos em contas de depósitos de poupança;\n\n\n      - V - a remuneração produzida pelos seguintes títulos e valores mobiliários:\n\n\n      - a) Letra Hipotecária, de que trata a Lei nº 7.684, de 2 de dezembro de 1988 ;\n\n\n      - b) Letra de Crédito Imobiliário (LCI), de que tratam os arts. 12 a 17 da Lei nº 10.931, de 2 de agosto de 2004 ;\n\n\n      - c) Certificado de Recebíveis Imobiliários (CRI), de que trata o art. 6º da Lei nº 9.514, de 20 de novembro de 1997 ;\n\n\n      - d) Letra Imobiliária Garantida (LIG), de que trata o art. 63 da Lei nº 13.097, de 19 de janeiro de 2015;\n\n\n      - e) Letra de Crédito do Desenvolvimento (LCD), de que trata a Lei nº 14.937, de 26 de julho de 2024 ;\n\n\n      - f) títulos e valores mobiliários relacionados a projetos de investimento e infraestrutura, de que trata o art. 2º da Lei nº 12.431, de 24 de junho de 2011 ;\n\n\n      - g) fundos de investimento de que trata o art. 3º da Lei nº 12.431, de 24 de junho de 2011 , que estabeleçam em seu regulamento a aplicação de seus recursos nos ativos de que trata a alínea “f” deste inciso em montante não inferior a 85% (oitenta e cinco por cento) do valor de referência do fundo;\n\n\n      - h) fundos de investimento de que trata o art. 1º da Lei nº 11.478, de 29 de maio de 2007 ;\n\n\n      - i) os rendimentos distribuídos pelos Fundos de Investimento Imobiliário (FIIs) cujas cotas sejam admitidas à negociação exclusivamente em bolsas de valores ou no mercado de balcão organizado e que possuam, no mínimo, 100 (cem) cotistas;\n\n\n      - j) os rendimentos distribuídos pelos Fundos de Investimento nas Cadeias Produtivas Agroindustriais (Fiagro) cujas cotas sejam admitidas à negociação exclusivamente em bolsas de valores ou no mercado de balcão organizado e que possuam, no mínimo, 100 (cem) cotistas;\n\n\n      - VI - a remuneração produzida pelos seguintes títulos e valores mobiliários, de que tratam os arts. 1º e 23 da Lei nº 11.076, de 30 de dezembro de 2004 :\n\n\n      - a) Certificado de Depósito Agropecuário (CDA);\n\n\n      - b) Warrant Agropecuário (WA);\n\n\n      - c) Certificado de Direitos Creditórios do Agronegócio (CDCA);\n\n\n      - d) Letra de Crédito do Agronegócio (LCA);\n\n\n      - e) Certificado de Recebíveis do Agronegócio (CRA);\n\n\n      - VII - a remuneração produzida por Cédula de Produto Rural (CPR), com liquidação financeira, de que trata a Lei nº 8.929, de 22 de agosto de 1994 , desde que negociada no mercado financeiro;\n\n\n      - VIII - a parcela do Imposto sobre a Renda das Pessoas Físicas isenta relativa à atividade rural;\n\n\n      - IX - os valores recebidos a título de indenização por acidente de trabalho, por danos materiais, inclusive corporais, ou morais, ressalvados os lucros cessantes;\n\n\n      - X - os rendimentos isentos de que tratam os incisos XIV e XXI do caput do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988 ;\n\n\n      - XI - os rendimentos de títulos e valores mobiliários isentos ou sujeitos à alíquota zero do Imposto sobre a Renda, exceto os rendimentos de ações e demais participações societárias;\n\n\n      - XII - os lucros e dividendos:\n\n\n      - a) relativos a resultados apurados até o ano-calendário de 2025;\n\n\n      - b) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025 pelo órgão societário competente para tal deliberação;\n\n\n      - c) desde que o pagamento, o crédito, o emprego ou a entrega:\n\n1. ocorra nos anos-calendário de 2026, 2027 e 2028; e\n2. observe os termos previstos no ato de aprovação realizado até 31 de dezembro de 2025.\n\n\n    - **§ 2º** A alíquota da tributação mínima do Imposto sobre a Renda das Pessoas Físicas será fixada com base nos rendimentos apurados nos termos do § 1º deste artigo, observado o seguinte:\n\n\n\n      - I - para rendimentos iguais ou superiores a R$ 1.200.000,00 (um milhão e duzentos mil reais), a alíquota será de 10% (dez por cento); e\n\n\n      - II - para rendimentos superiores a R$ 600.000,00 (seiscentos mil reais) e inferiores a R$ 1.200.000,00 (um milhão e duzentos mil reais), a alíquota crescerá linearmente de 0 (zero) a 10% (dez por cento), conforme a seguinte fórmula:\n\nAlíquota % = (REND/60.000) - 10, em que:\nREND = rendimentos apurados na forma prevista no § 1º deste artigo.\n\n\n    - **§ 3º** O valor devido da tributação mínima do Imposto sobre a Renda das Pessoas Físicas será apurado a partir da multiplicação da alíquota pela base de cálculo, com a dedução:\n\n\n\n      - I - do Imposto sobre a Renda das Pessoas Físicas devido na declaração de ajuste anual, calculado nos termos do art. 12 desta Lei;\n\n\n      - II - do Imposto sobre a Renda das Pessoas Físicas retido exclusivamente na fonte incidente sobre os rendimentos incluídos na base de cálculo da tributação mínima do imposto;\n\n\n      - III - do Imposto sobre a Renda das Pessoas Físicas apurado com fundamento nos arts. 1º a 13 da Lei nº 14.754, de 12 de dezembro de 2023 ;\n\n\n      - IV - do Imposto sobre a Renda das Pessoas Físicas pago definitivamente referente aos rendimentos computados na base de cálculo da tributação mínima do imposto e não considerado nos incisos I, II e III deste parágrafo; e\n\n\n      - V - do redutor apurado nos termos do art. 16-B desta Lei.\n\n\n\n    - **§ 4º** Caso o valor apurado nos termos do § 3º deste artigo seja negativo, o valor devido a título de tributação mínima do Imposto sobre a Renda das Pessoas Físicas será 0 (zero).\n\n\n\n\n    - **§ 5º** Do valor apurado na forma prevista nos §§ 3º e 4º deste artigo será deduzido o montante do Imposto sobre a Renda das Pessoas Físicas na fonte antecipado nos termos do art. 6º-A desta Lei.\n\n\n\n\n    - **§ 6º** O resultado obtido nos termos do § 5º deste artigo será adicionado ao saldo do Imposto sobre a Renda das Pessoas Físicas, a pagar ou a restituir, apurado na declaração de ajuste anual, nos termos do art. 12 desta Lei.\n\n\n\n\n    - **§ 7º** No caso da atividade exercida pelos titulares dos serviços notariais e de registro de que trata o art. 236 da Constituição Federal , serão excluídos da base de cálculo da tributação mínima do Imposto sobre a Renda das Pessoas Físicas os repasses obrigatórios efetuados previstos em lei, incidentes sobre os emolumentos.”\n\n\n“ Art. 16-B . Caso se verifique que a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica com a alíquota efetiva da tributação mínima do imposto de renda aplicável à pessoa física beneficiária ultrapassa a soma das alíquotas nominais do imposto sobre a renda das pessoas jurídicas e da Contribuição Social sobre o Lucro Líquido (CSLL), será concedido redutor da tributação mínima do Imposto sobre a Renda das Pessoas Físicas calculado sobre os referidos lucros e dividendos pagos, creditados, empregados ou entregues por cada pessoa jurídica à pessoa física sujeita ao pagamento da tributação mínima do imposto de que trata o art. 16-A desta Lei.\n\n\n    - **§ 1º** A soma das alíquotas nominais a serem consideradas para fins do limite previsto no caput deste artigo correspondem a:\n\n\n\n      - I - 34% (trinta e quatro por cento), no caso de pagamento de lucros ou dividendos pelas pessoas jurídicas não alcançadas pelo disposto nos incisos II e III deste parágrafo;\n\n\n      - II - 40% (quarenta por cento), no caso de pagamento de lucros ou dividendos pelas pessoas jurídicas de seguros privados e de capitalização e por aquelas referidas nos incisos II, III, IV, V, VI, VII , IX e X do § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de 2001 ; e\n\n\n      - III - 45% (quarenta e cinco por cento), no caso de pagamento de lucros ou dividendos pelas pessoas jurídicas referidas no inciso I do § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de 2001 .\n\n\n\n    - **§ 2º** O valor do redutor de que trata este artigo corresponderá ao resultado obtido por meio da multiplicação do montante dos lucros e dividendos pagos, creditados, empregados ou entregues à pessoa física pela pessoa jurídica pela diferença entre:\n\n\n\n      - I - a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica com a alíquota efetiva da tributação mínima do imposto de renda aplicável à pessoa física beneficiária; e\n\n\n      - II - o percentual previsto nos incisos I, II e III do § 1º deste artigo.\n\n\n\n    - **§ 3º** Para fins do disposto neste artigo, considera-se:\n\n\n\n      - I - alíquota efetiva de tributação dos lucros da pessoa jurídica, a razão observada, no exercício a que se referem os lucros e dividendos distribuídos, entre:\n\n\n      - a) o valor devido do imposto de renda e da CSLL da pessoa jurídica; e\n\n\n      - b) o lucro contábil da pessoa jurídica;\n\n\n      - II - alíquota efetiva da tributação mínima do Imposto sobre a Renda das Pessoas Físicas, a razão entre:\n\n\n      - a) o acréscimo do valor devido da tributação mínima do Imposto sobre a Renda das Pessoas Físicas, antes da redução de que trata este artigo, resultante da inclusão dos lucros e dividendos na base de cálculo da tributação mínima do imposto; e\n\n\n      - b) o montante dos lucros e dividendos recebidos pela pessoa física no ano-calendário; e\n\n\n      - III - lucro contábil da pessoa jurídica: o resultado do exercício antes dos tributos sobre a renda e das respectivas provisões.\n\n\n\n    - **§ 4º** A concessão do redutor de que trata este artigo fica condicionada à apresentação de demonstrações financeiras da pessoa jurídica, elaboradas de acordo com a legislação societária e com as normas contábeis em vigor, na forma de regulamento.\n\n\n\n\n    - **§ 5º** O cálculo da alíquota efetiva e do imposto devido pela pessoa jurídica poderá ser realizado com base nas demonstrações financeiras consolidadas da fonte pagadora, na forma de regulamento.\n\n\n\n\n    - **§ 6º** As empresas não sujeitas ao regime de tributação pelo lucro real poderão optar por cálculo simplificado do lucro contábil, o qual corresponderá ao valor do faturamento com a dedução das seguintes despesas:\n\n\n\n      - I - folha de salários, remuneração de administradores e gerentes e respectivos encargos legais;\n\n\n      - II - preço de aquisição das mercadorias destinadas à venda, no caso de atividade comercial;\n\n\n      - III - matéria-prima agregada ao produto industrializado e material de embalagem, no caso de atividade industrial;\n\n\n      - IV - aluguéis de imóveis necessários à operação da empresa, desde que tenha havido retenção e recolhimento de imposto de renda pela fonte pagadora quando a legislação o exigir;\n\n\n      - V - juros sobre financiamentos necessários à operação da empresa, desde que concedidos por instituição financeira ou outra entidade autorizada a operar pelo Banco Central do Brasil; e\n\n\n      - VI - depreciação de equipamentos necessários à operação da empresa, no caso de atividade industrial, observada a regulamentação sobre depreciação a que se sujeitam as pessoas jurídicas submetidas ao regime do lucro real.\n\n\n\n    - **§ 7º** A Secretaria Especial da Receita Federal do Brasil do Ministério da Fazenda poderá fornecer os dados a que se refere este artigo e calcular o valor do redutor na declaração pré-preenchida do Imposto sobre a Renda das Pessoas Físicas, a partir das informações prestadas pelas pessoas jurídicas pagadoras dos lucros e dividendos.\n\n\n\n\n    - **§ 8º** O valor das bolsas concedidas no âmbito do Programa Universidade para Todos (Prouni), instituído pela Lei nº 11.096, de 13 de janeiro de 2005 , será considerado como imposto pago no cálculo da alíquota efetiva das pessoas jurídicas que aderiram ao programa, nos termos de regulamento.”",
+      "metadata": {
+        "word_count": 2139,
+        "char_count": 12731,
+        "has_paragraphs": true,
+        "has_incisos": true,
+        "has_alineas": true,
+        "num_paragraphs": 15,
+        "num_incisos": 33,
+        "num_alineas": 22,
+        "referencias_legislativas": [
+          "Lei nº 10.931,",
+          "Lei nº 11.076,",
+          "Lei nº 11.096,",
+          "Lei nº 11.478,",
+          "Lei nº 12.431,",
+          "Lei nº 13.097,",
+          "Lei nº 14.754,",
+          "Lei nº 14.937,",
+          "Lei nº 7.684,",
+          "Lei nº 7.713,",
+          "Lei nº 8.023,",
+          "Lei nº 8.929,",
+          "Lei nº 9.514,"
+        ]
+      },
+      "created_at": "2026-03-13T13:59:39.051046"
+    },
+    {
+      "chunk_id": "L15270_processed_preambulo_art_3",
+      "source_file": "L15270_processed.md",
+      "article_number": "3",
+      "section": "Preâmbulo",
+      "hierarchy": {},
+      "hierarchy_string": "",
+      "content": "* Art. 3º\n\nA Lei nº 9.249, de 26 de dezembro de 1995 , passa a vigorar com as seguintes alterações:\n“ Art. 10 . Os lucros ou dividendos calculados com base nos resultados apurados a partir do mês de janeiro de 1996, pagos ou creditados pelas pessoas jurídicas tributadas com base no lucro real, presumido ou arbitrado, não ficarão sujeitos à incidência do imposto de renda na fonte, nem integrarão a base de cálculo do imposto de renda do beneficiário, pessoa física ou jurídica, domiciliado no País, observado o disposto nos arts. 6º-A e 16-A da Lei nº 9.250, de 26 de dezembro de 1995 .\n\n\n    - **§ 4º** Os lucros ou dividendos pagos, creditados, entregues, empregados ou remetidos ao exterior ficarão sujeitos à incidência do imposto de renda na fonte à alíquota de 10% (dez por cento).\n\n\n\n\n    - **§ 5º** Não ficarão sujeitos à incidência do imposto de renda na fonte, nos termos do caput deste artigo, os lucros e dividendos:\n\n\n\n      - I - relativos a resultados apurados até o ano-calendário de 2025:\n\n\n      - a) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e\n\n\n      - b) sejam exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação;\n\n\n      - II - pagos, creditados, empregados, entregues ou remetidos a:\n\n\n      - a) governos estrangeiros, desde que haja reciprocidade de tratamento em relação aos rendimentos auferidos em seus países pelo governo brasileiro;\n\n\n      - b) fundos soberanos, conforme definidos no § 5º do art. 3º da Lei nº 11.312, de 27 de junho de 2006 ; e\n\n\n      - c) entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários, tais como aposentadorias e pensões, conforme definidas em regulamento.” (NR)\n\n“ Art. 10-A . Caso se verifique que a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica domiciliada no Brasil distribuidora dos lucros e dividendos com a alíquota prevista no § 4º do art. 10 desta Lei ultrapassa a soma das alíquotas nominais do imposto sobre a renda das pessoas jurídicas e da Contribuição Social sobre o Lucro Líquido (CSLL), será concedido, por opção do beneficiário residente ou domiciliado no exterior, crédito calculado sobre o montante de lucros e dividendos pagos, creditados, entregues, empregados ou remetidos que tenham sido tributados com fundamento no § 4º do art. 10 desta Lei.\n\n\n    - **§ 1º** O valor do crédito de que trata este artigo corresponderá ao resultado obtido por meio da multiplicação do montante dos lucros e dividendos pagos, creditados, entregues, empregados ou remetidos pela pessoa jurídica pela diferença entre:\n\n\n\n      - I - a alíquota efetiva de tributação dos lucros da pessoa jurídica, apurada nos termos do art. 16-B da Lei nº 9.250, de 26 de dezembro de 1995 , acrescida de 10 (dez) pontos percentuais; e\n\n\n      - II - o percentual previsto nos incisos I , II e III do § 1º do art. 16-B da Lei nº 9.250, de 26 de dezembro de 1995.\n\n\n\n    - **§ 2º** O Poder Executivo regulamentará o modo pelo qual será formalizada a opção referida no caput deste artigo, bem como a maneira pela qual o residente ou o domiciliado no exterior pleiteará, em até 360 (trezentos e sessenta) dias, contados de cada exercício, o crédito de que trata este artigo.”",
+      "metadata": {
+        "word_count": 556,
+        "char_count": 3336,
+        "has_paragraphs": true,
+        "has_incisos": true,
+        "has_alineas": true,
+        "num_paragraphs": 4,
+        "num_incisos": 4,
+        "num_alineas": 5,
+        "referencias_legislativas": [
+          "Lei nº 11.312,",
+          "Lei nº 9.249,",
+          "Lei nº 9.250,"
+        ]
+      },
+      "created_at": "2026-03-13T13:59:39.052387"
+    },
+    {
+      "chunk_id": "L15270_processed_preambulo_art_4",
+      "source_file": "L15270_processed.md",
+      "article_number": "4",
+      "section": "Preâmbulo",
+      "hierarchy": {},
+      "hierarchy_string": "",
+      "content": "* Art. 4º\n\nOs Estados, o Distrito Federal e os Municípios serão compensados pela redução de receitas em razão do disposto nos arts. 3º-A e 11-A da Lei nº 9.250, de 26 de dezembro de 1995 , com o aumento de receitas dos respectivos Fundos de Participação decorrente do disposto no § 4º do art. 10 da Lei nº 9.249, de 26 de dezembro de 1995 , e no art. 16-A da Lei nº 9.250, de 26 de dezembro de 1995 .\n\n    - **Parágrafo único.** Caso o aumento das receitas de que trata o caput deste artigo seja insuficiente para a promoção da compensação, ela será realizada trimestralmente pela União com o valor equivalente às receitas decorrentes da aprovação desta Lei que excedam as estimativas de impacto orçamentário e financeiro desta Lei.",
+      "metadata": {
+        "word_count": 132,
+        "char_count": 732,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 9.249,",
+          "Lei nº 9.250,"
+        ]
+      },
+      "created_at": "2026-03-13T13:59:39.053627"
+    },
+    {
+      "chunk_id": "L15270_processed_preambulo_art_5",
+      "source_file": "L15270_processed.md",
+      "article_number": "5",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "subtitulo": "Art. 4º"
+      },
+      "hierarchy_string": "Art. 4º",
+      "content": "* Art. 5º\n\nA parcela da arrecadação da União resultante desta Lei que exceder o montante necessário para compensar a redução do imposto devido, prevista nos arts. 3º-A e 11-A da Lei nº 9.250, de 26 de dezembro de 1995 , e a compensação de que trata o art. 4º desta Lei serão consideradas como fonte de compensação para o cálculo da alíquota de referência da Contribuição Social sobre Bens e Serviços (CBS) do ano subsequente de que tratam os arts. 352 a 359 da Lei Complementar nº 214, de 16 de janeiro de 2025 , nos termos do parágrafo único do art. 18 da Emenda Constitucional nº 132, de 20 de dezembro de 2023 .\n\n    - **Parágrafo único.** Para os fins do disposto neste artigo, será considerada a arrecadação líquida da União das entregas previstas no inciso I do caput do art. 159 da Constituição Federal , para cálculo do valor destinado como fonte de compensação para o cálculo da alíquota de referência da CBS.",
+      "metadata": {
+        "word_count": 166,
+        "char_count": 918,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 9.250,"
+        ]
+      },
+      "created_at": "2026-03-13T13:59:39.055197"
+    },
+    {
+      "chunk_id": "L15270_processed_preambulo_art_7",
+      "source_file": "L15270_processed.md",
+      "article_number": "7",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "subtitulo": "Art. 6º"
+      },
+      "hierarchy_string": "Art. 6º",
+      "content": "* Art. 7º\n\nRevoga-se o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995 .",
+      "metadata": {
+        "word_count": 18,
+        "char_count": 75,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 9.250,"
+        ]
+      },
+      "created_at": "2026-03-13T13:59:39.056512"
+    },
+    {
+      "chunk_id": "L15270_processed_preambulo_art_8",
+      "source_file": "L15270_processed.md",
+      "article_number": "8",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "subtitulo": "Art. 7º"
+      },
+      "hierarchy_string": "Art. 7º",
+      "content": "* Art. 8º\n\nEsta Lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1º de janeiro de 2026 .\n\n\n##### Brasília, 26 de novembro de 2025; 204 o da Independência e 137 o da República.\n\n\n##### LUIZ INÁCIO LULA DA SILVA\n\n\n##### Fernando Haddad\n\n\n##### Manoel Carlos de Almeida Neto\n\n\n##### Simone Nassar Tebet",
+      "metadata": {
+        "word_count": 60,
+        "char_count": 327,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T13:59:39.057953"
+    }
+  ]
 }

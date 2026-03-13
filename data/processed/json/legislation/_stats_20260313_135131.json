@@ -1,0 +1,44 @@
+{
+  "processed": 6,
+  "skipped": 0,
+  "errors": 0,
+  "total_chunks": 1283,
+  "documents": [
+    {
+      "source": "D9580_processed.md",
+      "output": "D9580_processed.json",
+      "num_chunks": 1054,
+      "total_words": 205462
+    },
+    {
+      "source": "IN RFB nº 1500_2014_processed.md",
+      "output": "IN RFB nº 1500_2014_processed.json",
+      "num_chunks": 114,
+      "total_words": 24954
+    },
+    {
+      "source": "IN RFB nº 2178_2024_processed.md",
+      "output": "IN RFB nº 2178_2024_processed.json",
+      "num_chunks": 17,
+      "total_words": 4264
+    },
+    {
+      "source": "L15270_processed.md",
+      "output": "L15270_processed.json",
+      "num_chunks": 0,
+      "total_words": 0
+    },
+    {
+      "source": "L7713compilada_processed.md",
+      "output": "L7713compilada_processed.json",
+      "num_chunks": 56,
+      "total_words": 7049
+    },
+    {
+      "source": "L9250compilado_processed.md",
+      "output": "L9250compilado_processed.json",
+      "num_chunks": 42,
+      "total_words": 7228
+    }
+  ]
+}
