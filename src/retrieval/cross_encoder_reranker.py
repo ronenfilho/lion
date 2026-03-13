@@ -45,7 +45,7 @@ class CrossEncoderReranker:
     - cross-encoder/stsb-roberta-base
     """
     
-    DEFAULT_MODEL = 'cross-encoder/mmarco-MiniLMv2-L12-H384'
+    DEFAULT_MODEL = 'cross-encoder/qnli-distilroberta-base'
     
     def __init__(
         self,
@@ -74,12 +74,23 @@ class CrossEncoderReranker:
         self.confidence_threshold = confidence_threshold
         
         try:
+            print(f"🔄 Carregando CrossEncoder: {model_name}...")
             self.model = CrossEncoder(model_name, device=device)
             self.device = device or self.model.device
             print(f"✅ CrossEncoder loaded: {model_name}")
             print(f"   Device: {self.device}")
         except Exception as e:
-            raise RuntimeError(f"Failed to load cross-encoder {model_name}: {e}")
+            print(f"⚠️ Falha ao carregar {model_name}: {e}")
+            print(f"🔄 Tentando modelo alternativo: qnli-distilroberta-base...")
+            try:
+                fallback_model = 'cross-encoder/qnli-distilroberta-base'
+                self.model = CrossEncoder(fallback_model, device=device)
+                self.device = device or self.model.device
+                self.model_name = fallback_model
+                print(f"✅ CrossEncoder carregado (fallback): {fallback_model}")
+                print(f"   Device: {self.device}")
+            except Exception as e2:
+                raise RuntimeError(f"Falha ao carregar cross-encoder: {e} | Fallback: {e2}")
     
     def rerank(
         self,

@@ -1,8 +1,7 @@
 """
-Script 2.4: Avaliação de Retrieval Otimizado
-- Compara BM25 + CrossEncoder Rerank vs métodos originais
-- Pipeline otimizado: 10-15x mais rápido que Dense com melhor qualidade
-- Testa diferentes configurações de reranking
+Script 2.4: Avaliação de Retrieval Otimizado (Simplificado)
+- Compara diferentes configurações de BM25 (para preparar para reranking)
+- Execução rápida para validação de pipeline
 """
 
 import sys
@@ -18,10 +17,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.ingestion.vector_store import VectorStore
 from src.retrieval.bm25_retriever import BM25Retriever
-from src.retrieval.cross_encoder_reranker import (
-    CrossEncoderReranker,
-    PipelinedRetriever
-)
 
 from dotenv import load_dotenv
 import os
@@ -32,20 +27,19 @@ load_dotenv()
 PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", "./data/embeddings/chroma_db")
 COLLECTION_NAME = os.getenv("CHROMA_COLLECTION_NAME", "irpf_2025")
 TEST_DATASET_PATH = "data/datasets/test/manual_rfb_test.json"
-EMBEDDINGS_CACHE_PATH = "data/datasets/test/manual_rfb_test_embeddings.json"
 RESULTS_DIR = Path("data/experiments/results/retrieval")
 
 # Configurações a testar
-RERANKING_CONFIGS = [
-    {"pipeline_type": "bm25_only", "bm25_k": 5, "final_k": 5, "rerank": False},
-    {"pipeline_type": "bm25_rerank", "bm25_k": 10, "final_k": 3, "rerank": True},
-    {"pipeline_type": "bm25_rerank", "bm25_k": 10, "final_k": 5, "rerank": True},
-    {"pipeline_type": "bm25_rerank", "bm25_k": 15, "final_k": 3, "rerank": True},
+BATCHER_CONFIGS = [
+    {"name": "bm25_k3", "k": 3},
+    {"name": "bm25_k5", "k": 5},
+    {"name": "bm25_k10", "k": 10},
+    {"name": "bm25_k15", "k": 15},
 ]
 
 
 class OptimizedRetrievalEvaluator:
-    """Avaliador de pipeline otimizado de retrieval"""
+    """Avaliador de retrieval otimizado"""
     
     def __init__(self):
         """Inicializa avaliador"""
@@ -59,7 +53,7 @@ class OptimizedRetrievalEvaluator:
         # Inicializar BM25
         self.bm25_retriever = BM25Retriever.from_vector_store(
             vector_store=self.vector_store,
-            top_k=15,  # Máximo para reranking
+            top_k=15,
             tokenizer='legal'
         )
         
@@ -85,48 +79,17 @@ class OptimizedRetrievalEvaluator:
         print(f"✅ Dataset carregado: {len(questions)} perguntas")
         return {'questions': questions}
     
-    def create_pipeline(self, config: Dict) -> Optional[PipelinedRetriever]:
-        """
-        Cria pipeline baseado em configuração.
-        
-        Args:
-            config: Configuração de pipeline
-            
-        Returns:
-            PipelinedRetriever inicializado
-        """
-        try:
-            pipeline = PipelinedRetriever(
-                bm25_retriever=self.bm25_retriever,
-                bm25_fetch_k=config.get('bm25_k', 10),
-                final_top_k=config.get('final_k', 3),
-                use_reranking=config.get('rerank', True)
-            )
-            return pipeline
-        except Exception as e:
-            print(f"   ❌ Erro ao criar pipeline: {e}")
-            return None
-    
-    def format_config(self, config: Dict) -> str:
-        """Formata config para display"""
-        if config.get('rerank'):
-            return f"bm25(k={config['bm25_k']}) → rerank(k={config['final_k']})"
-        else:
-            return f"bm25(k={config['final_k']})"
-    
     def evaluate_single_query(
         self,
         question: str,
-        config: Dict,
-        pipeline: PipelinedRetriever
+        k: int
     ) -> Dict[str, Any]:
         """
-        Avalia um query com o pipeline.
+        Avalia um query com BM25.
         
         Args:
             question: Texto da pergunta
-            config: Configuração do pipeline
-            pipeline: PipelinedRetriever
+            k: Número de chunks a recuperar
             
         Returns:
             Métricas de retrieval
@@ -134,8 +97,15 @@ class OptimizedRetrievalEvaluator:
         start_time = time.time()
         
         try:
-            results = pipeline.retrieve(question, top_k=config.get('final_k', 3))
+            # Temporariamente mudar top_k do retriever
+            old_k = self.bm25_retriever.top_k
+            self.bm25_retriever.top_k = k
+            
+            results = self.bm25_retriever.retrieve(question)
             latency_ms = (time.time() - start_time) * 1000
+            
+            # Restaurar top_k
+            self.bm25_retriever.top_k = old_k
             
             if not results:
                 return {
@@ -150,6 +120,20 @@ class OptimizedRetrievalEvaluator:
             total_chars = sum(len(r.content) for r in results)
             total_words = sum(len(r.content.split()) for r in results)
             
+            # Incluir chunks detalhados
+            chunks = [
+                {
+                    'id': r.id,
+                    'content': r.content,
+                    'score': r.score,
+                    'document': r.metadata.get('document'),
+                    'section': r.metadata.get('section'),
+                    'character_count': len(r.content),
+                    'word_count': len(r.content.split())
+                }
+                for r in results
+            ]
+            
             return {
                 'latency_ms': latency_ms,
                 'num_chunks': len(results),
@@ -159,254 +143,172 @@ class OptimizedRetrievalEvaluator:
                 'avg_score': sum(scores) / len(scores) if scores else 0,
                 'min_score': min(scores) if scores else 0,
                 'max_score': max(scores) if scores else 0,
-                'chunks': [
-                    {
-                        'id': r.id,
-                        'score': r.score,
-                        'original_rank': r.original_rank,
-                        'document': r.metadata.get('document', 'N/A'),
-                        'section': r.metadata.get('section', 'N/A'),
-                        'content': r.content[:500]  # Preview
-                    }
-                    for r in results
-                ]
+                'chunks': chunks
             }
-        
         except Exception as e:
-            latency_ms = (time.time() - start_time) * 1000
             return {
-                'latency_ms': latency_ms,
-                'error': str(e)
+                'error': str(e),
+                'latency_ms': (time.time() - start_time) * 1000
             }
     
-    def run_evaluation(self) -> Dict[str, Any]:
+    def run_evaluation(self):
         """Executa avaliação completa"""
-        print(f"\n{'='*80}")
-        print(f"🚀 AVALIAÇÃO DE RETRIEVAL OTIMIZADO")
-        print(f"{'='*80}\n")
-        
-        # Carregar dataset
-        print("📂 Carregando dataset...")
         dataset = self.load_test_dataset()
         if not dataset:
-            return None
+            return False
         
         questions = dataset['questions']
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         
-        # Executar avaliação
-        print(f"\n📊 Testando {len(RERANKING_CONFIGS)} configurações")
-        print(f"   com {len(questions)} perguntas")
-        print(f"   = {len(RERANKING_CONFIGS) * len(questions)} execuções\n")
-        
-        all_results = []
-        
-        total_evaluations = len(RERANKING_CONFIGS) * len(questions)
-        pbar = tqdm(total=total_evaluations, desc="🔄 Progresso geral", unit="eval")
-        
-        for q_idx, qa in enumerate(questions, 1):
-            question_id = qa['id']
-            question = qa['question']
-            
-            print(f"\n[{q_idx}/{len(questions)}] {question_id}: {question[:60]}...")
-            
-            for config_idx, config in enumerate(RERANKING_CONFIGS, 1):
-                pipeline = self.create_pipeline(config)
-                
-                if not pipeline:
-                    print(f"   ❌ Config {config_idx}: Falha na criação")
-                    pbar.update(1)
-                    continue
-                
-                # Avaliar
-                result = self.evaluate_single_query(question, config, pipeline)
-                
-                # Adicionar metadados
-                result['question_id'] = question_id
-                result['question'] = question[:100]
-                result['config_pipeline_type'] = config['pipeline_type']
-                result['config_bm25_k'] = config.get('bm25_k', None)
-                result['config_final_k'] = config['final_k']
-                result['config_use_reranking'] = config.get('rerank', False)
-                
-                all_results.append(result)
-                
-                if 'error' not in result:
-                    config_str = self.format_config(config)
-                    status = f"✅ {config_str}: {result['num_chunks']} chunks | score={result['top_score']:.3f} | lat={result['latency_ms']:.0f}ms"
-                else:
-                    status = f"❌ {config['pipeline_type']}: {result['error']}"
-                
-                pbar.set_postfix_str(status)
-                pbar.update(1)
-        
-        pbar.close()
-        
-        # Agregar resultados
-        print(f"\n{'='*80}")
-        print(f"📈 AGREGAÇÃO DE RESULTADOS")
-        print(f"{'='*80}\n")
-        
-        aggregated = self._aggregate_results(all_results)
-        
-        # Salvar resultados
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        
-        output_data = {
-            'timestamp': datetime.now().isoformat(),
+        all_results = {
+            'timestamp': timestamp,
+            'dataset': TEST_DATASET_PATH,
             'total_questions': len(questions),
-            'total_configs': len(RERANKING_CONFIGS),
-            'total_evaluations': len(all_results),
-            'successful_evaluations': len([r for r in all_results if 'error' not in r]),
-            'aggregated_metrics': aggregated,
-            'individual_results': all_results
+            'configs': BATCHER_CONFIGS,
+            'individual_results': []
         }
         
-        self.results_dir.mkdir(parents=True, exist_ok=True)
+        # Iterar por cada config e cada pergunta
+        total_evals = len(BATCHER_CONFIGS) * len(questions)
+        
+        with tqdm(total=total_evals, desc="Avaliação geral", unit="eval") as pbar_main:
+            for cfg_idx, config in enumerate(BATCHER_CONFIGS, 1):
+                print(f"\n🔄 Config {cfg_idx}/{len(BATCHER_CONFIGS)}: {config['name']}")
+                
+                config_results = {
+                    'config_name': config['name'],
+                    'config_k': config['k'],
+                    'query_results': []
+                }
+                
+                config_latencies = []
+                config_scores = []
+                
+                for q_idx, question in enumerate(questions, 1):
+                    q_id = question.get('id', f'q{q_idx:03d}')
+                    q_text = question.get('text', question.get('question', str(question)))[:100]
+                    
+                    result = self.evaluate_single_query(q_text, k=config['k'])
+                    
+                    # Salvar resultado detalhado
+                    eval_result = {
+                        'config_name': config['name'],
+                        'config_k': config['k'],
+                        'question_id': q_id,
+                        'question_text': q_text,
+                    }
+                    eval_result.update(result)
+                    
+                    all_results['individual_results'].append(eval_result)
+                    
+                    if 'error' not in result:
+                        config_results['query_results'].append(result)
+                        config_latencies.append(result['latency_ms'])
+                        config_scores.append(result['top_score'])
+                    
+                    # Update progress bar
+                    msg = f"✅ {config['name']}: {result['num_chunks']} chunks | score={result.get('top_score', 0):.3f} | lat={result['latency_ms']:.1f}ms"
+                    pbar_main.set_postfix_str(msg)
+                    pbar_main.update(1)
+                
+                # Calcular agregados
+                if config_latencies:
+                    config_results['latency_mean_ms'] = sum(config_latencies) / len(config_latencies)
+                    config_results['latency_min_ms'] = min(config_latencies)
+                    config_results['latency_max_ms'] = max(config_latencies)
+                    config_results['score_mean'] = sum(config_scores) / len(config_scores)
+                    config_results['score_min'] = min(config_scores)
+                    config_results['score_max'] = max(config_scores)
+                
+                all_results[config['name']] = config_results
+        
+        # Salvar resultados
+        self._save_results(all_results, timestamp)
+        
+        return True
+    
+    def _save_results(self, results: Dict, timestamp: str):
+        """Salva resultados em JSON, CSV e Markdown"""
         
         # JSON
         json_path = self.results_dir / f"optimized_retrieval_{timestamp}.json"
         with open(json_path, 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, ensure_ascii=False, indent=2)
-        print(f"✅ JSON: {json_path}")
+            json.dump(results, f, ensure_ascii=False, indent=2)
+        print(f"\n✅ JSON salvo: {json_path}")
         
         # CSV
         csv_path = self.results_dir / f"optimized_retrieval_{timestamp}.csv"
-        self.save_csv_report(all_results, timestamp)
-        print(f"✅ CSV: {csv_path}")
-        
-        # Markdown
-        md_path = self.results_dir / f"optimized_retrieval_{timestamp}.md"
-        self.save_markdown_report(aggregated, timestamp)
-        print(f"✅ Markdown: {md_path}\n")
-        
-        print(f"{'='*80}")
-        print(f"✅ AVALIAÇÃO CONCLUÍDA!")
-        print(f"{'='*80}")
-        print(f"\n📁 Resultados salvos em: {self.results_dir}\n")
-        
-        return output_data
-    
-    def _aggregate_results(self, results: List[Dict]) -> Dict[str, Dict]:
-        """Agrega resultados por configuração"""
-        aggregated = {}
-        
-        for result in results:
-            config_key = f"{result['config_pipeline_type']}_bm25_{result['config_bm25_k']}_final_{result['config_final_k']}"
-            
-            if config_key not in aggregated:
-                aggregated[config_key] = {
-                    'latencies': [],
-                    'top_scores': [],
-                    'avg_scores': [],
-                    'num_chunks_list': [],
-                    'total_chars': [],
-                    'total_words': []
-                }
-            
-            if 'error' not in result:
-                aggregated[config_key]['latencies'].append(result['latency_ms'])
-                aggregated[config_key]['top_scores'].append(result['top_score'])
-                aggregated[config_key]['avg_scores'].append(result['avg_score'])
-                aggregated[config_key]['num_chunks_list'].append(result['num_chunks'])
-                aggregated[config_key]['total_chars'].append(result.get('total_characters', 0))
-                aggregated[config_key]['total_words'].append(result.get('total_words', 0))
-        
-        # Calcular stats
-        stats = {}
-        for config_key, data in aggregated.items():
-            if data['latencies']:
-                stats[config_key] = {
-                    'avg_latency_ms': sum(data['latencies']) / len(data['latencies']),
-                    'min_latency_ms': min(data['latencies']),
-                    'max_latency_ms': max(data['latencies']),
-                    'avg_top_score': sum(data['top_scores']) / len(data['top_scores']),
-                    'avg_num_chunks': sum(data['num_chunks_list']) / len(data['num_chunks_list']),
-                    'total_characters': sum(data['total_chars']),
-                    'total_words': sum(data['total_words'])
-                }
-        
-        return stats
-    
-    def save_csv_report(self, results: List[Dict], timestamp: str) -> Path:
-        """Salva resultados em CSV"""
-        csv_path = self.results_dir / f"optimized_retrieval_{timestamp}.csv"
-        
         with open(csv_path, 'w', newline='', encoding='utf-8') as f:
-            fieldnames = [
-                'question_id', 'question_preview', 'config_pipeline_type',
-                'config_bm25_k', 'config_final_k', 'config_use_reranking',
-                'latency_ms', 'num_chunks', 'total_characters', 'total_words',
-                'top_score', 'avg_score', 'min_score', 'max_score'
-            ]
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            
-            for result in results:
-                if 'error' not in result:
-                    row = {
-                        'question_id': result['question_id'],
-                        'question_preview': result['question'],
-                        'config_pipeline_type': result['config_pipeline_type'],
-                        'config_bm25_k': result['config_bm25_k'],
-                        'config_final_k': result['config_final_k'],
-                        'config_use_reranking': result['config_use_reranking'],
-                        'latency_ms': result['latency_ms'],
-                        'num_chunks': result['num_chunks'],
-                        'total_characters': result.get('total_characters', 0),
-                        'total_words': result.get('total_words', 0),
-                        'top_score': result['top_score'],
-                        'avg_score': result['avg_score'],
-                        'min_score': result['min_score'],
-                        'max_score': result['max_score']
-                    }
-                    writer.writerow(row)
+            writer = None
+            for result in results['individual_results']:
+                if writer is None:
+                    writer = csv.DictWriter(f, fieldnames=result.keys())
+                    writer.writeheader()
+                writer.writerow(result)
+        print(f"✅ CSV salvo: {csv_path}")
         
-        return csv_path
-    
-    def save_markdown_report(self, aggregated: Dict, timestamp: str) -> Path:
-        """Salva análise em Markdown"""
+        # Markdown com resumo
         md_path = self.results_dir / f"optimized_retrieval_{timestamp}.md"
-        
-        content = f"""# Avaliação de Retrieval Otimizado
-
-**Data**: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}
-
-## Resumo de Configurações
-
-| Pipeline | BM25 K | Final K | Latência (ms) | Top Score | Chunks |
-|----------|--------|---------|---------------|-----------|--------|
-"""
-        
-        for config, metrics in sorted(aggregated.items(), key=lambda x: x[1]['avg_latency_ms']):
-            parts = config.split('_')
-            bm25_k = parts[3]
-            final_k = parts[5]
-            
-            content += f"| {config[:30]:30s} | {bm25_k:6s} | {final_k:7s} | {metrics['avg_latency_ms']:13.1f} | {metrics['avg_top_score']:9.3f} | {metrics['avg_num_chunks']:6.1f} |\n"
-        
-        content += "\n## Melhores Configurações\n\n"
-        
-        # Mais rápido
-        fastest = min(aggregated.items(), key=lambda x: x[1]['avg_latency_ms'])
-        content += f"⚡ **Mais Rápido**: {fastest[0]}\n"
-        content += f"   - Latência: {fastest[1]['avg_latency_ms']:.1f}ms\n\n"
-        
-        # Melhor score
-        best_score = max(aggregated.items(), key=lambda x: x[1]['avg_top_score'])
-        content += f"🏆 **Melhor Score**: {best_score[0]}\n"
-        content += f"   - Score: {best_score[1]['avg_top_score']:.4f}\n"
-        
         with open(md_path, 'w', encoding='utf-8') as f:
-            f.write(content)
+            f.write(f"# Avaliação de Retrieval Otimizado\n\n")
+            f.write(f"**Data**: {results['timestamp']}\n")
+            f.write(f"**Total de perguntas**: {results['total_questions']}\n")
+            f.write(f"**Configurações**: {len(results['configs'])}\n\n")
+            
+            f.write("## Resumo por Configuração\n\n")
+            f.write("| Config | Latência (ms) | Score Médio | Min | Max |\n")
+            f.write("|--------|---------------|-------------|-----|-----|\n")
+            
+            for config in results['configs']:
+                config_name = config['name']
+                if config_name in results and 'latency_mean_ms' in results[config_name]:
+                    agg = results[config_name]
+                    f.write(
+                        f"| {config_name} | "
+                        f"{agg.get('latency_mean_ms', 0):.1f} | "
+                        f"{agg.get('score_mean', 0):.4f} | "
+                        f"{agg.get('score_min', 0):.4f} | "
+                        f"{agg.get('score_max', 0):.4f} |\n"
+                    )
         
-        return md_path
+        print(f"✅ Markdown salvo: {md_path}")
+        
+        # Imprimir resumo final
+        print(f"\n{'='*80}")
+        print(f"📊 RESUMO DOS RESULTADOS")
+        print(f"{'='*80}\n")
+        print(f"{'Config':<20} {'Latência (ms)':<20} {'Score Médio':<15}")
+        print(f"{'-'*55}")
+        
+        for config in results['configs']:
+            config_name = config['name']
+            if config_name in results and 'latency_mean_ms' in results[config_name]:
+                agg = results[config_name]
+                print(
+                    f"{config_name:<20} "
+                    f"{agg.get('latency_mean_ms', 0):>7.1f}±{agg.get('latency_max_ms', 0)-agg.get('latency_min_ms', 0):>6.1f}ms    "
+                    f"{agg.get('score_mean', 0):>12.4f}"
+                )
 
 
 def main():
-    """Executa avaliação completa"""
+    """Main entry point"""
+    print("="*80)
+    print("SCRIPT 2.4: Avaliação de Retrieval Otimizado (Simplificado)")
+    print("="*80)
+    print()
+    
     evaluator = OptimizedRetrievalEvaluator()
-    return evaluator.run_evaluation()
+    success = evaluator.run_evaluation()
+    
+    if success:
+        print(f"\n✅ Avaliação concluída com sucesso!")
+    else:
+        print(f"\n❌ Erro durante avaliação")
+        return 1
+    
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
