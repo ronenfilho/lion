@@ -195,13 +195,24 @@ def main():
         # 3. Armazenar no ChromaDB
         print("   [3/3] Armazenando no ChromaDB...")
         ids = [chunk['chunk_id'] for chunk in chunks_data]
-        documents = [chunk['content'] for chunk in chunks_data]
+        
+        # Combinar hierarchy_string com content
+        documents = [
+            f"{chunk.get('hierarchy_string', '')}\n\n{chunk['content']}" if chunk.get('hierarchy_string') 
+            else chunk['content']
+            for chunk in chunks_data
+        ]
+        
+        # Usar metadados do chunk JSON
         metadatas = [
             {
                 **chunk.get('metadata', {}),
-                'doc_id': chunk['doc_id'],
-                'section_title': chunk.get('section_title', ''),
-                'source_file': chunk_file.stem
+                'chunk_id': chunk['chunk_id'],
+                'source_file': chunk.get('source_file', chunk_file.stem),
+                'article_number': chunk.get('article_number', ''),
+                'section': chunk.get('section', ''),
+                'hierarchy_string': chunk.get('hierarchy_string', ''),
+                'document': chunk_file.stem
             }
             for chunk in chunks_data
         ]
