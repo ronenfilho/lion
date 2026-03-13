@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 1500_2014.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 18:35
+- **Processado em**: 13/03/2026 14:01
 - **viewport**: width=device-width, initial-scale=1
 - **GENERATOR**: LibreOffice 4.1.3.2 (Windows)
 - **CREATED**: 20140815;555387584
@@ -258,7 +258,9 @@ O SECRETÁRIO DA RECEITA FEDERAL DO BRASIL, no uso das atribuições que lhe con
 
   * Art. 2º São contribuintes do imposto sobre a renda as pessoas físicas residentes no Brasil titulares de disponibilidade econômica ou jurídica de renda, assim entendido o produto do capital, do trabalho ou da combinação de ambos, e de proventos de qualquer natureza.
 
-Parágrafo único. São também contribuintes, as pessoas físicas:
+
+    - **Parágrafo único.** São também contribuintes, as pessoas físicas:
+
 
       - I - que perceberem rendimentos de bens de que tenham a posse como se lhes pertencessem, de acordo com a legislação em vigor; e
 
@@ -295,7 +297,9 @@ Parágrafo único. São também contribuintes, as pessoas físicas:
 
       - II - na propriedade em comunhão decorrente de sociedade conjugal, inclusive no caso de contribuinte separado de fato, ou de união estável sem estipulação contratual entre os companheiros, a tributação, em nome de cada cônjuge, incide sobre 50% (cinquenta por cento) do total dos rendimentos comuns;
 
-Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos são, opcionalmente, tributados pelo total, em nome de um dos cônjuges, sem prejuízo do disposto no § 7º do art. 80.
+
+    - **Parágrafo único.** No caso a que se refere o inciso II do caput, os rendimentos são, opcionalmente, tributados pelo total, em nome de um dos cônjuges, sem prejuízo do disposto no § 7º do art. 80.
+
 
 
 ##### CAPÍTULO III DOS RENDIMENTOS ISENTOS OU NÃO TRIBUTÁVEIS
@@ -818,7 +822,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 ###### Seção I Da Gratificação Natalina (13º salário)
 
 
-* **Subseção I Da Regra Geral**
+  * **Subseção I Da Regra Geral**
 
 
   * Art. 13. O rendimento pago a título de Gratificação Natalina, para efeitos de apuração do IRRF, tem o seguinte tratamento:
@@ -885,7 +889,7 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 
 
 
-* **Subseção II Do Maior de 65 anos**
+  * **Subseção II Do Maior de 65 anos**
 
 
   * Art. 14. Na hipótese de recebimento, por beneficiário maior de 65 (sessenta e cinco) anos, de rendimentos de aposentadoria, pensão, transferência para a reserva remunerada ou reforma, de mais de uma fonte pagadora, deverá ser observado relativamente à Gratificação Natalina paga por fonte, o seguinte:
@@ -898,13 +902,13 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 
 
 
-* **Subseção III Da Previdência Complementar**
+  * **Subseção III Da Previdência Complementar**
 
 
   * Art. 15. O abono anual pago pelas entidades fechadas de previdência complementar, quando ele tenha a característica de previdência complementar, segue regra idêntica àquela aplicável ao Regime Geral da Previdência Social no que se refere à incidência do imposto sobre a renda relativa ao rendimento da Gratificação Natalina.
 
 
-* **Subseção IV Do Governo Estrangeiro**
+  * **Subseção IV Do Governo Estrangeiro**
 
 
   * Art. 16. A Gratificação Natalina recebida de órgãos de governo estrangeiro no País por residente no Brasil é tributada em conjunto com os demais rendimentos recebidos no mês pelo beneficiário, sujeitos ao recolhimento mensal obrigatório (carnê-leão), no mês do recebimento e na DAA.
@@ -1047,7 +1051,9 @@ Parágrafo único. No caso a que se refere o inciso II do caput, os rendimentos 
 
       - XXIV - 
 
-Parágrafo único. Os rendimentos pagos, creditados, entregues, empregados ou remetidos a residentes no exterior se submetem à incidência do IRRF de forma exclusiva:
+
+    - **Parágrafo único.** Os rendimentos pagos, creditados, entregues, empregados ou remetidos a residentes no exterior se submetem à incidência do IRRF de forma exclusiva:
+
 
       - I - à alíquota de 25% (vinte e cinco por cento), se oriundos do trabalho, com ou sem vínculo empregatício, e os da prestação de serviços; e
 
@@ -1097,7 +1103,9 @@ Parágrafo único. Os rendimentos pagos, creditados, entregues, empregados ou re
 
       - IX - prêmios líquidos obtidos em apostas na loteria de apostas de quota fixa e no fantasy sport de que trata o art. 31 da Lei nº 14.790, de 29 de dezembro de 2023.
 
-Parágrafo único. Estão também sujeitos à tributação definitiva os ganhos de capital e os ganhos líquidos referidos nos incisos I, VI, VII, VIII e IX do caput quando recebidos por pessoas não residentes no País.
+
+    - **Parágrafo único.** Estão também sujeitos à tributação definitiva os ganhos de capital e os ganhos líquidos referidos nos incisos I, VI, VII, VIII e IX do caput quando recebidos por pessoas não residentes no País.
+
 
 
   * Art. 21-A. Para fins da tributação dos prêmios líquidos a que se refere o art. 21, caput, inciso IX, o contribuinte deverá anualmente, em relação aos resultados auferidos no ano anterior:
@@ -1123,7 +1131,9 @@ Parágrafo único. Estão também sujeitos à tributação definitiva os ganhos 
 
       - IV - efetuar o pagamento do imposto apurado nos termos do inciso III até o último dia útil do mês de abril.
 
-Parágrafo único. A apuração a que se refere o inciso III do caput será efetuada por meio de aplicação a ser disponibilizada no site da Secretaria Especial da Receita Federal do Brasil na internet.
+
+    - **Parágrafo único.** A apuração a que se refere o inciso III do caput será efetuada por meio de aplicação a ser disponibilizada no site da Secretaria Especial da Receita Federal do Brasil na internet.
+
 
 
   * Art. 21-B. Os agentes operadores deverão disponibilizar, por meio de seu canal eletrônico, aos apostadores o Comprovante de Resultados em Apostas em Loterias de Quota Fixa - ComprovaBet até o último dia útil do mês de fevereiro do ano seguinte ao do recebimento dos prêmios ou ao que tenha incorrido em perdas, com as seguintes informações:
@@ -1143,7 +1153,9 @@ Parágrafo único. A apuração a que se refere o inciso III do caput será efet
 
       - V - o texto constante do Anexo XI.
 
-Parágrafo único. O descumprimento da obrigação acessória prevista no caput sujeitará os agentes operadores às sanções previstas no art. 19 da Lei nº 8.383, de 30 de dezembro de 1991.
+
+    - **Parágrafo único.** O descumprimento da obrigação acessória prevista no caput sujeitará os agentes operadores às sanções previstas no art. 19 da Lei nº 8.383, de 30 de dezembro de 1991.
+
 
 
 ##### CAPÍTULO VI DOS RENDIMENTOS TRIBUTADOS NA FONTE A TÍTULO DE ANTECIPAÇÃO
@@ -1301,7 +1313,7 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 
 
 
-* **Subseção I Dos Rendimentos Decorrentes de Decisão da Justiça Federal**
+  * **Subseção I Dos Rendimentos Decorrentes de Decisão da Justiça Federal**
 
 
   * Art. 25. No caso de rendimentos pagos, em cumprimento de decisão da Justiça Federal, mediante precatório ou requisição de pequeno valor, o IRRF deve ser retido pela instituição financeira responsável pelo pagamento e incide à alíquota de 3% (três por cento) sobre o montante pago, sem quaisquer deduções, no momento do pagamento ao beneficiário ou seu representante legal, ressalvado o disposto no Capítulo VII.
@@ -1316,7 +1328,7 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 
 
 
-* **Subseção II Dos Rendimentos Decorrentes de Decisão da Justiça do Trabalho**
+  * **Subseção II Dos Rendimentos Decorrentes de Decisão da Justiça do Trabalho**
 
 
   * Art. 26. Os rendimentos pagos em cumprimento de decisões da Justiça do Trabalho estão sujeitos ao IRRF com base nas tabelas progressivas constantes do Anexo II, observados a tabela de redução constante do Anexo X e o disposto no Capítulo VII.
@@ -1336,7 +1348,7 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 
 
 
-* **Subseção III Dos Rendimentos Decorrentes de Decisões da Justiça Estadual e do Distrito Federal**
+  * **Subseção III Dos Rendimentos Decorrentes de Decisões da Justiça Estadual e do Distrito Federal**
 
 
   * Art. 27. Na hipótese de rendimentos pagos, em cumprimento de decisão da Justiça Estadual e do Distrito Federal, o IRRF deve ser apurado e recolhido conforme a natureza do rendimento, utilizando o código de receita próprio, ressalvado o disposto no Capítulo VII.
@@ -1397,7 +1409,9 @@ Parágrafo único. O descumprimento da obrigação acessória prevista no caput 
 
   * Art. 30. Para determinação da base de cálculo sujeita ao recolhimento mensal obrigatório (carnê-leão) de que trata o Capítulo IX, no caso de rendimentos de aluguéis de imóveis pagos por pessoa física, devem ser observadas as mesmas disposições previstas nos arts. 31 a 35.
 
-Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o valor locativo do imóvel cedido gratuitamente (comodato) será tributado na DAA.
+
+    - **Parágrafo único.** Ressalvado o disposto no inciso II do caput do art. 11, o valor locativo do imóvel cedido gratuitamente (comodato) será tributado na DAA.
+
 
 
 ###### Seção VI Do Aluguel de Imóvel Pago por Pessoa Jurídica
@@ -1446,7 +1460,7 @@ Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o val
 ###### Seção I Dos RRA Relativos a Anos-Calendário Anteriores ao do Recebimento
 
 
-* **Subseção I Dos RRA Submetidos à Incidência do Imposto sobre a Renda com Base na Tabela Progressiva Correspondentes a Anos-calendário Anteriores ao do Recebimento**
+  * **Subseção I Dos RRA Submetidos à Incidência do Imposto sobre a Renda com Base na Tabela Progressiva Correspondentes a Anos-calendário Anteriores ao do Recebimento**
 
 
   * Art. 36. Os RRA, a partir de 11 de março de 2015, submetidos à incidência do imposto sobre a renda com base na tabela progressiva, quando correspondentes a anos-calendário anteriores ao do recebimento, serão tributados exclusivamente na fonte, no mês do recebimento ou crédito, em separado dos demais rendimentos recebidos no mês.
@@ -1507,7 +1521,9 @@ Parágrafo único. Ressalvado o disposto no inciso II do caput do art. 11, o val
 
       - II - contribuições para a Previdência Social da União, dos estados, do Distrito Federal e dos municípios.
 
-Parágrafo único. Aplica-se o disposto no inciso I do caput, independentemente de o beneficiário ser considerado dependente para fins do disposto no art. 90.
+
+    - **Parágrafo único.** Aplica-se o disposto no inciso I do caput, independentemente de o beneficiário ser considerado dependente para fins do disposto no art. 90.
+
 
 
   * Art. 40. A pessoa responsável pela retenção de que trata o caput do art. 37 deverá, na forma, prazo e condições estabelecidos na legislação do imposto, fornecer à pessoa física beneficiária o Comprovante de Rendimentos Pagos e de Retenção do IRRF, bem como apresentar à Secretaria da Receita Federal do Brasil (RFB) declaração contendo informações sobre:
@@ -1623,7 +1639,7 @@ Parágrafo único. Aplica-se o disposto no inciso I do caput, independentemente 
 
 
 
-* **Subseção II Dos Demais RRA**
+  * **Subseção II Dos Demais RRA**
 
 
   * Art. 43. Os RRA que não decorram do previsto no art. 36 estarão sujeitos:
@@ -1647,7 +1663,9 @@ Parágrafo único. Aplica-se o disposto no inciso I do caput, independentemente 
 
   * Art. 44. Os RRA relativos ao ano-calendário de recebimento estarão sujeitos à regra de que trata o art. 12-B da Lei nº 7.713, de 22 de dezembro de 1988.
 
-Parágrafo único. Caso os RRA sejam pagos em cumprimento de decisão judicial:
+
+    - **Parágrafo único.** Caso os RRA sejam pagos em cumprimento de decisão judicial:
+
 
       - I - da Justiça Federal, mediante precatório ou requisição de pequeno valor, aplica-se o disposto no art. 25; e
 
@@ -1673,7 +1691,9 @@ Parágrafo único. Caso os RRA sejam pagos em cumprimento de decisão judicial:
 
       - b) do imposto de que trata a alínea “a” será deduzido o total do imposto retido relativo às parcelas anteriores.
 
-Parágrafo único. O arredondamento do algarismo da casa decimal de que trata o inciso I do caput será efetuado levando-se em consideração o algarismo relativo à 2ª (segunda) casa decimal, do modo a seguir:
+
+    - **Parágrafo único.** O arredondamento do algarismo da casa decimal de que trata o inciso I do caput será efetuado levando-se em consideração o algarismo relativo à 2ª (segunda) casa decimal, do modo a seguir:
+
 
       - I - menor que 5 (cinco), permanecerá o algarismo da 1ª (primeira) casa decimal;
 
@@ -1699,7 +1719,9 @@ Parágrafo único. O arredondamento do algarismo da casa decimal de que trata o 
 
   * Art. 48. No caso de sucessão causa mortis, em que tiver sido encerrado o espólio, a quantidade de meses relativa ao valor dos RRA transmitido a cada sucessor será idêntica à quantidade de meses aplicada ao valor dos RRA do de cujus.
 
-Parágrafo único. Na hipótese de pagamento em parcelas ou de valor a título complementar, serão utilizados os mesmos critérios de cálculo estabelecidos nos arts. 45 e 49 respectivamente.
+
+    - **Parágrafo único.** Na hipótese de pagamento em parcelas ou de valor a título complementar, serão utilizados os mesmos critérios de cálculo estabelecidos nos arts. 45 e 49 respectivamente.
+
 
 
   * Art. 49. Na hipótese de RRA a título complementar, o imposto a ser retido será a diferença entre o incidente sobre a totalidade dos RRA paga, inclusive o superveniente, e a soma dos retidos anteriormente.
@@ -1765,7 +1787,9 @@ Parágrafo único. Na hipótese de pagamento em parcelas ou de valor a título c
 
       - II - o imposto resultante da apuração de que trata o inciso I será adicionado ao imposto apurado na DAA, sujeitando-se aos mesmos prazos de pagamento e condições deste.
 
-Parágrafo único. A faculdade prevista no caput:
+
+    - **Parágrafo único.** A faculdade prevista no caput:
+
 
       - I - será exercida de modo definitivo nas DAA, respectivamente, dos exercícios de 2013 e 2014;
 
@@ -1909,7 +1933,7 @@ Parágrafo único. A faculdade prevista no caput:
 
 
 
-* **Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros Públicos**
+  * **Subseção Única Da Dedução de Despesas com Informatização pelos Titulares de Serviços de Registros Públicos**
 
 
   * Art. 57. Na determinação da base de cálculo sujeita à incidência mensal do imposto, até o exercício de 2014, ano-calendário de 2013, os titulares de serviços de registros públicos, para fins de implementação dos serviços, previstos na Lei nº 6.015, de 31 de dezembro de 1973, em meio eletrônico, poderão deduzir os investimentos e demais gastos efetuados com informatização, que compreende a aquisição de hardware, aquisição e desenvolvimento de software e a instalação de redes.
@@ -2280,7 +2304,9 @@ T, a alíquota da classe de rendimentos a que pertence o RP.
 
   * Art. 70. As pessoas físicas devem apresentar anualmente DAA destinada a apurar o saldo do imposto a pagar ou a ser restituído, observados forma, prazo e condições estabelecidos pela Secretaria da Receita Federal do Brasil.
 
-Parágrafo único. Quando motivos de força maior, devidamente justificados perante o chefe da repartição lançadora, impossibilitarem a entrega tempestiva da declaração, pode ser concedida, mediante requerimento, uma só prorrogação de até 60 (sessenta) dias, sem prejuízo do pagamento do imposto nos prazos regulares.
+
+    - **Parágrafo único.** Quando motivos de força maior, devidamente justificados perante o chefe da repartição lançadora, impossibilitarem a entrega tempestiva da declaração, pode ser concedida, mediante requerimento, uma só prorrogação de até 60 (sessenta) dias, sem prejuízo do pagamento do imposto nos prazos regulares.
+
 
 
 ###### Seção II Do Desconto Simplificado
@@ -2435,7 +2461,9 @@ Parágrafo único. Quando motivos de força maior, devidamente justificados pera
 
   * Art. 75. Os ônus reais e obrigações da pessoa física e de seus dependentes, em 31 de dezembro do ano-calendário, devem ser consignados quando o valor for superior a R$ 5.000,00 (cinco mil reais).
 
-Parágrafo único. As dívidas e ônus reais assumidos em instituições financeiras no exterior são convertidos para reais pela cotação fixada, para compra, pelo Banco Central do Brasil, para 31 de dezembro do ano-calendário.
+
+    - **Parágrafo único.** As dívidas e ônus reais assumidos em instituições financeiras no exterior são convertidos para reais pela cotação fixada, para compra, pelo Banco Central do Brasil, para 31 de dezembro do ano-calendário.
+
 
 
 ###### Seção VII Da Cessão Gratuita de Imóvel
@@ -2443,7 +2471,9 @@ Parágrafo único. As dívidas e ônus reais assumidos em instituições finance
 
   * Art. 76. Ressalvado o disposto no inciso II do caput do art. 11, considera-se rendimento tributável, na DAA, o valor locativo de imóvel cedido gratuitamente.
 
-Parágrafo único. O rendimento tributável é equivalente a 10% (dez por cento) do valor venal do imóvel cedido, podendo ser adotado o constante na guia do Imposto Predial e Territorial Urbano (IPTU) correspondente ao ano-calendário da DAA.
+
+    - **Parágrafo único.** O rendimento tributável é equivalente a 10% (dez por cento) do valor venal do imóvel cedido, podendo ser adotado o constante na guia do Imposto Predial e Territorial Urbano (IPTU) correspondente ao ano-calendário da DAA.
+
 
 
 ###### Seção VIII Do Acréscimo Patrimonial
@@ -2457,7 +2487,9 @@ Parágrafo único. O rendimento tributável é equivalente a 10% (dez por cento)
 
   * Art. 78. Não integram a base de cálculo os ganhos de capital na alienação de bens e direitos e os ganhos líquidos auferidos nas operações realizadas em bolsas de valores, de mercadorias, de futuros e assemelhadas, nos mercados de liquidação futura fora de bolsas e na alienação de ouro, ativo financeiro.
 
-Parágrafo único. Os ganhos são apurados e tributados em separado e o imposto pago não pode ser compensado na declaração de ajuste, com exceção do valor do imposto retido na fonte incidente sobre ganhos líquidos, à alíquota de 0,005% (cinco milésimos por cento), se houver saldo de imposto retido, depois de:
+
+    - **Parágrafo único.** Os ganhos são apurados e tributados em separado e o imposto pago não pode ser compensado na declaração de ajuste, com exceção do valor do imposto retido na fonte incidente sobre ganhos líquidos, à alíquota de 0,005% (cinco milésimos por cento), se houver saldo de imposto retido, depois de:
+
 
       - I - deduzido do imposto sobre ganhos líquidos apurados no mês;
 
@@ -2641,7 +2673,9 @@ Parágrafo único. Os ganhos são apurados e tributados em separado e o imposto 
 
   * Art. 82. Eventuais erros ou omissão de informações verificados na DAA, depois de sua apresentação, devem ser retificados pelo contribuinte por meio de declaração retificadora, desde que não esteja sob procedimento de ofício, independentemente de autorização administrativa.
 
-Parágrafo único. A declaração retificadora referida no caput:
+
+    - **Parágrafo único.** A declaração retificadora referida no caput:
+
 
       - I - tem a mesma natureza da declaração originariamente apresentada, substituindo-a integralmente, devendo conter todas as informações anteriormente declaradas com as alterações e exclusões necessárias, bem como as informações adicionadas, se for o caso; e
 
@@ -2674,7 +2708,9 @@ Parágrafo único. A declaração retificadora referida no caput:
 
       - II - os valores pagos a maior relativos às quotas vencidas, bem como os acréscimos legais referentes a esses valores, podem ser compensados nas quotas vincendas, ou ser objeto de restituição.
 
-Parágrafo único. Sobre o montante a ser compensado ou restituído incidem juros equivalentes à taxa referencial do Sistema Especial de Liquidação e Custódia (Selic), tendo como termo inicial o mês subsequente ao do pagamento a maior, e como termo final o mês anterior ao da restituição ou da compensação, adicionado de 1% (um por cento) no mês da restituição ou compensação.
+
+    - **Parágrafo único.** Sobre o montante a ser compensado ou restituído incidem juros equivalentes à taxa referencial do Sistema Especial de Liquidação e Custódia (Selic), tendo como termo inicial o mês subsequente ao do pagamento a maior, e como termo final o mês anterior ao da restituição ou da compensação, adicionado de 1% (um por cento) no mês da restituição ou compensação.
+
 
 
 ##### CAPÍTULO XVII DAS NORMAS RELATIVAS ÀS DEDUÇÕES DA BASE DE CÁLCULO
@@ -2729,7 +2765,9 @@ Parágrafo único. Sobre o montante a ser compensado ou restituído incidem juro
 
   * Art. 88. A partir do ano-calendário de 2001, as contribuições de que trata o inciso II do caput do art. 86, cujo titular ou quotista seja dependente, conforme o disposto no art. 91, e incluído na declaração, podem ser deduzidas desde que observadas as condições e o limite global referidos no art. 87.
 
-Parágrafo único. Na hipótese de dependente com idade igual ou superior a dezesseis anos, a dedução a que se refere o caput fica condicionada, ainda, ao recolhimento, em seu nome, de contribuições para o regime geral de previdência social, observada a contribuição mínima, ou, quando for o caso, para o regime próprio de previdência social dos servidores titulares de cargo efetivo da União, dos estados, do Distrito Federal ou dos municípios.
+
+    - **Parágrafo único.** Na hipótese de dependente com idade igual ou superior a dezesseis anos, a dedução a que se refere o caput fica condicionada, ainda, ao recolhimento, em seu nome, de contribuições para o regime geral de previdência social, observada a contribuição mínima, ou, quando for o caso, para o regime próprio de previdência social dos servidores titulares de cargo efetivo da União, dos estados, do Distrito Federal ou dos municípios.
+
 
 
   * Art. 89. Os prêmios de seguro de vida com cláusula de cobertura por sobrevivência são indedutíveis para fins de determinação da base de cálculo do imposto devido na DAA.
@@ -3307,7 +3345,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 ###### Seção I Das Isenções Relativas à Realização, no Brasil, da Copa da Confederações Fifa 2013 e da Copa do Mundo Fifa 2014
 
 
-* **Subseção I Das Pessoas Físicas que Ingressarem no País com Visto Temporário**
+  * **Subseção I Das Pessoas Físicas que Ingressarem no País com Visto Temporário**
 
 
   * Art. 108. Estão isentos do imposto sobre a renda os rendimentos pagos, creditados, empregados, entregues ou remetidos pela Fifa ou por Subsidiária Fifa no Brasil, para pessoas físicas, não residentes no País, empregadas ou de outra forma contratadas para trabalhar de forma pessoal e direta na organização ou realização dos Eventos, que ingressarem no País com visto temporário.
@@ -3335,7 +3373,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Subseção II Do Reembolso de Despesas Recebido por Voluntário**
+  * **Subseção II Do Reembolso de Despesas Recebido por Voluntário**
 
 
   * Art. 109. Estão isentos do imposto sobre a renda os valores dos benefícios indiretos e o reembolso de despesas recebidos por Voluntário da Fifa, da Subsidiária Fifa no Brasil ou do Comitê Organizador Brasileiro Ltda (LOC) que auxiliar na organização e realização dos Eventos, até o valor de 5 (cinco) salários mínimos por mês, sem prejuízo de aplicação da tabela de incidência mensal do imposto sobre a renda sobre o valor excedente.
@@ -3355,7 +3393,7 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
 
 
-* **Subseção III Das Disposições Gerais**
+  * **Subseção III Das Disposições Gerais**
 
 
   * Art. 110. A Fifa ou Subsidiária Fifa no Brasil apresentará à Secretaria da Receita Federal do Brasil relação dos Eventos e das pessoas físicas passíveis de serem beneficiadas pelas desonerações previstas nos arts. 108 e 109.
@@ -3378,7 +3416,9 @@ Parágrafo único. Na hipótese de dependente com idade igual ou superior a deze
 
   * Art. 112.
 
-Parágrafo único.
+
+    - **Parágrafo único.**
+
 
 
 ###### Seção III Da isenção dos prêmios pagos pelo Comitê Olímpico Brasileiro e pelo Comitê Paralímpico Brasileiro
@@ -3386,7 +3426,9 @@ Parágrafo único.
 
   * Art. 112-A. Ficam isentos do imposto sobre a renda os prêmios em dinheiro pagos pelo Comitê Olímpico Brasileiro - COB ou pelo Comitê Paralímpico Brasileiro - CPB ao atleta em razão da conquista de medalha em Jogos Olímpicos ou Paralímpicos.
 
-Parágrafo único. Aplica-se o disposto no caput aos fatos geradores ocorridos entre 24 de julho de 2024 e 5 de dezembro de 2024.
+
+    - **Parágrafo único.** Aplica-se o disposto no caput aos fatos geradores ocorridos entre 24 de julho de 2024 e 5 de dezembro de 2024.
+
 
 
 ##### CAPÍTULO XX DAS DISPOSIÇÕES FINAIS

@@ -1,7 +1,7 @@
 {
   "document": "L15270_processed",
   "total_chunks": 9,
-  "created_at": "2026-03-13T13:59:39.058112",
+  "created_at": "2026-03-13T14:02:25.550183",
   "chunks": [
     {
       "chunk_id": "L15270_processed_preambulo_art_1",
@@ -25,7 +25,7 @@
           "Lei nº 9.250,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.048094"
+      "created_at": "2026-03-13T14:02:25.540690"
     },
     {
       "chunk_id": "L15270_processed_preambulo_art_2",
@@ -50,7 +50,7 @@
           "Lei nº 9.250,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.048645"
+      "created_at": "2026-03-13T14:02:25.541230"
     },
     {
       "chunk_id": "L15270_processed_preambulo_art_6",
@@ -71,7 +71,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.049397"
+      "created_at": "2026-03-13T14:02:25.542044"
     },
     {
       "chunk_id": "L15270_processed_preambulo_art_16",
@@ -106,7 +106,7 @@
           "Lei nº 9.514,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.051046"
+      "created_at": "2026-03-13T14:02:25.543709"
     },
     {
       "chunk_id": "L15270_processed_preambulo_art_3",
@@ -131,7 +131,7 @@
           "Lei nº 9.250,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.052387"
+      "created_at": "2026-03-13T14:02:25.545016"
     },
     {
       "chunk_id": "L15270_processed_preambulo_art_4",
@@ -155,7 +155,7 @@
           "Lei nº 9.250,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.053627"
+      "created_at": "2026-03-13T14:02:25.546273"
     },
     {
       "chunk_id": "L15270_processed_preambulo_art_5",
@@ -180,7 +180,7 @@
           "Lei nº 9.250,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.055197"
+      "created_at": "2026-03-13T14:02:25.547514"
     },
     {
       "chunk_id": "L15270_processed_preambulo_art_7",
@@ -205,7 +205,7 @@
           "Lei nº 9.250,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.056512"
+      "created_at": "2026-03-13T14:02:25.548755"
     },
     {
       "chunk_id": "L15270_processed_preambulo_art_8",
@@ -228,7 +228,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.057953"
+      "created_at": "2026-03-13T14:02:25.550068"
     }
   ]
 }

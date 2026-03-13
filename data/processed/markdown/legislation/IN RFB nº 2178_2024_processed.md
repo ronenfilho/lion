@@ -5,7 +5,7 @@
 
 - **Arquivo**: `IN RFB nº 2178_2024.html`
 - **Padrão detectado**: rfb_spa
-- **Processado em**: 02/03/2026 18:35
+- **Processado em**: 13/03/2026 14:01
 - **viewport**: width=device-width, initial-scale=1
 - **encoding_detected**: utf-8
 
@@ -359,7 +359,9 @@ O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que 
 
       - II - em mídia removível, às unidades da RFB, durante o horário de expediente.
 
-Parágrafo único. A transmissão da Declaração de Ajuste Anual elaborada mediante utilização do PGD depois do prazo previsto no caput do art. 7º pode ser feita, também, com utilização do programa de transmissão Receitanet, disponível no site da RFB, no endereço eletrônico informado no inciso I do caput do art. 4º.
+
+    - **Parágrafo único.** A transmissão da Declaração de Ajuste Anual elaborada mediante utilização do PGD depois do prazo previsto no caput do art. 7º pode ser feita, também, com utilização do programa de transmissão Receitanet, disponível no site da RFB, no endereço eletrônico informado no inciso I do caput do art. 4º.
+
 
 
 ##### CAPÍTULO VIII DA RETIFICAÇÃO

@@ -1,7 +1,7 @@
 {
   "document": "IN RFB nº 2178_2024_processed",
   "total_chunks": 17,
-  "created_at": "2026-03-13T13:59:39.045041",
+  "created_at": "2026-03-13T14:02:25.537879",
   "chunks": [
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_1",
@@ -24,7 +24,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.027028"
+      "created_at": "2026-03-13T14:02:25.519907"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_2",
@@ -50,7 +50,7 @@
           "Lei nº 14.754,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.027729"
+      "created_at": "2026-03-13T14:02:25.520604"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_3",
@@ -73,7 +73,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.028280"
+      "created_at": "2026-03-13T14:02:25.521168"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_4",
@@ -96,7 +96,7 @@
         "num_alineas": 2,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.028902"
+      "created_at": "2026-03-13T14:02:25.521833"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_5",
@@ -121,7 +121,7 @@
           "Lei nº 11.033,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.029679"
+      "created_at": "2026-03-13T14:02:25.522608"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_6",
@@ -147,7 +147,7 @@
           "Instrução Normativa RFB nº 2.066,"
         ]
       },
-      "created_at": "2026-03-13T13:59:39.030532"
+      "created_at": "2026-03-13T14:02:25.523454"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_7",
@@ -170,7 +170,7 @@
         "num_alineas": 3,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.031516"
+      "created_at": "2026-03-13T14:02:25.524426"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_8",
@@ -181,10 +181,10 @@
         "capitulo": "CAPÍTULO VII DO PRAZO E DOS MEIOS DISPONÍVEIS PARA A APRESENTAÇÃO"
       },
       "hierarchy_string": "CAPÍTULO VII DO PRAZO E DOS MEIOS DISPONÍVEIS PARA A APRESENTAÇÃO",
-      "content": "* Art. 8º A apresentação da Declaração de Ajuste Anual depois do prazo previsto no caput do art. 7º deve ser realizada:\n\n\n      - I - pela Internet, mediante a utilização dos meios referidos no art. 4º; ou\n\n\n      - II - em mídia removível, às unidades da RFB, durante o horário de expediente.\n\nParágrafo único. A transmissão da Declaração de Ajuste Anual elaborada mediante utilização do PGD depois do prazo previsto no caput do art. 7º pode ser feita, também, com utilização do programa de transmissão Receitanet, disponível no site da RFB, no endereço eletrônico informado no inciso I do caput do art. 4º.",
+      "content": "* Art. 8º A apresentação da Declaração de Ajuste Anual depois do prazo previsto no caput do art. 7º deve ser realizada:\n\n\n      - I - pela Internet, mediante a utilização dos meios referidos no art. 4º; ou\n\n\n      - II - em mídia removível, às unidades da RFB, durante o horário de expediente.\n\n\n    - **Parágrafo único.** A transmissão da Declaração de Ajuste Anual elaborada mediante utilização do PGD depois do prazo previsto no caput do art. 7º pode ser feita, também, com utilização do programa de transmissão Receitanet, disponível no site da RFB, no endereço eletrônico informado no inciso I do caput do art. 4º.",
       "metadata": {
-        "word_count": 103,
-        "char_count": 608,
+        "word_count": 104,
+        "char_count": 619,
         "has_paragraphs": false,
         "has_incisos": true,
         "has_alineas": false,
@@ -193,7 +193,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.032429"
+      "created_at": "2026-03-13T14:02:25.525345"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_9",
@@ -216,7 +216,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.033462"
+      "created_at": "2026-03-13T14:02:25.526395"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_10",
@@ -239,7 +239,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.034582"
+      "created_at": "2026-03-13T14:02:25.527533"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_11",
@@ -262,7 +262,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.035779"
+      "created_at": "2026-03-13T14:02:25.528708"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_12",
@@ -285,7 +285,7 @@
         "num_alineas": 10,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.037290"
+      "created_at": "2026-03-13T14:02:25.530219"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_13",
@@ -308,7 +308,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.038674"
+      "created_at": "2026-03-13T14:02:25.531557"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_14",
@@ -331,7 +331,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.040125"
+      "created_at": "2026-03-13T14:02:25.532998"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_15",
@@ -354,7 +354,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.041635"
+      "created_at": "2026-03-13T14:02:25.534504"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_16",
@@ -377,7 +377,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.043173"
+      "created_at": "2026-03-13T14:02:25.536032"
     },
     {
       "chunk_id": "IN RFB nº 2178_2024_processed_preambulo_art_17",
@@ -400,7 +400,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T13:59:39.044812"
+      "created_at": "2026-03-13T14:02:25.537664"
     }
   ]
 }

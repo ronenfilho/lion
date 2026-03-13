@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L15270.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 13/03/2026 13:57
+- **Processado em**: 13/03/2026 14:01
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
