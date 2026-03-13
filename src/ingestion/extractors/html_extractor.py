@@ -1020,14 +1020,14 @@ def _get_element_text(el) -> str:
 
 def _is_article_start(text: str) -> bool:
     """Verifica se o texto começa com Art. e é um artigo real, não uma referência."""
-    # Aceitar números com separador de milhar (ex: Art. 1.000)
-    if not re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?", text, re.I):
+    # Aceitar números com separador de milhar (ex: Art. 1.000) e sufixos (ex: Art. 3-A)
+    if not re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*(?:-[A-Z]+)?[º°]?", text, re.I):
         return False
     
-    # Extrair o que vem depois de "Art. Xº"
-    m = re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?\.?\s*(.*)", text, re.DOTALL | re.I)
+    # Extrair o que vem depois de "Art. Xº" ou "Art. X-A"
+    m = re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*(?:-[A-Z]+)?[º°]?\.?\s*(.*)", text, re.DOTALL | re.I)
     if not m:
-        return True  # Apenas "Art. X" sem nada, é artigo
+        return True  # Apenas "Art. X" ou "Art. X-A" sem nada, é artigo
     
     resto = m.group(1).strip()
     
@@ -1048,7 +1048,7 @@ def _is_article_start(text: str) -> bool:
 
 
 def _split_article_head(text: str) -> Tuple[str, str]:
-    m = re.match(r"^(Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?\.?)\s*(.*)", text, re.DOTALL)
+    m = re.match(r"^(Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z]+)?\.?)\s*(.*)", text, re.DOTALL)
     if m:
         return m.group(1).strip(), m.group(2).strip()
     return text, ""
