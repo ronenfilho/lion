@@ -109,15 +109,54 @@ class HybridRetriever:
         # Retornar top-k
         return combined[:k]
     
+    def _normalize_scores(
+        self,
+        results: List[RetrievalResult]
+    ) -> List[RetrievalResult]:
+        """
+        Normaliza scores para escala [0, 1] usando min-max normalization.
+        
+        Fórmula: score_norm = (score - min) / (max - min + epsilon)
+        
+        Args:
+            results: Lista de resultados com scores
+            
+        Returns:
+            Lista com scores normalizados
+        """
+        if not results:
+            return results
+        
+        scores = [r.score for r in results]
+        min_score = min(scores)
+        max_score = max(scores)
+        
+        # Evitar divisão por zero
+        range_score = max_score - min_score
+        if range_score == 0:
+            # Todos os scores são iguais
+            for result in results:
+                result.score = 0.5  # Valor neutro
+        else:
+            for result in results:
+                result.score = (result.score - min_score) / range_score
+        
+        return results
+    
     def _reciprocal_rank_fusion(
         self,
         dense_results: List[RetrievalResult],
         bm25_results: List[RetrievalResult]
     ) -> List[RetrievalResult]:
         """
-        Combina resultados usando Reciprocal Rank Fusion.
+        Combina resultados usando Reciprocal Rank Fusion com normalização.
         
-        RRF score = sum(1 / (k + rank)) para cada sistema
+        Processo:
+        1. Normalizar scores Dense [0.7, 0.8] → [0, 1]
+        2. Normalizar scores BM25 [5.0, 30.0] → [0, 1]
+        3. Aplicar RRF com pesos: alpha*dense + (1-alpha)*bm25
+        
+        RRF score = sum(1 / (k + rank)) para cada sistema normalizado
         
         Args:
             dense_results: Resultados do dense retriever
@@ -126,18 +165,22 @@ class HybridRetriever:
         Returns:
             Lista combinada ordenada por RRF score
         """
+        # ✅ NOVO: Normalizar scores antes de fusão
+        dense_normalized = self._normalize_scores(dense_results.copy() if dense_results else [])
+        bm25_normalized = self._normalize_scores(bm25_results.copy() if bm25_results else [])
+        
         # Mapear doc_id -> score RRF
         rrf_scores: Dict[str, float] = {}
         doc_data: Dict[str, tuple] = {}  # id -> (content, metadata)
         
-        # Adicionar scores do dense retriever
-        for result in dense_results:
+        # Adicionar scores do dense retriever (normalizado)
+        for result in dense_normalized:
             rrf_score = self.alpha / (self.rrf_k + result.rank)
             rrf_scores[result.id] = rrf_scores.get(result.id, 0) + rrf_score
             doc_data[result.id] = (result.content, result.metadata)
         
-        # Adicionar scores do BM25
-        for result in bm25_results:
+        # Adicionar scores do BM25 (normalizado)
+        for result in bm25_normalized:
             rrf_score = (1 - self.alpha) / (self.rrf_k + result.rank)
             rrf_scores[result.id] = rrf_scores.get(result.id, 0) + rrf_score
             if result.id not in doc_data:

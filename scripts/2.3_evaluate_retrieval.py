@@ -246,10 +246,16 @@ class RetrievalEvaluator:
             
             scores = [r.score for r in results]
             
+            # Calcular estatísticas de conteúdo
+            total_chars = sum(len(r.content) for r in results)
+            total_words = sum(len(r.content.split()) for r in results)
+            
             return {
                 'config': config,
                 'latency_ms': latency_ms,
                 'num_chunks': len(results),
+                'total_characters': total_chars,
+                'total_words': total_words,
                 'top_score': scores[0] if scores else 0,
                 'avg_score': sum(scores) / len(scores) if scores else 0,
                 'min_score': min(scores) if scores else 0,
@@ -259,7 +265,10 @@ class RetrievalEvaluator:
                         'id': r.id,
                         'score': r.score,
                         'document': r.metadata.get('document', 'N/A'),
-                        'section': r.metadata.get('section', 'N/A')
+                        'section': r.metadata.get('section', 'N/A'),
+                        'content': r.content,  # ✅ NOVO: chunk completo
+                        'character_count': len(r.content),  # ✅ NOVO
+                        'word_count': len(r.content.split())  # ✅ NOVO
                     }
                     for r in results
                 ]
