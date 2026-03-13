@@ -66,7 +66,8 @@ def find_chunk_files(chunks_dir: Path) -> list[Path]:
     # Busca em legislation e qa_reference
     for subdir in chunks_dir.iterdir():
         if subdir.is_dir():
-            json_files.extend(subdir.glob("*.json"))
+            # Exclui arquivos de stats
+            json_files.extend([f for f in subdir.glob("*.json") if "_stats" not in f.name])
     
     return sorted(json_files)
 
@@ -83,7 +84,12 @@ def load_chunks_from_json(json_path: Path) -> list[dict]:
     """
     import json
     with open(json_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
+        data = json.load(f)
+        # Se é um dicionário com chave 'chunks', extrai a lista
+        if isinstance(data, dict) and 'chunks' in data:
+            return data['chunks']
+        # Caso contrário, assume que é uma lista de chunks
+        return data if isinstance(data, list) else [data]
 
 
 def main():
@@ -94,7 +100,7 @@ def main():
     print("="*70)
     
     # Configurações
-    CHUNKS_DIR = Path("data/processed/chunks")
+    CHUNKS_DIR = Path("data/processed/json")
     COLLECTION_NAME = os.getenv("CHROMA_COLLECTION_NAME", "irpf_2025")
     PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", "./data/vectorstore/chroma_db")
     
@@ -204,8 +210,9 @@ def main():
         ]
         
         # Usar metadados do chunk JSON
-        metadatas = [
-            {
+        metadatas = []
+        for chunk in chunks_data:
+            meta = {
                 **chunk.get('metadata', {}),
                 'chunk_id': chunk['chunk_id'],
                 'source_file': chunk.get('source_file', chunk_file.stem),
@@ -214,8 +221,13 @@ def main():
                 'hierarchy_string': chunk.get('hierarchy_string', ''),
                 'document': chunk_file.stem
             }
-            for chunk in chunks_data
-        ]
+            # Converter qualquer valor de lista para string (ChromaDB não suporta listas)
+            for key, value in meta.items():
+                if isinstance(value, list):
+                    meta[key] = ', '.join(str(v) for v in value)
+                elif not isinstance(value, (str, int, float, bool)):
+                    meta[key] = str(value)
+            metadatas.append(meta)
         
         vector_store.add_documents(
             ids=ids,
