@@ -195,10 +195,28 @@ class HTMLExtractor(BaseExtractor):
             current_section = None
             content_buffer = []
 
-        for el in body.find_all(["p", "h1", "h2", "h3", "h4", "h5", "h6"]):
+        # Processar elementos em ordem: parágrafos, headings, E tabelas
+        processed_elements = set()
+        for el in body.find_all(["p", "h1", "h2", "h3", "h4", "h5", "h6", "table"]):
+            if el in processed_elements:
+                continue
+            
+            # Pular tabelas aninhadas
             if el.find_parent("table"):
                 continue
+            
+            # Processar tabelas
+            if el.name == "table":
+                table_md = _table_to_markdown(el)
+                if table_md:
+                    # Adicionar a tabela ao buffer de conteúdo da seção atual
+                    if content_buffer:
+                        content_buffer.append("")  # linha vazia
+                    content_buffer.append(table_md)
+                processed_elements.add(el)
+                continue
 
+            # Processar parágrafos e headings
             text = _get_element_text(el)
             if not text or len(text) < self.min_text_length:
                 continue
@@ -209,12 +227,14 @@ class HTMLExtractor(BaseExtractor):
                 _flush()
                 current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
                 content_buffer = []
+                processed_elements.add(el)
                 continue
             
             if re.match(r"^\s*REGULAMENTO\s+(DO\s+|DA\s+)?IMPOSTO", text, re.I):
                 _flush()
                 current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
                 content_buffer = []
+                processed_elements.add(el)
                 continue
             
             # LIVRO, TÍTULO, CAPÍTULO estruturais (podem vir com CSS incorreto)
@@ -222,12 +242,14 @@ class HTMLExtractor(BaseExtractor):
                 _flush()
                 current_section = HTMLSection(title=text, content="", level=1, tag_name=el.name)
                 content_buffer = []
+                processed_elements.add(el)
                 continue
             
             if re.match(r"^\s*TÍTULO\s+[IVXLCDM]+\s*$", text, re.I):
                 _flush()
                 current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
                 content_buffer = []
+                processed_elements.add(el)
                 continue
 
             classes = el.get("class", [])
@@ -306,18 +328,12 @@ class HTMLExtractor(BaseExtractor):
                     current_section = HTMLSection(title="", content="", level=0)
                 content_buffer.append(_format_legal_line(text))
 
+            processed_elements.add(el)
+
         _flush()
 
-        # Tabelas
-        for table in body.find_all("table"):
-            if table.find_parent("table"):
-                continue
-            table_md = _table_to_markdown(table)
-            if table_md:
-                sections.append(HTMLSection(
-                    title="", content=table_md, level=0, tag_name="table",
-                    metadata={"type": "tabela"},
-                ))
+        # Tabelas já foram processadas na iteração principal
+
 
         # ── Pós-processamento: combinar títulos consecutivos específicos ─────
         # Combinar apenas padrões conhecidos da legislação brasileira:

@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L7713compilada.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 03/03/2026 13:34
+- **Processado em**: 13/03/2026 13:19
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -498,6 +498,19 @@ O valor de aquisição de cada bem ou direito, expresso em cruzados novos, apura
   * Art. 18.
 
 Para apuração do valor a ser tributado, no caso de alienação de bens imóveis, poderá ser aplicado um percentual de redução sobre o ganho de capital apurado, segundo o ano de aquisição ou incorporação do bem, de acordo com a seguinte tabela: (Vide Lei 8.023, de 1990)
+
+| Ano de Aquisição ou Incorporação | Percentual de Redução | Ano de Aquisição ou Incorporação | Percentual de Redução |
+| --- | --- | --- | --- |
+| Até 1969 | 100 | 1979 | 50 |
+| 1970 | 95% | 1980 | 45% |
+| 1971 | 90% | 1981 | 40% |
+| 1972 | 85% | 1982 | 35% |
+| 1973 | 80% | 1983 | 30% |
+| 1974 | 75% | 1984 | 25% |
+| 1975 | 70% | 1985 | 20% |
+| 1976 | 65% | 1986 | 15% |
+| 1977 | 60% | 1987 | 10% |
+| 1978 | 55% | 1988 | 5% |
 Parágrafo único. Não haverá redução, relativamente aos imóveis cuja aquisição venha ocorrer a partir de 1º de janeiro de 1989.
 
 
@@ -640,10 +653,6 @@ Ficam sujeitos à incidência do imposto de renda na fonte, à alíquota de vint
 
 
       - b) devido exclusivamente na fonte, nos demais casos, inclusive quando o beneficiário for pessoa jurídica isenta.
-
-
-
-    - **§ 3º** (Vetado).
 
 
 
@@ -978,19 +987,6 @@ Revogam-se o art. 50 da Lei nº 4.862, de 29 de novembro de 1965 , os arts. 1º 
 
 
 ##### Este texto não substitui o publicado no DOU de 23.12.1998
-
-| Ano de Aquisição ou Incorporação | Percentual de Redução | Ano de Aquisição ou Incorporação | Percentual de Redução |
-| --- | --- | --- | --- |
-| Até 1969 | 100 | 1979 | 50 |
-| 1970 | 95% | 1980 | 45% |
-| 1971 | 90% | 1981 | 40% |
-| 1972 | 85% | 1982 | 35% |
-| 1973 | 80% | 1983 | 30% |
-| 1974 | 75% | 1984 | 25% |
-| 1975 | 70% | 1985 | 20% |
-| 1976 | 65% | 1986 | 15% |
-| 1977 | 60% | 1987 | 10% |
-| 1978 | 55% | 1988 | 5% |
 
 ---
 
