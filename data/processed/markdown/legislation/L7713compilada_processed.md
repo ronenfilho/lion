@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L7713compilada.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 13/03/2026 13:23
+- **Processado em**: 13/03/2026 13:32
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -39,7 +39,6 @@
   * Art. 18
   * Art. 19
   * Art. 20
-##### Parágrafo único. (Vetado).
   * Art. 21
   * Art. 22
   * Art. 23
@@ -54,7 +53,6 @@
   * Art. 34
   * Art. 35
   * Art. 36
-##### Parágrafo único. Incide, entretanto, o imposto de renda na fonte;
   * Art. 37
   * Art. 38
   * Art. 39
@@ -253,7 +251,9 @@ Ficam isentos do imposto de renda os seguinte rendimentos percebidos por pessoas
 
       - XXIV - (Incluído pela Medida Provisória nº 1.251, de 2024) Vigência encerrada
 
-Parágrafo único. O disposto no inciso XXII do caput deste artigo não se aplica aos prêmios recebidos por meio de sorteios, em espécie, bens ou serviços, no âmbito dos referidos programas. (Incluído pela Lei nº 11.945, de 2009). (Produção de efeitos).
+
+    - **Parágrafo único.** O disposto no inciso XXII do caput deste artigo não se aplica aos prêmios recebidos por meio de sorteios, em espécie, bens ou serviços, no âmbito dos referidos programas. (Incluído pela Lei nº 11.945, de 2009). (Produção de efeitos).
+
 
 
   * Art. 7º
@@ -304,13 +304,17 @@ Quando o contribuinte auferir rendimentos da prestação de serviços de transpo
 
       - II - sessenta por cento do rendimento bruto, decorrente do transporte de passageiros.
 
-Parágrafo único. O percentual referido no item I deste artigo aplica-se também sobre o rendimento bruto da prestação de serviços com trator, máquina de terraplenagem, colheitadeira e assemelhados.
+
+    - **Parágrafo único.** O percentual referido no item I deste artigo aplica-se também sobre o rendimento bruto da prestação de serviços com trator, máquina de terraplenagem, colheitadeira e assemelhados.
+
 
 
   * Art. 10.
 
 O imposto incidirá sobre dez por cento do rendimento bruto auferido pelos garimpeiros matriculados nos termos do art. 73 do Decreto-Lei nº 227, de 28 de fevereiro de 1967 , remunerado pelo art. 2º do Decreto-Lei nº. 318, de 14 de março de 1967 , na venda a empresas legalmente habilitadas de metais preciosos, pedras preciosas e semipreciosas por eles extraídos.
-Parágrafo único. A prova de origem dos rendimentos de que trata este artigo far-se-á com base na via da nota de aquisição destinada ao garimpeiro pela empresa compradora.
+
+    - **Parágrafo único.** A prova de origem dos rendimentos de que trata este artigo far-se-á com base na via da nota de aquisição destinada ao garimpeiro pela empresa compradora.
+
 
 
   * Art. 11
@@ -511,21 +515,25 @@ Para apuração do valor a ser tributado, no caso de alienação de bens imóvei
 | 1976 | 65% | 1986 | 15% |
 | 1977 | 60% | 1987 | 10% |
 | 1978 | 55% | 1988 | 5% |
-Parágrafo único. Não haverá redução, relativamente aos imóveis cuja aquisição venha ocorrer a partir de 1º de janeiro de 1989.
+
+    - **Parágrafo único.** Não haverá redução, relativamente aos imóveis cuja aquisição venha ocorrer a partir de 1º de janeiro de 1989.
+
 
 
   * Art. 19.
 
 Valor da transmissão é o preço efetivo de operação de venda ou da cessão de direitos, ressalvado o disposto no art. 20 desta Lei.
-Parágrafo único. Nas operações em que o valor não se expressar em dinheiro, o valor da transmissão será arbitrado segundo o valor de mercado.
+
+    - **Parágrafo único.** Nas operações em que o valor não se expressar em dinheiro, o valor da transmissão será arbitrado segundo o valor de mercado.
+
 
 
   * Art. 20.
 
 A autoridade lançadora, mediante processo regular, arbitrará o valor ou preço, sempre que não mereça fé, por notoriamente diferente do de mercado, o valor ou preço informado pelo contribuinte, ressalvada, em caso de contestação, avaliação contraditória, administrativa ou judicial.
 
+    - **Parágrafo único.** (Vetado).
 
-##### Parágrafo único. (Vetado).
 
 
   * Art. 21.
@@ -548,7 +556,9 @@ Na determinação do ganho de capital serão excluídos: (Vide Lei 8.023, de 199
 
       - IV - o ganho de capital auferido na alienação de bens de pequeno valor, definido pelo Poder executivo.
 
-Parágrafo único. Não se considera ganho de capital o valor decorrente de indenização por desapropriação para fins de reforma agrária, conforme o disposto no § 5º do art. 184 da Constituição Federal , e de liquidação de sinistro, furto ou roubo, relativo a objeto segurado.
+
+    - **Parágrafo único.** Não se considera ganho de capital o valor decorrente de indenização por desapropriação para fins de reforma agrária, conforme o disposto no § 5º do art. 184 da Constituição Federal , e de liquidação de sinistro, furto ou roubo, relativo a objeto segurado.
+
 
 
   * Art. 23
@@ -659,13 +669,17 @@ Ficam sujeitos à incidência do imposto de renda na fonte, à alíquota de vint
   * Art. 33.
 
 Ressalvado o disposto em normas especiais, no caso de ganho de capital auferido por residente ou domiciliado no exterior, o imposto será devido, à alíquota de vinte e cinco por cento, no momento da alienação do bem ou direito.
-Parágrafo único. O imposto deverá ser pago no prazo de quinze dias contados da realização da operação ou por ocasião da remessa, sempre que esta ocorrer antes desse prazo.
+
+    - **Parágrafo único.** O imposto deverá ser pago no prazo de quinze dias contados da realização da operação ou por ocasião da remessa, sempre que esta ocorrer antes desse prazo.
+
 
 
   * Art. 34.
 
 Na inexistência de outros bens sujeitos a inventário ou arrolamento, os valores relativos ao imposto de renda e outros tributos administrados pela Secretaria da Receita Federal, bem como o resgate de quotas dos fundos fiscais criados pelos Decretos-Leis nºs 157, de 10 de fevereiro de 1967 , e 880, de 18 de setembro de 1969 , não recebidos em vida pelos respectivos titulares, poderão ser restituídos ao cônjuge, filho e demais dependentes do contribuinte falecido, inexigível a apresentação de alvará judicial.
-Parágrafo único. Existindo outros bens sujeitos a inventário ou arrolamento, a restituição ao meeiro, herdeiros ou sucessores, far-se-á na forma e condições do alvará expedido pela autoridade judicial para essa finalidade.
+
+    - **Parágrafo único.** Existindo outros bens sujeitos a inventário ou arrolamento, a restituição ao meeiro, herdeiros ou sucessores, far-se-á na forma e condições do alvará expedido pela autoridade judicial para essa finalidade.
+
 
 
   * Art. 35.
@@ -742,14 +756,13 @@ O sócio quotista, o acionista ou titular da empresa individual ficará sujeito 
 
 Os lucros que forem tributados na forma do artigo anterior, quando distribuídos, não estarão sujeitos à incidência do imposto de renda na fonte.
 
-
-##### Parágrafo único. Incide, entretanto, o imposto de renda na fonte;
-
-
-  - a) em relação aos lucros que não tenham sido tributados na forma do artigo anterior;
+    - **Parágrafo único.** Incide, entretanto, o imposto de renda na fonte;
 
 
-  - b) no caso de pagamento, crédito, entrega, emprego ou remessa de lucros, quando o beneficiário for residente ou domiciliado no exterior.
+      - a) em relação aos lucros que não tenham sido tributados na forma do artigo anterior;
+
+
+      - b) no caso de pagamento, crédito, entrega, emprego ou remessa de lucros, quando o beneficiário for residente ou domiciliado no exterior.
 
 
 

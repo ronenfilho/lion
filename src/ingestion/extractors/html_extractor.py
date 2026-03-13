@@ -269,7 +269,7 @@ class HTMLExtractor(BaseExtractor):
             if mapping is None or (mapping and mapping[0] == 0 and mapping[2] == "body"):
                 if _is_article_start(text):
                     mapping = (6, "###### ", "article")
-                elif re.match(r"^\s*§\s*(?:único|Único|\d+[º°]?)", text, re.I):
+                elif re.match(r"^\s*(?:§|Parágrafo|PARÁGRAFO)\s*(?:único|Único|ÚNICO|\d+[º°]?)", text, re.I):
                     mapping = (0, "", "body")  # parágrafo → formato negrito via _format_legal_line
                 elif re.match(r"^\s*[IVX]+\s*[-–]", text):
                     mapping = (0, "", "body")  # inciso
@@ -897,7 +897,7 @@ class HTMLExtractor(BaseExtractor):
                         continue
 
                     # Parágrafo: * ou -
-                    par_m = re.match(r"^(\*\*)?\s*(§\s*(?:único|Único|\d+[º°]?)\.?)\s*(.*?)(\*\*)?$", line_stripped)
+                    par_m = re.match(r"^(\*\*)?\s*((?:§|Parágrafo|PARÁGRAFO)\s*(?:único|Único|ÚNICO|\d+[º°]?)\.?)\s*(.*?)(\*\*)?$", line_stripped, re.I)
                     if par_m:
                         par_marker = par_m.group(2)
                         par_text = par_m.group(3).strip()

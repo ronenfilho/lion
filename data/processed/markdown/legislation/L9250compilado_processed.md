@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L9250compilado.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 13/03/2026 13:23
+- **Processado em**: 13/03/2026 13:31
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -67,7 +67,6 @@
   * Art. 31
   * Art. 32
   * Art. 33
-##### Parágrafo único. (VETADO)
   * Art. 34
   * Art. 35
 ### CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS
@@ -119,7 +118,9 @@ O imposto de renda incidente sobre os rendimentos de que tratam os arts. 7° , 8
 | até 900,00 | - | - |
 | acima de 900,00 até 1.800,00 | 15 | 135 |
 | acima de 1.800,00 | 25 | 315 |
-Parágrafo único. O imposto de que trata este artigo será calculado sobre os rendimentos efetivamente recebidos em cada mês.
+
+    - **Parágrafo único.** O imposto de que trata este artigo será calculado sobre os rendimentos efetivamente recebidos em cada mês.
+
 
 
   * Art. 3º-A.
@@ -468,7 +469,9 @@ O contribuinte poderá optar por desconto simplificado, que substituirá todas a
 
       - X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a partir do ano-calendário de 2026. (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos
 
-Parágrafo único. O valor deduzido não poderá ser utilizado para comprovação de acréscimo patrimonial, sendo considerado rendimento consumido. (Incluído pela Lei nº 11.482, de 2007)
+
+    - **Parágrafo único.** O valor deduzido não poderá ser utilizado para comprovação de acréscimo patrimonial, sendo considerado rendimento consumido. (Incluído pela Lei nº 11.482, de 2007)
+
 
 
   * Art. 11.
@@ -567,7 +570,9 @@ Do imposto apurado conforme a tabela progressiva anual, poderão ser deduzidos: 
   * Art. 13.
 
 A soma dos montantes determinados na forma prevista nos arts. 12 e 16-A desta Lei constituirá, na declaração de ajuste anual, se positiva, saldo do imposto a pagar e, se negativa, valor a ser restituído. (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos
-Parágrafo único. Quando positivo, o saldo do imposto deverá ser pago até o último dia útil do mês fixado para a entrega da declaração de rendimentos.
+
+    - **Parágrafo único.** Quando positivo, o saldo do imposto deverá ser pago até o último dia útil do mês fixado para a entrega da declaração de rendimentos.
+
 
 
   * Art. 14.
@@ -595,7 +600,9 @@ Nos casos de encerramento de espólio e de saída definitiva do território naci
   * Art. 16.
 
 O valor da restituição do imposto de renda da pessoa física, apurado em declaração de rendimentos, será acrescido de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data prevista para a entrega da declaração de rendimentos até o mês anterior ao da liberação da restituição e de 1% no mês em que o recurso for colocado no banco à disposição do contribuinte. (Vide Lei nº 9.430, de 1996)
-Parágrafo único. Será obedecida a seguinte ordem de prioridade para recebimento da restituição do imposto de renda: (Incluído pela Lei nº 13.498, de 2017)
+
+    - **Parágrafo único.** Será obedecida a seguinte ordem de prioridade para recebimento da restituição do imposto de renda: (Incluído pela Lei nº 13.498, de 2017)
+
 
       - I - idosos, nos termos definidos pelo inciso IX do § 1 o do art. 3 o da Lei n o 10.741, de 1 o de outubro de 2003 ; (Incluído pela Lei nº 13.498, de 2017)
 
@@ -876,7 +883,9 @@ O art. 2º da Lei nº 8.023, de 12 de abril de 1990, passa a vigorar com a segui
 
       - V - a transformação de produtos decorrentes da atividade rural, sem que sejam alteradas a composição e as características do produto in natura, feita pelo próprio agricultor ou criador, com equipamentos e utensílios usualmente empregados nas atividades rurais, utilizando exclusivamente matéria-prima produzida na área rural explorada, tais como a pasteurização e o acondicionamento do leite, assim como o mel e o suco de laranja, acondicionados em embalagem de apresentação.
 
-Parágrafo único. O disposto neste artigo não se aplica à mera intermediação de animais e de produtos agrícolas."
+
+    - **Parágrafo único.** O disposto neste artigo não se aplica à mera intermediação de animais e de produtos agrícolas."
+
 
 
   * Art. 18.
@@ -901,7 +910,9 @@ O resultado da exploração da atividade rural apurado pelas pessoas físicas, a
   * Art. 19.
 
 O resultado positivo obtido na exploração da atividade rural pela pessoa física poderá ser compensado com prejuízos apurados em anos-calendário anteriores.
-Parágrafo único. A pessoa física fica obrigada à conservação e guarda do Livro Caixa e dos documentos fiscais que demonstram a apuração do prejuízo a compensar.
+
+    - **Parágrafo único.** A pessoa física fica obrigada à conservação e guarda do Livro Caixa e dos documentos fiscais que demonstram a apuração do prejuízo a compensar.
+
 
 
   * Art. 20.
@@ -940,7 +951,9 @@ Fica isento do imposto de renda o ganho de capital auferido na alienação de be
 
       - II - R$ 35.000,00 (trinta e cinco mil reais), nos demais casos. (Incluído pela Lei nº 11.196, de 2005) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
 
-Parágrafo único. No caso de alienação de diversos bens ou direitos da mesma natureza, será considerado, para os efeitos deste artigo, o valor do conjunto dos bens alienados no mês. (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
+
+    - **Parágrafo único.** No caso de alienação de diversos bens ou direitos da mesma natureza, será considerado, para os efeitos deste artigo, o valor do conjunto dos bens alienados no mês. (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
+
 
 
   * Art. 23.
@@ -1008,7 +1021,9 @@ Como parte integrante da declaração de rendimentos, a pessoa física apresenta
   * Art. 26.
 
 Ficam isentas do imposto de renda as bolsas de estudo e de pesquisa caracterizadas como doação, quando recebidas exclusivamente para proceder a estudos ou pesquisas e desde que os resultados dessas atividades não representem vantagem para o doador, nem importem contraprestação de serviços.
-Parágrafo único. Não caracterizam contraprestação de serviços nem vantagem para o doador, para efeito da isenção referida no caput , as bolsas de estudo recebidas pelos médicos residentes, nem as bolsas recebidas pelos servidores das redes públicas de educação profissional, científica e tecnológica que participem das atividades do Pronatec, nos termos do § 1 o do art. 9 o da Lei n o 12.513, de 26 de outubro de 2011 . (Redação dada pela Lei nº 12.816, de 2013)
+
+    - **Parágrafo único.** Não caracterizam contraprestação de serviços nem vantagem para o doador, para efeito da isenção referida no caput , as bolsas de estudo recebidas pelos médicos residentes, nem as bolsas recebidas pelos servidores das redes públicas de educação profissional, científica e tecnológica que participem das atividades do Pronatec, nos termos do § 1 o do art. 9 o da Lei n o 12.513, de 26 de outubro de 2011 . (Redação dada pela Lei nº 12.816, de 2013)
+
 
 
   * Art. 27.
@@ -1063,8 +1078,8 @@ O inciso VII do art. 6º da Lei 7.713, de 22 de dezembro de 1988 , passa a vigor
 
 Sujeitam-se à incidência do imposto de renda na fonte e na declaração de ajuste anual os benefícios recebidos de entidade de previdência privada, bem como as importâncias correspondentes ao resgate de contribuições.
 
+    - **Parágrafo único.** (VETADO)
 
-  * Parágrafo único. (VETADO)
 
 
   * Art. 34.
@@ -1202,7 +1217,9 @@ A compensação de que trata o art. 66 da Lei nº 8.383, de 30 de dezembro de 19
   * Art. 40.
 
 A base de cálculo mensal do imposto de renda das pessoas jurídicas prestadoras de serviços em geral, cuja receita bruta anual seja de até R$ 120.000,00 (cento e vinte mil reais), será determinada mediante a aplicação do percentual de 16% sobre a receita bruta auferida mensalmente, observado o disposto nos arts. 30 a 35 da Lei nº 8.981, de 20 de janeiro de 1995.
-Parágrafo único. O disposto neste artigo não se aplica às pessoas jurídicas que prestam serviços hospitalares e de transporte, bem como às sociedades prestadoras de serviços de profissões legalmente regulamentadas.
+
+    - **Parágrafo único.** O disposto neste artigo não se aplica às pessoas jurídicas que prestam serviços hospitalares e de transporte, bem como às sociedades prestadoras de serviços de profissões legalmente regulamentadas.
+
 
 
   * Art. 41.
