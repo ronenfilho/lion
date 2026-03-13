@@ -1,7 +1,7 @@
 # IN RFB nº 2178-2024
 
 > **Fonte**: IN RFB nº 2178-2024.pdf  
-> **Processado em**: 02/03/2026 18:35:39
+> **Processado em**: 13/03/2026 14:01:24
 > **Páginas**: 9
 
 ---

@@ -5,7 +5,7 @@
 
 - **Arquivo**: `L9250compilado.html`
 - **Padrão detectado**: planalto
-- **Processado em**: 02/03/2026 18:35
+- **Processado em**: 13/03/2026 14:01
 - **GENERATOR**: Microsoft FrontPage 6.0
 - **encoding_detected**: cp1252
 
@@ -19,65 +19,64 @@
 # LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995.
 ##### O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
 ### CAPÍTULO I - DISPOSIÇÕES PRELIMINARES
-### Art. 1º
-### Art. 2º
+  * Art. 1º
+  * Art. 2º
 ### CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO
-### Art. 3º
-### Art. 3º-A
-### Art. 4º
-### Art. 5º
-### Art. 6º
+  * Art. 3º
+  * Art. 3º-A
+  * Art. 4º
+  * Art. 5º
+  * Art. 6º
 ### CAPÍTULO II-A
 ### DA TRIBUTAÇÃO MENSAL DE ALTAS RENDAS
-### Art. 6º-A
+  * Art. 6º-A
 ### CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS
-### Art. 7º
-### Art. 8º
-### Art. 9º
-### Art. 10
-### Art. 11
-### Art. 11-A
-### Art. 12
-### Art. 13
-### Art. 14
-### Art. 15
-### Art. 16
+  * Art. 7º
+  * Art. 8º
+  * Art. 9º
+  * Art. 10
+  * Art. 11
+  * Art. 11-A
+  * Art. 12
+  * Art. 13
+  * Art. 14
+  * Art. 15
+  * Art. 16
 ### CAPÍTULO III-A
 ### DA TRIBUTAÇÃO ANUAL DE ALTAS RENDAS
-### Art. 16-A
-### Art. 16-B
+  * Art. 16-A
+  * Art. 16-B
 ### CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL
-### Art. 17
-### Art. 18
-### Art. 19
-### Art. 20
-### Art. 21
+  * Art. 17
+  * Art. 18
+  * Art. 19
+  * Art. 20
+  * Art. 21
 ### CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS
-### Art. 22
-### Art. 23
-### Art. 24
+  * Art. 22
+  * Art. 23
+  * Art. 24
 ### CAPÍTULO VI - DA DECLARAÇÃO DE BENS E DIREITOS
-### Art. 25
+  * Art. 25
 ### CAPÍTULO VII - DISPOSIÇÕES GERAIS
-### Art. 26
-### Art. 27
-### Art. 28
-### Art. 29
-### Art. 30
-### Art. 31
-### Art. 32
-### Art. 33
-##### Parágrafo único. (VETADO)
-### Art. 34
-### Art. 35
+  * Art. 26
+  * Art. 27
+  * Art. 28
+  * Art. 29
+  * Art. 30
+  * Art. 31
+  * Art. 32
+  * Art. 33
+  * Art. 34
+  * Art. 35
 ### CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS
-### Art. 36
-### Art. 37
-### Art. 38
-### Art. 39
-### Art. 40
-### Art. 41
-### Art. 42
+  * Art. 36
+  * Art. 37
+  * Art. 38
+  * Art. 39
+  * Art. 40
+  * Art. 41
+  * Art. 42
 ##### Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.
 ##### FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente
 ##### Este texto não substitui o publicado no D.O.U. de 27.12.1995
@@ -113,13 +112,26 @@ Os valores expressos em UFIR na legislação do imposto de renda das pessoas fí
   * Art. 3º
 
 O imposto de renda incidente sobre os rendimentos de que tratam os arts. 7° , 8° e 12, da Lei n° 7.713, de 22 de dezembro de 1988 , será calculado de acordo com a seguinte tabela progressiva em Reais:
-Parágrafo único. O imposto de que trata este artigo será calculado sobre os rendimentos efetivamente recebidos em cada mês.
+
+| BASE DE CÁLCULO EM R$ | ALÍQUOTA% | PARCELA A DEDUZIR DO IMPOSTO EM R$ |
+| --- | --- | --- |
+| até 900,00 | - | - |
+| acima de 900,00 até 1.800,00 | 15 | 135 |
+| acima de 1.800,00 | 25 | 315 |
+
+    - **Parágrafo único.** O imposto de que trata este artigo será calculado sobre os rendimentos efetivamente recebidos em cada mês.
+
 
 
   * Art. 3º-A.
 
 A partir do mês de janeiro do ano-calendário de 2026, será concedida redução do imposto sobre os rendimentos tributáveis sujeitos à incidência mensal do Imposto sobre a Renda das Pessoas Físicas, de acordo com a seguinte tabela: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 Tabela de redução do imposto mensal
+
+| RENDIMENTOS TRIBUTÁVEIS SUJEITOS AO AJUSTE MENSAL | REDUÇÃO DO IMPOSTO DE RENDA |
+| --- | --- |
+| até R$ 5.000,00 | até R$ 312,89 (de modo que o imposto devido seja zero) |
+| de R$ 5.000,01 até R$ 7.350,00 | R$ 978,62 - (0,133145 x rendimentos tributáveis sujeitos à incidência mensal) (de modo que a redução do imposto seja decrescente linearmente até zerar para rendimentos a partir de R$ 7.350,00) |
 
 
     - **§ 1º** O valor da redução de que trata o caput deste artigo fica limitado ao valor do imposto determinado de acordo com a tabela progressiva mensal e com o disposto no art. 4º desta Lei. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
@@ -457,7 +469,9 @@ O contribuinte poderá optar por desconto simplificado, que substituirá todas a
 
       - X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a partir do ano-calendário de 2026. (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos
 
-Parágrafo único. O valor deduzido não poderá ser utilizado para comprovação de acréscimo patrimonial, sendo considerado rendimento consumido. (Incluído pela Lei nº 11.482, de 2007)
+
+    - **Parágrafo único.** O valor deduzido não poderá ser utilizado para comprovação de acréscimo patrimonial, sendo considerado rendimento consumido. (Incluído pela Lei nº 11.482, de 2007)
+
 
 
   * Art. 11.
@@ -469,6 +483,11 @@ Parágrafo único. O valor deduzido não poderá ser utilizado para comprovaçã
 
 A partir do exercício de 2027, ano-calendário de 2026, será concedida redução do Imposto sobre a Renda das Pessoas Físicas anual, apurado sobre os rendimentos tributáveis sujeitos ao ajuste anual, de acordo com a seguinte tabela: (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
 Tabela de redução do ajuste anual
+
+| RENDIMENTOS TRIBUTÁVEIS SUJEITOS AO AJUSTE ANUAL | REDUÇÃO DO IMPOSTO DE RENDA |
+| --- | --- |
+| até R$ 60.000,00 | até R$ 2.694,15 (de modo que o imposto devido seja zero) |
+| de R$ 60.000,01 até R$ 88.200,00 | R$ 8.429,73 - (0,095575 x rendimentos tributáveis sujeitos ao ajuste anual) (de modo que a redução do imposto seja decrescente linearmente até zerar para rendimentos a partir de R$ 88.200,00) |
 
 
     - **§ 1º** O valor da redução de que trata o caput deste artigo fica limitado ao valor do imposto de renda anual calculado de acordo com a tabela progressiva anual vigente no ano-calendário. (Incluído pela Lei nº 15.270, de 2025) Produção de efeitos
@@ -551,7 +570,9 @@ Do imposto apurado conforme a tabela progressiva anual, poderão ser deduzidos: 
   * Art. 13.
 
 A soma dos montantes determinados na forma prevista nos arts. 12 e 16-A desta Lei constituirá, na declaração de ajuste anual, se positiva, saldo do imposto a pagar e, se negativa, valor a ser restituído. (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos
-Parágrafo único. Quando positivo, o saldo do imposto deverá ser pago até o último dia útil do mês fixado para a entrega da declaração de rendimentos.
+
+    - **Parágrafo único.** Quando positivo, o saldo do imposto deverá ser pago até o último dia útil do mês fixado para a entrega da declaração de rendimentos.
+
 
 
   * Art. 14.
@@ -579,7 +600,9 @@ Nos casos de encerramento de espólio e de saída definitiva do território naci
   * Art. 16.
 
 O valor da restituição do imposto de renda da pessoa física, apurado em declaração de rendimentos, será acrescido de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data prevista para a entrega da declaração de rendimentos até o mês anterior ao da liberação da restituição e de 1% no mês em que o recurso for colocado no banco à disposição do contribuinte. (Vide Lei nº 9.430, de 1996)
-Parágrafo único. Será obedecida a seguinte ordem de prioridade para recebimento da restituição do imposto de renda: (Incluído pela Lei nº 13.498, de 2017)
+
+    - **Parágrafo único.** Será obedecida a seguinte ordem de prioridade para recebimento da restituição do imposto de renda: (Incluído pela Lei nº 13.498, de 2017)
+
 
       - I - idosos, nos termos definidos pelo inciso IX do § 1 o do art. 3 o da Lei n o 10.741, de 1 o de outubro de 2003 ; (Incluído pela Lei nº 13.498, de 2017)
 
@@ -860,7 +883,9 @@ O art. 2º da Lei nº 8.023, de 12 de abril de 1990, passa a vigorar com a segui
 
       - V - a transformação de produtos decorrentes da atividade rural, sem que sejam alteradas a composição e as características do produto in natura, feita pelo próprio agricultor ou criador, com equipamentos e utensílios usualmente empregados nas atividades rurais, utilizando exclusivamente matéria-prima produzida na área rural explorada, tais como a pasteurização e o acondicionamento do leite, assim como o mel e o suco de laranja, acondicionados em embalagem de apresentação.
 
-Parágrafo único. O disposto neste artigo não se aplica à mera intermediação de animais e de produtos agrícolas."
+
+    - **Parágrafo único.** O disposto neste artigo não se aplica à mera intermediação de animais e de produtos agrícolas."
+
 
 
   * Art. 18.
@@ -885,7 +910,9 @@ O resultado da exploração da atividade rural apurado pelas pessoas físicas, a
   * Art. 19.
 
 O resultado positivo obtido na exploração da atividade rural pela pessoa física poderá ser compensado com prejuízos apurados em anos-calendário anteriores.
-Parágrafo único. A pessoa física fica obrigada à conservação e guarda do Livro Caixa e dos documentos fiscais que demonstram a apuração do prejuízo a compensar.
+
+    - **Parágrafo único.** A pessoa física fica obrigada à conservação e guarda do Livro Caixa e dos documentos fiscais que demonstram a apuração do prejuízo a compensar.
+
 
 
   * Art. 20.
@@ -924,7 +951,9 @@ Fica isento do imposto de renda o ganho de capital auferido na alienação de be
 
       - II - R$ 35.000,00 (trinta e cinco mil reais), nos demais casos. (Incluído pela Lei nº 11.196, de 2005) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
 
-Parágrafo único. No caso de alienação de diversos bens ou direitos da mesma natureza, será considerado, para os efeitos deste artigo, o valor do conjunto dos bens alienados no mês. (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
+
+    - **Parágrafo único.** No caso de alienação de diversos bens ou direitos da mesma natureza, será considerado, para os efeitos deste artigo, o valor do conjunto dos bens alienados no mês. (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada
+
 
 
   * Art. 23.
@@ -992,7 +1021,9 @@ Como parte integrante da declaração de rendimentos, a pessoa física apresenta
   * Art. 26.
 
 Ficam isentas do imposto de renda as bolsas de estudo e de pesquisa caracterizadas como doação, quando recebidas exclusivamente para proceder a estudos ou pesquisas e desde que os resultados dessas atividades não representem vantagem para o doador, nem importem contraprestação de serviços.
-Parágrafo único. Não caracterizam contraprestação de serviços nem vantagem para o doador, para efeito da isenção referida no caput , as bolsas de estudo recebidas pelos médicos residentes, nem as bolsas recebidas pelos servidores das redes públicas de educação profissional, científica e tecnológica que participem das atividades do Pronatec, nos termos do § 1 o do art. 9 o da Lei n o 12.513, de 26 de outubro de 2011 . (Redação dada pela Lei nº 12.816, de 2013)
+
+    - **Parágrafo único.** Não caracterizam contraprestação de serviços nem vantagem para o doador, para efeito da isenção referida no caput , as bolsas de estudo recebidas pelos médicos residentes, nem as bolsas recebidas pelos servidores das redes públicas de educação profissional, científica e tecnológica que participem das atividades do Pronatec, nos termos do § 1 o do art. 9 o da Lei n o 12.513, de 26 de outubro de 2011 . (Redação dada pela Lei nº 12.816, de 2013)
+
 
 
   * Art. 27.
@@ -1005,7 +1036,6 @@ O art. 48 da Lei nº 8.541, de 23 de dezembro de 1992 , passa a vigorar com a se
 
 O inciso XV do art. 6º da Lei 7.713, de 22 de dezembro de 1988, passa a vigorar com a seguinte redação:
 "Art. 6º .................................................................
-........................................................................
 
       - XV - os rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, até o valor de R$ 900,00 (novecentos reais), por mês, a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, sem prejuízo da parcela isenta prevista na tabela de incidência mensal do imposto."
 
@@ -1039,7 +1069,6 @@ A partir de 1º de janeiro de 1996, para efeito do reconhecimento de novas isen�
 
 O inciso VII do art. 6º da Lei 7.713, de 22 de dezembro de 1988 , passa a vigorar com a seguinte redação:
 "Art. 6º..................................................................
-........................................................................
 
       - VII - os seguros recebidos de entidades de previdência privada decorrentes de morte ou invalidez permanente do participante."
 
@@ -1049,15 +1078,13 @@ O inciso VII do art. 6º da Lei 7.713, de 22 de dezembro de 1988 , passa a vigor
 
 Sujeitam-se à incidência do imposto de renda na fonte e na declaração de ajuste anual os benefícios recebidos de entidade de previdência privada, bem como as importâncias correspondentes ao resgate de contribuições.
 
+    - **Parágrafo único.** (VETADO)
 
-* Parágrafo único. (VETADO)
 
 
   * Art. 34.
 
 As alíneas a e b do § 1º do art. 6º da Lei nº 8.134, de 27 de dezembro de 1990 , passam a vigorar com a seguinte redação:
-"Art. 6º..................................................................
-........................................................................
 
 
     - **§ 1º** O disposto neste artigo não se aplica:
@@ -1190,7 +1217,9 @@ A compensação de que trata o art. 66 da Lei nº 8.383, de 30 de dezembro de 19
   * Art. 40.
 
 A base de cálculo mensal do imposto de renda das pessoas jurídicas prestadoras de serviços em geral, cuja receita bruta anual seja de até R$ 120.000,00 (cento e vinte mil reais), será determinada mediante a aplicação do percentual de 16% sobre a receita bruta auferida mensalmente, observado o disposto nos arts. 30 a 35 da Lei nº 8.981, de 20 de janeiro de 1995.
-Parágrafo único. O disposto neste artigo não se aplica às pessoas jurídicas que prestam serviços hospitalares e de transporte, bem como às sociedades prestadoras de serviços de profissões legalmente regulamentadas.
+
+    - **Parágrafo único.** O disposto neste artigo não se aplica às pessoas jurídicas que prestam serviços hospitalares e de transporte, bem como às sociedades prestadoras de serviços de profissões legalmente regulamentadas.
+
 
 
   * Art. 41.
@@ -1203,29 +1232,13 @@ Esta Lei entra em vigor na data de sua publicação.
 Revogam-se as disposições em contrário e, especialmente, o Decreto-Lei nº 1.380, de 23 de dezembro de 1974 , o art. 27 da Lei nº 7.713, de 22 de dezembro de 1988 , o art. 26 da Lei nº 8.218, de 29 de agosto de 1991 , e os arts. 8º a 20 e 23 da Lei nº 8.981, de 20 de janeiro de 1995 .
 
 
-* Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.
+  * Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.
 
 
-* FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente
+  * FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente
 
 
-* Este texto não substitui o publicado no D.O.U. de 27.12.1995
-
-| BASE DE CÁLCULO EM R$ | ALÍQUOTA% | PARCELA A DEDUZIR DO IMPOSTO EM R$ |
-| --- | --- | --- |
-| até 900,00 | - | - |
-| acima de 900,00 até 1.800,00 | 15 | 135 |
-| acima de 1.800,00 | 25 | 315 |
-
-| RENDIMENTOS TRIBUTÁVEIS SUJEITOS AO AJUSTE MENSAL | REDUÇÃO DO IMPOSTO DE RENDA |
-| --- | --- |
-| até R$ 5.000,00 | até R$ 312,89 (de modo que o imposto devido seja zero) |
-| de R$ 5.000,01 até R$ 7.350,00 | R$ 978,62 - (0,133145 x rendimentos tributáveis sujeitos à incidência mensal) (de modo que a redução do imposto seja decrescente linearmente até zerar para rendimentos a partir de R$ 7.350,00) |
-
-| RENDIMENTOS TRIBUTÁVEIS SUJEITOS AO AJUSTE ANUAL | REDUÇÃO DO IMPOSTO DE RENDA |
-| --- | --- |
-| até R$ 60.000,00 | até R$ 2.694,15 (de modo que o imposto devido seja zero) |
-| de R$ 60.000,01 até R$ 88.200,00 | R$ 8.429,73 - (0,095575 x rendimentos tributáveis sujeitos ao ajuste anual) (de modo que a redução do imposto seja decrescente linearmente até zerar para rendimentos a partir de R$ 88.200,00) |
+  * Este texto não substitui o publicado no D.O.U. de 27.12.1995
 
 ---
 

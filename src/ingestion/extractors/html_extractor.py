@@ -195,10 +195,28 @@ class HTMLExtractor(BaseExtractor):
             current_section = None
             content_buffer = []
 
-        for el in body.find_all(["p", "h1", "h2", "h3", "h4", "h5", "h6"]):
+        # Processar elementos em ordem: parágrafos, headings, E tabelas
+        processed_elements = set()
+        for el in body.find_all(["p", "h1", "h2", "h3", "h4", "h5", "h6", "table"]):
+            if el in processed_elements:
+                continue
+            
+            # Pular tabelas aninhadas
             if el.find_parent("table"):
                 continue
+            
+            # Processar tabelas
+            if el.name == "table":
+                table_md = _table_to_markdown(el)
+                if table_md:
+                    # Adicionar a tabela ao buffer de conteúdo da seção atual
+                    if content_buffer:
+                        content_buffer.append("")  # linha vazia
+                    content_buffer.append(table_md)
+                processed_elements.add(el)
+                continue
 
+            # Processar parágrafos e headings
             text = _get_element_text(el)
             if not text or len(text) < self.min_text_length:
                 continue
@@ -209,12 +227,14 @@ class HTMLExtractor(BaseExtractor):
                 _flush()
                 current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
                 content_buffer = []
+                processed_elements.add(el)
                 continue
             
             if re.match(r"^\s*REGULAMENTO\s+(DO\s+|DA\s+)?IMPOSTO", text, re.I):
                 _flush()
                 current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
                 content_buffer = []
+                processed_elements.add(el)
                 continue
             
             # LIVRO, TÍTULO, CAPÍTULO estruturais (podem vir com CSS incorreto)
@@ -222,12 +242,14 @@ class HTMLExtractor(BaseExtractor):
                 _flush()
                 current_section = HTMLSection(title=text, content="", level=1, tag_name=el.name)
                 content_buffer = []
+                processed_elements.add(el)
                 continue
             
-            if re.match(r"^\s*TÍTULO\s+[IVXLCDM]+\s*$", text, re.I):
+            if re.match(r"^\s*TÍTULO\s+[IVXLCDM]+(?:-[A-Z]+)?\s*$", text, re.I):
                 _flush()
                 current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
                 content_buffer = []
+                processed_elements.add(el)
                 continue
 
             classes = el.get("class", [])
@@ -247,7 +269,7 @@ class HTMLExtractor(BaseExtractor):
             if mapping is None or (mapping and mapping[0] == 0 and mapping[2] == "body"):
                 if _is_article_start(text):
                     mapping = (6, "###### ", "article")
-                elif re.match(r"^\s*§\s*(?:único|Único|\d+[º°]?)", text, re.I):
+                elif re.match(r"^\s*(?:§|Parágrafo|PARÁGRAFO)\s*(?:único|Único|ÚNICO|\d+[º°]?)", text, re.I):
                     mapping = (0, "", "body")  # parágrafo → formato negrito via _format_legal_line
                 elif re.match(r"^\s*[IVX]+\s*[-–]", text):
                     mapping = (0, "", "body")  # inciso
@@ -306,18 +328,12 @@ class HTMLExtractor(BaseExtractor):
                     current_section = HTMLSection(title="", content="", level=0)
                 content_buffer.append(_format_legal_line(text))
 
+            processed_elements.add(el)
+
         _flush()
 
-        # Tabelas
-        for table in body.find_all("table"):
-            if table.find_parent("table"):
-                continue
-            table_md = _table_to_markdown(table)
-            if table_md:
-                sections.append(HTMLSection(
-                    title="", content=table_md, level=0, tag_name="table",
-                    metadata={"type": "tabela"},
-                ))
+        # Tabelas já foram processadas na iteração principal
+
 
         # ── Pós-processamento: combinar títulos consecutivos específicos ─────
         # Combinar apenas padrões conhecidos da legislação brasileira:
@@ -352,31 +368,31 @@ class HTMLExtractor(BaseExtractor):
                 
                 # LIVRO X + DA/DO/DAS... (ambas vazias)
                 elif not next_sec.content.strip() and \
-                     re.match(r"LIVRO\s+[IVXLCDM]+$", current_title_upper) and \
+                     re.match(r"LIVRO\s+[IVXLCDM]+(?:-[A-Z]+)?$", current_title_upper) and \
                      re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
                     should_combine = True
                 
                 # TÍTULO X + DA/DO/DAS... (ambas vazias)
                 elif not next_sec.content.strip() and \
-                     re.match(r"TÍTULO\s+[IVXLCDM]+$", current_title_upper) and \
+                     re.match(r"TÍTULO\s+[IVXLCDM]+(?:-[A-Z]+)?$", current_title_upper) and \
                      re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
                     should_combine = True
                 
                 # CAPÍTULO X + texto descritivo (começando com DA/DO/DAS/DOS ou não artigo)
                 elif not next_sec.content.strip() and \
-                     re.match(r"CAPÍTULO\s+[IVXLCDM0-9]+$", current_title_upper) and \
+                     re.match(r"CAPÍTULO\s+[IVXLCDM0-9]+(?:-[A-Z]+)?$", current_title_upper) and \
                      (re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper) or not re.match(r"^ART\.", next_title_upper)):
                     should_combine = True
                 
                 # Seção X + texto descritivo (ambas vazias, não artigo)
                 elif not next_sec.content.strip() and \
-                     re.match(r"SE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
+                     re.match(r"SE[ÇC][ÃA]O\s+[IVXLCDM0-9]+(?:-[A-Z]+)?$", current_title_upper, re.I) and \
                      not re.match(r"^ART\.", next_title_upper):
                     should_combine = True
                 
                 # Subseção X/única + texto descritivo (ambas vazias, não artigo)
                 elif not next_sec.content.strip() and \
-                     re.match(r"SUBSE[ÇC][ÃA]O\s+(ÚNICA|[IVXLCDM0-9]+)$", current_title_upper, re.I) and \
+                     re.match(r"SUBSE[ÇC][ÃA]O\s+(ÚNICA|[IVXLCDM0-9]+(?:-[A-Z]+)?)$", current_title_upper, re.I) and \
                      not re.match(r"^ART\.", next_title_upper):
                     should_combine = True
                 
@@ -648,6 +664,11 @@ class HTMLExtractor(BaseExtractor):
                         md_level = 0  # Referência legislativa não entra no esquema
                 else:
                     md_level = raw_level
+
+            # Artigos em documentos sem hierarquia estrutural → sempre lista (nível 7)
+            elif is_article:
+                md_level = 7
+
             else:
                 md_level = raw_level
 
@@ -670,7 +691,7 @@ class HTMLExtractor(BaseExtractor):
                 hashes = "#" * lvl
                 out.append(f"{hashes} {title}")
             elif lvl == 7:
-                # Artigos sempre com indentação
+                # Artigos: sempre com indentação de 2 espaços
                 if is_article_heading:
                     out.append(f"  * {title}")
                 # Subseções com negrito
@@ -832,6 +853,10 @@ class HTMLExtractor(BaseExtractor):
             elif raw_level == 0:
                 md_level = 0
 
+            # Artigos em documentos sem hierarquia estrutural → sempre lista (nível 7)
+            elif is_article:
+                md_level = 7
+
             # Fallback: manter nível original
             else:
                 md_level = raw_level
@@ -843,13 +868,13 @@ class HTMLExtractor(BaseExtractor):
                 elif md_level == 7:
                     # Se é Subseção, com negrito
                     if is_subsecao:
-                        lines += ["", f"* **{title}**", ""]
-                    # Se é Artigo, SEMPRE com indentação de 2 espaços
+                        lines += ["", f"  * **{title}**", ""]
+                    # Se é Artigo: sempre com indentação de 2 espaços
                     elif is_article:
                         lines += ["", f"  * {title}", ""]
                     # Outros níveis 7 (subtítulos TpicodeSeo), sem negrito
                     else:
-                        lines += ["", f"* {title}", ""]
+                        lines += ["", f"  * {title}", ""]
                 elif md_level == 8:
                     lines += ["", f"  - **{title}**", ""]
                 elif md_level == 9:
@@ -872,7 +897,7 @@ class HTMLExtractor(BaseExtractor):
                         continue
 
                     # Parágrafo: * ou -
-                    par_m = re.match(r"^(\*\*)?\s*(§\s*(?:único|Único|\d+[º°]?)\.?)\s*(.*?)(\*\*)?$", line_stripped)
+                    par_m = re.match(r"^(\*\*)?\s*((?:§|Parágrafo|PARÁGRAFO)\s*(?:único|Único|ÚNICO|\d+[º°]?)\.?)\s*(.*?)(\*\*)?$", line_stripped, re.I)
                     if par_m:
                         par_marker = par_m.group(2)
                         par_text = par_m.group(3).strip()
@@ -995,14 +1020,14 @@ def _get_element_text(el) -> str:
 
 def _is_article_start(text: str) -> bool:
     """Verifica se o texto começa com Art. e é um artigo real, não uma referência."""
-    # Aceitar números com separador de milhar (ex: Art. 1.000)
-    if not re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?", text, re.I):
+    # Aceitar números com separador de milhar (ex: Art. 1.000) e sufixos (ex: Art. 3-A)
+    if not re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*(?:-[A-Z]+)?[º°]?", text, re.I):
         return False
     
-    # Extrair o que vem depois de "Art. Xº"
-    m = re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?\.?\s*(.*)", text, re.DOTALL | re.I)
+    # Extrair o que vem depois de "Art. Xº" ou "Art. X-A"
+    m = re.match(r"^\s*Art\.?\s*\d+(?:\.\d{3})*(?:-[A-Z]+)?[º°]?\.?\s*(.*)", text, re.DOTALL | re.I)
     if not m:
-        return True  # Apenas "Art. X" sem nada, é artigo
+        return True  # Apenas "Art. X" ou "Art. X-A" sem nada, é artigo
     
     resto = m.group(1).strip()
     
@@ -1023,7 +1048,7 @@ def _is_article_start(text: str) -> bool:
 
 
 def _split_article_head(text: str) -> Tuple[str, str]:
-    m = re.match(r"^(Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z])?\.?)\s*(.*)", text, re.DOTALL)
+    m = re.match(r"^(Art\.?\s*\d+(?:\.\d{3})*[º°]?(?:-[A-Z]+)?\.?)\s*(.*)", text, re.DOTALL)
     if m:
         return m.group(1).strip(), m.group(2).strip()
     return text, ""

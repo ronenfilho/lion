@@ -1,7 +1,7 @@
 # decreto-9580-22-novembro-2018-787360-normaatualizada-pe
 
 > **Fonte**: decreto-9580-22-novembro-2018-787360-normaatualizada-pe.pdf  
-> **Processado em**: 02/03/2026 18:35:42
+> **Processado em**: 13/03/2026 14:01:26
 > **Páginas**: 398
 
 ---

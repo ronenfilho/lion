@@ -1,0 +1,1078 @@
+{
+  "document": "L9250compilado_processed",
+  "total_chunks": 42,
+  "created_at": "2026-03-13T14:02:25.762837",
+  "chunks": [
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_1",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "1",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO I - DISPOSIÇÕES PRELIMINARES"
+      },
+      "hierarchy_string": "CAPÍTULO I - DISPOSIÇÕES PRELIMINARES",
+      "content": "* Art. 1º\n\nA partir de 1º de janeiro de 1996 o imposto de renda das pessoas físicas será determinado segundo as normas da legislação vigente, com as alterações desta Lei.",
+      "metadata": {
+        "word_count": 31,
+        "char_count": 170,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.656368"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_2",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "2",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO I - DISPOSIÇÕES PRELIMINARES",
+        "subtitulo": "Art. 1º"
+      },
+      "hierarchy_string": "CAPÍTULO I - DISPOSIÇÕES PRELIMINARES > Art. 1º",
+      "content": "* Art. 2º\n\nOs valores expressos em UFIR na legislação do imposto de renda das pessoas físicas ficam convertidos em Reais, tomando-se por base o valor da UFIR vigente em 1º de janeiro de 1996.",
+      "metadata": {
+        "word_count": 35,
+        "char_count": 191,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.656939"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_3",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "3",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO",
+        "subtitulo": "Art. 2º"
+      },
+      "hierarchy_string": "CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO > Art. 2º",
+      "content": "* Art. 3º\n\nO imposto de renda incidente sobre os rendimentos de que tratam os arts. 7° , 8° e 12, da Lei n° 7.713, de 22 de dezembro de 1988 , será calculado de acordo com a seguinte tabela progressiva em Reais:\n\n| BASE DE CÁLCULO EM R$ | ALÍQUOTA% | PARCELA A DEDUZIR DO IMPOSTO EM R$ |\n| --- | --- | --- |\n| até 900,00 | - | - |\n| acima de 900,00 até 1.800,00 | 15 | 135 |\n| acima de 1.800,00 | 25 | 315 |\n\n    - **Parágrafo único.** O imposto de que trata este artigo será calculado sobre os rendimentos efetivamente recebidos em cada mês.",
+      "metadata": {
+        "word_count": 115,
+        "char_count": 542,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei n° 7.713,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.657654"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_4",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "4",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO"
+      },
+      "hierarchy_string": "CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO",
+      "content": "* Art. 4º.\n\nNa determinação da base de cálculo sujeita à incidência mensal do imposto de renda poderão ser deduzidas:\n\n      - I - a soma dos valores referidos no art. 6º da Lei nº 8.134, de 27 de dezembro de 1990 ;\n\n\n      - II - as importâncias pagas a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 1.124-A da Lei n o 5.869, de 11 de janeiro de 1973 - Código de Processo Civil; (Redação dada pela Lei nº 11.727, de 2008) (Produção de efeitos)\n\n\n      - III - a quantia, por dependente, de: (Redação dada pela Lei nº 11.482, de 2007)\n\n\n      - a) R$ 132,05 (cento e trinta e dois reais e cinco centavos), para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)\n\n\n      - b) R$ 137,99 (cento e trinta e sete reais e noventa e nove centavos), para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)\n\n\n      - c) R$ 144,20 (cento e quarenta e quatro reais e vinte centavos), para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)\n\n\n      - d) R$ 150,69 (cento e cinquenta reais e sessenta e nove centavos), para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)\n\n\n      - e) R$ 157,47 (cento e cinquenta e sete reais e quarenta e sete centavos), para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - f) R$ 164,56 (cento e sessenta e quatro reais e cinquenta e seis centavos), para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - g) R$ 171,97 (cento e setenta e um reais e noventa e sete centavos), para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - h) R$ 179,71 (cento e setenta e nove reais e setenta e um centavos), para o ano-calendário de 2014 e nos meses de janeiro a março do ano-calendário de 2015; e (Redação dada pela Lei nº 13.149, de 2015)\n\n\n      - i) R$ 189,59 (cento e oitenta e nove reais e cinquenta e nove centavos), a partir do mês de abril do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)\n\n\n      - IV - as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;\n\n\n      - V - as contribuições para as entidades de previdência privada domiciliadas no País, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social;\n\n\n      - VI - a quantia, correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno ou por entidade de previdência privada, a partir do mês em que o contribuinte completar 65 (sessenta e cinco) anos de idade, de: (Redação dada pela Lei nº 11.482, de 2007)\n\n\n      - a) R$ 1.313,69 (mil, trezentos e treze reais e sessenta e nove centavos), por mês, para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)\n\n\n      - b) R$ 1.372,81 (mil, trezentos e setenta e dois reais e oitenta e um centavos), por mês, para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)\n\n\n      - c) R$ 1.434,59 (mil, quatrocentos e trinta e quatro reais e cinqüenta e nove centavos), por mês, para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)\n\n\n      - d) R$ 1.499,15 (mil, quatrocentos e noventa e nove reais e quinze centavos), por mês, para o ano-calendário de 2010; (Redação dada pela Medida Provisória nº 528, de 2011) Produção de efeitos\n\n\n      - d) R$ 1.499,15 (mil, quatrocentos e noventa e nove reais e quinze centavos), por mês, para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)\n\n\n      - e) R$ 1.566,61 (mil, quinhentos e sessenta e seis reais e sessenta e um centavos), por mês, para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - f) R$ 1.637,11 (mil, seiscentos e trinta e sete reais e onze centavos), por mês, para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - g) R$ 1.710,78 (mil, setecentos e dez reais e setenta e oito centavos), por mês, para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - h) R$ 1.787,77 (mil, setecentos e oitenta e sete reais e setenta e sete centavos), por mês, para o ano-calendário de 2014 e nos meses de janeiro a março do ano-calendário de 2015; e (Redação dada pela Lei nº 13.149, de 2015)\n\n\n      - i) R$ 1.903,98 (mil, novecentos e três reais e noventa e oito centavos), por mês, a partir do mês de abril do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)\n\n\n      - VII - as contribuições para as entidades fechadas de previdência complementar de que trata o § 15 do art. 40 da Constituição Federal, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social. (Redação dada pela Lei nº 14.463, de 2022)\n\n\n\n    - **§ 1º** A dedução permitida pelo inciso V aplica-se exclusivamente à base de cálculo relativa aos seguintes rendimentos, assegurada, nos demais casos, a dedução dos valores pagos a esse título, por ocasião da apuração da base de cálculo do imposto devido no ano-calendário, conforme disposto na alínea e do inciso II do art. 8 o desta Lei: (Redação dada pela Lei nº 14.663, de 2023)\n\n\n\n      - I - do trabalho com vínculo empregatício ou de administradores; e (Redação dada pela Lei nº 14.663, de 2023)\n\n\n      - II - proventos de aposentados e pensionistas, quando a fonte pagadora for responsável pelo desconto e respectivo pagamento das contribuições previdenciárias . (Redação dada pela Lei nº 14.663, de 2023)\n\n\n\n    - **§ 2º** Alternativamente às deduções de que trata o caput deste artigo, poderá ser utilizado desconto simplificado mensal, correspondente a 25% (vinte e cinco por cento) do valor máximo da faixa com alíquota zero da tabela progressiva mensal, caso seja mais benéfico ao contribuinte, dispensadas a comprovação da despesa e a indicação de sua espécie. (Redação dada pela Lei nº 14.663, de 2023)",
+      "metadata": {
+        "word_count": 1055,
+        "char_count": 6230,
+        "has_paragraphs": true,
+        "has_incisos": true,
+        "has_alineas": true,
+        "num_paragraphs": 2,
+        "num_incisos": 9,
+        "num_alineas": 19,
+        "referencias_legislativas": [
+          "Lei nº 11.482,",
+          "Lei nº 11.727,",
+          "Lei nº 12.469,",
+          "Lei nº 13.149,",
+          "Lei nº 14.463,",
+          "Lei nº 14.663,",
+          "Lei nº 8.134,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.659089"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_5",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "5",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO"
+      },
+      "hierarchy_string": "CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO",
+      "content": "* Art. 5º\n\nAs pessoas físicas residentes ou domiciliadas no Brasil que recebam rendimentos de trabalho assalariado, em moeda estrangeira, de autarquias ou repartições do Governo brasileiro, situadas no exterior, estão sujeitas ao imposto de renda na fonte incidente sobre a base de cálculo de que trata o art. 4º, mediante utilização da tabela progressiva de que trata o art. 3º.\n\n\n    - **§ 1º** Os rendimentos em moeda estrangeira serão convertidos em Reais, mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento do rendimento.\n\n\n\n\n    - **§ 2º** As deduções de que tratam os incisos II, IV e V do art. 4º serão convertidas em Reais, mediante utilização do valor do dólar dos Estados Unidos da América fixado para venda pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento do rendimento.\n\n\n\n\n    - **§ 3º** As pessoas físicas computarão, na determinação da base de cálculo de que trata o art. 4º e na declaração de rendimentos, 25% do total dos rendimentos do trabalho assalariado recebidos nas condições referidas neste artigo.",
+      "metadata": {
+        "word_count": 202,
+        "char_count": 1220,
+        "has_paragraphs": true,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 3,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.660387"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_6",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "6",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO",
+        "subtitulo": "Art. 5º"
+      },
+      "hierarchy_string": "CAPÍTULO II - DA INCIDÊNCIA MENSAL DO IMPOSTO > Art. 5º",
+      "content": "* Art. 6º\n\nOs rendimentos recebidos de fontes situadas no exterior, sujeitos a tributação no Brasil, bem como o imposto pago no exterior, serão convertidos em Reais mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do recebimento do rendimento.",
+      "metadata": {
+        "word_count": 62,
+        "char_count": 373,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.661553"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_7",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "7",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS"
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+      "content": "* Art. 7º\n\nA pessoa física deverá apurar o saldo em Reais do imposto a pagar ou o valor a ser restituído, relativamente aos rendimentos percebidos no ano-calendário, e apresentar anualmente, até o último dia útil do mês de abril do ano-calendário subseqüente, declaração de rendimentos em modelo aprovado pela Secretaria da Receita Federal.\n\n\n    - **§ 1º** O prazo de que trata este artigo aplica-se inclusive à declaração de rendimentos relativa ao exercício de 1996, ano-calendário de 1995.\n\n\n\n\n    - **§ 2º** O Ministro da Fazenda poderá estabelecer limites e condições para dispensar pessoas físicas da obrigação de apresentar declaração de rendimentos. (Redação dada pela Lei nº 9.532, de 10.12.1997) (Produção de efeito)\n\n\n\n\n    - **§ 3º** Fica o Ministro da Fazenda autorizado a prorrogar o prazo para a apresentação da declaração, dentro do exercício financeiro.\n\n\n\n\n    - **§ 4º** Homologada a partilha ou feita a adjudicação dos bens, deverá ser apresentada pelo inventariante, dentro de trinta dias contados da data em que transitar em julgado a sentença respectiva, declaração dos rendimentos correspondentes ao período de 1º de janeiro até a data da homologação ou adjudicação.\n\n\n\n\n    - **§ 5º** Se a homologação ou adjudicação ocorrer antes do prazo anualmente fixado para a entrega das declarações de rendimentos, juntamente com a declaração referida no parágrafo anterior deverá ser entregue a declaração dos rendimentos correspondente ao ano-calendário anterior.",
+      "metadata": {
+        "word_count": 223,
+        "char_count": 1481,
+        "has_paragraphs": true,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 5,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 9.532,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.663228"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_8",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "8",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS"
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+      "content": "* Art. 8º\n\nA base de cálculo do imposto devido no ano-calendário será a diferença entre as somas:\n\n      - I - de todos os rendimentos percebidos durante o ano-calendário, exceto os isentos, os não-tributáveis, os tributáveis exclusivamente na fonte e os sujeitos à tributação definitiva;\n\n\n      - II - das deduções relativas:\n\n\n      - a) aos pagamentos efetuados, no ano-calendário, a médicos, dentistas, psicólogos, fisioterapeutas, fonoaudiólogos, terapeutas ocupacionais e hospitais, bem como as despesas com exames laboratoriais, serviços radiológicos, aparelhos ortopédicos e próteses ortopédicas e dentárias;\n\n\n      - b) a pagamentos de despesas com instrução do contribuinte e de seus dependentes, efetuados a estabelecimentos de ensino, relativamente à educação infantil, compreendendo as creches e as pré-escolas; ao ensino fundamental; ao ensino médio; à educação superior, compreendendo os cursos de graduação e de pós-graduação (mestrado, doutorado e especialização); e à educação profissional, compreendendo o ensino técnico e o tecnológico, até o limite anual individual de: (Redação dada pela Lei nº 11.482, de 2007) (Vide Medida Provisória nº 2.159-70, de 2001)\n\n1. R$ 2.480,66 (dois mil, quatrocentos e oitenta reais e sessenta e seis centavos) para o ano-calendário de 2007; (Redação dada pela Lei nº 11.482, de 2007)\n2. R$ 2.592,29 (dois mil, quinhentos e noventa e dois reais e vinte e nove centavos) para o ano-calendário de 2008; (Redação dada pela Lei nº 11.482, de 2007)\n3. R$ 2.708,94 (dois mil, setecentos e oito reais e noventa e quatro centavos) para o ano-calendário de 2009; (Redação dada pela Lei nº 11.482, de 2007)\n4. R$ 2.830,84 (dois mil, oitocentos e trinta reais e oitenta e quatro centavos) para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)\n5. (revogado); (Redação dada pela Lei nº 11.482, de 2007)\n6. R$ 2.958,23 (dois mil, novecentos e cinquenta e oito reais e vinte e três centavos) para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)\n7. R$ 3.091,35 (três mil, noventa e um reais e trinta e cinco centavos) para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)\n8. R$ 3.230,46 (três mil, duzentos e trinta reais e quarenta e seis centavos) para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)\n9. R$ 3.375,83 (três mil, trezentos e setenta e cinco reais e oitenta e três centavos) para o ano-calendário de 2014; e (Redação dada pela Lei nº 13.149, de 2015)\n10. R$ 3.561,50 (três mil, quinhentos e sessenta e um reais e cinquenta centavos), a partir do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)\n\n      - c) à quantia, por dependente, de: (Redação dada pela Lei nº 11.482, de 2007)\n\n1. R$ 1.584,60 (mil, quinhentos e oitenta e quatro reais e sessenta centavos) para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)\n2. R$ 1.655,88 (mil, seiscentos e cinqüenta e cinco reais e oitenta e oito centavos) para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)\n3. R$ 1.730,40 (mil, setecentos e trinta reais e quarenta centavos) para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)\n4. R$ 1.808,28 (mil, oitocentos e oito reais e vinte e oito centavos) para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)\n5. R$ 1.889,64 (mil, oitocentos e oitenta e nove reais e sessenta e quatro centavos) para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)\n6. R$ 1.974,72 (mil, novecentos e setenta e quatro reais e setenta e dois centavos) para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)\n7. R$ 2.063,64 (dois mil, sessenta e três reais e sessenta e quatro centavos) para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)\n8. R$ 2.156,52 (dois mil, cento e cinquenta e seis reais e cinquenta e dois centavos) para o ano-calendário de 2014; e (Redação dada pela Lei nº 13.149, de 2015)\n9. R$ 2.275,08 (dois mil, duzentos e setenta e cinco reais e oito centavos) a partir do ano-calendário de 2015; (Redação dada pela Lei nº 13.149, de 2015)\n\n      - d) às contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;\n\n\n      - e) às contribuições para as entidades de previdência privada domiciliadas no País, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social;\n\n\n      - f) às importâncias pagas a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 1.124-A da Lei n o 5.869, de 11 de janeiro de 1973 - Código de Processo Civil; (Redação dada pela Lei nº 11.727, de 2008) (Produção de efeitos)\n\n\n      - g) às despesas escrituradas no Livro Caixa, previstas nos incisos I a III do art. 6º da Lei nº 8.134, de 27 de dezembro de 1990 , no caso de trabalho não-assalariado, inclusive dos leiloeiros e dos titulares de serviços notariais e de registro.\n\n\n      - h) (VETADO). (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - i) às contribuições para as entidades fechadas de previdência complementar de que trata o § 15 do art. 40 da Constituição Federal , cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social. (Redação dada pela Lei nº 14.463, de 2022)\n\n\n      - j) (VETADO). (Incluído pela Lei nº 13.149, de 2015)\n\n\n\n    - **§ 1º** A quantia correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, representada pela soma dos valores mensais computados a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, não integrará a soma de que trata o inciso I.\n\n\n\n\n    - **§ 2º** O disposto na alínea a do inciso II:\n\n\n\n      - I - aplica-se, também, aos pagamentos efetuados a empresas domiciliadas no País, destinados à cobertura de despesas com hospitalização, médicas e odontológicas, bem como a entidades que assegurem direito de atendimento ou ressarcimento de despesas da mesma natureza;\n\n\n      - II - restringe-se aos pagamentos efetuados pelo contribuinte, relativos ao próprio tratamento e ao de seus dependentes;\n\n\n      - III - limita-se a pagamentos especificados e comprovados, com indicação do nome, endereço e número de inscrição no Cadastro de Pessoas Físicas - CPF ou no Cadastro Geral de Contribuintes - CGC de quem os recebeu, podendo, na falta de documentação, ser feita indicação do cheque nominativo pelo qual foi efetuado o pagamento;\n\n\n      - IV - não se aplica às despesas ressarcidas por entidade de qualquer espécie ou cobertas por contrato de seguro;\n\n\n      - V - no caso de despesas com aparelhos ortopédicos e próteses ortopédicas e dentárias, exige-se a comprovação com receituário médico e nota fiscal em nome do beneficiário.\n\n\n\n    - **§ 3** o As despesas médicas e de educação dos alimentandos, quando realizadas pelo alimentante em virtude de cumprimento de decisão judicial, de acordo homologado judicialmente ou de escritura pública a que se refere o art. 1.124-A da Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil, poderão ser deduzidas pelo alimentante na determinação da base de cálculo do imposto de renda na declaração, observado, no caso de despesas de educação, o limite previsto na alínea b do inciso II do caput deste artigo. (Redação dada pela Lei nº 11.727, de 2008) (Produção de efeitos)\n\n\n\n\n    - **§ 4** o (VETADO). (Incluído pela Lei nº 12.469, de 2011)",
+      "metadata": {
+        "word_count": 1276,
+        "char_count": 7836,
+        "has_paragraphs": true,
+        "has_incisos": true,
+        "has_alineas": true,
+        "num_paragraphs": 4,
+        "num_incisos": 7,
+        "num_alineas": 10,
+        "referencias_legislativas": [
+          "Lei nº 11.482,",
+          "Lei nº 11.727,",
+          "Lei nº 12.469,",
+          "Lei nº 13.149,",
+          "Lei nº 14.463,",
+          "Lei nº 5.869,",
+          "Lei nº 8.134,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.665691"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_9",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "9",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS"
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+      "content": "* Art. 9º\n\nO resultado da atividade rural, apurado na forma da Lei nº 8.023, de 12 de abril de 1990 , com as alterações posteriores, quando positivo, integrará a base de cálculo do imposto definida no artigo anterior.",
+      "metadata": {
+        "word_count": 39,
+        "char_count": 217,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 8.023,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.667436"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_10",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "10",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+        "subtitulo": "Art. 9º"
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS > Art. 9º",
+      "content": "* Art. 10.\n\nO contribuinte poderá optar por desconto simplificado, que substituirá todas as deduções admitidas na legislação, correspondente à dedução de 20% (vinte por cento) do valor dos rendimentos tributáveis na Declaração de Ajuste Anual, independentemente do montante desses rendimentos, dispensadas a comprovação da despesa e a indicação de sua espécie, limitada a: (Redação dada pela Lei nº 11.482, de 2007)\n\n      - I - R$ 11.669,72 (onze mil, seiscentos e sessenta e nove reais e setenta e dois centavos) para o ano-calendário de 2007; (Incluído pela Lei nº 11.482, de 2007)\n\n\n      - II - R$ 12.194,86 (doze mil, cento e noventa e quatro reais e oitenta e seis centavos) para o ano-calendário de 2008; (Incluído pela Lei nº 11.482, de 2007)\n\n\n      - III - R$ 12.743,63 (doze mil, setecentos e quarenta e três reais e sessenta e três centavos) para o ano-calendário de 2009; (Incluído pela Lei nº 11.482, de 2007)\n\n\n      - IV - R$ 13.317,09 (treze mil, trezentos e dezessete reais e nove centavos) para o ano-calendário de 2010; (Redação dada pela Lei nº 12.469, de 2011)\n\n\n      - V - R$ 13.916,36 (treze mil, novecentos e dezesseis reais e trinta e seis centavos) para o ano-calendário de 2011; (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - VI - R$ 14.542,60 (quatorze mil, quinhentos e quarenta e dois reais e sessenta centavos) para o ano-calendário de 2012; (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - VII - R$ 15.197,02 (quinze mil, cento e noventa e sete reais e dois centavos) para o ano-calendário de 2013; (Incluído pela Lei nº 12.469, de 2011)\n\n\n      - VIII - R$ 15.880,89 (quinze mil, oitocentos e oitenta reais e oitenta e nove centavos) para o ano-calendário de 2014; e (Redação dada pela Lei nº 13.149, de 2015)\n\n\n      - IX - R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro reais e trinta e quatro centavos) a partir do ano-calendário de 2015 até o ano-calendário de 2025; e (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos\n\n\n      - X - R$ 17.640,00 (dezessete mil, seiscentos e quarenta reais) a partir do ano-calendário de 2026. (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos\n\n\n    - **Parágrafo único.** O valor deduzido não poderá ser utilizado para comprovação de acréscimo patrimonial, sendo considerado rendimento consumido. (Incluído pela Lei nº 11.482, de 2007)",
+      "metadata": {
+        "word_count": 388,
+        "char_count": 2351,
+        "has_paragraphs": false,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 10,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 11.482,",
+          "Lei nº 12.469,",
+          "Lei nº 13.149,",
+          "Lei nº 15.270,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.669473"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_11",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "11",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS"
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+      "content": "* Art. 11.\n\n(Revogado pela Lei nº 15.270, de 2025) Produção de efeitos",
+      "metadata": {
+        "word_count": 13,
+        "char_count": 70,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 15.270,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.671487"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_12",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "12",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+        "subtitulo": "Art. 11-A."
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS > Art. 11-A.",
+      "content": "* Art. 12.\n\nDo imposto apurado conforme a tabela progressiva anual, poderão ser deduzidos: (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos\n\n      - I - as contribuições feitas aos Fundos controlados pelos Conselhos Municipais, Estaduais e Nacional dos Direitos da Criança e do Adolescente e pelos Conselhos Municipais, Estaduais e Nacional do Idoso; (Redação dada pela Lei nº 12.213, de 2010) (Vigência)\n\n\n      - II - as contribuições efetivamente realizadas em favor de projetos culturais, aprovados na forma da regulamentação do Programa Nacional de Apoio à Cultura - PRONAC, instituído pelo art. 1º da Lei nº 8.313, de 23 de dezembro de 1991;\n\n\n      - III - os investimentos feitos a título de incentivo às atividades audiovisuais, na forma e condições previstas nos arts. 1º e 4º da Lei nº 8.685, de 20 de julho de 1993 ;\n\n\n      - IV - (VETADO)\n\n\n      - V - o imposto retido na fonte ou o pago, inclusive a título de recolhimento complementar, correspondente aos rendimentos incluídos na base de cálculo;\n\n\n      - VI - o imposto pago no exterior de acordo com o previsto no art. 5º da Lei nº 4.862, de 29 de novembro de 1965.\n\n\n      - VII - até o exercício de 2019, ano-calendário de 2018, a contribuição patronal paga à Previdência Social pelo empregador doméstico incidente sobre o valor da remuneração do empregado; e (Redação dada pela Lei nº 13.097, de 2015)\n\n\n      - VIII - doações e patrocínios diretamente efetuados por pessoas físicas no âmbito do Programa Nacional de Apoio à Atenção Oncológica - PRONON e do Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência - PRONAS/PCD, previamente aprovados pelo Ministério da Saúde. (Redação dada pela Lei nº 12.715, de 2012)\n\n\n\n    - **§ 1º** A soma das deduções a que se referem os incisos I a IV não poderá reduzir o imposto devido em mais de doze por cento.\n\n\n\n\n    - **§ 2°** (VETADO)\n\n\n\n\n    - **§ 3°** - A dedução de que trata o inciso VII do caput deste artigo: (Incluído pela Lei nº 11.324, de 2006)\n\n\n\n      - I - está limitada: (Incluído pela Lei nº 11.324, de 2006)\n\n\n      - a) a 1 (um) empregado doméstico por declaração, inclusive no caso da declaração em conjunto; (Incluído pela Lei nº 11.324, de 2006)\n\n\n      - b) ao valor recolhido no ano-calendário a que se referir a declaração; (Incluído pela Lei nº 11.324, de 2006)\n\n\n      - II - aplica-se somente ao modelo completo de Declaração de Ajuste Anual; (Incluído pela Lei nº 11.324, de 2006)\n\n\n      - III - não poderá exceder: (Incluído pela Lei nº 11.324, de 2006)\n\n\n      - a) ao valor da contribuição patronal calculada sobre 1 (um) salário mínimo mensal, sobre o 13 o (décimo terceiro) salário e sobre a remuneração adicional de férias, referidos também a 1 (um) salário mínimo; (Incluído pela Lei nº 11.324, de 2006)\n\n\n      - b) ao valor do imposto apurado na forma do art. 11 desta Lei, deduzidos os valores de que tratam os incisos I a III do caput deste artigo; (Incluído pela Lei nº 11.324, de 2006)\n\n\n      - IV - fica condicionada à comprovação da regularidade do empregador doméstico perante o regime geral de previdência social quando se tratar de contribuinte individual. (Incluído pela Lei nº 11.324, de 2006)",
+      "metadata": {
+        "word_count": 538,
+        "char_count": 3192,
+        "has_paragraphs": true,
+        "has_incisos": true,
+        "has_alineas": true,
+        "num_paragraphs": 3,
+        "num_incisos": 12,
+        "num_alineas": 4,
+        "referencias_legislativas": [
+          "Lei nº 11.324,",
+          "Lei nº 12.213,",
+          "Lei nº 12.715,",
+          "Lei nº 13.097,",
+          "Lei nº 15.270,",
+          "Lei nº 4.862,",
+          "Lei nº 8.313,",
+          "Lei nº 8.685,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.674141"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_13",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "13",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS"
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+      "content": "* Art. 13.\n\nA soma dos montantes determinados na forma prevista nos arts. 12 e 16-A desta Lei constituirá, na declaração de ajuste anual, se positiva, saldo do imposto a pagar e, se negativa, valor a ser restituído. (Redação dada pela Lei nº 15.270, de 2025) Produção de efeitos\n\n    - **Parágrafo único.** Quando positivo, o saldo do imposto deverá ser pago até o último dia útil do mês fixado para a entrega da declaração de rendimentos.",
+      "metadata": {
+        "word_count": 76,
+        "char_count": 439,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 15.270,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.676340"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_14",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "14",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+        "subtitulo": "Art. 13."
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS > Art. 13.",
+      "content": "* Art. 14.\n\nÀ opção do contribuinte, o saldo do imposto a pagar poderá ser parcelado em até 8 (oito) quotas iguais, mensais e sucessivas, observado o seguinte: (Redação dada pela Lei nº 11.311, de 2006)\n\n      - I - nenhuma quota será inferior a R$ 50,00 (cinqüenta reais), e o imposto de valor inferior a R$ 100,00 (cem reais) será pago de uma só vez;\n\n\n      - II - a primeira quota deverá ser paga no mês fixado para a entrega da declaração de rendimentos;\n\n\n      - III - as demais quotas, acrescidas de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data prevista para a entrega da declaração de rendimentos até o mês anterior ao do pagamento e de 1% no mês do pagamento, vencerão no último dia útil de cada mês. (Vide Lei nº 9.430, de 1996)\n\n\n      - IV - é facultado ao contribuinte antecipar, total ou parcialmente, o pagamento do imposto ou das quotas.",
+      "metadata": {
+        "word_count": 171,
+        "char_count": 977,
+        "has_paragraphs": false,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 4,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 11.311,",
+          "Lei nº 9.430,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.678291"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_15",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "15",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+        "subtitulo": "Art. 14."
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS > Art. 14.",
+      "content": "* Art. 15.\n\nNos casos de encerramento de espólio e de saída definitiva do território nacional, o imposto de renda devido será calculado mediante a utilização dos valores correspondentes à soma das tabelas progressivas mensais relativas aos meses do período abrangido pela tributação no ano-calendário. (Redação dada pela Lei nº 11.311, de 2006) (Produção de efeito)",
+      "metadata": {
+        "word_count": 56,
+        "char_count": 365,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 11.311,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.680334"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_16",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "16",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+        "subtitulo": "Art. 15."
+      },
+      "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS > Art. 15.",
+      "content": "* Art. 16.\n\nO valor da restituição do imposto de renda da pessoa física, apurado em declaração de rendimentos, será acrescido de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data prevista para a entrega da declaração de rendimentos até o mês anterior ao da liberação da restituição e de 1% no mês em que o recurso for colocado no banco à disposição do contribuinte. (Vide Lei nº 9.430, de 1996)\n\n    - **Parágrafo único.** Será obedecida a seguinte ordem de prioridade para recebimento da restituição do imposto de renda: (Incluído pela Lei nº 13.498, de 2017)\n\n\n      - I - idosos, nos termos definidos pelo inciso IX do § 1 o do art. 3 o da Lei n o 10.741, de 1 o de outubro de 2003 ; (Incluído pela Lei nº 13.498, de 2017)\n\n\n      - II - contribuintes cuja maior fonte de renda seja o magistério; (Incluído pela Lei nº 13.498, de 2017)\n\n\n      - III - demais contribuintes. (Incluído pela Lei nº 13.498, de 2017)",
+      "metadata": {
+        "word_count": 181,
+        "char_count": 1033,
+        "has_paragraphs": false,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 3,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 13.498,",
+          "Lei nº 9.430,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.682488"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_17",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "17",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL"
+      },
+      "hierarchy_string": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL",
+      "content": "* Art. 17.\n\nO art. 2º da Lei nº 8.023, de 12 de abril de 1990, passa a vigorar com a seguinte redação:\n\"Art. 2º .................................................................\n........................................................................\n\n      - V - a transformação de produtos decorrentes da atividade rural, sem que sejam alteradas a composição e as características do produto in natura, feita pelo próprio agricultor ou criador, com equipamentos e utensílios usualmente empregados nas atividades rurais, utilizando exclusivamente matéria-prima produzida na área rural explorada, tais como a pasteurização e o acondicionamento do leite, assim como o mel e o suco de laranja, acondicionados em embalagem de apresentação.\n\n\n    - **Parágrafo único.** O disposto neste artigo não se aplica à mera intermediação de animais e de produtos agrícolas.\"",
+      "metadata": {
+        "word_count": 116,
+        "char_count": 860,
+        "has_paragraphs": false,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 1,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 8.023,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.685215"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_18",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "18",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL",
+        "subtitulo": "Art. 17."
+      },
+      "hierarchy_string": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL > Art. 17.",
+      "content": "* Art. 18.\n\nO resultado da exploração da atividade rural apurado pelas pessoas físicas, a partir do ano-calendário de 1996, será apurado mediante escrituração do Livro Caixa, que deverá abranger as receitas, as despesas de custeio, os investimentos e demais valores que integram a atividade.\n\n\n    - **§ 1º** O contribuinte deverá comprovar a veracidade das receitas e das despesas escrituradas no Livro Caixa, mediante documentação idônea que identifique o adquirente ou beneficiário, o valor e a data da operação, a qual será mantida em seu poder à disposição da fiscalização, enquanto não ocorrer a decadência ou prescrição.\n\n\n\n\n    - **§ 2º** A falta da escrituração prevista neste artigo implicará arbitramento da base de cálculo à razão de vinte por cento da receita bruta do ano-calendário.\n\n\n\n\n    - **§ 3º** Aos contribuintes que tenham auferido receitas anuais até o valor de R$ 56.000,00 (cinqüenta e seis mil reais) faculta-se apurar o resultado da exploração da atividade rural, mediante prova documental, dispensado o registro do Livro Caixa.",
+      "metadata": {
+        "word_count": 163,
+        "char_count": 1056,
+        "has_paragraphs": true,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 3,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.687966"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_19",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "19",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL",
+        "subtitulo": "Art. 18."
+      },
+      "hierarchy_string": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL > Art. 18.",
+      "content": "* Art. 19.\n\nO resultado positivo obtido na exploração da atividade rural pela pessoa física poderá ser compensado com prejuízos apurados em anos-calendário anteriores.\n\n    - **Parágrafo único.** A pessoa física fica obrigada à conservação e guarda do Livro Caixa e dos documentos fiscais que demonstram a apuração do prejuízo a compensar.",
+      "metadata": {
+        "word_count": 51,
+        "char_count": 339,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.690723"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_20",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "20",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL",
+        "subtitulo": "Art. 19."
+      },
+      "hierarchy_string": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL > Art. 19.",
+      "content": "* Art. 20.\n\nO resultado decorrente da atividade rural, exercida no Brasil por residente ou domiciliado no exterior, apurado por ocasião do encerramento do ano-calendário, constituirá a base de cálculo do imposto e será tributado à alíquota de quinze por cento.\n\n\n    - **§ 1°** Na hipótese de que trata este artigo, a apuração do resultado deverá ser feita por procurador, a quem compete reter e recolher o imposto devido, não sendo permitidas a opção pelo arbitramento de vinte por cento da receita bruta e a compensação de prejuízos apurados.\n\n\n\n\n    - **§ 2°** O imposto apurado deverá ser pago na data da ocorrência do fato gerador.\n\n\n\n\n    - **§ 3º** Ocorrendo remessa de lucros antes do encerramento do ano-calendário, o imposto deverá ser recolhido no ato sobre o valor remetido por ocasião do evento, exceto no caso de devolução de capital.",
+      "metadata": {
+        "word_count": 139,
+        "char_count": 848,
+        "has_paragraphs": true,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 3,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.693500"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_21",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "21",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL",
+        "subtitulo": "Art. 20."
+      },
+      "hierarchy_string": "CAPÍTULO IV - TRIBUTAÇÃO DA ATIVIDADE RURAL > Art. 20.",
+      "content": "* Art. 21.\n\nO resultado da atividade rural exercida no exterior, por residentes e domiciliados no Brasil, convertido em reais mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil, para o último dia do ano-calendário a que se refere o resultado, sujeita-se ao mesmo tratamento tributário previsto no art. 9º, vedada a compensação de resultado positivo obtido no exterior, com resultado negativo obtido no País.",
+      "metadata": {
+        "word_count": 75,
+        "char_count": 472,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.696212"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_22",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "22",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS",
+        "subtitulo": "Art. 21."
+      },
+      "hierarchy_string": "CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS > Art. 21.",
+      "content": "* Art. 22.\n\nFica isento do imposto de renda o ganho de capital auferido na alienação de bens e direitos de pequeno valor, cujo preço unitário de alienação, no mês em que esta se realizar, seja igual ou inferior a: (Redação dada pela Lei nº 11.196, de 2005)\n\n      - I - R$ 20.000,00 (vinte mil reais), no caso de alienação de ações negociadas no mercado de balcão; (Incluído pela Lei nº 11.196, de 2005) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada\n\n\n      - II - R$ 35.000,00 (trinta e cinco mil reais), nos demais casos. (Incluído pela Lei nº 11.196, de 2005) (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada\n\n\n    - **Parágrafo único.** No caso de alienação de diversos bens ou direitos da mesma natureza, será considerado, para os efeitos deste artigo, o valor do conjunto dos bens alienados no mês. (Vide Medida Provisória nº 1.303, de 2025) Produção de efeitos Vigência encerrada",
+      "metadata": {
+        "word_count": 161,
+        "char_count": 955,
+        "has_paragraphs": false,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 2,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 11.196,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.699111"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_23",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "23",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS",
+        "subtitulo": "Art. 22."
+      },
+      "hierarchy_string": "CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS > Art. 22.",
+      "content": "* Art. 23.\n\nFica isento do imposto de renda o ganho de capital auferido na alienação do único imóvel que o titular possua, cujo valor de alienação seja de até R$ 440.000,00 (quatrocentos e quarenta mil reais), desde que não tenha sido realizada qualquer outra alienação nos últimos cinco anos.",
+      "metadata": {
+        "word_count": 50,
+        "char_count": 293,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.701939"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_24",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "24",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS",
+        "subtitulo": "Art. 23."
+      },
+      "hierarchy_string": "CAPÍTULO V - TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS > Art. 23.",
+      "content": "* Art. 24.\n\nNa apuração do ganho de capital de bens adquiridos por meio de arrendamento mercantil, será considerado custo de aquisição o valor residual do bem acrescido dos valores pagos a título de arrendamento.",
+      "metadata": {
+        "word_count": 35,
+        "char_count": 212,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.704779"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_25",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "25",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VI - DA DECLARAÇÃO DE BENS E DIREITOS",
+        "subtitulo": "Art. 24."
+      },
+      "hierarchy_string": "CAPÍTULO VI - DA DECLARAÇÃO DE BENS E DIREITOS > Art. 24.",
+      "content": "* Art. 25.\n\nComo parte integrante da declaração de rendimentos, a pessoa física apresentará relação pormenorizada dos bens imóveis e móveis e direitos que, no País ou no exterior, constituam o seu patrimônio e o de seus dependentes, em 31 de dezembro do ano-calendário, bem como os bens e direitos adquiridos e alienados no mesmo ano.\n\n\n    - **§ 1º** Devem ser declarados:\n\n\n\n      - I - os bens imóveis, os veículos automotores, as embarcações e as aeronaves, independentemente do valor de aquisição;\n\n\n      - II - os demais bens móveis, tais como antigüidades, obras de arte, objetos de uso pessoal e utensílios, adquiridos a partir do ano-calendário de 1996, cujo valor de aquisição unitário seja igual ou superior a R$ 5.000,00 (cinco mil reais);\n\n\n      - III - os saldos de aplicações financeiras e de conta corrente bancária cujo valor individual, em 31 de dezembro do ano-calendário, exceda a R$ 140,00 (cento e quarenta reais);\n\n\n      - IV - os investimentos em participações societárias, em ações negociadas ou não em bolsa de valores e em ouro, ativo-financeiro, adquiridos a partir do ano-calendário de 1996, cujo valor de aquisição unitário seja igual ou superior a R$ 1.000,00 (um mil reais).\n\n\n\n    - **§ 2º** Os bens serão declarados discriminadamente pelos valores de aquisição em Reais, constantes dos respectivos instrumentos de transferência de propriedade ou da nota fiscal.\n\n\n\n\n    - **§ 3º** Os bens existentes no exterior devem ser declarados pelos valores de aquisição constantes dos respectivos instrumentos de transferência de propriedade, segundo a moeda do país em que estiverem situados, convertidos em Reais pela cotação cambial de venda do dia da transmissão da propriedade.\n\n\n\n\n    - **§ 4** o (Revogado pela Lei nº 14.754, de 2023) Produção de efeito\n\n\n\n\n    - **§ 5º** Na declaração de bens e direitos, também deverão ser consignados os ônus reais e obrigações da pessoa física e de seus dependentes, em 31 de dezembro do ano-calendário, cujo valor seja superior a R$ 5.000,00 (cinco mil reais).\n\n\n\n\n    - **§ 6º** O disposto nos incisos II e IV do § 1º poderá ser observado na declaração de bens referente ao ano-calendário de 1995, com relação aos bens móveis e aos investimentos adquiridos anteriormente a 1996.",
+      "metadata": {
+        "word_count": 359,
+        "char_count": 2252,
+        "has_paragraphs": true,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 6,
+        "num_incisos": 4,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 14.754,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.707826"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_26",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "26",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS"
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+      "content": "* Art. 26.\n\nFicam isentas do imposto de renda as bolsas de estudo e de pesquisa caracterizadas como doação, quando recebidas exclusivamente para proceder a estudos ou pesquisas e desde que os resultados dessas atividades não representem vantagem para o doador, nem importem contraprestação de serviços.\n\n    - **Parágrafo único.** Não caracterizam contraprestação de serviços nem vantagem para o doador, para efeito da isenção referida no caput , as bolsas de estudo recebidas pelos médicos residentes, nem as bolsas recebidas pelos servidores das redes públicas de educação profissional, científica e tecnológica que participem das atividades do Pronatec, nos termos do § 1 o do art. 9 o da Lei n o 12.513, de 26 de outubro de 2011 . (Redação dada pela Lei nº 12.816, de 2013)",
+      "metadata": {
+        "word_count": 126,
+        "char_count": 777,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 12.816,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.710825"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_27",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "27",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+        "subtitulo": "Art. 26."
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS > Art. 26.",
+      "content": "* Art. 27.\n\nO art. 48 da Lei nº 8.541, de 23 de dezembro de 1992 , passa a vigorar com a seguinte redação:\n\"Art. 48. Ficam isentos do imposto de renda os rendimentos percebidos pelas pessoas físicas decorrentes de seguro-desemprego, auxílio-natalidade, auxílio-doença, auxílio-funeral e auxílio-acidente, pagos pela previdência oficial da União, dos Estados, do Distrito Federal e dos Municípios e pelas entidades de previdência privada.\"",
+      "metadata": {
+        "word_count": 66,
+        "char_count": 438,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 8.541,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.713830"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_28",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "28",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+        "subtitulo": "Art. 27."
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS > Art. 27.",
+      "content": "* Art. 28.\n\nO inciso XV do art. 6º da Lei 7.713, de 22 de dezembro de 1988, passa a vigorar com a seguinte redação:\n\"Art. 6º .................................................................\n\n      - XV - os rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, até o valor de R$ 900,00 (novecentos reais), por mês, a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, sem prejuízo da parcela isenta prevista na tabela de incidência mensal do imposto.\"",
+      "metadata": {
+        "word_count": 111,
+        "char_count": 717,
+        "has_paragraphs": false,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 1,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.716875"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_29",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "29",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+        "subtitulo": "Art. 28."
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS > Art. 28.",
+      "content": "* Art. 29.\n\nEstão isentos do imposto de renda na fonte os rendimentos pagos a pessoa física, residente ou domiciliada no exterior, por autarquias ou repartições do Governo brasileiro situadas fora do território nacional e que correspondam a serviços prestados a esses órgãos.",
+      "metadata": {
+        "word_count": 43,
+        "char_count": 275,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.719822"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_30",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "30",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+        "subtitulo": "Art. 29."
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS > Art. 29.",
+      "content": "* Art. 30.\n\nA partir de 1º de janeiro de 1996, para efeito do reconhecimento de novas isenções de que tratam os incisos XIV e XXI do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988 , com a redação dada pelo art. 47 da Lei nº 8.541, de 23 de dezembro de 1992 , a moléstia deverá ser comprovada mediante laudo pericial emitido por serviço médico oficial, da União, dos Estados, do Distrito Federal e dos Municípios.\n\n\n    - **§ 1º** O serviço médico oficial fixará o prazo de validade do laudo pericial, no caso de moléstias passíveis de controle.\n\n\n\n\n    - **§ 2º** Na relação das moléstias a que se refere o inciso XIV do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988 , com a redação dada pelo art. 47 da Lei nº 8.541, de 23 de dezembro de 1992 , fica incluída a fibrose cística (mucoviscidose).",
+      "metadata": {
+        "word_count": 155,
+        "char_count": 803,
+        "has_paragraphs": true,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 2,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 7.713,",
+          "Lei nº 8.541,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.722896"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_31",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "31",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+        "subtitulo": "Art. 30."
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS > Art. 30.",
+      "content": "* Art. 31.\n\n(VETADO)",
+      "metadata": {
+        "word_count": 4,
+        "char_count": 20,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.725875"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_32",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "32",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+        "subtitulo": "Art. 31."
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS > Art. 31.",
+      "content": "* Art. 32.\n\nO inciso VII do art. 6º da Lei 7.713, de 22 de dezembro de 1988 , passa a vigorar com a seguinte redação:\n\"Art. 6º..................................................................\n\n      - VII - os seguros recebidos de entidades de previdência privada decorrentes de morte ou invalidez permanente do participante.\"",
+      "metadata": {
+        "word_count": 47,
+        "char_count": 327,
+        "has_paragraphs": false,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 1,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.728978"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_33",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "33",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+        "subtitulo": "Art. 32."
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS > Art. 32.",
+      "content": "* Art. 33.\n\nSujeitam-se à incidência do imposto de renda na fonte e na declaração de ajuste anual os benefícios recebidos de entidade de previdência privada, bem como as importâncias correspondentes ao resgate de contribuições.\n\n    - **Parágrafo único.** (VETADO)",
+      "metadata": {
+        "word_count": 39,
+        "char_count": 264,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.732009"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_34",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "34",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+        "subtitulo": "Art. 33."
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS > Art. 33.",
+      "content": "* Art. 34.\n\nAs alíneas a e b do § 1º do art. 6º da Lei nº 8.134, de 27 de dezembro de 1990 , passam a vigorar com a seguinte redação:\n\n\n    - **§ 1º** O disposto neste artigo não se aplica:\n\n\n\n      - a) a quotas de depreciação de instalações, máquinas e equipamentos, bem como a despesas de arrendamento;\n\n\n      - b) a despesas de locomoção e transporte, salvo no caso de representante comercial autônomo.\"",
+      "metadata": {
+        "word_count": 74,
+        "char_count": 408,
+        "has_paragraphs": true,
+        "has_incisos": false,
+        "has_alineas": true,
+        "num_paragraphs": 1,
+        "num_incisos": 0,
+        "num_alineas": 2,
+        "referencias_legislativas": [
+          "Lei nº 8.134,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.735070"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_35",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "35",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VII - DISPOSIÇÕES GERAIS",
+        "subtitulo": "Art. 34."
+      },
+      "hierarchy_string": "CAPÍTULO VII - DISPOSIÇÕES GERAIS > Art. 34.",
+      "content": "* Art. 35.\n\nPara efeito do disposto nos arts. 4º, inciso III, e 8º, inciso II, alínea c, poderão ser considerados como dependentes:\n\n      - I - o cônjuge;\n\n\n      - II - o companheiro ou a companheira, desde que haja vida em comum por mais de cinco anos, ou por período menor se da união resultou filho;\n\n\n      - III - a filha, o filho, a enteada ou o enteado, até 21 anos, ou de qualquer idade quando incapacitado física ou mentalmente para o trabalho; (Vide ADIN 5583)\n\n\n      - IV - o menor pobre, até 21 anos, que o contribuinte crie e eduque e do qual detenha a guarda judicial;\n\n\n      - V - o irmão, o neto ou o bisneto, sem arrimo dos pais, até 21 anos, desde que o contribuinte detenha a guarda judicial, ou de qualquer idade quando incapacitado física ou mentalmente para o trabalho; (Vide ADIN 5583)\n\n\n      - VI - os pais, os avós ou os bisavós, desde que não aufiram rendimentos, tributáveis ou não, superiores ao limite de isenção mensal;\n\n\n      - VII - o absolutamente incapaz, do qual o contribuinte seja tutor ou curador.\n\n\n\n    - **§ 1º** Os dependentes a que se referem os incisos III e V deste artigo poderão ser assim considerados quando maiores até 24 anos de idade, se ainda estiverem cursando estabelecimento de ensino superior ou escola técnica de segundo grau.\n\n\n\n\n    - **§ 2º** Os dependentes comuns poderão, opcionalmente, ser considerados por qualquer um dos cônjuges.\n\n\n\n\n    - **§ 3º** No caso de filhos de pais separados, poderão ser considerados dependentes os que ficarem sob a guarda do contribuinte, em cumprimento de decisão judicial ou acordo homologado judicialmente.\n\n\n\n\n    - **§ 4º** É vedada a dedução concomitante do montante referente a um mesmo dependente, na determinação da base de cálculo do imposto, por mais de um contribuinte.\n\n\n\n\n    - **§ 5** o Sem prejuízo do disposto no inciso IX do parágrafo único do art. 3 o da Lei n o 10.741, de 1 o de outubro de 2003 , a pessoa com deficiência, ou o contribuinte que tenha dependente nessa condição, tem preferência na restituição referida no inciso III do art. 4 o e na alínea “c” do inciso II do art. 8 o . (Incluído pela Lei nº 13.146, de 2015) (Vigência)",
+      "metadata": {
+        "word_count": 376,
+        "char_count": 2158,
+        "has_paragraphs": true,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 5,
+        "num_incisos": 7,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 13.146,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.738415"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_36",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "36",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS"
+      },
+      "hierarchy_string": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
+      "content": "* Art. 36.\n\nO contribuinte que no ano-calendário de 1995 tiver auferido rendimentos tributáveis até o limite de R$ 21.458,00 (vinte e um mil, quatrocentos e cinqüenta e oito reais) poderá optar pelo regime de tributação simplificada de que trata o art. 10.",
+      "metadata": {
+        "word_count": 43,
+        "char_count": 256,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.741675"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_37",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "37",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
+        "subtitulo": "Art. 36."
+      },
+      "hierarchy_string": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS > Art. 36.",
+      "content": "* Art. 37.\n\nFica a Secretaria da Receita Federal autorizada a:\n\n      - I - instituir modelo de documento fiscal a ser emitido por profissionais liberais;\n\n\n      - II - celebrar, em nome da União, convênio com os Estados, Distrito Federal e Municípios, objetivando instituir cadastro único de contribuintes, em substituição aos cadastros federal, estaduais e municipais.",
+      "metadata": {
+        "word_count": 55,
+        "char_count": 371,
+        "has_paragraphs": false,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 2,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.744943"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_38",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "38",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
+        "subtitulo": "Art. 37."
+      },
+      "hierarchy_string": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS > Art. 37.",
+      "content": "* Art. 38.\n\nOs processos fiscais relativos a tributos e contribuições federais e a penalidades isoladas e as declarações não poderão sair dos órgãos da Secretaria da Receita Federal, salvo quando se tratar de:\n\n      - I - encaminhamento de recursos à instância superior;\n\n\n      - II - restituições de autos aos órgãos de origem;\n\n\n      - III - encaminhamento de documentos para fins de processamento de dados.\n\n\n\n    - **§ 1º** Nos casos a que se referem os incisos I e II deverá ficar cópia autenticada dos documentos essenciais na repartição.\n\n\n\n\n    - **§ 2º** É facultado o fornecimento de cópia do processo ao sujeito passivo ou a seu mandatário.",
+      "metadata": {
+        "word_count": 106,
+        "char_count": 654,
+        "has_paragraphs": true,
+        "has_incisos": true,
+        "has_alineas": false,
+        "num_paragraphs": 2,
+        "num_incisos": 3,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.748336"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_39",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "39",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS"
+      },
+      "hierarchy_string": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
+      "content": "* Art. 39.\n\nA compensação de que trata o art. 66 da Lei nº 8.383, de 30 de dezembro de 1991 , com a redação dada pelo art. 58 da Lei nº 9.069, de 29 de junho de 1995 , somente poderá ser efetuada com o recolhimento de importância correspondente a imposto, taxa, contribuição federal ou receitas patrimoniais de mesma espécie e destinação constitucional, apurado em períodos subseqüentes.\n\n\n    - **§ 1º** (VETADO)\n\n\n\n\n    - **§ 2°** (VETADO)\n\n\n\n\n    - **§ 3°** (VETADO)\n\n\n\n\n    - **§ 4º** A partir de 1º de janeiro de 1996, a compensação ou restituição será acrescida de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data do pagamento indevido ou a maior até o mês anterior ao da compensação ou restituição e de 1% relativamente ao mês em que estiver sendo efetuada. (Vide Lei nº 9.532, de 1997)",
+      "metadata": {
+        "word_count": 155,
+        "char_count": 912,
+        "has_paragraphs": true,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 4,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 8.383,",
+          "Lei nº 9.069,",
+          "Lei nº 9.532,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.751618"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_40",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "40",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS"
+      },
+      "hierarchy_string": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
+      "content": "* Art. 40.\n\nA base de cálculo mensal do imposto de renda das pessoas jurídicas prestadoras de serviços em geral, cuja receita bruta anual seja de até R$ 120.000,00 (cento e vinte mil reais), será determinada mediante a aplicação do percentual de 16% sobre a receita bruta auferida mensalmente, observado o disposto nos arts. 30 a 35 da Lei nº 8.981, de 20 de janeiro de 1995.\n\n    - **Parágrafo único.** O disposto neste artigo não se aplica às pessoas jurídicas que prestam serviços hospitalares e de transporte, bem como às sociedades prestadoras de serviços de profissões legalmente regulamentadas.",
+      "metadata": {
+        "word_count": 98,
+        "char_count": 601,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 8.981,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.754954"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_41",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "41",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
+        "subtitulo": "Art. 40."
+      },
+      "hierarchy_string": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS > Art. 40.",
+      "content": "* Art. 41.\n\nEsta Lei entra em vigor na data de sua publicação.",
+      "metadata": {
+        "word_count": 13,
+        "char_count": 62,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": []
+      },
+      "created_at": "2026-03-13T14:02:25.758883"
+    },
+    {
+      "chunk_id": "L9250compilado_processed_preambulo_art_42",
+      "source_file": "L9250compilado_processed.md",
+      "article_number": "42",
+      "section": "Preâmbulo",
+      "hierarchy": {
+        "capitulo": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
+        "subtitulo": "Art. 41."
+      },
+      "hierarchy_string": "CAPÍTULO VIII - DISPOSIÇÕES FINAIS E TRANSITÓRIAS > Art. 41.",
+      "content": "* Art. 42.\n\nRevogam-se as disposições em contrário e, especialmente, o Decreto-Lei nº 1.380, de 23 de dezembro de 1974 , o art. 27 da Lei nº 7.713, de 22 de dezembro de 1988 , o art. 26 da Lei nº 8.218, de 29 de agosto de 1991 , e os arts. 8º a 20 e 23 da Lei nº 8.981, de 20 de janeiro de 1995 .\n\n\n  * Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.\n\n\n  * FERNANDO HENRIQUE CARDOSO Pedro Pullen Parente\n\n\n  * Este texto não substitui o publicado no D.O.U. de 27.12.1995\n\n---\n\n*Processado automaticamente pelo LION RAG System*",
+      "metadata": {
+        "word_count": 107,
+        "char_count": 555,
+        "has_paragraphs": false,
+        "has_incisos": false,
+        "has_alineas": false,
+        "num_paragraphs": 0,
+        "num_incisos": 0,
+        "num_alineas": 0,
+        "referencias_legislativas": [
+          "Lei nº 1.380,",
+          "Lei nº 7.713,",
+          "Lei nº 8.218,",
+          "Lei nº 8.981,"
+        ]
+      },
+      "created_at": "2026-03-13T14:02:25.762668"
+    }
+  ]
+}
