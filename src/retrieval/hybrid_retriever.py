@@ -41,7 +41,7 @@ class HybridRetriever:
         bm25_retriever: Optional[BM25Retriever] = None,
         alpha: float = 0.7,  # Peso do dense (0.7 = 70% dense, 30% BM25)
         top_k: int = 5,
-        rrf_k: int = 60
+        rrf_k: Optional[int] = None  # ✅ MELHORADO: Auto-calculate se None
     ):
         """
         Inicializa hybrid retriever.
@@ -51,13 +51,22 @@ class HybridRetriever:
             bm25_retriever: Retriever BM25
             alpha: Peso do dense retriever (0-1)
             top_k: Número de documentos finais
-            rrf_k: Constante RRF (tipicamente 60)
+            rrf_k: Constante RRF (se None, usa corpus_size/2). Padrão antigo: 60
         """
         self.dense_retriever = dense_retriever or create_dense_retriever()
         self.bm25_retriever = bm25_retriever
         self.alpha = alpha
         self.top_k = top_k
-        self.rrf_k = rrf_k
+        
+        # ✅ MELHORIA 3: Aumentar RRF-k baseado no corpus
+        # Padrão genérico k=60 é inadequado para corpus pequeno (1292 chunks)
+        # Usar k = corpus_size / 2 melhora escala de scores (0.016 → 0.0015)
+        if rrf_k is None:
+            total_chunks = self.dense_retriever.vector_store.count()
+            self.rrf_k = max(total_chunks // 2, 100)
+            print(f"   [Hybrid] RRF-k calculado automaticamente: {self.rrf_k} (corpus: {total_chunks})")
+        else:
+            self.rrf_k = rrf_k
         
         # Inicializar BM25 com docs do vector store se não fornecido
         if not self.bm25_retriever:

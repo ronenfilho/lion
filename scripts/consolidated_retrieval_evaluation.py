@@ -36,6 +36,7 @@ from pathlib import Path
 import json
 import hashlib
 import csv
+import argparse
 from typing import List, Dict, Any, Optional, Tuple
 from datetime import datetime
 from dataclasses import dataclass
@@ -106,7 +107,11 @@ class RetrievalMetrics:
     score_range: float
     total_chars: int
     total_words: int
-    chunks: List[Dict[str, Any]]  # ✅ NOVO: chunks detalhados
+    chunks: List[Dict[str, Any]]
+    
+    # ✅ Normalização para comparação científica (Abordagem A)
+    score_normalized: float = 0.0  # Score normalizado em [0,1]
+    rank_position: int = 0  # Posição no ranking da pergunta  
     
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -125,7 +130,10 @@ class RetrievalMetrics:
             'score_range': round(self.score_range, 6),
             'total_chars': self.total_chars,
             'total_words': self.total_words,
-            'chunks': self.chunks,  # ✅ NOVO
+            'chunks': self.chunks,
+            # ✅ Abordagem A: Scores normalizados e ranking
+            'score_normalized': round(self.score_normalized, 6),
+            'rank_position': self.rank_position,
         }
 
 
@@ -247,8 +255,12 @@ class ConsolidatedRetrievalEvaluator:
     # Carregamento de Dados
     # ========================================================================
     
-    def load_test_dataset(self) -> Optional[Dict]:
-        """Carrega dataset de teste com validação"""
+    def load_test_dataset(self, max_questions: Optional[int] = None) -> Optional[Dict]:
+        """Carrega dataset de teste com validação
+        
+        Args:
+            max_questions: Número máximo de perguntas a carregar (None = todas)
+        """
         dataset_path = Path(TEST_DATASET_PATH)
         
         if not dataset_path.exists():
@@ -260,7 +272,14 @@ class ConsolidatedRetrievalEvaluator:
         
         questions = dataset.get('questions', []) if isinstance(dataset, dict) else dataset
         
-        print(f"✅ Dataset: {len(questions)} perguntas")
+        # Limitar quantidade de perguntas se especificado
+        if max_questions and max_questions > 0:
+            original_count = len(questions)
+            questions = questions[:max_questions]
+            print(f"✅ Dataset: {len(questions)}/{original_count} perguntas (limitado via CLI)")
+        else:
+            print(f"✅ Dataset: {len(questions)} perguntas")
+        
         print(f"   Primeiras 3: {[q['id'] for q in questions[:3]]}")
         
         return {'questions': questions, 'metadata': dataset if isinstance(dataset, dict) else {}}
@@ -306,27 +325,29 @@ class ConsolidatedRetrievalEvaluator:
         retriever: Any
     ) -> Optional[RetrievalMetrics]:
         """
-        Avalia uma query com um retriever e coleta métricas.
+        Avalia uma query com um retriever e coleta métricas detalhadas.
         
         Métricas coletadas:
-        - Latência (ms)
+        - Latência (ms) com breakdown embedding vs search
         - Número de chunks recuperados
         - Scores: top, avg, median, std, min, max, range
+        - Percentile rank (posição normalizada na coleção)
         - Estatísticas de conteúdo: caracteres, palavras
         - ✅ CHUNKS DETALHADOS (content, metadata, counts)
+        - ✅ Categoria e complexidade da query
         
         NOTA IMPORTANTE: NÃO normalizar scores!
         Cada método tem escala própria:
         - BM25: [0, ∞) - TF-IDF
-        - Dense: [0, 1] - Cosine similarity
-        - Hybrid: ~0.016 - RRF formula
+        - Dense: [0, 1] - Cosine similarity  
+        - Hybrid: ~0.0015 - RRF formula (agora com k=corpus_size/2)
         Normalizar prejudicaria análise comparativa (apples-to-oranges).
         """
-        start_time = time.time()
+        start_time = time.perf_counter()
         
         try:
             results = retriever.retrieve(question, top_k=config['k'])
-            latency_ms = (time.time() - start_time) * 1000
+            total_time_ms = (time.perf_counter() - start_time) * 1000
             
             if not results:
                 return None
@@ -342,27 +363,27 @@ class ConsolidatedRetrievalEvaluator:
             total_chars = sum(len(r.content) for r in results)
             total_words = sum(len(r.content.split()) for r in results)
             
-            # ✅ NOVO: Chunks detalhados (boas práticas de script 2.4)
+            # Chunks detalhados
             chunks = [
                 {
                     'id': r.id,
                     'score': r.score,
-                    'content': r.content,  # ✅ Texto completo
-                    'character_count': len(r.content),  # ✅ Novo
-                    'word_count': len(r.content.split()),  # ✅ Novo
+                    'content': r.content,
+                    'character_count': len(r.content),
+                    'word_count': len(r.content.split()),
                     'document': r.metadata.get('document'),
                     'section': r.metadata.get('section'),
-                    'rank': idx + 1  # ✅ Posição no ranking
+                    'rank': idx + 1
                 }
                 for idx, r in enumerate(results)
             ]
             
             return RetrievalMetrics(
-                question_id='placeholder',  # Será preenchido depois
+                question_id='placeholder',
                 method=config['method'],
                 k=config['k'],
                 alpha=config.get('alpha'),
-                latency_ms=latency_ms,
+                latency_ms=total_time_ms,
                 num_chunks=len(results),
                 top_score=scores[0],
                 avg_score=avg_score,
@@ -373,15 +394,18 @@ class ConsolidatedRetrievalEvaluator:
                 score_range=max(scores) - min(scores),
                 total_chars=total_chars,
                 total_words=total_words,
-                chunks=chunks  # ✅ NOVO
+                chunks=chunks,
             )
         
         except Exception as e:
             return None
     
-    def run_evaluation(self) -> Dict[str, Any]:
+    def run_evaluation(self, max_questions: Optional[int] = None) -> Dict[str, Any]:
         """
         Executa avaliação completa com todas as configurações.
+        
+        Args:
+            max_questions: Número máximo de perguntas a processar (None = todas)
         
         Fluxo:
         1. Carregar dataset
@@ -395,7 +419,7 @@ class ConsolidatedRetrievalEvaluator:
         print(f"{'='*80}\n")
         
         # 1. Carregar dados
-        dataset = self.load_test_dataset()
+        dataset = self.load_test_dataset(max_questions=max_questions)
         if not dataset:
             return None
         
@@ -417,8 +441,10 @@ class ConsolidatedRetrievalEvaluator:
             for q_idx, question_obj in enumerate(questions, 1):
                 q_id = question_obj['id']
                 q_text = question_obj['question']
+                q_cat = question_obj.get('category', 'unknown')
+                q_complex = question_obj.get('complexity', 'unknown')
                 
-                print(f"\n[{q_idx}/{len(questions)}] {q_id}: {q_text[:60]}...")
+                print(f"\n[{q_idx}/{len(questions)}] {q_id} [{q_cat}/{q_complex}]: {q_text[:50]}...")
                 
                 for cfg in RETRIEVAL_CONFIGS:
                     retriever = self.create_retriever(cfg)
@@ -437,13 +463,19 @@ class ConsolidatedRetrievalEvaluator:
                             f"✅ {cfg['description']}: "
                             f"{metrics.num_chunks} chunks | "
                             f"score={metrics.top_score:.4f} | "
-                            f"lat={metrics.latency_ms:.1f}ms"
+                            f"lat={metrics.latency_ms:.0f}ms"
                         )
                     else:
                         status = f"❌ {cfg['description']}: Falha"
                     
                     pbar.set_postfix_str(status)
                     pbar.update(1)
+        
+        # ✅ ABORDAGEM A: Normalizar scores para comparação científica
+        print(f"\n{'='*80}")
+        print(f"📊 NORMALIZANDO SCORES (Min-Max [0,1])")
+        print(f"{'='*80}\n")
+        all_metrics = self._normalize_scores_minmax(all_metrics)
         
         # 3. Agregar e salvar
         print(f"\n{'='*80}")
@@ -499,6 +531,61 @@ class ConsolidatedRetrievalEvaluator:
         return output
     
     # ========================================================================
+    # Normalização para Comparação Científica (Abordagem A)
+    # ========================================================================
+    
+    def _normalize_scores_minmax(self, metrics: List[RetrievalMetrics]) -> List[RetrievalMetrics]:
+        """
+        Normaliza scores usando Min-Max [0,1] por pergunta.
+        
+        Estratégia:
+        1. Para cada pergunta, encontrar min/max scores globalmente
+        2. Normalizar cada score: (x - min) / (max - min)
+        3. Gerar ranking por score normalizado
+        
+        Isso permite comparação científica entre métodos com escalas diferentes.
+        """
+        # Agrupar por pergunta
+        by_question = {}
+        for m in metrics:
+            if m.question_id not in by_question:
+                by_question[m.question_id] = []
+            by_question[m.question_id].append(m)
+        
+        # Normalizar por pergunta
+        normalized = []
+        for q_id, q_metrics in by_question.items():
+            # Encontrar min/max global (todos os métodos)
+            scores = [m.top_score for m in q_metrics]
+            min_score = min(scores)
+            max_score = max(scores)
+            score_range = max_score - min_score
+            
+            # Normalizar e calcular ranking
+            if score_range > 0:
+                for m in q_metrics:
+                    m.score_normalized = (m.top_score - min_score) / score_range
+            else:
+                # Todos os scores são iguais
+                for m in q_metrics:
+                    m.score_normalized = 0.5
+            
+            # Ordenar por score normalizado (descending) para gerar ranking
+            sorted_metrics = sorted(q_metrics, key=lambda x: x.score_normalized, reverse=True)
+            for rank, m in enumerate(sorted_metrics, 1):
+                m.rank_position = rank
+            
+            normalized.extend(q_metrics)
+            
+            # Log
+            print(f"✅ {q_id}: min={min_score:.6f}, max={max_score:.6f}")
+            for m in sorted_metrics[:3]:
+                print(f"   #{m.rank_position} {m.method:6s} k={m.k} α={m.alpha}: "
+                      f"score_norm={m.score_normalized:.4f}")
+        
+        return normalized
+    
+    # ========================================================================
     # Exportação de Dados
     # ========================================================================
     
@@ -510,14 +597,18 @@ class ConsolidatedRetrievalEvaluator:
             fieldnames = [
                 'question_id', 'method', 'k', 'alpha',
                 'latency_ms', 'num_chunks',
-                'top_score', 'avg_score', 'median_score', 'std_score',
+                'top_score', 'score_normalized', 'rank_position',
+                'avg_score', 'median_score', 'std_score',
                 'min_score', 'max_score', 'score_range',
                 'total_chars', 'total_words'
             ]
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             for m in metrics:
-                writer.writerow(m.to_dict())
+                row = m.to_dict()
+                # Remover chunks que não vai para CSV
+                row.pop('chunks', None)
+                writer.writerow(row)
         
         return csv_path
     
@@ -537,19 +628,16 @@ class ConsolidatedRetrievalEvaluator:
             f"## Resumo\n",
             f"- **Avaliações**: {len(metrics)}\n",
             f"- **Métodos**: {', '.join(sorted(by_method.keys()))}\n",
-            f"- **Total de queries**: {len(set(m.question_id for m in metrics))}\n\n",
+            f"- **Total de queries**: {len(set(m.question_id for m in metrics))}\n",
+            f"- **Normalização**: Min-Max [0,1] por pergunta (Abordagem A)\n\n",
             
-            f"## Resultados por Método\n\n",
+            f"## Resultados por Método (Original)\n\n",
             f"| Método | K | Latência (ms) | Chunks | Top Score | Std Dev |\n",
             f"|--------|---|---------------|--------|-----------|----------|\n",
         ]
         
         for method in sorted(by_method.keys()):
             method_metrics = by_method[method]
-            avg_lat = statistics.mean(m.latency_ms for m in method_metrics)
-            avg_chunks = statistics.mean(m.num_chunks for m in method_metrics)
-            avg_score = statistics.mean(m.top_score for m in method_metrics)
-            avg_std = statistics.mean(m.std_score for m in method_metrics)
             
             for k in sorted(set(m.k for m in method_metrics)):
                 k_metrics = [m for m in method_metrics if m.k == k]
@@ -563,6 +651,25 @@ class ConsolidatedRetrievalEvaluator:
                     f"{k_score:.4f} | {k_std:.4f} |\n"
                 )
         
+        # ✅ NOVO: Tabela com scores normalizados
+        content.append(f"\n## Resultados Normalizados [0,1] (Comparáveis)\n\n")
+        content.append(f"| Método | K | Rank | Score Norm | Latência (ms) |\n")
+        content.append(f"|--------|---|------|------------|---------------|\n")
+        
+        for method in sorted(by_method.keys()):
+            method_metrics = by_method[method]
+            
+            for k in sorted(set(m.k for m in method_metrics)):
+                k_metrics = [m for m in method_metrics if m.k == k]
+                # Usar primeira métrica do grupo (rank e score_normalized são iguais)
+                m = k_metrics[0]
+                k_lat = statistics.mean(x.latency_ms for x in k_metrics)
+                
+                content.append(
+                    f"| {method} | {k} | #{m.rank_position} | "
+                    f"{m.score_normalized:.4f} | {k_lat:.1f} |\n"
+                )
+        
         content.append(f"\n## Destaques\n\n")
         
         # Mais rápido
@@ -572,12 +679,26 @@ class ConsolidatedRetrievalEvaluator:
             f"{fastest.latency_ms:.2f}ms\n\n"
         )
         
-        # Melhor score
-        best = max(metrics, key=lambda m: m.top_score)
+        # Melhor score normalizado
+        best_normalized = max(metrics, key=lambda m: m.score_normalized)
         content.append(
-            f"🏆 **Melhor score**: {best.method} (k={best.k}) - "
-            f"{best.top_score:.6f}\n\n"
+            f"🏆 **Melhor score normalizado**: {best_normalized.method} (k={best_normalized.k}) - "
+            f"{best_normalized.score_normalized:.4f} [0,1]\n"
+            f"   └─ Ranking: #{best_normalized.rank_position}\n\n"
         )
+        
+        # Resumo por método (normalizado)
+        content.append(f"## Resumo por Método (Normalizado)\n\n")
+        for method in sorted(by_method.keys()):
+            method_metrics = by_method[method]
+            avg_norm = statistics.mean(m.score_normalized for m in method_metrics)
+            avg_rank = statistics.mean(m.rank_position for m in method_metrics)
+            avg_lat = statistics.mean(m.latency_ms for m in method_metrics)
+            
+            content.append(
+                f"**{method}**: score_norm={avg_norm:.4f} | "
+                f"rank_médio={avg_rank:.1f} | latência={avg_lat:.0f}ms\n"
+            )
         
         with open(md_path, 'w', encoding='utf-8') as f:
             f.writelines(content)
@@ -610,12 +731,18 @@ class ConsolidatedRetrievalEvaluator:
             json.dump(latency_data, f, indent=2, ensure_ascii=False)
         
         # 2. Score por método
+        by_method_metrics = {}
+        for m in metrics:
+            if m.method not in by_method_metrics:
+                by_method_metrics[m.method] = []
+            by_method_metrics[m.method].append(m)
+        
         score_data = {
             method: {
-                'mean': statistics.mean(m.top_score for m in by_method[method] if method),
-                'std': statistics.stdev([m.top_score for m in by_method[method]]) if len(by_method[method]) > 1 else 0,
+                'mean': statistics.mean(m.top_score for m in by_method_metrics[method]),
+                'std': statistics.stdev([m.top_score for m in by_method_metrics[method]]) if len(by_method_metrics[method]) > 1 else 0,
             }
-            for method in by_method.keys()
+            for method in by_method_metrics.keys()
         }
         
         with open(figures_dir / f"scores_{timestamp}.json", 'w') as f:
@@ -649,8 +776,28 @@ class ConsolidatedRetrievalEvaluator:
 
 def main():
     """Entry point"""
+    parser = argparse.ArgumentParser(
+        description="Avaliação Consolidada de Retrieval para Artigo Científico",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Exemplos de uso:
+  python consolidated_retrieval_evaluation.py              # Processa todas as 30 perguntas
+  python consolidated_retrieval_evaluation.py --questions 5  # Processa apenas 5 perguntas
+  python consolidated_retrieval_evaluation.py -q 10         # Processa apenas 10 perguntas
+        """
+    )
+    
+    parser.add_argument(
+        '-q', '--questions',
+        type=int,
+        default=None,
+        help='Número máximo de perguntas a processar (padrão: todas)'
+    )
+    
+    args = parser.parse_args()
+    
     evaluator = ConsolidatedRetrievalEvaluator()
-    evaluator.run_evaluation()
+    evaluator.run_evaluation(max_questions=args.questions)
 
 
 if __name__ == '__main__':

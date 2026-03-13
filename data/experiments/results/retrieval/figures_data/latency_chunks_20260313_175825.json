@@ -1,0 +1,302 @@
+[
+  {
+    "method": "dense",
+    "k": 3,
+    "latency": 665.9014699980617,
+    "chunks": 3
+  },
+  {
+    "method": "dense",
+    "k": 5,
+    "latency": 444.03089582920074,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 10,
+    "latency": 614.8938999976963,
+    "chunks": 10
+  },
+  {
+    "method": "bm25",
+    "k": 3,
+    "latency": 2.279528183862567,
+    "chunks": 3
+  },
+  {
+    "method": "bm25",
+    "k": 5,
+    "latency": 2.1335280034691095,
+    "chunks": 5
+  },
+  {
+    "method": "bm25",
+    "k": 10,
+    "latency": 2.097813878208399,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 3,
+    "latency": 394.9441979639232,
+    "chunks": 3
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 404.85197701491416,
+    "chunks": 5
+  },
+  {
+    "method": "hybrid",
+    "k": 10,
+    "latency": 374.53534617088735,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 393.85966793634,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 3,
+    "latency": 649.2432220838964,
+    "chunks": 3
+  },
+  {
+    "method": "dense",
+    "k": 5,
+    "latency": 669.5759959984571,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 10,
+    "latency": 648.9442260935903,
+    "chunks": 10
+  },
+  {
+    "method": "bm25",
+    "k": 3,
+    "latency": 2.6059120427817106,
+    "chunks": 3
+  },
+  {
+    "method": "bm25",
+    "k": 5,
+    "latency": 2.6826730463653803,
+    "chunks": 5
+  },
+  {
+    "method": "bm25",
+    "k": 10,
+    "latency": 3.2329990062862635,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 3,
+    "latency": 398.11004302464426,
+    "chunks": 3
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 391.43552212044597,
+    "chunks": 5
+  },
+  {
+    "method": "hybrid",
+    "k": 10,
+    "latency": 412.16559591703117,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 417.0414679683745,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 3,
+    "latency": 620.523639023304,
+    "chunks": 3
+  },
+  {
+    "method": "dense",
+    "k": 5,
+    "latency": 675.1419059000909,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 10,
+    "latency": 408.43447390943766,
+    "chunks": 10
+  },
+  {
+    "method": "bm25",
+    "k": 3,
+    "latency": 5.718663800507784,
+    "chunks": 3
+  },
+  {
+    "method": "bm25",
+    "k": 5,
+    "latency": 5.687124095857143,
+    "chunks": 5
+  },
+  {
+    "method": "bm25",
+    "k": 10,
+    "latency": 3.5700148437172174,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 3,
+    "latency": 405.0401169806719,
+    "chunks": 3
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 394.03670304454863,
+    "chunks": 5
+  },
+  {
+    "method": "hybrid",
+    "k": 10,
+    "latency": 1044.4269350264221,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 398.0348310433328,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 3,
+    "latency": 400.83658997900784,
+    "chunks": 3
+  },
+  {
+    "method": "dense",
+    "k": 5,
+    "latency": 377.20718001946807,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 10,
+    "latency": 668.294332921505,
+    "chunks": 10
+  },
+  {
+    "method": "bm25",
+    "k": 3,
+    "latency": 4.722988000139594,
+    "chunks": 3
+  },
+  {
+    "method": "bm25",
+    "k": 5,
+    "latency": 3.9056551177054644,
+    "chunks": 5
+  },
+  {
+    "method": "bm25",
+    "k": 10,
+    "latency": 4.805747885257006,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 3,
+    "latency": 398.5804719850421,
+    "chunks": 3
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 407.228740863502,
+    "chunks": 5
+  },
+  {
+    "method": "hybrid",
+    "k": 10,
+    "latency": 364.2555698752403,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 393.93515908159316,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 3,
+    "latency": 415.41495895944536,
+    "chunks": 3
+  },
+  {
+    "method": "dense",
+    "k": 5,
+    "latency": 388.8108490500599,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 10,
+    "latency": 659.7597058862448,
+    "chunks": 10
+  },
+  {
+    "method": "bm25",
+    "k": 3,
+    "latency": 4.7806729562580585,
+    "chunks": 3
+  },
+  {
+    "method": "bm25",
+    "k": 5,
+    "latency": 5.712443962693214,
+    "chunks": 5
+  },
+  {
+    "method": "bm25",
+    "k": 10,
+    "latency": 5.424279952421784,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 3,
+    "latency": 391.4854780305177,
+    "chunks": 3
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 377.7379500679672,
+    "chunks": 5
+  },
+  {
+    "method": "hybrid",
+    "k": 10,
+    "latency": 413.3598250336945,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 1058.9117528870702,
+    "chunks": 5
+  }
+]
