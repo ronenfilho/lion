@@ -106,6 +106,7 @@ class RetrievalMetrics:
     score_range: float
     total_chars: int
     total_words: int
+    chunks: List[Dict[str, Any]]  # ✅ NOVO: chunks detalhados
     
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -124,6 +125,7 @@ class RetrievalMetrics:
             'score_range': round(self.score_range, 6),
             'total_chars': self.total_chars,
             'total_words': self.total_words,
+            'chunks': self.chunks,  # ✅ NOVO
         }
 
 
@@ -311,6 +313,14 @@ class ConsolidatedRetrievalEvaluator:
         - Número de chunks recuperados
         - Scores: top, avg, median, std, min, max, range
         - Estatísticas de conteúdo: caracteres, palavras
+        - ✅ CHUNKS DETALHADOS (content, metadata, counts)
+        
+        NOTA IMPORTANTE: NÃO normalizar scores!
+        Cada método tem escala própria:
+        - BM25: [0, ∞) - TF-IDF
+        - Dense: [0, 1] - Cosine similarity
+        - Hybrid: ~0.016 - RRF formula
+        Normalizar prejudicaria análise comparativa (apples-to-oranges).
         """
         start_time = time.time()
         
@@ -332,6 +342,21 @@ class ConsolidatedRetrievalEvaluator:
             total_chars = sum(len(r.content) for r in results)
             total_words = sum(len(r.content.split()) for r in results)
             
+            # ✅ NOVO: Chunks detalhados (boas práticas de script 2.4)
+            chunks = [
+                {
+                    'id': r.id,
+                    'score': r.score,
+                    'content': r.content,  # ✅ Texto completo
+                    'character_count': len(r.content),  # ✅ Novo
+                    'word_count': len(r.content.split()),  # ✅ Novo
+                    'document': r.metadata.get('document'),
+                    'section': r.metadata.get('section'),
+                    'rank': idx + 1  # ✅ Posição no ranking
+                }
+                for idx, r in enumerate(results)
+            ]
+            
             return RetrievalMetrics(
                 question_id='placeholder',  # Será preenchido depois
                 method=config['method'],
@@ -347,7 +372,8 @@ class ConsolidatedRetrievalEvaluator:
                 max_score=max(scores),
                 score_range=max(scores) - min(scores),
                 total_chars=total_chars,
-                total_words=total_words
+                total_words=total_words,
+                chunks=chunks  # ✅ NOVO
             )
         
         except Exception as e:
