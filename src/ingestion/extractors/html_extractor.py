@@ -245,7 +245,7 @@ class HTMLExtractor(BaseExtractor):
                 processed_elements.add(el)
                 continue
             
-            if re.match(r"^\s*TÍTULO\s+[IVXLCDM]+\s*$", text, re.I):
+            if re.match(r"^\s*TÍTULO\s+[IVXLCDM]+(?:-[A-Z]+)?\s*$", text, re.I):
                 _flush()
                 current_section = HTMLSection(title=text, content="", level=2, tag_name=el.name)
                 content_buffer = []
@@ -368,31 +368,31 @@ class HTMLExtractor(BaseExtractor):
                 
                 # LIVRO X + DA/DO/DAS... (ambas vazias)
                 elif not next_sec.content.strip() and \
-                     re.match(r"LIVRO\s+[IVXLCDM]+$", current_title_upper) and \
+                     re.match(r"LIVRO\s+[IVXLCDM]+(?:-[A-Z]+)?$", current_title_upper) and \
                      re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
                     should_combine = True
                 
                 # TÍTULO X + DA/DO/DAS... (ambas vazias)
                 elif not next_sec.content.strip() and \
-                     re.match(r"TÍTULO\s+[IVXLCDM]+$", current_title_upper) and \
+                     re.match(r"TÍTULO\s+[IVXLCDM]+(?:-[A-Z]+)?$", current_title_upper) and \
                      re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper):
                     should_combine = True
                 
                 # CAPÍTULO X + texto descritivo (começando com DA/DO/DAS/DOS ou não artigo)
                 elif not next_sec.content.strip() and \
-                     re.match(r"CAPÍTULO\s+[IVXLCDM0-9]+$", current_title_upper) and \
+                     re.match(r"CAPÍTULO\s+[IVXLCDM0-9]+(?:-[A-Z]+)?$", current_title_upper) and \
                      (re.match(r"^(DA|DO|DAS|DOS)\s+", next_title_upper) or not re.match(r"^ART\.", next_title_upper)):
                     should_combine = True
                 
                 # Seção X + texto descritivo (ambas vazias, não artigo)
                 elif not next_sec.content.strip() and \
-                     re.match(r"SE[ÇC][ÃA]O\s+[IVXLCDM0-9]+$", current_title_upper, re.I) and \
+                     re.match(r"SE[ÇC][ÃA]O\s+[IVXLCDM0-9]+(?:-[A-Z]+)?$", current_title_upper, re.I) and \
                      not re.match(r"^ART\.", next_title_upper):
                     should_combine = True
                 
                 # Subseção X/única + texto descritivo (ambas vazias, não artigo)
                 elif not next_sec.content.strip() and \
-                     re.match(r"SUBSE[ÇC][ÃA]O\s+(ÚNICA|[IVXLCDM0-9]+)$", current_title_upper, re.I) and \
+                     re.match(r"SUBSE[ÇC][ÃA]O\s+(ÚNICA|[IVXLCDM0-9]+(?:-[A-Z]+)?)$", current_title_upper, re.I) and \
                      not re.match(r"^ART\.", next_title_upper):
                     should_combine = True
                 
