@@ -48,8 +48,11 @@ class ExperimentRunner:
         self.results_dir = Path(results_dir)
         self.results_dir.mkdir(parents=True, exist_ok=True)
         
-        # Criar subdiretórios para organização
-        self.raw_dir = self.results_dir / "raw"
+        # Gerar ID único para esta execução (para agrupar experimentos da mesma rodada)
+        self.run_id = datetime.now().strftime('%Y%m%d_%H%M%S')
+        
+        # Criar subdiretórios para organização (usando run_id em vez de "raw")
+        self.raw_dir = self.results_dir / self.run_id
         self.analysis_dir = self.results_dir / "analysis"
         self.raw_dir.mkdir(parents=True, exist_ok=True)
         self.analysis_dir.mkdir(parents=True, exist_ok=True)
@@ -67,13 +70,15 @@ class ExperimentRunner:
         self.bert_evaluator = BERTScoreEvaluator()
         
         logging.info("ExperimentRunner inicializado")
+        logging.info(f"Run ID: {self.run_id}")
         logging.info(f"Dataset: {len(self.dataset['questions'])} perguntas")
-        logging.info(f"Resultados raw: {self.raw_dir}")
+        logging.info(f"Resultados: {self.raw_dir}")
         logging.info(f"Análises: {self.analysis_dir}")
         
         print(f"✅ ExperimentRunner inicializado")
+        print(f"   Run ID: {self.run_id}")
         print(f"   Dataset: {len(self.dataset['questions'])} perguntas")
-        print(f"   Resultados raw: {self.raw_dir}")
+        print(f"   Resultados: {self.raw_dir}")
         print(f"   Análises: {self.analysis_dir}")
     
     def _setup_logging(self):
@@ -232,13 +237,11 @@ class ExperimentRunner:
         # Agregar métricas
         aggregated = self._aggregate_metrics(results)
         
-        # Criar timestamp para o arquivo
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        
         # Salvar resultados
         output_data = {
             'experiment_name': experiment_name,
             'config': config,
+            'run_id': self.run_id,
             'timestamp': datetime.now().isoformat(),
             'total_questions': len(questions),
             'successful_queries': len([r for r in results if 'error' not in r]),
@@ -247,8 +250,8 @@ class ExperimentRunner:
             'individual_results': results
         }
         
-        # Salvar no diretório raw/ com timestamp
-        output_path = self.raw_dir / f'{experiment_name}_{timestamp}.json'
+        # Salvar no diretório run_id/ (run_id já agrupa os experimentos)
+        output_path = self.raw_dir / f'{experiment_name}.json'
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=2, ensure_ascii=False)
         
@@ -541,12 +544,10 @@ class ExperimentRunner:
             # Pausa entre experimentos
             time.sleep(2)
         
-        # Criar timestamp para o arquivo de sumário
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        
         # Salvar sumário
         summary = {
             'experiment_type': experiment_type,
+            'run_id': self.run_id,
             'timestamp': datetime.now().isoformat(),
             'total_experiments': len(experiments),
             'experiments': [
@@ -559,8 +560,8 @@ class ExperimentRunner:
             ]
         }
         
-        # Salvar sumário no diretório raw/ com timestamp
-        summary_path = self.raw_dir / f'{experiment_type}_summary_{timestamp}.json'
+        # Salvar sumário no diretório run_id/
+        summary_path = self.raw_dir / f'{experiment_type}_summary.json'
         with open(summary_path, 'w', encoding='utf-8') as f:
             json.dump(summary, f, indent=2, ensure_ascii=False)
         
