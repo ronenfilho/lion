@@ -6,6 +6,7 @@ Sistema para execução de experimentos comparativos do RAG
 import json
 import argparse
 import logging
+import os
 from pathlib import Path
 from typing import List, Dict, Optional, Any
 from datetime import datetime
@@ -733,6 +734,101 @@ class ExperimentRunner:
                 }
             ]
 
+        elif experiment_type == 'large_vs_small_model_bm25':
+            """
+            Experimento científico: Comparação Large vs Small Model com BM25
+            
+            Design: Matriz fatorial 2×2×3
+            - Tamanho: Gemini (grande) vs Llama 3.1 8B (pequeno)
+            - RAG: Com/Sem
+            - Contexto: k ∈ {3, 5, 10}
+            
+            Objetivo: Demonstrar impacto científico de RAG em modelos diferentes
+            Métrica: answer_relevancy, faithfulness, context_precision, context_recall
+            
+            Modelo Gemini configurável via .env: GEMINI_MODEL
+            """
+            # Ler modelo Gemini do .env
+            gemini_model = os.getenv('GEMINI_MODEL', 'gemini-3-flash')
+            
+            return [
+                # === BASELINE (Sem RAG) ===
+                {
+                    'name': 'gemini_baseline',
+                    'config': {
+                        'use_rag': False,
+                        'llm': gemini_model
+                    }
+                },
+                {
+                    'name': 'llama_baseline',
+                    'config': {
+                        'use_rag': False,
+                        'llm': 'groq:llama-3.1-8b-instant'
+                    }
+                },
+                
+                # === GRUPO B: RAG com k=3 (Contexto Mínimo) ===
+                {
+                    'name': 'gemini_bm25_k3',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 3,
+                        'llm': gemini_model
+                    }
+                },
+                {
+                    'name': 'llama_bm25_k3',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 3,
+                        'llm': 'groq:llama-3.1-8b-instant'
+                    }
+                },
+                
+                # === GRUPO C: RAG com k=5 (Contexto Padrão) ===
+                {
+                    'name': 'gemini_bm25_k5',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 5,
+                        'llm': gemini_model
+                    }
+                },
+                {
+                    'name': 'llama_bm25_k5',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 5,
+                        'llm': 'groq:llama-3.1-8b-instant'
+                    }
+                },
+                
+                # === GRUPO D: RAG com k=10 (Contexto Rico) ===
+                {
+                    'name': 'gemini_bm25_k10',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 10,
+                        'llm': gemini_model
+                    }
+                },
+                {
+                    'name': 'llama_bm25_k10',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 10,
+                        'llm': 'groq:llama-3.1-8b-instant'
+                    }
+                }
+            ]
+        
         elif experiment_type == 'model_comparison':
             return [
                 # === BASELINE (Sem RAG) ===
@@ -896,7 +992,7 @@ def main():
     parser.add_argument(
         '--experiment',
         required=True,
-        choices=['rag_vs_no_rag', 'retrieval_strategy', 'chunk_count', 'llm_size', 'model_comparison'],
+        choices=['rag_vs_no_rag', 'retrieval_strategy', 'chunk_count', 'llm_size', 'large_vs_small_model_bm25', 'model_comparison'],
         help='Tipo de experimento a executar'
     )
     
