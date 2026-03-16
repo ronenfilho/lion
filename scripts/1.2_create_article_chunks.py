@@ -449,11 +449,14 @@ class ArticleChunker:
         """
         Extrai hierarquia procurando para trás no texto
         
+        Nota: Se a hierarquia contiver APENAS "subtítulo" (artigo anterior),
+        retorna HierarchyLevel vazio, pois artigos anteriores não são hierarquia real.
+        
         Args:
             text_before_article: Texto anterior ao artigo
             
         Returns:
-            HierarchyLevel com a hierarquia encontrada
+            HierarchyLevel com a hierarquia encontrada (ou vazio se apenas subtítulo)
         """
         hierarchy = HierarchyLevel()
         
@@ -488,18 +491,29 @@ class ArticleChunker:
         if subsecao_match:
             hierarchy.subsecao = subsecao_match.group(1).strip()
         
+        # Verificar se já temos uma hierarquia real (não apenas subtítulo)
+        has_real_hierarchy = any([
+            hierarchy.livro,
+            hierarchy.titulo,
+            hierarchy.capitulo,
+            hierarchy.secao,
+            hierarchy.subsecao
+        ])
+        
         # Buscar subtítulo (última linha antes do artigo que não seja heading)
-        lines_before = text_before_article.split('\n')
-        for line in reversed(lines_before[-20:]):  # Últimas 20 linhas
-            line = line.strip()
-            if self.SUBTITULO_PATTERN.match(line):
-                # Remover asterisco inicial
-                hierarchy.subtitulo = line.lstrip('*').strip()
-                break
-            # Parar se encontrar um heading (começou outra seção)
-            if line.startswith('#') or line.startswith('*'):
-                if 'Art.' in line or '**' in line:
+        # MAS: só adicionar subtítulo se houver hierarquia real anterior
+        if has_real_hierarchy:
+            lines_before = text_before_article.split('\n')
+            for line in reversed(lines_before[-20:]):  # Últimas 20 linhas
+                line = line.strip()
+                if self.SUBTITULO_PATTERN.match(line):
+                    # Remover asterisco inicial
+                    hierarchy.subtitulo = line.lstrip('*').strip()
                     break
+                # Parar se encontrar um heading (começou outra seção)
+                if line.startswith('#') or line.startswith('*'):
+                    if 'Art.' in line or '**' in line:
+                        break
         
         return hierarchy
     
