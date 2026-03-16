@@ -153,14 +153,16 @@ class RAGASEvaluator:
                 try:
                     from langchain_openai import ChatOpenAI
                     
+                    model_name = os.getenv('RAGAS_LLM_MODEL', 'gpt-4o-mini')
+                    
                     llm = ChatOpenAI(
-                        model="gpt-3.5-turbo",
+                        model=model_name,
                         api_key=api_key,
                         temperature=0.2
                     )
                     
                     if self.verbose:
-                        print("✅ RAGAS configurado com OpenAI")
+                        print(f"✅ RAGAS configurado com OpenAI ({model_name})")
                     
                     return llm
                     
