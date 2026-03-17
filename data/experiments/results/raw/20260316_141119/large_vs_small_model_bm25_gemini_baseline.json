@@ -1,0 +1,24 @@
+{
+  "experiment_name": "large_vs_small_model_bm25_gemini_baseline",
+  "config": {
+    "use_rag": false,
+    "llm": "gemini-2.5-flash-lite"
+  },
+  "run_id": "20260316_141119",
+  "timestamp": "2026-03-16T14:11:21.608266",
+  "total_questions": 1,
+  "successful_queries": 0,
+  "failed_queries": 1,
+  "aggregated_metrics": {},
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "error": "'ExperimentRunner' object has no attribute 'verbose'",
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-2.5-flash-lite"
+      }
+    }
+  ]
+}

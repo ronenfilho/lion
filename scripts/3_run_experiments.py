@@ -387,9 +387,22 @@ class ExperimentRunner:
                 for r in retrieval_results
             ]
             contexts = [r.content for r in retrieval_results]
+            print(f"  ✓ Recuperados {len(chunks)} chunks via BM25")
+            for i, chunk in enumerate(chunks[:2], 1):  # Mostrar primeiros 2
+                preview = chunk['content'][:100].replace('\n', ' ')
+                print(f"    Chunk {i}: {preview}...")
+        else:
+            print(f"  ℹ Sem RAG: nenhum chunk recuperado")
+            
+            # Debug: verificar chunks recuperados
+            if self.verbose or True:  # Always log for debugging RAG
+                logging.info(f"  RAG: {len(chunks)} chunks recuperados para '{question[:50]}...'")
+                for i, chunk in enumerate(chunks[:2]):  # Show first 2
+                    logging.info(f"    Chunk {i+1}: {chunk['id']} (score: {chunk['score']:.4f})")
         
         # Gerar resposta
         if config.get('use_rag', True) and contexts:
+            logging.info(f"  ✅ Enviando {len(contexts)} chunks para {config.get('llm', 'unknown')}")
             # Verificar se usa few-shot
             if config.get('use_few_shot', False):
                 # Carregar exemplos do dataset (perguntas 2-4)
@@ -407,6 +420,9 @@ class ExperimentRunner:
                 )
         else:
             # Sem RAG: apenas pergunta
+            if config.get('use_rag', True) and not contexts:
+                logging.warning(f"  ⚠️  RAG configurado mas SEM chunks recuperados para '{question[:50]}...'")
+            logging.info(f"  ℹ️  Modo: {'SEM RAG' if not config.get('use_rag', True) else 'RAG SEM CONTEXTO'}")
             prompt = self.prompt_manager.generate_no_rag_prompt(question)
         
         generation_result = llm_client.generate(prompt)
@@ -416,6 +432,9 @@ class ExperimentRunner:
         core_answer = self._extract_core_answer(full_answer)
         
         latency = (time.time() - start_time) * 1000  # ms
+        
+        # Debug: confirmar resposta gerada
+        logging.info(f"  📤 Resposta gerada: {core_answer[:80]}... ({generation_result.tokens_used} tokens)")
         
         # Calcular métricas
         metrics = {
