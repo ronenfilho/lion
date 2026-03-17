@@ -64,6 +64,7 @@ class ExperimentRunner:
         self.vector_store = create_vector_store()
         self.embeddings = create_embeddings_pipeline()
         self.prompt_manager = PromptManager()
+        self.verbose = True  # Enable verbose logging
         
         # Avaliadores
         self.ragas_evaluator = create_ragas_evaluator()

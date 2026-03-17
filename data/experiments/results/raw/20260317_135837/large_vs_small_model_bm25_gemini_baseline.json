@@ -1,0 +1,42 @@
+{
+  "experiment_name": "large_vs_small_model_bm25_gemini_baseline",
+  "config": {
+    "use_rag": false,
+    "llm": "gemini-3.1-flash-lite-preview"
+  },
+  "run_id": "20260317_135837",
+  "timestamp": "2026-03-17T13:58:39.308200",
+  "total_questions": 3,
+  "successful_queries": 0,
+  "failed_queries": 3,
+  "aggregated_metrics": {},
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "error": "'ExperimentRunner' object has no attribute 'verbose'",
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-3.1-flash-lite-preview"
+      }
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "error": "'ExperimentRunner' object has no attribute 'verbose'",
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-3.1-flash-lite-preview"
+      }
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "error": "'ExperimentRunner' object has no attribute 'verbose'",
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-3.1-flash-lite-preview"
+      }
+    }
+  ]
+}
