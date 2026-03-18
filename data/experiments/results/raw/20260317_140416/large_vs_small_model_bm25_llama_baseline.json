@@ -1,0 +1,112 @@
+{
+  "experiment_name": "large_vs_small_model_bm25_llama_baseline",
+  "config": {
+    "use_rag": false,
+    "llm": "groq:llama-3.1-8b-instant"
+  },
+  "run_id": "20260317_140416",
+  "timestamp": "2026-03-17T14:16:22.411096",
+  "total_questions": 3,
+  "successful_queries": 3,
+  "failed_queries": 0,
+  "aggregated_metrics": {
+    "latency_ms_mean": 804.7660986582438,
+    "latency_ms_std": 81.54334972541533,
+    "latency_ms_min": 712.6486301422119,
+    "latency_ms_max": 910.9060764312744,
+    "latency_ms_median": 790.7435894012451,
+    "num_chunks_mean": 0.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 0.0,
+    "num_chunks_max": 0.0,
+    "num_chunks_median": 0.0,
+    "tokens_used_mean": 405.6666666666667,
+    "tokens_used_std": 54.70730197047639,
+    "tokens_used_min": 365.0,
+    "tokens_used_max": 483.0,
+    "tokens_used_median": 369.0,
+    "bertscore_precision_mean": 0.5363848209381104,
+    "bertscore_precision_std": 0.013223994276420242,
+    "bertscore_precision_min": 0.5226457118988037,
+    "bertscore_precision_max": 0.5542424917221069,
+    "bertscore_precision_median": 0.5322662591934204,
+    "bertscore_recall_mean": 0.5932724078496298,
+    "bertscore_recall_std": 0.019512737479967034,
+    "bertscore_recall_min": 0.576700747013092,
+    "bertscore_recall_max": 0.6206672787666321,
+    "bertscore_recall_median": 0.582449197769165,
+    "bertscore_f1_mean": 0.562977135181427,
+    "bertscore_f1_std": 0.004856482276532978,
+    "bertscore_f1_min": 0.5562281608581543,
+    "bertscore_f1_max": 0.5674546360969543,
+    "bertscore_f1_median": 0.5652486085891724
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois a data de corte do meu conhecimento é 01 de janeiro de 2023. No entanto, posso sugerir algumas opções para você:\n\n1. Verifique se a Lei nº 15.270, de 2025, foi publicada no Diário Oficial da União (DOU) e se está disponível no site da Imprensa Nacional (in.gov.br).\n2. Consulte o site do Congresso Nacional (congresso.leg.br) para obter informações sobre a lei, incluindo seu texto, justificativa e votação.\n3. Entre em contato com o Ministério da Fazenda ou a Receita Federal do Brasil (RFB) para obter informações sobre a lei e seus objetivos.\n\nSe você tiver mais informações sobre a Lei nº 15.270, de 2025, como o seu conteúdo ou o seu objetivo, posso tentar ajudar a responder sua pergunta com base no meu conhecimento atual.",
+      "answer_core": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois a data de corte do meu conhecimento é 01 de janeiro de 2023. No entanto, posso sugerir algumas opções para você:\n\n1. Verifique se a Lei nº 15.270, de 2025, foi publicada no Diário Oficial da União (DOU) e se está disponível no site da Imprensa Nacional (in.gov.br).\n2. Consulte o site do Congresso Nacional (congresso.leg.br) para obter informações sobre a lei, incluindo seu texto, justificativa e votação.\n3. Entre em contato com o Ministério da Fazenda ou a Receita Federal do Brasil (RFB) para obter informações sobre a lei e seus objetivos.\n\nSe você tiver mais informações sobre a Lei nº 15.270, de 2025, como o seu conteúdo ou o seu objetivo, posso tentar ajudar a responder sua pergunta com base no meu conhecimento atual.",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 790.7435894012451,
+        "num_chunks": 0,
+        "tokens_used": 365,
+        "bertscore_precision": 0.5322662591934204,
+        "bertscore_recall": 0.582449197769165,
+        "bertscore_f1": 0.5562281608581543
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "answer_full": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois a data de corte do meu conhecimento é 01 de dezembro de 2023. Além disso, não há registro de uma lei com esse número na legislação brasileira até a data de corte.\n\nNo entanto, posso sugerir algumas opções para você:\n\n1. Verifique se a lei foi publicada no Diário Oficial da União (DOU) após a minha data de corte. Você pode acessar o site do DOU para verificar se a lei foi publicada.\n2. Consulte o site do Congresso Nacional ou do Senado Federal para verificar se a lei foi aprovada e publicada.\n3. Verifique se a lei está relacionada ao Imposto de Renda Pessoa Física (IRPF) e, se sim, qual é o seu conteúdo.\n\nSe você tiver mais informações sobre a lei, como o número da sessão legislativa ou o nome do autor, posso tentar ajudar a localizar a informação.",
+      "answer_core": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois a data de corte do meu conhecimento é 01 de dezembro de 2023. Além disso, não há registro de uma lei com esse número na legislação brasileira até a data de corte.\n\nNo entanto, posso sugerir algumas opções para você:\n\n1. Verifique se a lei foi publicada no Diário Oficial da União (DOU) após a minha data de corte. Você pode acessar o site do DOU para verificar se a lei foi publicada.\n2. Consulte o site do Congresso Nacional ou do Senado Federal para verificar se a lei foi aprovada e publicada.\n3. Verifique se a lei está relacionada ao Imposto de Renda Pessoa Física (IRPF) e, se sim, qual é o seu conteúdo.\n\nSe você tiver mais informações sobre a lei, como o número da sessão legislativa ou o nome do autor, posso tentar ajudar a localizar a informação.",
+      "ground_truth": "Os principais elementos da Lei nº 15.270, de 2025, são: ampliação da faixa de isenção do Imposto de Renda da Pessoa Física; tributação anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00; iii. inserção da tributação do IRRF sobre lucros e dividendos pagos a não residente no Brasil.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 712.6486301422119,
+        "num_chunks": 0,
+        "tokens_used": 369,
+        "bertscore_precision": 0.5226457118988037,
+        "bertscore_recall": 0.6206672787666321,
+        "bertscore_f1": 0.5674546360969543
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "answer_full": "Infelizmente, não posso fornecer informações sobre uma lei que ainda não foi publicada. No entanto, posso sugerir que você verifique a data de publicação da Lei nº 15.270, de 2025, e a data de entrada em vigor, que geralmente é especificada no próprio texto da lei ou em um decreto que a regulamenta.\n\nNo entanto, posso sugerir que você verifique a data de publicação da Lei nº 15.270, de 2025, que é de 2025, e a data de entrada em vigor, que geralmente é especificada no próprio texto da lei ou em um decreto que a regulamenta.\n\nNo entanto, se você está procurando informações sobre a aplicação da lei em relação ao Imposto de Renda Pessoa Física (IRPF), posso sugerir que você verifique a data de entrada em vigor da lei em relação ao IRPF.\n\nDe acordo com o artigo 1º da Lei nº 9.250, de 26 de dezembro de 1995, que instituiu o IRPF, a lei entra em vigor no primeiro dia do mês subsequente ao da publicação.\n\nPortanto, se a Lei nº 15.270, de 2025, for publicada em 2025, a data de entrada em vigor do IRPF será no primeiro dia do mês subsequente à publicação.\n\nLembre-se de que a data de entrada em vigor da lei pode ser diferente da data de publicação, e é importante verificar a legislação específica para obter informações precisas.",
+      "answer_core": "Infelizmente, não posso fornecer informações sobre uma lei que ainda não foi publicada. No entanto, posso sugerir que você verifique a data de publicação da Lei nº 15.270, de 2025, e a data de entrada em vigor, que geralmente é especificada no próprio texto da lei ou em um decreto que a regulamenta.\n\nNo entanto, posso sugerir que você verifique a data de publicação da Lei nº 15.270, de 2025, que é de 2025, e a data de entrada em vigor, que geralmente é especificada no próprio texto da lei ou em um decreto que a regulamenta.\n\nNo entanto, se você está procurando informações sobre a aplicação da lei em relação ao Imposto de Renda Pessoa Física (IRPF), posso sugerir que você verifique a data de entrada em vigor da lei em relação ao IRPF.\n\nDe acordo com o artigo 1º da Lei nº 9.250, de 26 de dezembro de 1995, que instituiu o IRPF, a lei entra em vigor no primeiro dia do mês subsequente ao da publicação.\n\nPortanto, se a Lei nº 15.270, de 2025, for publicada em 2025, a data de entrada em vigor do IRPF será no primeiro dia do mês subsequente à publicação.\n\nLembre-se de que a data de entrada em vigor da lei pode ser diferente da data de publicação, e é importante verificar a legislação específica para obter informações precisas.",
+      "ground_truth": "A ampliação da faixa de isenção da pessoa física será aplicada a partir de janeiro de 2026. A retenção na fonte do IRRF sobre lucros e dividendos pagos acima de R$ 50 mil a pessoa física residente no Brasil e em qualquer valor a pessoa física ou jurídica no exterior deve ser aplicada a partir de janeiro de 2026. Já o regime anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00, deve ser aplicada a partir do exercício de 2027, ano-calendário de 2026.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 910.9060764312744,
+        "num_chunks": 0,
+        "tokens_used": 483,
+        "bertscore_precision": 0.5542424917221069,
+        "bertscore_recall": 0.576700747013092,
+        "bertscore_f1": 0.5652486085891724
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant"
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    }
+  ]
+}

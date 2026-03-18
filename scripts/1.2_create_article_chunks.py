@@ -21,11 +21,20 @@ Data: 03/03/2026
 
 import json
 import re
+import sys
 from pathlib import Path
 from typing import List, Dict, Optional, Any
 from dataclasses import dataclass, asdict
 from datetime import datetime
 import logging
+
+# Importar metadados dos documentos
+sys.path.insert(0, str(Path(__file__).parent))
+try:
+    from document_metadata import get_document_metadata
+except ImportError:
+    def get_document_metadata(doc_stem: str) -> dict:
+        return {}
 
 # Configuração de logging
 logging.basicConfig(
@@ -86,6 +95,10 @@ class ArticleChunk:
     hierarchy: HierarchyLevel
     content: str
     metadata: ChunkMetadata
+    document_type: str  # Tipo do documento (Lei, Decreto, etc)
+    project_number: Optional[str]  # Número do projeto
+    law_number: Optional[str]  # Número da lei
+    law_date: Optional[str]  # Data da lei
     created_at: str
     
     def to_dict(self) -> Dict[str, Any]:
@@ -99,6 +112,10 @@ class ArticleChunk:
             'hierarchy_string': self.hierarchy.to_string(),
             'content': self.content,
             'metadata': self.metadata.to_dict(),
+            'document_type': self.document_type,
+            'project_number': self.project_number,
+            'law_number': self.law_number,
+            'law_date': self.law_date,
             'created_at': self.created_at
         }
 
@@ -140,6 +157,60 @@ class ArticleChunker:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
         
+    
+    def process_single_document(self, md_file: Path, force: bool = False) -> Dict[str, Any]:
+        """
+        Processa um único documento markdown e gera arquivo JSON com chunks
+        
+        Args:
+            md_file: Caminho do arquivo .md
+            force: Se True, reprocessa mesmo se arquivo JSON já existir
+            
+        Returns:
+            Dicionário com estatísticas do processamento
+        """
+        if not md_file.exists():
+            logger.error(f"Arquivo não encontrado: {md_file}")
+            return {'processed': 0, 'skipped': 0, 'errors': 0}
+        
+        logger.info("=" * 70)
+        logger.info("🦁 LION — Criação de Chunks baseados em Artigos")
+        logger.info("=" * 70)
+        logger.info(f"   Arquivo  : {md_file.name}")
+        logger.info(f"   Saída    : {self.output_dir}")
+        logger.info(f"   Forçar   : {'sim' if force else 'não'}")
+        logger.info("=" * 70)
+        
+        try:
+            output_file = self.output_dir / f"{md_file.stem}.json"
+            
+            # Verificar se já existe
+            if output_file.exists() and not force:
+                logger.info(f"⏩ Já existe, pulando (use --force para reprocessar): {md_file.name}")
+                return {'processed': 0, 'skipped': 1, 'errors': 0}
+            
+            # Ler e processar
+            logger.info(f"📄 Processando: {md_file.name}")
+            chunks = self.process_document(md_file)
+            
+            # Salvar JSON
+            self.output_dir.mkdir(parents=True, exist_ok=True)
+            self._save_chunks(chunks, output_file)
+            
+            logger.info(f"   ✅ Salvo: {output_file.name} ({len(chunks)} chunks)")
+            
+            return {
+                'processed': 1,
+                'skipped': 0,
+                'errors': 0,
+                'total_chunks': len(chunks),
+                'documents': [{'file': md_file.name, 'chunks': len(chunks)}]
+            }
+            
+        except Exception as e:
+            logger.error(f"   ❌ Erro ao processar {md_file.name}: {e}")
+            return {'processed': 0, 'skipped': 0, 'errors': 1}
+
     def process_all_documents(self, force: bool = False) -> Dict[str, Any]:
         """
         Processa todos os documentos markdown e gera arquivos JSON com chunks
@@ -226,6 +297,7 @@ class ArticleChunker:
         1. Extrair esquema (estrutura confiável com todos os artigos)
         2. Parsear esquema para obter lista ordenada de artigos
         3. Para cada artigo, buscar conteúdo no corpo até próximo elemento estrutural
+        4. Adicionar metadados estruturados do dicionário document_metadata.py
         
         Args:
             md_file: Caminho para arquivo .md
@@ -235,6 +307,17 @@ class ArticleChunker:
         """
         logger.info(f"   📖 Lendo arquivo...")
         content = md_file.read_text(encoding='utf-8')
+        
+        # Obter metadados do documento
+        doc_stem = md_file.stem
+        doc_metadata = get_document_metadata(doc_stem)
+        doc_type = doc_metadata.get('type', 'Documento')
+        project_number = doc_metadata.get('project_number')
+        law_number = doc_metadata.get('law_number')
+        law_date = doc_metadata.get('law_date')
+        
+        if doc_metadata:
+            logger.info(f"   ✅ Metadados encontrados: {doc_type} ({law_number or 'N/A'})")
         
         # Extrair esquema
         logger.info(f"   🔍 Extraindo esquema...")
@@ -287,7 +370,11 @@ class ArticleChunker:
                 body_content,
                 anexo_body_position,
                 md_file.name,
-                md_file.stem
+                md_file.stem,
+                doc_type=doc_type,
+                project_number=project_number,
+                law_number=law_number,
+                law_date=law_date
             )
             
             if chunk:
@@ -352,7 +439,11 @@ class ArticleChunker:
         body_content: str,
         anexo_position: float,
         source_file: str,
-        file_stem: str
+        file_stem: str,
+        doc_type: str = "Documento",
+        project_number: Optional[str] = None,
+        law_number: Optional[str] = None,
+        law_date: Optional[str] = None
     ) -> Optional[ArticleChunk]:
         """Extrai chunk de um artigo específico do corpo do documento
         
@@ -363,6 +454,10 @@ class ArticleChunker:
             anexo_position: Posição do ANEXO no corpo
             source_file: Nome do arquivo fonte
             file_stem: Nome base do arquivo
+            doc_type: Tipo do documento
+            project_number: Número do projeto
+            law_number: Número da lei
+            law_date: Data da lei
         """
         # Determine search area based on section
         if section == "Preâmbulo":
@@ -421,6 +516,19 @@ class ArticleChunker:
         # Extrair conteúdo de search_content
         article_content = search_content[article_start:article_end].strip()
         
+        # Construir prefixo com título completo do documento
+        title_parts = []
+        if project_number:
+            title_parts.append(project_number)
+        if law_number:
+            title_parts.append(f"Convertido na {law_number}")
+        title_parts.append(doc_type)
+        
+        full_title = " - ".join(title_parts) if title_parts else file_stem
+        
+        # Adicionar prefixo ao conteúdo
+        enriched_content = f"{full_title}\n\n{article_content}"
+        
         # Extrair hierarquia (usar posição absoluta em body_content)
         absolute_position = search_offset + article_start
         hierarchy = self._extract_hierarchy(body_content[:absolute_position])
@@ -438,8 +546,12 @@ class ArticleChunker:
             article_number=article_num,
             section=section,
             hierarchy=hierarchy,
-            content=article_content,
+            content=enriched_content,
             metadata=metadata,
+            document_type=doc_type,
+            project_number=project_number,
+            law_number=law_number,
+            law_date=law_date,
             created_at=datetime.now().isoformat()
         )
         
@@ -595,6 +707,12 @@ def main():
         help='Diretório para arquivos .json de saída'
     )
     parser.add_argument(
+        '--file',
+        type=Path,
+        default=None,
+        help='Processar um arquivo específico (ex: pl-1087-25_processed.md)'
+    )
+    parser.add_argument(
         '--force',
         action='store_true',
         help='Reprocessar arquivos mesmo se já existirem'
@@ -604,7 +722,16 @@ def main():
     
     # Criar chunker e processar
     chunker = ArticleChunker(args.input_dir, args.output_dir)
-    stats = chunker.process_all_documents(force=args.force)
+    
+    if args.file:
+        # Processar arquivo específico
+        file_path = args.input_dir / args.file if not args.file.is_absolute() else args.file
+        if not file_path.exists():
+            logger.error(f"Arquivo não encontrado: {file_path}")
+            return
+        stats = chunker.process_single_document(file_path, force=args.force)
+    else:
+        stats = chunker.process_all_documents(force=args.force)
     
     # Salvar estatísticas
     stats_file = args.output_dir / f"_stats_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
