@@ -1,0 +1,519 @@
+{
+  "experiment_name": "large_vs_small_model_bm25_gemini_bm25_k3",
+  "config": {
+    "use_rag": true,
+    "retrieval_method": "bm25",
+    "k": 3,
+    "llm": "gemini-3.1-flash-lite-preview"
+  },
+  "run_id": "20260317_230924",
+  "timestamp": "2026-03-17T23:12:51.485305",
+  "total_questions": 5,
+  "successful_queries": 5,
+  "failed_queries": 0,
+  "aggregated_metrics": {
+    "latency_ms_mean": 2531.539726257324,
+    "latency_ms_std": 866.4137941459829,
+    "latency_ms_min": 1266.7813301086426,
+    "latency_ms_max": 3967.4854278564453,
+    "latency_ms_median": 2451.064109802246,
+    "num_chunks_mean": 3.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 3.0,
+    "num_chunks_max": 3.0,
+    "num_chunks_median": 3.0,
+    "tokens_used_mean": 304.0,
+    "tokens_used_std": 187.11814449699955,
+    "tokens_used_min": 102.0,
+    "tokens_used_max": 596.0,
+    "tokens_used_median": 214.0,
+    "answer_relevancy_mean": 0.504513914298624,
+    "answer_relevancy_std": 0.4137437098413267,
+    "answer_relevancy_min": 0.0,
+    "answer_relevancy_max": 0.9095351394834035,
+    "answer_relevancy_median": 0.7924366195798559,
+    "faithfulness_mean": 0.8517149517149516,
+    "faithfulness_std": 0.1347477360949957,
+    "faithfulness_min": 0.6666666666666666,
+    "faithfulness_max": 1.0,
+    "faithfulness_median": 0.9230769230769231,
+    "context_precision_mean": 0.4333333333116666,
+    "context_precision_std": 0.4163331998777474,
+    "context_precision_min": 0.0,
+    "context_precision_max": 0.9999999999666667,
+    "context_precision_median": 0.3333333333,
+    "context_recall_mean": 0.3333333333333333,
+    "context_recall_std": 0.42163702135578396,
+    "context_recall_min": 0.0,
+    "context_recall_max": 1.0,
+    "context_recall_median": 0.0
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "Não encontrei essa informação nos documentos consultados.\n\nO contexto fornecido limita-se a informar que a Lei nº 15.270, de 2025, revogou o art. 11 da Lei nº 9.250, de 1995, e estabeleceu sua data de entrada em vigor para 1º de janeiro de 2026, mas não detalha os objetivos ou a finalidade da referida lei.",
+      "answer_core": "Não encontrei essa informação nos documentos consultados.\n\nO contexto fornecido limita-se a informar que a Lei nº 15.270, de 2025, revogou o art. 11 da Lei nº 9.250, de 1995, e estabeleceu sua data de entrada em vigor para 1º de janeiro de 2026, mas não detalha os objetivos ou a finalidade da referida lei.",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [
+        {
+          "id": "pl-1087-25_processed_preambulo_art_3",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270 - Lei\n\n* Art. 3º\n\nFica revogado o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995.",
+          "score": 15.618016702837819,
+          "metadata": {
+            "article_number": "3",
+            "char_count": 78,
+            "document_type": "Lei",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:06.796802",
+            "law_date": "de 26 de novembro de 2025",
+            "law_number": "Lei nº 15.270",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "referencias_legislativas": "['Lei nº 9.250,']",
+            "section": "Preâmbulo",
+            "source_file": "pl-1087-25_processed",
+            "word_count": 18
+          }
+        },
+        {
+          "id": "L9250compilado_processed_preambulo_art_11",
+          "content": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS\n\n* Art. 11.\n\n(Revogado pela Lei nº 15.270, de 2025) Produção de efeitos",
+          "score": 15.166262720469444,
+          "metadata": {
+            "article_number": "11",
+            "char_count": 70,
+            "chunk_id": "L9250compilado_processed_preambulo_art_11",
+            "document": "L9250compilado_processed",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+            "indexed_at": "2026-03-16T12:44:55.695664",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "referencias_legislativas": "Lei nº 15.270,",
+            "section": "Preâmbulo",
+            "source_file": "L9250compilado_processed.md",
+            "word_count": 13
+          }
+        },
+        {
+          "id": "pl-1087-25_processed_preambulo_art_4",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270 - Lei\n\n* Art. 4º\n\nEsta Lei entra em vigor em 1º de janeiro de 2026.\n\n\n##### Brasília,\n\n---\n\n*Processado automaticamente pelo LION RAG System*",
+          "score": 15.157977160955765,
+          "metadata": {
+            "article_number": "4",
+            "char_count": 134,
+            "document_type": "Lei",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:06.796804",
+            "law_date": "de 26 de novembro de 2025",
+            "law_number": "Lei nº 15.270",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "referencias_legislativas": "[]",
+            "section": "Preâmbulo",
+            "source_file": "pl-1087-25_processed",
+            "word_count": 23
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 2687.7028942108154,
+        "num_chunks": 3,
+        "tokens_used": 102,
+        "answer_relevancy": 0.0,
+        "faithfulness": 1.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "bm25",
+        "k": 3,
+        "llm": "gemini-3.1-flash-lite-preview"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "answer_full": "Com base nos documentos consultados, os elementos contidos na Lei nº 15.270, de 2025, são:\n\n*   **Revogação de dispositivo legal:** A lei revoga o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995 (conforme Art. 3º da Lei nº 15.270/2025).\n*   **Vigência:** A lei entra em vigor em **1º de janeiro de 2026** (conforme Art. 4º da Lei nº 15.270/2025).\n\nEm resumo, a Lei nº 15.270, de 2025, estabelece a revogação do art. 11 da Lei nº 9.250/1995, com efeitos a partir de 1º de janeiro de 2026.",
+      "answer_core": "Com base nos documentos consultados, os elementos contidos na Lei nº 15.270, de 2025, são:\n\n*   **Revogação de dispositivo legal:** A lei revoga o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995 (conforme Art. 3º da Lei nº 15.270/2025).\n*   **Vigência:** A lei entra em vigor em **1º de janeiro de 2026** (conforme Art. 4º da Lei nº 15.270/2025).\n\nEm resumo, a Lei nº 15.270, de 2025, estabelece a revogação do art. 11 da Lei nº 9.250/1995, com efeitos a partir de 1º de janeiro de 2026.",
+      "ground_truth": "Os principais elementos da Lei nº 15.270, de 2025, são: ampliação da faixa de isenção do Imposto de Renda da Pessoa Física; tributação anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00; iii. inserção da tributação do IRRF sobre lucros e dividendos pagos a não residente no Brasil.",
+      "chunks": [
+        {
+          "id": "pl-1087-25_processed_preambulo_art_3",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270 - Lei\n\n* Art. 3º\n\nFica revogado o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995.",
+          "score": 15.618016702837819,
+          "metadata": {
+            "article_number": "3",
+            "char_count": 78,
+            "document_type": "Lei",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:06.796802",
+            "law_date": "de 26 de novembro de 2025",
+            "law_number": "Lei nº 15.270",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "referencias_legislativas": "['Lei nº 9.250,']",
+            "section": "Preâmbulo",
+            "source_file": "pl-1087-25_processed",
+            "word_count": 18
+          }
+        },
+        {
+          "id": "L9250compilado_processed_preambulo_art_11",
+          "content": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS\n\n* Art. 11.\n\n(Revogado pela Lei nº 15.270, de 2025) Produção de efeitos",
+          "score": 15.166262720469444,
+          "metadata": {
+            "article_number": "11",
+            "char_count": 70,
+            "chunk_id": "L9250compilado_processed_preambulo_art_11",
+            "document": "L9250compilado_processed",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+            "indexed_at": "2026-03-16T12:44:55.695664",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "referencias_legislativas": "Lei nº 15.270,",
+            "section": "Preâmbulo",
+            "source_file": "L9250compilado_processed.md",
+            "word_count": 13
+          }
+        },
+        {
+          "id": "pl-1087-25_processed_preambulo_art_4",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270 - Lei\n\n* Art. 4º\n\nEsta Lei entra em vigor em 1º de janeiro de 2026.\n\n\n##### Brasília,\n\n---\n\n*Processado automaticamente pelo LION RAG System*",
+          "score": 15.157977160955765,
+          "metadata": {
+            "article_number": "4",
+            "char_count": 134,
+            "document_type": "Lei",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:06.796804",
+            "law_date": "de 26 de novembro de 2025",
+            "law_number": "Lei nº 15.270",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "referencias_legislativas": "[]",
+            "section": "Preâmbulo",
+            "source_file": "pl-1087-25_processed",
+            "word_count": 23
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 2284.6648693084717,
+        "num_chunks": 3,
+        "tokens_used": 214,
+        "answer_relevancy": 0.9095351394834035,
+        "faithfulness": 0.7142857142857143,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "bm25",
+        "k": 3,
+        "llm": "gemini-3.1-flash-lite-preview"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "answer_full": "Com base nos documentos consultados, seguem as informações solicitadas:\n\n*   **Data de aplicação da Lei nº 15.270, de 2025:** A lei entra em vigor em **1º de janeiro de 2026** (conforme Art. 4º).\n*   **Informações sobre prazos de entrega, datas de pagamento, multas por atraso e retificação:** Não encontrei essa informação nos documentos consultados.\n\nA Lei nº 15.270, de 2025, entra em vigor a partir de 1º de janeiro de 2026, mas os documentos fornecidos não detalham prazos de entrega, datas de pagamento ou penalidades por atraso.",
+      "answer_core": "Com base nos documentos consultados, seguem as informações solicitadas:\n\n*   **Data de aplicação da Lei nº 15.270, de 2025:** A lei entra em vigor em **1º de janeiro de 2026** (conforme Art. 4º).\n*   **Informações sobre prazos de entrega, datas de pagamento, multas por atraso e retificação:** Não encontrei essa informação nos documentos consultados.\n\nA Lei nº 15.270, de 2025, entra em vigor a partir de 1º de janeiro de 2026, mas os documentos fornecidos não detalham prazos de entrega, datas de pagamento ou penalidades por atraso.",
+      "ground_truth": "A ampliação da faixa de isenção da pessoa física será aplicada a partir de janeiro de 2026. A retenção na fonte do IRRF sobre lucros e dividendos pagos acima de R$ 50 mil a pessoa física residente no Brasil e em qualquer valor a pessoa física ou jurídica no exterior deve ser aplicada a partir de janeiro de 2026. Já o regime anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00, deve ser aplicada a partir do exercício de 2027, ano-calendário de 2026.",
+      "chunks": [
+        {
+          "id": "pl-1087-25_processed_preambulo_art_3",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270 - Lei\n\n* Art. 3º\n\nFica revogado o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995.",
+          "score": 15.618016702837819,
+          "metadata": {
+            "article_number": "3",
+            "char_count": 78,
+            "document_type": "Lei",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:06.796802",
+            "law_date": "de 26 de novembro de 2025",
+            "law_number": "Lei nº 15.270",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "referencias_legislativas": "['Lei nº 9.250,']",
+            "section": "Preâmbulo",
+            "source_file": "pl-1087-25_processed",
+            "word_count": 18
+          }
+        },
+        {
+          "id": "L9250compilado_processed_preambulo_art_11",
+          "content": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS\n\n* Art. 11.\n\n(Revogado pela Lei nº 15.270, de 2025) Produção de efeitos",
+          "score": 15.166262720469444,
+          "metadata": {
+            "article_number": "11",
+            "char_count": 70,
+            "chunk_id": "L9250compilado_processed_preambulo_art_11",
+            "document": "L9250compilado_processed",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+            "indexed_at": "2026-03-16T12:44:55.695664",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "referencias_legislativas": "Lei nº 15.270,",
+            "section": "Preâmbulo",
+            "source_file": "L9250compilado_processed.md",
+            "word_count": 13
+          }
+        },
+        {
+          "id": "pl-1087-25_processed_preambulo_art_4",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270 - Lei\n\n* Art. 4º\n\nEsta Lei entra em vigor em 1º de janeiro de 2026.\n\n\n##### Brasília,\n\n---\n\n*Processado automaticamente pelo LION RAG System*",
+          "score": 15.157977160955765,
+          "metadata": {
+            "article_number": "4",
+            "char_count": 134,
+            "document_type": "Lei",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:06.796804",
+            "law_date": "de 26 de novembro de 2025",
+            "law_number": "Lei nº 15.270",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "referencias_legislativas": "[]",
+            "section": "Preâmbulo",
+            "source_file": "pl-1087-25_processed",
+            "word_count": 23
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 1266.7813301086426,
+        "num_chunks": 3,
+        "tokens_used": 161,
+        "answer_relevancy": 0.0,
+        "faithfulness": 0.6666666666666666,
+        "context_precision": 0.3333333333,
+        "context_recall": 0.6666666666666666
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "bm25",
+        "k": 3,
+        "llm": "gemini-3.1-flash-lite-preview"
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q004",
+      "question": "A distribuição de lucros e dividendos para pessoa física residente será tributada pelo IRRF?",
+      "answer_full": "Com base nos documentos consultados, a regra para a tributação de lucros e dividendos para pessoa física residente no País é a seguinte:\n\n*   **Regra Geral:** Conforme o **art. 10 da Lei nº 9.249/1995** (com a redação dada pela Lei nº 15.270/2025), os lucros ou dividendos pagos ou creditados por pessoas jurídicas (tributadas pelo lucro real, presumido ou arbitrado) **não ficarão sujeitos à incidência do imposto de renda na fonte (IRRF)**, nem integrarão a base de cálculo do imposto de renda do beneficiário residente no País.\n*   **Exceção (Isenção Temporária):** O **§ 5º do art. 10** estabelece que não estão sujeitos ao IRRF os lucros e dividendos relativos a resultados apurados até o **ano-calendário de 2025**, desde que a distribuição tenha sido aprovada até 31 de dezembro de 2025 e sejam exigíveis conforme a legislação civil ou empresarial.\n\n**Observação sobre o mecanismo de proteção:**\nEmbora a regra geral seja a não incidência, o projeto de lei introduz o **art. 16-B na Lei nº 9.250/1995**, que prevê um **redutor do imposto** para evitar que a carga tributária sobre lucros e dividendos distribuídos a pessoas físicas resulte em tributação excessiva. Esse redutor é aplicado caso a soma da alíquota efetiva de IRPJ/CSLL da empresa com a alíquota efetiva do IRPFM da pessoa física ultrapasse a soma das alíquotas nominais de IRPJ e CSLL (conforme item 19 da Exposição de Motivos).\n\nEm resumo, a regra geral é a não incidência de IRRF sobre lucros e dividendos para residentes no País, com mecanismos previstos para evitar tributação excessiva em casos de altas rendas.",
+      "answer_core": "Com base nos documentos consultados, a regra para a tributação de lucros e dividendos para pessoa física residente no País é a seguinte:\n\n*   **Regra Geral:** Conforme o **art. 10 da Lei nº 9.249/1995** (com a redação dada pela Lei nº 15.270/2025), os lucros ou dividendos pagos ou creditados por pessoas jurídicas (tributadas pelo lucro real, presumido ou arbitrado) **não ficarão sujeitos à incidência do imposto de renda na fonte (IRRF)**, nem integrarão a base de cálculo do imposto de renda do beneficiário residente no País.\n*   **Exceção (Isenção Temporária):** O **§ 5º do art. 10** estabelece que não estão sujeitos ao IRRF os lucros e dividendos relativos a resultados apurados até o **ano-calendário de 2025**, desde que a distribuição tenha sido aprovada até 31 de dezembro de 2025 e sejam exigíveis conforme a legislação civil ou empresarial.\n\n**Observação sobre o mecanismo de proteção:**\nEmbora a regra geral seja a não incidência, o projeto de lei introduz o **art. 16-B na Lei nº 9.250/1995**, que prevê um **redutor do imposto** para evitar que a carga tributária sobre lucros e dividendos distribuídos a pessoas físicas resulte em tributação excessiva. Esse redutor é aplicado caso a soma da alíquota efetiva de IRPJ/CSLL da empresa com a alíquota efetiva do IRPFM da pessoa física ultrapasse a soma das alíquotas nominais de IRPJ e CSLL (conforme item 19 da Exposição de Motivos).\n\nEm resumo, a regra geral é a não incidência de IRRF sobre lucros e dividendos para residentes no País, com mecanismos previstos para evitar tributação excessiva em casos de altas rendas.",
+      "ground_truth": "Com a edição da Lei nº 15.270, de 26 de novembro de 2025, a distribuição de lucros e dividendos por pessoas jurídicas no Brasil passará a se sujeitar à retenção na fonte a partir de janeiro de 2026. A retenção será devida quando se tratar de distribuição de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês. Nesse caso, a pessoa jurídica deverá efetuar a retenção do IRRF sobre esse pagamento. O IRRF incidirá sobre o valor total do pagamento de lucros ou dividendos superiores a R$ 50.000,00. Se o total de rendimentos auferidos no ano pela pessoa física superar R$ 600.000,00, a pessoa física deverá submeter os rendimentos dos lucros e dividendos recebidos a partir de 2026 ao regime de tributação anual de altas rendas previsto no art. 16-A da Lei nº 15.270, de 2025. O IRRF retido pela pessoa jurídica no decorrer do ano-calendário poderá ser deduzido do imposto apurado nesse regime. Na hipótese em que o contribuinte aufira rendimentos a título de lucros e dividendos e de outros rendimentos em montante inferior a R$ 600.000,00, o valor do IRRF retido pela empresa sobre os lucros distribuídos poderá ser restituído ao contribuinte.",
+      "chunks": [
+        {
+          "id": "pl-1087-25_Exm-0019-25-MF_doc_window_0007",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270, de 2025 - Exposição de Motivos\n\ndistribuição de lucros e dividendos -- já tiver sido tributado na pessoa jurídica em percentual de carga tributária efetiva equivalente à soma das alíquotas nominais do imposto de renda das pessoas jurídicas (IRPJ) e da contribuição social sobre o lucro líquido (CSLL), então propõe-se que não haja tributação adicional na pessoa física. Para tanto, propõe-se a introdução do art. 16-B na Lei 9.250, de 1995, o qual prevê a concessão de um redutor do imposto caso a soma da alíquota efetiva de IRPJ e CSLL apurada com base no lucro contábil da pessoa jurídica com a alíquota efetiva do IRPFM aplicável à pessoa física beneficiária ultrapasse o percentual equivalente à soma das alíquotas do IRPJ e da CSLL aplicáveis à pessoa jurídica. 19. É importante destacar que o redutor previsto no art. 16-B é relevante para garantir que a tributação mínima de altas rendas não imponha uma carga tributária excessiva sobre os rendimentos de lucros e dividendos e, consequentemente, gerando uma distorção e desencorajando o investimento no País. Portanto, não se trata de um benefício fiscal, mas de uma trava sobre a tributação de altas rendas incidentes sobre lucros e dividendos distribuídos considerando a tributação de IRPJ e de CSLL efetivamente suportada pela pessoa jurídica na geração dos lucros ou dividendos distribuídos. 20. O art. 16-B também define como será calculada a alíquota efetiva do IRPFM sobre os dividendos, utilizada como parâmetro na apuração do valor do redutor. Este cálculo toma como base a diferença entre o valor devido de IRPFM com a inclusão dos lucros e dividendos em sua base de cálculo e o valor que seria devido de IRPFM caso os lucros e dividendos fossem excluídos de sua base de cálculo. A razão entre esta diferença e o montante de lucros e dividendos recebidos pela pessoa física corresponde à alíquota efetiva do IRPFM incidente sobre os lucros distribuídos. 21. Mediante a inclusão do art. 10-A na Lei 9.249, de 1995, prevê-se que, caso a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica domiciliada no Brasil com a alíquota do imposto sobre a renda retido na fonte incidente na distribuição dos lucros e dividendos, o Poder Executivo também concederá crédito à pessoa física ou jurídica residente ou domiciliada no exterior, que tenha recebido lucros e dividendos tributados na fonte no Brasil, conforme detalhado no item 18. O crédito, neste caso, será calculado de forma semelhante ao",
+          "score": 21.067398527334177,
+          "metadata": {
+            "article_number": "",
+            "document_type": "Exposição de Motivos",
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:56.160548",
+            "law_date": "",
+            "law_number": "",
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "section": "",
+            "source_file": "pl-1087-25_Exm-0019-25-MF_doc_window"
+          }
+        },
+        {
+          "id": "L15270_processed_preambulo_art_3",
+          "content": "* Art. 3º\n\nA Lei nº 9.249, de 26 de dezembro de 1995 , passa a vigorar com as seguintes alterações:\n“ Art. 10 . Os lucros ou dividendos calculados com base nos resultados apurados a partir do mês de janeiro de 1996, pagos ou creditados pelas pessoas jurídicas tributadas com base no lucro real, presumido ou arbitrado, não ficarão sujeitos à incidência do imposto de renda na fonte, nem integrarão a base de cálculo do imposto de renda do beneficiário, pessoa física ou jurídica, domiciliado no País, observado o disposto nos arts. 6º-A e 16-A da Lei nº 9.250, de 26 de dezembro de 1995 .\n\n\n    - **§ 4º** Os lucros ou dividendos pagos, creditados, entregues, empregados ou remetidos ao exterior ficarão sujeitos à incidência do imposto de renda na fonte à alíquota de 10% (dez por cento).\n\n\n\n\n    - **§ 5º** Não ficarão sujeitos à incidência do imposto de renda na fonte, nos termos do caput deste artigo, os lucros e dividendos:\n\n\n\n      - I - relativos a resultados apurados até o ano-calendário de 2025:\n\n\n      - a) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e\n\n\n      - b) sejam exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação;\n\n\n      - II - pagos, creditados, empregados, entregues ou remetidos a:\n\n\n      - a) governos estrangeiros, desde que haja reciprocidade de tratamento em relação aos rendimentos auferidos em seus países pelo governo brasileiro;\n\n\n      - b) fundos soberanos, conforme definidos no § 5º do art. 3º da Lei nº 11.312, de 27 de junho de 2006 ; e\n\n\n      - c) entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários, tais como aposentadorias e pensões, conforme definidas em regulamento.” (NR)\n\n“ Art. 10-A . Caso se verifique que a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica domiciliada no Brasil distribuidora dos lucros e dividendos com a alíquota prevista no § 4º do art. 10 desta Lei ultrapassa a soma das alíquotas nominais do imposto sobre a renda das pessoas jurídicas e da Contribuição Social sobre o Lucro Líquido (CSLL), será concedido, por opção do beneficiário residente ou domiciliado no exterior, crédito calculado sobre o montante de lucros e dividendos pagos, creditados, entregues, empregados ou remetidos que tenham sido tributados com fundamento no § 4º do art. 10 desta Lei.\n\n\n    - **§ 1º** O valor do crédito de que trata este artigo corresponderá ao resultado obtido por meio da multiplicação do montante dos lucros e dividendos pagos, creditados, entregues, empregados ou remetidos pela pessoa jurídica pela diferença entre:\n\n\n\n      - I - a alíquota efetiva de tributação dos lucros da pessoa jurídica, apurada nos termos do art. 16-B da Lei nº 9.250, de 26 de dezembro de 1995 , acrescida de 10 (dez) pontos percentuais; e\n\n\n      - II - o percentual previsto nos incisos I , II e III do § 1º do art. 16-B da Lei nº 9.250, de 26 de dezembro de 1995.\n\n\n\n    - **§ 2º** O Poder Executivo regulamentará o modo pelo qual será formalizada a opção referida no caput deste artigo, bem como a maneira pela qual o residente ou o domiciliado no exterior pleiteará, em até 360 (trezentos e sessenta) dias, contados de cada exercício, o crédito de que trata este artigo.”",
+          "score": 17.32725274903748,
+          "metadata": {
+            "article_number": "3",
+            "char_count": 3336,
+            "chunk_id": "L15270_processed_preambulo_art_3",
+            "document": "L15270_processed",
+            "has_alineas": true,
+            "has_incisos": true,
+            "has_paragraphs": true,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-16T12:44:50.209815",
+            "num_alineas": 5,
+            "num_incisos": 4,
+            "num_paragraphs": 4,
+            "referencias_legislativas": "Lei nº 11.312,, Lei nº 9.249,, Lei nº 9.250,",
+            "section": "Preâmbulo",
+            "source_file": "L15270_processed.md",
+            "word_count": 556
+          }
+        },
+        {
+          "id": "pl-1087-25_Exm-0019-25-MF_doc_window_0008",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270, de 2025 - Exposição de Motivos\n\nde 1995, prevê-se que, caso a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica domiciliada no Brasil com a alíquota do imposto sobre a renda retido na fonte incidente na distribuição dos lucros e dividendos, o Poder Executivo também concederá crédito à pessoa física ou jurídica residente ou domiciliada no exterior, que tenha recebido lucros e dividendos tributados na fonte no Brasil, conforme detalhado no item 18. O crédito, neste caso, será calculado de forma semelhante ao redutor previsto para o IRPFM, com a utilização do percentual de 10%. 22. Novamente, como explicado no item 19, trata-se de imposição de limite sobre a carga tributária incidente sobre lucros e dividendos remetidos ao exterior, garantindo que não haja tributação excessiva sobre esses rendimentos e, consequentemente, distorção e desencorajamento do investimento no Brasil. 23. Com esse modelo garante-se que, com a concessão do redutor ou do crédito, em nenhuma hipótese a soma dos tributos sobre o lucro cobrados na pessoa jurídica e os tributos cobrados sobre os lucros e dividendos distribuídos à pessoa física (na forma do IRPFM) ou ao exterior ultrapassará percentual do lucro contábil da pessoa jurídica equivalente à soma das alíquotas do IRPJ e da CSLL. Normas de Responsabilidade Fiscal 24. A redução do imposto devido, instituído para viger de janeiro do ano-calendário de 2026, representa uma redução de tributo de caráter não geral, e, portanto, se enquadrada como renúncia de receita nos termos do art. 14 da Lei de Responsabilidade Fiscal. Com isso, a medida deve atender ao disposto no art. 14 da Lei de Responsabilidade Fiscal. Estudo elaborado pela Secretaria Especial da Receita Federal do Brasil estima uma renúncia de receitas, em 2026, de R\\$ 25,84 bilhões (vinte e cinco bilhões e oitocentos e quarenta milhões de reais), em 2027, de R\\$ 27,72 bilhões (vinte e sete bilhões e setecentos e vinte milhões de reais), e em 2028, de R\\$ 29,68 (vinte e nove bilhões e seiscentos e oitenta milhões de reais). 25. De acordo com o estudo elaborado pela Secretaria Especial da Receita Federal do Brasil, o impacto fiscal do redutor previsto no art. 16-B da Lei nº 9.250, de 1995, e do crédito previsto no art. 10-A da lei nº 9.249, de 1995, não foi estimado já que tais estudos dependem de especificações e informações que somente serão conhecidas quando da elaboração do ato regulamentador do Poder Executivo. De qualquer sorte, como",
+          "score": 16.487960208250254,
+          "metadata": {
+            "article_number": "",
+            "document_type": "Exposição de Motivos",
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:56.160551",
+            "law_date": "",
+            "law_number": "",
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "section": "",
+            "source_file": "pl-1087-25_Exm-0019-25-MF_doc_window"
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 2451.064109802246,
+        "num_chunks": 3,
+        "tokens_used": 447,
+        "answer_relevancy": 0.820597812429861,
+        "faithfulness": 0.9230769230769231,
+        "context_precision": 0.9999999999666667,
+        "context_recall": 1.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "bm25",
+        "k": 3,
+        "llm": "gemini-3.1-flash-lite-preview"
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q005",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos?",
+      "answer_full": "Com base nos documentos consultados, a resposta para a sua pergunta sobre a alíquota de retenção de IRRF sobre lucros e dividendos é a seguinte:\n\n### Alíquota de Retenção de IRRF\nDe acordo com o **Art. 10, § 4º da Lei nº 9.249/1995** (conforme redação dada pelo Projeto de Lei nº 1.087/2025, convertido na Lei nº 15.270/2025):\n\n*   **Alíquota:** **10% (dez por cento)**.\n*   **Aplicação:** Esta alíquota incide sobre lucros ou dividendos pagos, creditados, entregues, empregados ou remetidos ao **exterior**.\n\n### Observações Importantes sobre a Regra Geral (Brasil)\nPara beneficiários **domiciliados no País**, a regra geral estabelecida no **Art. 10, caput, da Lei nº 9.249/1995** determina que:\n*   Os lucros ou dividendos apurados a partir de janeiro de 1996 **não estão sujeitos à incidência de imposto de renda na fonte**, nem integram a base de cálculo do imposto de renda do beneficiário.\n\n### Passo a Passo para o Cálculo do Crédito (quando aplicável)\nPara casos específicos de beneficiários no exterior, onde a soma da carga tributária da pessoa jurídica com a alíquota de 10% ultrapasse a soma das alíquotas nominais de IRPJ e CSLL, o **Art. 10-A, § 1º** prevê um cálculo de crédito. O passo a passo é:\n\n1.  **Identificar o montante:** Valor dos lucros/dividendos pagos ou remetidos.\n2.  **Calcular a diferença de alíquotas:**\n    *   **Fator A:** (Alíquota efetiva de tributação da PJ + 10 pontos percentuais).\n    *   **Fator B:** Percentual definido nos incisos I, II e III do § 1º do art. 16-B da Lei nº 9.250/1995.\n    *   **Diferença:** Fator A - Fator B.\n3.  **Resultado:** Multiplicar o montante (Passo 1) pela diferença encontrada (Passo 2).\n\n**Resumo:** A alíquota de retenção de IRRF sobre lucros e dividendos remetidos ao exterior é de **10%**, enquanto para beneficiários domiciliados no Brasil, via de regra, não há incidência de IRRF sobre esses rendimentos.",
+      "answer_core": "Com base nos documentos consultados, a resposta para a sua pergunta sobre a alíquota de retenção de IRRF sobre lucros e dividendos é a seguinte:\n\n### Alíquota de Retenção de IRRF\nDe acordo com o **Art. 10, § 4º da Lei nº 9.249/1995** (conforme redação dada pelo Projeto de Lei nº 1.087/2025, convertido na Lei nº 15.270/2025):\n\n*   **Alíquota:** **10% (dez por cento)**.\n*   **Aplicação:** Esta alíquota incide sobre lucros ou dividendos pagos, creditados, entregues, empregados ou remetidos ao **exterior**.\n\n### Observações Importantes sobre a Regra Geral (Brasil)\nPara beneficiários **domiciliados no País**, a regra geral estabelecida no **Art. 10, caput, da Lei nº 9.249/1995** determina que:\n*   Os lucros ou dividendos apurados a partir de janeiro de 1996 **não estão sujeitos à incidência de imposto de renda na fonte**, nem integram a base de cálculo do imposto de renda do beneficiário.\n\n### Passo a Passo para o Cálculo do Crédito (quando aplicável)\nPara casos específicos de beneficiários no exterior, onde a soma da carga tributária da pessoa jurídica com a alíquota de 10% ultrapasse a soma das alíquotas nominais de IRPJ e CSLL, o **Art. 10-A, § 1º** prevê um cálculo de crédito. O passo a passo é:\n\n1.  **Identificar o montante:** Valor dos lucros/dividendos pagos ou remetidos.\n2.  **Calcular a diferença de alíquotas:**\n    *   **Fator A:** (Alíquota efetiva de tributação da PJ + 10 pontos percentuais).\n    *   **Fator B:** Percentual definido nos incisos I, II e III do § 1º do art. 16-B da Lei nº 9.250/1995.\n    *   **Diferença:** Fator A - Fator B.\n3.  **Resultado:** Multiplicar o montante (Passo 1) pela diferença encontrada (Passo 2).\n\n**Resumo:** A alíquota de retenção de IRRF sobre lucros e dividendos remetidos ao exterior é de **10%**, enquanto para beneficiários domiciliados no Brasil, via de regra, não há incidência de IRRF sobre esses rendimentos.",
+      "ground_truth": "A lei determina que o IRRF incidirá à alíquota de 10% sobre a totalidade dos dividendos distribuídos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês.",
+      "chunks": [
+        {
+          "id": "pl-1087-25_Exm-0019-25-MF_doc_window_0007",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270, de 2025 - Exposição de Motivos\n\ndistribuição de lucros e dividendos -- já tiver sido tributado na pessoa jurídica em percentual de carga tributária efetiva equivalente à soma das alíquotas nominais do imposto de renda das pessoas jurídicas (IRPJ) e da contribuição social sobre o lucro líquido (CSLL), então propõe-se que não haja tributação adicional na pessoa física. Para tanto, propõe-se a introdução do art. 16-B na Lei 9.250, de 1995, o qual prevê a concessão de um redutor do imposto caso a soma da alíquota efetiva de IRPJ e CSLL apurada com base no lucro contábil da pessoa jurídica com a alíquota efetiva do IRPFM aplicável à pessoa física beneficiária ultrapasse o percentual equivalente à soma das alíquotas do IRPJ e da CSLL aplicáveis à pessoa jurídica. 19. É importante destacar que o redutor previsto no art. 16-B é relevante para garantir que a tributação mínima de altas rendas não imponha uma carga tributária excessiva sobre os rendimentos de lucros e dividendos e, consequentemente, gerando uma distorção e desencorajando o investimento no País. Portanto, não se trata de um benefício fiscal, mas de uma trava sobre a tributação de altas rendas incidentes sobre lucros e dividendos distribuídos considerando a tributação de IRPJ e de CSLL efetivamente suportada pela pessoa jurídica na geração dos lucros ou dividendos distribuídos. 20. O art. 16-B também define como será calculada a alíquota efetiva do IRPFM sobre os dividendos, utilizada como parâmetro na apuração do valor do redutor. Este cálculo toma como base a diferença entre o valor devido de IRPFM com a inclusão dos lucros e dividendos em sua base de cálculo e o valor que seria devido de IRPFM caso os lucros e dividendos fossem excluídos de sua base de cálculo. A razão entre esta diferença e o montante de lucros e dividendos recebidos pela pessoa física corresponde à alíquota efetiva do IRPFM incidente sobre os lucros distribuídos. 21. Mediante a inclusão do art. 10-A na Lei 9.249, de 1995, prevê-se que, caso a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica domiciliada no Brasil com a alíquota do imposto sobre a renda retido na fonte incidente na distribuição dos lucros e dividendos, o Poder Executivo também concederá crédito à pessoa física ou jurídica residente ou domiciliada no exterior, que tenha recebido lucros e dividendos tributados na fonte no Brasil, conforme detalhado no item 18. O crédito, neste caso, será calculado de forma semelhante ao",
+          "score": 25.604662443405417,
+          "metadata": {
+            "article_number": "",
+            "document_type": "Exposição de Motivos",
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:56.160548",
+            "law_date": "",
+            "law_number": "",
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "section": "",
+            "source_file": "pl-1087-25_Exm-0019-25-MF_doc_window"
+          }
+        },
+        {
+          "id": "IN RFB nº 1500_2014_processed_preambulo_art_59",
+          "content": "CAPÍTULO X DAS NORMAS DE RETENÇÃO NA FONTE > Seção II Da Base de Cálculo do Recolhimento Mensal\n\n* Art. 59. O recolhimento do IRRF sobre quaisquer rendimentos deve ser efetuado, de forma centralizada, pelo estabelecimento matriz da pessoa jurídica.\n\n\n    - **§ 1º** A retenção do imposto deverá ser efetuada pela fonte pagadora, matriz ou filial.\n\n\n\n\n    - **§ 2º** No caso de pagamento de rendimentos, a mesma pessoa física, no mesmo mês, por matriz e filial ou por mais de uma filial, o IRRF a ser retido deverá ser calculado levando-se em conta o valor total dos rendimentos acumulados, pagos no mês, por todos os estabelecimentos.\n\n\n\n\n    - **§ 3º** As filiais deverão adotar mecanismos de controle para efetuarem a retenção do IRRF pelo valor total dos rendimentos efetivamente recebidos pelo empregado no mesmo mês, informando, tempestivamente, à matriz os referidos valores pagos e retidos, para que a matriz proceda ao recolhimento do imposto, no prazo legal.",
+          "score": 23.339778813628637,
+          "metadata": {
+            "article_number": "59",
+            "char_count": 870,
+            "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_59",
+            "document": "IN RFB nº 1500_2014_processed",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": true,
+            "hierarchy_string": "CAPÍTULO X DAS NORMAS DE RETENÇÃO NA FONTE > Seção II Da Base de Cálculo do Recolhimento Mensal",
+            "indexed_at": "2026-03-16T12:44:46.078105",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 3,
+            "referencias_legislativas": "",
+            "section": "Preâmbulo",
+            "source_file": "IN RFB nº 1500_2014_processed.md",
+            "word_count": 138
+          }
+        },
+        {
+          "id": "L15270_processed_preambulo_art_3",
+          "content": "* Art. 3º\n\nA Lei nº 9.249, de 26 de dezembro de 1995 , passa a vigorar com as seguintes alterações:\n“ Art. 10 . Os lucros ou dividendos calculados com base nos resultados apurados a partir do mês de janeiro de 1996, pagos ou creditados pelas pessoas jurídicas tributadas com base no lucro real, presumido ou arbitrado, não ficarão sujeitos à incidência do imposto de renda na fonte, nem integrarão a base de cálculo do imposto de renda do beneficiário, pessoa física ou jurídica, domiciliado no País, observado o disposto nos arts. 6º-A e 16-A da Lei nº 9.250, de 26 de dezembro de 1995 .\n\n\n    - **§ 4º** Os lucros ou dividendos pagos, creditados, entregues, empregados ou remetidos ao exterior ficarão sujeitos à incidência do imposto de renda na fonte à alíquota de 10% (dez por cento).\n\n\n\n\n    - **§ 5º** Não ficarão sujeitos à incidência do imposto de renda na fonte, nos termos do caput deste artigo, os lucros e dividendos:\n\n\n\n      - I - relativos a resultados apurados até o ano-calendário de 2025:\n\n\n      - a) cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e\n\n\n      - b) sejam exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação;\n\n\n      - II - pagos, creditados, empregados, entregues ou remetidos a:\n\n\n      - a) governos estrangeiros, desde que haja reciprocidade de tratamento em relação aos rendimentos auferidos em seus países pelo governo brasileiro;\n\n\n      - b) fundos soberanos, conforme definidos no § 5º do art. 3º da Lei nº 11.312, de 27 de junho de 2006 ; e\n\n\n      - c) entidades no exterior que tenham como principal atividade a administração de benefícios previdenciários, tais como aposentadorias e pensões, conforme definidas em regulamento.” (NR)\n\n“ Art. 10-A . Caso se verifique que a soma da alíquota efetiva de tributação dos lucros da pessoa jurídica domiciliada no Brasil distribuidora dos lucros e dividendos com a alíquota prevista no § 4º do art. 10 desta Lei ultrapassa a soma das alíquotas nominais do imposto sobre a renda das pessoas jurídicas e da Contribuição Social sobre o Lucro Líquido (CSLL), será concedido, por opção do beneficiário residente ou domiciliado no exterior, crédito calculado sobre o montante de lucros e dividendos pagos, creditados, entregues, empregados ou remetidos que tenham sido tributados com fundamento no § 4º do art. 10 desta Lei.\n\n\n    - **§ 1º** O valor do crédito de que trata este artigo corresponderá ao resultado obtido por meio da multiplicação do montante dos lucros e dividendos pagos, creditados, entregues, empregados ou remetidos pela pessoa jurídica pela diferença entre:\n\n\n\n      - I - a alíquota efetiva de tributação dos lucros da pessoa jurídica, apurada nos termos do art. 16-B da Lei nº 9.250, de 26 de dezembro de 1995 , acrescida de 10 (dez) pontos percentuais; e\n\n\n      - II - o percentual previsto nos incisos I , II e III do § 1º do art. 16-B da Lei nº 9.250, de 26 de dezembro de 1995.\n\n\n\n    - **§ 2º** O Poder Executivo regulamentará o modo pelo qual será formalizada a opção referida no caput deste artigo, bem como a maneira pela qual o residente ou o domiciliado no exterior pleiteará, em até 360 (trezentos e sessenta) dias, contados de cada exercício, o crédito de que trata este artigo.”",
+          "score": 22.82326666077783,
+          "metadata": {
+            "article_number": "3",
+            "char_count": 3336,
+            "chunk_id": "L15270_processed_preambulo_art_3",
+            "document": "L15270_processed",
+            "has_alineas": true,
+            "has_incisos": true,
+            "has_paragraphs": true,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-16T12:44:50.209815",
+            "num_alineas": 5,
+            "num_incisos": 4,
+            "num_paragraphs": 4,
+            "referencias_legislativas": "Lei nº 11.312,, Lei nº 9.249,, Lei nº 9.250,",
+            "section": "Preâmbulo",
+            "source_file": "L15270_processed.md",
+            "word_count": 556
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 3967.4854278564453,
+        "num_chunks": 3,
+        "tokens_used": 596,
+        "answer_relevancy": 0.7924366195798559,
+        "faithfulness": 0.9545454545454546,
+        "context_precision": 0.8333333332916666,
+        "context_recall": 0.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "bm25",
+        "k": 3,
+        "llm": "gemini-3.1-flash-lite-preview"
+      },
+      "category": "aliquota",
+      "difficulty": "medio"
+    }
+  ]
+}

@@ -35,7 +35,8 @@ class ExperimentRunner:
     def __init__(
         self,
         dataset_path: str,
-        results_dir: str = "experiments/results"
+        results_dir: str = "experiments/results",
+        enable_bertscore: bool = False
     ):
         """
         Inicializa runner de experimentos.
@@ -43,6 +44,7 @@ class ExperimentRunner:
         Args:
             dataset_path: Caminho para dataset de teste (JSON)
             results_dir: Diretório para salvar resultados
+            enable_bertscore: Habilitar avaliação BERTScore (mais lento)
         """
         self.dataset = self._load_dataset(dataset_path)
         self.results_dir = Path(results_dir)
@@ -68,19 +70,22 @@ class ExperimentRunner:
         
         # Avaliadores
         self.ragas_evaluator = create_ragas_evaluator()
-        self.bert_evaluator = BERTScoreEvaluator()
+        self.bert_evaluator = BERTScoreEvaluator() if enable_bertscore else None
+        self.enable_bertscore = enable_bertscore
         
         logging.info("ExperimentRunner inicializado")
         logging.info(f"Run ID: {self.run_id}")
         logging.info(f"Dataset: {len(self.dataset['questions'])} perguntas")
         logging.info(f"Resultados: {self.raw_dir}")
         logging.info(f"Análises: {self.analysis_dir}")
+        logging.info(f"BERTScore: {'HABILITADO' if enable_bertscore else 'DESABILITADO (use --enable-bertscore para habilitar)'}")
         
         print(f"✅ ExperimentRunner inicializado")
         print(f"   Run ID: {self.run_id}")
         print(f"   Dataset: {len(self.dataset['questions'])} perguntas")
         print(f"   Resultados: {self.raw_dir}")
         print(f"   Análises: {self.analysis_dir}")
+        print(f"   BERTScore: {'HABILITADO' if enable_bertscore else 'DESABILITADO'}")
     
     def _setup_logging(self):
         """Configura logging para arquivo e console"""
@@ -444,17 +449,18 @@ class ExperimentRunner:
             'tokens_used': generation_result.tokens_used
         }
         
-        # BERTScore - usar core_answer (sem cortesias)
-        try:
-            bert_result = self.bert_evaluator.evaluate(
-                candidates=[core_answer],
-                references=[ground_truth]
-            )
-            metrics['bertscore_precision'] = bert_result.precision
-            metrics['bertscore_recall'] = bert_result.recall
-            metrics['bertscore_f1'] = bert_result.f1
-        except Exception as e:
-            print(f"  ⚠️  BERTScore falhou: {e}")
+        # BERTScore - usar core_answer (sem cortesias) - apenas se habilitado
+        if self.enable_bertscore and self.bert_evaluator:
+            try:
+                bert_result = self.bert_evaluator.evaluate(
+                    candidates=[core_answer],
+                    references=[ground_truth]
+                )
+                metrics['bertscore_precision'] = bert_result.precision
+                metrics['bertscore_recall'] = bert_result.recall
+                metrics['bertscore_f1'] = bert_result.f1
+            except Exception as e:
+                print(f"  ⚠️  BERTScore falhou: {e}")
         
         # RAGAS (apenas se usar RAG) - usar core_answer
         if config.get('use_rag', True) and contexts:
@@ -1036,12 +1042,19 @@ def main():
         help='Diretório para salvar resultados'
     )
     
+    parser.add_argument(
+        '--enable-bertscore',
+        action='store_true',
+        help='Habilitar avaliação BERTScore (mais lento, desabilitado por padrão)'
+    )
+    
     args = parser.parse_args()
     
     # Criar runner
     runner = ExperimentRunner(
         dataset_path=args.dataset,
-        results_dir=args.results_dir
+        results_dir=args.results_dir,
+        enable_bertscore=args.enable_bertscore
     )
     
     # Executar experimentos
