@@ -16,10 +16,10 @@ except ImportError:
 class RetrieverBase:
     """Base retriever interface."""
 
-    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
+    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float, str]]:
         """
         Retrieve relevant documents for a query.
-        Returns: list of (document, similarity_score) tuples.
+        Returns: list of (document, similarity_score, chunk_id) tuples.
         """
         raise NotImplementedError
 
@@ -43,13 +43,13 @@ class SrcHybridRetriever(RetrieverBase):
         except Exception as e:
             raise RuntimeError(f"Failed to initialize HybridRetriever: {str(e)}")
 
-    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
+    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float, str]]:
         """Retrieve using HybridRetriever from src/retrieval."""
         k = top_k or settings.TOP_K
         try:
             results = self.hybrid_retriever.retrieve(query, top_k=k)
-            # Convert RetrievalResult objects to (content, score) tuples
-            return [(result.content, result.score) for result in results]
+            # Convert RetrievalResult objects to (content, score, chunk_id) tuples
+            return [(result.content, result.score, result.id) for result in results]
         except Exception as e:
             print(f"Warning: HybridRetriever retrieval failed: {e}. Falling back to mock retriever.")
             return MockRetriever().retrieve(query, top_k)
@@ -67,12 +67,12 @@ class SrcDenseRetriever(RetrieverBase):
         except Exception as e:
             raise RuntimeError(f"Failed to initialize DenseRetriever: {str(e)}")
 
-    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
+    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float, str]]:
         """Retrieve using DenseRetriever from src/retrieval."""
         k = top_k or settings.TOP_K
         try:
             results = self.dense_retriever.retrieve(query, top_k=k)
-            return [(result.content, result.score) for result in results]
+            return [(result.content, result.score, result.id) for result in results]
         except Exception as e:
             print(f"Warning: DenseRetriever retrieval failed: {e}. Falling back to mock retriever.")
             return MockRetriever().retrieve(query, top_k)
@@ -90,12 +90,12 @@ class SrcBM25Retriever(RetrieverBase):
         except Exception as e:
             raise RuntimeError(f"Failed to initialize BM25Retriever: {str(e)}")
 
-    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
+    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float, str]]:
         """Retrieve using BM25Retriever from src/retrieval."""
         k = top_k or settings.TOP_K
         try:
             results = self.bm25_retriever.retrieve(query, top_k=k)
-            return [(result.content, result.score) for result in results]
+            return [(result.content, result.score, result.id) for result in results]
         except Exception as e:
             print(f"Warning: BM25Retriever retrieval failed: {e}. Falling back to mock retriever.")
             return MockRetriever().retrieve(query, top_k)
@@ -119,17 +119,18 @@ class MockRetriever(RetrieverBase):
             "A declaração de imposto de renda é obrigatória para residentes no Brasil com renda acima do limite.",
         ]
 
-    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
+    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float, str]]:
         """Simple keyword-based retrieval."""
         k = top_k or settings.TOP_K
         query_lower = query.lower()
 
         # Simple matching: score based on keyword overlap
         scored_docs = []
-        for doc in self.documents:
+        for idx, doc in enumerate(self.documents):
             score = sum(1 for word in query_lower.split() if word in doc.lower()) / max(len(query_lower.split()), 1)
             if score > 0:
-                scored_docs.append((doc, score))
+                chunk_id = f"mock_doc_{idx:02d}#chunk_01"
+                scored_docs.append((doc, score, chunk_id))
 
         # Sort by score and return top-k
         scored_docs.sort(key=lambda x: x[1], reverse=True)

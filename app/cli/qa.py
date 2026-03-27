@@ -25,9 +25,10 @@ DEFAULT_API_URL = "http://127.0.0.1:8001"
 class LIONClient:
     """Client for interacting with LION Q&A API."""
 
-    def __init__(self, api_url: str = DEFAULT_API_URL):
+    def __init__(self, api_url: str = DEFAULT_API_URL, show_chunks: bool = False):
         self.api_url = api_url.rstrip("/")
         self.console = Console() if HAS_RICH else None
+        self.show_chunks = show_chunks
         self._verify_connection()
 
     def _verify_connection(self) -> bool:
@@ -93,7 +94,7 @@ class LIONClient:
             }
 
     def print_response(self, question: str, response: dict) -> None:
-        """Print formatted response."""
+        """Print formatted response with optional chunk visualization."""
         if "error" in response:
             if HAS_RICH:
                 self.console.print(f"❌ Error: {response['error']}", style="bold red")
@@ -123,6 +124,30 @@ class LIONClient:
             table.add_row("Source", response.get("source", "unknown"))
             
             self.console.print(table)
+            
+            # Show citations if available
+            citations = response.get("citations", [])
+            if citations:
+                self.console.print("\n[bold yellow]Citações:[/bold yellow]")
+                for citation in citations:
+                    chunk_id = citation.get("chunk_id", "unknown")
+                    score = citation.get("score", 0.0)
+                    self.console.print(f"  • [{chunk_id}] (score: {score:.4f})")
+            
+            # Show retrieved chunks if requested
+            if self.show_chunks and citations:
+                self.console.print("\n[bold blue]📚 Trechos Recuperados:[/bold blue]")
+                for idx, citation in enumerate(citations, 1):
+                    chunk_id = citation.get("chunk_id", "unknown")
+                    content = citation.get("content", "")
+                    score = citation.get("score", 0.0)
+                    
+                    # Truncate long content
+                    if len(content) > 300:
+                        content = content[:300] + "..."
+                    
+                    self.console.print(f"\n[cyan][{idx}] {chunk_id}[/cyan] (score: {score:.4f})")
+                    self.console.print(f"    {content}")
         else:
             # Plain text formatting
             print("\n" + "=" * 80)
@@ -132,6 +157,31 @@ class LIONClient:
             print("-" * 80)
             print(f"Confidence: {response.get('confidence', 0.0):.4f}")
             print(f"Source: {response.get('source', 'unknown')}")
+            
+            # Show citations if available
+            citations = response.get("citations", [])
+            if citations:
+                print("\nCitações:")
+                for citation in citations:
+                    chunk_id = citation.get("chunk_id", "unknown")
+                    score = citation.get("score", 0.0)
+                    print(f"  • [{chunk_id}] (score: {score:.4f})")
+            
+            # Show retrieved chunks if requested
+            if self.show_chunks and citations:
+                print("\n📚 Trechos Recuperados:")
+                for idx, citation in enumerate(citations, 1):
+                    chunk_id = citation.get("chunk_id", "unknown")
+                    content = citation.get("content", "")
+                    score = citation.get("score", 0.0)
+                    
+                    # Truncate long content
+                    if len(content) > 300:
+                        content = content[:300] + "..."
+                    
+                    print(f"\n[{idx}] {chunk_id} (score: {score:.4f})")
+                    print(f"    {content}")
+            
             print("=" * 80 + "\n")
 
 
@@ -326,6 +376,12 @@ Examples:
     )
 
     parser.add_argument(
+        "--show-chunks",
+        action="store_true",
+        help="Show retrieved chunks/documents in the response",
+    )
+
+    parser.add_argument(
         "-v",
         "--version",
         action="version",
@@ -335,7 +391,7 @@ Examples:
     args = parser.parse_args()
 
     # Initialize client
-    client = LIONClient(api_url=args.api)
+    client = LIONClient(api_url=args.api, show_chunks=args.show_chunks)
 
     # Check if API is reachable
     if not client._verify_connection():

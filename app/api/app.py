@@ -3,7 +3,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List, Dict, Any
 from app.api.qa import answer_question
 from app.api.config import settings
 
@@ -21,12 +21,21 @@ class AskRequest(BaseModel):
     context: Optional[str] = None
 
 
+class ChunkCitation(BaseModel):
+    """Chunk citation reference."""
+    index: int
+    chunk_id: str
+    score: float
+    content: Optional[str] = None
+
+
 class AskResponse(BaseModel):
     """Response model for /ask endpoint."""
 
     answer: str
     confidence: float
     source: str
+    citations: List[ChunkCitation] = []
 
 
 # Initialize FastAPI app
@@ -58,13 +67,31 @@ async def ask(req: AskRequest):
     Ask a question and get an answer using RAG pipeline.
 
     The system retrieves relevant documents and generates an answer using an LLM.
+    Citations include chunk IDs for traceability.
     """
     if not req.question or not req.question.strip():
         raise HTTPException(status_code=400, detail="Campo 'question' é obrigatório e não pode estar vazio")
 
     try:
-        answer, confidence, source = answer_question(req.question, req.context)
-        return AskResponse(answer=answer, confidence=confidence, source=source)
+        answer, confidence, source, chunks = answer_question(req.question, req.context)
+        
+        # Convert chunks to citations with content
+        citations = [
+            ChunkCitation(
+                index=chunk["index"],
+                chunk_id=chunk["chunk_id"],
+                score=chunk["score"],
+                content=chunk.get("content", "")
+            )
+            for chunk in chunks
+        ]
+        
+        return AskResponse(
+            answer=answer, 
+            confidence=confidence, 
+            source=source,
+            citations=citations
+        )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Erro ao processar pergunta: {str(e)}")
 
