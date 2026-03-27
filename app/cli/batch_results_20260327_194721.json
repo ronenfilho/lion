@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Qual é o limite de renda para não declarar imposto?",
+    "response": {
+      "answer": "De acordo com o Art. 785, o limite de renda para não declarar imposto é de R$ 20.000,00 (vinte mil reais) para o conjunto de ações e para o ouro, ativo financeiro, respectivamente.",
+      "confidence": 0.001065453947338708,
+      "source": "RAG (retriever + GroqProvider)"
+    }
+  },
+  {
+    "question": "Quais são os prazos para declaração de imposto de renda?",
+    "response": {
+      "answer": "Os prazos para declaração de imposto de renda variam de acordo com a situação específica. Aqui estão alguns prazos mencionados no contexto fornecido:\n\n- **Declaração de Rendimentos**: até o último dia útil do mês de abril do ano-calendário subsequente (Art. 7º, § 1º).\n- **Declaração de Ajuste Anual**: de 15 de março a 31 de maio de 2024 (Art. 7º).\n- **Pagamento do Imposto sobre a Renda**: até o último dia útil do mês de março do ano subsequente (Art. 922, inciso I).\n- **Recebimento de Declaração fora do prazo**: a declaração somente será recebida se o contribuinte ainda não tiver sido notificado do início do processo de lançamento de ofício (Art. 891).\n- **Prorrogação de prazo**: até 60 (sessenta) dias, mediante requerimento, quando motivos de força maior impossibilitarem a entrega tempestiva da declaração (Art. 70, Parágrafo único).",
+      "confidence": 0.001065453947338708,
+      "source": "RAG (retriever + GroqProvider)"
+    }
+  }
+]

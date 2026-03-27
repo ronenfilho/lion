@@ -1,0 +1,5 @@
+# Exemplo de perguntas para batch mode
+# Uma pergunta por linha. Linhas com # são ignoradas.
+
+Qual é o limite de renda para não declarar imposto?
+Quais são os prazos para declaração de imposto de renda?
