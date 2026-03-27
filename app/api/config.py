@@ -26,6 +26,8 @@ class Settings:
     TOP_K: int = int(os.getenv("TOP_K", "5"))
     SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.7"))
     HYBRID_ALPHA: float = float(os.getenv("HYBRID_ALPHA", "0.7"))
+    RETRIEVAL_TYPE: str = os.getenv("RETRIEVAL_TYPE", "hybrid")  # hybrid, dense, bm25, mock
+    USE_RERANKING: bool = os.getenv("USE_RERANKING", "true").lower() == "true"
 
     # Vector Store
     CHROMA_PERSIST_DIR: str = os.getenv("CHROMA_PERSIST_DIR", "./data/embeddings/chroma_db")

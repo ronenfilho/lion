@@ -1,7 +1,16 @@
-"""Retrieval module - BM25 + embedding-based retrieval."""
+"""Retrieval module - integração com src/retrieval (HybridRetriever, DenseRetriever, BM25Retriever)."""
 
 from typing import List, Tuple, Optional
 from app.api.config import settings
+
+try:
+    from src.retrieval.hybrid_retriever import HybridRetriever, RetrievalResult
+    from src.retrieval.dense_retriever import DenseRetriever
+    from src.retrieval.bm25_retriever import BM25Retriever
+    RETRIEVAL_AVAILABLE = True
+except ImportError:
+    RETRIEVAL_AVAILABLE = False
+    print("Warning: src.retrieval not available. Using mock retriever.")
 
 
 class RetrieverBase:
@@ -13,6 +22,83 @@ class RetrieverBase:
         Returns: list of (document, similarity_score) tuples.
         """
         raise NotImplementedError
+
+
+class SrcHybridRetriever(RetrieverBase):
+    """Wrapper para usar HybridRetriever de src/retrieval."""
+
+    def __init__(self):
+        if not RETRIEVAL_AVAILABLE:
+            raise ImportError("src.retrieval not available")
+        
+        try:
+            self.dense_retriever = DenseRetriever()
+            self.bm25_retriever = BM25Retriever()
+            self.hybrid_retriever = HybridRetriever(
+                dense_retriever=self.dense_retriever,
+                bm25_retriever=self.bm25_retriever,
+                alpha=settings.HYBRID_ALPHA,
+                top_k=settings.TOP_K,
+            )
+        except Exception as e:
+            raise RuntimeError(f"Failed to initialize HybridRetriever: {str(e)}")
+
+    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
+        """Retrieve using HybridRetriever from src/retrieval."""
+        k = top_k or settings.TOP_K
+        try:
+            results = self.hybrid_retriever.retrieve(query, top_k=k)
+            # Convert RetrievalResult objects to (content, score) tuples
+            return [(result.content, result.score) for result in results]
+        except Exception as e:
+            print(f"Warning: HybridRetriever retrieval failed: {e}. Falling back to mock retriever.")
+            return MockRetriever().retrieve(query, top_k)
+
+
+class SrcDenseRetriever(RetrieverBase):
+    """Wrapper para usar DenseRetriever de src/retrieval."""
+
+    def __init__(self):
+        if not RETRIEVAL_AVAILABLE:
+            raise ImportError("src.retrieval not available")
+        
+        try:
+            self.dense_retriever = DenseRetriever()
+        except Exception as e:
+            raise RuntimeError(f"Failed to initialize DenseRetriever: {str(e)}")
+
+    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
+        """Retrieve using DenseRetriever from src/retrieval."""
+        k = top_k or settings.TOP_K
+        try:
+            results = self.dense_retriever.retrieve(query, top_k=k)
+            return [(result.content, result.score) for result in results]
+        except Exception as e:
+            print(f"Warning: DenseRetriever retrieval failed: {e}. Falling back to mock retriever.")
+            return MockRetriever().retrieve(query, top_k)
+
+
+class SrcBM25Retriever(RetrieverBase):
+    """Wrapper para usar BM25Retriever de src/retrieval."""
+
+    def __init__(self):
+        if not RETRIEVAL_AVAILABLE:
+            raise ImportError("src.retrieval not available")
+        
+        try:
+            self.bm25_retriever = BM25Retriever()
+        except Exception as e:
+            raise RuntimeError(f"Failed to initialize BM25Retriever: {str(e)}")
+
+    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
+        """Retrieve using BM25Retriever from src/retrieval."""
+        k = top_k or settings.TOP_K
+        try:
+            results = self.bm25_retriever.retrieve(query, top_k=k)
+            return [(result.content, result.score) for result in results]
+        except Exception as e:
+            print(f"Warning: BM25Retriever retrieval failed: {e}. Falling back to mock retriever.")
+            return MockRetriever().retrieve(query, top_k)
 
 
 class MockRetriever(RetrieverBase):
@@ -29,6 +115,8 @@ class MockRetriever(RetrieverBase):
             "A API de LION está sendo desenvolvida em FastAPI.",
             "O sistema RAG melhora a qualidade das respostas ao fornecer contexto relevante.",
             "Perguntas sobre IRPF podem ser respondidas pelo sistema de análise de documentos.",
+            "Imposto de renda é o imposto federal sobre renda de pessoas físicas e jurídicas.",
+            "A declaração de imposto de renda é obrigatória para residentes no Brasil com renda acima do limite.",
         ]
 
     def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
@@ -48,46 +136,30 @@ class MockRetriever(RetrieverBase):
         return scored_docs[:k]
 
 
-class ChromaRetriever(RetrieverBase):
-    """Chroma vector store retriever."""
-
-    def __init__(self):
-        try:
-            import chromadb
-            self.client = chromadb.PersistentClient(path=settings.CHROMA_PERSIST_DIR)
-            self.collection = self.client.get_or_create_collection(name="documents")
-        except ImportError:
-            raise ImportError("chromadb package not installed. Run: pip install chromadb")
-        except Exception as e:
-            print(f"Warning: Chroma initialization failed: {e}. Falling back to mock retriever.")
-            self.collection = None
-
-    def retrieve(self, query: str, top_k: Optional[int] = None) -> List[Tuple[str, float]]:
-        """Retrieve using Chroma vector store."""
-        if self.collection is None or self.collection.count() == 0:
-            # Fallback to mock if Chroma is empty
-            return MockRetriever().retrieve(query, top_k)
-
-        k = top_k or settings.TOP_K
-        try:
-            results = self.collection.query(query_texts=[query], n_results=k)
-            docs = results["documents"][0] if results["documents"] else []
-            distances = results["distances"][0] if results["distances"] else []
-
-            # Convert distances to similarity scores (assuming cosine distance)
-            scored_docs = [(doc, 1 - dist) for doc, dist in zip(docs, distances)]
-            return scored_docs
-        except Exception as e:
-            print(f"Warning: Chroma retrieval failed: {e}. Falling back to mock retriever.")
-            return MockRetriever().retrieve(query, top_k)
-
-
 def get_retriever() -> RetrieverBase:
     """Factory function to get configured retriever."""
-    try:
-        return ChromaRetriever()
-    except Exception:
-        print("Using mock retriever (Chroma not available)")
+    retrieval_type = settings.RETRIEVAL_TYPE.lower()
+
+    if retrieval_type == "hybrid" and RETRIEVAL_AVAILABLE:
+        try:
+            return SrcHybridRetriever()
+        except Exception as e:
+            print(f"Warning: HybridRetriever initialization failed: {e}. Using mock retriever.")
+            return MockRetriever()
+    elif retrieval_type == "dense" and RETRIEVAL_AVAILABLE:
+        try:
+            return SrcDenseRetriever()
+        except Exception as e:
+            print(f"Warning: DenseRetriever initialization failed: {e}. Using mock retriever.")
+            return MockRetriever()
+    elif retrieval_type == "bm25" and RETRIEVAL_AVAILABLE:
+        try:
+            return SrcBM25Retriever()
+        except Exception as e:
+            print(f"Warning: BM25Retriever initialization failed: {e}. Using mock retriever.")
+            return MockRetriever()
+    else:
+        print(f"Using mock retriever (RETRIEVAL_TYPE={retrieval_type})")
         return MockRetriever()
 
 
@@ -101,3 +173,4 @@ def get_retriever_instance() -> RetrieverBase:
     if _retriever_instance is None:
         _retriever_instance = get_retriever()
     return _retriever_instance
+
