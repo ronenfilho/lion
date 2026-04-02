@@ -105,11 +105,3 @@ retriever = get_retriever_instance()
 - **Anthropic**: Claude 3.5 Sonnet
 
 Troque o provider editando `LLM_PROVIDER` no `.env`.
-
-## Próximos Passos
-
-- [ ] Integrar com banco de dados de documentos (Chroma com embeddings)
-- [ ] Adicionar autenticação (API key)
-- [ ] Adicionar cache de respostas
-- [ ] Adicionar testes unitários
-- [ ] Deploy com Docker
