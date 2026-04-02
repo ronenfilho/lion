@@ -125,16 +125,11 @@ def display_response(response: Dict[str, Any], show_chunks: bool = True):
         st.write(response.get("answer", ""))
 
     # Display metadata
-    col1, col2, col3 = st.columns(3)
+    col1, col2 = st.columns(2)
     with col1:
-        confidence = response.get("confidence", 0.0)
-        color = "🟢" if confidence > 0.5 else "🟡" if confidence > 0.3 else "🔴"
-        st.metric("Confiança", f"{confidence:.4f}", delta=f"{color}")
-
-    with col2:
         st.metric("Fonte", response.get("source", "unknown")[:30])
 
-    with col3:
+    with col2:
         citations = response.get("citations", [])
         st.metric("Citações", len(citations))
 
