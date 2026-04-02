@@ -331,7 +331,6 @@ def main():
                     {
                         "Timestamp": item["timestamp"][:19],
                         "Pergunta": item["question"][:50],
-                        "Confiança": f"{response.get('confidence', 0):.4f}",
                         "Citações": len(response.get("citations", [])),
                     }
                 )
