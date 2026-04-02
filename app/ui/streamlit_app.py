@@ -141,8 +141,7 @@ def display_response(response: Dict[str, Any], show_chunks: bool = True):
         for idx, citation in enumerate(citations):
             with citation_cols[idx % len(citation_cols)]:
                 chunk_id = citation.get("chunk_id", "unknown")
-                score = citation.get("score", 0.0)
-                st.code(f"{chunk_id}\n({score:.4f})", language="text")
+                st.code(f"{chunk_id}", language="text")
 
     # Display chunks if requested
     if show_chunks and citations:
@@ -152,9 +151,8 @@ def display_response(response: Dict[str, Any], show_chunks: bool = True):
         for idx, citation in enumerate(citations, 1):
             chunk_id = citation.get("chunk_id", "unknown")
             content = citation.get("content", "")
-            score = citation.get("score", 0.0)
 
-            with st.expander(f"[{idx}] {chunk_id} ({score:.4f})", expanded=(idx == 1)):
+            with st.expander(f"[{idx}] {chunk_id}", expanded=(idx == 1)):
                 st.write(content)
 
 

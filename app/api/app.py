@@ -75,7 +75,7 @@ async def ask(req: AskRequest):
     try:
         answer, confidence, source, chunks = answer_question(req.question, req.context)
         
-        # Convert chunks to citations with content
+        # Convert chunks to citations with content, filtering out empty chunk_ids
         citations = [
             ChunkCitation(
                 index=chunk["index"],
@@ -84,6 +84,7 @@ async def ask(req: AskRequest):
                 content=chunk.get("content", "")
             )
             for chunk in chunks
+            if chunk.get("chunk_id", "").strip()  # Filter out empty chunk_ids
         ]
         
         return AskResponse(

@@ -113,40 +113,19 @@ class LIONClient:
                 border_style="green"
             ))
             
-            # Create table for metadata
-            table = Table(title="Metadata", show_header=True, header_style="bold magenta")
-            table.add_column("Field", style="cyan")
-            table.add_column("Value", style="green")
-            
-            confidence = response.get("confidence", 0.0)
-            confidence_style = "green" if confidence > 0.5 else "yellow" if confidence > 0.3 else "red"
-            table.add_row("Confidence", f"{confidence:.4f}", style=confidence_style)
-            table.add_row("Source", response.get("source", "unknown"))
-            
-            self.console.print(table)
-            
-            # Show citations if available
-            citations = response.get("citations", [])
-            if citations:
-                self.console.print("\n[bold yellow]Citações:[/bold yellow]")
-                for citation in citations:
-                    chunk_id = citation.get("chunk_id", "unknown")
-                    score = citation.get("score", 0.0)
-                    self.console.print(f"  • [{chunk_id}] (score: {score:.4f})")
-            
             # Show retrieved chunks if requested
+            citations = response.get("citations", [])
             if self.show_chunks and citations:
                 self.console.print("\n[bold blue]📚 Trechos Recuperados:[/bold blue]")
                 for idx, citation in enumerate(citations, 1):
-                    chunk_id = citation.get("chunk_id", "unknown")
+                    chunk_id = citation.get("chunk_id", "")
                     content = citation.get("content", "")
-                    score = citation.get("score", 0.0)
                     
                     # Truncate long content
                     if len(content) > 300:
                         content = content[:300] + "..."
                     
-                    self.console.print(f"\n[cyan][{idx}] {chunk_id}[/cyan] (score: {score:.4f})")
+                    self.console.print(f"\n[cyan][{idx}] {chunk_id}[/cyan]")
                     self.console.print(f"    {content}")
         else:
             # Plain text formatting
@@ -155,31 +134,20 @@ class LIONClient:
             print("-" * 80)
             print(f"A: {response.get('answer', 'No answer')}")
             print("-" * 80)
-            print(f"Confidence: {response.get('confidence', 0.0):.4f}")
-            print(f"Source: {response.get('source', 'unknown')}")
-            
-            # Show citations if available
-            citations = response.get("citations", [])
-            if citations:
-                print("\nCitações:")
-                for citation in citations:
-                    chunk_id = citation.get("chunk_id", "unknown")
-                    score = citation.get("score", 0.0)
-                    print(f"  • [{chunk_id}] (score: {score:.4f})")
             
             # Show retrieved chunks if requested
+            citations = response.get("citations", [])
             if self.show_chunks and citations:
                 print("\n📚 Trechos Recuperados:")
                 for idx, citation in enumerate(citations, 1):
-                    chunk_id = citation.get("chunk_id", "unknown")
+                    chunk_id = citation.get("chunk_id", "")
                     content = citation.get("content", "")
-                    score = citation.get("score", 0.0)
                     
                     # Truncate long content
                     if len(content) > 300:
                         content = content[:300] + "..."
                     
-                    print(f"\n[{idx}] {chunk_id} (score: {score:.4f})")
+                    print(f"\n[{idx}] {chunk_id}")
                     print(f"    {content}")
             
             print("=" * 80 + "\n")
