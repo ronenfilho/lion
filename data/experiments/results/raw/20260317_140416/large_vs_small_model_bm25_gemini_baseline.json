@@ -1,0 +1,112 @@
+{
+  "experiment_name": "large_vs_small_model_bm25_gemini_baseline",
+  "config": {
+    "use_rag": false,
+    "llm": "gemini-3.1-flash-lite-preview"
+  },
+  "run_id": "20260317_140416",
+  "timestamp": "2026-03-17T14:10:24.045313",
+  "total_questions": 3,
+  "successful_queries": 3,
+  "failed_queries": 0,
+  "aggregated_metrics": {
+    "latency_ms_mean": 3426.431179046631,
+    "latency_ms_std": 281.1505461443058,
+    "latency_ms_min": 3097.9316234588623,
+    "latency_ms_max": 3784.677028656006,
+    "latency_ms_median": 3396.6848850250244,
+    "num_chunks_mean": 0.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 0.0,
+    "num_chunks_max": 0.0,
+    "num_chunks_median": 0.0,
+    "tokens_used_mean": 502.3333333333333,
+    "tokens_used_std": 106.30877459342459,
+    "tokens_used_min": 352.0,
+    "tokens_used_max": 579.0,
+    "tokens_used_median": 576.0,
+    "bertscore_precision_mean": 0.5107337037722269,
+    "bertscore_precision_std": 0.004643084806653123,
+    "bertscore_precision_min": 0.5049594044685364,
+    "bertscore_precision_max": 0.5163283348083496,
+    "bertscore_precision_median": 0.5109133720397949,
+    "bertscore_recall_mean": 0.6099245349566141,
+    "bertscore_recall_std": 0.021812480534145296,
+    "bertscore_recall_min": 0.5803464651107788,
+    "bertscore_recall_max": 0.6322984099388123,
+    "bertscore_recall_median": 0.6171287298202515,
+    "bertscore_f1_mean": 0.5558141867319742,
+    "bertscore_f1_std": 0.011221110547623949,
+    "bertscore_f1_min": 0.5400346517562866,
+    "bertscore_f1_max": 0.5651615858078003,
+    "bertscore_f1_median": 0.5622463226318359
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "Para responder à sua pergunta, é necessário um esclarecimento importante: **não existe uma \"Lei nº 15.270, de 2025\" no ordenamento jurídico brasileiro.**\n\nAté o momento, o Congresso Nacional não promulgou uma lei com esse número para o ano de 2025. É possível que tenha ocorrido uma confusão com o número de outra norma ou que se trate de um projeto de lei ainda em tramitação.\n\nNo entanto, para que eu possa te ajudar com precisão, verifique se você não se refere a um dos seguintes casos:\n\n1.  **Erro na numeração:** Você poderia conferir o número da lei ou o tema que ela aborda? (Exemplo: se for sobre a nova tabela do IRPF, isenção de rendimentos, ou mudanças na declaração).\n2.  **Projeto de Lei (PL):** Se for um projeto que está sendo discutido, ele ainda não possui força de lei e seus objetivos podem mudar durante a votação.\n3.  **Lei Estadual ou Municipal:** Às vezes, leis estaduais possuem numerações que podem ser confundidas com leis federais.\n\n**Como posso te ajudar agora?**\nSe você me disser **qual é o assunto** que você acredita que essa lei trata (ex: \"a lei que fala sobre a isenção de R$ 5.000,00\" ou \"a lei que altera a tributação de investimentos no exterior\"), eu poderei identificar a norma correta para você e explicar seus objetivos, citando a legislação vigente.\n\nFico no aguardo dessas informações para esclarecer sua dúvida!",
+      "answer_core": "Para responder à sua pergunta, é necessário um esclarecimento importante: **não existe uma \"Lei nº 15.270, de 2025\" no ordenamento jurídico brasileiro.**\n\nAté o momento, o Congresso Nacional não promulgou uma lei com esse número para o ano de 2025. É possível que tenha ocorrido uma confusão com o número de outra norma ou que se trate de um projeto de lei ainda em tramitação.\n\nNo entanto, para que eu possa te ajudar com precisão, verifique se você não se refere a um dos seguintes casos:\n\n1.  **Erro na numeração:** Você poderia conferir o número da lei ou o tema que ela aborda? (Exemplo: se for sobre a nova tabela do IRPF, isenção de rendimentos, ou mudanças na declaração).\n2.  **Projeto de Lei (PL):** Se for um projeto que está sendo discutido, ele ainda não possui força de lei e seus objetivos podem mudar durante a votação.\n3.  **Lei Estadual ou Municipal:** Às vezes, leis estaduais possuem numerações que podem ser confundidas com leis federais.\n\n**Como posso te ajudar agora?**\nSe você me disser **qual é o assunto** que você acredita que essa lei trata (ex: \"a lei que fala sobre a isenção de R$ 5.000,00\" ou \"a lei que altera a tributação de investimentos no exterior\"), eu poderei identificar a norma correta para você e explicar seus objetivos, citando a legislação vigente.\n\nFico no aguardo dessas informações para esclarecer sua dúvida!",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 3097.9316234588623,
+        "num_chunks": 0,
+        "tokens_used": 352,
+        "bertscore_precision": 0.5163283348083496,
+        "bertscore_recall": 0.6171287298202515,
+        "bertscore_f1": 0.5622463226318359
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-3.1-flash-lite-preview"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "answer_full": "Para responder à sua pergunta, é necessário um esclarecimento importante: **não existe uma \"Lei nº 15.270\" promulgada em 2025 no ordenamento jurídico brasileiro.**\n\nAté o momento, a numeração das leis federais brasileiras em 2025 ainda não atingiu a casa dos 15 mil. As leis federais seguem uma sequência cronológica contínua, e as leis sancionadas no início de 2025 possuem numeração significativamente inferior a 15.000.\n\nÉ possível que tenha ocorrido uma confusão com algum dos seguintes pontos:\n\n1.  **Erro de digitação no número da lei:** Se você se refere a uma lei específica sobre Imposto de Renda, pode ter ocorrido um erro ao digitar o número.\n2.  **Lei Estadual ou Municipal:** Se o número 15.270 se refere a uma lei estadual (por exemplo, de São Paulo ou outro estado), ela não teria competência para legislar sobre o **Imposto de Renda Pessoa Física (IRPF)**, que é um tributo de competência exclusiva da **União** (conforme o Art. 153, inciso III, da Constituição Federal de 1988).\n3.  **Projeto de Lei:** Pode ser que você esteja se referindo a um Projeto de Lei (PL) que ainda está em tramitação no Congresso Nacional.\n\n### O que rege o IRPF no Brasil?\nPara fins de consulta sobre Imposto de Renda, a legislação base que você deve observar é:\n\n*   **Lei nº 7.713/1988:** É a \"espinha dorsal\" do IRPF, que trata da base de cálculo, isenções e tributação de rendimentos.\n*   **Regulamento do Imposto de Renda (RIR/2018):** Aprovado pelo **Decreto nº 9.580/2018**, que consolida toda a legislação vigente sobre o tema de forma organizada.\n*   **Leis Anuais de Atualização:** Frequentemente, o governo edita leis para atualizar a tabela progressiva do IRPF (como a recente Lei nº 14.663/2023, que alterou faixas de isenção).\n\n**Como posso te ajudar melhor?**\nSe você puder verificar o número da lei ou o assunto específico que deseja pesquisar (ex: isenção de rendimentos, deduções com saúde, ganho de capital), posso buscar a legislação correta e explicar como ela afeta a sua declaração de Imposto de Renda.",
+      "answer_core": "Para responder à sua pergunta, é necessário um esclarecimento importante: **não existe uma \"Lei nº 15.270\" promulgada em 2025 no ordenamento jurídico brasileiro.**\n\nAté o momento, a numeração das leis federais brasileiras em 2025 ainda não atingiu a casa dos 15 mil. As leis federais seguem uma sequência cronológica contínua, e as leis sancionadas no início de 2025 possuem numeração significativamente inferior a 15.000.\n\nÉ possível que tenha ocorrido uma confusão com algum dos seguintes pontos:\n\n1.  **Erro de digitação no número da lei:** Se você se refere a uma lei específica sobre Imposto de Renda, pode ter ocorrido um erro ao digitar o número.\n2.  **Lei Estadual ou Municipal:** Se o número 15.270 se refere a uma lei estadual (por exemplo, de São Paulo ou outro estado), ela não teria competência para legislar sobre o **Imposto de Renda Pessoa Física (IRPF)**, que é um tributo de competência exclusiva da **União** (conforme o Art. 153, inciso III, da Constituição Federal de 1988).\n3.  **Projeto de Lei:** Pode ser que você esteja se referindo a um Projeto de Lei (PL) que ainda está em tramitação no Congresso Nacional.\n\n### O que rege o IRPF no Brasil?\nPara fins de consulta sobre Imposto de Renda, a legislação base que você deve observar é:\n\n*   **Lei nº 7.713/1988:** É a \"espinha dorsal\" do IRPF, que trata da base de cálculo, isenções e tributação de rendimentos.\n*   **Regulamento do Imposto de Renda (RIR/2018):** Aprovado pelo **Decreto nº 9.580/2018**, que consolida toda a legislação vigente sobre o tema de forma organizada.\n*   **Leis Anuais de Atualização:** Frequentemente, o governo edita leis para atualizar a tabela progressiva do IRPF (como a recente Lei nº 14.663/2023, que alterou faixas de isenção).\n\n**Como posso te ajudar melhor?**\nSe você puder verificar o número da lei ou o assunto específico que deseja pesquisar (ex: isenção de rendimentos, deduções com saúde, ganho de capital), posso buscar a legislação correta e explicar como ela afeta a sua declaração de Imposto de Renda.",
+      "ground_truth": "Os principais elementos da Lei nº 15.270, de 2025, são: ampliação da faixa de isenção do Imposto de Renda da Pessoa Física; tributação anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00; iii. inserção da tributação do IRRF sobre lucros e dividendos pagos a não residente no Brasil.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 3784.677028656006,
+        "num_chunks": 0,
+        "tokens_used": 576,
+        "bertscore_precision": 0.5109133720397949,
+        "bertscore_recall": 0.6322984099388123,
+        "bertscore_f1": 0.5651615858078003
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-3.1-flash-lite-preview"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "answer_full": "Para responder à sua pergunta, é necessário um esclarecimento importante: **não existe uma \"Lei nº 15.270, de 2025\" no ordenamento jurídico brasileiro até o momento.**\n\nÉ possível que tenha ocorrido uma confusão com o número da lei ou com o ano de publicação. No contexto do Imposto de Renda no Brasil, as alterações legislativas costumam seguir regras específicas de vigência estabelecidas pela **Lei Complementar nº 95/1998** e pelo **Princípio da Anterioridade** (previsto no Art. 150, III, da Constituição Federal).\n\n### Regras gerais de aplicação de leis tributárias:\n\n1.  **Princípio da Anterioridade Anual:** De acordo com o **Art. 150, inciso III, alínea \"b\" da Constituição Federal de 1988**, a União não pode cobrar tributos no mesmo exercício financeiro em que haja sido publicada a lei que os instituiu ou aumentou. Ou seja, se uma lei altera o IRPF para aumentar a carga tributária, ela só pode ser aplicada no ano seguinte.\n2.  **Princípio da Anterioridade Nonagesimal (90 dias):** O **Art. 150, inciso III, alínea \"c\" da Constituição** estabelece que a cobrança também deve respeitar o prazo de 90 dias após a publicação da lei.\n3.  **Vigência imediata:** Se a lei for apenas para **benefício do contribuinte** (como uma isenção ou redução de alíquota), ela pode entrar em vigor na data de sua publicação ou na data especificada no próprio texto da lei, sem precisar esperar o ano seguinte.\n\n### Como verificar a data correta?\nPara que eu possa te dar a resposta exata, por favor, verifique:\n*   O **número correto da lei** (talvez você esteja se referindo a uma Medida Provisória ou a uma lei de outro ano).\n*   O **assunto específico** da lei (ex: tabela do IRPF, dedução de despesas, etc.).\n\n**Dica:** Você pode consultar o texto oficial de qualquer lei brasileira através do portal [Planalto.gov.br](http://www.planalto.gov.br/legislacao). Lá, ao abrir a lei, o **Artigo final** (geralmente chamado de \"Artigo das Disposições Finais\") sempre indica a data exata em que a lei entra em vigor (\"Esta lei entra em vigor na data de sua publicação\").\n\nSe você tiver o nome ou o tema da lei, posso pesquisar para você e confirmar a data de aplicação!",
+      "answer_core": "Para responder à sua pergunta, é necessário um esclarecimento importante: **não existe uma \"Lei nº 15.270, de 2025\" no ordenamento jurídico brasileiro até o momento.**\n\nÉ possível que tenha ocorrido uma confusão com o número da lei ou com o ano de publicação. No contexto do Imposto de Renda no Brasil, as alterações legislativas costumam seguir regras específicas de vigência estabelecidas pela **Lei Complementar nº 95/1998** e pelo **Princípio da Anterioridade** (previsto no Art. 150, III, da Constituição Federal).\n\n### Regras gerais de aplicação de leis tributárias:\n\n1.  **Princípio da Anterioridade Anual:** De acordo com o **Art. 150, inciso III, alínea \"b\" da Constituição Federal de 1988**, a União não pode cobrar tributos no mesmo exercício financeiro em que haja sido publicada a lei que os instituiu ou aumentou. Ou seja, se uma lei altera o IRPF para aumentar a carga tributária, ela só pode ser aplicada no ano seguinte.\n2.  **Princípio da Anterioridade Nonagesimal (90 dias):** O **Art. 150, inciso III, alínea \"c\" da Constituição** estabelece que a cobrança também deve respeitar o prazo de 90 dias após a publicação da lei.\n3.  **Vigência imediata:** Se a lei for apenas para **benefício do contribuinte** (como uma isenção ou redução de alíquota), ela pode entrar em vigor na data de sua publicação ou na data especificada no próprio texto da lei, sem precisar esperar o ano seguinte.\n\n### Como verificar a data correta?\nPara que eu possa te dar a resposta exata, por favor, verifique:\n*   O **número correto da lei** (talvez você esteja se referindo a uma Medida Provisória ou a uma lei de outro ano).\n*   O **assunto específico** da lei (ex: tabela do IRPF, dedução de despesas, etc.).\n\n**Dica:** Você pode consultar o texto oficial de qualquer lei brasileira através do portal [Planalto.gov.br](http://www.planalto.gov.br/legislacao). Lá, ao abrir a lei, o **Artigo final** (geralmente chamado de \"Artigo das Disposições Finais\") sempre indica a data exata em que a lei entra em vigor (\"Esta lei entra em vigor na data de sua publicação\").\n\nSe você tiver o nome ou o tema da lei, posso pesquisar para você e confirmar a data de aplicação!",
+      "ground_truth": "A ampliação da faixa de isenção da pessoa física será aplicada a partir de janeiro de 2026. A retenção na fonte do IRRF sobre lucros e dividendos pagos acima de R$ 50 mil a pessoa física residente no Brasil e em qualquer valor a pessoa física ou jurídica no exterior deve ser aplicada a partir de janeiro de 2026. Já o regime anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00, deve ser aplicada a partir do exercício de 2027, ano-calendário de 2026.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 3396.6848850250244,
+        "num_chunks": 0,
+        "tokens_used": 579,
+        "bertscore_precision": 0.5049594044685364,
+        "bertscore_recall": 0.5803464651107788,
+        "bertscore_f1": 0.5400346517562866
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-3.1-flash-lite-preview"
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "experiment_name": "large_vs_small_model_bm25_gemini_baseline",
+  "config": {
+    "use_rag": false,
+    "llm": "gemini-3.1-flash-lite-preview"
+  },
+  "run_id": "20260317_142029",
+  "timestamp": "2026-03-17T17:30:49.916485",
+  "total_questions": 3,
+  "successful_queries": 1,
+  "failed_queries": 2,
+  "aggregated_metrics": {
+    "latency_ms_mean": 4517.1661376953125,
+    "latency_ms_std": 0.0,
+    "latency_ms_min": 4517.1661376953125,
+    "latency_ms_max": 4517.1661376953125,
+    "latency_ms_median": 4517.1661376953125,
+    "num_chunks_mean": 0.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 0.0,
+    "num_chunks_max": 0.0,
+    "num_chunks_median": 0.0,
+    "tokens_used_mean": 495.0,
+    "tokens_used_std": 0.0,
+    "tokens_used_min": 495.0,
+    "tokens_used_max": 495.0,
+    "tokens_used_median": 495.0,
+    "bertscore_precision_mean": 0.5079064965248108,
+    "bertscore_precision_std": 0.0,
+    "bertscore_precision_min": 0.5079064965248108,
+    "bertscore_precision_max": 0.5079064965248108,
+    "bertscore_precision_median": 0.5079064965248108,
+    "bertscore_recall_mean": 0.626694917678833,
+    "bertscore_recall_std": 0.0,
+    "bertscore_recall_min": 0.626694917678833,
+    "bertscore_recall_max": 0.626694917678833,
+    "bertscore_recall_median": 0.626694917678833,
+    "bertscore_f1_mean": 0.5610824227333069,
+    "bertscore_f1_std": 0.0,
+    "bertscore_f1_min": 0.5610824227333069,
+    "bertscore_f1_max": 0.5610824227333069,
+    "bertscore_f1_median": 0.5610824227333069
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "Para responder à sua pergunta, é importante primeiro fazer um esclarecimento técnico: **não existe uma \"Lei nº 15.270\" promulgada em 2025.**\n\nAté o momento, a legislação federal brasileira não atingiu esse número de lei para o ano de 2025. As leis federais são numeradas de forma sequencial e contínua, independentemente do ano. Atualmente, as leis federais sancionadas em 2025 ainda estão em uma numeração muito inferior a 15.000.\n\nÉ possível que tenha ocorrido uma confusão com algum dos seguintes cenários:\n\n1.  **Lei Estadual ou Municipal:** Pode ser uma lei de um estado ou município específico (por exemplo, uma lei estadual de São Paulo ou do Rio de Janeiro), que possuem numerações próprias.\n2.  **Erro de digitação:** Você pode ter se enganado no número da lei ou no ano.\n3.  **Projeto de Lei:** Pode ser um Projeto de Lei (PL) que ainda está em tramitação e que, se aprovado, receberá um número de lei futuramente.\n\n### Como posso te ajudar?\n\nPara que eu possa te dar uma resposta precisa sobre o objetivo da norma que você busca, você poderia verificar:\n\n*   **O número correto da lei:** Verifique se não é, por exemplo, a Lei nº 14.270 ou outra numeração próxima.\n*   **A esfera da lei:** Ela é federal, estadual ou municipal?\n*   **O tema:** Se você me disser sobre o que trata a lei (ex: isenção de IR, mudanças em deduções, etc.), posso buscar a legislação correta para você.\n\n**Dica sobre IRPF:** Se a sua dúvida for sobre mudanças recentes no Imposto de Renda, as alterações mais relevantes para 2025 (ano-calendário 2024) estão baseadas na **Lei nº 14.881/2024**, que atualizou a tabela progressiva mensal do IRPF, isentando quem recebe até dois salários mínimos.\n\nSe você tiver o texto ou o tema da lei em mãos, por favor, compartilhe comigo e terei prazer em explicar os objetivos e os impactos tributários dela!",
+      "answer_core": "Para responder à sua pergunta, é importante primeiro fazer um esclarecimento técnico: **não existe uma \"Lei nº 15.270\" promulgada em 2025.**\n\nAté o momento, a legislação federal brasileira não atingiu esse número de lei para o ano de 2025. As leis federais são numeradas de forma sequencial e contínua, independentemente do ano. Atualmente, as leis federais sancionadas em 2025 ainda estão em uma numeração muito inferior a 15.000.\n\nÉ possível que tenha ocorrido uma confusão com algum dos seguintes cenários:\n\n1.  **Lei Estadual ou Municipal:** Pode ser uma lei de um estado ou município específico (por exemplo, uma lei estadual de São Paulo ou do Rio de Janeiro), que possuem numerações próprias.\n2.  **Erro de digitação:** Você pode ter se enganado no número da lei ou no ano.\n3.  **Projeto de Lei:** Pode ser um Projeto de Lei (PL) que ainda está em tramitação e que, se aprovado, receberá um número de lei futuramente.\n\n### Como posso te ajudar?\n\nPara que eu possa te dar uma resposta precisa sobre o objetivo da norma que você busca, você poderia verificar:\n\n*   **O número correto da lei:** Verifique se não é, por exemplo, a Lei nº 14.270 ou outra numeração próxima.\n*   **A esfera da lei:** Ela é federal, estadual ou municipal?\n*   **O tema:** Se você me disser sobre o que trata a lei (ex: isenção de IR, mudanças em deduções, etc.), posso buscar a legislação correta para você.\n\n**Dica sobre IRPF:** Se a sua dúvida for sobre mudanças recentes no Imposto de Renda, as alterações mais relevantes para 2025 (ano-calendário 2024) estão baseadas na **Lei nº 14.881/2024**, que atualizou a tabela progressiva mensal do IRPF, isentando quem recebe até dois salários mínimos.\n\nSe você tiver o texto ou o tema da lei em mãos, por favor, compartilhe comigo e terei prazer em explicar os objetivos e os impactos tributários dela!",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 4517.1661376953125,
+        "num_chunks": 0,
+        "tokens_used": 495,
+        "bertscore_precision": 0.5079064965248108,
+        "bertscore_recall": 0.626694917678833,
+        "bertscore_f1": 0.5610824227333069
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-3.1-flash-lite-preview"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "error": "Erro ao gerar resposta: Timeout of 600.0s exceeded, last exception: 503 DNS resolution failed for generativelanguage.googleapis.com:443: C-ares status is not ARES_SUCCESS qtype=A name=generativelanguage.googleapis.com is_balancer=0: DNS server returned general failure",
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-3.1-flash-lite-preview"
+      }
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "error": "Erro ao gerar resposta: Timeout of 600.0s exceeded, last exception: 503 DNS resolution failed for generativelanguage.googleapis.com:443: C-ares status is not ARES_SUCCESS qtype=A name=generativelanguage.googleapis.com is_balancer=0: DNS server returned general failure",
+      "config": {
+        "use_rag": false,
+        "llm": "gemini-3.1-flash-lite-preview"
+      }
+    }
+  ]
+}

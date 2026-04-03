@@ -1,0 +1,62 @@
+[
+  {
+    "method": "dense",
+    "k": 3,
+    "latency": 869.7922260034829,
+    "chunks": 3
+  },
+  {
+    "method": "dense",
+    "k": 5,
+    "latency": 653.4147569909692,
+    "chunks": 5
+  },
+  {
+    "method": "dense",
+    "k": 10,
+    "latency": 669.1296750213951,
+    "chunks": 10
+  },
+  {
+    "method": "bm25",
+    "k": 3,
+    "latency": 2.757021924480796,
+    "chunks": 3
+  },
+  {
+    "method": "bm25",
+    "k": 5,
+    "latency": 3.8383749779313803,
+    "chunks": 5
+  },
+  {
+    "method": "bm25",
+    "k": 10,
+    "latency": 4.403129918500781,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 3,
+    "latency": 1034.0861638542265,
+    "chunks": 3
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 403.2397889532149,
+    "chunks": 5
+  },
+  {
+    "method": "hybrid",
+    "k": 10,
+    "latency": 399.7399949003011,
+    "chunks": 10
+  },
+  {
+    "method": "hybrid",
+    "k": 5,
+    "latency": 390.79349604435265,
+    "chunks": 5
+  }
+]

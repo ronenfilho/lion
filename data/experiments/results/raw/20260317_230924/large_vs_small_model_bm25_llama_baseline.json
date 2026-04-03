@@ -1,0 +1,126 @@
+{
+  "experiment_name": "large_vs_small_model_bm25_llama_baseline",
+  "config": {
+    "use_rag": false,
+    "llm": "groq:llama-3.1-8b-instant"
+  },
+  "run_id": "20260317_230924",
+  "timestamp": "2026-03-17T23:09:49.484865",
+  "total_questions": 5,
+  "successful_queries": 5,
+  "failed_queries": 0,
+  "aggregated_metrics": {
+    "latency_ms_mean": 734.4842910766602,
+    "latency_ms_std": 130.9617428192288,
+    "latency_ms_min": 563.6487007141113,
+    "latency_ms_max": 921.3902950286865,
+    "latency_ms_median": 744.9789047241211,
+    "num_chunks_mean": 0.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 0.0,
+    "num_chunks_max": 0.0,
+    "num_chunks_median": 0.0,
+    "tokens_used_mean": 408.2,
+    "tokens_used_std": 59.94130462377341,
+    "tokens_used_min": 306.0,
+    "tokens_used_max": 483.0,
+    "tokens_used_median": 432.0
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois não há registro de uma lei com esse número na legislação brasileira até a data do meu conhecimento (dezembro de 2023).\n\nNo entanto, posso sugerir algumas opções para você:\n\n1. Verifique se a lei foi publicada recentemente e não foi incluída no meu conhecimento atualizado.\n2. Verifique se a lei foi publicada em um site oficial de legislação, como o site da Câmara dos Deputados ou do Senado Federal.\n3. Verifique se a lei foi mencionada em algum site de notícias ou fontes de informação confiáveis.\n\nSe você tiver mais informações sobre a lei, como o assunto ou o objetivo, posso tentar ajudar a encontrar mais informações.\n\nLembre-se de que a legislação tributária brasileira é regida pela Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional - CTN), e pelas leis específicas de impostos, como a Lei nº 5.172, de 1966 (Lei do Imposto de Renda).\n\nSe você tiver alguma outra pergunta sobre imposto de renda ou legislação tributária brasileira, estou aqui para ajudar!",
+      "answer_core": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois não há registro de uma lei com esse número na legislação brasileira até a data do meu conhecimento (dezembro de 2023).\n\nNo entanto, posso sugerir algumas opções para você:\n\n1. Verifique se a lei foi publicada recentemente e não foi incluída no meu conhecimento atualizado.\n2. Verifique se a lei foi publicada em um site oficial de legislação, como o site da Câmara dos Deputados ou do Senado Federal.\n3. Verifique se a lei foi mencionada em algum site de notícias ou fontes de informação confiáveis.\n\nSe você tiver mais informações sobre a lei, como o assunto ou o objetivo, posso tentar ajudar a encontrar mais informações.\n\nLembre-se de que a legislação tributária brasileira é regida pela Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional - CTN), e pelas leis específicas de impostos, como a Lei nº 5.172, de 1966 (Lei do Imposto de Renda).\n\nSe você tiver alguma outra pergunta sobre imposto de renda ou legislação tributária brasileira, estou aqui para ajudar!",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 921.3902950286865,
+        "num_chunks": 0,
+        "tokens_used": 432
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q002",
+      "question": "Quais os principais elementos contidos na Lei nº 15.270, de 2025?",
+      "answer_full": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois a minha base de conhecimento é até 2023 e não há registro de uma lei com esse número e data.\n\nNo entanto, posso sugerir algumas opções para você encontrar as informações que procura:\n\n1. Verifique se a lei foi publicada no Diário Oficial da União (DOU) e se está disponível no site do Governo Federal.\n2. Consulte o site do Ministério da Fazenda ou do Ministério da Economia para obter informações sobre a lei.\n3. Verifique se a lei foi regulamentada por outros atos normativos, como resoluções ou instruções da Receita Federal do Brasil (RFB).\n4. Se você tiver acesso a uma base de dados jurídica, como o site da Biblioteca da Câmara dos Deputados ou da Biblioteca do Senado Federal, você pode encontrar informações sobre a lei.\n\nSe você tiver mais informações sobre a lei, como o assunto ou a área que aborda, posso tentar ajudar a encontrar as informações que procura.",
+      "answer_core": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois a minha base de conhecimento é até 2023 e não há registro de uma lei com esse número e data.\n\nNo entanto, posso sugerir algumas opções para você encontrar as informações que procura:\n\n1. Verifique se a lei foi publicada no Diário Oficial da União (DOU) e se está disponível no site do Governo Federal.\n2. Consulte o site do Ministério da Fazenda ou do Ministério da Economia para obter informações sobre a lei.\n3. Verifique se a lei foi regulamentada por outros atos normativos, como resoluções ou instruções da Receita Federal do Brasil (RFB).\n4. Se você tiver acesso a uma base de dados jurídica, como o site da Biblioteca da Câmara dos Deputados ou da Biblioteca do Senado Federal, você pode encontrar informações sobre a lei.\n\nSe você tiver mais informações sobre a lei, como o assunto ou a área que aborda, posso tentar ajudar a encontrar as informações que procura.",
+      "ground_truth": "Os principais elementos da Lei nº 15.270, de 2025, são: ampliação da faixa de isenção do Imposto de Renda da Pessoa Física; tributação anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00; iii. inserção da tributação do IRRF sobre lucros e dividendos pagos a não residente no Brasil.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 618.3104515075684,
+        "num_chunks": 0,
+        "tokens_used": 384
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q003",
+      "question": "A partir de qual data a Lei nº 15.270, de 2025, deve ser aplicada?",
+      "answer_full": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois não há registro de uma lei com esse número e data na legislação brasileira atualizada até a minha última atualização em 2023.\n\nNo entanto, posso sugerir que você verifique a data de publicação da lei e a data de entrada em vigor, que é comum ser diferente da data de publicação. Além disso, é importante verificar se a lei foi republicada no Diário Oficial da União (DOU) e se há alguma norma específica que determine a data de aplicação.\n\nSe você tiver mais informações sobre a lei, como o número do DOU ou a data de publicação, posso tentar ajudar a encontrar a resposta.",
+      "answer_core": "Infelizmente, não tenho informações sobre a Lei nº 15.270, de 2025, pois não há registro de uma lei com esse número e data na legislação brasileira atualizada até a minha última atualização em 2023.\n\nNo entanto, posso sugerir que você verifique a data de publicação da lei e a data de entrada em vigor, que é comum ser diferente da data de publicação. Além disso, é importante verificar se a lei foi republicada no Diário Oficial da União (DOU) e se há alguma norma específica que determine a data de aplicação.\n\nSe você tiver mais informações sobre a lei, como o número do DOU ou a data de publicação, posso tentar ajudar a encontrar a resposta.",
+      "ground_truth": "A ampliação da faixa de isenção da pessoa física será aplicada a partir de janeiro de 2026. A retenção na fonte do IRRF sobre lucros e dividendos pagos acima de R$ 50 mil a pessoa física residente no Brasil e em qualquer valor a pessoa física ou jurídica no exterior deve ser aplicada a partir de janeiro de 2026. Já o regime anual de altas rendas, aplicável a contribuintes que recebam rendimentos no ano-calendário superior a R$ 600.000,00, deve ser aplicada a partir do exercício de 2027, ano-calendário de 2026.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 563.6487007141113,
+        "num_chunks": 0,
+        "tokens_used": 306
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant"
+      },
+      "category": "prazo",
+      "difficulty": "medio"
+    },
+    {
+      "question_id": "q004",
+      "question": "A distribuição de lucros e dividendos para pessoa física residente será tributada pelo IRRF?",
+      "answer_full": "Sim, a distribuição de lucros e dividendos para pessoa física residente no Brasil será tributada pelo Imposto de Renda Retido na Fonte (IRRF).\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, os lucros e dividendos distribuídos a pessoa física residente no Brasil são considerados renda e, portanto, estão sujeitos à tributação pelo IRRF.\n\nAlém disso, o artigo 22 da Lei nº 9.250/95 estabelece que a alíquota do IRRF é de 20% sobre os lucros e dividendos distribuídos.\n\nNo entanto, é importante notar que a pessoa física residente no Brasil pode ser isenta do IRRF se atender aos requisitos do artigo 22, § 1º, da Lei nº 9.250/95, que estabelece que a isenção é concedida se a pessoa física for titular de ações de empresas que tenham sido constituídas há pelo menos 2 anos e que tenham sido distribuídas pelo menos 25% dos lucros líquidos anuais.\n\nPortanto, é importante verificar se a pessoa física atende aos requisitos para a isenção do IRRF antes de distribuir lucros e dividendos.",
+      "answer_core": "Sim, a distribuição de lucros e dividendos para pessoa física residente no Brasil será tributada pelo Imposto de Renda Retido na Fonte (IRRF).\n\nDe acordo com o artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, os lucros e dividendos distribuídos a pessoa física residente no Brasil são considerados renda e, portanto, estão sujeitos à tributação pelo IRRF.\n\nAlém disso, o artigo 22 da Lei nº 9.250/95 estabelece que a alíquota do IRRF é de 20% sobre os lucros e dividendos distribuídos.\n\nNo entanto, é importante notar que a pessoa física residente no Brasil pode ser isenta do IRRF se atender aos requisitos do artigo 22, § 1º, da Lei nº 9.250/95, que estabelece que a isenção é concedida se a pessoa física for titular de ações de empresas que tenham sido constituídas há pelo menos 2 anos e que tenham sido distribuídas pelo menos 25% dos lucros líquidos anuais.\n\nPortanto, é importante verificar se a pessoa física atende aos requisitos para a isenção do IRRF antes de distribuir lucros e dividendos.",
+      "ground_truth": "Com a edição da Lei nº 15.270, de 26 de novembro de 2025, a distribuição de lucros e dividendos por pessoas jurídicas no Brasil passará a se sujeitar à retenção na fonte a partir de janeiro de 2026. A retenção será devida quando se tratar de distribuição de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês. Nesse caso, a pessoa jurídica deverá efetuar a retenção do IRRF sobre esse pagamento. O IRRF incidirá sobre o valor total do pagamento de lucros ou dividendos superiores a R$ 50.000,00. Se o total de rendimentos auferidos no ano pela pessoa física superar R$ 600.000,00, a pessoa física deverá submeter os rendimentos dos lucros e dividendos recebidos a partir de 2026 ao regime de tributação anual de altas rendas previsto no art. 16-A da Lei nº 15.270, de 2025. O IRRF retido pela pessoa jurídica no decorrer do ano-calendário poderá ser deduzido do imposto apurado nesse regime. Na hipótese em que o contribuinte aufira rendimentos a título de lucros e dividendos e de outros rendimentos em montante inferior a R$ 600.000,00, o valor do IRRF retido pela empresa sobre os lucros distribuídos poderá ser restituído ao contribuinte.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 744.9789047241211,
+        "num_chunks": 0,
+        "tokens_used": 436
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant"
+      },
+      "category": "outros",
+      "difficulty": "dificil"
+    },
+    {
+      "question_id": "q005",
+      "question": "Qual a alíquota deve ser utilizada pela pessoa jurídica para efetuar a retenção do IRRF sobre os lucros e dividendos pagos?",
+      "answer_full": "A alíquota a ser utilizada pela pessoa jurídica para efetuar a retenção do Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos é de 20% (vinte por cento).\n\nIsso está previsto no artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, que dispõe sobre a retenção de imposto sobre a renda e proventos de qualquer natureza.\n\nNo entanto, é importante notar que a alíquota pode ser reduzida para 15% (quinze por cento) se o beneficiário do lucro ou dividendo for pessoa física residente no Brasil e tiver renda tributável inferior a R$ 28.175,88 (vinte e oito mil cento e setenta e cinco reais e oitenta e oito centavos) no ano-calendário em que o lucro ou dividendo for distribuído.\n\nAlém disso, é necessário considerar as alíquotas reduzidas previstas no artigo 7º da Lei nº 9.249, de 26 de dezembro de 1995, que dispõe sobre a redução da alíquota de imposto sobre a renda para certas operações.\n\nPortanto, é fundamental verificar as condições específicas do caso e consultar a legislação atualizada para determinar a alíquota correta a ser utilizada para a retenção do IRRF.",
+      "answer_core": "A alíquota a ser utilizada pela pessoa jurídica para efetuar a retenção do Imposto de Renda Retido na Fonte (IRRF) sobre os lucros e dividendos pagos é de 20% (vinte por cento).\n\nIsso está previsto no artigo 22 da Lei nº 9.250, de 26 de dezembro de 1995, que dispõe sobre a retenção de imposto sobre a renda e proventos de qualquer natureza.\n\nNo entanto, é importante notar que a alíquota pode ser reduzida para 15% (quinze por cento) se o beneficiário do lucro ou dividendo for pessoa física residente no Brasil e tiver renda tributável inferior a R$ 28.175,88 (vinte e oito mil cento e setenta e cinco reais e oitenta e oito centavos) no ano-calendário em que o lucro ou dividendo for distribuído.\n\nAlém disso, é necessário considerar as alíquotas reduzidas previstas no artigo 7º da Lei nº 9.249, de 26 de dezembro de 1995, que dispõe sobre a redução da alíquota de imposto sobre a renda para certas operações.\n\nPortanto, é fundamental verificar as condições específicas do caso e consultar a legislação atualizada para determinar a alíquota correta a ser utilizada para a retenção do IRRF.",
+      "ground_truth": "A lei determina que o IRRF incidirá à alíquota de 10% sobre a totalidade dos dividendos distribuídos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil que supere R$ 50.000,00 em um mesmo mês.",
+      "chunks": [],
+      "metrics": {
+        "latency_ms": 824.0931034088135,
+        "num_chunks": 0,
+        "tokens_used": 483
+      },
+      "config": {
+        "use_rag": false,
+        "llm": "groq:llama-3.1-8b-instant"
+      },
+      "category": "aliquota",
+      "difficulty": "medio"
+    }
+  ]
+}

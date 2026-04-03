@@ -11,7 +11,7 @@ import os
 load_dotenv()
 
 PERSIST_DIR = "./data/embeddings/chroma_db"
-COLLECTION_NAME = os.getenv("COLLECTION_NAME", "irpf_2025")
+COLLECTION_NAME = os.getenv("CHROMA_COLLECTION_NAME", "irpf_2025")
 
 # Inicializar Vector Store
 vector_store = VectorStore(
@@ -40,9 +40,9 @@ for i, (doc_id, content, metadata) in enumerate(zip(
     print(f"{'─'*80}")
     print(f"🆔 ID: {doc_id}")
     print(f"📝 Seção: {metadata.get('section', 'N/A')}")
-    print(f"📄 Arquivo: {metadata.get('filename', 'N/A')}")
-    print(f"🔢 Índice: {metadata.get('chunk_index', 'N/A')}")
-    print(f"⚙️  Método: {metadata.get('chunk_method', 'N/A')}")
+    print(f"📄 Arquivo: {metadata.get('source_file', 'N/A')}")
+    print(f"📖 Documento: {metadata.get('document', 'N/A')}")
+    print(f"📍 Artigo: {metadata.get('article_number', 'N/A')}")
     print(f"📏 Tamanho: {len(content)} caracteres")
     print(f"\n📄 Conteúdo (primeiros 300 caracteres):")
     print(f"{'─'*80}")

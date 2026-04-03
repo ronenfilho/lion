@@ -1,0 +1,139 @@
+{
+  "document": "pl-1087-25_Exm-0019-25-MF_doc",
+  "total_chunks": 12,
+  "created_at": "2026-03-17T21:30:43.468094",
+  "chunks": [
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_001",
+      "section_num": "2.1.",
+      "section_title": "Na análise dos dados de renda da população brasileira, o estudo aponta para a concentração de renda pelo 1% (um por cento) e 0,1% (um décimo por cento) mais rico e a composição de renda deste extrato, onde há prevalência de rendimentos de capital.",
+      "content": "\"A renda acumulada pelo 1% mais rico também é um bom indicador de concentração e, no caso brasileiro, atingiu aproximadamente 23,6% da renda disponível bruta das famílias em 2022, \\... Esse nível de concentração é não só um dos mais altos do mundo como também cresceu nos anos recentes\\...\n\nJá os milionários, aqueles que possuem uma renda superior a R\\$ 1 milhão anuais, representam cerca de 307 mil pessoas ou 0,2% da população adulta, conforme pode-se aferir pelas declarações de IRPF de 2022.\n\nOutra forma de analisar a mesma questão é olhar para quanto cada estrato de renda concentra dos diferentes tipos de rendimento. Nesse sentido, \\... estrato do 1% mais rico concentra aproximadamente 8% da renda de salários e benefícios sociais e mais de 70% dos rendimentos do capital, resultando nos 23,6% da renda disponível total.\n\nQuando subimos mais na pirâmide e chegamos ao 0,1% mais rico, verificamos que os milionários deste estrato concentram apenas 1,5% das rendas do trabalho e benefícios sociais, mas 45% da renda do capital e mista, o que resulta numa participação de 11,9% sobre a renda total.\"",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 183,
+      "char_count": 1106,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467654"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_002",
+      "section_num": "2.2.",
+      "section_title": "Nas considerações finais sobre a progressividade da tributação da renda no Brasil, aponta-se como a principal causa da baixa progressividade da tributação na renda das pessoas físicas, a isenção sobre lucros e dividendos:",
+      "content": "A baixa (ou nula) progressividade da tributação da renda, em especial no topo da distribuição (0,2% mais ricos, precisamente), é reflexo de inúmeras distorções e privilégios perpetuados no sistema tributário brasileiro. Entre elas, destacam-se não só a isenção sobre lucros e dividendos distribuídos a pessoas físicas (caso raro no mundo atual) como também os benefícios inerentes aos regimes especiais de tributação e as brechas existentes no regime de Lucro Real, que tornam a tributação do lucro das empresas brasileiras tão díspar entre diferentes corporações e setores econômicos, como vimos anteriormente.",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 90,
+      "char_count": 611,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467709"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_003",
+      "section_num": "2.3.",
+      "section_title": "Por fim, o estudo aponta como possível solução a tributação progressiva dos dividendos distribuídos a pessoas físicas e, alternativamente, a imposição de imposto mínimo para os milionários:",
+      "content": "Essa ampliação de base, com menores alíquotas e maior equidade na tributação do lucro empresarial, juntamente com alguma fórmula de tributação progressiva dos dividendos distribuídos às pessoas físicas, sem exceções, poderá promover mais justiça fiscal, além de aumentar a eficiência e a competitividade da nossa economia. Enquanto tal reforma estrutural não ocorre, medidas alternativas como a imposição de um imposto mínimo sobre os milionários podem cumprir um papel paliativo temporário, compensando a falta de progressividade no topo da pirâmide.\"\n\nRedução do imposto devido",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 83,
+      "char_count": 579,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467747"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_004",
+      "section_num": "8.",
+      "section_title": "Essa redução qualificada do imposto sobre a renda das pessoas físicas, que atinge majoritariamente o trabalhador com menor poder aquisitivo, visa beneficiar as classes C, D e E e disponibilizar mais renda para o atendimento das necessidades prioritárias do trabalhador. Em contrapartida, o aumento do consumo resultará em crescimento da atividade econômica do País.",
+      "content": "Tributação das altas rendas - Imposto sobre a renda das pessoas físicas mínimo",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 13,
+      "char_count": 78,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467759"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_005",
+      "section_num": "14.",
+      "section_title": "A alíquota do imposto sobre a renda das pessoas físicas mínimo - IRPFM será de: (i) 10 % (dez por cento) para rendimento bruto superior a R\\$ 1.200.000,00 (um milhão e duzentos mil reais); e (ii) crescente linearmente, de 0% (zero por cento) a 10% (dez por cento) para rendimento bruto entre R\\$ 600.000,00 (seiscentos mil reais) e R\\$ 1.200.000,00 (um milhão e duzentos mil reais), sendo calculada mediante a seguinte equação:",
+      "content": "Alíquota % = (REND/60000) - 10, sendo REND a soma de todos os rendimentos, inclusive os tributados de forma exclusiva ou definitiva, e os isentos ou com alíquota zero ou reduzida, recebidos no ano-calendário, ressalvadas as deduções listadas no item 14.",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 41,
+      "char_count": 253,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467778"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_006",
+      "section_num": "16.",
+      "section_title": "Do IRPMF devido, calculado na forma do item 15, será deduzido o montante do imposto sobre a renda das pessoas físicas mínimo -- IRPFM retido na fonte como antecipação relativo aos lucros e dividendos distribuídos à pessoa física e considerados na base de cálculo do IRPFM anual. O resultado, positivo ou negativo, será adicionado ao saldo do imposto a pagar ou restituir apurado na Declaração de Ajuste Anual do Imposto sobre a Renda da pessoa Física.",
+      "content": "Tributação de lucros ou dividendos calculados, pagos, creditados, empregados ou remetidos ao exterior",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 13,
+      "char_count": 101,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467790"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_007",
+      "section_num": "17.",
+      "section_title": "As alterações efetuadas na Lei nº 9.249, de 26 de dezembro de 1995, tem por objetivo estabelecer a tributação na fonte à alíquota de 10% (dez por cento), incidente sobre os lucros ou dividendos calculados, pagos, empregados, creditados ou remetidos ao exterior.",
+      "content": "Redutor ou Crédito decorrente da tributação de lucros e dividendos distribuídos no Brasil e Exterior",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 15,
+      "char_count": 100,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467801"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_008",
+      "section_num": "23.",
+      "section_title": "Com esse modelo garante-se que, com a concessão do redutor ou do crédito, em nenhuma hipótese a soma dos tributos sobre o lucro cobrados na pessoa jurídica e os tributos cobrados sobre os lucros e dividendos distribuídos à pessoa física (na forma do IRPFM) ou ao exterior ultrapassará percentual do lucro contábil da pessoa jurídica equivalente à soma das alíquotas do IRPJ e da CSLL.",
+      "content": "Normas de Responsabilidade Fiscal",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 4,
+      "char_count": 33,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467809"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_009",
+      "section_num": "26.",
+      "section_title": "Para fins de cumprimento do disposto no art. 129 da Lei nº 15.080, de 30 de dezembro de 2024, Lei de Diretrizes Orçamentária/LDO-2025, e do art. 14 da LRF, as renúncias de receita serão compensadas pela instituição da nova hipótese de incidência sobre altas rendas e a tributação dos lucros e dividendos remetidos ao exterior. A Secretaria Especial da Receita Federal do Brasil estima que estas medidas resultem na arrecadação dos seguintes valores, em bilhões de reais:",
+      "content": "------------------------------------------ --------- --------- ---------\n  Medidas                                    2026      2027      2028\n\n  Imposto mínimo da Pessoa Física            25,22     29,49     29,83\n\n  Dividendos para o Exterior                 8,9       9,69      9,81\n\n  Total                                      34,12     39,18     39,64\n  ------------------------------------------ --------- --------- ---------",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 31,
+      "char_count": 432,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467833"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_010",
+      "section_num": "27.",
+      "section_title": "Em cumprimento ao disposto no art. 139, incisos II e III, da Lei nº 15.080, de 30 de dezembro de 2024, Lei de Diretrizes Orçamentária/LDO-2025, cabe informar que a medida:",
+      "content": "i\\) tem como meta e objetivo tornar a tributação sobre a renda das pessoas naturais mais isonômica e aderente ao princípio da progressividade conforme a capacidade econômica do contribuinte, dentro do arcabouço legal modificado pela presente proposta legislativa; e\n\nii\\) será acompanhada pela Secretaria de Política Econômica do Ministério da Fazenda e avaliada anualmente no âmbito do Relatório sobre a Distribuição da Renda e da Riqueza da População Brasileira a partir de dados a serem disponibilizados pela Receita Federal do Brasil.",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 81,
+      "char_count": 538,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467865"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_011",
+      "section_num": "28.",
+      "section_title": "A diferença de receita decorrente das medidas previstas no item 26 não utilizada na compensação da medida de redução do imposto devido será utilizado na neutralização do impacto fiscal negativo decorrente do redutor previsto no art. 16-B da Lei nº 9.250, de 1995, e do crédito previsto no art. 10-A da Lei nº 9.249, de 1995, isso com o intuito de manter o equilíbrio fiscal, já que como dito no item 25, as regras fiscais lá indicadas são inaplicáveis ao caso.",
+      "content": "Regime de Urgência Constitucional",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 4,
+      "char_count": 33,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467874"
+    },
+    {
+      "chunk_id": "pl-1087-25_Exm-0019-25-MF_doc_section_012",
+      "section_num": "31.",
+      "section_title": "Essas, Senhor Presidente, são as razões que justificam a elaboração do Projeto de Lei ora submetido a sua apreciação.",
+      "content": "Respeitosamente,\n\n**Assinado por: Fernando Haddad**",
+      "document_name": "pl-1087-25_Exm-0019-25-MF_doc",
+      "word_count": 5,
+      "char_count": 51,
+      "citations": [],
+      "created_at": "2026-03-17T21:30:43.467883"
+    }
+  ]
+}

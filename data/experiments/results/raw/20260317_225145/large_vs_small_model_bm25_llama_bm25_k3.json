@@ -1,0 +1,152 @@
+{
+  "experiment_name": "large_vs_small_model_bm25_llama_bm25_k3",
+  "config": {
+    "use_rag": true,
+    "retrieval_method": "bm25",
+    "k": 3,
+    "llm": "groq:llama-3.1-8b-instant"
+  },
+  "run_id": "20260317_225145",
+  "timestamp": "2026-03-17T22:52:30.584761",
+  "total_questions": 1,
+  "successful_queries": 1,
+  "failed_queries": 0,
+  "aggregated_metrics": {
+    "latency_ms_mean": 769.679069519043,
+    "latency_ms_std": 0.0,
+    "latency_ms_min": 769.679069519043,
+    "latency_ms_max": 769.679069519043,
+    "latency_ms_median": 769.679069519043,
+    "num_chunks_mean": 3.0,
+    "num_chunks_std": 0.0,
+    "num_chunks_min": 3.0,
+    "num_chunks_max": 3.0,
+    "num_chunks_median": 3.0,
+    "tokens_used_mean": 741.0,
+    "tokens_used_std": 0.0,
+    "tokens_used_min": 741.0,
+    "tokens_used_max": 741.0,
+    "tokens_used_median": 741.0,
+    "answer_relevancy_mean": 0.0,
+    "answer_relevancy_std": 0.0,
+    "answer_relevancy_min": 0.0,
+    "answer_relevancy_max": 0.0,
+    "answer_relevancy_median": 0.0,
+    "faithfulness_mean": 0.5714285714285714,
+    "faithfulness_std": 0.0,
+    "faithfulness_min": 0.5714285714285714,
+    "faithfulness_max": 0.5714285714285714,
+    "faithfulness_median": 0.5714285714285714,
+    "context_precision_mean": 0.0,
+    "context_precision_std": 0.0,
+    "context_precision_min": 0.0,
+    "context_precision_max": 0.0,
+    "context_precision_median": 0.0,
+    "context_recall_mean": 0.0,
+    "context_recall_std": 0.0,
+    "context_recall_min": 0.0,
+    "context_recall_max": 0.0,
+    "context_recall_median": 0.0
+  },
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "Quais os objetivos da Lei nº 15.270, de 2025?",
+      "answer_full": "A Lei nº 15.270, de 2025, não menciona explicitamente os objetivos da lei. No entanto, podemos inferir que o objetivo principal é a revogação do art. 11 da Lei nº 9.250, de 26 de dezembro de 1995.\n\n* A revogação do art. 11 da Lei nº 9.250, de 1995, sugere que a lei visa alterar ou substituir as regras previstas nesse artigo.\n* A entrada em vigor da lei em 1º de janeiro de 2026, como estabelecido no art. 4º, indica que a lei visa implementar mudanças a partir do início do ano seguinte.\n\nEm resumo, a Lei nº 15.270, de 2025, parece ter como objetivo principal a revogação de regras específicas do Imposto de Renda Pessoa Física (IRPF) e implementar mudanças a partir de 1º de janeiro de 2026.",
+      "answer_core": "A Lei nº 15.270, de 2025, não menciona explicitamente os objetivos da lei. No entanto, podemos inferir que o objetivo principal é a revogação do art. 11 da Lei nº 9.250, de 26 de dezembro de 1995.\n\n* A revogação do art. 11 da Lei nº 9.250, de 1995, sugere que a lei visa alterar ou substituir as regras previstas nesse artigo.\n* A entrada em vigor da lei em 1º de janeiro de 2026, como estabelecido no art. 4º, indica que a lei visa implementar mudanças a partir do início do ano seguinte.\n\nEm resumo, a Lei nº 15.270, de 2025, parece ter como objetivo principal a revogação de regras específicas do Imposto de Renda Pessoa Física (IRPF) e implementar mudanças a partir de 1º de janeiro de 2026.",
+      "ground_truth": "A Lei nº 15.270, de 2025, decorre da aprovação do Projeto de Lei nº 1.087, de 2025, de iniciativa do Poder Executivo. A Lei traz alterações na legislação do Imposto de Renda da Pessoa Física para ampliar a faixa de isenção e reduzir a carga tributária sobre rendas baixas e médias, ao mesmo tempo em que institui uma tributação mínima sobre rendas elevadas. O objetivo é tornar o sistema tributário mais progressivo e corrigir distorções de isonomia.",
+      "chunks": [
+        {
+          "id": "pl-1087-25_processed_preambulo_art_3",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270 - Lei\n\n* Art. 3º\n\nFica revogado o art. 11 da Lei nº 9.250, de 26 de dezembro de 1995.",
+          "score": 15.618016702837819,
+          "metadata": {
+            "article_number": "3",
+            "char_count": 78,
+            "document_type": "Lei",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:06.796802",
+            "law_date": "de 26 de novembro de 2025",
+            "law_number": "Lei nº 15.270",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "referencias_legislativas": "['Lei nº 9.250,']",
+            "section": "Preâmbulo",
+            "source_file": "pl-1087-25_processed",
+            "word_count": 18
+          }
+        },
+        {
+          "id": "L9250compilado_processed_preambulo_art_11",
+          "content": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS\n\n* Art. 11.\n\n(Revogado pela Lei nº 15.270, de 2025) Produção de efeitos",
+          "score": 15.166262720469444,
+          "metadata": {
+            "article_number": "11",
+            "char_count": 70,
+            "chunk_id": "L9250compilado_processed_preambulo_art_11",
+            "document": "L9250compilado_processed",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "CAPÍTULO III - DA DECLARAÇÃO DE RENDIMENTOS",
+            "indexed_at": "2026-03-16T12:44:55.695664",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "referencias_legislativas": "Lei nº 15.270,",
+            "section": "Preâmbulo",
+            "source_file": "L9250compilado_processed.md",
+            "word_count": 13
+          }
+        },
+        {
+          "id": "pl-1087-25_processed_preambulo_art_4",
+          "content": "PROJETO DE LEI Nº 1.087, DE 2025 - Convertido na Lei nº 15.270 - Lei\n\n* Art. 4º\n\nEsta Lei entra em vigor em 1º de janeiro de 2026.\n\n\n##### Brasília,\n\n---\n\n*Processado automaticamente pelo LION RAG System*",
+          "score": 15.157977160955765,
+          "metadata": {
+            "article_number": "4",
+            "char_count": 134,
+            "document_type": "Lei",
+            "has_alineas": false,
+            "has_incisos": false,
+            "has_paragraphs": false,
+            "hierarchy_string": "",
+            "indexed_at": "2026-03-17T22:34:06.796804",
+            "law_date": "de 26 de novembro de 2025",
+            "law_number": "Lei nº 15.270",
+            "num_alineas": 0,
+            "num_incisos": 0,
+            "num_paragraphs": 0,
+            "project_number": "PROJETO DE LEI Nº 1.087, DE 2025",
+            "referencias_legislativas": "[]",
+            "section": "Preâmbulo",
+            "source_file": "pl-1087-25_processed",
+            "word_count": 23
+          }
+        }
+      ],
+      "metrics": {
+        "latency_ms": 769.679069519043,
+        "num_chunks": 3,
+        "tokens_used": 741,
+        "answer_relevancy": 0.0,
+        "faithfulness": 0.5714285714285714,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      "config": {
+        "use_rag": true,
+        "retrieval_method": "bm25",
+        "k": 3,
+        "llm": "groq:llama-3.1-8b-instant"
+      },
+      "category": "outros",
+      "difficulty": "medio"
+    }
+  ]
+}

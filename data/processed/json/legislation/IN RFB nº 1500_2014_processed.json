@@ -1,7 +1,7 @@
 {
   "document": "IN RFB nº 1500_2014_processed",
   "total_chunks": 114,
-  "created_at": "2026-03-13T14:02:25.509960",
+  "created_at": "2026-03-16T12:35:03.378566",
   "chunks": [
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_1",
@@ -22,7 +22,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.716804"
+      "created_at": "2026-03-16T12:35:02.713285"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_2",
@@ -45,7 +45,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.720237"
+      "created_at": "2026-03-16T12:35:02.715810"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_3",
@@ -68,7 +68,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.723908"
+      "created_at": "2026-03-16T12:35:02.718232"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_4",
@@ -91,7 +91,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.727451"
+      "created_at": "2026-03-16T12:35:02.720643"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_5",
@@ -118,7 +118,7 @@
           "Lei nº 9.477,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.731562"
+      "created_at": "2026-03-16T12:35:02.722959"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_6",
@@ -152,7 +152,7 @@
           "Lei nº 9.477,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.736721"
+      "created_at": "2026-03-16T12:35:02.725829"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_7",
@@ -181,7 +181,7 @@
           "Lei nº 9.140,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.741604"
+      "created_at": "2026-03-16T12:35:02.728551"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_8",
@@ -211,7 +211,7 @@
           "Lei nº 9.250,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.746648"
+      "created_at": "2026-03-16T12:35:02.731441"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_9",
@@ -238,7 +238,7 @@
           "Lei nº 8.929,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.751544"
+      "created_at": "2026-03-16T12:35:02.734482"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_10",
@@ -264,7 +264,7 @@
           "Instrução Normativa RFB nº 2.180,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.756492"
+      "created_at": "2026-03-16T12:35:02.737839"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_11",
@@ -296,7 +296,7 @@
           "Lei nº 4.591,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.761886"
+      "created_at": "2026-03-16T12:35:02.741548"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_12",
@@ -320,7 +320,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.766903"
+      "created_at": "2026-03-16T12:35:02.744878"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_13",
@@ -346,7 +346,7 @@
           "Lei nº 10.833,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.772425"
+      "created_at": "2026-03-16T12:35:02.748496"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_14",
@@ -370,7 +370,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.777598"
+      "created_at": "2026-03-16T12:35:02.752011"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_15",
@@ -394,7 +394,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.782786"
+      "created_at": "2026-03-16T12:35:02.756124"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_16",
@@ -418,7 +418,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.788135"
+      "created_at": "2026-03-16T12:35:02.759721"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_17",
@@ -442,7 +442,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.793771"
+      "created_at": "2026-03-16T12:35:02.763388"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_18",
@@ -466,7 +466,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.799360"
+      "created_at": "2026-03-16T12:35:02.767095"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_19",
@@ -494,7 +494,7 @@
           "Lei nº 7.713,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.805520"
+      "created_at": "2026-03-16T12:35:02.771115"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_20",
@@ -518,7 +518,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.811653"
+      "created_at": "2026-03-16T12:35:02.774963"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_21",
@@ -545,7 +545,7 @@
           "Lei nº 14.790,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.817900"
+      "created_at": "2026-03-16T12:35:02.779010"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_22",
@@ -572,7 +572,7 @@
           "Lei nº 10.887,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.825153"
+      "created_at": "2026-03-16T12:35:02.783354"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_23",
@@ -598,7 +598,7 @@
           "Lei nº 11.053,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.832449"
+      "created_at": "2026-03-16T12:35:02.787529"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_24",
@@ -622,7 +622,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.839985"
+      "created_at": "2026-03-16T12:35:02.792136"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_25",
@@ -646,7 +646,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.847935"
+      "created_at": "2026-03-16T12:35:02.796598"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_26",
@@ -670,7 +670,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.855668"
+      "created_at": "2026-03-16T12:35:02.801208"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_27",
@@ -694,7 +694,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.863171"
+      "created_at": "2026-03-16T12:35:02.805665"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_28",
@@ -718,7 +718,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.870914"
+      "created_at": "2026-03-16T12:35:02.810192"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_29",
@@ -742,7 +742,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.878570"
+      "created_at": "2026-03-16T12:35:02.814941"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_30",
@@ -766,7 +766,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.886018"
+      "created_at": "2026-03-16T12:35:02.819549"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_31",
@@ -790,7 +790,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.893703"
+      "created_at": "2026-03-16T12:35:02.824160"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_32",
@@ -814,7 +814,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.901338"
+      "created_at": "2026-03-16T12:35:02.829129"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_33",
@@ -838,7 +838,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.908984"
+      "created_at": "2026-03-16T12:35:02.833978"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_34",
@@ -862,7 +862,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.916636"
+      "created_at": "2026-03-16T12:35:02.838531"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_35",
@@ -886,7 +886,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.924257"
+      "created_at": "2026-03-16T12:35:02.843030"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_36",
@@ -910,7 +910,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.932426"
+      "created_at": "2026-03-16T12:35:02.847703"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_37",
@@ -934,7 +934,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.940648"
+      "created_at": "2026-03-16T12:35:02.852475"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_38",
@@ -958,7 +958,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.947857"
+      "created_at": "2026-03-16T12:35:02.857130"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_39",
@@ -982,7 +982,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.953589"
+      "created_at": "2026-03-16T12:35:02.861869"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_40",
@@ -1006,7 +1006,7 @@
         "num_alineas": 4,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.959477"
+      "created_at": "2026-03-16T12:35:02.866804"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_41",
@@ -1030,7 +1030,7 @@
         "num_alineas": 2,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.965382"
+      "created_at": "2026-03-16T12:35:02.871949"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_42",
@@ -1054,7 +1054,7 @@
         "num_alineas": 2,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.971214"
+      "created_at": "2026-03-16T12:35:02.876953"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_43",
@@ -1080,7 +1080,7 @@
           "Lei nº 7.713,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.977011"
+      "created_at": "2026-03-16T12:35:02.881826"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_44",
@@ -1107,7 +1107,7 @@
           "Lei nº 7.713,"
         ]
       },
-      "created_at": "2026-03-13T14:02:24.983057"
+      "created_at": "2026-03-16T12:35:02.886765"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_45",
@@ -1131,7 +1131,7 @@
         "num_alineas": 4,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.988922"
+      "created_at": "2026-03-16T12:35:02.891873"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_46",
@@ -1155,7 +1155,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:24.994925"
+      "created_at": "2026-03-16T12:35:02.896841"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_47",
@@ -1179,7 +1179,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.000341"
+      "created_at": "2026-03-16T12:35:02.901818"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_48",
@@ -1203,7 +1203,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.005863"
+      "created_at": "2026-03-16T12:35:02.906798"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_49",
@@ -1227,7 +1227,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.011190"
+      "created_at": "2026-03-16T12:35:02.911997"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_50",
@@ -1251,7 +1251,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.017061"
+      "created_at": "2026-03-16T12:35:02.917146"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_51",
@@ -1275,7 +1275,7 @@
         "num_alineas": 2,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.022480"
+      "created_at": "2026-03-16T12:35:02.922453"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_52",
@@ -1301,7 +1301,7 @@
           "Lei nº 5.869,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.028471"
+      "created_at": "2026-03-16T12:35:02.927812"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_53",
@@ -1325,7 +1325,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.034292"
+      "created_at": "2026-03-16T12:35:02.933336"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_54",
@@ -1349,7 +1349,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.040397"
+      "created_at": "2026-03-16T12:35:02.939000"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_55",
@@ -1373,7 +1373,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.047749"
+      "created_at": "2026-03-16T12:35:02.944504"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_56",
@@ -1397,7 +1397,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.055727"
+      "created_at": "2026-03-16T12:35:02.950264"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_57",
@@ -1423,7 +1423,7 @@
           "Lei nº 6.015,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.063740"
+      "created_at": "2026-03-16T12:35:02.955830"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_58",
@@ -1447,7 +1447,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.070446"
+      "created_at": "2026-03-16T12:35:02.961348"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_59",
@@ -1471,7 +1471,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.077190"
+      "created_at": "2026-03-16T12:35:02.966875"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_60",
@@ -1495,7 +1495,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.083125"
+      "created_at": "2026-03-16T12:35:02.972465"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_61",
@@ -1519,7 +1519,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.089835"
+      "created_at": "2026-03-16T12:35:02.978049"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_62",
@@ -1549,7 +1549,7 @@
           "Lei nº 9.250,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.096674"
+      "created_at": "2026-03-16T12:35:02.984337"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_63",
@@ -1573,7 +1573,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.102899"
+      "created_at": "2026-03-16T12:35:02.990445"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_64",
@@ -1597,7 +1597,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.109324"
+      "created_at": "2026-03-16T12:35:02.996581"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_65",
@@ -1621,7 +1621,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.115697"
+      "created_at": "2026-03-16T12:35:03.002795"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_66",
@@ -1645,7 +1645,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.122130"
+      "created_at": "2026-03-16T12:35:03.008945"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_67",
@@ -1669,7 +1669,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.128651"
+      "created_at": "2026-03-16T12:35:03.015132"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_68",
@@ -1693,7 +1693,7 @@
         "num_alineas": 4,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.135202"
+      "created_at": "2026-03-16T12:35:03.021372"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_69",
@@ -1717,7 +1717,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.141796"
+      "created_at": "2026-03-16T12:35:03.027558"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_70",
@@ -1741,7 +1741,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.148430"
+      "created_at": "2026-03-16T12:35:03.033865"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_71",
@@ -1765,7 +1765,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.155103"
+      "created_at": "2026-03-16T12:35:03.040169"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_72",
@@ -1789,7 +1789,7 @@
         "num_alineas": 5,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.162730"
+      "created_at": "2026-03-16T12:35:03.046530"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_73",
@@ -1815,7 +1815,7 @@
           "Lei nº 8.023,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.173401"
+      "created_at": "2026-03-16T12:35:03.052982"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_74",
@@ -1844,7 +1844,7 @@
           "Lei nº 5.172,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.180775"
+      "created_at": "2026-03-16T12:35:03.059731"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_75",
@@ -1868,7 +1868,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.187657"
+      "created_at": "2026-03-16T12:35:03.066450"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_76",
@@ -1892,7 +1892,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.194620"
+      "created_at": "2026-03-16T12:35:03.073039"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_77",
@@ -1916,7 +1916,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.201426"
+      "created_at": "2026-03-16T12:35:03.079606"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_78",
@@ -1940,7 +1940,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.208314"
+      "created_at": "2026-03-16T12:35:03.086218"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_79",
@@ -1964,7 +1964,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.215428"
+      "created_at": "2026-03-16T12:35:03.092832"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_80",
@@ -1990,7 +1990,7 @@
           "Lei nº 8.313,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.223598"
+      "created_at": "2026-03-16T12:35:03.100069"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_81",
@@ -2014,7 +2014,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.231198"
+      "created_at": "2026-03-16T12:35:03.107052"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_82",
@@ -2038,7 +2038,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.239105"
+      "created_at": "2026-03-16T12:35:03.114136"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_83",
@@ -2062,7 +2062,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.247501"
+      "created_at": "2026-03-16T12:35:03.122120"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_84",
@@ -2086,7 +2086,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.255676"
+      "created_at": "2026-03-16T12:35:03.129221"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_85",
@@ -2110,7 +2110,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.263656"
+      "created_at": "2026-03-16T12:35:03.136420"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_86",
@@ -2134,7 +2134,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.271515"
+      "created_at": "2026-03-16T12:35:03.143866"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_87",
@@ -2158,7 +2158,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.279247"
+      "created_at": "2026-03-16T12:35:03.151256"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_88",
@@ -2182,7 +2182,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.286906"
+      "created_at": "2026-03-16T12:35:03.158498"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_89",
@@ -2206,7 +2206,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.294993"
+      "created_at": "2026-03-16T12:35:03.165714"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_90",
@@ -2230,7 +2230,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.303285"
+      "created_at": "2026-03-16T12:35:03.173223"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_91",
@@ -2256,7 +2256,7 @@
           "Lei nº 9.394,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.311874"
+      "created_at": "2026-03-16T12:35:03.180823"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_92",
@@ -2280,7 +2280,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.320284"
+      "created_at": "2026-03-16T12:35:03.188439"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_93",
@@ -2304,7 +2304,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.328475"
+      "created_at": "2026-03-16T12:35:03.196213"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_94",
@@ -2328,7 +2328,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.336895"
+      "created_at": "2026-03-16T12:35:03.204213"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_95",
@@ -2352,7 +2352,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.345115"
+      "created_at": "2026-03-16T12:35:03.212398"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_96",
@@ -2376,7 +2376,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.353466"
+      "created_at": "2026-03-16T12:35:03.220220"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_97",
@@ -2400,7 +2400,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.361878"
+      "created_at": "2026-03-16T12:35:03.228081"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_98",
@@ -2424,7 +2424,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.370050"
+      "created_at": "2026-03-16T12:35:03.235974"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_99",
@@ -2448,7 +2448,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.378511"
+      "created_at": "2026-03-16T12:35:03.243765"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_100",
@@ -2472,7 +2472,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.386907"
+      "created_at": "2026-03-16T12:35:03.251810"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_101",
@@ -2498,7 +2498,7 @@
           "Lei nº 9.307,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.395336"
+      "created_at": "2026-03-16T12:35:03.260194"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_102",
@@ -2522,7 +2522,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.403705"
+      "created_at": "2026-03-16T12:35:03.269757"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_103",
@@ -2546,7 +2546,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.412223"
+      "created_at": "2026-03-16T12:35:03.277953"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_104",
@@ -2571,7 +2571,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.420842"
+      "created_at": "2026-03-16T12:35:03.286176"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_105",
@@ -2595,7 +2595,7 @@
         "num_alineas": 3,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.429432"
+      "created_at": "2026-03-16T12:35:03.294392"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_106",
@@ -2619,7 +2619,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.437910"
+      "created_at": "2026-03-16T12:35:03.302570"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_107",
@@ -2643,7 +2643,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.446545"
+      "created_at": "2026-03-16T12:35:03.310928"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_108",
@@ -2667,7 +2667,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.455110"
+      "created_at": "2026-03-16T12:35:03.322139"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_109",
@@ -2691,7 +2691,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.463892"
+      "created_at": "2026-03-16T12:35:03.331415"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_110",
@@ -2717,7 +2717,7 @@
           "Decreto nº 7.578,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.472860"
+      "created_at": "2026-03-16T12:35:03.340027"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_111",
@@ -2741,7 +2741,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.481856"
+      "created_at": "2026-03-16T12:35:03.348456"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_112",
@@ -2765,7 +2765,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.490611"
+      "created_at": "2026-03-16T12:35:03.356836"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_113",
@@ -2789,7 +2789,7 @@
         "num_alineas": 0,
         "referencias_legislativas": []
       },
-      "created_at": "2026-03-13T14:02:25.499435"
+      "created_at": "2026-03-16T12:35:03.367318"
     },
     {
       "chunk_id": "IN RFB nº 1500_2014_processed_preambulo_art_114",
@@ -2820,7 +2820,7 @@
           "Instrução Normativa RFB nº 2299,"
         ]
       },
-      "created_at": "2026-03-13T14:02:25.508578"
+      "created_at": "2026-03-16T12:35:03.377455"
     }
   ]
 }

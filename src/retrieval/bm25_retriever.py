@@ -249,7 +249,7 @@ class BM25Retriever:
         
         # Pegar sample (ou todos se poucos docs)
         sample_size = min(count, 10000)  # Limitar para performance
-        sample = vector_store.collection.peek(limit=sample_size)
+        sample = vector_store.collection.get(limit=sample_size, include=["documents", "metadatas"])
         
         # Converter para formato esperado
         documents = []

@@ -6,6 +6,7 @@ Sistema para execução de experimentos comparativos do RAG
 import json
 import argparse
 import logging
+import os
 from pathlib import Path
 from typing import List, Dict, Optional, Any
 from datetime import datetime
@@ -34,7 +35,8 @@ class ExperimentRunner:
     def __init__(
         self,
         dataset_path: str,
-        results_dir: str = "experiments/results"
+        results_dir: str = "experiments/results",
+        enable_bertscore: bool = False
     ):
         """
         Inicializa runner de experimentos.
@@ -42,13 +44,17 @@ class ExperimentRunner:
         Args:
             dataset_path: Caminho para dataset de teste (JSON)
             results_dir: Diretório para salvar resultados
+            enable_bertscore: Habilitar avaliação BERTScore (mais lento)
         """
         self.dataset = self._load_dataset(dataset_path)
         self.results_dir = Path(results_dir)
         self.results_dir.mkdir(parents=True, exist_ok=True)
         
-        # Criar subdiretórios para organização
-        self.raw_dir = self.results_dir / "raw"
+        # Gerar ID único para esta execução (para agrupar experimentos da mesma rodada)
+        self.run_id = datetime.now().strftime('%Y%m%d_%H%M%S')
+        
+        # Criar subdiretórios para organização (usando run_id em vez de "raw")
+        self.raw_dir = self.results_dir / self.run_id
         self.analysis_dir = self.results_dir / "analysis"
         self.raw_dir.mkdir(parents=True, exist_ok=True)
         self.analysis_dir.mkdir(parents=True, exist_ok=True)
@@ -60,20 +66,26 @@ class ExperimentRunner:
         self.vector_store = create_vector_store()
         self.embeddings = create_embeddings_pipeline()
         self.prompt_manager = PromptManager()
+        self.verbose = True  # Enable verbose logging
         
         # Avaliadores
         self.ragas_evaluator = create_ragas_evaluator()
-        self.bert_evaluator = BERTScoreEvaluator()
+        self.bert_evaluator = BERTScoreEvaluator() if enable_bertscore else None
+        self.enable_bertscore = enable_bertscore
         
         logging.info("ExperimentRunner inicializado")
+        logging.info(f"Run ID: {self.run_id}")
         logging.info(f"Dataset: {len(self.dataset['questions'])} perguntas")
-        logging.info(f"Resultados raw: {self.raw_dir}")
+        logging.info(f"Resultados: {self.raw_dir}")
         logging.info(f"Análises: {self.analysis_dir}")
+        logging.info(f"BERTScore: {'HABILITADO' if enable_bertscore else 'DESABILITADO (use --enable-bertscore para habilitar)'}")
         
         print(f"✅ ExperimentRunner inicializado")
+        print(f"   Run ID: {self.run_id}")
         print(f"   Dataset: {len(self.dataset['questions'])} perguntas")
-        print(f"   Resultados raw: {self.raw_dir}")
+        print(f"   Resultados: {self.raw_dir}")
         print(f"   Análises: {self.analysis_dir}")
+        print(f"   BERTScore: {'HABILITADO' if enable_bertscore else 'DESABILITADO'}")
     
     def _setup_logging(self):
         """Configura logging para arquivo e console"""
@@ -231,13 +243,11 @@ class ExperimentRunner:
         # Agregar métricas
         aggregated = self._aggregate_metrics(results)
         
-        # Criar timestamp para o arquivo
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        
         # Salvar resultados
         output_data = {
             'experiment_name': experiment_name,
             'config': config,
+            'run_id': self.run_id,
             'timestamp': datetime.now().isoformat(),
             'total_questions': len(questions),
             'successful_queries': len([r for r in results if 'error' not in r]),
@@ -246,8 +256,8 @@ class ExperimentRunner:
             'individual_results': results
         }
         
-        # Salvar no diretório raw/ com timestamp
-        output_path = self.raw_dir / f'{experiment_name}_{timestamp}.json'
+        # Salvar no diretório run_id/ (run_id já agrupa os experimentos)
+        output_path = self.raw_dir / f'{experiment_name}.json'
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=2, ensure_ascii=False)
         
@@ -383,9 +393,22 @@ class ExperimentRunner:
                 for r in retrieval_results
             ]
             contexts = [r.content for r in retrieval_results]
+            print(f"  ✓ Recuperados {len(chunks)} chunks via BM25")
+            for i, chunk in enumerate(chunks[:2], 1):  # Mostrar primeiros 2
+                preview = chunk['content'][:100].replace('\n', ' ')
+                print(f"    Chunk {i}: {preview}...")
+        else:
+            print(f"  ℹ Sem RAG: nenhum chunk recuperado")
+            
+            # Debug: verificar chunks recuperados
+            if self.verbose or True:  # Always log for debugging RAG
+                logging.info(f"  RAG: {len(chunks)} chunks recuperados para '{question[:50]}...'")
+                for i, chunk in enumerate(chunks[:2]):  # Show first 2
+                    logging.info(f"    Chunk {i+1}: {chunk['id']} (score: {chunk['score']:.4f})")
         
         # Gerar resposta
         if config.get('use_rag', True) and contexts:
+            logging.info(f"  ✅ Enviando {len(contexts)} chunks para {config.get('llm', 'unknown')}")
             # Verificar se usa few-shot
             if config.get('use_few_shot', False):
                 # Carregar exemplos do dataset (perguntas 2-4)
@@ -403,6 +426,9 @@ class ExperimentRunner:
                 )
         else:
             # Sem RAG: apenas pergunta
+            if config.get('use_rag', True) and not contexts:
+                logging.warning(f"  ⚠️  RAG configurado mas SEM chunks recuperados para '{question[:50]}...'")
+            logging.info(f"  ℹ️  Modo: {'SEM RAG' if not config.get('use_rag', True) else 'RAG SEM CONTEXTO'}")
             prompt = self.prompt_manager.generate_no_rag_prompt(question)
         
         generation_result = llm_client.generate(prompt)
@@ -413,6 +439,9 @@ class ExperimentRunner:
         
         latency = (time.time() - start_time) * 1000  # ms
         
+        # Debug: confirmar resposta gerada
+        logging.info(f"  📤 Resposta gerada: {core_answer[:80]}... ({generation_result.tokens_used} tokens)")
+        
         # Calcular métricas
         metrics = {
             'latency_ms': latency,
@@ -420,17 +449,18 @@ class ExperimentRunner:
             'tokens_used': generation_result.tokens_used
         }
         
-        # BERTScore - usar core_answer (sem cortesias)
-        try:
-            bert_result = self.bert_evaluator.evaluate(
-                candidates=[core_answer],
-                references=[ground_truth]
-            )
-            metrics['bertscore_precision'] = bert_result.precision
-            metrics['bertscore_recall'] = bert_result.recall
-            metrics['bertscore_f1'] = bert_result.f1
-        except Exception as e:
-            print(f"  ⚠️  BERTScore falhou: {e}")
+        # BERTScore - usar core_answer (sem cortesias) - apenas se habilitado
+        if self.enable_bertscore and self.bert_evaluator:
+            try:
+                bert_result = self.bert_evaluator.evaluate(
+                    candidates=[core_answer],
+                    references=[ground_truth]
+                )
+                metrics['bertscore_precision'] = bert_result.precision
+                metrics['bertscore_recall'] = bert_result.recall
+                metrics['bertscore_f1'] = bert_result.f1
+            except Exception as e:
+                print(f"  ⚠️  BERTScore falhou: {e}")
         
         # RAGAS (apenas se usar RAG) - usar core_answer
         if config.get('use_rag', True) and contexts:
@@ -540,12 +570,10 @@ class ExperimentRunner:
             # Pausa entre experimentos
             time.sleep(2)
         
-        # Criar timestamp para o arquivo de sumário
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        
         # Salvar sumário
         summary = {
             'experiment_type': experiment_type,
+            'run_id': self.run_id,
             'timestamp': datetime.now().isoformat(),
             'total_experiments': len(experiments),
             'experiments': [
@@ -558,8 +586,8 @@ class ExperimentRunner:
             ]
         }
         
-        # Salvar sumário no diretório raw/ com timestamp
-        summary_path = self.raw_dir / f'{experiment_type}_summary_{timestamp}.json'
+        # Salvar sumário no diretório run_id/
+        summary_path = self.raw_dir / f'{experiment_type}_summary.json'
         with open(summary_path, 'w', encoding='utf-8') as f:
             json.dump(summary, f, indent=2, ensure_ascii=False)
         
@@ -733,6 +761,101 @@ class ExperimentRunner:
                 }
             ]
 
+        elif experiment_type == 'large_vs_small_model_bm25':
+            """
+            Experimento científico: Comparação Large vs Small Model com BM25
+            
+            Design: Matriz fatorial 2×2×3
+            - Tamanho: Gemini (grande) vs Llama 3.1 8B (pequeno)
+            - RAG: Com/Sem
+            - Contexto: k ∈ {3, 5, 10}
+            
+            Objetivo: Demonstrar impacto científico de RAG em modelos diferentes
+            Métrica: answer_relevancy, faithfulness, context_precision, context_recall
+            
+            Modelo Gemini configurável via .env: GEMINI_MODEL
+            """
+            # Ler modelo Gemini do .env
+            gemini_model = os.getenv('GEMINI_MODEL', 'gemini-3-flash')
+            
+            return [
+                # === BASELINE (Sem RAG) ===
+                {
+                    'name': 'gemini_baseline',
+                    'config': {
+                        'use_rag': False,
+                        'llm': gemini_model
+                    }
+                },
+                {
+                    'name': 'llama_baseline',
+                    'config': {
+                        'use_rag': False,
+                        'llm': 'groq:llama-3.1-8b-instant'
+                    }
+                },
+                
+                # === GRUPO B: RAG com k=3 (Contexto Mínimo) ===
+                {
+                    'name': 'gemini_bm25_k3',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 3,
+                        'llm': gemini_model
+                    }
+                },
+                {
+                    'name': 'llama_bm25_k3',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 3,
+                        'llm': 'groq:llama-3.1-8b-instant'
+                    }
+                },
+                
+                # === GRUPO C: RAG com k=5 (Contexto Padrão) ===
+                {
+                    'name': 'gemini_bm25_k5',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 5,
+                        'llm': gemini_model
+                    }
+                },
+                {
+                    'name': 'llama_bm25_k5',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 5,
+                        'llm': 'groq:llama-3.1-8b-instant'
+                    }
+                },
+                
+                # === GRUPO D: RAG com k=10 (Contexto Rico) ===
+                {
+                    'name': 'gemini_bm25_k10',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 10,
+                        'llm': gemini_model
+                    }
+                },
+                {
+                    'name': 'llama_bm25_k10',
+                    'config': {
+                        'use_rag': True,
+                        'retrieval_method': 'bm25',
+                        'k': 10,
+                        'llm': 'groq:llama-3.1-8b-instant'
+                    }
+                }
+            ]
+        
         elif experiment_type == 'model_comparison':
             return [
                 # === BASELINE (Sem RAG) ===
@@ -896,7 +1019,7 @@ def main():
     parser.add_argument(
         '--experiment',
         required=True,
-        choices=['rag_vs_no_rag', 'retrieval_strategy', 'chunk_count', 'llm_size', 'model_comparison'],
+        choices=['rag_vs_no_rag', 'retrieval_strategy', 'chunk_count', 'llm_size', 'large_vs_small_model_bm25', 'model_comparison'],
         help='Tipo de experimento a executar'
     )
     
@@ -919,12 +1042,19 @@ def main():
         help='Diretório para salvar resultados'
     )
     
+    parser.add_argument(
+        '--enable-bertscore',
+        action='store_true',
+        help='Habilitar avaliação BERTScore (mais lento, desabilitado por padrão)'
+    )
+    
     args = parser.parse_args()
     
     # Criar runner
     runner = ExperimentRunner(
         dataset_path=args.dataset,
-        results_dir=args.results_dir
+        results_dir=args.results_dir,
+        enable_bertscore=args.enable_bertscore
     )
     
     # Executar experimentos
