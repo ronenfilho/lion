@@ -124,8 +124,8 @@ print(result['answer'], result['chunks'])
 
 ## 👨‍💻 Autores
 
-**Ronen Rodrigues Silva Filho** 
-**Silvio Rodrigues Finotti**  
+- **Ronen Rodrigues Silva Filho** 
+- **Silvio Rodrigues Finotti**  
 2026  
 
 📧 Issues: [github.com/ronenfilho/lion/issues](https://github.com/ronenfilho/lion/issues)
