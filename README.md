@@ -146,6 +146,6 @@ print(result['answer'], result['chunks'])
 
 ---
 
-**Última atualização**: 16/02/2026 | **Licença**: MIT
+**Última atualização**: 13/05/2026 | **Licença**: MIT
 
 <div align="center">⭐ Star se este projeto foi útil!</div>
