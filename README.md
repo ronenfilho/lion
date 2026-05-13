@@ -122,9 +122,12 @@ print(result['answer'], result['chunks'])
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
-**Ronen Rodrigues Silva Filho** | 2026  
+**Ronen Rodrigues Silva Filho** 
+**Silvio Rodrigues Finotti**  
+2026  
+
 📧 Issues: [github.com/ronenfilho/lion/issues](https://github.com/ronenfilho/lion/issues)
 
 ---
@@ -132,9 +135,9 @@ print(result['answer'], result['chunks'])
 ## 📚 Citação
 
 ```bibtex
-@misc{silva2026lion,
-  title={LION: Legal Interpretation and Official Norms - Um Assistente Virtual RAG para IRPF},
-  author={Silva Filho, Ronen Rodrigues},
+@misc{silvafilho2026lion,
+  title={LION (Legal Interpretation and Official Norms): O Motor de IA para a Legislação Tributária},
+  author={Silva Filho, Ronen Rodrigues and Finotti, Silvio Rodrigues},
   year={2026},
   publisher={GitHub},
   url={https://github.com/ronenfilho/lion}
